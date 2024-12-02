@@ -1,0 +1,779 @@
+COMUNE DI MODENA
+SETTORE SMART CITY, SERVIZI DEMOGRAFICI E PARTECIPAZIONE  
+*********
+DETERMINAZIONE n. 3056/2024 del 15/11/2024 
+Proposta n. 4434/2024  
+Esecutiva dal 21/11/2024
+Protocollo n. 452151 del 21/11/2024
+OGGETTO:  AFFIDAMENTO  DIRETTO  MEPA AI  SENSI  DELL'ART.  50  COMMA 1  
+LETT. B) DEL D.LGS. N. 36/2023 A FA VORE DI OPERATORI ECONOMICI DIVERSI  
+PER CANONI LICENZE D'USO E SERVIZI DI MANUTENZIONE SOFTWARE PER L'  
+ANNO 2025 - CIG DIVERSI - IMPEGNI ANNO 2025. 
+Allegati: 
+•Autorizzazione ad impegnare (firmato: No, riservato: No )
+•caricamento massivo impegni (firmato: No, riservato: No )
+Visti: 
+•Visto Contabile con esito Favorevole (firmato: Si, firmatario: MANELLI DA VIDE)
+Determinazione n. 3056 del 15/11/2024
+copia informatica per consultazione
+COMUNE DI MODENA
+DETERMINAZIONE DEL DIRIGENTE RESPONSABILE
+SETTORE SMART CITY , SERVIZI DEMOGRAFICI E PARTECIPAZIONE
+Ing. Luca Salvatore
+Numero determina: 3056/2024
+del 15/11/2024
+OGGETTO: AFFIDAMENTO DIRETTO MEPA AI SENSI DELL'ART. 50 COMMA 1 
+LETT. B) DEL D.LGS. N. 36/2023 A FA VORE DI OPERATORI ECONOMICI DIVERSI 
+PER CANONI LICENZE D'USO E SERVIZI DI MANUTENZIONE SOFTWARE PER L' 
+ANNO 2025 - CIG DIVERSI - IMPEGNI ANNO 2025.
+IL DIRIGENTE
+Premesso:
+- che con deliberazioni del Consiglio comunale n. 89 del 14.12.2023 e n. 94 del 21.12.2023,  
+entrambe immediatamente eseguibili, sono stati approvati rispettivamente la nota di aggiornamento  
+al Documento Unico di Programmazione (DUP) 2024-2026 e il Bilancio di Previsione 2024-2026;
+-  che  con  deliberazioni  della  Giunta  comunale  n.  773  e  n.  774  del  28.12.2023,  entrambe  
+immediatamente eseguibili, sono stati approvati rispettivamente il Piano Integrato di Attività e  
+Organizzazione (PIAO) 2024-2026, nel cui allegato A sono indicati gli obiettivi e le attività di  
+performance dei Settori, e il Piano Esecutivo di Gestione 2024-2026, con il quale sono state  
+assegnate  ai  dirigenti  titolari  dei  Centri  di  Responsabilità  le  dotazioni  economico-finanziarie  
+necessarie alla realizzazione degli obiettivi e delle attività definiti nel PIAO;
+- che la Giunta comunale ha successivamente apportato variazioni al suddetto Piano Esecutivo di  
+Gestione 2024-2026;
+Reso noto che:
+- il  Comune  di  Modena, tramite  il  Settore  Smart  City, Servizi  Demografici  e  Partecipazione,  
+gestisce l’infrastruttura tecnologica del sistema informativo dell’Ente, costituito da apparecchiature
+hardware e da software;
+Richiamati:
+- il D.Lgs 82/2005 (Codice dell’Amministrazione Digitale), che definisce il quadro normativo di  
+riferimento per la digitalizzazione della pubblica amministrazione;
+- il Piano Triennale per l’informatica nella Pubblica Amministrazione 2024-2026 dell’Agenzia per  
+l’Italia Digitale (AGID);
+copia informatica per consultazione
+- la Deliberazione di Giunta Comunale n. 540/2023 di approvazione del Piano Triennale per la  
+transizione digitale 2023-2025 del Comune di Modena;
+Considerato:
+- che anche per l’anno 2025 è necessario provvedere alla stipula dei contratti di licenza d'uso e di  
+manutenzione dei prodotti software per assicurare il regolare funzionamento degli uffici comunali;
+- che i canoni per i servizi di manutenzione dei software e per l'uso delle licenze comprendono, in  
+alcuni casi, aggiornamenti indispensabili agli utilizzatori dei diversi sistemi;
+- che i servizi di manutenzione dei software prevedono attività di supporto specialistico e correzione  
+di malfunzionamenti (“bug”), da parte degli operatori economici proprietari dei prodotti stessi o da  
+loro partner commerciali, in tempi definiti dai rispettivi “Service Level Agreement” e ritenuti  
+congrui dall’Ente;
+Visto l’articolo 1 comma 512 ss. della legge 28 dicembre 2015, n. 208 che obbliga il ricorso
+agli  strumenti  di  acquisto  e  di  negoziazione  disponibili  su  Consip  e  soggetti  aggregatori  per  
+procedere all’acquisizione dei servizi informatici;
+Visto l'art. 7 comma 2 D.L. 52/2012 convertito in Legge 94/2012;
+Visti gli artt. 17, 25, 48, 49 ed in particolare l'art. 50 comma 1 lettera b) del D.Lgs. n.
+36/2023;
+Considerato che è intenzione perseguire i principi generali in materia di contratti pubblici di
+cui al Libro I, Parte I, Titolo I del D.Lgs. n. 36/2023, Codice dei Contratti Pubblici, e pertanto si  
+rende necessario avvalersi a tal fine degli strumenti di negoziazione messi a disposizione da Consip;
+Rilevato, preliminarmente, come le prestazioni di cui in oggetto non possano rivestire un  
+interesse transfrontaliero certo, secondo quanto previsto dall’articolo 48, comma 2, del D.lgs. n.
+36/2023;
+Verificato che  alla  data  di  adozione  della  presente  Determinazione  non  sono  attive  
+convenzioni  e/o  accordi  quadro  aggiudicati  da  Consip  s.p.a  o  dalla  centrale  di  committenza  
+regionale Intercent-ER, aventi a oggetto i servizi sopra indicati, o comparabili con essi, mentre è  
+possibile reperirli sul mercato elettronico della pubblica amministrazione (MEPA);  
+Dato atto che, con riferimento alle aree funzionali riportate di seguito in tabella alla voce  
+“oggetto contratto”, valutate le soluzioni software in riuso od open source di terze parti pubblicate  
+sulla  piattaforma  “ Developers.italia.it ”,  non  sono  stati  individuati  prodotti  con  caratteristiche  
+tecniche in linea con le esigenze dell'Ente;
+Considerato che: 
+- la piattaforma di Consip s.p.a. offre la possibilità di negoziare i prezzi di beni e servizi ricorrendo  
+alla modalità della trattativa diretta (TD) con un solo operatore economico o di effettuare un ordine  
+diretto  (ODA)  su  un'offerta  inserita  a  catalogo  e  gli  operatori  economici  di  cui  alla  tabella  
+sottostante sono abilitati al Mepa di Consip s.p.a. nelle relative categorie ;
+- gli operatori economici proprietari dei software indicati nella tabella sottostante hanno dichiarato  
+di vantare diritti esclusivi sugli stessi, come da documentazione posta agli atti del settore , sono gli 
+unici a possedere il know-how necessario a garantire l’efficacia e l’efficienza dei servizi richiesti e 
+copia informatica per consultazione
+di  conseguenza,  ricorre  l’ambito  di  applicazione  dell'art.  49  comma  4  del  D.Lgs.  n.  36/2023  
+ss.mm.ii, ad eccezione di:
+•servizio  di  manutenzione  del  software  Civilia  Next  Appalti,  trattandosi  di  nuova  
+acquisizione, è rispettato il principio di rotazione degli affidamenti di cui all’art. 49 comma  
+2 D. Lgs. 36/2023
+•servizio di calcolo IMU, non soggetto a privativa, è possibile derogare al principio di  
+rotazione degli affidamenti ai sensi dell’art. 49 comma 6;
+Ritenuto necessario  procedere agli affidamenti dei canoni di licenza d'uso e dei servizi di  
+manutenzione dei software come indicato nella sottostante tabella per l'anno 2025:
+Valutate le offerte di cui sopra economicamente e tecnicamente congrue rispetto all'esigenza  
+di garantire il funzionamento delle licenze e del servizio di manutenzione dei prodotti software in  
+uso presso l'Ente per l'anno 2025;
+Reso noto che il Settore Lavori Pubblici e manutenzione della città ha autorizzato il Settore  
+scrivente, con nota posta agli atti del settore PG 436251 del 11/11/2024 , ad impegnare la somma di  
+€ 20.740,00 sul capitolo 21227/74 del bilancio 2025 per il servizio di manutenzione sul software  
+Eplanweb;
+Evidenziato che il pagamento anticipato delle licenze d'uso (indicate con la lettera “L” nella  
+seconda colonna della tabella di cui sopra) è una condizione indispensabile per poter usufruire del  
+servizio e sottoscrivere i relativi contratti, così come per l’erogazione del servizio di calcolo IMU;
+Considerato che ai sensi dell’art. 62, comma 5, del D.lgs. n. 36/2023 e dell’Allegato II.4, il  
+Comune di Modena risulta essere dal 1 luglio 2023 Stazione Appaltante qualificata con riserva e  
+può quindi procedere direttamente e autonomamente all'acquisizione dei servizi in oggetto;  
+Ritenuto pertanto necessario affidare, ai sensi dell’art 50 comma 1, lett. b) del D.Lgs. n.  
+36/2023, mediante Trattative Dirette (TD) ed Ordini Diretti di Acquisto (ODA) i contratti di licenze  
+software e/o di manutenzione per l’anno 2025 agli operatori economici come da tabella soprastante,  Capitolo OGGETTO CONTRATTORUP CIG ProtocolloCCNL
+2390/41MADS spaSuite SmartGOV (Sfera e Prisma)RICCUCCI30.030,0036.636,600B3FE903A57TD4687121
+2390/41SArtemedia srlservizio calcolo IMU TasiRICCUCCI1.000,001.220,000B40AB84CD2ODA840315PG. 420147no dipendenti
+21227/74MCG Soluzioni Informatiche srlEplanWeb versione Saas x LLPPRICCUCCI17.000,0020.740,000B3FF6099A5TD4687439PG. 414732
+2390/41MDatamanagement Italia spaProcedura AcropolisRICCUCCI15.400,0018.788,000B3FFFEF4C6TD4687717PG. 414906
+2390/41MDatamanagement Italia spaProcedura Bilancio SIB + modulo grandi utenze RICCUCCI36.800,0044.896,000B40055F17ETD
+2390/41MDeda Next srlmanutenzione Open data e manutenzione CDURICCUCCI13.200,0016.104,000B40344A946TD4688173PG. 417076
+2390/41MExel srlsoftware impianti elettrici Integra-FullRICCUCCI693,00845,460B40B56C999ODA840498PG. 346016commercio
+2393/43LHyksos srlstayTour x gestione tassa soggiornoRICCUCCI3.485,004.251,700B4041AA2DBTD4688376PG. 417307
+2390/41MING3 srlmanutenzione sw AHABVAIA5.720,006.978,400B402855B41TD4690455PG.416820no dipendenti
+2393/43LLand srlpiattaformadigitale remota Happy signRICCUCCI5.000,006.100,000B406377788TD4688474PG. 417810Commercio
+2390/41MMaggioli spaSportello telematico polifunzionale (ex SOLO1)RICCUCCI5.890,007.185,800B41156C25DTD4689109PG. 421938
+2390/41MMicro Focus srlcobol supportRICCUCCI18.662,7322.768,531B4388DDA4CTD4689199PG 436323Metalmeccanico
+2390/41MNettare21 srlnettare -FACILITY MANAGEMENTRICCUCCI4.000,004.880,000B40B95A7C7ODA840654PG. 356487Commercio e terziario
+2390/41MNext Step Solution srlsuite software EntraNext con integrazione vari mRICCUCCI22.000,0026.840,000B406B27F91TD4689272PG. 417974Commercio terziario
+2390/41MPoleis soc. coop.vapiattaforma AccountabilityRICCUCCI395,00481,900B406F1C389TD4689334PG. 418057Commercio
+2390/41MProveco srlVestiario VS3RICCUCCI800,00976,000B4070D92C3TD4689585Commercio
+2390/41MQuix srlSoftware SIAM (Ambiente) + Scavi LLPPRICCUCCI13.800,0016.836,000B407572E0ATD4689598Commercio
+2393/43LSAS Institute srllicenza d'uso SASRICCUCCI22.476,0027.420,720B407868F8FTD4689632PG. 418644
+2393/43LSecurgate srlSGBOX log ManagementVAIA11.964,3714.596,531B433D8B24CTD4690567PG. 435236Commercio
+2393/43LSemenda srlRilfedeur – bacini scolastici e Moka x URP RICCUCCI7.500,009.150,000B4079455F2TD4689841PG. 418690
+2390/41LStarch srlArchiweb Saas e CPortal360RICCUCCI36.100,0044.042,000B408D904FFTD4689933commercio
+2390/41MTeamSystem spasoftware gestione opere pubbliche CPMRICCUCCI32.300,0039.406,000B4098D1E76TD4690332PG. 419649Metalmeccanica, Industria
+2390/41MTeamSystem spa Civilia Next Appalti (exPBM)RICCUCCI16.000,0019.520,000B40A6161C5TD4690191PG. 419977Metalmeccanica, Industria
+TOTALI 320.216,10390.663,64TipologiaOPERATORE ECONOMICOOFFERTA 2025TOTALE IvatoTD/ ODAnr. TD/ODA 
+PG.408893 Industria Metalmeccanica ed Installazione Impianti (Federmeccanica)
+Area Comunicazione Artigianato e PMI - elaborazione dati;CCNL Metalmeccanico PMI CONFAPI (C018), Servizi Ausiliari ANPIT (V719), Terziario 
+4687886 PG. 415005 CCNL Metalmeccanico PMI CONFAPI (C018), Servizi Ausiliari ANPIT (V719), Terziario Industria Metalmeccanica e della installazione di Impianti
+metalmeccanico piccola media industria
+aziende grafiche, editoriali, digitali ed affini.
+PG.401577 
+PG. 418501 Metalmeccanica Industria Privata e Installazione Impianti.
+Piccola e Media Industria Metalmeccanica
+PG.401598 
+copia informatica per consultazione
+assumendo i relativi impegni di spesa per un importo complessivo di € 390.663,64 Iva inclusa;
+Dato atto che:
+• l’importo dei presenti affidamenti, essendo inferiori ad € 140.000,00, non prevede l’obbligo del  
+preventivo inserimento nel programma triennale di acquisti di beni e servizi di cui all’art. 37 del  
+Dlgs n.36/2023;
+• i CIG dei singoli affidamenti sono indicati nell'apposita colonna della tabella di cui sopra , sia ai 
+fini della tracciabilità di cui alla legge 136/2010 sia ai fini del monitoraggio dei contratti pubblici;
+• il RUP (Responsabile Unico del Progetto) per i contratti CIG B402855B41 e B433D8B24C è il 
+Dr. Valentino Vaia,  Responsabile dell'Ufficio Sistemi e Reti, mentre per i restanti contratti indicati  
+nella tabella soprastante, è il Dr. Simone Riccucci, Responsabile dell'Ufficio Agenda Digitale, ai  
+sensi dell'art. 15, D.lgs. 36/2023 e dell'atto di delega del Dirigente di Settore PG n. 81028/2023; i  
+suddetti  RUP  sono  anche  responsabili  di  procedimento  per  le  fasi  di  programmazione,  
+progettazione,  affidamento  ed  esecuzione  ai  sensi  dell’art.  4  della  L.  241/90,  i  quali  hanno  
+dichiarato  che  non  sussistono  conflitti  di  interesse  che  li  riguardano  in  relazione  all’oggetto  
+dell’affidamento né nei confronti degli affidatari della fornitura rispettivamente PG 435353/2024  e 
+435458/2024,  così  pure  come  per  il  firmatario  del  presente  atto,  Ing.  Luca  Salvatore  PG  
+435326/2024;
+•  sono  state  verificate  eventuali  relazioni  di  parentela  o  affinità  sussistenti  tra  i  titolari,  gli  
+amministratori e /o legali rappresentanti, soci e dipendenti con poteri decisionali della ditta e i  
+dipendenti dell'Amministrazione, responsabili del presente procedimento, con esito negativo, non  
+sussistendone;
+• ai sensi dell'art. 53 comma 4 del D. Lgs. n. 36/2023, in relazione all'affidabilità dimostrata dagli  
+operatori economici di cui sopra nell'esecuzione dei precedenti contratti,  agli importi dei singoli  
+contratti  affidati  ai  diversi  operatori  economici,  e  stante  le  modalità  di  adempimento  delle  
+prestazioni, non si richiede la cauzione definitiva;
+• l’esecuzione delle spese soggette alla tracciabilità dei flussi finanziari sarà conforme a quanto  
+previsto dall’art. 3, Legge n. 136/2010 e dagli artt. 6 e 7, Legge n. 217/2010;
+• sono stati svolti con esito positivo i controlli previsti dalla normativa vigente in ordine al possesso  
+dei requisiti generali e speciali in capo agli operatori economici, quali:  
+- regolarità contributiva mediante acquisizione dei DURC,
+- acquisizione delle visure camerali,
+- consultazione del casellario informatico ANAC;
+• i dati relativi alle procedure in oggetto saranno pubblicati nella Banca Dati Nazionale dei Contratti  
+Pubblici di ANAC ai link: 
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B3FE903A57&standalone=2 ;
+http  s://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B40AB84CD2&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B3FF6099A5&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B3FFFEF4C6&standalone=2  ;  
+copia informatica per consultazione
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B40055F17E&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B40344A946&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B40B56C999&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B4041AA2DB&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B402855B41&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B406377788&standalone=2
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B41156C25D&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B4388DDA4C&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B40B95A7C7&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B406B27F91&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B406F1C389&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B4070D92C3&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B407572E0A&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B407868F8F&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B433D8B24C&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B4079455F2&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B408D904FF&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B4098D1E76&standalone=2  ;  
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B40A6161C5&standalone=2  ;  
+• si provvederà a tutti gli adempimenti in materia di comunicazione e trasparenza di cui agli artt. 27  
+e 28 del Codice, compresa la pubblicazione dell’avviso sui risultati delle procedure di affidamento  
+ai sensi dell’art. 50, comma 9, ovvero del presente atto in quanto trattasi di affidamento diretto  
+anche nell'apposita sezione del profilo del committente dell'ente
+https://www.comune.modena.it/amministrazione-trasparente/bandi-di-gara-e-contratti/
+procedure#diaffidamento/procedure-di-affidamento-di-appalti-pubblici-e-concessioni-dal-1-01-
+2024/affidamentidiretti;
+Reso noto che:
+a) i legali rappresentanti delle società sopra citate hanno dichiarato ai sensi del TU 445/2000 e smi  
+(PG agli atti del Settore come indicato nella colonna “prot. Arrivo” nella tabella soprastante) :
+- l'insussistenza di cause di esclusione previste dagli artt. 94, 95, 98 del D. Lgs. n. 36/2023;
+copia informatica per consultazione
+- il rispetto del divieto di cui all'art. 53, comma 16 ter, D. Lgs. n. 165/2001 e s.m.i. del c.d.  
+Pantouflage, non avendo concluso, nell'ultimo triennio, contratti di lavoro subordinato o autonomo,  
+o attribuito incarichi, a ex dipendenti o incaricati del Comune di Modena, che abbiano esercitato,  
+negli ultimi 3 anni di servizio presso il Comune, poteri autoritativi e negoziali nei confronti della  
+propria società;
+- l'accettazione del codice di comportamento del Comune di Modena, approvato con deliberazione  
+della Giunta comunale n. 601 del 11/12/2013, da ultimo aggiornato con deliberazione della Giunta  
+comunale n. 777 del 28/12/2022, ai sensi del DPR 16 aprile 2013, n. 62 smi;
+- di applicare al personale impiegato nei servizi oggetto dei presenti affidamenti, ai sensi dell’art.11  
+del D. Lgs. n. 36/2023, il contratto collettivo nazionale e territoriale indicato nell'apposita colonna  
+della tabella di cui sopr;
+- che trattasi di servizio di natura intellettuale ed ai sensi dell’art. 108 comma 9 del D.Lgs 36/2023,  
+non è dovuta l’indicazione dei costi della manodopera e degli oneri aziendali per l’adempimento  
+delle disposizioni in materia di salute e sicurezza sui luoghi di lavoro, ad eccezione di:
+•Deda Next srl che dichiara costi della manodopera per € 6.800,00 e oneri aziendali per la  
+sicurezza sui luoghi di lavoro per € 132,00;
+b)  ai  sensi  dell'art.  52  del  D.lgs.  n.  36/2023  la  verifica  delle  dichiarazioni  verrà  effettuata  
+successivamente  dalla  Stazione  Appaltante,  in  caso  questa  venga  sorteggiata  sulla  base  del  
+campione individuato dall'Amministrazione;
+Ritenuto pertanto procedere agli impegni di spesa come indicato nella tabella di cui sopra,  
+per complessivi € 390.663,64 oneri Iva compresi sull'annualità 2025  per stipulare i contratti di  
+licenza d'uso e di manutenzione dei prodotti software in uso presso l'Ente per garantire il regolare e  
+corretto funzionamento delle attività istituzionali dell'Ente;
+Visti: 
+- la disposizione del Sindaco di attribuzione di incarico dirigenziale PG 76011 del 27/02/2023  
+prorogata con PG. n. 231278 del 12/06/2024, con la quale è stato conferito l'incarico di Dirigente  
+del Settore Smart city, Servizi demografici e Partecipazione all’Ing. Luca Salvatore;
+-  la  disposizione  del  Sindaco  di  nomina  dell’Ing.  Luca  Salvatore  quale  Responsabile  della  
+Transizione Digitale dell'ente (RTD), PG n. 76011 del 27/02/2023, prorogata con PG n. 231404 del  
+12/06/2024; 
+Visto l'art. 183, commi 8 e 9, del T.U. n. 267/2000 ordinamento EE.LL;
+Visti gli artt. 74 e 75 dello Statuto ed il Regolamento di Contabilità;
+Visto il D.Lgs. n. 36/2023 “Codice dei contratti pubblici”;
+Visto il Regolamento comunale per la Disciplina dei Contratti
+Ritenuto che l'istruttoria preordinata all'emanazione del presente atto consenta di attestare la
+regolarità e la correttezza di quest'ultimo ai sensi e per gli effetti di quanto dispone l'art. 147 bis del
+D.Lgs. 267/2000;
+D E T E R M I N A
+per le motivazioni espresse in parte narrativa, che integralmente si richiamano:  
+1)  di affidare  agli operatori economici indicati nella tabella in premessa, per le motivazioni ivi  
+riportate e che si intendono qui integralmente richiamate:
+copia informatica per consultazione
+A)le licenze d'uso riferite al periodo 01/01/2025 – 31/12/2025, per un importo complessivo di  
+€ 61.518,95 oneri Iva al 22% compresi al capitolo  2393/43 del PEG 2024-2026, annualità 
+2025, come  dettagliato nel successivo punto 2);
+B)il servizio di manutenzione dei software concessi in licenza d'uso al Comune di Modena per  
+il periodo 01/01/2025 – 31/12/2025 per un importo complessivo di €  308.404,69 oneri Iva 
+22% compresi, al capitolo  2390/41 del PEG 2024-2026, annualità 2025, come  dettagliato  
+nel successivo punto 2);
+C)il servizio di manutenzione del software “Explanweb” concesso in licenza d'uso al Comune  
+di Modena, per i servizi necessari ai LLPP per il periodo 01/01/2025 – 31/12/2025 per l’  
+importo complessivo di € 20.740,00 oneri Iva al 22% compresi al capitolo 21227/74 del  
+PEG 2024-2026, annualità 2025, come  dettagliato nel successivo punto 2);
+2) di impegnare la spesa complessiva di € 390.663,64 di cui sopra, esistendo i presupposti di cui  
+all’art. 183, comma 6 del T.U. n. 267/2000 ordinamento EE.LL., poiché trattasi di affidamenti di  
+servizi necessari per garantire la continuità dei servizi connessi con le funzioni fondamentali  quali  
+l’organizzazione generale dell'amministrazione, gestione finanziaria e contabile e controllo,  come a  
+seguire:
+A)  €  61.518,95  al  capitolo  2393/43  “utilizzo  di  beni  per  il  settore  sistemi  informativi  
+relativamente ad attrezzature informatiche e prodotti software e hardware/licenze software” del  
+PEG 2024-2026, anno 2025, codice piano dei conti finanziario 1.3.2.7.6, cod.aff. 403, cod. limite  
+211, a favore dei seguenti soggetti:
+B) € 308.404,69 al capitolo 2390/41 “acquisto di servizi per il settore sistemi informativi/  
+manutenzione implementazione e licenze” del PEG 2024-2026, anno 2025, codice piano dei conti  
+finanziario 1.3.2.19.1, cod.aff. 403, cod. limite 211, a favore dei seguenti operatori economici:Capitolo OGGETTO CONTRATTO Codice Fiscale CIG2393/43Hyksos srlstayTour x gestione tassa soggio 036422202674.251,700B4041AA2DBTD46883762393/43Land srlpiattaformadigitale remota Happ 045545710026.100,000B406377788TD46884742393/43SAS Institute srllicenza d'uso SAS 0851785015527.420,720B407868F8FTD46896322393/43Securgate srlSGBOX log Management 1332976015414.596,531B433D8B24CTD46905672393/43Semenda srlRilfedeur – bacini scolastici e 021467603649.150,000B4079455F2TD4689841TOTALI 61.518,95OPERATORE ECONOMICOTOTALE IvatoTD/ ODAnr. TD/ODA 
+Capitolo OGGETTO CONTRATTO CIG
+2390/41ADS spa Suite SmartGOV (Sfera e Prisma) 0089037037236.636,600B3FE903A57TD4687121
+2390/41Artemedia srl servizio calcolo IMU Tasi 078196007221.220,000B40AB84CD2ODA840315
+2390/41Datamanagement Italia spa Procedura Acropolis 1478851100518.788,000B3FFFEF4C6TD4687717
+2390/41Datamanagement Italia spa Procedura Bilancio SIB + modulo grandi utenz 1478851100544.896,000B40055F17ETD
+2390/41Deda Next srl manutenzione Open data e manutenzione CDU 0318895010316.104,000B40344A946TD4688173
+2390/41Exel srl software impianti elettrici Integra-Full 05928990018845,460B40B56C999ODA840498
+2390/41ING3 srl manutenzione sw AHAB 028049912026.978,400B402855B41TD4690455
+2390/41Maggioli spa Sportello telematico polifunzionale (ex SOLO1 061883301507.185,800B41156C25DTD4689109
+2390/41Micro Focus srl cobol support 0525424100222.768,531B4388DDA4CTD4689199
+2390/41Nettare21 srl nettare -FACILITY MANAGEMENT 025672903964.880,000B40B95A7C7ODA840654
+2390/41Next Step Solution srl suite software EntraNext con integrazione vari 0255448034926.840,000B406B27F91TD4689272
+2390/41Poleis soc. coop.va piattaforma Accountability 02943010369481,900B406F1C389TD4689334
+2390/41Proveco srl Vestiario VS3 03893800361976,000B4070D92C3TD4689585
+2390/41Quix srl Software SIAM (Ambiente) + Scavi LLPP 0196666036516.836,000B407572E0ATD4689598
+2390/41Starch srl Archiweb Saas e CPortal360 0779518015244.042,000B408D904FFTD4689933
+2390/41TeamSystem spa software gestione opere pubbliche CPM 0103531041439.406,000B4098D1E76TD4690332
+2390/41TeamSystem spa  Civilia Next Appalti (exPBM) 0103531041419.520,000B40A6161C5TD4690191
+TOTALI 308.404,69OPERATORE ECONOMICOCodice FiscaleTOTALE IvatoTD/ ODAnr. TD/ODA 
+4687886 
+copia informatica per consultazione
+C)  €  20.740,00  al  capitolo  21227/74  “Attuazione  delle  direttive  CEE  riguardanti  il  
+miglioramento della sicurezza e della salute dei lavoratori sui luoghi di lavoro” del PEG 2024-2026, 
+anno 2025, codice piano dei conti finanziario 1.3.2.13.999, cod. aff. 403, cod. lim 211, come da  
+autorizzazione a impegnare agli atti PG 436251 del 11/11/2024 a favore del seguente operatore  
+economico:
+3) di dare  atto che:
+•il Responsabile dei singoli procedimenti di gara è stato individuato come segue:
+◦per i procedimenti CIG B402855B41 e B433D8B24C è nominato il dott. Valentino Vaia,  
+Responsabile Ufficio Reti e Sistemi, ai sensi dell'atto di delega di funzioni del Dirigente  
+di Settore PG n. 81028/2023, il quale provvederà altresì alla sottoscrizione dei contratti  
+(Trattative Dirette) attraverso la piattaforma “acquistinretepa” di Consip spa.;
+◦per  tutti  gli  altri  procedimenti,  è  nominato  il  dott.  Simone  Riccucci,  Responsabile  
+dell'Ufficio Agenda Digitale, ai sensi dell'atto di delega di funzioni del Dirigente di  
+Settore PG n. 81028/2023, il quale provvederà anche a sottoscrivere la stipula dei singoli  
+contratti  (trattative  dirette  e  ordini  diretti  di  acquisto)  attraverso  la  piattaforma  
+“acquistinretepa” di Consip spa.;
+•il pagamento anticipato relativamente alle licenze d'uso (che nella tabella rappresentata in  
+premessa, sono indicate nella seconda colonna con la lettera L) dall’anno 2025 è condizione  
+necessaria ed imprescindibile per poter usufruire delle licenze d'uso stesse e sottoscrivere i  
+relativi contratti così, e così pure per l’erogazione del servizio di calcolo Imu/Tasi;
+4) di attestare la regolarità e la correttezza del presente atto ai sensi e per gli effetti di quanto  
+dispone l'art. 147 bis del D.Lgs. 267/2000.
+Modena, lì 15/11/2024
+Il Dirigente Responsabile
+SALV ATORE LUCA
+(Sottoscritto digitalmente ai sensi
+dell'art. 21 D.L.gs n 82/2005 e s.m.i.)Capitolo OGGETTO CONTRATTO Codice Fiscale CIG
+21227/74CG Soluzioni Informatiche s EplanWeb versione Saas x LLPP 0197914030620.740,000B3FF6099A5TD4687439
+TOTALI 20.740,00OPERATORE ECONOMICOTOTALE IvatoTD/ ODAnr. TD/ODA 
+copia informatica per consultazione
+COMUNE DI MODENA
+SETTORE RISORSE FINANZIARIE E PATRIMONIALI
+DETERMINAZIONE n. 3056/2024 del 15/11/2024
+Proposta n° 4434/2024
+OGGETTO:  AFFIDAMENTO DIRETTO MEPA AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL D.LGS. N.  
+36/2023 A FA VORE DI OPERATORI ECONOMICI DIVERSI PER CANONI LICENZE D'USO E SERVIZI DI  
+MANUTENZIONE SOFTWARE PER L' ANNO 2025 - CIG DIVERSI - IMPEGNI ANNO 2025  . 
+Visto di Regolarità contabile.  
+Vista la delega prot. 411295 del 28/10/2022 che attribuisce l'apposizione del visto di regolarita'  
+contabile  attestante  la  copertura  finanziaria  al  Dirigente  del  Servizio  Finanze ,  Economato  e 
+Organismi Partecipati , Dr. Davide Manelli.
+Visto di regolarita' contabile attestante la copertura finanziaria a norma dell'art. 147 bis, comma 1,  
+del T.U. n. 267/2000 ordinamento EE.LL..
+Impegno 
+Progressivo nr. 1. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U21227/74ATTUAZIONE DIRETTIVE 
+CEE RIGUARDANTI IL 
+MIGLIORAMENTO DELLA 
+SICUREZZA E DELLA 
+SALUTE DEI LA VORATORI 
+SUL LUOGO DI LA VORO - 
+D.LGS N.81/2008 
+ATTUAZIONE DIRETTIVE 
+CEE RIGUARDANTI IL 
+MIGLIORAMENTO DELLA 
+SICUREZZA E DELLA 
+SALUTE DEI LA VORATORI 
+SUL LUOGO DI1/6
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252465/0 20.740,001/3/2/13/9
+99
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 20.740,00
+Soggetto Descrizione
+copia informatica per consultazione
+95282 CG SOLUZIONI INFORMATICHE SRL
+Progressivo nr. 2. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252445/0 18.788,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 18.788,00
+Soggetto Descrizione
+85182 DATAMANAGEMENT ITALIA SPA
+Progressivo nr. 3. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252446/0 44.896,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 44.896,00
+Soggetto Descrizione
+85182 DATAMANAGEMENT ITALIA SPA
+Progressivo nr. 4. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+copia informatica per consultazione
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252447/0 16.104,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 16.104,00
+Soggetto Descrizione
+62279 DEDA NEXT SRL
+Progressivo nr. 5. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252448/0 845,461/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 845,46
+Soggetto Descrizione
+55174 EXEL SRL
+Progressivo nr. 6. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+copia informatica per consultazione
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252449/0 6.978,401/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 6.978,40
+Soggetto Descrizione
+67748 ING3 SRL
+Progressivo nr. 7. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252450/0 7.185,801/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 7.185,80
+Soggetto Descrizione
+31373 MAGGIOLI SPA
+Progressivo nr. 8. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252451/0 22.768,531/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 22.768,53
+copia informatica per consultazione
+Soggetto Descrizione
+51918 MICRO FOCUS SRL
+Progressivo nr. 9. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252452/0 4.880,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 4.880,00
+Soggetto Descrizione
+80483 NETTARE21 SRL.
+Progressivo nr. 10. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252453/0 26.840,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 26.840,00
+Soggetto Descrizione
+83190 NEXT STEP SOLUTION SRL
+Progressivo nr. 11. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+copia informatica per consultazione
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252454/0 481,901/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 481,90
+Soggetto Descrizione
+59905 POLEIS SOCIETA' COOPERATIV A
+Progressivo nr. 12. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252455/0 976,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 976,00
+Soggetto Descrizione
+1109 PROVECO SRL
+Progressivo nr. 13. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+copia informatica per consultazione
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252456/0 16.836,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 16.836,00
+Soggetto Descrizione
+39377 QUIX SRL
+Progressivo nr. 14. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252457/0 44.042,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 44.042,00
+Soggetto Descrizione
+95307 STARCH SRL
+Progressivo nr. 15. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252458/0 39.406,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 39.406,00
+copia informatica per consultazione
+Soggetto Descrizione
+82440 TEAMSYSTEM S.P.A.
+Progressivo nr. 16. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252459/0 19.520,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 19.520,00
+Soggetto Descrizione
+82440 TEAMSYSTEM S.P.A.
+Progressivo nr. 17. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252443/0 36.636,601/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 36.636,60
+Soggetto Descrizione
+76412 ADS AUTOMATED DATA SYSTEMS SPA
+Progressivo nr. 18. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+copia informatica per consultazione
+2024U2390/41ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) 
+MANUTENZIONE 
+IMPLEMENTAZIONE E 
+LICENZE SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252444/0 1.220,001/3/2/19/1
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 1.220,00
+Soggetto Descrizione
+79184 ARTEMEDIA SRL
+Progressivo nr. 19. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2393/43UTILIZZO DI BENI PER IL 
+SETTORE SISTEMI 
+INFORMATIVI 
+RELATIV AMENTE AD 
+ATTREZZATURE 
+INFORMATICHE E 
+PRODOTTI SOFTWARE E 
+HARDWARE (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) LICENZE 
+SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252461/0 6.100,001/3/2/7/6
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 6.100,00
+Soggetto Descrizione
+93726 LAND SRL
+Progressivo nr. 20. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+copia informatica per consultazione
+2024U2393/43UTILIZZO DI BENI PER IL 
+SETTORE SISTEMI 
+INFORMATIVI 
+RELATIV AMENTE AD 
+ATTREZZATURE 
+INFORMATICHE E 
+PRODOTTI SOFTWARE E 
+HARDWARE (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) LICENZE 
+SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252462/0 27.420,721/3/2/7/6
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 27.420,72
+Soggetto Descrizione
+5960 SAS INSTITUTE SRL, DIREZIONE COORDINAMENTO SAS INSTITUTE  
+INC
+Progressivo nr. 21. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2393/43UTILIZZO DI BENI PER IL 
+SETTORE SISTEMI 
+INFORMATIVI 
+RELATIV AMENTE AD 
+ATTREZZATURE 
+INFORMATICHE E 
+PRODOTTI SOFTWARE E 
+HARDWARE (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) LICENZE 
+SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252463/0 14.596,531/3/2/7/6
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 14.596,53
+Soggetto Descrizione
+68953 SECUREGATE SRL
+Progressivo nr. 22. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+copia informatica per consultazione
+2024U2393/43UTILIZZO DI BENI PER IL 
+SETTORE SISTEMI 
+INFORMATIVI 
+RELATIV AMENTE AD 
+ATTREZZATURE 
+INFORMATICHE E 
+PRODOTTI SOFTWARE E 
+HARDWARE (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) LICENZE 
+SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252464/0 9.150,001/3/2/7/6
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 9.150,00
+Soggetto Descrizione
+15222 SEMENDA SRL.
+Progressivo nr. 23. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2393/43UTILIZZO DI BENI PER IL 
+SETTORE SISTEMI 
+INFORMATIVI 
+RELATIV AMENTE AD 
+ATTREZZATURE 
+INFORMATICHE E 
+PRODOTTI SOFTWARE E 
+HARDWARE (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) LICENZE 
+SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252460/0 4.251,701/3/2/7/6
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 4.251,70
+Soggetto Descrizione
+75143 HYKSOS SRL
+Data di esecutività , 21/11/2024 
+Sottoscritto dal Responsabile del Servizio
+Finanze, Economato e Organismi Partecipati
+f.to MANELLI DA VIDE  
+con firma digitale
+copia informatica per consultazione

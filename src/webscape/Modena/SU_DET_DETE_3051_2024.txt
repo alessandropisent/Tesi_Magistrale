@@ -1,0 +1,267 @@
+COMUNE DI MODENA
+SETTORE SMART CITY, SERVIZI DEMOGRAFICI E PARTECIPAZIONE  
+*********
+DETERMINAZIONE n. 3051/2024 del 15/11/2024 
+Proposta n. 4416/2024  
+Esecutiva dal 21/11/2024
+Protocollo n. 452155 del 21/11/2024
+OGGETTO:  AFFIDAMENTO  DIRETTO  MEPA AI  SENSI  DELL'ART.  50  COMMA 1  
+LETT.  B)  DEL D.LGS.  N.  36/2023  A FA VORE  DI  GT50  SRL PER  LICENZA D'USO  
+ANNUALE  PER  SISTEMA TIMBRO  DIGITALE  LAMBDA E  FIRMA AUTOMATICA  
+MASSIV A - CIG B429E8FF94 - IMPEGNO ANNO 2025.. 
+Allegati: 
+Visti: 
+•Visto Congruita' con esito Favorevole (firmato: Si, firmatario: SALV ATORE LUCA)
+•Visto Contabile con esito Favorevole (firmato: Si, firmatario: MANELLI DA VIDE)
+Determinazione n. 3051 del 15/11/2024
+copia informatica per consultazione
+COMUNE DI MODENA
+DETERMINAZIONE DEL DIRIGENTE RESPONSABILE
+SETTORE SMART CITY , SERVIZI DEMOGRAFICI E PARTECIPAZIONE
+Ing. Luca Salvatore
+Numero determina: 3051/2024
+del 15/11/2024
+OGGETTO: AFFIDAMENTO DIRETTO MEPA AI SENSI DELL'ART. 50 COMMA 1 
+LETT. B) DEL D.LGS. N. 36/2023 A FA VORE DI GT50 SRL PER LICENZA D'USO 
+ANNUALE PER SISTEMA TIMBRO DIGITALE LAMBDA E FIRMA AUTOMATICA 
+MASSIV A - CIG B429E8FF94 - IMPEGNO ANNO 2025..
+IL DIRIGENTE
+Premesso:
+- che con deliberazioni del Consiglio comunale n. 89 del 14.12.2023 e n. 94 del 21.12.2023,  
+entrambe immediatamente eseguibili, sono stati approvati rispettivamente la nota di aggiornamento  
+al Documento Unico di Programmazione (DUP) 2024-2026 e il Bilancio di Previsione 2024-2026;
+-  che  con  deliberazioni  della  Giunta  comunale  n.  773  e  n.  774  del  28.12.2023,  entrambe  
+immediatamente eseguibili, sono stati approvati rispettivamente il Piano Integrato di Attività e  
+Organizzazione (PIAO) 2024-2026, nel cui allegato A sono indicati gli obiettivi e le attività di  
+performance dei Settori, e il Piano Esecutivo di Gestione 2024-2026, con il quale sono state  
+assegnate  ai  dirigenti  titolari  dei  Centri  di  Responsabilità  le  dotazioni  economico-finanziarie  
+necessarie alla realizzazione degli obiettivi e delle attività definiti nel PIAO;
+- che la Giunta comunale ha successivamente apportato variazioni al suddetto Piano Esecutivo di  
+Gestione 2024-2026;
+Reso noto che:
+- il  Comune  di  Modena, tramite  il  Settore  Smart  City, Servizi  Demografici  e  Partecipazione,  
+gestisce l’infrastruttura tecnologica del sistema informativo dell’Ente, costituito da apparecchiature
+hardware e da software;
+Richiamati:
+- il D.Lgs 82/2005 (Codice dell’Amministrazione Digitale), che definisce il quadro normativo di  
+riferimento per la digitalizzazione della pubblica amministrazione;
+- il Piano Triennale per l’informatica nella Pubblica Amministrazione 2024-2026 dell’Agenzia per  
+l’Italia Digitale (AGID);
+copia informatica per consultazione
+- la Deliberazione di Giunta Comunale n. 540/2023 di approvazione del Piano Triennale per la  
+transizione digitale 2023-2025 del Comune di Modena;
+Preso atto che si rende necessario continuare a garantire l'utilizzo del Timbro Digitale  
+Lambda per il rilascio dei certificati di Anagrafe e Stato Civile anche per  l'anno 2025,  e nel 
+contempo attivare anche il servizio di firma automatica con c anone a consumo in Cloud fino a  
+10.000 Firma/Sigillo,  per automatizzare il processo di firma delle fatture elettroniche attive;  
+         Dato atto: 
+•che il portale dei Servizi demografici è nativamente integrato con la tecnologia del timbro  
+digitale Lambda dell’operatore economico GT50;
+•che il sistema informativo di gestione della fatturazione attiva è integrato nativamente con il  
+servizio di firma automatica dell’operatore economico GT50;
+•che i prodotti sono integrati al sistema informatico dell'Ente e che il cambio della tecnologia,  
+quindi  dell'operatore  economico,  comporterebbe  necessità  di  ulteriori  costi  di  
+personalizzazione, oltre al costo per attivare un nuovo servizio con tecnologia differente;
+•ai  sensi  dell'art.  49  comma  4  del  D.Lgs.  n.  36/2023  ricorrono  pertanto  i  requisiti  per  
+derogare al principio di rotazione degli affidamenti; 
+Visto l’articolo 1 comma 512 ss. della legge 28 dicembre 2015, n. 208 che obbliga il ricorso  
+agli  strumenti  di  acquisto  e  di  negoziazione  disponibili  su  Consip  e  soggetti  aggregatori  per  
+procedere all’acquisizione dei servizi informatici;
+Visto l'art. 7 comma 2 D.L. 52/2012 convertito in Legge 94/2012;
+Visti gli artt. 17, 25, 48, 49 ed in particolare l'art. 50 comma 1 lettera b) del D.Lgs. n.  
+36/2023;
+Considerato che è intenzione perseguire i principi generali in materia di contratti pubblici di
+cui al Libro I, Parte I, Titolo I del D.Lgs. n. 36/2023, Codice dei Contratti Pubblici, e pertanto si  
+rende necessario avvalersi a tal fine degli strumenti di negoziazione messi a disposizione da Consip;
+Rilevato, preliminarmente, come le prestazioni di cui in oggetto non possano rivestire un  
+interesse transfrontaliero certo, secondo quanto previsto dall’articolo 48, comma 2, del D.lgs. n.  
+36/2023;
+Verificato  che  alla  data  di  adozione  della  presente  Determinazione  non  sono  attive  
+convenzioni e/o  accordi  quadro  aggiudicati  da  Consip  s.p.a  o  dalla  centrale  di  committenza  
+regionale Intercent-ER, aventi a oggetto i servizi sopra indicati, o comparabili con essi, mentre è  
+possibile reperirli sul mercato elettronico della pubblica amministrazione (MEPA);  
+Vista l’offerta pubblicata a catalogo MePA dalla ditta GT50 srl, C.F. e P.Iva 10707081005,  
+la quale propone con i seguenti codice prodotto:
+-  CLS_25k  per Timbro Digitale Lambda 25K inclusi 3GB di Lambda Storage;
+-  CsgS_10K  per Licenza Annuale fino a 10.000 Sigilli o Firme Automatiche
+entrambi all'iniziativa Software Licenze software-Mepa Servizi, al costo complessivo di € 7.625,00  
+oltre IV A 22%;
+Ritenuta l'offerta di cui sopra economicamente conveniente e tecnicamente congrua rispetto  
+alle esigenze dell'Amministrazione;
+copia informatica per consultazione
+Considerato che ai sensi dell’art. 62, comma 5, del D.lgs. n. 36/2023 e dell’Allegato II.4, il  
+Comune di Modena risulta essere dal 1 luglio 2023 Stazione Appaltante qualificata con riserva e  
+può quindi procedere direttamente e autonomamente all'acquisizione del servizio in oggetto;
+Ritenuto pertanto necessario affidare, ai sensi dell’art 50 comma 1, lett. b) del D.Lgs. n.  
+36/2023, mediante Ordine Diretto su MEPA, alla Società G T50 srl, la fornitura dei servizi sopra  
+specificati, assumendo a suo favore il relativo impegno di spesa per un importo complessivo di €  
+9.302,50 IV A inclusa;
+Dato atto che:
+•l’importo  del  presente  affidamento,  essendo  inferiore  ad  €  140.000,00,  non  prevede  
+l’obbligo del preventivo inserimento nel programma triennale di acquisti di beni e servizi di  
+cui all’art. 37 del Dlgs n.36/2023;
+•è  stato  acquisito  il  CIG  B429E8FF94,  sia  ai  fini  della  tracciabilità  di  cui  alla  legge  
+136/2010 sia ai fini del monitoraggio dei contratti pubblici;
+•il  RUP  (Responsabile  Unico  del  Progetto)  è  il  Dr.  Simone  Riccucci,  Responsabile  
+dell'Ufficio Agenda Digitale ai sensi dell'art. 15 del D.Lgs. n. 36/2023 e dell'atto di delega  
+del  Dirigente  di  Settore  PG  n.  81028/2023,  il  suddetto  RUP è  anche  responsabile  di  
+procedimento per le fasi di programmazione, progettazione, affidamento ed esecuzione ai  
+sensi dell’art. 4 della L. 241/90,   il quale ha dichiarato che non sussistono conflitti di  
+interesse  che  lo  riguardano  in  relazione  all’oggetto  dell’affidamento  né  nei  confronti  
+dell’affidatario della fornitura PG 242184/2024 ;
+•sono state verificate eventuali relazioni di parentela o affinità sussistenti tra i titolari, gli  
+amministratori e /o legali rappresentanti, soci e dipendenti con poteri decisionali della ditta  
+e  i  dipendenti  dell'Amministrazione, responsabili  del  presente  procedimento, con esito  
+negativo, non sussistendone;
+•ai sensi dell'art. 53 comma 4 del D. Lgs. n. 36/2023, in relazione all'entità economica  
+dell'affidamento,  alla  comprovata  solidità  dell'operatore  economico  e  alle  modalità  di  
+adempimento delle prestazioni non si richiede la garanzia definitiva;
+•l’esecuzione delle spese soggette alla tracciabilità dei flussi finanziari sarà conforme a  
+quanto previsto dall’art. 3, Legge n. 136/2010 e dagli artt. 6 e 7, Legge n. 217/2010;
+•sono stati svolti con esito positivo i controlli previsti dalla normativa vigente in ordine al  
+possesso dei requisiti generali e speciali in capo all'operatore economico, quali regolarità  
+contributiva  mediante  acquisizione  del  DURC  (certificato  INPS_46104659    del  
+21/10/2024 valido fino al 18/02/2025), acquisizione della visura camerale e consultazione  
+del casellario informatico ANAC ;
+•i dati relativi alla procedura in oggetto saranno pubblicati nella Banca Dati Nazionale dei  
+Contratti Pubblici di ANAC al link: 
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B429E8FF94&standalone=2 ;
+•si provvederà a tutti gli adempimenti in materia di comunicazione e trasparenza di cui agli  
+artt. 27 e 28 del Codice, compresa la pubblicazione dell’avviso sui risultati delle procedure  
+di affidamento ai sensi dell’art. 50, comma 9, ovvero del presente atto in quanto trattasi di  
+affidamento diretto anche nell'apposita sezione del profilo del committente dell'ente
+https://www.comune.modena.it/amministrazione-trasparente/bandi-di-gara-e-contratti/procedure-
+diaffidamento/procedure-di-affidamento-di-appalti-pubblici-e-concessioni-dal-1-01-2024/
+affidamentidiretti;
+Reso noto che:
+a) il legale rappresentante della società sopra citata ai sensi del T.U. n. 445/2000 e smi (PG.  
+copia informatica per consultazione
+241480/2024) ha dichiarato :
+- l'insussistenza di cause di esclusione previste dagli artt. 94, 95, 98 del D. Lgs. n. 36/2023;
+- il rispetto del divieto di cui all'art. 53, comma 16 ter, D. Lgs. n. 165/2001 e s.m.i. del c.d.  
+Pantouflage, non avendo concluso, nell'ultimo triennio, contratti di lavoro subordinato o autonomo,
+o attribuito incarichi, a ex dipendenti o incaricati del Comune di Modena, che abbiano esercitato,  
+negli ultimi 3 anni di servizio presso il Comune, poteri autoritativi e negoziali nei confronti della  
+propria società;
+- l'accettazione del codice di comportamento del Comune di Modena, approvato con deliberazione  
+della Giunta comunale n. 601 del 11/12/2013, da ultimo aggiornato con deliberazione della Giunta
+comunale n. 777 del 28/12/2022, ai sensi del DPR 16 aprile 2013, n. 62 smi;
+- di applicare al personale impiegato nei servizi oggetto del presente affidamento, ai sensi dell’art.  
+11  del  D.  Lgs.  n.  36/2023,  il  seguente  contratto  collettivo  nazionale  “CCNL  Metalmeccanica 
+Industria; 
+b)  ai  sensi  dell'art.  52  del  D.lgs.  n.  36/2023  la  verifica  delle  dichiarazioni  verrà  effettuata  
+successivamente  dalla  Stazione  Appaltante,  in  caso  questa  venga  sorteggiata  sulla  base  del  
+campione individuato dall'Amministrazione;
+Ritenuto pertanto procedere con l'affidamento per la fornitura di Timbro Digitale Lambda  
+25K inclusi 3GB di Lambda Storage  e Licenza Annuale fino a 10.000 Sigilli o Firme Automatiche , 
+impegnando la spesa di € 9.302,50 Iva compresa;
+Visti:
+- la disposizione del Sindaco di attribuzione di incarico dirigenziale PG 76011 del 27/02/2023  
+prorogata con PG. n. 231278 del 12/06/2024, con la quale è stato conferito l'incarico di Dirigente  
+del Settore Smart city, Servizi demografici e Partecipazione all’Ing. Luca Salvatore;
+-  la  disposizione  del  Sindaco  di  nomina  dell’Ing.  Luca  Salvatore  quale  Responsabile  della  
+Transizione Digitale dell'ente (RTD), PG n. 76011 del 27/02/2023, prorogata con PG n. 231404 del
+12/06/2024;
+- la delega del Dirigente responsabile del Settore Smart city, Servizi demografici e Partecipazione,  
+PG. n.  81028 del  01/03/2023 , in materia  di  provvedimenti  organizzativi  e  delega  di  fun zioni 
+gestionali ai Responsabili dei Servizi e degli Uffici, in base alla quale il Dott.  Simone Riccucci può 
+adottare  le  determinazioni  con  impegno  di  spesa,  previo  visto  di  congruità  del  Dirigente  
+Responsabile del Settore;
+Acquisito il visto di congruità del Dirigente Responsabile del Settore Smart City, Servizi  
+demografici e partecipazione, Ing. Luca Salvatore, ai sensi degli artt. 24 e 25 del Regolamento di  
+organizzazione;
+Visto l'art. 183, commi 8 e 9, del T.U. n. 267/2000 ordinamento EE.LL;
+Visti gli artt. 74 e 75 dello Statuto ed il Regolamento di Contabilità;
+Visto il D.Lgs. n. 36/2023 “Codice dei contratti pubblici”;
+Visto il Regolamento comunale per la Disciplina dei Contratti
+Ritenuto che l'istruttoria preordinata all'emanazione del presente atto consenta di attestare la
+regolarità e la correttezza di quest'ultimo ai sensi e per gli effetti di quanto dispone l'art. 147 bis del
+D.Lgs. 267/2000;
+copia informatica per consultazione
+D E T E R M I N A
+per le motivazioni espresse in parte narrativa, che integralmente si richiamano:
+1) di affidare, ai sensi dell’art 50 comma 1, lett. b) del D.Lgs. n. 36/2023, mediante Ordine Diretto  
+su MEPA nr. 8170761, codici prodotto “CLS_25k” e “CsgS_10K”, all’operatore economico GT50  
+srl, C.F./P.Iva 10707081005, Via Giovanni Antonelli n. 50, 00197 Roma , la  fornitura  di  Timbro 
+Digitale Lambda 25K inclusi 3GB di Lambda Storage  e Licenza Annuale fino a 10.000 Sigilli o  
+Firme Automatiche , validità annuale dal 01/01/2025 al 31/12/2025, al costo di € 7.625,00 oltre ad €  
+1.677,50 per oneri Iva 22%, per un totale complessivo di € 9.302,50 di cui costi di sicurezza,  
+derivanti da rischi interferenziali, stimati pari a zero;
+2) di impegnare la somma complessiva di € 9.302,50 per l’affidamento di cui al precedente punto  
+1) a favore di GT50 srl – P.Iva 10707081005 sul capitolo 2393 art. 43 “ Licenze software” Missione  
+1, Programma 8, Peg triennale, annualità 2025, p.c.f. 1.3.2.7.6, cod. aff. 403 (mepa), limite spesa  
+211, dando atto che esistono i presupposti di cui all’art. 183, comma 6 del T.U. n. 267/2000  
+ordinamento  EE.LL.,  in  quanto  affidamento  necessario  per  garantire  la  continuità  dei  servizi  
+connessi con le funzioni fondamentali dell’Ente di cui all’art. 19, comma 1, del DL 95/2012 lettera  
+a) organizzazione generale dell’amministrazione, ed in particolare sussiste la necessità di continuare  
+a usufruire del timbro digitale e del servizio di firme automatiche;
+3) di dare atto che il codice CIG dell'affidamento è B429E8FF94;
+4)  che  il  pagamento  delle  licenze  ad  inizio  dell’anno  2025  in  unica  soluzione  anticipata  è  
+condizione essenziale per la loro attivazione;
+5) di dare inoltre atto che il RUP del presente affidamento è il Dott. Simone Riccucci il quale ai  
+sensi dell'art. 18 comma 1 del D. Lgs. n. 36/2023 e della delega PG n.81028 01/03/2023 provvederà  
+altresì  alla  stipula  del  contratto  in  modalità  elettronica  nella  forma  prescritta  dalle  vigenti  
+disposizioni normative; 
+6) di attestare la regolarità e la correttezza del presente atto ai sensi e per gli effetti di quanto  
+dispone l'art. 147 bis del D.Lgs. 267/2000.
+Modena, lì 15/11/2024
+Il Responsabile Ufficio Agenda Digitale
+RICCUCCI SIMONE
+(Sottoscritto digitalmente ai sensi
+dell'art. 21 D.L.gs n 82/2005 e s.m.i.)
+copia informatica per consultazione
+COMUNE DI MODENA
+SETTORE SMART CITY, SERVIZI DEMOGRAFICI E PARTECIPAZIONE
+Visto di congruità del Responsabile di Settore
+DETERMINAZIONE n° 3051/2024 del 15/11/2024
+OGGETTO:  AFFIDAMENTO DIRETTO MEPA AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL  
+D.LGS. N. 36/2023 A FAVORE DI GT50 SRL PER LICENZA D'USO ANNUALE PER SISTEMA TIMBRO  
+DIGITALE LAMBDA E FIRMA AUTOMATICA MASSIVA - CIG B429E8FF94 - IMPEGNO ANNO 2025.  
+Ai sensi degli articoli 24 e 25 del Regolamento di Organizzazione dell'Ente, si 
+appone il visto di congruità del Responsabile di Settore.
+Modena li, 15/11/2024 
+Sottoscritto dal Responsabile di Settore
+(SALVATORE LUCA )
+con firma digitale
+copia informatica per consultazione
+COMUNE DI MODENA
+SETTORE RISORSE FINANZIARIE E PATRIMONIALI
+DETERMINAZIONE n. 3051/2024 del 15/11/2024
+Proposta n° 4416/2024
+OGGETTO:  AFFIDAMENTO DIRETTO MEPA AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL D.LGS. N.  
+36/2023  A FA VORE  DI  GT50  SRL PER  LICENZA D'USO  ANNUALE  PER  SISTEMA TIMBRO  DIGITALE  
+LAMBDA E FIRMA AUTOMATICA MASSIV A - CIG B429E8FF94 - IMPEGNO ANNO 2025.  . 
+Visto di Regolarità contabile.  
+Vista la delega prot. 411295 del 28/10/2022 che attribuisce l'apposizione del visto di regolarita'  
+contabile  attestante  la  copertura  finanziaria  al  Dirigente  del  Servizio  Finanze ,  Economato  e 
+Organismi Partecipati , Dr. Davide Manelli.
+Visto di regolarita' contabile attestante la copertura finanziaria a norma dell'art. 147 bis, comma 1,  
+del T.U. n. 267/2000 ordinamento EE.LL..
+Impegno 
+Progressivo nr. 1. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2393/43UTILIZZO DI BENI PER IL 
+SETTORE SISTEMI 
+INFORMATIVI 
+RELATIV AMENTE AD 
+ATTREZZATURE 
+INFORMATICHE E 
+PRODOTTI SOFTWARE E 
+HARDWARE (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) LICENZE 
+SOFTWARE1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno20252466/0 9.302,501/3/2/7/6
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 9.302,50
+Soggetto Descrizione
+83909 GT50 SRL
+copia informatica per consultazione
+Data di esecutività , 21/11/2024 
+Sottoscritto dal Responsabile del Servizio
+Finanze, Economato e Organismi Partecipati
+f.to MANELLI DA VIDE  
+con firma digitale
+copia informatica per consultazione

@@ -1,0 +1,302 @@
+COMUNE DI MODENA
+SETTORE SMART CITY, SERVIZI DEMOGRAFICI E PARTECIPAZIONE  
+*********
+DETERMINAZIONE n. 3034/2024 del 14/11/2024 
+Proposta n. 4333/2024  
+Esecutiva dal 20/11/2024
+Protocollo n. 449233 del 20/11/2024
+OGGETTO:  AFFIDAMENTO  DIRETTO  MEDIANTE  MEPA AI  SENSI  DELL'ART.  50  
+COMMA 1 LETT. B) DEL D.LGS. N. 36/2023 A FA VORE DELLA DITTA CONVERGE SRL  
+PER SERVIZIO DI MANUTENZIONE HARDWARE PER STORAGE SAN EMC VNX5400  
+- CIG B4391A5968. 
+Allegati: 
+Visti: 
+•Visto Congruita' con esito Favorevole (firmato: Si, firmatario: SALV ATORE LUCA)
+•Visto Contabile con esito Favorevole (firmato: Si, firmatario: MANELLI DA VIDE)
+Determinazione n. 3034 del 14/11/2024
+copia informatica per consultazione
+COMUNE DI MODENA
+DETERMINAZIONE DEL DIRIGENTE RESPONSABILE
+SETTORE SMART CITY , SERVIZI DEMOGRAFICI E PARTECIPAZIONE
+Ing. Luca Salvatore
+Numero determina: 3034/2024
+del 14/11/2024
+OGGETTO: AFFIDAMENTO DIRETTO MEDIANTE MEPA AI SENSI DELL'ART. 50 
+COMMA 1 LETT. B) DEL D.LGS. N. 36/2023 A FA VORE DELLA DITTA CONVERGE SRL 
+PER SERVIZIO DI MANUTENZIONE HARDWARE PER STORAGE SAN EMC VNX5400 
+- CIG B4391A5968.
+IL DIRIGENTE
+Premesso:
+•che con deliberazioni del Consiglio comunale n. 89 del 14.12.2023 e n. 94 del 21.12.2023,  
+entrambe  immediatamente  eseguibili,  sono  stati  approvati  rispettivamente  la  nota  di  
+aggiornamento al Documento Unico di Programmazione (DUP) 2024-2026 e il Bilancio di  
+Previsione 2024-2026;
+•che con deliberazioni della Giunta comunale n. 773 e n. 774 del 28.12.2023, entrambe  
+immediatamente eseguibili, sono stati approvati rispettivamente il Piano Integrato di Attività  
+e Organizzazione (PIAO) 2024-2026, nel cui allegato A sono indicati gli obiettivi e le  
+attività di performance dei Settori, e il Piano Esecutivo di Gestione 2024-2026, con il quale  
+sono state assegnate ai dirigenti titolari dei Centri di Responsabilità le dotazioni economico-
+finanziarie necessarie alla r ealizzazione degli obiettivi e delle attività definiti nel PIAO;
+•che  la  Giunta  comunale  ha  successivamente  apportato  variazioni  al  suddetto  Piano  
+Esecutivo di Gestione 2024-2026;
+Reso noto che:
+•il Comune di Modena, tramite il Settore Smart City, Servizi Demografici e Partecipazione,  
+gestisce  l’infrastruttura  tecnologica  del  sistema  informativo  dell’Ente,  costituito  da  
+apparecchiature hardware e da software;
+            Richiamati: 
+•il D.Lgs 82/2005 (Codice dell’Amministrazione Digitale), che definisce il quadro normativo  
+di riferimento per la digitalizzazione della pubblica amministrazione;
+•il  Piano  Triennale  per  l’informatica  nella  Pubblica  Amministrazione  2024-2026  
+dell’Agenzia per l’Italia Digitale (AGID);
+•la Deliberazione di Giunta Comunale n. 540/2023 di approvazione del Piano Triennale per la  
+copia informatica per consultazione
+transizione digitale 2023-2025 del Comune di Modena; 
+            Preso atto che: 
+Si rende necessario attivare un servizio  di manutenzione hardware per un periodo di mesi 12  
+per lo storage SAN EMC VNX5400 (seriale  CKM00140601368), attualmente senza contratto di  
+manutenzione e avente ad oggetto l'assistenza per il sistema d'immagazzinamento dati per i server e  
+le cartelle di rete in uso al Comune di Modena, al fine di garantire il corretto funzionamento degli  
+uffici comunali;
+Visto l’articolo 1 comma 512 ss. della legge 28 dicembre 2015, n. 208  che obbliga il ricorso agli  
+strumenti di acquisto e di negoziazione disponibili su Consip e soggetti aggregatori per procedere  
+all’acquisizione dei servizi informatici; 
+Visto l'art. 7 comma 2 D.L. 52/2012 convertito in Legge 94/2012; 
+Visto l'art. 1 comma 450 della Legge 296/2006, come modificato dall'art. 1 comma 130 della Legge  
+145 / 2018; 
+Visti gli artt. 17, 25, 48, 49 ed in particolare l'art. 50 comma 1 lettera b) del  D.Lgs. n. 36/2023;  
+Considerato che è intenzione perseguire  i principi generali in materia di contratti pubblici di cui al  
+Libro I, Parte I, Titolo I del D.Lgs. n. 36/2023, Codice dei Contratti Pubblici, e pertanto si rende  
+necessario avvalersi a tal fine degli strumenti di negoziazione messi a disposizione da Consip;  
+Rilevato, preliminarmente, come le prestazioni di cui in oggetto non possano rivestire un interesse  
+transfrontaliero certo, secondo quanto previsto dall’articolo 48, comma 2, del D.lgs. n. 36/2023; 
+Verificato che alla data di adozione della presente Determinazione non sono attive convenzioni  
+e/o accordi quadro aggiudicati da Consip s.p.a o dalla centrale di committenza regionale Intercent-
+ER, aventi a oggetto i servizi sopra indicati, o comparabili con essi, mentre è possibile reperirli sul  
+mercato elettronico della pubblica amministrazione (MEPA); 
+Vista l’offerta pubblicata a catalogo MePA dalla ditta Converge s.r.l., sede legale in Roma, Via  
+Mentore  Maggini,  1 ,  C.  F.  e  P.  I.V .A.:  04472901000 ,  all'iniziativa  “Servizi  ICT -  Servizi  di  
+manutenzione,  assistenza  tecnica  e  gestione-Mepa-  Codice  CPV:  50322000-8”,  con  il  codice 
+prodotto CNV-MOD-SUP1 , la quale propone la Manutenzione Hardware Terze Parti per Apparato  
+EMC VNX5400, al costo di € 6.990,00 oltre IV A 22%;
+Considerato che l'offerta risulta così dettagliata:
+Supporto 24x7 per EMC VNX5400 S/N CKM00140601368 12 mesi :
+- help desk
+- intervento on-site
+- fornitura parti
+- diagnosi
+L’assistenza non include consumabili(batterie,cache battery, SPS)
+L’assistenza software/aggiornamenti FW non è inclusa nel servizio
+Ritenuta  l'offerta di cui sopra economicamente conveniente e tecnicamente congrua rispetto alle  
+esigenze dell'Amministrazione; 
+copia informatica per consultazione
+Dato atto che: 
+•la società ditta Converge s.r.l  in occasione del precedente affidamento relativo al servizio  di 
+manutenzione hardware per lo storage SAN EMC VNX5400 (seriale  CKM00140601368) di  
+cui alla Determinazioni dirigenziali n. 676/2024 e n. 936/2024 (rettifica cig) ha fornito un 
+servizio  di  ottimo  livello,  ha  rispettando  i  tempi  stabiliti,  rispettando  puntualmente  la  
+disciplina  del  singolo  rapporto  contrattuale  ed  ha  soddisfatto  le  esigenze  
+dell'Amministrazione;  
+•l'affidamento  in  oggetto  è  di  modesto  importo,  non  rilevante  rispetto  alle  dinamiche  
+concorrenziali del settore di riferimento; 
+•ai  sensi  dell'art.  49  comma  4  del  D.Lgs.  n.  36/2023  ricorrono  pertanto  i  requisiti  per  
+derogare al principio di rotazione degli affidamenti; 
+Considerato che ai sensi dell’art. 62, comma 5, del D.lgs. n. 36/2023 e dell’Allegato II.4, il  
+Comune di Modena risulta essere dal 1 luglio 2023 Stazione Appaltante qualificata con riserva e  
+può quindi procedere direttamente e autonomamente all'acquisizione del servizio in oggetto;
+Ritenuto pertanto necessario affidare, ai sensi dell’art 50 comma 1, lett. b) del D.Lgs. n.  
+36/2023, mediante Ordine Diretto su MEPA scheda prodotto cod. CNV-MOD-SUP1, alla Società  
+Converge s.r.l. , il servizio di Manutenzione Hardware Terze Parti per Apparato EMC VNX5400 , 
+con decorrenza dalla data della stipula del contratto e per un periodo di 12 mesi, assumendo a suo 
+favore il relativo impegno di spesa per un importo complessivo di € 8.527,80 IV A inclusa; 
+Dato atto che: 
+•l’importo  del  presente  affidamento,  essendo  inferiore  ad  €  140.000,00,  non  prevede  
+l’obbligo del preventivo inserimento nel programma triennale di acquisti di beni e servizi di  
+cui all’art. 37 del Dlgs n.36/2023;
+•è stato acquisito il CIG B4391A5968, sia ai fini della tracciabilità di cui alla legge 136/2010  
+sia ai fini del monitoraggio dei contratti pubblici; 
+•il RUP (Responsabile Unico del Progetto) è  il Dr. Valentino Vaia, Responsabile dell'Ufficio  
+Reti e sistemi, ai sensi dell'art. 15 del D.Lgs. n. 36/2023 e dell'atto di delega del Dirigente di  
+Settore PG n. 81028/2023, il suddetto RUP è anche responsabile di procedimento per le fasi  
+di programmazione, progettazione, affidamento ed esecuzione ai sensi dell’art. 4 della L.  
+241/90,  il quale ha dichiarato che non sussistono conflitti di interesse che lo riguardano in  
+relazione all’oggetto dell’affidamento né nei confronti dell’affidatario della fornitura (PG  
+214745/2014); 
+•sono state verificate eventuali relazioni di parentela o affinità sussistenti tra i titolari, gli  
+amministratori e /o legali rappresentanti, soci e dipendenti con poteri decisionali della ditta e  
+i  dipendenti  dell'Amministrazione,  responsabili  del  presente  procedimento,  con  esito  
+negativo, non sussistendone; 
+•ai sensi dell'art. 53 comma 4 del D. Lgs. n. 36/2023, in relazione all'entità economica  
+dell'affidamento,  alla  comprovata  solidità  dell'operatore  economico  e  alle  modalità  di  
+adempimento delle prestazioni non si richiede la garanzia definitiva;
+•l’esecuzione delle spese soggette alla tracciabilità dei flussi finanziari sarà conforme a  
+quanto previsto dall’art. 3, Legge n. 136/2010 e dagli artt. 6 e 7, Legge n. 217/2010;
+•sono stati svolti con esito positivo i controlli previsti dalla normativa vigente in  
+ordine al possesso dei requisiti generali e speciali in capo all'operatore economico,  
+quali regolarità contributiva mediante acquisizione del DURC (certificato INPS_4255424  
+valido fino al 18/1/2025), consultazione del casellario informatico ANAC e acquisizione  
+copia informatica per consultazione
+della visura camerale; 
+• i dati relativi alla procedura in oggetto saranno pubblicati nella Banca Dati Nazionale dei  
+Contratti Pubblici di ANAC al link
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=B4391A5968&standalone=2 ;
+•si provvederà a tutti gli adempimenti in materia di comunicazione e trasparenza di cui agli  
+artt. 27 e 28 del Codice, compresa la pubblicazione dell’avviso sui risultati delle procedure  
+di affidamento ai sensi dell’art. 50, comma 9, ovvero del presente atto in quanto trattasi di  
+affidamento  diretto  anche  nell'apposita  sezione  del  profilo  del  committente  dell'ente  
+https://www.comune.modena.it/amministrazione-trasparente/bandi-di-gara-e-contratti/
+procedure-di-affidamento/procedure-di-affidamento-di-appalti-pubblici-e-concessioni-dal-1-
+01-2024/affidamenti-diretti ;
+Reso noto che:
+a) il legale rappresentante della società sopra citata ai sensi del T.U. n. 445/2000 e smi ( PG. 
+214415/2024) ha dichiarato :
+- l'insussistenza di cause di esclusione previste da gli artt. 94, 95, 98 del D. Lgs. n. 36/2023;
+-il rispetto del divieto  di cui all'art. 53, comma 16 ter, D. Lgs. n. 165/2001 e s.m.i.  del c.d. 
+Pantouflage, non avendo concluso, nell'ultimo triennio, contratti di lavoro subordinato o autonomo,  
+o attribuito incarichi, a ex dipendenti o incaricati del Comune di Modena, che abbiano esercitato,  
+negli ultimi 3 anni di servizio presso il Comune, poteri autoritativi e negoziali nei confronti della  
+propria società;
+- l'accettazione del codice di comportamento del Comune di Modena , approvato con deliberazione  
+della Giunta comunale n. 601 del 11/12/2013, da ultimo aggiornato con deliberazione della Giunta  
+comunale n. 777 del 28/12/2022, ai sensi del DPR 16 aprile 2013, n. 62 smi;
+- di applicare al personale impiegato nei servizi oggetto del presente affidamento,  ai sensi dell’art.  
+11  del  D.  Lgs.  n.  36/2023,  il  seguente  contratto  collettivo  nazionale  “Commercio,  Terziario  
+distribuzione e servizi” e che il costo della manodopera è pari a € 0;  
+b)  ai  sensi  dell'art.  52  del  D.lgs.  n.  36/2023  la  verifica  delle  dichiarazioni  verrà  effettuata  
+successivamente  dalla  Stazione  Appaltante,  in  caso  questa  venga  sorteggiata  sulla  base  del  
+campione individuato dall'Amministrazione; 
+Ritenuto pertanto di procedere con l'affidamento dei servizi di Manutenzione Hardware  
+Terze Parti per Apparato EMC VNX5400, con decorrenza dalla data della stipula del contratto e per  
+un periodo di 12 mesi, impegnando la spesa complessiva di € 8.527,80, da versarsi in un'unica  
+soluzione anticipata e con costi per la sicurezza pari a 0 euro, al fine di mettere in sicurezza il  
+sistema d'immagazzinamento dati per i server e le cartelle di rete in uso all'Ente;
+Visti:
+–la disposizione del Sindaco di attribuzione di incarico dirigenziale PG 76011 del 27/02/2023  
+prorogata con PG. n. 231278 del 12/06/2024, con la quale è stato conferito l'incarico di  
+Dirigente  del  Settore  Smart  city,  Servizi  demografici  e  Partecipazione  all’Ing.  Luca  
+Salvatore;
+–la disposizione del Sindaco di nomina  dell’Ing. Luca Salvatore quale Responsabile della  
+Transizione Digitale dell'ente (RTD), PG n. 76011 del 27/02/2023, prorogata con PG n.  
+231404 del 12/06/2024;
+copia informatica per consultazione
+–la  delega  del  Diri gente  responsabile  del  Settore  Smart  city,  Servizi  demografici  e  
+Partecipazione, PG. n. 81028 del 01/03/2023, in materia di provvedimenti organizzativi e  
+delega di funzioni gestionali ai Responsabili dei Servizi e degli Uffici, in base alla quale il  
+Dott. Valentino Vaia può adottare le determinazioni con impegno di spesa, previo visto di  
+congruità del Dirigente Responsabile del Settore;
+Acquisito il visto di congruità del Dirigente Responsabile del Settore Smart City, Servizi  
+demografici e partecipazione, Ing. Luca Salvatore, ai sensi degli artt. 24 e 25 del Regolamento di  
+organizzazione;
+           
+Visto l'art. 183, commi 8 e 9, del T.U. n. 267/2000 ordinamento EE.LL;
+Visti gli artt. 74 e 75 dello Statuto ed il Regolamento di Contabilità;
+Visto il D.Lgs. n. 36/2023 “Codice dei contratti pubblici”;
+Visto il Regolamento comunale per la Disciplina dei Contratti
+Ritenuto che l'istruttoria preordinata all'emanazione del presente atto consenta di attestare la  
+regolarità e la correttezza di quest'ultimo ai sensi e per gli effetti di quanto dispone l'art. 147 bis del  
+D.Lgs. 267/2000;
+D E T E R M I N A
+per le motivazioni espresse in parte narrativa, che integralmente si richiamano:  
+1)di affidare, ai sensi dell’art 50 comma 1, lett. b) del D.Lgs. n.  36/2023,  mediante Ordine 
+Diretto su MEPA scheda prodotto cod. CNV-MOD-SUP1, alla Società CONVERGE S.R.L.  
+con  sede  in  Roma,  Via  Mentore  Maggini  1  –  P.IV A  04472901000, il  servizio  di 
+Manutenzione  Hardware  Terze  Parti  per  Apparato  EMC  VNX5400  (seriale  
+CKM00140601368), con decorrenza dalla data della stipula del contratto e per un periodo di  
+12 mesi,   al costo di € 6.990,00,  oltre ad € 1.537,80 per oneri Iva 22%, per un totale  
+complessivo di € 8.527,80 di cui costi di sicurezza, derivanti da rischi interferenziali, stimati  
+pari a zero, da versarsi in un'unica soluzione anticipata pena l'impossibilità di sottoscrivere il  
+contratto;
+2)di impegnare la somma complessiva di  € 8.527,80 per l’affidamento di cui al precedente  
+punto 1) a favore di CONVERGE S.R.L. come sopra rappresentata, sul capitolo 2390/8  
+previo storno di competenza e di cassa di € 4.132,76 dal capitolo 2391/39 , del Peg triennale 
+2024-2026, annualità 2024, cod. aff. 403 (mepa), limite spesa 211;  
+3)di dare atto che il codice CIG dell'affidamento è B4391A5968 ;
+4)di dare inoltre atto che il RUP del presente affidamento è il Dott. Valentino Vaia il quale ai  
+sensi dell'art. 18 comma 1 del D. Lgs. n. 36/2023 e della delega PG 81028 del 01/03/2023  
+provvederà altresì alla stipula del contratto in modalità elettronica (ordine diretto d'acquisto)  
+nella forma prescritta dalle vigenti disposizioni normative; 
+copia informatica per consultazione
+5)di attestare la regolarità e la correttezza del presente atto ai sensi e per gli effetti di quanto  
+dispone l'art. 147 bis del D.Lgs. 267/2000.
+Modena, lì 14/11/2024
+Il Responsabile
+Ufficio reti e sistemi
+V AIA V ALENTINO
+(Sottoscritto digitalmente ai sensi
+dell'art. 21 D.L.gs n 82/2005 e s.m.i.)
+copia informatica per consultazione
+COMUNE DI MODENA
+SETTORE SMART CITY, SERVIZI DEMOGRAFICI E PARTECIPAZIONE
+Visto di congruità del Responsabile di Settore
+DETERMINAZIONE n° 3034/2024 del 14/11/2024
+OGGETTO:  AFFIDAMENTO DIRETTO MEDIANTE MEPA AI SENSI DELL'ART. 50 COMMA 1 LETT.  
+B)  DEL  D.LGS.  N.  36/2023  A  FAVORE  DELLA  DITTA  CONVERGE  SRL  PER  SERVIZIO  DI  
+MANUTENZIONE HARDWARE PER STORAGE SAN EMC VNX5400 - CIG B4391A5968  
+Ai sensi degli articoli 24 e 25 del Regolamento di Organizzazione dell'Ente, si 
+appone il visto di congruità del Responsabile di Settore.
+Modena li, 14/11/2024 
+Sottoscritto dal Responsabile di Settore
+(SALVATORE LUCA )
+con firma digitale
+copia informatica per consultazione
+COMUNE DI MODENA
+SETTORE RISORSE FINANZIARIE E PATRIMONIALI
+DETERMINAZIONE n. 3034/2024 del 14/11/2024
+Proposta n° 4333/2024
+OGGETTO:  AFFIDAMENTO DIRETTO MEDIANTE MEPA AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL  
+D.LGS.  N.  36/2023  A  FA VORE  DELLA  DITTA  CONVERGE  SRL  PER  SERVIZIO  DI  MANUTENZIONE  
+HARDWARE PER STORAGE SAN EMC VNX5400 - CIG B4391A5968  . 
+Visto di Regolarità contabile.  
+Vista la delega prot. 411295 del 28/10/2022 che attribuisce l'apposizione del visto di regolarita'  
+contabile  attestante  la  copertura  finanziaria  al  Dirigente  del  Servizio  Finanze ,  Economato  e 
+Organismi Partecipati , Dr. Davide Manelli.
+Visto di regolarita' contabile attestante la copertura finanziaria a norma dell'art. 147 bis, comma 1,  
+del T.U. n. 267/2000 ordinamento EE.LL..
+Impegno 
+Progressivo nr. 1. 
+Anno EsercizioE/UCap./Art.Descrizione Capitolo/Articolo Missione/Programma
+2024U2390/8ACQUISTO DI SERVIZI PER 
+IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI 
+DELL'I.V .A.) ACQUISTO DI 
+SERVIZI PER IL SETTORE 
+SISTEMI INFORMATIVI 
+(SERVIZIO RILEV ANTE AI 
+FINI DELL'I.V .A.) - 
+MANUTENZIONI1/8
+Pren./Imp.Anno CompetenzaNumero/SubImporto PdCCrono
+Impegno202416114/0 8.527,801/3/2/9/5
+PoliticaProgrammaProgettoDescrizione Politica-Programma-Progetto
+Tipo Finanziamento Descrizione Importo
+1 MEZZI CORRENTI 8.527,80
+Soggetto Descrizione
+59844 CONVERGE SPA
+copia informatica per consultazione
+Variazione di Bilancio  
+Anno Esercizio: 2024 Numero Variazione: 2
+Tipo: DIRIGENTE
+E/UCap./Art.Descrizione Capitolo/Articolo Anno 
+Comp.SegnoCompetenzaSegnoCassa
+U2391/39ACQUISTO DI BENI DI CONSUMO 
+PER IL SERVIZIO ELABORAZIONE 
+DATI E STAMPA (SERVIZIO 
+RILEV ANTE AI FINI IV A) ALTRI 
+ACQUISTI DI BENI2024-4.132,76-4.132,76
+Anno Esercizio: 2024 Numero Variazione: 6
+Tipo: DIRIGENTE
+E/UCap./Art.Descrizione Capitolo/Articolo Anno 
+Comp.SegnoCompetenzaSegnoCassa
+U2390/8ACQUISTO DI SERVIZI PER IL 
+SETTORE SISTEMI INFORMATIVI 
+(SERVIZIO RILEV ANTE AI FINI 
+DELL'I.V .A.) ACQUISTO DI SERVIZI 
+PER IL SETTORE SISTEMI 
+INFORMATIVI (SERVIZIO 
+RILEV ANTE AI FINI DELL'I.V .A.) - 
+MANUTENZIONI2024+4.132,76+4.132,76
+Data di esecutività , 20/11/2024 
+Sottoscritto dal Responsabile del Servizio
+Finanze, Economato e Organismi Partecipati
+f.to MANELLI DA VIDE  
+con firma digitale
+copia informatica per consultazione
