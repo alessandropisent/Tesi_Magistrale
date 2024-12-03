@@ -3,3 +3,4 @@ python-dotenv
 webdriver-manager
 PyPDF2
 selenium
+beautifulsoup4

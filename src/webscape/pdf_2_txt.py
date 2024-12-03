@@ -34,7 +34,7 @@ def extract_text_from_pdfs(directory):
 
 
 # Specify the directory containing the PDF files
-pdf_directory = "./Modena"  # Change this to your target directory
+pdf_directory = "./MB"  # Change this to your target directory
 
 # Call the function and process the PDFs
 extracted_data = extract_text_from_pdfs(pdf_directory)
