@@ -4,8 +4,8 @@ with open("./src/llama/MB_text/determinazioni/DET_MB_2708-2024.txt","r", encodin
 #print(determina)
 
 ## det_is_contr
-question = """Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti: 
-[NOTA per tutti gli elementi di questa checklist] : Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
+question = """Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
+Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti: 
 1. D.lgs 267/2000 ( art. 107 c. 2, lettera... art 109...)  183 e 191)																
 2. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso																
 3. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti																
@@ -20,28 +20,33 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import torch
 
 ## Multilingual model + 16K of context
-model_id = "meta-llama/Llama-3.1-8B"
+#model_id = "meta-llama/Llama-3.1-8B"
+model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
 
 
 model = AutoModelForCausalLM.from_pretrained(
     model_id,
     torch_dtype=torch.bfloat16,
-    device_map= torch.device('cuda:0'),
+    #device_map= torch.device('cuda:0'),
+    device_map='balanced',
+    use_flash_attention_2=True
 )
 tokenizer = AutoTokenizer.from_pretrained(model_id)
+tokenizer.add_special_tokens({"pad_token":"<unk>"})
 
 # Create the pipeline
 text_gen_pipeline = pipeline(
     "text-generation",
     model=model,
     tokenizer=tokenizer,
+    max_new_tokens=512,
 )
 
 
-prompt = """#### ISTRUZIONI
+prompt = """<s>[INST] <<SYS>>
 Sei un avvocato, leggi la seguente checklist con le eventuali note, poi leggi la determina dirigenziale e infine dimmi se i punti della checklist sono rispettati. 
 Rispondi punto per punto della checklist argomentando SE la norma è stata citata nella determina.
-"""
+<</SYS>>"""
 one_shot = """
 
 ##### OUTPUT::: Esempio di output desiderato:
@@ -51,13 +56,13 @@ one_shot = """
 """
 
 
-complete_prompt = prompt+"##### CHECKLIST\n\n"+question+"\n\n#### DETERMINA:\n"+determina+one_shot
+complete_prompt = prompt+"##### CHECKLIST\n\n"+question+"\n\n#### DETERMINA:\n"+determina+"[/INST]"+one_shot
 
 ret = text_gen_pipeline(
     complete_prompt,
-    max_length=10_000,    # Limit the length of generated text
-    max_new_tokens=500,
-    truncation = True,
+    #max_length=10_000,    # Limit the length of generated text
+    #max_new_tokens=500,
+    #truncation = True,
     temperature=0.01,   # Set the temperature
     #num_beams=2,
     return_full_text=False,
