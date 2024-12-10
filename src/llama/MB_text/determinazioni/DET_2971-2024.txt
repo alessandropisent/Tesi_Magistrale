@@ -1,0 +1,285 @@
+ 
+ 
+SETTORE STAZIONE UNICA APPALTANTE 
+ 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3122 del 10-12-2024 
+ 
+Oggetto: SUA: PROCEDURA APERTA, AI SENSI DELL ART. 71 DEL D.LGS. 36/2023, 
+PER L'AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E SUPPORTO DEL 
+SISTEMA INFORMATIVO DEL COMUNE DI CARATE BRIANZA (MB) PER 
+LA DURATA DI 36 MESI CON EVENTUALE PROROGA CONTRATTUALE 
+PER ULTERIORI 36 MESI E PROROGA TECNICA DI MASSIMO 6 MESI, 
+TRAMITE PIATTAFORMA SINTEL DI ARIA S.P.A., CON IL CRITERIO 
+DELL'OFFERTA ECONOMICAMENTE PIÚ VANTAGGIOSA AI SENSI 
+DELL'ART. 108 COMMA 2 LETT. B) DEL D.LGS. 36/2023. CUI 
+S01495680157202400001 CIG B371640D1E AGGIUDICAZIONE. 
+ 
+Il Decreto Presidenziale d’incarico n. 16 del 21/12/2021 avente ad oggetto “Nomina del Segretario titolare 
+della sede di Segreteria della Provincia di Monza e della Brianza” e il successivo Decreto Presidenziale n. 1 
+del 04/01/2022 “Conferimento funzioni al Segretario generale”.  
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO 
+ 
+La Provincia di Monza e della Brianza e la Città Metropolitana di Milano hanno istituito La Stazione Unica 
+Appaltante Monza-Brianza e Città Metropolitana di Milano (di seguito SUA) in conformità a quanto disposto 
+dall’art. 1, comma 88 della L. 7/4/2014, n. 56, avente ad oggetto “Disposizioni sulle città metropolitane, sulle 
+province, sulle unioni e fusioni di comuni”, secondo il quale la Provincia può, d’intesa con i Comuni, esercitare 
+le funzioni di predisposizione dei documenti di gara, di stazione appaltante, di monitoraggio dei contratti di 
+servizio e di organizzazione di concorsi e procedure selettive. 
+L’art. 30 del D.Lgs. n. 267/2000 e ss.mm.ii., richiamato dall’art. 62 comma 9 del D.Lgs. 36/2023, prevede che, 
+al fine di svolgere in modo coordinato funzioni e servizi determinati, gli enti locali possono stipulare tra loro 
+apposite convenzioni, stabilendo i fini, la durata, le forme di consultazione, i loro rapporti finanziari ed i 
+reciproci obblighi e garanzie. 
+La SUA è qualificata, ai sensi degli artt. 62 comma 7 e 63 comma 4 del D.Lgs. n. 36/2023, e pertanto ha 
+acquisito il seguente codice CIG per l’affidamento della procedura in oggetto: B371640D1E. 
+Il RUP (Responsabile Unico del Progetto ai sensi dell’art. 15 comma 9 del D.Lgs. 36/2023) della SUA è la 
+Dott.ssa Erminia Vittoria Zoppè, Direttore del Settore Risorse e Servizi ai Comuni, e la stessa non si trova in 
+alcuna delle ipotesi di conflitto di interessi previste dalla disciplina applicabile. 
+In data 13/02/2024 il Comune di Carate Brianza ha sottoscritto la Convenzione di adesione alla SUA. 
+Il Comune di Carate Brianza con proprie Determinazioni n. 706 del 10/10/2024 e 726 del 14/10/2024 ha 
+determinato di procedere mediante procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, con l’affidamento 
+del servizio di assistenza e supporto del sistema informativo del Comune di Carate Brianza (MB) per la durata 
+di 36 mesi con eventuale proroga contrattuale di 36 mesi e proroga tecnica di massimo 6 mesi, tramite 
+piattaforma Sintel di Aria s.p.a., con il criterio dell’offerta economicamente piú vantaggiosa ai sensi dell’art. 
+108 comma 2 lett. b) del D.lgs. 36/2023, approvando i documenti di progetto ed il quadro economico, 
+impegnando la relativa spesa e stabilendo quanto segue: 
+- valore globale massimo stimato dell’appalto: € 241.968,00; 
+
+di cui: 
+a. importo triennale (anni 2025/26; 2026/27; 2027/28): € 102.240,00 
+b. importo proroga (anni 2028/29; 2029/30; 2030/31): € 102.240,00; 
+c. importo quinto d’obbligo: € 20.448,00; 
+- costo della manodopera: € 81.792,00; 
+- importo base di gara: € 102.240,00; 
+- Importo eventuale proroga tecnica (massimo sei mesi) ex art. 120 comma 11 D.Lgs 36/23: € 
+17.040,00; 
+- criterio di aggiudicazione: offerta economicamente più vantaggiosa, ai sensi dell’art. 108, comma 2, 
+lett. a), del D.Lgs. 36/2023; 
+- CPV: 72600000-6 “servizi di consulenza e assistenza informatica”; 
+- Responsabile Unico del Progetto (RUP): Dott.ssa Raffaella Di Losa e-mail: 
+ced@comune.caratebrianza.mb.it   
+ 
+La SUA, con propria decisione di contrarre adottata con Determinazione Dirigenziale R.G. n. 2518 del 
+15/10/2024, ha preso atto del provvedimento sopra richiamato avviando l’iter procedimentale di competenza 
+al fine di gestire la presente procedura di gara mediante procedura aperta e con applicazione del criterio 
+dell’offerta economicamente più vantaggiosa, ai sensi degli artt. 108 comma 2 lett. a) e 130 del D.lgs. 36/2023, 
+conformemente a quanto disciplinato dalla Convenzione stipulata tra gli Enti. 
+ 
+La procedura in oggetto è stata bandita mediante ausilio della Piattaforma Sintel di Aria S.p.A. in modalità 
+multilotto, fissando quale termine di presentazione delle offerte le ore 09:00:00 del 18/11/2024. 
+ 
+Nel corso della 1^ seduta di gara del 18/11/2024 (prot. n. 58217/2024) il Presidente di seggio ha: 
+ dato atto che entro il termine di scadenza per la presentazione delle offerte hanno dato riscontro tramite la 
+piattaforma Sintel di ARIA S.p.A. i seguenti operatori economici: 
+ SOLUZIONE INFORMATICA SRL (C.F./P.IVA 01511090126) Forma singola; 
+ MSDSYSTEMS (C.F./P.IVA 03671520967)  Forma singola; 
+ R-CYBER (C.F./P.IVA 12664130965) Forma singola; 
+ A&B CONSULTING SRL (C.F./P.IVA 03893770127) Forma singola; 
+ VICSAM SISTEMI SRL (C.F./P.IVA 02638030961) Forma singola; 
+ 3S S.R.L. SOLUTIONS SERVICES SYSTEMS (C.F./P.IVA 04521930968) Forma singola; 
+ ASSIST INFORMATICA DI INVERSINI STEFANO SNC (C.F./P.IVA 03892780986) Forma 
+singola;   
+ dato atto che la verifica della firma digitale apposta dalle predette Società è risultata regolare; 
+ dato atto che la documentazione amministrativa presentata dai predetti operatori è risultata conforme a 
+quanto prescritto dal Disciplinare di gara; 
+− a dare atto che, visto l’esito della verifica della documentazione amministrativa degli operatori economici 
+partecipanti, si è reso necessario avviare soccorso istruttorio, nei confronti di n. 7 (sette) operatori 
+economici, ai sensi dell’art. 101 del D.lgs. 36/2023, fissando quale termine di riscontro, tramite la 
+piattaforma Sintel di Aria S.p.A., le ore 09:00 del giorno 25/11/2024. 
+ 
+In data 25/11/2024 si è svolta la 2^ seduta di gara (verbale prot. n. 59541/2024) nel corso della quale il 
+Presidente del seggio di gara ha provveduto a richiedere ulteriori chiarimenti per taluni operatori, fissando 
+quale termine di riscontro le ore 09:00 del giorno 27/11/2024. 
+ 
+In data 26/11/2024, vista la documentazione pervenuta in anticipo rispetto al termine di scadenza, si è svolta 
+la 3^ seduta di gara (verbale prot. n. 59971/2024) nel corso della quale il Presidente del seggio di gara ha 
+provveduto: 
+ ad ammettere i seguenti operatori economici alla successiva fase di gara (esame e valutazione 
+elaborati tecnici progettuali) in quanto si è accertato il possesso dei requisiti di partecipazione: 
+ 
+ SOLUZIONE INFORMATICA SRL (C.F./P.IVA 01511090126) Forma singola; 
+ MSDSYSTEMS (C.F./P.IVA 03671520967)  Forma singola; 
+ R-CYBER (C.F./P.IVA 12664130965) Forma singola; 
+ A&B CONSULTING SRL (C.F./P.IVA 03893770127) Forma singola; 
+ VICSAM SISTEMI SRL (C.F./P.IVA 02638030961) Forma singola; 
+ ASSIST INFORMATICA DI INVERSINI STEFANO SNC (C.F./P.IVA 03892780986) Forma 
+singola; 
+ 
+ Ad escludere con Determinazione Dirigenziale RG 2940 del 26/11/2024 l’operatore economico 3S 
+S.R.L. SOLUTIONS SERVICES SYSTEMS (C.F./P.IVA 04521930968); 
+ a concludere la fase amministrativa della presente procedura di gara e a dare atto che la Commissione 
+Giudicatrice, nel corso della 1^ seduta riservata, avvierà l’esame e la valutazione degli elaborati tecnici 
+presentati dagli operatori economici, sulla base dei criteri di valutazione previsti dal Disciplinare di 
+gara. 
+ 
+Nel corso della 1^ seduta riservata del 28/11/2024 (prot. n. 60546/2024), la Commissione 
+Giudicatrice, nominata con Determinazione Dirigenziale n. 2938 del 26/11/2024 della SUA, ha 
+esaminato e valutato le offerte tecniche degli operatori economici partecipanti. 
+Il Presidente della Commissione Giudicatrice ha dato atto che: 
+− all’offerta tecnica, conformemente a quanto previsto nel disciplinare di gara, è stato assegnato il 
+seguente punteggio massimo (90,00/90,00); 
+− le offerte tecniche presentate hanno ottenuto i seguenti punteggi: 
+ SOLUZIONE INFORMATICA SRL: punteggio tecnico pari a 69,04;  
+ MSDSYSTEMS: punteggio tecnico pari a 36,44; 
+ R-CYBER: punteggio tecnico pari a 69,68; 
+ A&B CONSULTING SRL: punteggio tecnico pari a 52,21; 
+ VICSAM SISTEMI SRL: punteggio tecnico pari a 54,28 
+ ASSIST INFORMATICA DI INVERSINI STEFANO SNC: punteggio tecnico pari a 41,04; 
+ 
+Il Presidente della Commissione Giudicatrice dà atto che l’operatore economico MSDSYSTEMS (P.IVA/CF: 
+03671520967) e l’operatore economico ASSIST INFORMATICA DI INVERSINI STEFANO SNC 
+(P.IVA/CF: 03892780986) non hanno superato la soglia minima di sbarramento prevista dal Disciplinare di 
+gara e pari a 52,00, pertanto sono stati esclusi dalle successive fasi di gara (Determinazioni Dirigenziali n. 
+3026 e n. 3027 del 02/12/2024). 
+ 
+ 
+Nel corso della 4^ seduta del 28/11/2024 (prot. n. 60546/2024), la Commissione Giudicatrice, ha 
+proceduto con l’apertura delle offerte economiche. 
+ 
+−  dato lettura delle seguenti offerte economiche presentate dai predetti operatori economici: 
+ 
+ SOLUZIONE INFORMATICA SRL offre uno sconto percentuale in ribasso rispetto alla base di gara 
+pari al 8,17%; 
+ R-CYBER offre uno sconto percentuale in ribasso rispetto alla base di gara pari al 16,11%; 
+ A&B CONSULTING SRL offre uno sconto percentuale in ribasso rispetto alla base di gara pari al 
+3,00%; 
+ VICSAM SISTEMI SRL offre uno sconto percentuale in ribasso rispetto alla base di gara pari al 
+10,00%; 
+ 
+− dato atto che all’offerta economica, conformemente a quanto previsto nel disciplinare di gara, è stato 
+assegnato il seguente punteggio massimo (10,00/10,00); 
+− le offerte economiche dei predetti operatori economici ottengono i seguenti punteggi: 
+ 
+ R-CYBER punteggio totale pari a 10,00/10,00; 
+ SOLUZIONE INFORMATICA SRL punteggio totale pari a 5,07/10,00; 
+ VICSAM SISTEMI SRL punteggio totale pari a 6,21/10,00; 
+ A&B CONSULTING SRL punteggio totale pari a 1,86/10,00; 
+ 
+  
+− dalla somma dei punteggi tecnici ed economici precedentemente indicati, è risultato il seguente 
+punteggio complessivo: 
+ 
+ R-CYBER punteggio totale pari a 79,6800; 
+ SOLUZIONE INFORMATICA SRL punteggio totale pari a 74,1114; 
+ VICSAM SISTEMI SRL punteggio totale pari a 60,4873 
+ A&B CONSULTING SRL punteggio totale pari a 54,0755; 
+ 
+− la Commissione ha proceduto con la verifica della sostenibilità dell’offerta del miglior offerente 
+e, pertanto: 
+ ha dato atto che all’interno della busta economica del predetto operatore sono già risultati 
+presenti i relativi giustificativi; 
+ ha esaminato tutte le voci indicate all’interno del modello di offerta economica e dei relativi 
+giustificativi; 
+ ha invitato l’operatore economico predetto ad integrare le giustificazioni prodotte in merito 
+all’equivalenza delle tutele del CCNL applicato, ai sensi del D.Lgs. 36/2023. In particolare, si è chiesto 
+di compilare in tutte le sue parti il file allegato “Dichiarazione di equivalenza tutele CCNL” presentato 
+in sede di Gara entro martedì 04/12/2024 alle ore 09:00 tramite il Canale “Comunicazioni Procedura” 
+della Piattaforma Sintel. 
+ 
+Entro il predetto termine la Società R-CYBER ha dato riscontro rispetto a quanto richiesto dalla 
+Commissione Giudicatrice. 
+ 
+La SUA ha, successivamente, trasmesso al RUP del Comune di Carate Brianza le predette 
+giustificazioni, per la valutazione finale di sostenibilità dell’offerta economica e conseguente rilascio 
+del parere ai fini della successiva proposta di aggiudicazione della procedura. 
+In data 05/12/2024 il RUP del Comune di Carate Brianza ha trasmesso alla SUA il parere positivo di 
+congruità dell’offerta presentata dall’operatore economico R-CYBER (PEC prot. prov.le n. 
+62133/2024). 
+La SUA ha accertato in capo alla predetta società il possesso dei requisiti ex artt. 94 e ss. e 100 del D.lgs. 
+36/2023. 
+ 
+2. MOTIVAZIONE 
+Tenuto conto dei presupposti di fatto e di diritto dell’iter procedimentale svolto, ai sensi dell’art. 17, comma 
+5, del D.lgs. 36/2023, il RUP della SUA dispone l’aggiudicazione, previa verifica della legittimità e della 
+conformità all’interesse pubblico e del possesso dei requisiti in capo all’operatore economico proposto come 
+aggiudicatario.  
+Per quanto sopra, effettuato con esito positivo il controllo sugli atti della procedura di gara, nonché valutata la 
+legittimità e il permanere dell’interesse pubblico nella realizzazione dell’affidamento, si ritiene di poter 
+procedere con l’aggiudicazione efficace dell’appalto per l’affidamento  del servizio di assistenza e supporto 
+del sistema informativo per il Comune di Carate Brianza, nei confronti della Società R-CYBER SRL 
+(C.F./P.IVA 12664130965)– Via Milanese, 20 – Sesto San Giovanni (MI), risultata miglior offerente con un 
+punteggio complessivo pari a 79,6800/100,00 punti. 
+ 
+I controlli ex artt. 94 e ss., e art. 100 del D.lgs. n. 36/2023 sul possesso dei requisiti in capo all’operatore 
+economico R-CYBER SRL, si sono conclusi senza cause ostative alla stipula e all’esecuzione dei contratti 
+pubblici e, pertanto, nulla osta all’affidamento di cui trattasi.  
+ 
+Successivamente all’assunzione del presente provvedimento di aggiudicazione, recepito con Determina di 
+presa d’atto da parte del Comune di Carate Brianza, sarà inoltrata la comunicazione, ai sensi e per gli effetti di 
+cui all’art. 90, comma 1, lett. b) e c) del D.lgs. 36/2023, all’aggiudicatario e a tutti gli altri operatori economici 
+partecipanti, con comunicazione trasmessa via PEC, mediante apposita funzione “Comunicazioni della 
+procedura” di Sintel.  
+ 
+3. RICHIAMI NORMATIVI 
+Il combinato disposto degli artt. 107 comma 3 lettera d) e 179 e l’art. 192 del D.lgs. 18/08/2000, n. 267, “Testo 
+unico delle leggi sull’ordinamento degli Enti Locali”. 
+La Legge 7/4/2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni di 
+Comuni” e ss.mm.ii. 
+L’art. 4, commi 6 e 7 del Regolamento dei controlli interni, approvato con deliberazione del Consiglio 
+provinciale n. 5 del 28/02/2013, esecutiva, da ultimo modificato con deliberazione Consiliare n. 12 del 
+27/05/2015. 
+Gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei Sindaci n. 1 del 
+30/12/2014, esecutiva. 
+Il Regolamento sull’ordinamento degli uffici e dei servizi, approvato con deliberazione della Giunta 
+provinciale n. 62 del 31/03/2010, esecutiva e aggiornato con proprie deliberazioni n. 75 del 22/04/2010, n. 244 
+del 28/12/2011, n. 60 del 15/05/2013 e n. 122 del 16/10/2013, n. 78 del 23/07/2014, esecutive, con Decreto 
+Deliberativo Presidenziale n. 61 del 8/6/2017 e, da ultimo, con Decreto Deliberativo Presidenziale n. 22 del 
+20/03/2018; n. 46 del 09/04/2019 e n. 56 del 20/05/2021, n. 44 del 16/03/2023 e, da ultimo, n. 189 del 
+05/12/2023.. 
+Il D.lgs. 33/2013 e ss.mm.ii. e l’art. 20 del D.lgs. n. 36/2023, in materia di Amministrazione trasparente. 
+Il nuovo Codice dei Contratti Pubblici di cui al D.lgs. n. 36/2023, in particolare in particolare gli artt. 1, 3, 
+15, 17, 62, 63, 71, 94, 95, 108, 110. 
+Il D.Lgs. n. 159/2011 “Codice delle leggi antimafia e delle misure di prevenzione, nonché nuove disposizioni 
+in materia di documentazione antimafia, a norma degli articoli 1 e 2 della legge 13 agosto 2010, n. 136” e 
+ss.mm.ii. 
+ 
+ 
+4. PRECEDENTI 
+La Delibera del Consiglio Provinciale n. 32 del 26/10/2023 “Schema di convenzione per la gestione delle 
+attività della Stazione Unica Appaltante della Provincia di Monza e della Brianza, della Città Metropolitana 
+di Milano e degli altri soggetti richiedenti a norma del codice dei contratti pubblici. Approvazione (i.e.)”. 
+Il D.D.P. n. 59 del 18/04/2024 avente ad oggetto “Macrostruttura e funzionigramma. Aggiornamenti. 
+Approvazione”. 
+La Determinazioni n. 706 del 10/10/2024 e n. 726 del 14/10/2024, con le quali il Comune di Carate Brianza 
+ha delegato la SUA, ente qualificato ai sensi degli artt. 62 e 63 del D.lgs. n. 36/2023, per l’espletamento della 
+procedura di gara di cui trattasi.  
+La decisione di contrarre adottata dalla SUA con Determinazione Dirigenziale R.G. n. 2518 del 15/10/2024. 
+La Determinazione Dirigenziale della SUA R.G. n. 2938 del 26/11/2024 di nomina della Commissione 
+Giudicatrice. 
+ 
+DETERMINA  
+ 
+1) di recepire le premesse sopra descritte, quali parti integranti e sostanziali del presente atto;  
+2) di approvare i seguenti verbali di gara, allegati al presente atto:  
+ 1^ seduta di gara del 18/11/2024 (prot. n. 58217/2024); 
+ 2^ seduta di gara del 25/11/2024 (prot. n.  59541/2024); 
+ 3^ seduta di gara del 26/11/2024 (prot. 59971/2024); 
+ 1^ seduta riservata e 4^ seduta di gara del 28/11/2024 (prot. n. 60546/2024); 
+3) di confermare, verificata la conformità all’interesse pubblico, nonché il permanere in capo all’operatore 
+economico dei requisiti di ordine generale per l’affidamento del servizio suindicato, a seguito 
+dell’espletamento della procedura di gara; 
+4) di aggiudicare, con efficacia, in esito ai controlli ex artt. 94 e ss., e art. 100 del D.lgs. n. 36/2023, 
+l’affidamento  del servizio di assistenza e supporto del sistema informativo per il Comune di Carate Brianza, 
+nei confronti della Società R-CYBER SRL (C.F./P.IVA 12664130965)– Via Milanese, 20 – Sesto San 
+Giovanni (MI), risultata miglior offerente con un punteggio complessivo pari a 79,6800/100,00 punti; 
+5) di dare atto che la sopracitata società aggiudicataria, in riferimento alla Legge n. 136/2010, sarà obbligata 
+al rispetto della tracciabilità dei flussi finanziari ai sensi ed effetti dell’art. 3 di detta legge; 
+6) di attestare, ai sensi dell’art. 147 – bis comma 1 del D.lgs. n. 267/2000 e ss.mm.ii., la regolarità e la 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+7) di trasmettere il presente provvedimento al Comune di Carate Brianza per i successivi adempimenti, 
+compresa la stipula del contratto nonché ai fini del rimborso delle seguenti somme, che verranno accertate, 
+con successivo provvedimento dirigenziale al termine della procedura di gara: 
+− l’importo di € 250,00 stabilito dall’Autorità Nazionale Anticorruzione con Delibera n. 610 del 
+19/12/2023, quale contribuzione dovuta alla stessa dalle Stazioni Appaltanti; 
+− l’importo di € 327,17, riferito ai compiti svolti dal personale della SUA nell’espletamento di procedure 
+di acquisizione di lavori, servizi e forniture, ai sensi dell’art. 45 del D.lgs. 36/2023 e così come 
+richiamato all’art. 11, comma 3 della Convenzione, sottoscritta dal Comune; 
+  
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
