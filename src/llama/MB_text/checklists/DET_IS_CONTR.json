@@ -1,6 +1,6 @@
 {
     "NomeChecklist":"DET_IS_CONTR",
-    "Descrizione":"DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI", 
+    "Descrizione":"DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI\nQuesta checklist è uno strumento per verificare la regolarità amministrativa e tecnica di:\n- Determinazioni dirigenziali che impegnano risorse finanziarie.\n- Atti relativi all'affidamento di contratti pubblici o privati.\n - Procedure amministrative con impatti su bilanci, contratti, o obbligazioni legali.\nAtti su cui applicarla:\n- Affidamenti di servizi, forniture o lavori.\n- Atti di formalizzazione di spese, come acquisti o manutenzioni.\n- Contratti con terzi (es., appalti, convenzioni).", 
     "Punti":[
         { 
             "Istruzioni": "Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie [RISPONDI CON: SI/NO/CARENTE]\n",
