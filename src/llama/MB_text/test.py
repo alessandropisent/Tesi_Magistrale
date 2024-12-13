@@ -20,16 +20,17 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import torch
 
 ## Multilingual model + 16K of context
-#model_id = "meta-llama/Llama-3.1-8B"
-model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
+model_id = "meta-llama/Llama-3.1-8B-Instruct"
+#model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
+#model_id = "meta-llama/Llama-3.1-70B-Instruct"
 
 
 model = AutoModelForCausalLM.from_pretrained(
     model_id,
     torch_dtype=torch.bfloat16,
-    #device_map= torch.device('cuda:0'),
-    device_map='balanced',
-    use_flash_attention_2=True
+    device_map= torch.device('cuda:0'),
+    #device_map='balanced',
+    #use_flash_attention_2=True
 )
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 tokenizer.add_special_tokens({"pad_token":"<unk>"})
@@ -39,32 +40,33 @@ text_gen_pipeline = pipeline(
     "text-generation",
     model=model,
     tokenizer=tokenizer,
-    max_new_tokens=512,
+    #max_new_tokens=1000,
 )
 
 
 prompt = """<s>[INST] <<SYS>>
 Sei un avvocato, leggi la seguente checklist con le eventuali note, poi leggi la determina dirigenziale e infine dimmi se i punti della checklist sono rispettati. 
 Rispondi punto per punto della checklist argomentando SE la norma è stata citata nella determina.
-<</SYS>>"""
+[/INST]
+"""
 one_shot = """
 
-##### OUTPUT::: Esempio di output desiderato:
+##### Esempio di output desiderato:
 3. D.lgs 267/2000 :-> Rispettato, la norma è citata al interno della determina
 7. articolo 26 bis :-> Non Rispettato, la norma non è citata e non è rilevante
 
 """
 
 
-complete_prompt = prompt+"##### CHECKLIST\n\n"+question+"\n\n#### DETERMINA:\n"+determina+"[/INST]"+one_shot
+complete_prompt = prompt+"##### CHECKLIST\n\n"+question+"\n\n#### DETERMINA:\n"+determina+"<</SYS>></s>""\n##### OUTPUT:"
 
 ret = text_gen_pipeline(
     complete_prompt,
-    #max_length=10_000,    # Limit the length of generated text
-    #max_new_tokens=500,
-    #truncation = True,
+    max_length=10_000,    # Limit the length of generated text
+    max_new_tokens=500,
+    truncation = True,
     temperature=0.01,   # Set the temperature
-    #num_beams=2,
+    num_beams=2,
     return_full_text=False,
     )
 
@@ -84,9 +86,9 @@ with open("./src/llama/MB_text/possibili_checklists.txt","r",encoding="utf-8") a
 
 print(possib_checklist)
 
-prompt = """###### ISTRUZIONI
-Sei un avvocato, e hai una lista di possibili checklist da applicare alla seguente determina. Seleziona le checlist rilevante per questa determina.
-
+prompt = """<s>[INST] <<SYS>>
+Sei un avvocato, Seleziona la checklist rilevante per questa determina.
+[/INST]
 """
 
 ogg_determina = """Oggetto: PROCEDURA APERTA TELEMATICA, AI SENSI DELL'ART. 71 E 107 
@@ -100,7 +102,7 @@ D.LGS. 36/2023. CIG: B4474B16DA; CUP: B37H22005330001; CUI:
 L94616010156202300015. DECISIONE DI CONTRARRE. 
 """
 
-complete_prompt = prompt+"##### CHECKLISTs POSSIBILI:\n\n" + possib_checklist+"\n\n#### OGGETTO DETERMINA:\n\n"+ogg_determina
+complete_prompt = prompt+"##### CHECKLISTs POSSIBILI:\n\n" + possib_checklist+"\n\n#### OGGETTO DETERMINA:\n\n"+ogg_determina+"<</SYS>></s>\n\n### OUTPUT:\n"
 
 
 ret = text_gen_pipeline(

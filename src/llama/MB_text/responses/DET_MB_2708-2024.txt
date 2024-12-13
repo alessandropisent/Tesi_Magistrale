@@ -1,12 +1,13 @@
 ########## ------------ PROMPT --------------
 
-#### ISTRUZIONI
+<s>[INST] <<SYS>>
 Sei un avvocato, leggi la seguente checklist con le eventuali note, poi leggi la determina dirigenziale e infine dimmi se i punti della checklist sono rispettati. 
 Rispondi punto per punto della checklist argomentando SE la norma è stata citata nella determina.
+[/INST]
 ##### CHECKLIST
 
+Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
 Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti: 
-[NOTA per tutti gli elementi di questa checklist] : Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
 1. D.lgs 267/2000 ( art. 107 c. 2, lettera... art 109...)  183 e 191)																
 2. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso																
 3. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti																
@@ -351,13 +352,34 @@ IL DIRETTORE
 DOTT.SSA ERMINIA VITTORIA ZOPPE' 
  
 Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
-
-
-##### OUTPUT::: Esempio di output desiderato:
-3. D.lgs 267/2000 :-> Rispettato, la norma è citata al interno della determina
-7. articolo 26 bis :-> Non Rispettato, la norma non è citata e non è rilevante
-
-
+<</SYS>></s>
+##### OUTPUT:
 
 ########## -------------------------- GENERATED ---------------------------
 
+ 
+
+1. Citare con precisione gli articoli, commi e lettere delle fonti di regolazione. 
+La determina dirigenziale cita gli articoli del D.Lgs. 36/2023 (art. 71, 107 comma 3, 108) e del D.Lgs. 267/2000 (art. 192). 
+
+2. Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie. 
+La determina dirigenziale cita prima le norme di legittimazione (art. 192 del D.Lgs. 267/2000) e poi le norme procedurali (art. 71, 107 comma 3, 108 del D.Lgs. 36/2023). 
+
+3. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti: 
+1. D.lgs 267/2000 (art. 107 c. 2, lettera... art 109...)  183 e 191) 
+La determina dirigenziale cita l'art. 192 del D.Lgs. 267/2000. 
+
+2. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso 
+La determina dirigenziale non cita il D.Lgs. 163/2006. 
+
+3. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti 
+La determina dirigenziale non cita il R.D. 2440/1924. 
+
+4. DPR  207/2010, art.. (indicare istituto specifico) 
+La determina dirigenziale non cita il DPR 207/2010. 
+
+5. Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003) 
+La determina dirigenziale cita l'art. 20 del D.Lgs. 36/2023. 
+
+6. Eventuali altre normative generali e/o di specificazione 
+La determina dirigenziale cita gli artt. 1, 3, 
