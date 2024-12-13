@@ -1,0 +1,19 @@
+{
+    "NomeChecklist":"ACCERT",
+    "Descrizione":"", 
+    
+    "Punti":[
+        { 
+            "Istruzioni": "In questa determina sono rispettati i seguenti 2 punti? rispondi punto per punto",
+            "Punti":"0. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti\n1a D.Lgs 267/2000 artt. 107 e 179"
+
+        },
+
+        { 
+            "Istruzioni": "In questa determina sono rispettati i seguenti punti?",
+            "Punti":"Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare\n2a Regolamento sull'ordinamento degli uffici e dei Servizi - (DG N. 9 del 29/1/2014)\n2b Regolamento di contabilità\n2c Regolamento in materia di controlli interni\n2d Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)"
+
+        }
+        
+    ]
+}
