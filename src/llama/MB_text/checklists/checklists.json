@@ -1,0 +1,44 @@
+{
+    "checklists": [{
+    "NomeChecklist":"ACCERT",
+    "Descrizione":"La checklist è destinata alla verifica di atti amministrativi di accertamento delle entrate. Essa serve per:\nGarantire la conformità normativa e regolamentare.\n Assicurare la regolarità formale e sostanziale dell'atto.\nValutare tempestività e coerenza rispetto agli obiettivi.\nAtti di applicazione\n\nPuò essere usata per verificare atti come:\n- Provvedimenti amministrativi riguardanti entrate tributarie o extratributarie.\n- Decisioni relative a sanzioni, recupero crediti o altre forme di accertamento.", 
+    
+    "Punti":[
+        { 
+            "Istruzioni": "In questa determina sono rispettati i seguenti 2 punti? rispondi punto per punto",
+            "Punti":"0. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti\n1a D.Lgs 267/2000 artt. 107 e 179"
+
+        },
+
+        { 
+            "Istruzioni": "In questa determina sono rispettati i seguenti punti?",
+            "Punti":"Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare\n2a Regolamento sull'ordinamento degli uffici e dei Servizi - (DG N. 9 del 29/1/2014)\n2b Regolamento di contabilità\n2c Regolamento in materia di controlli interni\n2d Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)"
+
+        }
+        
+    ]
+},
+{
+    "NomeChecklist":"DET_IS_CONTR",
+    "Descrizione":"DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI\nQuesta checklist è uno strumento per verificare la regolarità amministrativa e tecnica di:\n- Determinazioni dirigenziali che impegnano risorse finanziarie.\n- Atti relativi all'affidamento di contratti pubblici o privati.\n - Procedure amministrative con impatti su bilanci, contratti, o obbligazioni legali.\nAtti su cui applicarla:\n- Affidamenti di servizi, forniture o lavori.\n- Atti di formalizzazione di spese, come acquisti o manutenzioni.\n- Contratti con terzi (es., appalti, convenzioni).", 
+    "Punti":[
+        { 
+            "Istruzioni": "Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie [RISPONDI CON: SI/NO/CARENTE]\n",
+            "Punti":"Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti:\n1. D.lgs 267/2000 ( art. 107 c. 2, lettera... art 109...)  183 e 191)\n2. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso\n3. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti\n4. DPR  207/2010, art.. (indicare istituto specifico)\n5. Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)\n6. Eventuali altre normative generali e/o di specificazione"
+
+        },
+
+        { 
+            "Istruzioni": "Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie[RISPONDI CON: SI/NO/CARENTE]\n",
+            "Punti":"Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare:\n1.Statuto\n2.Regolamento sull'ordinamento degli uffici e dei Servizi -(DG n. 9 del 29/1/2014) \n3.Regolamento di contabilità  \n4.Regolamento in materia di controlli \n5.D.G. n. 25 del 30.9.2009 \"Linee operative e indirizzo d'applicazione normaiva delle procedure in economia\""					
+        },
+        { 
+            "Istruzioni": "Citare con precisione, sempre, le deliberazioni  a contenuto programmatico: Bilancio di previsione, PEG (comprese modifiche/variazioni intervenute nell'anno, Bilancio pluriennale). Quando le  procedure vengono effettuate mediante prenotazione di spesa per commesse  relative all'esercizio successivo, citare l'annualità del bilancio pluriennale in corso, con riferimento all'oggetto del contratto.\n",
+            "Punti":"Conformità al programma di mandato, Piano Esecutivo di Gestione, atti di programmazione\n1.Regolarità delle procedure, correttezza formale nei provvedimenti emessi\n2.Coerenza dei dati riportati nei provvedimenti e nei relativi allegati"
+
+        }
+
+    ]
+}]
+
+}
