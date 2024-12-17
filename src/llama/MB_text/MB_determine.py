@@ -23,8 +23,7 @@ def clean_text(text):
   return cleaned_text
 
 
-
-def generate_prompt(istruzioni, punti, determina):
+def generate_prompt(istruzioni, punti, num, sotto, determina):
     """
     Crea un prompt strutturato per verificare la corrispondenza tra i punti di una checklist normativa e una determina.
     
@@ -63,14 +62,17 @@ def generate_prompt(istruzioni, punti, determina):
     {determina}
 
     ##### OUTPUT:
-    Punto 1: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
-      - 1a: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
-      - 1b: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
-      ...
-    ...
+    Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
+      {"\n\t\t".join([f"-{num}{lettera}. [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]" for lettera in sotto])}
 
+    
+    QUINDI Dati i sottopunti elencati, il Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
     Note finali: [eventuali osservazioni generali]
     [/INST]</s>
+    
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>
     """
 
 def generate_prompt_choose(determina):
@@ -166,7 +168,6 @@ def choose_checklist(nome_determina,
         #max_new_tokens=500,
         #truncation = True,
         temperature=0.01,   # Set the temperature
-        num_return_sequences=3,  # Number of completions to generate
         return_full_text=False,
     )
 
@@ -210,17 +211,20 @@ def checklist_determina(nome_determina,
                 
                 
                 
-                complete_prompt = generate_prompt(punto["Istruzioni"],punto["Punti"],determina)
+                complete_prompt = generate_prompt(punto["Istruzioni"],
+                                                  punto["Punti"],
+                                                  punto["num"],
+                                                  punto["sott"], 
+                                                  determina)
                 
                 ret = text_gen_pipeline(
                     complete_prompt,
-                    max_length=10_000,    # Limit the length of generated text
                     max_new_tokens=500,
                     truncation = True,
-                    temperature=0.01,   # Set the temperature
-                    num_beams=2,
                     return_full_text=False,
-                    )
+                    top_p = 0.9,
+                    temperature = 0.8,
+                )
 
                 #print(ret)
 
@@ -289,24 +293,26 @@ if __name__ == "__main__":
         df_determine = pd.read_csv(f)
 
 
+
     ## Choose the right checklist for each determina
-    ### i do a loop to make it clear
-    #for index, row in df_determine.iterrows():
-    #    print(f"I'm genenerting the checklist for {index}, det {row['Numero Determina']} - {model_id.split("/", 1)[1]}")
-    #    df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
-    #                                                     text_gen_pipeline,
-    #                                                     model_id.split("/", 1)[1])
-    #
-    #df_determine.to_csv("./src/llama/MB_text/MB_Determine_gen.csv")
+    ## i do a loop to make it clear
+    if False:
+        for index, row in df_determine.iterrows():
+            print(f"I'm genenerting the checklist for {index}, det {row['Numero Determina']} - {model_id.split("/", 1)[1]}")
+            df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
+                                                            text_gen_pipeline,
+                                                            model_id.split("/", 1)[1])
+        
+        df_determine.to_csv("./src/llama/MB_text/MB_Determine_gen.csv")
             
     
-    
-    for i, _ in df_determine.iterrows():
-        num = df_determine["Numero Determina"].loc[i]
-        che_ass = df_determine["Checklist associata"].loc[i]
-        ogg_det = df_determine["Oggetto determina"].loc[i]
-        
-        if che_ass == "DET_IS_CONTR":
-            checklist_determina(num,che_ass, text_gen_pipeline, checklists)
-        print(f"Done determina {num} - {che_ass}")
+    if True:
+        for i, _ in df_determine.iterrows():
+            num = df_determine["Numero Determina"].loc[i]
+            che_ass = df_determine["Checklist associata"].loc[i]
+            ogg_det = df_determine["Oggetto determina"].loc[i]
+            
+            if che_ass == "DET_IS_CONTR":
+                checklist_determina(num,che_ass, text_gen_pipeline, checklists)
+            print(f"Done determina {num} - {che_ass}")
 

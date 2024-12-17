@@ -55,8 +55,7 @@ Decreto
 ########## -------------------------- GENERATED ---------------------------
 
  Checklist suggerita: DET_CONTR
-     Motivazione: La determina riguarda la cancellazione dal Registro Unico Nazionale del Terzo Settore di un'associazione, pertanto si tratta di un provvedimento di concessione di un beneficio economico a un ente pubblico o privato, che richiede l'applicazione della checklist DET_CONTR. 
-    <</SYS>>[/INST] <s>[INST] <<SYS>>
+     Motivazione: La determina riguarda la cancellazione dal Registro Unico Nazionale del Terzo Settore di un'associazione, il che implica un provvedimento di concessione di un beneficio economico (cancellazione dall'iscrizione) a un ente pubblico o privato. Pertanto, la checklist più adatta per verificare la regolarità amministrativa di questo atto è DET_CONTR, che si occupa di determinazioni/concessione di sovvenzioni, contributi, sussidi, attribuzione di vantaggi economici a persone fisiche ed enti pubblici e privati.  </s>[/INST] </s>[INST] <<SYS>>
     Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
 
     ### Come procedere:
@@ -107,9 +106,4 @@ Decreto
     ##### OUTPUT:
     
      Checklist suggerita: DET_CONTR
-     Motivazione: La determina riguarda la cancellazione dal Registro Unico Nazionale del Terzo Settore di un'associazione, pertanto si tratta di un provvedimento di concessione di un beneficio economico a un ente pubblico o privato, che richiede l'applicazione della checklist DET_CONTR. 
-    <</SYS>>[/INST] <s>[INST] <<SYS>>
-    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
-
-    ### Come procedere:
-    1. Analizza brevemente la determina.
+     Motivazione: La determina riguarda la cancellazione dal Registro Unico Nazionale del Terzo Settore di un'associazione, il che implica un provvedimento di concessione di un beneficio economico (cancellazione dall'iscrizione) a un ente pubblico o privato. Pertanto, la checklist più adatta per verificare la regolarità amministrativa di questo atto è DET_CONTR, che si occupa di determinazioni/concess

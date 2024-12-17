@@ -48,4 +48,4 @@ Il decreto
 ########## -------------------------- GENERATED ---------------------------
 
  Checklist suggerita: DET_IS_CONTR
-     Motivazione: La determina dirigenziale riguarda l'affidamento di lavori di manutenzione straordinaria e riqualificazione di trattati stradali, quindi si tratta di una determina di impegno di spesa/contratto. La checklist DET_IS_CONTR è quindi la più adatta per verificare la regolarità amministrativa dell'atto.
+     Motivazione: La determina dirigenziale riguarda l'affidamento di lavori di manutenzione straordinaria e riqualificazione di trattati stradali, pertanto si tratta di una determina di impegno di spesa/contratto. La checklist DET_IS_CONTR è quindi la più adatta per verificare la regolarità amministrativa dell'atto.
