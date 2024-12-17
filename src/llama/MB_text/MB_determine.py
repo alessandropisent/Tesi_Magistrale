@@ -49,7 +49,8 @@ def generate_prompt(istruzioni, punti, determina):
        - **Carente**: La norma non è citata ma la mancanza non è grave.
        - **NO**: La norma non è citata e la mancanza è grave.
        - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
-    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+    5. Aggiungi una risposta separata per ciascun sottopunto, per giustificare la tua conclusione sul punto principale.
+    6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
     Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
     {istruzioni}
@@ -62,8 +63,10 @@ def generate_prompt(istruzioni, punti, determina):
     {determina}
 
     ##### OUTPUT:
-    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
-    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 1: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
+      - 1a: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
+      - 1b: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
+      ...
     ...
 
     Note finali: [eventuali osservazioni generali]
