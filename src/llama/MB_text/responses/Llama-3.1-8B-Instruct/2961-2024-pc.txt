@@ -28,22 +28,24 @@
     ################ DETERMINA:
      
  
-SETTORE STAZIONE UNICA APPALTANTE 
- 
+SETTORE RISORSE E SERVIZI AI COMUNI 
  
 Determinazione dirigenziale 
  
-Raccolta generale n 2867 del 15112024 
+Raccolta generale n 3111 del 09122024 
  
-Oggetto PROCEDURA APERTA TELEMATICA AI SENSI DELLART 71 E 107 COMMA 3 DEL DLGS 362023 PER LAFFIDAMENTO DEI LAVORI DI MANUTENZIONE STRAORDINARIA SSPP  RIQUALIFICAZIONE TRATTI STRADALI ANNO 202223  MIMS 1412022 PER LA PROVINCIA DI MONZA E DELLA BRIANZA TRAMITE PIATTAFORMA SINTEL DI ARIA SPA CON IL CRITERIO DEL PREZZO PIU BASSO E CON INVERSIONE PROCEDIMENTALE AI SENSI DEGLI ARTT 71 107 COMMA 3 E 108 DEL DLGS 362023 CIG B4474B16DA CUP B37H22005330001 CUI L94616010156202300015 DECISIONE DI CONTRARRE 
+Oggetto AFFIDAMENTO DIRETTO AI SENSI DELLART 50 COMMA 1 LETT B DEL 
+D LGS N 362023 PER LACQUISIZIONE DI ULTERIORE FORNITURA DI 
+MATERIALE UTILE PER IL CONVEGNO PROVINCIA BENE COMUNE 
+CELEBRAZIONE DEL VENTENNALE  CIG B4A5F52028 
  
-Il decreto di nomina n 15 del 30052024 ad oggetto Conferimento incarico dirigenziale alla dottssa Erminia 
-Vittoria Zoppè quale Direttore del Settore Risorse e Servizi ai Comuni  
  
-1 CARATTERISTICHE PRINCIPALI      PRESUPPOSTI DI FATTO E DI DIRITTO 
-Premesso che 
-Il Ministero delle Infrastrutture e dei Trasporti con il decreto n 141 del 9 maggio 2022 pubblicato in GU 
-il 27 magg
+ 
+Legge 742014 n 56 Disposizioni sulle città metropolitane sulle province sulle unioni e fusioni 
+di comuni e ssmmii  
+ 
+gli artt 107 147 bis e 183 comma 1 e 191 del DLgs 1882000 n 267 Testo unico delle leggi 
+sullordinamento degli
 
  
     [/INST]</s>
@@ -54,4 +56,4 @@ il 27 magg
 ########## -------------------------- GENERATED ---------------------------
 
  Checklist suggerita: DET_IS_CONTR
-     Motivazione: La determina dirigenziale riguarda l'affidamento di lavori di manutenzione straordinaria e la decisione di contrarre, quindi la checklist più adatta è DET_IS_CONTR per la verifica della regolarità amministrativa dell'atto di impegno di spesa e del contratto.
+     Motivazione: La determina dirigenziale riguarda l'affidamento diretto per l'acquisizione di ulteriore fornitura di materiale utile per il convegno provinciale, quindi si tratta di una determina di impegno di spesa/contratto. La checklist DET_IS_CONTR è quindi la più adatta per verificare la regolarità amministrativa dell'atto.

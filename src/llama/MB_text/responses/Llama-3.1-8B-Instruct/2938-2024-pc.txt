@@ -28,22 +28,22 @@
     ################ DETERMINA:
      
  
-SETTORE STAZIONE UNICA APPALTANTE 
- 
+SETTORE PATRIMONIO EDILIZIA SCOLASTICA PNRR 
  
 Determinazione dirigenziale 
  
-Raccolta generale n 2867 del 15112024 
+Raccolta generale n 3091 del 06122024 
  
-Oggetto PROCEDURA APERTA TELEMATICA AI SENSI DELLART 71 E 107 COMMA 3 DEL DLGS 362023 PER LAFFIDAMENTO DEI LAVORI DI MANUTENZIONE STRAORDINARIA SSPP  RIQUALIFICAZIONE TRATTI STRADALI ANNO 202223  MIMS 1412022 PER LA PROVINCIA DI MONZA E DELLA BRIANZA TRAMITE PIATTAFORMA SINTEL DI ARIA SPA CON IL CRITERIO DEL PREZZO PIU BASSO E CON INVERSIONE PROCEDIMENTALE AI SENSI DEGLI ARTT 71 107 COMMA 3 E 108 DEL DLGS 362023 CIG B4474B16DA CUP B37H22005330001 CUI L94616010156202300015 DECISIONE DI CONTRARRE 
+Oggetto APPROVAZIONE PRIMO SAL PER LAVORI DI RIFACIMENTO DEI 
+PERCORSI ESTERNI NELLE AREE PERTINENZIALI DEGLI EDIFICI 
+SCOLASTICI SEDI DELLIIS CASTIGLIONI DI LIMBIATE MB E DELLIIS 
+MORANTE DI LIMBIATE MB CUP B82F24000310003  CIG B334E5A0F5 
  
-Il decreto di nomina n 15 del 30052024 ad oggetto Conferimento incarico dirigenziale alla dottssa Erminia 
-Vittoria Zoppè quale Direttore del Settore Risorse e Servizi ai Comuni  
- 
-1 CARATTERISTICHE PRINCIPALI      PRESUPPOSTI DI FATTO E DI DIRITTO 
-Premesso che 
-Il Ministero delle Infrastrutture e dei Trasporti con il decreto n 141 del 9 maggio 2022 pubblicato in GU 
-il 27 magg
+Il Decreto n 19 del 14062024 con il quale il VicePresidente della Provincia di Monza e della Brianza ha 
+conferito allArch Fabrizio BATACCHI lincarico di Direttore del Settore Patrimonio Edilizia Scolastica 
+PNRR 
+CARATTERISTICHE PRINCIPALI  PRESUPPOSTI DI FATTO E DI DIRITTO 
+Con scrittura privata prot n 55617
 
  
     [/INST]</s>
@@ -54,4 +54,4 @@ il 27 magg
 ########## -------------------------- GENERATED ---------------------------
 
  Checklist suggerita: DET_IS_CONTR
-     Motivazione: La determina dirigenziale riguarda l'affidamento di lavori di manutenzione straordinaria e la decisione di contrarre, quindi la checklist più adatta è DET_IS_CONTR per la verifica della regolarità amministrativa dell'atto di impegno di spesa e del contratto.
+     Motivazione: La determina dirigenziale in questione riguarda l'approvazione del primo saldo per lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici scolastici. Ciò suggerisce che si tratta di un atto di spesa, quindi la checklist più adatta è DET_IS_CONTR. Inoltre, la determina sembra essere legata a un incarico di spesa, come indicato dal riferimento al Decreto n 19 del 14062024 che conferisce lincarico di Direttore del Settore Patrimonio Edilizia Scolastica PNRR. Pertanto, la checklist DET_IS_CONTR sembra essere la più adatta per verificare la regolarità amministrativa dellatto.

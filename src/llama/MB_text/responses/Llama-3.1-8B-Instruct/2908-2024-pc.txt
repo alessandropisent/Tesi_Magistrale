@@ -1,0 +1,58 @@
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
+
+    ### Come procedere:
+    1. Analizza brevemente la determina.
+    2. Confronta il contenuto della determina con le seguenti checklist e i loro ambiti di utilizzo:
+       - **DET_IS_CONTR**: DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI.
+       - **AUTORINC**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
+       - **DET_CONTR**: DETERMINAZIONE/CONCESSIONE DI SOVVENZIONI, CONTRIBUTI, SUSSIDI, ATTRIBUZIONE VANTAGGI ECONOMICI A PERSONE FISICHE ED ENTI PUBBLICI E PRIVATI.
+       - **CONCESS**: PROVVEDIMENTO DI CONCESSIONE.
+       - **LIQUID**: ATTO DI LIQUIDAZIONE.
+       - **INCAREX**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
+       - **INCAR**: DETERMINAZIONI D'IMPEGNO DI SPESA INCARICHI/LAVORO AUTONOMO EX Art. 7, comma 6 del D.Lgs. 165/2001.
+       - **ACCERT**: ATTI DI ACCERTAMENTO ENTRATE.
+
+    3. Rispondi con **il nome della checklist più adatta** (ad esempio: `DET_IS_CONTR`) e, se necessario, aggiungi una spiegazione sintetica.
+
+    Assicurati di usare un linguaggio chiaro e semplice.
+
+    ##### OUTPUT:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    <</SYS>>
+
+    ################ DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n 3057 del 04122024 
+ 
+Oggetto CONCORSO PUBBLICO PER TITOLI ED ESAMI PER LASSUNZIONE A 
+TEMPO PIENO E INDETERMINATO DI N 1 UNITÀ DI PERSONALE NEL 
+PROFILO PROFESSIONALE DI DIRIGENTE DA ASSEGNARE AL SETTORE 
+STAZIONE UNICA APPALTANTE DELLA PROVINCIA DI MONZA E DELLA 
+BRIANZA INDETTO CON DET DIRIG RG 2690 DEL 31102024 
+ESCLUSIONE CANDIDATI 
+ 
+Il decreto di nomina n 15 del 30052024 ad oggetto Conferimento incarico dirigenziale alla dottssa 
+Erminia Vittoria Zoppè quale Direttore del Settore Risorse e servizi ai comuni 
+ 
+CARATTERISTICHE PRINCIPALI 
+
+ 
+    [/INST]</s>
+    ##### OUTPUT:
+    
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ Checklist suggerita: DET_CONTR
+     Motivazione: La determina dirigenziale riguarda l'assegnazione di un incarico dirigenziale e la relativa spesa, quindi la checklist più adatta per verificare la regolarità amministrativa dell'atto è DET_CONTR, che si occupa di determinazioni/concessione di sovvenzioni, contributi, sussidi, attribuzione vantaggi economici a persone fisiche ed enti pubblici e privati.  La determina contiene infatti l'assegnazione di un incarico dirigenziale e la relativa spesa, che rientra nell'ambito di applicazione della checklist DET_CONTR.  Inoltre, la determina contiene anche l'esclusione di candidati al concorso pubblico, che potrebbe essere considerato un atto di liquidazione, ma in questo caso la checklist più adatta è comunque DET_CONTR.  È importante notare che la determina contiene anche la nomina di un direttore del Settore Risorse e servizi ai comuni, che potrebbe essere considerato un atto di incarico, ma in questo caso la checklist più adatta è comunque DET_CONTR.  In generale, la determina dirigenziale contiene una serie di atti e decisioni che rientrano nell'ambito di applicazione della checklist DET_CONTR.  È importante verificare attentamente la determina per assicurarsi che tutti gli aspetti siano regolarmente trattati.  In caso di dubbi o incertezze, è sempre meglio consultare un esperto in diritto amministrativo.  La determina dirigenziale contiene anche la raccolta generale n 3057 del 04122024, che potrebbe essere considerata un atto di accertamento, ma in questo caso la checklist più adatta è comunque DET_CONTR.  In generale, la determina dirigenziale contiene una serie di atti e decisioni che rientrano nell'ambito di applicazione della checklist DET_CONTR.  È importante verificare attentamente la determina per assicurarsi che tutti gli aspetti siano regolarmente trattati.  In caso di dubbi o incertezze, è sempre meglio consultare un esperto in diritto amministrativo.  La determina dirigenziale contiene anche la nomina di un direttore del Settore Risorse e servizi ai comuni, che potrebbe essere considerato un atto di incarico, ma in questo caso la checklist più adatta è comunque DET_CONTR.  In generale, la determina dirigenziale contiene una serie di atti e decisioni che rientrano nell'ambito di applicazione della checklist DET_CONTR.  È importante verificare attentamente la determina per assicurarsi che tutti gli aspetti siano regolarmente trattati.  In caso di dubbi o incertezze, è sempre meglio consultare un esperto in diritto amministrativo.  La determina dirigenziale contiene anche la raccolta generale n 3057 del 04122024, che potrebbe essere considerata un atto di accertamento, ma in questo caso la checklist più adatta è comunque DET_CONTR.  In generale, la determina dirigenziale contiene una serie di atti e decisioni che rientrano nell'ambito di applicazione della checklist DET_CONTR.  È importante verificare attentamente la determina per assicurarsi che tutti gli aspetti siano regolarmente trattati.  In caso di dubbi o incertezze, è sempre meglio consultare un esperto in diritto amministrativo.  La determina dirigenziale contiene anche la nomina di un direttore del Settore Risorse e servizi ai comuni, che potrebbe essere considerato un atto di incarico, ma in questo caso la checklist più adatta è comunque DET_CONTR.  In generale, la determina dirigenziale contiene una serie di atti e decisioni che rientrano nell'ambito di applicazione della checklist DET_CONTR.  È importante verificare attentamente la determina per assicurarsi che tutti gli aspetti siano regolarmente trattati.  In caso di dubbi o incertezze, è sempre meglio consultare un esperto in diritto am

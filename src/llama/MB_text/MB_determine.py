@@ -2,14 +2,34 @@ import json
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import torch
 import pandas as pd
+import re
+
+def clean_text(text):
+  """Cleans text by removing unrecognized special characters.
+
+  Args:
+    text: The input text string.
+
+  Returns:
+    The cleaned text string.
+  """
+
+  # Regular expression to match non-alphanumeric characters and common punctuation
+  pattern = r"[^\w\s]"
+
+  # Replace matched characters with an empty string
+  cleaned_text = re.sub(pattern, '', text)
+
+  return cleaned_text
 
 
 
-def generate_prompt(checklist, determina):
+def generate_prompt(istruzioni, punti, determina):
     """
     Crea un prompt strutturato per verificare la corrispondenza tra i punti di una checklist normativa e una determina.
     
     Args:
+        checklist (str): Contenuto della checklist normativa da verificare.
         checklist (str): Contenuto della checklist normativa da verificare.
         determina (str): Testo della determina dirigenziale.
 
@@ -32,12 +52,13 @@ def generate_prompt(checklist, determina):
     5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
     Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    {istruzioni}
     <</SYS>>
 
-    ##### CHECKLIST
-    {checklist}
+    ##### CHECKLIST 
+    {punti}
 
-    #### DETERMINA:
+    ###### DETERMINA:
     {determina}
 
     ##### OUTPUT:
@@ -49,7 +70,7 @@ def generate_prompt(checklist, determina):
     [/INST]</s>
     """
 
-def generate_propt_choose(determina):
+def generate_prompt_choose(determina):
     """
     Genera un prompt per suggerire la checklist più adatta per una determina basata sul contenuto della stessa.
     
@@ -59,6 +80,8 @@ def generate_propt_choose(determina):
     Returns:
         str: Prompt strutturato per il suggerimento della checklist.
     """
+    determina = clean_text(determina)
+    determina =  ' '.join(determina.split(" ")[:100])
     
     return f"""<s>[INST] <<SYS>>
     Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
@@ -79,14 +102,20 @@ def generate_propt_choose(determina):
 
     Assicurati di usare un linguaggio chiaro e semplice.
 
-    ### DETERMINA:
-    {determina}
-
-    ### OUTPUT:
+    ##### OUTPUT:
     Checklist suggerita: [Nome Checklist]
     Motivazione: [Breve spiegazione, se necessaria]
 
-    [/INST]</s>"""
+    <</SYS>>
+
+    ################ DETERMINA:
+    {determina}
+
+ 
+    [/INST]</s>
+    ##### OUTPUT:
+    
+    """
 
 
 def get_checklist(checklists,nome_checklist):
@@ -119,15 +148,14 @@ def get_checklist(checklists,nome_checklist):
 
 
 def choose_checklist(nome_determina,
-                     text_gen_pipeline):
+                     text_gen_pipeline, 
+                     model_id):
     
     with open(f"./src/llama/MB_text/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:
         determina= f.read()
     
     ### CHECKLIST SELEZIONATE PER LA DETERMINA
-    
-    
-    complete_prompt = generate_propt_choose(determina)
+    complete_prompt = generate_prompt_choose(determina)
 
     ret = text_gen_pipeline(
         complete_prompt,
@@ -141,7 +169,7 @@ def choose_checklist(nome_determina,
 
 
 
-    with open(f"./src/llama/MB_text/responses/{nome_determina}-pc.txt","w", encoding="utf-8") as f:
+    with open(f"./src/llama/MB_text/responses/{model_id}/{nome_determina}-pc.txt","w", encoding="utf-8") as f:
         f.write("########## ------------ PROMPT --------------\n\n")
         f.write(complete_prompt)
         f.write("\n\n########## -------------------------- GENERATED ---------------------------\n\n")
@@ -177,10 +205,10 @@ def checklist_determina(nome_determina,
             
             for punto in checklist["Punti"]:
                 
-                question = punto["Istruzioni"]+"\n"+punto["Punti"]
                 
-                complete_prompt = generate_prompt(question,determina)
-
+                
+                complete_prompt = generate_prompt(punto["Istruzioni"],punto["Punti"],determina)
+                
                 ret = text_gen_pipeline(
                     complete_prompt,
                     max_length=10_000,    # Limit the length of generated text
@@ -205,7 +233,7 @@ def checklist_determina(nome_determina,
                 
                 just_response = f""" 
                 #### CHECKLIST
-                {question}
+                {punto["Istruzioni"]+"\n\n"+punto["Punti"]}
                 
                 ### RESPONSE
                 {ret[0]["generated_text"]}
@@ -231,11 +259,11 @@ if __name__ == "__main__":
             torch_dtype=torch.bfloat16,
             device_map= torch.device('cuda:0'),
             
-            #device_map='balanced',
+            #device_map='auto',
             #use_flash_attention_2=True
         )
         tokenizer = AutoTokenizer.from_pretrained(model_id)
-        #tokenizer.add_special_tokens({"pad_token":"<unk>"})
+
 
         # Create the pipeline
         text_gen_pipeline = pipeline(
@@ -243,7 +271,11 @@ if __name__ == "__main__":
             model=model,
             tokenizer=tokenizer,
             max_new_tokens=1000,
-    )
+            pad_token_id=tokenizer.pad_token_id,  # Ensures proper padding during generation
+            truncation=True,  # Truncates inputs exceeding model max length
+            eos_token_id = tokenizer.eos_token_id
+            
+        )
     
     #load the json - Dictionary
     with open("./src/llama/MB_text/checklists/checklists.json","r", encoding="utf-8") as f:
@@ -254,19 +286,24 @@ if __name__ == "__main__":
         df_determine = pd.read_csv(f)
 
 
-    # Choose the right checklist for each determina
-    # i do a loop to make it clear
-    for index, row in df_determine.iterrows():
-        print(f"I'm genenerting the checklist for {index}")
-        df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
-                                                         text_gen_pipeline)
+    ## Choose the right checklist for each determina
+    ### i do a loop to make it clear
+    #for index, row in df_determine.iterrows():
+    #    print(f"I'm genenerting the checklist for {index}, det {row['Numero Determina']} - {model_id.split("/", 1)[1]}")
+    #    df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
+    #                                                     text_gen_pipeline,
+    #                                                     model_id.split("/", 1)[1])
+    #
+    #df_determine.to_csv("./src/llama/MB_text/MB_Determine_gen.csv")
             
-    df_determine.to_csv("./src/llama/MB_text/MB_Determine_gen.csv")
     
-    #for i in range(1):
-    #    num = df_determine["Numero Determina"].loc[i]
-    #    che_ass = df_determine["Checklist associata"].loc[i]
-    #    #ogg_det = df_determine["Oggetto determina"].loc[i]
-    #    
-    #    checklist_determina(num,che_ass, text_gen_pipeline, checklists)
+    
+    for i, _ in df_determine.iterrows():
+        num = df_determine["Numero Determina"].loc[i]
+        che_ass = df_determine["Checklist associata"].loc[i]
+        ogg_det = df_determine["Oggetto determina"].loc[i]
+        
+        if ogg_det == "DET_IS_CONTR":
+            checklist_determina(num,che_ass, text_gen_pipeline, checklists)
+        print(f"Done determina {num} - {che_ass}")
 

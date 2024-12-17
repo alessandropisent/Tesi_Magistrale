@@ -19,7 +19,13 @@
 
     Assicurati di usare un linguaggio chiaro e semplice.
 
-    ### DETERMINA:
+    ##### OUTPUT:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    <</SYS>>
+
+    ################ DETERMINA:
      
  
 SETTORE RISORSE E SERVIZI AI COMUNI 
@@ -257,54 +263,66 @@ DOTT. SANDRO DE MARTINO
 Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
 
 
-    ### OUTPUT:
-    Checklist suggerita: [Nome Checklist]
-    Motivazione: [Breve spiegazione, se necessaria]
-
+ 
     [/INST]</s>
+    ##### OUTPUT:
+    
+    
 
 ########## -------------------------- GENERATED ---------------------------
 
-amento.”; 
+ di gestione 
+(PEG) 2024. Primo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 89 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.3 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 123 del 18.07.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Secondo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 90 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.4 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 145 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Terzo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 91 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.5 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 155 del 08.08.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quarto assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 92 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.6 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 166 del 22.08.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quinto assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 93 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.7 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 177 del 05.09.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Sesto assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 94 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.8 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 188 del 19.09.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Settimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 95 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.9 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 199 del 03.10.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Ottavo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 96 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.10 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 210 del 17.10.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Nono assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 97 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.11 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 221 del 31.10.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Decimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 98 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.12 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 232 del 14.11.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Undicesimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 99 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.13 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 243 del 28.11.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Dodicesimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 100 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.14 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 254 del 12.12.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Tredicesimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 101 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.15 – Risorse del PIAO 2024-2026. Aggiornamento.”; 
+il Decreto Deliberativo Presidenziale n. 265 del 26.12.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quattordicesimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 102 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.16 – Risorse del PIAO 202
+il Decreto Deliberativo Presidenziale n. 276 del 09.01.2025, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quindicesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 287 del 23.01.2025, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Sedicesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 298 del 06.02.2025, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Diciassettesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 309 del 20.02.2025, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Diciottesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenz

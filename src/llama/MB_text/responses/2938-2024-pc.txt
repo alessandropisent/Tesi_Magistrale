@@ -19,7 +19,13 @@
 
     Assicurati di usare un linguaggio chiaro e semplice.
 
-    ### DETERMINA:
+    ##### OUTPUT:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    <</SYS>>
+
+    ################ DETERMINA:
      
  
 SETTORE PATRIMONIO, EDILIZIA SCOLASTICA, PNRR 
@@ -105,49 +111,60 @@ ARCH. FABRIZIO BATACCHI
 Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
 
 
-    ### OUTPUT:
-    Checklist suggerita: [Nome Checklist]
-    Motivazione: [Breve spiegazione, se necessaria]
-
+ 
     [/INST]</s>
+    ##### OUTPUT:
+    
+    
 
 ########## -------------------------- GENERATED ---------------------------
 
- 1, si approva il primo saldo per i 
-lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici scolastici sedi dell'IIS 
-Castiglioni di Limbiate MB e dell'IIS Morante di Limbiate MB (Cup B82F24000310003) - alla società 
-RONZONI S.r.l. (P.IVA/CF 03078140963), per l’importo contrattuale, al netto del ribasso offerto del 3%, di 
-€ 51.856,53.= oltre IVA 22%,  
-. 
-Si approva il primo saldo per i lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici 
-scolastici sedi dell'IIS Castiglioni di Limbiate MB e dell'IIS Morante di Limbiate MB (Cup B82F24000310003) 
-alla società RONZONI S.r.l. (P.IVA/CF 03078140963), per l’importo contrattuale, al netto del ribasso offerto 
-del 3%, di € 51.856,53.= oltre IVA 22%,  
-. 
-Si approva il primo saldo per i lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici 
-scolastici sedi dell'IIS Castiglioni di Limbiate MB e dell'IIS Morante di Limbiate MB (Cup B82F24000310003) 
-alla società RONZONI S.r.l. (P.IVA/CF 03078140963), per l’importo contrattuale, al netto del ribasso offerto 
-del 3%, di € 51.856,53.= oltre IVA 22%,  
-. 
-Si approva il primo saldo per i lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici 
-scolastici sedi dell'IIS Castiglioni di Limbiate MB e dell'IIS Morante di Limbiate MB (Cup B82F24000310003) 
-alla società RONZONI S.r.l. (P.IVA/CF 03078140963), per l’importo contrattuale, al netto del ribasso offerto 
-del 3%, di € 51.856,53.= oltre IVA 22%,  
-. 
-Si approva il primo saldo per i lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici 
-scolastici sedi dell'IIS Castiglioni di Limbiate MB e dell'IIS Morante di Limbiate MB (Cup B82F24000310003) 
-alla società RONZONI S.r.l. (P.IVA/CF 03078140963), per l’importo contrattuale, al netto del ribasso offerto 
-del 3%, di € 51.856,53.= oltre IVA 22%,  
-. 
-Si approva il primo saldo per i lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici 
-scolastici sedi dell'IIS Castiglioni di Limbiate MB e dell'IIS Morante di Limbiate MB (Cup B82F24000310003) 
-alla società RONZONI S.r.l. (P.IVA/CF 03078140963), per l’importo contrattuale, al netto del ribasso offerto 
-del 3%, di € 51.856,53.= oltre IVA 22%,  
-. 
-Si approva il primo saldo per i lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici 
-scolastici sedi dell'IIS Castiglioni di Limbiate MB e dell'IIS Morante di Limbiate MB (Cup B82F24000310003) 
-alla società RONZONI S.r.l. (P.IVA/CF 03078140963), per l’importo contrattuale, al netto del ribasso offerto 
-del 3%, di € 51.856,53.= oltre IVA 22%,  
-. 
-Si approva il primo saldo per i lavori di rifacimento dei percorsi esterni nelle aree pertinenziali degli edifici 
-scolastici
+ Fabrizio BATACCHI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile del Procedimento è l’ing. Alessandro BONFANTI;  
+- il Responsabile

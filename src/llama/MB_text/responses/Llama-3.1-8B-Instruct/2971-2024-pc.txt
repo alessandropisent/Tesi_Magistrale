@@ -1,0 +1,59 @@
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
+
+    ### Come procedere:
+    1. Analizza brevemente la determina.
+    2. Confronta il contenuto della determina con le seguenti checklist e i loro ambiti di utilizzo:
+       - **DET_IS_CONTR**: DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI.
+       - **AUTORINC**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
+       - **DET_CONTR**: DETERMINAZIONE/CONCESSIONE DI SOVVENZIONI, CONTRIBUTI, SUSSIDI, ATTRIBUZIONE VANTAGGI ECONOMICI A PERSONE FISICHE ED ENTI PUBBLICI E PRIVATI.
+       - **CONCESS**: PROVVEDIMENTO DI CONCESSIONE.
+       - **LIQUID**: ATTO DI LIQUIDAZIONE.
+       - **INCAREX**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
+       - **INCAR**: DETERMINAZIONI D'IMPEGNO DI SPESA INCARICHI/LAVORO AUTONOMO EX Art. 7, comma 6 del D.Lgs. 165/2001.
+       - **ACCERT**: ATTI DI ACCERTAMENTO ENTRATE.
+
+    3. Rispondi con **il nome della checklist più adatta** (ad esempio: `DET_IS_CONTR`) e, se necessario, aggiungi una spiegazione sintetica.
+
+    Assicurati di usare un linguaggio chiaro e semplice.
+
+    ##### OUTPUT:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    <</SYS>>
+
+    ################ DETERMINA:
+     
+ 
+SETTORE STAZIONE UNICA APPALTANTE 
+ 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n 3122 del 10122024 
+ 
+Oggetto SUA PROCEDURA APERTA AI SENSI DELL ART 71 DEL DLGS 362023 
+PER LAFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E SUPPORTO DEL 
+SISTEMA INFORMATIVO DEL COMUNE DI CARATE BRIANZA MB PER 
+LA DURATA DI 36 MESI CON EVENTUALE PROROGA CONTRATTUALE 
+PER ULTERIORI 36 MESI E PROROGA TECNICA DI MASSIMO 6 MESI 
+TRAMITE PIATTAFORMA SINTEL DI ARIA SPA CON IL CRITERIO 
+DELLOFFERTA ECONOMICAMENTE PIÚ VANTAGGIOSA AI SENSI 
+DELLART 108 COMMA 2 LETT B DEL DLGS 362023 CUI 
+S01495680157202400001 CIG B371640D1E AGGIUDICAZIONE 
+ 
+Il Decreto
+
+ 
+    [/INST]</s>
+    ##### OUTPUT:
+    
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ Checklist suggerita: DET_IS_CONTR
+     Motivazione: La determina dirigenziale riguarda l'affidamento di un servizio tramite procedura aperta, quindi è una determina di impegno di spesa/contratto. La checklist DET_IS_CONTR è la più adatta per verificare la regolarità amministrativa dell'atto. Infatti, la determina contiene l'oggetto, il soggetto, l'oggetto del contratto, la durata, le eventuali proroghe, il criterio di aggiudicazione, il codice unico di progetto (CIG), il codice unico di gara (CIG), l'importo a base di gara, l'importo dell'offerta vincente, l'importo dell'offerta più economica, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vantaggiosa, l'importo dell'offerta più vant

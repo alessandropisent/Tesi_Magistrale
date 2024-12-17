@@ -28,20 +28,23 @@
     ################ DETERMINA:
      
  
-SETTORE PATRIMONIO EDILIZIA SCOLASTICA PNRR 
+SETTORE RISORSE E SERVIZI AI COMUNI 
  
 Determinazione dirigenziale 
  
-Raccolta generale n 2881 del 18112024 
+Raccolta generale n 2962 del 27112024 
  
-Oggetto AUTORIZZAZIONE SUBAPPALTO PARTI DOPERA AFFERENTI ALLE CATEGORIA SCORPORABILE OG9 DA AFFIDARE ALLA SOCIETA GIE SRL INERENTE AL TERZO CONTRATTO ATTUATIVO NELLAMBITO DELLACCORDO QUADRO PER LESECUZIONE DEI LAVORI DI MANUTENZIONE ORDINARIA E STRAORDINARIA DI OPERE ELETTRICHE E DEGLI IMPIANTI FOTOVOLTAICI INSTALLATI PRESSO GLI STABILI DI PROPRIETÀ E DI COMPETENZA DELLA PROVINCIA DI MONZA E DELLA BRIANZA EDIFICI SCOLASTICI SEDI PROVINCIALI CASERME CASE CANTONIERE EDIFICI AD USO ABITATIVO ECC CUP B32B24000390004  CIG PADRE 8922921359  CIG DERIVATO B285ACF267 
+Oggetto PROVVEDIMENTO DI CANCELLAZIONE DAL REGISTRO UNICO 
+NAZIONALE DEL TERZO SETTORE AI SENSI AI SENSI DEGLI ARTT 49 E 
+50 CO 1 DLGS 1172017 E DEGLI ARTT 23 LETTERA B E 24 CO 3 DEL DM 
+1062020 DELLASSOCIAZIONE CF 97822790156  LAMPIONI AEREI 
+ASSOCIAZIONE DI PROMOZIONE SOCIALE APS 28902  REPERTORIO 
+ISCRITTO IN SEGUITO A TRASMIGRAZIONE NELLA SEZIONE B DEL 
+REGISTRO UNICO NAZIONALE DEL TERZO SETTORE  
+PRECEDENTEMENTE ISCRITTO AI REGISTRI REGIONALI AI SENSI 
+DELLART 54 DEL DLGS 1172017 
  
-Il Decreto di nomina n19 del 14062024 ad oggetto Conferimento incarico dirigenziale allArch 
-Fabrizio Batacchi quale Direttore del Settore patrimonio edilizia scolastica PNRR 
- 
-CARATTERISTICHE PRINCIPALI    PRESUPPOSTI DI FATTO E DI DIRITTO  
-MOTIVAZIONE 
-Con determinazioni dirigenziali n 273 del 16022022 e
+Decreto
 
  
     [/INST]</s>
@@ -51,9 +54,8 @@ Con determinazioni dirigenziali n 273 del 16022022 e
 
 ########## -------------------------- GENERATED ---------------------------
 
- Checklist suggerita: AUTORINC
-     Motivazione: La determina autorizza la società GIE SRL a svolgere attività di subappalto per la categoria scorporabile OG9, inerente al terzo contratto attuativo nell'ambito dell'accordo quadro per l'esecuzione dei lavori di manutenzione ordinaria e straordinaria di opere elettriche e degli impianti fotovoltaici installati presso gli stabili di proprietà e di competenza della Provincia di Monza e della Brianza edifici scolastici sedi provinciali caserme case cantoniere edifici ad uso abitativo ecc. Ciò richiede l'utilizzo della checklist AUTORINC per verificare la regolarità amministrativa dell'autorizzazione ad incarichi extra istituzionali. 
-
+ Checklist suggerita: DET_CONTR
+     Motivazione: La determina riguarda la cancellazione dal Registro Unico Nazionale del Terzo Settore di un'associazione, pertanto si tratta di un provvedimento di concessione di un beneficio economico a un ente pubblico o privato, che richiede l'applicazione della checklist DET_CONTR. 
     <</SYS>>[/INST] <s>[INST] <<SYS>>
     Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
 
@@ -82,15 +84,32 @@ Con determinazioni dirigenziali n 273 del 16022022 e
     ################ DETERMINA:
      
  
-SETTORE PATRIMONIO EDILIZIA SCOLASTICA PNRR 
+SETTORE RISORSE E SERVIZI AI COMUNI 
  
 Determinazione dirigenziale 
  
-Raccolta generale n 2881 del 18112024 
+Raccolta generale n 2962 del 27112024 
  
-Oggetto AUTORIZZAZIONE SUBAPPALTO PARTI DOPERA AFFERENTI ALLE CATEGORIA SCORPORABILE OG9 DA AFFIDARE ALLA SOCIETA GIE SRL INERENTE AL TERZO CONTRATTO ATTUATIVO NELLAMBITO DELLACCORDO QUADRO PER LESECUZIONE DEI LAVORI DI MANUTENZIONE ORDINARIA E STRAORDINARIA DI OPERE ELETTRICHE E DEGLI IMPIANTI FOTOVOLTAICI INSTALLATI PRESSO GLI STABILI DI PROPRIETÀ E DI COMPETENZA DELLA PROVINCIA DI MONZA E DELLA BRIANZA EDIFICI SCOLASTICI SEDI PROVINCIALI CASERME CASE CANTONIERE EDIFICI AD USO ABITATIVO ECC CUP B32B24000390004  CIG PADRE 8922921359  CIG DERIVATO B285ACF267 
+Oggetto PROVVEDIMENTO DI CANCELLAZIONE DAL REGISTRO UNICO 
+NAZIONALE DEL TERZO SETTORE AI SENSI AI SENSI DEGLI ARTT 49 E 
+50 CO 1 DLGS 1172017 E DEGLI ARTT 23 LETTERA B E 24 CO 3 DEL DM 
+1062020 DELLASSOCIAZIONE CF 97822790156  LAMPIONI AEREI 
+ASSOCIAZIONE DI PROMOZIONE SOCIALE APS 28902  REPERTORIO 
+ISCRITTO IN SEGUITO A TRASMIGRAZIONE NELLA SEZIONE B DEL 
+REGISTRO UNICO NAZIONALE DEL TERZO SETTORE  
+PRECEDENTEMENTE ISCRITTO AI REGISTRI REGIONALI AI SENSI 
+DELLART 54 DEL DLGS 1172017 
  
-Il Decreto di nomina n19 del 14062024 ad oggetto Conferimento incarico dirigenziale allArch 
-Fabrizio Batacchi quale Direttore del Settore patrimonio edilizia scolastica PNRR 
+Decreto
+
  
-CARATTERISTICHE PRINCIPALI    PRESUP
+    [/INST]</s>
+    ##### OUTPUT:
+    
+     Checklist suggerita: DET_CONTR
+     Motivazione: La determina riguarda la cancellazione dal Registro Unico Nazionale del Terzo Settore di un'associazione, pertanto si tratta di un provvedimento di concessione di un beneficio economico a un ente pubblico o privato, che richiede l'applicazione della checklist DET_CONTR. 
+    <</SYS>>[/INST] <s>[INST] <<SYS>>
+    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
+
+    ### Come procedere:
+    1. Analizza brevemente la determina.

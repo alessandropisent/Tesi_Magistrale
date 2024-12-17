@@ -28,22 +28,18 @@
     ################ DETERMINA:
      
  
-SETTORE STAZIONE UNICA APPALTANTE 
- 
+SETTORE RISORSE E SERVIZI AI COMUNI 
  
 Determinazione dirigenziale 
  
-Raccolta generale n 2867 del 15112024 
+Raccolta generale n 2880 del 18112024 
  
-Oggetto PROCEDURA APERTA TELEMATICA AI SENSI DELLART 71 E 107 COMMA 3 DEL DLGS 362023 PER LAFFIDAMENTO DEI LAVORI DI MANUTENZIONE STRAORDINARIA SSPP  RIQUALIFICAZIONE TRATTI STRADALI ANNO 202223  MIMS 1412022 PER LA PROVINCIA DI MONZA E DELLA BRIANZA TRAMITE PIATTAFORMA SINTEL DI ARIA SPA CON IL CRITERIO DEL PREZZO PIU BASSO E CON INVERSIONE PROCEDIMENTALE AI SENSI DEGLI ARTT 71 107 COMMA 3 E 108 DEL DLGS 362023 CIG B4474B16DA CUP B37H22005330001 CUI L94616010156202300015 DECISIONE DI CONTRARRE 
+Oggetto INDIZIONE PROCEDURA SELETTIVA DI MOBILITÀ VOLONTARIA ESTERNA AI SENSI DELLART 30 DEL D LGS 3032001 N 165 E SMI PER LA COPERTURA DI N 1 POSTO DI AGENTE DI POLIZIA PROVINCIALE AREA DEGLI ISTRUTTORI A TEMPO PIENO E INDETERMINATO PRESSO LUFFICIO POLIZIA STRADALE DELLA PROVINCIA DI MONZA E DELLA BRIANZA 
  
-Il decreto di nomina n 15 del 30052024 ad oggetto Conferimento incarico dirigenziale alla dottssa Erminia 
-Vittoria Zoppè quale Direttore del Settore Risorse e Servizi ai Comuni  
+Il decreto di nomina n 15 del 30052024 ad oggetto Conferimento incarico dirigenziale alla dottssa 
+Erminia Vittoria Zoppè quale Direttore del Settore Risorse e servizi ai comuni 
  
-1 CARATTERISTICHE PRINCIPALI      PRESUPPOSTI DI FATTO E DI DIRITTO 
-Premesso che 
-Il Ministero delle Infrastrutture e dei Trasporti con il decreto n 141 del 9 maggio 2022 pubblicato in GU 
-il 27 magg
+1
 
  
     [/INST]</s>
@@ -54,4 +50,4 @@ il 27 magg
 ########## -------------------------- GENERATED ---------------------------
 
  Checklist suggerita: DET_IS_CONTR
-     Motivazione: La determina dirigenziale riguarda l'affidamento di lavori di manutenzione straordinaria e la decisione di contrarre, quindi la checklist più adatta è DET_IS_CONTR per la verifica della regolarità amministrativa dell'atto di impegno di spesa e del contratto.
+     Motivazione: La determina riguarda l'indizione di una procedura selettiva di mobilità volontaria esterna per la copertura di un posto di agente di polizia provinciale, quindi si tratta di una determina di impegno di spesa/contratto. La checklist DET_IS_CONTR è la più adatta per verificare la regolarità amministrativa dell'atto.

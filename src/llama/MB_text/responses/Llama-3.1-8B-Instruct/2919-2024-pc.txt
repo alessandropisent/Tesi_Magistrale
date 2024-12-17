@@ -28,20 +28,26 @@
     ################ DETERMINA:
      
  
-SETTORE PATRIMONIO EDILIZIA SCOLASTICA PNRR 
+SETTORE STRADE E VIABILITA 
  
 Determinazione dirigenziale 
  
-Raccolta generale n 2881 del 18112024 
+Raccolta generale n 3051 del 04122024 
  
-Oggetto AUTORIZZAZIONE SUBAPPALTO PARTI DOPERA AFFERENTI ALLE CATEGORIA SCORPORABILE OG9 DA AFFIDARE ALLA SOCIETA GIE SRL INERENTE AL TERZO CONTRATTO ATTUATIVO NELLAMBITO DELLACCORDO QUADRO PER LESECUZIONE DEI LAVORI DI MANUTENZIONE ORDINARIA E STRAORDINARIA DI OPERE ELETTRICHE E DEGLI IMPIANTI FOTOVOLTAICI INSTALLATI PRESSO GLI STABILI DI PROPRIETÀ E DI COMPETENZA DELLA PROVINCIA DI MONZA E DELLA BRIANZA EDIFICI SCOLASTICI SEDI PROVINCIALI CASERME CASE CANTONIERE EDIFICI AD USO ABITATIVO ECC CUP B32B24000390004  CIG PADRE 8922921359  CIG DERIVATO B285ACF267 
+Oggetto RIMBORSO AL MINISTERO DELLE INFRASRTUTTURE E DEI TRASPORTI 
+DELLE ECONOMIE REALIZZATE A CHIUSURA DELLE OPERE 
+COMPLETAMENTE FINANZIATE DI CUI AI CUP B57H18001140003 DM 
+492018 B67H19000020001 DM 492018  B17H18004260001 DM 492018 
+B77H18005280001 DM 492018  B47H18003350001 DM 492018 
+B67H20000390001  DM 1292020 B59J20000660001 DM 2242020 
+B87H20009570001 DM 2242020 
  
-Il Decreto di nomina n19 del 14062024 ad oggetto Conferimento incarico dirigenziale allArch 
-Fabrizio Batacchi quale Direttore del Settore patrimonio edilizia scolastica PNRR 
  
-CARATTERISTICHE PRINCIPALI    PRESUPPOSTI DI FATTO E DI DIRITTO  
-MOTIVAZIONE 
-Con determinazioni dirigenziali n 273 del 16022022 e
+ 
+Legge 742014 n 56 Disposizioni sulle città metropolitane sulle province sulle unioni e fusioni 
+di comuni e ssmmii  
+ 
+gli artt 107 147 bis e 183 comma 1 e 191
 
  
     [/INST]</s>
@@ -51,9 +57,8 @@ Con determinazioni dirigenziali n 273 del 16022022 e
 
 ########## -------------------------- GENERATED ---------------------------
 
- Checklist suggerita: AUTORINC
-     Motivazione: La determina autorizza la società GIE SRL a svolgere attività di subappalto per la categoria scorporabile OG9, inerente al terzo contratto attuativo nell'ambito dell'accordo quadro per l'esecuzione dei lavori di manutenzione ordinaria e straordinaria di opere elettriche e degli impianti fotovoltaici installati presso gli stabili di proprietà e di competenza della Provincia di Monza e della Brianza edifici scolastici sedi provinciali caserme case cantoniere edifici ad uso abitativo ecc. Ciò richiede l'utilizzo della checklist AUTORINC per verificare la regolarità amministrativa dell'autorizzazione ad incarichi extra istituzionali. 
-
+ Checklist suggerita: DET_CONTR
+     Motivazione: La determina dirigenziale riguarda il rimborso di economie realizzate a chiusura di opere completate finanziamente, quindi si tratta di una determinazione di concessione di sovvenzioni o contributi, che corrisponde alla checklist DET_CONTR. 
     <</SYS>>[/INST] <s>[INST] <<SYS>>
     Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
 
@@ -82,15 +87,36 @@ Con determinazioni dirigenziali n 273 del 16022022 e
     ################ DETERMINA:
      
  
-SETTORE PATRIMONIO EDILIZIA SCOLASTICA PNRR 
+SETTORE STRADE E VIABILITA 
  
 Determinazione dirigenziale 
  
-Raccolta generale n 2881 del 18112024 
+Raccolta generale n 3051 del 04122024 
  
-Oggetto AUTORIZZAZIONE SUBAPPALTO PARTI DOPERA AFFERENTI ALLE CATEGORIA SCORPORABILE OG9 DA AFFIDARE ALLA SOCIETA GIE SRL INERENTE AL TERZO CONTRATTO ATTUATIVO NELLAMBITO DELLACCORDO QUADRO PER LESECUZIONE DEI LAVORI DI MANUTENZIONE ORDINARIA E STRAORDINARIA DI OPERE ELETTRICHE E DEGLI IMPIANTI FOTOVOLTAICI INSTALLATI PRESSO GLI STABILI DI PROPRIETÀ E DI COMPETENZA DELLA PROVINCIA DI MONZA E DELLA BRIANZA EDIFICI SCOLASTICI SEDI PROVINCIALI CASERME CASE CANTONIERE EDIFICI AD USO ABITATIVO ECC CUP B32B24000390004  CIG PADRE 8922921359  CIG DERIVATO B285ACF267 
+Oggetto RIMBORSO AL MINISTERO DELLE INFRASRTUTTURE E DEI TRASPORTI 
+DELLE ECONOMIE REALIZZATE A CHIUSURA DELLE OPERE 
+COMPLETAMENTE FINANZIATE DI CUI AI CUP B57H18001140003 DM 
+492018 B67H19000020001 DM 492018  B17H18004260001 DM 492018 
+B77H18005280001 DM 492018  B47H18003350001 DM 492018 
+B67H20000390001  DM 1292020 B59J20000660001 DM 2242020 
+B87H20009570001 DM 2242020 
  
-Il Decreto di nomina n19 del 14062024 ad oggetto Conferimento incarico dirigenziale allArch 
-Fabrizio Batacchi quale Direttore del Settore patrimonio edilizia scolastica PNRR 
  
-CARATTERISTICHE PRINCIPALI    PRESUP
+ 
+Legge 742014 n 56 Disposizioni sulle città metropolitane sulle province sulle unioni e fusioni 
+di comuni e ssmmii  
+ 
+gli artt 107 147 bis e 183 comma 1 e 191
+
+ 
+    [/INST]</s>
+    ##### OUTPUT:
+    
+     Checklist suggerita: DET_CONTR
+     Motivazione: La determina dirigenziale riguarda il rimborso di economie realizzate a chiusura di opere completate finanziamente, quindi si tratta di una determinazione di concessione di sovvenzioni o contributi, che corrisponde alla checklist DET_CONTR. 
+    <</SYS>>[/INST] <s>[INST] <<SYS>>
+    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
+
+    ### Come procedere:
+    1. Analizza brevemente la determina.
+    2. Confronta il conten

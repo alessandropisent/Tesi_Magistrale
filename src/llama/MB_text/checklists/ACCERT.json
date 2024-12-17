@@ -4,34 +4,40 @@
     
     "Punti":[
         { 
-            "Istruzioni": "Rispondi se \"Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti\" in questa determina con [SI/NO/CARENTE]",
-            "Punti":"InoltreSono citati D.Lgs 267/2000 artt. 107 e 179",
+            "Istruzioni": "",
+            "Punti":"1. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti\n\t1a. D.Lgs 267/2000 artt. 107 e 179",
             "num":1
 
         },
 
         { 
-            "Istruzioni": "In questa determina sono rispettati i seguenti punti?",
-            "Punti":"Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare\n2a Regolamento sull'ordinamento degli uffici e dei Servizi - (DG N. 9 del 29/1/2014)\n2b Regolamento di contabilità\n2c Regolamento in materia di controlli interni\n2d Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)",
+            "Istruzioni": "",
+            "Punti":"2. Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare\n\t2a. Regolamento sull'ordinamento degli uffici e dei Servizi - (DG N. 9 del 29/1/2014)\n\t2b. Regolamento di contabilità\n\t2c. Regolamento in materia di controlli interni\n\t2d. Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)",
             "num":2
 
         },
         { 
-            "Istruzioni": "In questa determina è rispettato il seguente punto? [SI / NO / CARENTE]",
-            "Punti":"Informazioni relative all'istanza/richiesta",
+            "Istruzioni": "",
+            "Punti":"3. Informazioni relative all'istanza/richiesta",
             "num":3
 
         },
         { 
-            "Istruzioni": "In questa determina è rispettato il seguente punto? [SI / NO / CARENTE]",
-            "Punti":"Conformità al programma di mandato, Piano Esecutivo di Gestione, atti di programmazione",
+            "Istruzioni": "",
+            "Punti":"4. Conformità al programma di mandato, Piano Esecutivo di Gestione, atti di programmazione\n\t4a. Regolarità delle procedure, correttezza formale nei provvedimenti emessi\n\t4b. Regolarità delle procedure, correttezza formale nei provvedimenti emessi",
             "num":4
 
         },
         { 
+            "Istruzioni": "Accertare tempestivamente concorre al Patto di stabilità per la parte corrente del Bilancio",
+            "Punti":"5. Tempestività dell'adozione dell'atto",
+            "num":5
+
+        },
+        { 
             "Istruzioni": "",
-            "Punti":"",
-            "num":
+            "Punti":"6. Accertamento del credito\n\t6a. Motivazione del credito\n\t6b. Idoneo titolo giuridico\n\t6c. Liquidità, certezza ed esigibilità del credito\n\t6d. Entrate - carattere tributario\n\t\t6d.1 Emissione di ruoli\n\t\t6d.2 Liste di carico\n\t6.e Entrate - carattere  patrimoniale\n\t6f. Entrate per gestione di servizi\n\t\t6f.1 Tariffe\n\t\t6f.2 Contribuzioni utenze (acquisizione diretta o con emissione liste di carico)",
+            "num":6
 
         },
         { 

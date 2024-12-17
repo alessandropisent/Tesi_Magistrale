@@ -19,7 +19,13 @@
 
     Assicurati di usare un linguaggio chiaro e semplice.
 
-    ### DETERMINA:
+    ##### OUTPUT:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    <</SYS>>
+
+    ################ DETERMINA:
      
  
 SETTORE STRADE E VIABILITA' 
@@ -391,54 +397,65 @@ di Responsabile Unico di Progetto dell’affidamento di cui all’oggetto
 (Documento informatico sottoscritto con firma digitale  ai sensi dell’art. 24 del D.Lgs n. 82/2005 e ss.mm.ii .) 
 
 
-    ### OUTPUT:
-    Checklist suggerita: [Nome Checklist]
-    Motivazione: [Breve spiegazione, se necessaria]
-
+ 
     [/INST]</s>
+    ##### OUTPUT:
+    
+    
 
 ########## -------------------------- GENERATED ---------------------------
 
-ura di Gestione (MSG) 2024-2026. Approvazione.”; 
+. Primo assestamento. Approvazione.”; 
  
 il Decreto Deliberativo Presidenziale n. 123 del 18.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+(PEG) 2024. Secondo assestamento. Approvazione.”; 
  
 il Decreto Deliberativo Presidenziale n. 143 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+(PEG) 2024. Terzo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 144 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 155 del 08.08.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quarto assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 145 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 173 del 22.08.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quinto assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 146 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 191 del 05.09.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Sesto assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 147 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 206 del 19.09.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Settimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 148 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 223 del 03.10.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Ottavo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 149 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 240 del 17.10.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Nono assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 150 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 257 del 31.10.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Decimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale n. 151 del 25.07.2024, ad oggetto “Piano esecutivo di gestione 
-(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
-nuova Macrostruttura di Gestione (MSG) 2024-2026. Approvazione.”; 
+il Decreto Deliberativo Presidenziale n. 274 del 14.11.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Undicesimo assestamento. Approvazione.”; 
  
-il Decreto Deliberativo Presidenziale
+il Decreto Deliberativo Presidenziale n. 291 del 28.11.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Dodicesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 308 del 12.12.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Tredicesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 325 del 19.12.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quattordicesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 342 del 26.12.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Quindicesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 359 del 02.01.2025, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Sedicesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 376 del 09.01.2025, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Diciassettesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 393 del 16.01.2025, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Diciottesimo assestamento. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 410 del 23.01

@@ -19,6 +19,12 @@
 
     Assicurati di usare un linguaggio chiaro e semplice.
 
+    ### FORMATTAZIONE OUTPUT DESIDERATO:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    <</SYS>>
+
     ### DETERMINA:
      
  
@@ -486,63 +492,57 @@ RETE VIARIA
 
 
 
-    ### OUTPUT:
-    Checklist suggerita: [Nome Checklist]
-    Motivazione: [Breve spiegazione, se necessaria]
-
-    [/INST]</s>
+    [/INST]
+    ####### OUTPUT:
+    
+    
 
 ########## -------------------------- GENERATED ---------------------------
 
- 2024-2026. Approvazione. I.E.”; 
+ ”; 
  
-il Decreto Deliberativo Presidenziale n. 10 del 18.01.2024, ad oggetto “Piano di gestione 
-delle risorse finanziarie (PGR) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 18 del 23.07.2024 “Secondo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 11 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse umane (PGRU) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 19 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 12 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse strumentali (PGRS) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 20 del 23.07.2024 “Secondo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 13 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse finanziarie (PGR) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 21 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 14 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse umane (PGRU) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 22 del 23.07.2024 “Secondo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 15 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse strumentali (PGRS) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 23 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 16 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse finanziarie (PGR) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 24 del 23.07.2024 “Secondo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 17 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse umane (PGRU) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 25 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 18 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse strumentali (PGRS) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 26 del 23.07.2024 “Secondo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 19 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse finanziarie (PGR) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 27 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 20 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse umane (PGRU) 2024-2026. Approvazione. I.E.”; 
+la Deliberazione di Consiglio Provinciale n. 28 del 23.07.2024 “Secondo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
  
-il Decreto Deliberativo Presidenziale n. 21 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse strumentali (PGRS) 2024-2026. Approvazione. I.E.”; 
- 
-il Decreto Deliberativo Presidenziale n. 22 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse finanziarie (PGR) 2024-2026. Approvazione. I.E.”; 
- 
-il Decreto Deliberativo Presidenziale n. 23 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse umane (PGRU) 2024-2026. Approvazione. I.E.”; 
- 
-il Decreto Deliberativo Presidenziale n. 24 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse strumentali (PGRS) 2024-2026. Approvazione. I.E.”; 
- 
-il Decreto Deliberativo Presidenziale n. 25 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse finanziarie (PGR) 2024-2026. Approvazione. I.E.”; 
- 
-il Decreto Deliberativo Presidenziale n. 26 del 18.01.2024, ad oggetto “Piano di gestione delle 
-risorse umane (PGRU) 202
+la Deliberazione di Consiglio Provinciale n. 29 del 23.07.2024 “Primo assest

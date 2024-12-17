@@ -19,7 +19,13 @@
 
     Assicurati di usare un linguaggio chiaro e semplice.
 
-    ### DETERMINA:
+    ##### OUTPUT:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    <</SYS>>
+
+    ################ DETERMINA:
      
  
 SETTORE STRADE E VIABILITA' 
@@ -274,15 +280,16 @@ F.to Geom. Gaetano Bartolone
 Documento informatico sottoscritto con firma digita le ai sensi dell’art.24 del D.Lgs. n.82/2005 e ss.m m.ii.  
 
 
-    ### OUTPUT:
-    Checklist suggerita: [Nome Checklist]
-    Motivazione: [Breve spiegazione, se necessaria]
-
+ 
     [/INST]</s>
+    ##### OUTPUT:
+    
+    
 
 ########## -------------------------- GENERATED ---------------------------
 
-RIANZA. 
+ straordinaria per il rifacimento della segnaletica 
+orizzontale lungo le strade provinciali di Monza e della Brianza. 
  
  
 CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO – 
@@ -297,8 +304,8 @@ di sicurezza per la circolazione stradale;
 il Settore Strade e Viabilità ha valutato necessario, considerato che in numerosi tratti della rete viaria di Monza 
 e della Brianza  la segnaletica orizzontale risulta usurata a causa del transito dei veicoli ed alle intemperie, il 
 rifacimento della segnaletica orizzontale ; 
-pertanto, ha deciso di destinare fondi della manutenzione ordinaria delle strade  per il Rifacimento della 
-Segnaletica Orizzontale lungo le Strade Provinciali di MONZA e della  BRIANZA. 
+pertanto, ha deciso di destinare fondi della manutenzione straordinaria per il rifacimento della segnaletica 
+orizzontale lungo le strade provinciali di Monza e della Brianza. 
  
  
 CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO – 
@@ -313,8 +320,8 @@ di sicurezza per la circolazione stradale;
 il Settore Strade e Viabilità ha valutato necessario, considerato che in numerosi tratti della rete viaria di Monza 
 e della Brianza  la segnaletica orizzontale risulta usurata a causa del transito dei veicoli ed alle intemperie, il 
 rifacimento della segnaletica orizzontale ; 
-pertanto, ha deciso di destinare fondi della manutenzione ordinaria delle strade  per il Rifacimento della 
-Segnaletica Orizzontale lungo le Strade Provinciali di MONZA e della  BRIANZA. 
+pertanto, ha deciso di destinare fondi della manutenzione straordinaria per il rifacimento della segnaletica 
+orizzontale lungo le strade provinciali di Monza e della Brianza. 
  
  
 CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO – 
@@ -327,5 +334,4 @@ attrezzature, impianti e servizi, al controllo tecnico dell’efficienza delle s
 all’apposizione e manutenzione della segnaletica orizzontale  prescritta al fine di garantire gli adeguati standard 
 di sicurezza per la circolazione stradale; 
 il Settore Strade e Viabilità ha valutato necessario, considerato che in numerosi tratti della rete viaria di Monza 
-e della Brianza  la segnaletica orizzontale risulta usurata a causa del transito dei veicoli ed alle intemperie, il 
-rifac
+e della Brianza  la segnaletica orizzontale risulta usurata a causa del
