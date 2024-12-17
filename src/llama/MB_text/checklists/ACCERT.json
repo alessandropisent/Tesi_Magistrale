@@ -4,16 +4,43 @@
     
     "Punti":[
         { 
-            "Istruzioni": "In questa determina sono rispettati i seguenti 2 punti? rispondi punto per punto",
-            "Punti":"0. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti\n1a D.Lgs 267/2000 artt. 107 e 179"
+            "Istruzioni": "Rispondi se \"Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti\" in questa determina con [SI/NO/CARENTE]",
+            "Punti":"InoltreSono citati D.Lgs 267/2000 artt. 107 e 179",
+            "num":1
 
         },
 
         { 
             "Istruzioni": "In questa determina sono rispettati i seguenti punti?",
-            "Punti":"Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare\n2a Regolamento sull'ordinamento degli uffici e dei Servizi - (DG N. 9 del 29/1/2014)\n2b Regolamento di contabilità\n2c Regolamento in materia di controlli interni\n2d Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)"
+            "Punti":"Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare\n2a Regolamento sull'ordinamento degli uffici e dei Servizi - (DG N. 9 del 29/1/2014)\n2b Regolamento di contabilità\n2c Regolamento in materia di controlli interni\n2d Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)",
+            "num":2
+
+        },
+        { 
+            "Istruzioni": "In questa determina è rispettato il seguente punto? [SI / NO / CARENTE]",
+            "Punti":"Informazioni relative all'istanza/richiesta",
+            "num":3
+
+        },
+        { 
+            "Istruzioni": "In questa determina è rispettato il seguente punto? [SI / NO / CARENTE]",
+            "Punti":"Conformità al programma di mandato, Piano Esecutivo di Gestione, atti di programmazione",
+            "num":4
+
+        },
+        { 
+            "Istruzioni": "",
+            "Punti":"",
+            "num":
+
+        },
+        { 
+            "Istruzioni": "",
+            "Punti":"",
+            "num":
 
         }
+
         
     ]
 }
