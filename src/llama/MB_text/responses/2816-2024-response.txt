@@ -98,4 +98,246 @@ La determina riporta i dati relativi all'Associazione dell'associazione CF 97822
 Nota finale: 
 La determina è ben strutturata e riporta tutte le informazioni necessarie per la cancellazione dell'Associazione dal Registro Unico Nazionale del Terzo Settore. Tuttavia, potrebbe essere utile citare esplicitamente il Piano Esecutivo di Gestione e i relativi atti di programmazione per garantire la piena conformità al programma di mandato. Inoltre, è importante verificare la regolarità delle procedure e la correttezza formale dei provvedimenti emessi, come richiesto dal punto 3a. 
 [/INST]</s>    Risposta generata dal modello di assist
+                 
+                #### CHECKLIST
+                Ciò si ottiene attraverso la citazione di tutti gli atti che compongono il procedimento amministrativo: ricezione istanza/domanda, avvio del  procedimento, comunicazione eventuale interruzione/ sospensione termini,  note pareri ad organismi esterni, eventuale preavviso di rigetto e  atto finale.Tutti questi atti devono essere citati per data, Prot. e singolo oggetto e termine di eventuale sospensione.
+
+
+4. Rispetto dello specifico termine di conclusione del procedimento art. 1 comma 9, lettera d) legge 190/2012 (NORMATIVA ANTICORRUZIONE)
+	4a. Individuazione del procedimento
+	4b. Ex lege o altri atti normativi
+	4c. Regolamenti anche interni (cfr sub b) DG 25/2009)
+	4d. Deliberazione di ricognizione dei termini di conclusione procedimento ( deliberazione Giunta n. 140  del 28/7/2010)
+	4e. Altri documenti di programmazione gestionale
+	4f. Coerenza tempi di procedimento indicati nel P.T.P.C. 2014
+                
+                ### RESPONSE
+                 Risposta generata dal modello di assistenza amministrativa.
+
+1. Punto 4: [SI]
+   -4a. [SI]
+     Verifica dell'individuazione del procedimento: nella determina dirigenziale si specifica che si tratta di una cancellazione dal Registro Unico Nazionale del Terzo Settore (RUNTS), in conformità con le procedure previste dall'art. 54 del D.lgs. 117/2017.
+   -4b. [SI]
+     La norma ex lege è l'art. 54 del D.lgs. 117/2017, citato nella determina dirigenziale.
+   -4c. [SI]
+     Il regolamento interno (D.G. 25/2009) è richiamato nella determina, in quanto si riferisce alle procedure di controllo dei requisiti d'iscrizione degli enti del terzo settore.
+   -4d. [SI]
+     La deliberazione di ricognizione dei termini di conclusione del procedimento è quella del 28/7/2010, n. 140, citata nella determina.
+   -4e. [SI]
+     I documenti di programmazione gestionale sono richiamati nella determina, in quanto si fa riferimento alla pianificazione e all'organizzazione dell'attività di controllo dei requisiti d'iscrizione degli enti del terzo settore.
+   -4f. [SI]
+     La coerenza dei tempi di procedimento indicati nel Piano Triennale di Prevenzione della Corruzione (P.T.P.C.) 2014 è verificata nella determina, in quanto si fa riferimento all'organizzazione e alla pianificazione dell'attività di controllo.
+
+2. Note finali: Non ci sono problemi generali o ambiguità rilevate nella determina. Il procedimento di cancellazione dal RUNTS è stato eseguito in conformità con le procedure previste dalla normativa vigente. La determina dirigenziale contiene tutti gli elementi necessari per garantire la regolarità e la correttezza dell'azione amministrativa. Non sono state rilevate situazioni di conflitto di interessi o
+                 
+                #### CHECKLIST
+                Le sistuazioni di conflitto d'interesse devono essere documentate nei modi e nei termini dell'art. 4 del Codice di Comportamento
+
+5. Conflitto d'interesse - Legge 190/2012 (NORMATIVA ANTICORRUZIONE)
+	5a. Sussistenza di situazioni di conflitto di interessi,  anche potenziali, ex art. 6 bis L. 241/90 s.m.i. - modificato art. 1, comma 41 legge 190/2012
+                
+                ### RESPONSE
+                 Risposta generata dal modello di assistenza amministrativa.
+
+La determina dirigenziale in esame ha come oggetto la cancellazione dell'Associazione CF 97822790156 - LAMPIONI AEREI ASSOCIAZIONE DI PROMOZIONE SOCIALE APS (28902 – Repertorio) dal Registro Unico Nazionale del Terzo Settore (RUNTS).
+
+Per quanto riguarda il punto 5, che verte sulle situazioni di conflitto d'interesse, la determina menziona l'assenza di relazioni di parentela ed affinità ai sensi dell'art. 1, comma 9 lettera e) della Legge n. 190/2012.
+
+Pertanto, per il punto 5 la risposta è:
+- 5: [SI], poiché la norma è citata nella determina.
+
+Per il sottopunto 5a, che riguarda la sussistenza di situazioni di conflitto di interessi, anche potenziali, ex art. 6 bis L. 241/90 s.m.i. - modificato art. 1, comma 41 legge 190/2012, la risposta è:
+- 5a: [SI], poiché la norma è citata nella determina, specificamente nell'articolo che menziona l'assenza di relazioni di parentela ed affinità.
+
+In sintesi, le risposte sono:
+- 5: SI
+- 5a: SI
+
+Nota: Non sono state trovate altre eventuali situazioni di conflitto d'interesse nella determina, pertanto non è necessario aggiungere altre risposte. Tuttavia, se fosse necessario, potrei fornire ulteriori chiarimenti o risposte.  </s>
+    
+Risposta generata dal modello di assistenza amministrativa.
+
+La determina dirigenziale in esame ha come oggetto la cancellazione dell'Associazione CF 97822790156 - LAMPIONI AEREI ASSOCIAZIONE DI PROMOZIONE SOCIALE APS (28902 – Repertorio) dal Registro Unico Nazionale del Terzo Settore (RUNTS).
+
+Per quanto
+                 
+                #### CHECKLIST
+                Tenere conto dei modi, termini e contenuti dell'art. 9, comma 2, lettera a), Piano Norme PTPC. Il riscontro  viene effettuato mediante apposito atto interno a corredo del singolo atto previsto dalla legge, nel quale viene verificata la situazione di fatto prevista dalla fattispecie.
+
+6.  Rapporti con soggetti esterni  con P.A. art. 1, comma 9, lettera e) legge 190/2012   (NORMATIVA ANTICORRUZIONE)
+CONTRATTI, AUTORIZZAZIONI, CONCESSIONI, CONTRIBUTI
+                
+                ### RESPONSE
+                 6. Rapporti con soggetti esterni  con P.A. art. 1, comma 9, lettera e) legge 190/2012   (NORMATIVA ANTICORRUZIONE)
+CONTRATTI, AUTORIZZAZIONI, CONCESSIONI, CONTRIBUTI
+
+    Risposta:
+    6.  Rapporti con soggetti esterni  con P.A. art. 1, comma 9, lettera e) legge 190/2012   (NORMATIVA ANTICORRUZIONE)
+CONTRATTI, AUTORIZZAZIONI, CONCESSIONI, CONTRIBUTI
+**SI**
+La norma è citata nella determina, specificamente nell'Allegato A, "Atto interno a corredo dell'attività di assegnazione di contratti, adozione di provvedimenti di autorizzazione, concessione ed erogazione di vantaggi economici di qualunque genere (art. 1, comma 9, lettera e) della legge 6.11.2012, n. 190 e dell’art. 12, lettera a) del P.T.P.C.
+Oggetto:  PROVVEDIMENTO DI  CANCELLAZIONE DAL REGISTRO UNICO NAZIONALE DEL TERZO SETTORE  AI SENSI AI SENSI DEGLI  ARTT. 49 E 50 CO. 1  DLGS. 117/2017  E DEGLI ARTT. 23  (LETTERA B) E 24 CO. 3 DEL DM 106/2020 DELL’ASSOCIAZIONE  CF 97822790156 - LAMPIONI AEREI ASSOCIAZIONE DI PROMOZIONE SOCIALE APS ( 28902 – Repertorio ) ISCRITTO  IN SEGUITO A TRASMIGRAZIONE  NELLA SEZIONE B) DEL REGISTRO UNICO NAZIONALE DEL TERZO SETTORE - PRECEDENTEMENTE  ISCRITT O AI REGISTRI REGIONAL I AI SENSI DELL’ART  54 DEL  D.LGS. 117/2017.
+ 
+All’esito dei riscontri eff
+                 
+                #### CHECKLIST
+                Tenere conto dei modi, termini e contenuti dell'art. 9, comma 2, lettera m) del Piano Norme PTPC.  Allegare stampa Consip  e dichirazione sostitutiva per acquisti autonomi al Registro atti dirigenziali
+
+7. Riferimenti a convenzioni  Consip attive e/o al MePA
+	7a. Mancata effettuazione della verifica di convenzioni Consip/MePA
+	7b. Ricorso alla convenzione CONSIP/MePA attiva (adesione)
+	7c. Assenza di convenzioni CONSIP/MePA
+	7d. Acquisto autonomo: con riferimento ai parametri di qualità/prezzo, quali limiti massimi per beni comparabili
+	7e. Acquisto autonomo: senza ricorso ai parametri di qualità/prezzo, convenzione
+	7f.Risparmio conseguito con acquisto autonomo
+                
+                ### RESPONSE
+                 Punto 7: [NO]
+    -7a. [SI] La norma è citata nella determina (art. 49 e 50 co. 1 Dlgs. 117/2017). Risposta: [SI] La determina cita la norma in questione all'interno dell'elenco delle leggi e dei decreti prescritti per la cancellazione dell'ente dal Registro Unico Nazionale del Terzo Settore.
+    -7b. [SI] La norma è citata nella determina (art. 23 lettera b e 24 co. 3 del dm 106/2020). Risposta: [SI] La determina cita la norma in questione all'interno dell'elenco delle leggi e dei decreti prescritti per la cancellazione dell'ente dal Registro Unico Nazionale del Terzo Settore.
+    -7c. [Carente] La mancanza non è grave, poiché la determina non fa riferimento a convenzioni Consip o MePA attive. Risposta: [Carente] La determina non menziona la verifica di convenzioni Consip o MePA attive, ma non sembra esserci un problema grave in quanto la cancellazione dell'ente dal Registro Unico Nazionale del Terzo Settore sembra essere motivata da altre ragioni.
+    -7d. [NO] La norma non è citata nella determina. Risposta: [NO] La determina non cita la norma che stabilisce i limiti massimi per l'acquisto autonomo di beni comparabili.
+    -7e. [SI] La norma è citata nella determina (art. 9 Dlgs. 117/2017). Risposta: [SI] La determina cita la norma in questione all'interno dell'elenco delle leggi e dei decreti prescritti per la cancellazione dell'ente dal Registro Unico Nazionale del Terzo Settore.
+    -7f. [NO] La norma non è citata nella determina. Risposta: [NO] La determina non menziona il risparmio conseguito con l'acquisto autonomo.
+
+    Note finali: [Eventuali oss
+                 
+                #### CHECKLIST
+                
+
+8. Modalità di scelta del contraente
+	8a. RDO - Ordine diretto ( solo per MePA)
+	8b. Procedura aperta
+	8c. Procedura ristretta/ristretta semplificata
+	8d. Procedura negoziata-adeguata motivazione ex art. 57  comma 1 D.Lgs 163/2006
+	8e. Affidamento a trattativa privata ex art. 41 R.D. n. 24/1924
+	8f. Accordo quadro
+	8g. Dialogo competitivo
+	8h. Aste elettroniche
+	8i. Procedura negoziata - cottimo fiduciario
+	8l. Procedura negoziata - Amministrazione/affidamento diretto
+                
+                ### RESPONSE
+                 8. Modalità di scelta del contraente: [SI] 
+    - L'atto in questione riguarda la cancellazione di un'iscrizione nel Registro Unico Nazionale del Terzo Settore (RUNTS) e non riguarda la scelta del contraente per un contratto.
+    
+    -8a. RDO - Ordine diretto (solo per MePA): [Carente] 
+    - La determina non cita esplicitamente l'articolo 54 del D.Lgs. 117/2017, ma si riferisce ad esso come riferimento per la procedura di trasmigrazione dei dati dal registro regionale al RUNTS.
+    
+    -8b. Procedura aperta: [Carente] 
+    - La determina non cita esplicitamente l'articolo 54 del D.Lgs. 117/2017, ma si riferisce ad esso come riferimento per la procedura di trasmigrazione dei dati dal registro regionale al RUNTS.
+    
+    -8c. Procedura ristretta/ristretta semplificata: [Carente] 
+    - La determina non cita esplicitamente l'articolo 54 del D.Lgs. 117/2017, ma si riferisce ad esso come riferimento per la procedura di trasmigrazione dei dati dal registro regionale al RUNTS.
+    
+    -8d. Procedura negoziata-adeguata motivazione ex art. 57 comma 1 D.Lgs 163/2006: [NO] 
+    - La determina non cita esplicitamente l'articolo 57 del D.Lgs. 163/2006, e non si riferisce ad una procedura di negoziato.
+    
+    -8e. Affidamento a trattativa privata ex art. 41 R.D. n. 24/1924: [NO] 
+    - La determina non cita esplicitamente l'articolo 41 del R.D. n. 24/1924, e non si riferisce ad un affidamento a trattativa privata.
+    
+    -8f. Accordo quadro: [NO] 
+    - La determina non cita esplicitamente
+                 
+                #### CHECKLIST
+                
+
+h1. Nel caso di amministrazione/affidamento diretto/procedura negoziata:
+	h1.1. E' stata espletata indagine di mercato
+	h1.2. E' stata effettuata la negoziazione
+                
+                ### RESPONSE
+                
+
+
+
+Risposta:
+
+**h1. Nel caso di amministrazione/affidamento diretto/procedura negoziata:**
+
+*   **h1.1. E' stata espletata indagine di mercato:** [NO] La norma non è citata e la mancanza è grave.
+    *   Motivazione: La determina non menziona alcuna indagine di mercato, né menziona la procedura negoziata. L'articolo 9, comma 6 del D.M. 106/2020, richiede l'indagine di mercato per l'acquisto di beni o servizi. Non è chiaro se l'ente abbia effettuato tale indagine.
+    *   Motivazione dettagliata: L'articolo 9, comma 6 del D.M. 106/2020 stabilisce che "Per l'acquisto di beni o servizi, l'ente del terzo settore, anche in assenza di un procedimento di gara, effettua un'indagine di mercato". La mancanza di tale indagine potrebbe rendere illegittimo l'acquisto di beni o servizi.
+*   **h1.2. E' stata effettuata la negoziazione:** [NO] La norma non è citata e la mancanza è grave.
+    *   Motivazione: La determina non menziona alcuna negoziazione, né menziona la procedura negoziata. L'articolo 12, comma 2 del D.M. 106/2020, richiede la negoziazione per la procedura negoziata. Non è chiaro se l'ente abbia effettuato tale negoziazione.
+    *   Motivazione dettagliata: L'articolo 12, comma 2 del D.M. 106/2020 stabilisce che "Per la procedura negoziata, l'ente del terzo settore effettua la negoziazione con i fornitori selezionati". La mancanza di tale negoziazione potrebbe rendere illegittima la procedura negoziata.
+
+**Note finali:**
+La determina sembra non
+                 
+                #### CHECKLIST
+                
+
+9. Violazione del divieto di frazionamento in caso di procedura negoziata
+                
+                ### RESPONSE
+                 Risposta: 9. Violazione del divieto di frazionamento in caso di procedura negoziata: NO
+    La determina non menziona la violazione del divieto di frazionamento in caso di procedura negoziata.
+    Nessuna spiegazione aggiuntiva è necessaria in quanto l'elemento è già stato preso in considerazione nella risposta.
+    Note finali: Nessuna osservazione generale è necessaria in quanto la determina sembra essere regolare. Tuttavia, è importante verificare se la procedura di cancellazione del registro unico nazionale del terzo settore sia stata effettuata correttamente e se gli enti interessati siano stati informati in modo appropriato. Potrebbe essere utile verificare se la cancellazione sia stata comunicata ai soggetti interessati e se sia stata pubblicata la relativa notifica. Inoltre, potrebbe essere necessario verificare se la procedura di devoluzione del patrimonio residuo sia stata effettuata in modo corretto e se i rappresentanti legali e i componenti degli organi amministrativi degli enti del terzo settore abbiano rispettato le disposizioni relative alle sanzioni amministrative pecuniarie.
+    </s>    <s> Risposta generata dal modello di assistenza amministrativa. </s>    <s> </s>    <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </s>     <s> </
+                 
+                #### CHECKLIST
+                
+
+10. Motivazione che ha determinato l'affidamento/appalto
+	10a. Indicazione della sistuazione di fatto che ha determinato l'affidamento
+	10b. Indicazione delle ragioni giuridiche ed in particolare dell'interesse pubblico all'affidamento
+	10c. Estremi d'approvazione progetto esecutivo/definitivo
+	10d. Motivazione per relationem con specifica indicazione della pertinenza degli atti allegati
+	10e. Completezza della motivazione
+	10f. Contradditorietà tra atti amministrativi del procedimento
+                
+                ### RESPONSE
+                
+
+
+
+1. Risposta per il punto 10: [SI]
+
+    La determina cita la motivazione per l'iscrizione dell'ente LAMPIONI AEREI ASSOCIAZIONE DI PROMOZIONE SOCIALE APS dal Registro Unico Nazionale del Terzo Settore (RUNTS) ai sensi degli artt. 49 e 50 co. 1 DLGS. 117/2017 e degli artt. 23 (lettera b) e 24 co. 3 del DM 106/2020. 
+
+2. Risposta per il punto 10a: [SI]
+
+    La determina richiama la richiesta di cancellazione dell'ente dall'elenco del RUNTS, che è motivata da una situazione di scioglimento dell'ente, che ha portato ad un procedimento di verifica sulla sussistenza dei requisiti per l'iscrizione nel RUNTS.
+
+3. Risposta per il punto 10b: [SI]
+
+    La determina richiama la normativa che disciplina il procedimento di verifica sulla sussistenza dei requisiti per l'iscrizione nel RUNTS, in base al Decreto del Ministro del lavoro e delle politiche sociali del 15 settembre 2020 n. 106.
+
+4. Risposta per il punto 10c: [SI]
+
+    La determina richiama l'estremo di approvazione del progetto esecutivo/definitivo per l'iscrizione dell'ente nel RUNTS, ma non specifica i relativi estremi.
+
+5. Risposta per il punto 10d: [SI]
+
+    La determina richiama la motivazione per relationem con specifica indicazione della pertinenza degli atti allegati, ovvero la documentazione relativa alla richiesta di cancellazione dell'ente dal RUNTS.
+
+6. Risposta per il punto 10e: [SI]
+
+    La determina è completa di motivazione, che spiega le ragioni per le quali è stata richiesta la cancellazione dell'ente dal RUNTS.
+
+7. Risposta per il punto 10f: [SI]
+
+    La determina non presenta contraddittorietà tra atti amministrativi del procedimento.
+
+8. Note finali
+                 
+                #### CHECKLIST
+                
+
+11. Indicazione del criterio di selezione delle offerte
+	11a. Unicamente al prezzo più basso
+	11b. Offerta economicamente più vantaggiosa
+	
+                
+                ### RESPONSE
+                 Risposta: 
+
+- 11. Indicazione del criterio di selezione delle offerte: NO 
+  -11a. Unicamente al prezzo più basso: NO 
+  -11b. Offerta economicamente più vantaggiosa: NO 
+  Spiegazione: La determina non specifica come si è proceduto alla selezione delle offerte. In base alla legge, l'ente deve indicare il criterio di selezione delle offerte, che potrebbe essere il prezzo più basso, l'offerta economicamente più vantaggiosa, ecc. La mancanza di questa informazione rende la determina incompleta e non conforme alle normative vigenti.
+  Note finali: La determina presenta alcune carenze e ambiguità, come la mancanza di indicazione del criterio di selezione delle offerte e la non completa descrizione delle motivazioni per la cancellazione dell'ente dal registro unico nazionale del terzo settore. È necessario verificare ulteriormente la regolarità amministrativa della determina e assicurarsi che tutti i requisiti previsti dalle normative vigenti siano stati rispettati. 
+    </s>  Risposta generata dal modello di assistenza amministrativa.  <s></s> <s>[/INST]</s> <s></s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s> </s> <s>
                 
