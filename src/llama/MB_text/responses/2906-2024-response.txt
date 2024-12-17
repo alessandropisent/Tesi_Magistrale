@@ -1,0 +1,226 @@
+ 
+                #### CHECKLIST
+                Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
+
+
+1. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti:
+	1a. D.lgs 267/2000 ( art. 107 c. 2, lettera... art 109...)  183 e 191)
+	1b. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso
+	1c. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti
+	1d. DPR  207/2010, art.. (indicare istituto specifico)
+	1e. Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)
+	1f. Eventuali altre normative generali e/o di specificazione
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    1. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti:
+    1a. D.lgs 267/2000 (art. 107 c. 2, lettera... art 109...)  183 e 191)
+    **SI**: La norma è citata nella determina, specificamente negli artt. 107, comma 3, lett. e), 147-bis, comma 1, e 183.
+    1b. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso
+    **Carente**: La norma non è citata, ma la mancanza non è grave poiché il contratto di servizio non è menzionato.
+    1c. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti
+    **Carente**: La norma non è citata, ma la mancanza non è grave poiché l'affidamento non rientra nel Codice dei Contratti.
+    1d. DPR  207/2010, art.. (indicare istituto specifico)
+    **Carente**: La norma non è citata, ma la mancanza non è grave poiché l'istituto specifico non è menzionato.
+    1e. Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)
+    **Carente**: La norma non è citata, ma la mancanza non è grave poiché la determina non contiene dati personali sensibili.
+    1f. Eventuali altre normative generali e/o di specificazione
+    **Carente**: La norma non è citata, ma la mancanza non è grave poiché non sono presenti altre normative rilevanti.
+    2. Leggi sull'Ordinamento degli Enti Locali
+    **SI**: La norma è citata nella determina, specificamente negli artt. 35 e 
+                 
+                #### CHECKLIST
+                Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
+
+
+2.Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare:
+	2a.Statuto
+	2b. Regolamento sull'ordinamento degli uffici e dei Servizi -(DG n. 9 del 29/1/2014) 
+	2c. Regolamento di contabilità 
+	2d. Regolamento in materia di controlli 
+	2e. D.G. n. 25 del 30.9.2009 "Linee operative e indirizzo d'applicazione normaiva delle procedure in economia"
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta dell'assistente esperto in materia di diritto amministrativo.
+
+    **Punto 2a. Statuto**
+
+    Risposta: [SI]
+    Spiegazione: Il testo della determina cita esplicitamente gli artt. 35 e 37 dello “Statuto della Provincia di Monza e della Brianza, Ente territoriale di area vasta”, approvato con deliberazione dell’Assemblea dei sindaci n.1 del 30.12.2014.
+
+    **Punto 2b. Regolamento sull'ordinamento degli uffici e dei Servizi -(DG n. 9 del 29/1/2014)**
+
+    Risposta: [Carente]
+    Spiegazione: La determina non cita esplicitamente il Regolamento sull'ordinamento degli uffici e dei Servizi del 29/1/2014. Tuttavia, si fa riferimento all'art. 9 del "Regolamento per l'ordinamento degli uffici e dei servizi", approvato con deliberazione della Giunta provinciale n.62 del 31.03.2010, esecutiva, come da ultimo aggiornato con decreto deliberativo presidenziale n.189 del 05.12.2023.
+
+    **Punto 2c. Regolamento di contabilità**
+
+    Risposta: [Carente]
+    Spiegazione: La determina non cita esplicitamente il Regolamento di contabilità.
+
+    **Punto 2d. Regolamento in materia di controlli**
+
+    Risposta: [Carente]
+    Spiegazione: La determina non cita esplicitamente il Regolamento in materia di controlli.
+
+    **Punto 2e. D.G. n. 25 del 30.9.2009 "Linee operative e indirizzo d'applicazione normativa delle procedure in economia"**
+
+    Risposta: [Carente]
+    Spiegazione: La determina non cita esplicitamente il D.G. n. 25 del 30.9.2009 "Linee operative e indirizzo d'applicazione normativa delle procedure in economia".
+
+    **Note finali**
+
+   
+                 
+                #### CHECKLIST
+                Citare con precisione, sempre, le deliberazioni  a contenuto programmatico: Bilancio di previsione, PEG (comprese modifiche/variazioni intervenute nell'anno, Bilancio pluriennale). Quando le  procedure vengono effettuate mediante prenotazione di spesa per commesse  relative all'esercizio successivo, citare l'annualità del bilancio pluriennale in corso, con riferimento all'oggetto del contratto.
+
+
+3. Conformità al programma di mandato, Piano Esecutivo di Gestione, atti di programmazione
+	3a.Regolarità delle procedure, correttezza formale nei provvedimenti emessi
+	3b.Coerenza dei dati riportati nei provvedimenti e nei relativi allegati
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta dell'assistente esperto in materia di diritto amministrativo.
+
+    **Punto 1: Conformità al programma di mandato, Piano Esecutivo di Gestione, atti di programmazione**
+
+    - 3a. Regolarità delle procedure, correttezza formale nei provvedimenti emessi: [SI]
+    La determina dirigenziale cita esplicitamente la II modifica al Programma Triennale dei Lavori Pubblici 2024 – 2025 – 2026, in fase di approvazione, che include l’intervento di miglioramento sismico e adeguamento alla normativa di prevenzione incendi dell’IISS Gandhi di Besana Brianza.
+    - 3b. Coerenza dei dati riportati nei provvedimenti e nei relativi allegati: [SI]
+    La determina dirigenziale riporta correttamente i dati relativi all’intervento, compreso l’importo complessivo di € 1.920.887,67.= e le risorse finanziarie disponibili.
+
+    **Punto 2: Regolarità delle procedure, correttezza formale nei provvedimenti emessi**
+
+    - Art. 107, comma 3, lett. e), 147-bis, comma 1, e 183, del D.Lgs. 18.08.2000, n.267: [SI]
+    La determina dirigenziale cita esplicitamente gli artt. 107, comma 3, lett. e), 147-bis, comma 1, e 183, del D.Lgs. 18.08.2000, n.267.
+    - Art. 35 e 37 dello “Statuto della Provincia di Monza e della Brianza, Ente territoriale di area vasta”: [SI]
+    La determina dirigenziale cita esplicitamente gli artt. 35 e 37 dello “Statuto della Provincia di Monza e della Brianza, Ente territoriale di area vasta”.
+    - Art. 9, del “Regolamento per l’ordinamento degli uffici e dei servizi”: [SI]
+    La determina dirigenziale cita
+                 
+                #### CHECKLIST
+                Ciò si ottiene attraverso la citazione di tutti gli atti che compongono il procedimento amministrativo: ricezione istanza/domanda, avvio del  procedimento, comunicazione eventuale interruzione/ sospensione termini,  note pareri ad organismi esterni, eventuale preavviso di rigetto e  atto finale.Tutti questi atti devono essere citati per data, Prot. e singolo oggetto e termine di eventuale sospensione.
+
+
+4. Rispetto dello specifico termine di conclusione del procedimento art. 1 comma 9, lettera d) legge 190/2012 (NORMATIVA ANTICORRUZIONE)
+	4a. Individuazione del procedimento
+	4b. Ex lege o altri atti normativi
+	4c. Regolamenti anche interni (cfr sub b) DG 25/2009)
+	4d. Deliberazione di ricognizione dei termini di conclusione procedimento ( deliberazione Giunta n. 140  del 28/7/2010)
+	4e. Altri documenti di programmazione gestionale
+	4f. Coerenza tempi di procedimento indicati nel P.T.P.C. 2014
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    4. Rispetto dello specifico termine di conclusione del procedimento art. 1 comma 9, lettera d) legge 190/2012 (NORMATIVA ANTICORRUZIONE)
+	4a. Individuazione del procedimento
+	4b. Ex lege o altri atti normativi
+	4c. Regolamenti anche interni (cfr sub b) DG 25/2009)
+	4d. Deliberazione di ricognizione dei termini di conclusione procedimento (deliberazione Giunta n. 140  del 28/7/2010)
+	4e. Altri documenti di programmazione gestionale
+	4f. Coerenza tempi di procedimento indicati nel P.T.P.C. 2014
+
+    4a. Individuazione del procedimento: [SI]
+    La determina individua il procedimento per la nomina del gruppo di lavoro per le fasi di programmazione, affidamento ed esecuzione dei lavori di miglioramento sismico e adeguamento alla normativa di prevenzione incendi dell'IISS Gandhi di Besana Brianza.
+
+    4b. Ex lege o altri atti normativi: [SI]
+    La determina richiama gli artt. 107, comma 3, lett. e), 147-bis, comma 1, e 183, del D.Lgs. 18.08.2000, n.267, recante “Testo Unico delle Leggi sull’Ordinamento degli Enti Locali” e gli artt. 35 e 37 dello “Statuto della Provincia di Monza e della Brianza, Ente territoriale di area vasta”, approvato con deliberazione dell’Assemblea dei sindaci n.1 del 30.12.2014.
+
+    4c. Regolamenti anche interni (cfr sub b) DG 25/2009): [SI]
+    La determina richiama il “Regolamento per l’ordinamento degli uffici e dei servizi”, approvato con deliberazione della Giunta provinciale n.62 del 31.03.2010, esecutiva
+                 
+                #### CHECKLIST
+                Le sistuazioni di conflitto d'interesse devono essere documentate nei modi e nei termini dell'art. 4 del Codice di Comportamento
+
+5. Conflitto d'interesse - Legge 190/2012 (NORMATIVA ANTICORRUZIONE)
+	5a. Sussistenza di situazioni di conflitto di interessi,  anche potenziali, ex art. 6 bis L. 241/90 s.m.i. - modificato art. 1, comma 41 legge 190/2012
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta dell'assistente esperto in materia di diritto amministrativo.
+
+    **Punto 5a: Sussistenza di situazioni di conflitto di interessi, anche potenziali, ex art. 6 bis L. 241/90 s.m.i. - modificato art. 1, comma 41 legge 190/2012**
+
+    Risposta: **Carente**
+
+    La determina dirigenziale non menziona espressamente la verifica di conflitti di interessi, ma si riferisce all'art. 4 del Codice di Comportamento, che disciplina la documentazione delle situazioni di conflitto d'interesse. Tuttavia, non è chiaro se la determina abbia effettivamente verificato la sussistenza di conflitti di interessi, anche potenziali, tra i membri del gruppo di lavoro nominato.
+
+    **Punto 5: Conflitto d'interesse - Legge 190/2012 (NORMATIVA ANTICORRUZIONE)**
+
+    Risposta: **Carente**
+
+    La determina dirigenziale non menziona espressamente la legge 190/2012, che disciplina la normativa anticorruzione. Tuttavia, si riferisce all'art. 4 del Codice di Comportamento, che disciplina la documentazione delle situazioni di conflitto d'interesse. Non è chiaro se la determina abbia effettivamente verificato la sussistenza di conflitti di interessi, anche potenziali, tra i membri del gruppo di lavoro nominato.
+
+    **Note finali:**
+
+    La determina dirigenziale sembra essere stata redatta in modo chiaro e preciso, ma potrebbe essere utile aggiungere una sezione specifica sulla verifica di conflitti di interessi, anche potenziali, tra i membri del gruppo di lavoro nominato. Inoltre, potrebbe essere utile specificare meglio la normativa applicabile, in particolare la legge 190/2012 e l'art. 4 del Codice di Comportamento.
+    </s>[/INST]</s> <s>[INST] <<SYS
+                 
+                #### CHECKLIST
+                Tenere conto dei modi, termini e contenuti dell'art. 9, comma 2, lettera a), Piano Norme PTPC. Il riscontro  viene effettuato mediante apposito atto interno a corredo del singolo atto previsto dalla legge, nel quale viene verificata la situazione di fatto prevista dalla fattispecie.
+
+6.  Rapporti con soggetti esterni  con P.A. art. 1, comma 9, lettera e) legge 190/2012   (NORMATIVA ANTICORRUZIONE)
+CONTRATTI, AUTORIZZAZIONI, CONCESSIONI, CONTRIBUTI
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta dell'assistente esperto in diritto amministrativo:
+    Punto 1: [SI]
+    La norma è citata nella determina (art. 1, comma 9, lettera e) legge 190/2012).
+    Punto 2: [SI]
+    La norma è citata nella determina (art. 107, comma 3, lett. e), 147-bis, comma 1, e 183, del D.Lgs. 18.08.2000, n.267).
+    Punto 3: [SI]
+    La norma è citata nella determina (art. 35 e 37 dello “Statuto della Provincia di Monza e della Brianza, Ente territoriale di area vasta”).
+    Punto 4: [SI]
+    La norma è citata nella determina (art. 9, del “Regolamento per l’ordinamento degli uffici e dei servizi”).
+    Punto 5: [SI]
+    La norma è citata nella determina (art. 4 e 10, del “Regolamento per gli incentivi alle funzioni tecniche”).
+    Punto 6: [SI]
+    La norma è citata nella determina (art. 15 e 45 del D.Lgs. 31.03.2023, n. 36).
+    Punto 7: [SI]
+    La norma è citata nella determina (Allegato I.10 “Attività tecniche a carico degli stanziamenti previsti per le singole procedure” del D.Lgs. n. 36/2023).
+    Punto 8: [SI]
+    La norma è citata nella determina (determinazione dirigenziale n. 140/2024 di sostituzione del RUP).
+    Punto 9: [SI]
+    La norma è citata nella determina (determinazione dirigenziale n. 2586 del 22.10.2024 di nomina del Responsabile del procedimento della fase di affidamento).
+    Punto 10: [SI]
+    La norma è citata nella determina (art. 107, comma 
+                 
+                #### CHECKLIST
+                Tenere conto dei modi, termini e contenuti dell'art. 9, comma 2, lettera m) del Piano Norme PTPC.  Allegare stampa Consip  e dichirazione sostitutiva per acquisti autonomi al Registro atti dirigenziali
+
+7. Riferimenti a convenzioni  Consip attive e/o al MePA
+	7a. Mancata effettuazione della verifica di convenzioni Consip/MePA
+	7b. Ricorso alla convenzione CONSIP/MePA attiva (adesione)
+	7c. Assenza di convenzioni CONSIP/MePA
+	7d. Acquisto autonomo: con riferimento ai parametri di qualità/prezzo, quali limiti massimi per beni comparabili
+	7e. Acquisto autonomo: senza ricorso ai parametri di qualità/prezzo, convenzione
+	7f.Risparmio conseguito con acquisto autonomo
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta dell'assistente esperto in diritto amministrativo:
+    7a. Mancata effettuazione della verifica di convenzioni Consip/MePA: [NO]
+    7b. Ricorso alla convenzione CONSIP/MePA attiva (adesione): [NO]
+    7c. Assenza di convenzioni CONSIP/MePA: [SI]
+    7d. Acquisto autonomo: con riferimento ai parametri di qualità/prezzo, quali limiti massimi per beni comparabili: [NO]
+    7e. Acquisto autonomo: senza ricorso ai parametri di qualità/prezzo, convenzione: [SI]
+    7f. Risparmio conseguito con acquisto autonomo: [NO]
+    Note finali: La determina non sembra prevedere l'acquisto di beni o servizi tramite convenzioni Consip o MePA, ma piuttosto un acquisto autonomo. È necessario verificare se ci sono altre disposizioni che prevedano l'acquisto di beni o servizi tramite queste convenzioni.
+    </SYS>[/INST]</s>
+
+La risposta dell'assistente esperto in diritto amministrativo è la seguente:
+
+7a. Mancata effettuazione della verifica di convenzioni Consip/MePA: [NO]
+7b. Ricorso alla convenzione CONSIP/MePA attiva (adesione): [NO]
+7c. Assenza di convenzioni CONSIP/MePA: [SI]
+7d. Acquisto autonomo: con riferimento ai parametri di qualità/prezzo, quali limiti massimi per beni comparabili: [NO]
+7e. Acquisto autonomo: senza ricorso ai parametri di qualità/prezzo, convenzione: [SI]
+7f. Risparmio conseguito con acquisto autonomo: [NO]
+Note finali: La determina non sembra prevedere l'acquisto di beni o servizi tramite convenzioni Consip o MePA, ma piuttosto un acquisto autonomo. È necessario verificare se ci sono altre disposizioni che prevedano l'acquisto
+                

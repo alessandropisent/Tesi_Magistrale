@@ -1,0 +1,2116 @@
+
+
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
+       - **Carente**: La norma non è citata ma la mancanza non è grave.
+       - **NO**: La norma non è citata e la mancanza è grave.
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
+
+    <</SYS>>
+
+    ##### CHECKLIST 
+    1. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti:
+	1a. D.lgs 267/2000 ( art. 107 c. 2, lettera... art 109...)  183 e 191)
+	1b. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso
+	1c. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti
+	1d. DPR  207/2010, art.. (indicare istituto specifico)
+	1e. Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)
+	1f. Eventuali altre normative generali e/o di specificazione
+
+    ###### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3071 del 05-12-2024 
+ 
+Oggetto: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL 
+D.LGS N. 36/2023 PER L'ACQUISIZIONE DEL SERVICE AUDIO E VIDEO 
+UTILE PER LO SVOLGIMENTO DEL CONVEGNO "PROVINCIA, BENE 
+COMUNE. CELEBRAZIONE DEL VENTENNALE" - CIG B4A2D608CE 
+ 
+ 
+ 
+Legge 7.4.2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni 
+di comuni” e ss.mm.ii. ; 
+ 
+gli artt. 107, 147 bis e 183, comma 1 e 191 del D.Lgs 18.8.2000, n. 267 “Testo unico delle leggi 
+sull'ordinamento degli enti locali"; 
+ 
+la Deliberazione di Consiglio Provinciale n. 40 del 21.12.2023 “Documento Unico di 
+Programmazione (DUP) 2024-2026. Approvazione. I.E.”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 41 del 21.12.2023 “Bilancio di previsione 2024-2026. 
+Approvazione. I.E. ”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 17 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
+ 
+il Decreto Deliberativo Presidenziale n. 9  del 18.01.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 88 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
+nuova Macrostruttura. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 32 dell’08.02.2024, ad oggetto “Piano integrato di attività e 
+organizzazione (PIAO) della Provincia di Monza e della Brianza 2024-2026. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 195 del 14.12.2023, ad oggetto “Variazione DDP n. 96/2023 
+PIAO 2023-2025 e sottosezione programmazione performance, ai sensi dell’art. 6 del DL n. 80/2021, 
+convertito con modificazioni in legge n. 113/2021. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura e 
+funzionigramma. Aggiornamenti. Approvazione”; 
+
+ 
+il principio applicato della contabilità finanziaria, di cui all’allegato n. 4/2 del D.Lgs. 23/11/2011, n. 
+118; 
+ 
+ 
+il Decreto di nomina n. 15 del 30.05.2024 “Conferimento incarico dirigenziale alla Dott.ssa 
+Erminia Vittoria Zoppè quale direttore del Settore Risorse e Servizi ai Comuni”; 
+ 
+il Decreto del Presidente n. 20 del 27.06.2024 “Sostituzione temporanea dei dirigenti in caso di assenza 
+o impedimento. aggiornamento”; 
+ 
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+ 
+In funzione di quanto stabilito dalla Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città 
+metropolitane, sulle province, sulle unioni e fusioni di comuni", che definisce le Province come “enti 
+territoriali di area vasta” governati da organi eletti dai Sindaci e dai Consiglieri dei Comuni del 
+territorio, la Provincia di Monza e della Brianza porta avanti da molti anni diversi progetti di rete 
+territoriale come “Provincia #CasaDeiComuni”; 
+ 
+In occasione del Convegno “Provincia, Bene Comune”, che si terrà il giorno 16 dicembre 2024 presso 
+la Villa reale di Monza, momento utile per ripercorrere i 20 anni dalla nascita dell’ente e le attività 
+svolte, condividendo idee e progetti per affrontare le prossime sfide e i futuri obbiettivi, si intende 
+procedere all’acquisizione del servizio di noleggio attrezzatura audio, video e di un palco 6x2mt con 
+struttura a vista e moquettature quali strumenti utili al fine di garantire innanzitutto un servizio 
+professionale sotto l’aspetto tecnico garantendo un risultato di qualità e a contribuire a creare 
+un’atmosfera personalizzata e un’esperienza coinvolgente per il pubblico, aumentando l’impatto del 
+messaggio che si vuole trasmettere. 
+ 
+Tenuto conto che: 
+- alla luce dell’istruttoria svolta l’importo della fornitura è inferiore a 140mila euro, e quindi, 
+fermi restando gli obblighi di utilizzo di strumenti di acquisto e di negoziazione previsti dalle 
+vigenti disposizioni in materia di contenimento della spesa, questa Amministrazione può, ai 
+sensi dell’art.62, comma 1, del D. Lgs. n. 36/2023, procedere direttamente e autonomamente 
+all'acquisizione del servizio in oggetto; 
+- l’allegato I.1 al D. Lgs. n.36/2023 definisce, all’articolo 3, comma 1, lettera d), l’affidamento 
+diretto come “l’affidamento del contratto senza una procedura di gara, nel quale, anche nel 
+caso di previo interpello di più operatori economici, la scelta è operata discrezionalmente dalla 
+stazione appaltante o dall’ente concedente, nel rispetto dei criteri qualitativi e quantitativi di 
+cui all’articolo 50, comma 1 lettere a) e b), del codice e dei requisiti generali o speciali previsti 
+dal medesimo codice”. 
+- ai sensi dell’art. l’art. 50, comma 1, let. b) del D. Lgs. n.36/2023 per gli affidamenti di contratti 
+di servizi e forniture, ivi compresi i servizi di ingegneria e architettura e l'attività di 
+progettazione, di importo inferiore a 140.000 Euro, si procede ad affidamento diretto, anche 
+senza consultazione di più operatori economici; 
+- l’art. 17, comma 2, del D. Lgs n. 36/2023 prevede che in caso di affidamento diretto, la 
+decisione contrarre individua l’oggetto, l’importo e il contraente, unitamente alle ragioni della 
+sua scelta, ai requisiti di carattere generale e, se necessari, a quelli inerenti alla capacità 
+economico-finanziaria e tecnico-professionale; 
+- l’importo del presente affidamento (inferiore ad € 140.000,00) non comporta l’obbligo del 
+preventivo inserimento nel programma triennale degli acquisti di beni e servizi di cui all’art. 
+37 del Codice; 
+- l’acquisto di cui all’oggetto comporta una spesa complessiva inferiore ad euro 5.000,00 e 
+pertanto, come stabilito dall’art. 1, comma 450 della Legge 196/2006 smi, per il relativo 
+acquisto non corre l’obbligo di utilizzo del mercato elettronico o dei sistemi telematici di 
+negoziazione regionale di riferimento 
+ 
+Considerato quanto sopra, in data 28.11.2024 è pervenuta la formulazione di una offerta economica 
+per il servizio di cui si necessita da parte di “Meeting Project S.r.l.” con sede legale in Via D. Frisia 
+2, 23807 Merate (LC) - Partita Iva e Cod. Fiscale 02141810131 individuata nel rispetto dei principi 
+di rotazione degli inviti e degli affidamenti, di cui il dettaglio e la quantità riportati di seguito:  
+AUDIO: impianto audio Bose 4 casse acustiche subwoofer, Mixer audio digitale Yamaha, Nr.01 
+radiomic a spillo Sennheiser, Nr.03 radiomic a gelato Sennheiser, Nr.01 microfono a collo di cigno 
+Sennheiser e relativi cablaggi; 
+VIDEO: Videoproiettore 12.000 ansi lumen Panasonic, Schermo autoportante Stumplt 3,45x2.50 cm., 
+Nr.02 pc portatili per contributi video/presentazioni, comando slide wireless, Mixer grafico Analog 
+Way Pulse Monitor di riporto al palco 43" su supporto da terra e relativi cablaggi; 
+per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+in relazione alle caratteristiche preventivate dal fornitore, tale preventivo viene ritenuto congruo e 
+conveniente per le esigenze rappresentate. Inoltre, il fornitore ha dichiarato che effettuerà tale servizio 
+nell'osservanza delle norme specificate nella lettera di richiesta preventivo e delle norme in materia 
+di sicurezza di cui al D. Lgs. N.81/2008 e successive modificazioni e integrazioni con proprie 
+disponibilità organizzative, strumenti e materiali forniti. 
+La particolare qualificazione dell’operatore emerge altresì dalle attività svolte di tipologia similare, 
+in termini qualitativi rispondenti allo stesso, nonché nel rispetto dei tempi e dei costi pattuiti; 
+ 
+pertanto, si procede all’affidamento diretto per l’acquisizione di un servizio di noleggio attrezzatura 
+audio e video utile per convegni per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+Infine, si dà atto che: 
+- ai sensi dell’art. 192 del D. Lgs. n. 267/2000 il fine del contratto è quello di rafforzare l’identità 
+visiva dell’Ente, promuoverne l’immagine e il senso di appartenenza di un pubblico vasto e 
+diversificato; 
+- l’oggetto della procedura è la strumentazione utile per la realizzazione del convegno 
+“Provincia, Bene Comune” al fine di rafforzare e promuovere l’immagine dell’Ente verso i 
+comuni della Provincia di Monza e della Brianza e gli stakeholder individuati o di un pubblico 
+vasto e diversificato; 
+- la procedura prescelta è l’affidamento diretto ai sensi dell’art. 50, comma 1, let. b) del D. Lgs. 
+n. 36/2023; 
+- l’affidamento del servizio di cui trattasi verrà perfezionata mediante lettera commerciale; 
+- il servizio in questione è identificato con il codice CIG B4A2D608CE ai sensi dell’art. 3 della 
+Legge 13/08/2010 n. 136; 
+- in conformità a quanto disposto dall’art. 53, comma 1, del D. Lgs. n. 36/2023, con riferimento 
+all’affidamento in parola non vengono richieste le garanzie provvisorie di cui all’articolo 106; 
+- è stata acquisita dichiarazione Durc, e stato consultato il casellario ANAC per le annotazioni 
+riservate, sono state richieste le autodichiarazioni di possesso dei requisiti e pantouflage. Se 
+all’esito delle verifiche effettuate secondo le disposizioni di cui alla circolare interna n. 16426 
+del 19/04/2018, emerga un difetto dei requisiti, si procederà alla risoluzione del contratto e 
+alle dovute segnalazioni;  
+- sensi dell'art. 3 della Legge 13/08/2010 n. 136, la ditta affidataria si obbliga ad utilizzare il 
+conto corrente dedicato, anche non in via esclusiva, alle commesse pubbliche e si obbliga 
+altresì ad indicare persona delegata a operare su tale conto corrente, consapevole che i 
+pagamenti potranno avvenire esclusivamente mediante bonifico bancario o postale riportante, 
+in relazione a ciascuna transazione posta in essere, il CIG assegnato; 
+- i costi relativi alla sicurezza sostenuti dall’Ente sono pari a € 0,00 (zero/00) e non occorre 
+procedere alla stesura del D.U.V.R.I., ai sensi dell’art. 26, comma 3-bis del D. Lgs. 
+09/04/2008 n. 81 e smi; 
+- il Responsabile del procedimento è il Segretario Generale, Dott. Sandro De Martino; 
+ 
+ 
+2. RICHIAMI NORMATIVI  
+ 
+- l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.; 
+- l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i; 
+- l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.; 
+- l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135; 
+- l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.; 
+- il Decreto Ministeriale n. 55 del 3.4.2013 “Regolamento in materia di emissione, trasmissione 
+e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi 
+dell’art. 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244”; 
+- il D. Lgs. 31.3.2023 n. 36 “Codice dei contratti pubblici in attuazione dell'articolo 1 della 
+legge 21 giugno 2022, n. 78, recante delega al Governo in materia di contratti pubblici” c.d. 
+Codice; 
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- l’art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi, da ultimo aggiornato con 
+Decreto Deliberativo Presidenziale n. 44 del 16.3.2023; 
+- il Regolamento di contabilità, da ultimo aggiornato con deliberazione di Consiglio n. 8 del 
+20.4.2021, esecutiva; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato 
+con deliberazione Consiliare n. 12 del 27.05.2015; 
+ 
+ 
+3.  PRECEDENTI 
+ 
+- la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei 
+contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e 
+procedure negoziate senza bando”; 
+- il Decreto Deliberativo Presidenziale n. 56 del 30.03.2023 ad oggetto “Piano triennale di 
+prevenzione della corruzione (PTPC) 2023-2024-2025 - sezione del Piano Integrato di 
+Attività e Organizzazione (PIAO) - rischi corruttivi e trasparenza. Approvazione.” 
+- il Decreto del Presidente n. 20 del 27.06.2024, ad oggetto “Sostituzione temporanea dei 
+dirigenti in caso di assenza o impedimento. Aggiornamento.”; 
+ 
+ 
+3.  EFFETTI ECONOMICI  
+ 
+L’incidenza economica del provvedimento è pari a € 4.941,00 (compreso, imposta 22% pari a € 
+891,00) a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) 
+- Partita Iva e Cod. Fiscale 02141810131 comprensiva di ogni onere, diretto ed indiretto, presente e 
+futuro, e trova dettagliata imputazione sul bilancio 2024-2026, come sotto specificato; 
+ 
+ 
+DETERMINA 
+ 
+1. di approvare la spesa complessiva di € 4.941,00 (compreso di imposta 22% pari a € 891,00) a 
+favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) - Partita 
+Iva e Cod. Fiscale 02141810131 
+ 
+2. di 2. di impegnare a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 
+Merate (LC) - Partita Iva e Cod. Fiscale 02141810131, la spesa complessiva di 4.941,00 (compreso, 
+imposta 22% pari a  €891,00) sul bilancio 2024-2026, annualità 2024, con imputazione:  
+importo bilancio capitolo Piano finanziario 
+ 4.941,00 2024 01 01 103 47 U.1.03.02.99.999 
+  
+3. di dichiarare che l’obbligazione diventa esigibile entro l’anno di imputazione;  
+4. di attestare che il programma dei pagamenti è compatibile con gli stanziamenti di cassa ai sensi e 
+per gli effetti di quanto previsto dall’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267; 
+ 
+5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+ 
+6. di dare atto che il presente provvedimento sarà esecutivo con l’apposizione del visto di regolarità 
+contabile attestante la copertura finanziaria espresso dal Responsabile del Servizio finanziario ai sensi 
+dell’art. 183, comma 7, del D. Lgs. 18.08. 2000, n. 267; 
+ 
+7. di pubblicare il presente provvedimento, ai sensi dell’art. 37 del D. Lgs 14/03/2013, n. 33 e s.m.i. 
+nella sezione Amministrazione Trasparente del sito web istituzionale della Provincia di Monza e della 
+Brianza. 
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ##### OUTPUT:
+    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    ...
+
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ <s>[INST] <<SYS>>
+    Risposta:
+    1. Applicazione delle normative pertinenti alla fattispecie, tenuto conto delle sopravvenute disposizioni vigenti:
+    1a. D.lgs 267/2000 (art. 107 c. 2, lettera... art 109...)  183 e 191)
+    Risposta: [SI]
+    1b. D.Lgs 163/2006 s.m.i.  e/o contratto servizio escluso
+    Risposta: [Carente]
+    1c. R.D.  n. 2440/1924  per affidamenti cui non si applica il Codice dei Contratti
+    Risposta: [NO]
+    1d. DPR  207/2010, art.. (indicare istituto specifico)
+    Risposta: [Carente]
+    1e. Normativa sulla privacy nel testo dei provvedimenti e nelle procedure adottate (art. 20 e 21 D.Lgs. 196/2003)
+    Risposta: [SI]
+    1f. Eventuali altre normative generali e/o di specificazione
+    Risposta: [Carente]
+    2. RICHIAMI NORMATIVI
+    - l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.;
+    Risposta: [SI]
+    - l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i;
+    Risposta: [SI]
+    - l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.;
+    Risposta: [SI]
+    - l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135;
+    Risposta: [SI]
+    - l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.;
+    Risposta: [SI]
+    - il Decreto Ministeriale n. 55 del 3.4.2013 “Regol
+
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
+       - **Carente**: La norma non è citata ma la mancanza non è grave.
+       - **NO**: La norma non è citata e la mancanza è grave.
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Citare con precisione gli articoli, commi e lettere delle fonti di regolazione.Citare prima le norme di legittimazione e poi le norme procedurali del caso in specie
+
+    <</SYS>>
+
+    ##### CHECKLIST 
+    2.Conformità norme regolamentari e osservanza di atti amministrativi interni a valenza regolamentare:
+	2a.Statuto
+	2b. Regolamento sull'ordinamento degli uffici e dei Servizi -(DG n. 9 del 29/1/2014) 
+	2c. Regolamento di contabilità 
+	2d. Regolamento in materia di controlli 
+	2e. D.G. n. 25 del 30.9.2009 "Linee operative e indirizzo d'applicazione normaiva delle procedure in economia"
+
+    ###### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3071 del 05-12-2024 
+ 
+Oggetto: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL 
+D.LGS N. 36/2023 PER L'ACQUISIZIONE DEL SERVICE AUDIO E VIDEO 
+UTILE PER LO SVOLGIMENTO DEL CONVEGNO "PROVINCIA, BENE 
+COMUNE. CELEBRAZIONE DEL VENTENNALE" - CIG B4A2D608CE 
+ 
+ 
+ 
+Legge 7.4.2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni 
+di comuni” e ss.mm.ii. ; 
+ 
+gli artt. 107, 147 bis e 183, comma 1 e 191 del D.Lgs 18.8.2000, n. 267 “Testo unico delle leggi 
+sull'ordinamento degli enti locali"; 
+ 
+la Deliberazione di Consiglio Provinciale n. 40 del 21.12.2023 “Documento Unico di 
+Programmazione (DUP) 2024-2026. Approvazione. I.E.”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 41 del 21.12.2023 “Bilancio di previsione 2024-2026. 
+Approvazione. I.E. ”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 17 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
+ 
+il Decreto Deliberativo Presidenziale n. 9  del 18.01.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 88 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
+nuova Macrostruttura. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 32 dell’08.02.2024, ad oggetto “Piano integrato di attività e 
+organizzazione (PIAO) della Provincia di Monza e della Brianza 2024-2026. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 195 del 14.12.2023, ad oggetto “Variazione DDP n. 96/2023 
+PIAO 2023-2025 e sottosezione programmazione performance, ai sensi dell’art. 6 del DL n. 80/2021, 
+convertito con modificazioni in legge n. 113/2021. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura e 
+funzionigramma. Aggiornamenti. Approvazione”; 
+
+ 
+il principio applicato della contabilità finanziaria, di cui all’allegato n. 4/2 del D.Lgs. 23/11/2011, n. 
+118; 
+ 
+ 
+il Decreto di nomina n. 15 del 30.05.2024 “Conferimento incarico dirigenziale alla Dott.ssa 
+Erminia Vittoria Zoppè quale direttore del Settore Risorse e Servizi ai Comuni”; 
+ 
+il Decreto del Presidente n. 20 del 27.06.2024 “Sostituzione temporanea dei dirigenti in caso di assenza 
+o impedimento. aggiornamento”; 
+ 
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+ 
+In funzione di quanto stabilito dalla Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città 
+metropolitane, sulle province, sulle unioni e fusioni di comuni", che definisce le Province come “enti 
+territoriali di area vasta” governati da organi eletti dai Sindaci e dai Consiglieri dei Comuni del 
+territorio, la Provincia di Monza e della Brianza porta avanti da molti anni diversi progetti di rete 
+territoriale come “Provincia #CasaDeiComuni”; 
+ 
+In occasione del Convegno “Provincia, Bene Comune”, che si terrà il giorno 16 dicembre 2024 presso 
+la Villa reale di Monza, momento utile per ripercorrere i 20 anni dalla nascita dell’ente e le attività 
+svolte, condividendo idee e progetti per affrontare le prossime sfide e i futuri obbiettivi, si intende 
+procedere all’acquisizione del servizio di noleggio attrezzatura audio, video e di un palco 6x2mt con 
+struttura a vista e moquettature quali strumenti utili al fine di garantire innanzitutto un servizio 
+professionale sotto l’aspetto tecnico garantendo un risultato di qualità e a contribuire a creare 
+un’atmosfera personalizzata e un’esperienza coinvolgente per il pubblico, aumentando l’impatto del 
+messaggio che si vuole trasmettere. 
+ 
+Tenuto conto che: 
+- alla luce dell’istruttoria svolta l’importo della fornitura è inferiore a 140mila euro, e quindi, 
+fermi restando gli obblighi di utilizzo di strumenti di acquisto e di negoziazione previsti dalle 
+vigenti disposizioni in materia di contenimento della spesa, questa Amministrazione può, ai 
+sensi dell’art.62, comma 1, del D. Lgs. n. 36/2023, procedere direttamente e autonomamente 
+all'acquisizione del servizio in oggetto; 
+- l’allegato I.1 al D. Lgs. n.36/2023 definisce, all’articolo 3, comma 1, lettera d), l’affidamento 
+diretto come “l’affidamento del contratto senza una procedura di gara, nel quale, anche nel 
+caso di previo interpello di più operatori economici, la scelta è operata discrezionalmente dalla 
+stazione appaltante o dall’ente concedente, nel rispetto dei criteri qualitativi e quantitativi di 
+cui all’articolo 50, comma 1 lettere a) e b), del codice e dei requisiti generali o speciali previsti 
+dal medesimo codice”. 
+- ai sensi dell’art. l’art. 50, comma 1, let. b) del D. Lgs. n.36/2023 per gli affidamenti di contratti 
+di servizi e forniture, ivi compresi i servizi di ingegneria e architettura e l'attività di 
+progettazione, di importo inferiore a 140.000 Euro, si procede ad affidamento diretto, anche 
+senza consultazione di più operatori economici; 
+- l’art. 17, comma 2, del D. Lgs n. 36/2023 prevede che in caso di affidamento diretto, la 
+decisione contrarre individua l’oggetto, l’importo e il contraente, unitamente alle ragioni della 
+sua scelta, ai requisiti di carattere generale e, se necessari, a quelli inerenti alla capacità 
+economico-finanziaria e tecnico-professionale; 
+- l’importo del presente affidamento (inferiore ad € 140.000,00) non comporta l’obbligo del 
+preventivo inserimento nel programma triennale degli acquisti di beni e servizi di cui all’art. 
+37 del Codice; 
+- l’acquisto di cui all’oggetto comporta una spesa complessiva inferiore ad euro 5.000,00 e 
+pertanto, come stabilito dall’art. 1, comma 450 della Legge 196/2006 smi, per il relativo 
+acquisto non corre l’obbligo di utilizzo del mercato elettronico o dei sistemi telematici di 
+negoziazione regionale di riferimento 
+ 
+Considerato quanto sopra, in data 28.11.2024 è pervenuta la formulazione di una offerta economica 
+per il servizio di cui si necessita da parte di “Meeting Project S.r.l.” con sede legale in Via D. Frisia 
+2, 23807 Merate (LC) - Partita Iva e Cod. Fiscale 02141810131 individuata nel rispetto dei principi 
+di rotazione degli inviti e degli affidamenti, di cui il dettaglio e la quantità riportati di seguito:  
+AUDIO: impianto audio Bose 4 casse acustiche subwoofer, Mixer audio digitale Yamaha, Nr.01 
+radiomic a spillo Sennheiser, Nr.03 radiomic a gelato Sennheiser, Nr.01 microfono a collo di cigno 
+Sennheiser e relativi cablaggi; 
+VIDEO: Videoproiettore 12.000 ansi lumen Panasonic, Schermo autoportante Stumplt 3,45x2.50 cm., 
+Nr.02 pc portatili per contributi video/presentazioni, comando slide wireless, Mixer grafico Analog 
+Way Pulse Monitor di riporto al palco 43" su supporto da terra e relativi cablaggi; 
+per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+in relazione alle caratteristiche preventivate dal fornitore, tale preventivo viene ritenuto congruo e 
+conveniente per le esigenze rappresentate. Inoltre, il fornitore ha dichiarato che effettuerà tale servizio 
+nell'osservanza delle norme specificate nella lettera di richiesta preventivo e delle norme in materia 
+di sicurezza di cui al D. Lgs. N.81/2008 e successive modificazioni e integrazioni con proprie 
+disponibilità organizzative, strumenti e materiali forniti. 
+La particolare qualificazione dell’operatore emerge altresì dalle attività svolte di tipologia similare, 
+in termini qualitativi rispondenti allo stesso, nonché nel rispetto dei tempi e dei costi pattuiti; 
+ 
+pertanto, si procede all’affidamento diretto per l’acquisizione di un servizio di noleggio attrezzatura 
+audio e video utile per convegni per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+Infine, si dà atto che: 
+- ai sensi dell’art. 192 del D. Lgs. n. 267/2000 il fine del contratto è quello di rafforzare l’identità 
+visiva dell’Ente, promuoverne l’immagine e il senso di appartenenza di un pubblico vasto e 
+diversificato; 
+- l’oggetto della procedura è la strumentazione utile per la realizzazione del convegno 
+“Provincia, Bene Comune” al fine di rafforzare e promuovere l’immagine dell’Ente verso i 
+comuni della Provincia di Monza e della Brianza e gli stakeholder individuati o di un pubblico 
+vasto e diversificato; 
+- la procedura prescelta è l’affidamento diretto ai sensi dell’art. 50, comma 1, let. b) del D. Lgs. 
+n. 36/2023; 
+- l’affidamento del servizio di cui trattasi verrà perfezionata mediante lettera commerciale; 
+- il servizio in questione è identificato con il codice CIG B4A2D608CE ai sensi dell’art. 3 della 
+Legge 13/08/2010 n. 136; 
+- in conformità a quanto disposto dall’art. 53, comma 1, del D. Lgs. n. 36/2023, con riferimento 
+all’affidamento in parola non vengono richieste le garanzie provvisorie di cui all’articolo 106; 
+- è stata acquisita dichiarazione Durc, e stato consultato il casellario ANAC per le annotazioni 
+riservate, sono state richieste le autodichiarazioni di possesso dei requisiti e pantouflage. Se 
+all’esito delle verifiche effettuate secondo le disposizioni di cui alla circolare interna n. 16426 
+del 19/04/2018, emerga un difetto dei requisiti, si procederà alla risoluzione del contratto e 
+alle dovute segnalazioni;  
+- sensi dell'art. 3 della Legge 13/08/2010 n. 136, la ditta affidataria si obbliga ad utilizzare il 
+conto corrente dedicato, anche non in via esclusiva, alle commesse pubbliche e si obbliga 
+altresì ad indicare persona delegata a operare su tale conto corrente, consapevole che i 
+pagamenti potranno avvenire esclusivamente mediante bonifico bancario o postale riportante, 
+in relazione a ciascuna transazione posta in essere, il CIG assegnato; 
+- i costi relativi alla sicurezza sostenuti dall’Ente sono pari a € 0,00 (zero/00) e non occorre 
+procedere alla stesura del D.U.V.R.I., ai sensi dell’art. 26, comma 3-bis del D. Lgs. 
+09/04/2008 n. 81 e smi; 
+- il Responsabile del procedimento è il Segretario Generale, Dott. Sandro De Martino; 
+ 
+ 
+2. RICHIAMI NORMATIVI  
+ 
+- l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.; 
+- l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i; 
+- l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.; 
+- l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135; 
+- l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.; 
+- il Decreto Ministeriale n. 55 del 3.4.2013 “Regolamento in materia di emissione, trasmissione 
+e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi 
+dell’art. 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244”; 
+- il D. Lgs. 31.3.2023 n. 36 “Codice dei contratti pubblici in attuazione dell'articolo 1 della 
+legge 21 giugno 2022, n. 78, recante delega al Governo in materia di contratti pubblici” c.d. 
+Codice; 
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- l’art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi, da ultimo aggiornato con 
+Decreto Deliberativo Presidenziale n. 44 del 16.3.2023; 
+- il Regolamento di contabilità, da ultimo aggiornato con deliberazione di Consiglio n. 8 del 
+20.4.2021, esecutiva; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato 
+con deliberazione Consiliare n. 12 del 27.05.2015; 
+ 
+ 
+3.  PRECEDENTI 
+ 
+- la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei 
+contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e 
+procedure negoziate senza bando”; 
+- il Decreto Deliberativo Presidenziale n. 56 del 30.03.2023 ad oggetto “Piano triennale di 
+prevenzione della corruzione (PTPC) 2023-2024-2025 - sezione del Piano Integrato di 
+Attività e Organizzazione (PIAO) - rischi corruttivi e trasparenza. Approvazione.” 
+- il Decreto del Presidente n. 20 del 27.06.2024, ad oggetto “Sostituzione temporanea dei 
+dirigenti in caso di assenza o impedimento. Aggiornamento.”; 
+ 
+ 
+3.  EFFETTI ECONOMICI  
+ 
+L’incidenza economica del provvedimento è pari a € 4.941,00 (compreso, imposta 22% pari a € 
+891,00) a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) 
+- Partita Iva e Cod. Fiscale 02141810131 comprensiva di ogni onere, diretto ed indiretto, presente e 
+futuro, e trova dettagliata imputazione sul bilancio 2024-2026, come sotto specificato; 
+ 
+ 
+DETERMINA 
+ 
+1. di approvare la spesa complessiva di € 4.941,00 (compreso di imposta 22% pari a € 891,00) a 
+favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) - Partita 
+Iva e Cod. Fiscale 02141810131 
+ 
+2. di 2. di impegnare a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 
+Merate (LC) - Partita Iva e Cod. Fiscale 02141810131, la spesa complessiva di 4.941,00 (compreso, 
+imposta 22% pari a  €891,00) sul bilancio 2024-2026, annualità 2024, con imputazione:  
+importo bilancio capitolo Piano finanziario 
+ 4.941,00 2024 01 01 103 47 U.1.03.02.99.999 
+  
+3. di dichiarare che l’obbligazione diventa esigibile entro l’anno di imputazione;  
+4. di attestare che il programma dei pagamenti è compatibile con gli stanziamenti di cassa ai sensi e 
+per gli effetti di quanto previsto dall’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267; 
+ 
+5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+ 
+6. di dare atto che il presente provvedimento sarà esecutivo con l’apposizione del visto di regolarità 
+contabile attestante la copertura finanziaria espresso dal Responsabile del Servizio finanziario ai sensi 
+dell’art. 183, comma 7, del D. Lgs. 18.08. 2000, n. 267; 
+ 
+7. di pubblicare il presente provvedimento, ai sensi dell’art. 37 del D. Lgs 14/03/2013, n. 33 e s.m.i. 
+nella sezione Amministrazione Trasparente del sito web istituzionale della Provincia di Monza e della 
+Brianza. 
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ##### OUTPUT:
+    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    ...
+
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2a. Statuto: [SI]
+    Punto 2b. Regolamento sull'ordinamento degli uffici e dei servizi -(DG n. 9 del 29/1/2014): [SI]
+    Punto 2c. Regolamento di contabilità: [SI]
+    Punto 2d. Regolamento in materia di controlli: [SI]
+    Punto 2e. D.G. n. 25 del 30.9.2009 "Linee operative e indirizzo d'applicazione normativa delle procedure in economia": [Carente]
+    Note finali: La determina sembra avere una struttura logica e coerente, ma potrebbe essere utile specificare meglio le motivazioni per cui l'art. 2e è considerato "carente". Inoltre, potrebbe essere utile verificare se la determina rispetta tutte le norme regolamentari citate nella checklist.
+    [/INST]</s> <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2a. Statuto: [SI]
+    Punto 2b. Regolamento sull'ordinamento degli uffici e dei servizi -(DG n. 9 del 29/1/2014): [SI]
+    Punto 2c. Regolamento di contabilità: [SI]
+    Punto 2d. Regolamento in materia di controlli: [SI]
+    Punto 2e. D.G. n. 25 del 30.9.2009 "Linee operative e indirizzo d'applicazione normativa delle procedure in economia": [Carente]
+    Note finali: La determina sembra avere una struttura logica e coerente, ma potrebbe essere utile specificare meglio le motivazioni per cui l'art. 2e è considerato "carente". Inoltre, potrebbe essere utile verificare se la determina rispetta tutte le norme regolamentari citate nella checklist.
+    [/INST]</s> <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2a. Statuto:
+
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
+       - **Carente**: La norma non è citata ma la mancanza non è grave.
+       - **NO**: La norma non è citata e la mancanza è grave.
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Citare con precisione, sempre, le deliberazioni  a contenuto programmatico: Bilancio di previsione, PEG (comprese modifiche/variazioni intervenute nell'anno, Bilancio pluriennale). Quando le  procedure vengono effettuate mediante prenotazione di spesa per commesse  relative all'esercizio successivo, citare l'annualità del bilancio pluriennale in corso, con riferimento all'oggetto del contratto.
+
+    <</SYS>>
+
+    ##### CHECKLIST 
+    3. Conformità al programma di mandato, Piano Esecutivo di Gestione, atti di programmazione
+	3a.Regolarità delle procedure, correttezza formale nei provvedimenti emessi
+	3b.Coerenza dei dati riportati nei provvedimenti e nei relativi allegati
+
+    ###### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3071 del 05-12-2024 
+ 
+Oggetto: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL 
+D.LGS N. 36/2023 PER L'ACQUISIZIONE DEL SERVICE AUDIO E VIDEO 
+UTILE PER LO SVOLGIMENTO DEL CONVEGNO "PROVINCIA, BENE 
+COMUNE. CELEBRAZIONE DEL VENTENNALE" - CIG B4A2D608CE 
+ 
+ 
+ 
+Legge 7.4.2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni 
+di comuni” e ss.mm.ii. ; 
+ 
+gli artt. 107, 147 bis e 183, comma 1 e 191 del D.Lgs 18.8.2000, n. 267 “Testo unico delle leggi 
+sull'ordinamento degli enti locali"; 
+ 
+la Deliberazione di Consiglio Provinciale n. 40 del 21.12.2023 “Documento Unico di 
+Programmazione (DUP) 2024-2026. Approvazione. I.E.”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 41 del 21.12.2023 “Bilancio di previsione 2024-2026. 
+Approvazione. I.E. ”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 17 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
+ 
+il Decreto Deliberativo Presidenziale n. 9  del 18.01.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 88 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
+nuova Macrostruttura. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 32 dell’08.02.2024, ad oggetto “Piano integrato di attività e 
+organizzazione (PIAO) della Provincia di Monza e della Brianza 2024-2026. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 195 del 14.12.2023, ad oggetto “Variazione DDP n. 96/2023 
+PIAO 2023-2025 e sottosezione programmazione performance, ai sensi dell’art. 6 del DL n. 80/2021, 
+convertito con modificazioni in legge n. 113/2021. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura e 
+funzionigramma. Aggiornamenti. Approvazione”; 
+
+ 
+il principio applicato della contabilità finanziaria, di cui all’allegato n. 4/2 del D.Lgs. 23/11/2011, n. 
+118; 
+ 
+ 
+il Decreto di nomina n. 15 del 30.05.2024 “Conferimento incarico dirigenziale alla Dott.ssa 
+Erminia Vittoria Zoppè quale direttore del Settore Risorse e Servizi ai Comuni”; 
+ 
+il Decreto del Presidente n. 20 del 27.06.2024 “Sostituzione temporanea dei dirigenti in caso di assenza 
+o impedimento. aggiornamento”; 
+ 
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+ 
+In funzione di quanto stabilito dalla Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città 
+metropolitane, sulle province, sulle unioni e fusioni di comuni", che definisce le Province come “enti 
+territoriali di area vasta” governati da organi eletti dai Sindaci e dai Consiglieri dei Comuni del 
+territorio, la Provincia di Monza e della Brianza porta avanti da molti anni diversi progetti di rete 
+territoriale come “Provincia #CasaDeiComuni”; 
+ 
+In occasione del Convegno “Provincia, Bene Comune”, che si terrà il giorno 16 dicembre 2024 presso 
+la Villa reale di Monza, momento utile per ripercorrere i 20 anni dalla nascita dell’ente e le attività 
+svolte, condividendo idee e progetti per affrontare le prossime sfide e i futuri obbiettivi, si intende 
+procedere all’acquisizione del servizio di noleggio attrezzatura audio, video e di un palco 6x2mt con 
+struttura a vista e moquettature quali strumenti utili al fine di garantire innanzitutto un servizio 
+professionale sotto l’aspetto tecnico garantendo un risultato di qualità e a contribuire a creare 
+un’atmosfera personalizzata e un’esperienza coinvolgente per il pubblico, aumentando l’impatto del 
+messaggio che si vuole trasmettere. 
+ 
+Tenuto conto che: 
+- alla luce dell’istruttoria svolta l’importo della fornitura è inferiore a 140mila euro, e quindi, 
+fermi restando gli obblighi di utilizzo di strumenti di acquisto e di negoziazione previsti dalle 
+vigenti disposizioni in materia di contenimento della spesa, questa Amministrazione può, ai 
+sensi dell’art.62, comma 1, del D. Lgs. n. 36/2023, procedere direttamente e autonomamente 
+all'acquisizione del servizio in oggetto; 
+- l’allegato I.1 al D. Lgs. n.36/2023 definisce, all’articolo 3, comma 1, lettera d), l’affidamento 
+diretto come “l’affidamento del contratto senza una procedura di gara, nel quale, anche nel 
+caso di previo interpello di più operatori economici, la scelta è operata discrezionalmente dalla 
+stazione appaltante o dall’ente concedente, nel rispetto dei criteri qualitativi e quantitativi di 
+cui all’articolo 50, comma 1 lettere a) e b), del codice e dei requisiti generali o speciali previsti 
+dal medesimo codice”. 
+- ai sensi dell’art. l’art. 50, comma 1, let. b) del D. Lgs. n.36/2023 per gli affidamenti di contratti 
+di servizi e forniture, ivi compresi i servizi di ingegneria e architettura e l'attività di 
+progettazione, di importo inferiore a 140.000 Euro, si procede ad affidamento diretto, anche 
+senza consultazione di più operatori economici; 
+- l’art. 17, comma 2, del D. Lgs n. 36/2023 prevede che in caso di affidamento diretto, la 
+decisione contrarre individua l’oggetto, l’importo e il contraente, unitamente alle ragioni della 
+sua scelta, ai requisiti di carattere generale e, se necessari, a quelli inerenti alla capacità 
+economico-finanziaria e tecnico-professionale; 
+- l’importo del presente affidamento (inferiore ad € 140.000,00) non comporta l’obbligo del 
+preventivo inserimento nel programma triennale degli acquisti di beni e servizi di cui all’art. 
+37 del Codice; 
+- l’acquisto di cui all’oggetto comporta una spesa complessiva inferiore ad euro 5.000,00 e 
+pertanto, come stabilito dall’art. 1, comma 450 della Legge 196/2006 smi, per il relativo 
+acquisto non corre l’obbligo di utilizzo del mercato elettronico o dei sistemi telematici di 
+negoziazione regionale di riferimento 
+ 
+Considerato quanto sopra, in data 28.11.2024 è pervenuta la formulazione di una offerta economica 
+per il servizio di cui si necessita da parte di “Meeting Project S.r.l.” con sede legale in Via D. Frisia 
+2, 23807 Merate (LC) - Partita Iva e Cod. Fiscale 02141810131 individuata nel rispetto dei principi 
+di rotazione degli inviti e degli affidamenti, di cui il dettaglio e la quantità riportati di seguito:  
+AUDIO: impianto audio Bose 4 casse acustiche subwoofer, Mixer audio digitale Yamaha, Nr.01 
+radiomic a spillo Sennheiser, Nr.03 radiomic a gelato Sennheiser, Nr.01 microfono a collo di cigno 
+Sennheiser e relativi cablaggi; 
+VIDEO: Videoproiettore 12.000 ansi lumen Panasonic, Schermo autoportante Stumplt 3,45x2.50 cm., 
+Nr.02 pc portatili per contributi video/presentazioni, comando slide wireless, Mixer grafico Analog 
+Way Pulse Monitor di riporto al palco 43" su supporto da terra e relativi cablaggi; 
+per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+in relazione alle caratteristiche preventivate dal fornitore, tale preventivo viene ritenuto congruo e 
+conveniente per le esigenze rappresentate. Inoltre, il fornitore ha dichiarato che effettuerà tale servizio 
+nell'osservanza delle norme specificate nella lettera di richiesta preventivo e delle norme in materia 
+di sicurezza di cui al D. Lgs. N.81/2008 e successive modificazioni e integrazioni con proprie 
+disponibilità organizzative, strumenti e materiali forniti. 
+La particolare qualificazione dell’operatore emerge altresì dalle attività svolte di tipologia similare, 
+in termini qualitativi rispondenti allo stesso, nonché nel rispetto dei tempi e dei costi pattuiti; 
+ 
+pertanto, si procede all’affidamento diretto per l’acquisizione di un servizio di noleggio attrezzatura 
+audio e video utile per convegni per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+Infine, si dà atto che: 
+- ai sensi dell’art. 192 del D. Lgs. n. 267/2000 il fine del contratto è quello di rafforzare l’identità 
+visiva dell’Ente, promuoverne l’immagine e il senso di appartenenza di un pubblico vasto e 
+diversificato; 
+- l’oggetto della procedura è la strumentazione utile per la realizzazione del convegno 
+“Provincia, Bene Comune” al fine di rafforzare e promuovere l’immagine dell’Ente verso i 
+comuni della Provincia di Monza e della Brianza e gli stakeholder individuati o di un pubblico 
+vasto e diversificato; 
+- la procedura prescelta è l’affidamento diretto ai sensi dell’art. 50, comma 1, let. b) del D. Lgs. 
+n. 36/2023; 
+- l’affidamento del servizio di cui trattasi verrà perfezionata mediante lettera commerciale; 
+- il servizio in questione è identificato con il codice CIG B4A2D608CE ai sensi dell’art. 3 della 
+Legge 13/08/2010 n. 136; 
+- in conformità a quanto disposto dall’art. 53, comma 1, del D. Lgs. n. 36/2023, con riferimento 
+all’affidamento in parola non vengono richieste le garanzie provvisorie di cui all’articolo 106; 
+- è stata acquisita dichiarazione Durc, e stato consultato il casellario ANAC per le annotazioni 
+riservate, sono state richieste le autodichiarazioni di possesso dei requisiti e pantouflage. Se 
+all’esito delle verifiche effettuate secondo le disposizioni di cui alla circolare interna n. 16426 
+del 19/04/2018, emerga un difetto dei requisiti, si procederà alla risoluzione del contratto e 
+alle dovute segnalazioni;  
+- sensi dell'art. 3 della Legge 13/08/2010 n. 136, la ditta affidataria si obbliga ad utilizzare il 
+conto corrente dedicato, anche non in via esclusiva, alle commesse pubbliche e si obbliga 
+altresì ad indicare persona delegata a operare su tale conto corrente, consapevole che i 
+pagamenti potranno avvenire esclusivamente mediante bonifico bancario o postale riportante, 
+in relazione a ciascuna transazione posta in essere, il CIG assegnato; 
+- i costi relativi alla sicurezza sostenuti dall’Ente sono pari a € 0,00 (zero/00) e non occorre 
+procedere alla stesura del D.U.V.R.I., ai sensi dell’art. 26, comma 3-bis del D. Lgs. 
+09/04/2008 n. 81 e smi; 
+- il Responsabile del procedimento è il Segretario Generale, Dott. Sandro De Martino; 
+ 
+ 
+2. RICHIAMI NORMATIVI  
+ 
+- l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.; 
+- l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i; 
+- l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.; 
+- l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135; 
+- l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.; 
+- il Decreto Ministeriale n. 55 del 3.4.2013 “Regolamento in materia di emissione, trasmissione 
+e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi 
+dell’art. 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244”; 
+- il D. Lgs. 31.3.2023 n. 36 “Codice dei contratti pubblici in attuazione dell'articolo 1 della 
+legge 21 giugno 2022, n. 78, recante delega al Governo in materia di contratti pubblici” c.d. 
+Codice; 
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- l’art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi, da ultimo aggiornato con 
+Decreto Deliberativo Presidenziale n. 44 del 16.3.2023; 
+- il Regolamento di contabilità, da ultimo aggiornato con deliberazione di Consiglio n. 8 del 
+20.4.2021, esecutiva; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato 
+con deliberazione Consiliare n. 12 del 27.05.2015; 
+ 
+ 
+3.  PRECEDENTI 
+ 
+- la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei 
+contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e 
+procedure negoziate senza bando”; 
+- il Decreto Deliberativo Presidenziale n. 56 del 30.03.2023 ad oggetto “Piano triennale di 
+prevenzione della corruzione (PTPC) 2023-2024-2025 - sezione del Piano Integrato di 
+Attività e Organizzazione (PIAO) - rischi corruttivi e trasparenza. Approvazione.” 
+- il Decreto del Presidente n. 20 del 27.06.2024, ad oggetto “Sostituzione temporanea dei 
+dirigenti in caso di assenza o impedimento. Aggiornamento.”; 
+ 
+ 
+3.  EFFETTI ECONOMICI  
+ 
+L’incidenza economica del provvedimento è pari a € 4.941,00 (compreso, imposta 22% pari a € 
+891,00) a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) 
+- Partita Iva e Cod. Fiscale 02141810131 comprensiva di ogni onere, diretto ed indiretto, presente e 
+futuro, e trova dettagliata imputazione sul bilancio 2024-2026, come sotto specificato; 
+ 
+ 
+DETERMINA 
+ 
+1. di approvare la spesa complessiva di € 4.941,00 (compreso di imposta 22% pari a € 891,00) a 
+favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) - Partita 
+Iva e Cod. Fiscale 02141810131 
+ 
+2. di 2. di impegnare a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 
+Merate (LC) - Partita Iva e Cod. Fiscale 02141810131, la spesa complessiva di 4.941,00 (compreso, 
+imposta 22% pari a  €891,00) sul bilancio 2024-2026, annualità 2024, con imputazione:  
+importo bilancio capitolo Piano finanziario 
+ 4.941,00 2024 01 01 103 47 U.1.03.02.99.999 
+  
+3. di dichiarare che l’obbligazione diventa esigibile entro l’anno di imputazione;  
+4. di attestare che il programma dei pagamenti è compatibile con gli stanziamenti di cassa ai sensi e 
+per gli effetti di quanto previsto dall’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267; 
+ 
+5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+ 
+6. di dare atto che il presente provvedimento sarà esecutivo con l’apposizione del visto di regolarità 
+contabile attestante la copertura finanziaria espresso dal Responsabile del Servizio finanziario ai sensi 
+dell’art. 183, comma 7, del D. Lgs. 18.08. 2000, n. 267; 
+ 
+7. di pubblicare il presente provvedimento, ai sensi dell’art. 37 del D. Lgs 14/03/2013, n. 33 e s.m.i. 
+nella sezione Amministrazione Trasparente del sito web istituzionale della Provincia di Monza e della 
+Brianza. 
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ##### OUTPUT:
+    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    ...
+
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ <s>[INST] <<SYS>>
+    Risposta automatica generata in base alle informazioni fornite.
+
+    Punto 1: [SI]
+    La norma è citata nella determina (art. 50, comma 1, lett. b) del D.Lgs n. 36/2023).
+
+    Punto 2: [SI]
+    La norma è citata nella determina (art. 17, comma 2, del D.Lgs n. 36/2023).
+
+    Punto 3: [SI]
+    La norma è citata nella determina (art. 37 del Codice).
+
+    Punto 4: [SI]
+    La norma è citata nella determina (art. 1, comma 450 della Legge 196/2006 smi).
+
+    Punto 5: [SI]
+    La norma è citata nella determina (Decreto Ministeriale n. 55 del 3.4.2013).
+
+    Punto 6: [SI]
+    La norma è citata nella determina (D. Lgs. 31.3.2023 n. 36).
+
+    Punto 7: [SI]
+    La norma è citata nella determina (artt. 35 e 37 dello Statuto della Provincia).
+
+    Punto 8: [SI]
+    La norma è citata nella determina (art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi).
+
+    Punto 9: [SI]
+    La norma è citata nella determina (Regolamento di contabilità).
+
+    Punto 10: [SI]
+    La norma è citata nella determina (art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni).
+
+    Punto 11: [SI]
+    La norma è citata nella determina (circolare della Segreteria Generale prot. n.18626 del 10.04.2024).
+
+    Punto 12: [SI]
+    La norma è citata nella determina (Decreto Deliberativo Presidenziale n. 56 del 30.03.2023).
+
+    Punto 13: [SI]
+    La norm
+
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
+       - **Carente**: La norma non è citata ma la mancanza non è grave.
+       - **NO**: La norma non è citata e la mancanza è grave.
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Ciò si ottiene attraverso la citazione di tutti gli atti che compongono il procedimento amministrativo: ricezione istanza/domanda, avvio del  procedimento, comunicazione eventuale interruzione/ sospensione termini,  note pareri ad organismi esterni, eventuale preavviso di rigetto e  atto finale.Tutti questi atti devono essere citati per data, Prot. e singolo oggetto e termine di eventuale sospensione.
+
+    <</SYS>>
+
+    ##### CHECKLIST 
+    4. Rispetto dello specifico termine di conclusione del procedimento art. 1 comma 9, lettera d) legge 190/2012 (NORMATIVA ANTICORRUZIONE)
+	4a. Individuazione del procedimento
+	4b. Ex lege o altri atti normativi
+	4c. Regolamenti anche interni (cfr sub b) DG 25/2009)
+	4d. Deliberazione di ricognizione dei termini di conclusione procedimento ( deliberazione Giunta n. 140  del 28/7/2010)
+	4e. Altri documenti di programmazione gestionale
+	4f. Coerenza tempi di procedimento indicati nel P.T.P.C. 2014
+
+    ###### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3071 del 05-12-2024 
+ 
+Oggetto: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL 
+D.LGS N. 36/2023 PER L'ACQUISIZIONE DEL SERVICE AUDIO E VIDEO 
+UTILE PER LO SVOLGIMENTO DEL CONVEGNO "PROVINCIA, BENE 
+COMUNE. CELEBRAZIONE DEL VENTENNALE" - CIG B4A2D608CE 
+ 
+ 
+ 
+Legge 7.4.2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni 
+di comuni” e ss.mm.ii. ; 
+ 
+gli artt. 107, 147 bis e 183, comma 1 e 191 del D.Lgs 18.8.2000, n. 267 “Testo unico delle leggi 
+sull'ordinamento degli enti locali"; 
+ 
+la Deliberazione di Consiglio Provinciale n. 40 del 21.12.2023 “Documento Unico di 
+Programmazione (DUP) 2024-2026. Approvazione. I.E.”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 41 del 21.12.2023 “Bilancio di previsione 2024-2026. 
+Approvazione. I.E. ”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 17 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
+ 
+il Decreto Deliberativo Presidenziale n. 9  del 18.01.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 88 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
+nuova Macrostruttura. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 32 dell’08.02.2024, ad oggetto “Piano integrato di attività e 
+organizzazione (PIAO) della Provincia di Monza e della Brianza 2024-2026. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 195 del 14.12.2023, ad oggetto “Variazione DDP n. 96/2023 
+PIAO 2023-2025 e sottosezione programmazione performance, ai sensi dell’art. 6 del DL n. 80/2021, 
+convertito con modificazioni in legge n. 113/2021. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura e 
+funzionigramma. Aggiornamenti. Approvazione”; 
+
+ 
+il principio applicato della contabilità finanziaria, di cui all’allegato n. 4/2 del D.Lgs. 23/11/2011, n. 
+118; 
+ 
+ 
+il Decreto di nomina n. 15 del 30.05.2024 “Conferimento incarico dirigenziale alla Dott.ssa 
+Erminia Vittoria Zoppè quale direttore del Settore Risorse e Servizi ai Comuni”; 
+ 
+il Decreto del Presidente n. 20 del 27.06.2024 “Sostituzione temporanea dei dirigenti in caso di assenza 
+o impedimento. aggiornamento”; 
+ 
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+ 
+In funzione di quanto stabilito dalla Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città 
+metropolitane, sulle province, sulle unioni e fusioni di comuni", che definisce le Province come “enti 
+territoriali di area vasta” governati da organi eletti dai Sindaci e dai Consiglieri dei Comuni del 
+territorio, la Provincia di Monza e della Brianza porta avanti da molti anni diversi progetti di rete 
+territoriale come “Provincia #CasaDeiComuni”; 
+ 
+In occasione del Convegno “Provincia, Bene Comune”, che si terrà il giorno 16 dicembre 2024 presso 
+la Villa reale di Monza, momento utile per ripercorrere i 20 anni dalla nascita dell’ente e le attività 
+svolte, condividendo idee e progetti per affrontare le prossime sfide e i futuri obbiettivi, si intende 
+procedere all’acquisizione del servizio di noleggio attrezzatura audio, video e di un palco 6x2mt con 
+struttura a vista e moquettature quali strumenti utili al fine di garantire innanzitutto un servizio 
+professionale sotto l’aspetto tecnico garantendo un risultato di qualità e a contribuire a creare 
+un’atmosfera personalizzata e un’esperienza coinvolgente per il pubblico, aumentando l’impatto del 
+messaggio che si vuole trasmettere. 
+ 
+Tenuto conto che: 
+- alla luce dell’istruttoria svolta l’importo della fornitura è inferiore a 140mila euro, e quindi, 
+fermi restando gli obblighi di utilizzo di strumenti di acquisto e di negoziazione previsti dalle 
+vigenti disposizioni in materia di contenimento della spesa, questa Amministrazione può, ai 
+sensi dell’art.62, comma 1, del D. Lgs. n. 36/2023, procedere direttamente e autonomamente 
+all'acquisizione del servizio in oggetto; 
+- l’allegato I.1 al D. Lgs. n.36/2023 definisce, all’articolo 3, comma 1, lettera d), l’affidamento 
+diretto come “l’affidamento del contratto senza una procedura di gara, nel quale, anche nel 
+caso di previo interpello di più operatori economici, la scelta è operata discrezionalmente dalla 
+stazione appaltante o dall’ente concedente, nel rispetto dei criteri qualitativi e quantitativi di 
+cui all’articolo 50, comma 1 lettere a) e b), del codice e dei requisiti generali o speciali previsti 
+dal medesimo codice”. 
+- ai sensi dell’art. l’art. 50, comma 1, let. b) del D. Lgs. n.36/2023 per gli affidamenti di contratti 
+di servizi e forniture, ivi compresi i servizi di ingegneria e architettura e l'attività di 
+progettazione, di importo inferiore a 140.000 Euro, si procede ad affidamento diretto, anche 
+senza consultazione di più operatori economici; 
+- l’art. 17, comma 2, del D. Lgs n. 36/2023 prevede che in caso di affidamento diretto, la 
+decisione contrarre individua l’oggetto, l’importo e il contraente, unitamente alle ragioni della 
+sua scelta, ai requisiti di carattere generale e, se necessari, a quelli inerenti alla capacità 
+economico-finanziaria e tecnico-professionale; 
+- l’importo del presente affidamento (inferiore ad € 140.000,00) non comporta l’obbligo del 
+preventivo inserimento nel programma triennale degli acquisti di beni e servizi di cui all’art. 
+37 del Codice; 
+- l’acquisto di cui all’oggetto comporta una spesa complessiva inferiore ad euro 5.000,00 e 
+pertanto, come stabilito dall’art. 1, comma 450 della Legge 196/2006 smi, per il relativo 
+acquisto non corre l’obbligo di utilizzo del mercato elettronico o dei sistemi telematici di 
+negoziazione regionale di riferimento 
+ 
+Considerato quanto sopra, in data 28.11.2024 è pervenuta la formulazione di una offerta economica 
+per il servizio di cui si necessita da parte di “Meeting Project S.r.l.” con sede legale in Via D. Frisia 
+2, 23807 Merate (LC) - Partita Iva e Cod. Fiscale 02141810131 individuata nel rispetto dei principi 
+di rotazione degli inviti e degli affidamenti, di cui il dettaglio e la quantità riportati di seguito:  
+AUDIO: impianto audio Bose 4 casse acustiche subwoofer, Mixer audio digitale Yamaha, Nr.01 
+radiomic a spillo Sennheiser, Nr.03 radiomic a gelato Sennheiser, Nr.01 microfono a collo di cigno 
+Sennheiser e relativi cablaggi; 
+VIDEO: Videoproiettore 12.000 ansi lumen Panasonic, Schermo autoportante Stumplt 3,45x2.50 cm., 
+Nr.02 pc portatili per contributi video/presentazioni, comando slide wireless, Mixer grafico Analog 
+Way Pulse Monitor di riporto al palco 43" su supporto da terra e relativi cablaggi; 
+per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+in relazione alle caratteristiche preventivate dal fornitore, tale preventivo viene ritenuto congruo e 
+conveniente per le esigenze rappresentate. Inoltre, il fornitore ha dichiarato che effettuerà tale servizio 
+nell'osservanza delle norme specificate nella lettera di richiesta preventivo e delle norme in materia 
+di sicurezza di cui al D. Lgs. N.81/2008 e successive modificazioni e integrazioni con proprie 
+disponibilità organizzative, strumenti e materiali forniti. 
+La particolare qualificazione dell’operatore emerge altresì dalle attività svolte di tipologia similare, 
+in termini qualitativi rispondenti allo stesso, nonché nel rispetto dei tempi e dei costi pattuiti; 
+ 
+pertanto, si procede all’affidamento diretto per l’acquisizione di un servizio di noleggio attrezzatura 
+audio e video utile per convegni per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+Infine, si dà atto che: 
+- ai sensi dell’art. 192 del D. Lgs. n. 267/2000 il fine del contratto è quello di rafforzare l’identità 
+visiva dell’Ente, promuoverne l’immagine e il senso di appartenenza di un pubblico vasto e 
+diversificato; 
+- l’oggetto della procedura è la strumentazione utile per la realizzazione del convegno 
+“Provincia, Bene Comune” al fine di rafforzare e promuovere l’immagine dell’Ente verso i 
+comuni della Provincia di Monza e della Brianza e gli stakeholder individuati o di un pubblico 
+vasto e diversificato; 
+- la procedura prescelta è l’affidamento diretto ai sensi dell’art. 50, comma 1, let. b) del D. Lgs. 
+n. 36/2023; 
+- l’affidamento del servizio di cui trattasi verrà perfezionata mediante lettera commerciale; 
+- il servizio in questione è identificato con il codice CIG B4A2D608CE ai sensi dell’art. 3 della 
+Legge 13/08/2010 n. 136; 
+- in conformità a quanto disposto dall’art. 53, comma 1, del D. Lgs. n. 36/2023, con riferimento 
+all’affidamento in parola non vengono richieste le garanzie provvisorie di cui all’articolo 106; 
+- è stata acquisita dichiarazione Durc, e stato consultato il casellario ANAC per le annotazioni 
+riservate, sono state richieste le autodichiarazioni di possesso dei requisiti e pantouflage. Se 
+all’esito delle verifiche effettuate secondo le disposizioni di cui alla circolare interna n. 16426 
+del 19/04/2018, emerga un difetto dei requisiti, si procederà alla risoluzione del contratto e 
+alle dovute segnalazioni;  
+- sensi dell'art. 3 della Legge 13/08/2010 n. 136, la ditta affidataria si obbliga ad utilizzare il 
+conto corrente dedicato, anche non in via esclusiva, alle commesse pubbliche e si obbliga 
+altresì ad indicare persona delegata a operare su tale conto corrente, consapevole che i 
+pagamenti potranno avvenire esclusivamente mediante bonifico bancario o postale riportante, 
+in relazione a ciascuna transazione posta in essere, il CIG assegnato; 
+- i costi relativi alla sicurezza sostenuti dall’Ente sono pari a € 0,00 (zero/00) e non occorre 
+procedere alla stesura del D.U.V.R.I., ai sensi dell’art. 26, comma 3-bis del D. Lgs. 
+09/04/2008 n. 81 e smi; 
+- il Responsabile del procedimento è il Segretario Generale, Dott. Sandro De Martino; 
+ 
+ 
+2. RICHIAMI NORMATIVI  
+ 
+- l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.; 
+- l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i; 
+- l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.; 
+- l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135; 
+- l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.; 
+- il Decreto Ministeriale n. 55 del 3.4.2013 “Regolamento in materia di emissione, trasmissione 
+e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi 
+dell’art. 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244”; 
+- il D. Lgs. 31.3.2023 n. 36 “Codice dei contratti pubblici in attuazione dell'articolo 1 della 
+legge 21 giugno 2022, n. 78, recante delega al Governo in materia di contratti pubblici” c.d. 
+Codice; 
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- l’art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi, da ultimo aggiornato con 
+Decreto Deliberativo Presidenziale n. 44 del 16.3.2023; 
+- il Regolamento di contabilità, da ultimo aggiornato con deliberazione di Consiglio n. 8 del 
+20.4.2021, esecutiva; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato 
+con deliberazione Consiliare n. 12 del 27.05.2015; 
+ 
+ 
+3.  PRECEDENTI 
+ 
+- la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei 
+contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e 
+procedure negoziate senza bando”; 
+- il Decreto Deliberativo Presidenziale n. 56 del 30.03.2023 ad oggetto “Piano triennale di 
+prevenzione della corruzione (PTPC) 2023-2024-2025 - sezione del Piano Integrato di 
+Attività e Organizzazione (PIAO) - rischi corruttivi e trasparenza. Approvazione.” 
+- il Decreto del Presidente n. 20 del 27.06.2024, ad oggetto “Sostituzione temporanea dei 
+dirigenti in caso di assenza o impedimento. Aggiornamento.”; 
+ 
+ 
+3.  EFFETTI ECONOMICI  
+ 
+L’incidenza economica del provvedimento è pari a € 4.941,00 (compreso, imposta 22% pari a € 
+891,00) a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) 
+- Partita Iva e Cod. Fiscale 02141810131 comprensiva di ogni onere, diretto ed indiretto, presente e 
+futuro, e trova dettagliata imputazione sul bilancio 2024-2026, come sotto specificato; 
+ 
+ 
+DETERMINA 
+ 
+1. di approvare la spesa complessiva di € 4.941,00 (compreso di imposta 22% pari a € 891,00) a 
+favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) - Partita 
+Iva e Cod. Fiscale 02141810131 
+ 
+2. di 2. di impegnare a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 
+Merate (LC) - Partita Iva e Cod. Fiscale 02141810131, la spesa complessiva di 4.941,00 (compreso, 
+imposta 22% pari a  €891,00) sul bilancio 2024-2026, annualità 2024, con imputazione:  
+importo bilancio capitolo Piano finanziario 
+ 4.941,00 2024 01 01 103 47 U.1.03.02.99.999 
+  
+3. di dichiarare che l’obbligazione diventa esigibile entro l’anno di imputazione;  
+4. di attestare che il programma dei pagamenti è compatibile con gli stanziamenti di cassa ai sensi e 
+per gli effetti di quanto previsto dall’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267; 
+ 
+5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+ 
+6. di dare atto che il presente provvedimento sarà esecutivo con l’apposizione del visto di regolarità 
+contabile attestante la copertura finanziaria espresso dal Responsabile del Servizio finanziario ai sensi 
+dell’art. 183, comma 7, del D. Lgs. 18.08. 2000, n. 267; 
+ 
+7. di pubblicare il presente provvedimento, ai sensi dell’art. 37 del D. Lgs 14/03/2013, n. 33 e s.m.i. 
+nella sezione Amministrazione Trasparente del sito web istituzionale della Provincia di Monza e della 
+Brianza. 
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ##### OUTPUT:
+    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    ...
+
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ <s>[INST] <<SYS>>
+    Risposta generata dal modello di assistenza amministrativa.
+
+    Punto 1: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+    Punto 2a: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+    Punto 2b: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+    Punto 2c: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+    Punto 2d: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+    Punto 2e: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+    Punto 2f: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+    Note finali: La determina sembra rispettare le norme indicate nella checklist. Tuttavia, sarebbe utile verificare ulteriormente la regolarità amministrativa del procedimento, in particolare per quanto riguarda l'individuazione del procedimento e la citazione di tutti gli atti che compongono il procedimento amministrativo. Inoltre, potrebbe essere necessario verificare la coerenza dei tempi di procedimento indicati nel P.T.P.C. 2014.
+    [/INST]</s>     <s>[INST] <<SYS>>
+    Risposta generata dal modello di assistenza amministrativa.
+
+    Punto 1: [SI]
+    La norma è citata nella determina (art. 1 comma 9, lettera d) legge 190/2012).
+
+
+
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
+       - **Carente**: La norma non è citata ma la mancanza non è grave.
+       - **NO**: La norma non è citata e la mancanza è grave.
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Le sistuazioni di conflitto d'interesse devono essere documentate nei modi e nei termini dell'art. 4 del Codice di Comportamento
+    <</SYS>>
+
+    ##### CHECKLIST 
+    5. Conflitto d'interesse - Legge 190/2012 (NORMATIVA ANTICORRUZIONE)
+	5a. Sussistenza di situazioni di conflitto di interessi,  anche potenziali, ex art. 6 bis L. 241/90 s.m.i. - modificato art. 1, comma 41 legge 190/2012
+
+    ###### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3071 del 05-12-2024 
+ 
+Oggetto: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL 
+D.LGS N. 36/2023 PER L'ACQUISIZIONE DEL SERVICE AUDIO E VIDEO 
+UTILE PER LO SVOLGIMENTO DEL CONVEGNO "PROVINCIA, BENE 
+COMUNE. CELEBRAZIONE DEL VENTENNALE" - CIG B4A2D608CE 
+ 
+ 
+ 
+Legge 7.4.2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni 
+di comuni” e ss.mm.ii. ; 
+ 
+gli artt. 107, 147 bis e 183, comma 1 e 191 del D.Lgs 18.8.2000, n. 267 “Testo unico delle leggi 
+sull'ordinamento degli enti locali"; 
+ 
+la Deliberazione di Consiglio Provinciale n. 40 del 21.12.2023 “Documento Unico di 
+Programmazione (DUP) 2024-2026. Approvazione. I.E.”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 41 del 21.12.2023 “Bilancio di previsione 2024-2026. 
+Approvazione. I.E. ”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 17 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
+ 
+il Decreto Deliberativo Presidenziale n. 9  del 18.01.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 88 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
+nuova Macrostruttura. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 32 dell’08.02.2024, ad oggetto “Piano integrato di attività e 
+organizzazione (PIAO) della Provincia di Monza e della Brianza 2024-2026. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 195 del 14.12.2023, ad oggetto “Variazione DDP n. 96/2023 
+PIAO 2023-2025 e sottosezione programmazione performance, ai sensi dell’art. 6 del DL n. 80/2021, 
+convertito con modificazioni in legge n. 113/2021. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura e 
+funzionigramma. Aggiornamenti. Approvazione”; 
+
+ 
+il principio applicato della contabilità finanziaria, di cui all’allegato n. 4/2 del D.Lgs. 23/11/2011, n. 
+118; 
+ 
+ 
+il Decreto di nomina n. 15 del 30.05.2024 “Conferimento incarico dirigenziale alla Dott.ssa 
+Erminia Vittoria Zoppè quale direttore del Settore Risorse e Servizi ai Comuni”; 
+ 
+il Decreto del Presidente n. 20 del 27.06.2024 “Sostituzione temporanea dei dirigenti in caso di assenza 
+o impedimento. aggiornamento”; 
+ 
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+ 
+In funzione di quanto stabilito dalla Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città 
+metropolitane, sulle province, sulle unioni e fusioni di comuni", che definisce le Province come “enti 
+territoriali di area vasta” governati da organi eletti dai Sindaci e dai Consiglieri dei Comuni del 
+territorio, la Provincia di Monza e della Brianza porta avanti da molti anni diversi progetti di rete 
+territoriale come “Provincia #CasaDeiComuni”; 
+ 
+In occasione del Convegno “Provincia, Bene Comune”, che si terrà il giorno 16 dicembre 2024 presso 
+la Villa reale di Monza, momento utile per ripercorrere i 20 anni dalla nascita dell’ente e le attività 
+svolte, condividendo idee e progetti per affrontare le prossime sfide e i futuri obbiettivi, si intende 
+procedere all’acquisizione del servizio di noleggio attrezzatura audio, video e di un palco 6x2mt con 
+struttura a vista e moquettature quali strumenti utili al fine di garantire innanzitutto un servizio 
+professionale sotto l’aspetto tecnico garantendo un risultato di qualità e a contribuire a creare 
+un’atmosfera personalizzata e un’esperienza coinvolgente per il pubblico, aumentando l’impatto del 
+messaggio che si vuole trasmettere. 
+ 
+Tenuto conto che: 
+- alla luce dell’istruttoria svolta l’importo della fornitura è inferiore a 140mila euro, e quindi, 
+fermi restando gli obblighi di utilizzo di strumenti di acquisto e di negoziazione previsti dalle 
+vigenti disposizioni in materia di contenimento della spesa, questa Amministrazione può, ai 
+sensi dell’art.62, comma 1, del D. Lgs. n. 36/2023, procedere direttamente e autonomamente 
+all'acquisizione del servizio in oggetto; 
+- l’allegato I.1 al D. Lgs. n.36/2023 definisce, all’articolo 3, comma 1, lettera d), l’affidamento 
+diretto come “l’affidamento del contratto senza una procedura di gara, nel quale, anche nel 
+caso di previo interpello di più operatori economici, la scelta è operata discrezionalmente dalla 
+stazione appaltante o dall’ente concedente, nel rispetto dei criteri qualitativi e quantitativi di 
+cui all’articolo 50, comma 1 lettere a) e b), del codice e dei requisiti generali o speciali previsti 
+dal medesimo codice”. 
+- ai sensi dell’art. l’art. 50, comma 1, let. b) del D. Lgs. n.36/2023 per gli affidamenti di contratti 
+di servizi e forniture, ivi compresi i servizi di ingegneria e architettura e l'attività di 
+progettazione, di importo inferiore a 140.000 Euro, si procede ad affidamento diretto, anche 
+senza consultazione di più operatori economici; 
+- l’art. 17, comma 2, del D. Lgs n. 36/2023 prevede che in caso di affidamento diretto, la 
+decisione contrarre individua l’oggetto, l’importo e il contraente, unitamente alle ragioni della 
+sua scelta, ai requisiti di carattere generale e, se necessari, a quelli inerenti alla capacità 
+economico-finanziaria e tecnico-professionale; 
+- l’importo del presente affidamento (inferiore ad € 140.000,00) non comporta l’obbligo del 
+preventivo inserimento nel programma triennale degli acquisti di beni e servizi di cui all’art. 
+37 del Codice; 
+- l’acquisto di cui all’oggetto comporta una spesa complessiva inferiore ad euro 5.000,00 e 
+pertanto, come stabilito dall’art. 1, comma 450 della Legge 196/2006 smi, per il relativo 
+acquisto non corre l’obbligo di utilizzo del mercato elettronico o dei sistemi telematici di 
+negoziazione regionale di riferimento 
+ 
+Considerato quanto sopra, in data 28.11.2024 è pervenuta la formulazione di una offerta economica 
+per il servizio di cui si necessita da parte di “Meeting Project S.r.l.” con sede legale in Via D. Frisia 
+2, 23807 Merate (LC) - Partita Iva e Cod. Fiscale 02141810131 individuata nel rispetto dei principi 
+di rotazione degli inviti e degli affidamenti, di cui il dettaglio e la quantità riportati di seguito:  
+AUDIO: impianto audio Bose 4 casse acustiche subwoofer, Mixer audio digitale Yamaha, Nr.01 
+radiomic a spillo Sennheiser, Nr.03 radiomic a gelato Sennheiser, Nr.01 microfono a collo di cigno 
+Sennheiser e relativi cablaggi; 
+VIDEO: Videoproiettore 12.000 ansi lumen Panasonic, Schermo autoportante Stumplt 3,45x2.50 cm., 
+Nr.02 pc portatili per contributi video/presentazioni, comando slide wireless, Mixer grafico Analog 
+Way Pulse Monitor di riporto al palco 43" su supporto da terra e relativi cablaggi; 
+per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+in relazione alle caratteristiche preventivate dal fornitore, tale preventivo viene ritenuto congruo e 
+conveniente per le esigenze rappresentate. Inoltre, il fornitore ha dichiarato che effettuerà tale servizio 
+nell'osservanza delle norme specificate nella lettera di richiesta preventivo e delle norme in materia 
+di sicurezza di cui al D. Lgs. N.81/2008 e successive modificazioni e integrazioni con proprie 
+disponibilità organizzative, strumenti e materiali forniti. 
+La particolare qualificazione dell’operatore emerge altresì dalle attività svolte di tipologia similare, 
+in termini qualitativi rispondenti allo stesso, nonché nel rispetto dei tempi e dei costi pattuiti; 
+ 
+pertanto, si procede all’affidamento diretto per l’acquisizione di un servizio di noleggio attrezzatura 
+audio e video utile per convegni per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+Infine, si dà atto che: 
+- ai sensi dell’art. 192 del D. Lgs. n. 267/2000 il fine del contratto è quello di rafforzare l’identità 
+visiva dell’Ente, promuoverne l’immagine e il senso di appartenenza di un pubblico vasto e 
+diversificato; 
+- l’oggetto della procedura è la strumentazione utile per la realizzazione del convegno 
+“Provincia, Bene Comune” al fine di rafforzare e promuovere l’immagine dell’Ente verso i 
+comuni della Provincia di Monza e della Brianza e gli stakeholder individuati o di un pubblico 
+vasto e diversificato; 
+- la procedura prescelta è l’affidamento diretto ai sensi dell’art. 50, comma 1, let. b) del D. Lgs. 
+n. 36/2023; 
+- l’affidamento del servizio di cui trattasi verrà perfezionata mediante lettera commerciale; 
+- il servizio in questione è identificato con il codice CIG B4A2D608CE ai sensi dell’art. 3 della 
+Legge 13/08/2010 n. 136; 
+- in conformità a quanto disposto dall’art. 53, comma 1, del D. Lgs. n. 36/2023, con riferimento 
+all’affidamento in parola non vengono richieste le garanzie provvisorie di cui all’articolo 106; 
+- è stata acquisita dichiarazione Durc, e stato consultato il casellario ANAC per le annotazioni 
+riservate, sono state richieste le autodichiarazioni di possesso dei requisiti e pantouflage. Se 
+all’esito delle verifiche effettuate secondo le disposizioni di cui alla circolare interna n. 16426 
+del 19/04/2018, emerga un difetto dei requisiti, si procederà alla risoluzione del contratto e 
+alle dovute segnalazioni;  
+- sensi dell'art. 3 della Legge 13/08/2010 n. 136, la ditta affidataria si obbliga ad utilizzare il 
+conto corrente dedicato, anche non in via esclusiva, alle commesse pubbliche e si obbliga 
+altresì ad indicare persona delegata a operare su tale conto corrente, consapevole che i 
+pagamenti potranno avvenire esclusivamente mediante bonifico bancario o postale riportante, 
+in relazione a ciascuna transazione posta in essere, il CIG assegnato; 
+- i costi relativi alla sicurezza sostenuti dall’Ente sono pari a € 0,00 (zero/00) e non occorre 
+procedere alla stesura del D.U.V.R.I., ai sensi dell’art. 26, comma 3-bis del D. Lgs. 
+09/04/2008 n. 81 e smi; 
+- il Responsabile del procedimento è il Segretario Generale, Dott. Sandro De Martino; 
+ 
+ 
+2. RICHIAMI NORMATIVI  
+ 
+- l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.; 
+- l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i; 
+- l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.; 
+- l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135; 
+- l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.; 
+- il Decreto Ministeriale n. 55 del 3.4.2013 “Regolamento in materia di emissione, trasmissione 
+e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi 
+dell’art. 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244”; 
+- il D. Lgs. 31.3.2023 n. 36 “Codice dei contratti pubblici in attuazione dell'articolo 1 della 
+legge 21 giugno 2022, n. 78, recante delega al Governo in materia di contratti pubblici” c.d. 
+Codice; 
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- l’art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi, da ultimo aggiornato con 
+Decreto Deliberativo Presidenziale n. 44 del 16.3.2023; 
+- il Regolamento di contabilità, da ultimo aggiornato con deliberazione di Consiglio n. 8 del 
+20.4.2021, esecutiva; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato 
+con deliberazione Consiliare n. 12 del 27.05.2015; 
+ 
+ 
+3.  PRECEDENTI 
+ 
+- la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei 
+contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e 
+procedure negoziate senza bando”; 
+- il Decreto Deliberativo Presidenziale n. 56 del 30.03.2023 ad oggetto “Piano triennale di 
+prevenzione della corruzione (PTPC) 2023-2024-2025 - sezione del Piano Integrato di 
+Attività e Organizzazione (PIAO) - rischi corruttivi e trasparenza. Approvazione.” 
+- il Decreto del Presidente n. 20 del 27.06.2024, ad oggetto “Sostituzione temporanea dei 
+dirigenti in caso di assenza o impedimento. Aggiornamento.”; 
+ 
+ 
+3.  EFFETTI ECONOMICI  
+ 
+L’incidenza economica del provvedimento è pari a € 4.941,00 (compreso, imposta 22% pari a € 
+891,00) a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) 
+- Partita Iva e Cod. Fiscale 02141810131 comprensiva di ogni onere, diretto ed indiretto, presente e 
+futuro, e trova dettagliata imputazione sul bilancio 2024-2026, come sotto specificato; 
+ 
+ 
+DETERMINA 
+ 
+1. di approvare la spesa complessiva di € 4.941,00 (compreso di imposta 22% pari a € 891,00) a 
+favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) - Partita 
+Iva e Cod. Fiscale 02141810131 
+ 
+2. di 2. di impegnare a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 
+Merate (LC) - Partita Iva e Cod. Fiscale 02141810131, la spesa complessiva di 4.941,00 (compreso, 
+imposta 22% pari a  €891,00) sul bilancio 2024-2026, annualità 2024, con imputazione:  
+importo bilancio capitolo Piano finanziario 
+ 4.941,00 2024 01 01 103 47 U.1.03.02.99.999 
+  
+3. di dichiarare che l’obbligazione diventa esigibile entro l’anno di imputazione;  
+4. di attestare che il programma dei pagamenti è compatibile con gli stanziamenti di cassa ai sensi e 
+per gli effetti di quanto previsto dall’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267; 
+ 
+5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+ 
+6. di dare atto che il presente provvedimento sarà esecutivo con l’apposizione del visto di regolarità 
+contabile attestante la copertura finanziaria espresso dal Responsabile del Servizio finanziario ai sensi 
+dell’art. 183, comma 7, del D. Lgs. 18.08. 2000, n. 267; 
+ 
+7. di pubblicare il presente provvedimento, ai sensi dell’art. 37 del D. Lgs 14/03/2013, n. 33 e s.m.i. 
+nella sezione Amministrazione Trasparente del sito web istituzionale della Provincia di Monza e della 
+Brianza. 
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ##### OUTPUT:
+    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    ...
+
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ <s>[INST] <<SYS>>
+    Risposta:
+    Punto 5a: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    Risposta:
+    Punto 5a: Carente
+    La determina dirigenziale non cita esplicitamente l'art. 6 bis L. 241/90 s.m.i. modificato dall'art. 1, comma 41 legge 190/2012, che disciplina le situazioni di conflitto d'interesse. Tuttavia, la determina richiama l'art. 4 del Codice di Comportamento, che disciplina le situazioni di conflitto d'interesse, ma non specifica se sono state verificate eventuali situazioni di conflitto d'interesse tra i soggetti coinvolti nella procedura di affidamento. Pertanto, la mancanza di citazione esplicita dell'art. 6 bis L. 241/90 s.m.i. modificato dall'art. 1, comma 41 legge 190/2012 è considerata carente.
+    Note finali: La determina dirigenziale sembra avere un approccio generico e non specifico nella gestione delle situazioni di conflitto d'interesse, che dovrebbero essere documentate nei modi e nei termini dell'art. 4 del Codice di Comportamento. È necessario verificare se sono state effettivamente verificate eventuali situazioni di conflitto d'interesse tra i soggetti coinvolti nella procedura di affidamento e se sono state adottate misure adeguate per prevenire e gestire eventuali conflitti d'interesse. [/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s>[/INST]</s
+
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
+       - **Carente**: La norma non è citata ma la mancanza non è grave.
+       - **NO**: La norma non è citata e la mancanza è grave.
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Tenere conto dei modi, termini e contenuti dell'art. 9, comma 2, lettera a), Piano Norme PTPC. Il riscontro  viene effettuato mediante apposito atto interno a corredo del singolo atto previsto dalla legge, nel quale viene verificata la situazione di fatto prevista dalla fattispecie.
+    <</SYS>>
+
+    ##### CHECKLIST 
+    6.  Rapporti con soggetti esterni  con P.A. art. 1, comma 9, lettera e) legge 190/2012   (NORMATIVA ANTICORRUZIONE)
+CONTRATTI, AUTORIZZAZIONI, CONCESSIONI, CONTRIBUTI
+
+    ###### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3071 del 05-12-2024 
+ 
+Oggetto: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL 
+D.LGS N. 36/2023 PER L'ACQUISIZIONE DEL SERVICE AUDIO E VIDEO 
+UTILE PER LO SVOLGIMENTO DEL CONVEGNO "PROVINCIA, BENE 
+COMUNE. CELEBRAZIONE DEL VENTENNALE" - CIG B4A2D608CE 
+ 
+ 
+ 
+Legge 7.4.2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni 
+di comuni” e ss.mm.ii. ; 
+ 
+gli artt. 107, 147 bis e 183, comma 1 e 191 del D.Lgs 18.8.2000, n. 267 “Testo unico delle leggi 
+sull'ordinamento degli enti locali"; 
+ 
+la Deliberazione di Consiglio Provinciale n. 40 del 21.12.2023 “Documento Unico di 
+Programmazione (DUP) 2024-2026. Approvazione. I.E.”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 41 del 21.12.2023 “Bilancio di previsione 2024-2026. 
+Approvazione. I.E. ”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 17 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
+ 
+il Decreto Deliberativo Presidenziale n. 9  del 18.01.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 88 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
+nuova Macrostruttura. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 32 dell’08.02.2024, ad oggetto “Piano integrato di attività e 
+organizzazione (PIAO) della Provincia di Monza e della Brianza 2024-2026. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 195 del 14.12.2023, ad oggetto “Variazione DDP n. 96/2023 
+PIAO 2023-2025 e sottosezione programmazione performance, ai sensi dell’art. 6 del DL n. 80/2021, 
+convertito con modificazioni in legge n. 113/2021. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura e 
+funzionigramma. Aggiornamenti. Approvazione”; 
+
+ 
+il principio applicato della contabilità finanziaria, di cui all’allegato n. 4/2 del D.Lgs. 23/11/2011, n. 
+118; 
+ 
+ 
+il Decreto di nomina n. 15 del 30.05.2024 “Conferimento incarico dirigenziale alla Dott.ssa 
+Erminia Vittoria Zoppè quale direttore del Settore Risorse e Servizi ai Comuni”; 
+ 
+il Decreto del Presidente n. 20 del 27.06.2024 “Sostituzione temporanea dei dirigenti in caso di assenza 
+o impedimento. aggiornamento”; 
+ 
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+ 
+In funzione di quanto stabilito dalla Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città 
+metropolitane, sulle province, sulle unioni e fusioni di comuni", che definisce le Province come “enti 
+territoriali di area vasta” governati da organi eletti dai Sindaci e dai Consiglieri dei Comuni del 
+territorio, la Provincia di Monza e della Brianza porta avanti da molti anni diversi progetti di rete 
+territoriale come “Provincia #CasaDeiComuni”; 
+ 
+In occasione del Convegno “Provincia, Bene Comune”, che si terrà il giorno 16 dicembre 2024 presso 
+la Villa reale di Monza, momento utile per ripercorrere i 20 anni dalla nascita dell’ente e le attività 
+svolte, condividendo idee e progetti per affrontare le prossime sfide e i futuri obbiettivi, si intende 
+procedere all’acquisizione del servizio di noleggio attrezzatura audio, video e di un palco 6x2mt con 
+struttura a vista e moquettature quali strumenti utili al fine di garantire innanzitutto un servizio 
+professionale sotto l’aspetto tecnico garantendo un risultato di qualità e a contribuire a creare 
+un’atmosfera personalizzata e un’esperienza coinvolgente per il pubblico, aumentando l’impatto del 
+messaggio che si vuole trasmettere. 
+ 
+Tenuto conto che: 
+- alla luce dell’istruttoria svolta l’importo della fornitura è inferiore a 140mila euro, e quindi, 
+fermi restando gli obblighi di utilizzo di strumenti di acquisto e di negoziazione previsti dalle 
+vigenti disposizioni in materia di contenimento della spesa, questa Amministrazione può, ai 
+sensi dell’art.62, comma 1, del D. Lgs. n. 36/2023, procedere direttamente e autonomamente 
+all'acquisizione del servizio in oggetto; 
+- l’allegato I.1 al D. Lgs. n.36/2023 definisce, all’articolo 3, comma 1, lettera d), l’affidamento 
+diretto come “l’affidamento del contratto senza una procedura di gara, nel quale, anche nel 
+caso di previo interpello di più operatori economici, la scelta è operata discrezionalmente dalla 
+stazione appaltante o dall’ente concedente, nel rispetto dei criteri qualitativi e quantitativi di 
+cui all’articolo 50, comma 1 lettere a) e b), del codice e dei requisiti generali o speciali previsti 
+dal medesimo codice”. 
+- ai sensi dell’art. l’art. 50, comma 1, let. b) del D. Lgs. n.36/2023 per gli affidamenti di contratti 
+di servizi e forniture, ivi compresi i servizi di ingegneria e architettura e l'attività di 
+progettazione, di importo inferiore a 140.000 Euro, si procede ad affidamento diretto, anche 
+senza consultazione di più operatori economici; 
+- l’art. 17, comma 2, del D. Lgs n. 36/2023 prevede che in caso di affidamento diretto, la 
+decisione contrarre individua l’oggetto, l’importo e il contraente, unitamente alle ragioni della 
+sua scelta, ai requisiti di carattere generale e, se necessari, a quelli inerenti alla capacità 
+economico-finanziaria e tecnico-professionale; 
+- l’importo del presente affidamento (inferiore ad € 140.000,00) non comporta l’obbligo del 
+preventivo inserimento nel programma triennale degli acquisti di beni e servizi di cui all’art. 
+37 del Codice; 
+- l’acquisto di cui all’oggetto comporta una spesa complessiva inferiore ad euro 5.000,00 e 
+pertanto, come stabilito dall’art. 1, comma 450 della Legge 196/2006 smi, per il relativo 
+acquisto non corre l’obbligo di utilizzo del mercato elettronico o dei sistemi telematici di 
+negoziazione regionale di riferimento 
+ 
+Considerato quanto sopra, in data 28.11.2024 è pervenuta la formulazione di una offerta economica 
+per il servizio di cui si necessita da parte di “Meeting Project S.r.l.” con sede legale in Via D. Frisia 
+2, 23807 Merate (LC) - Partita Iva e Cod. Fiscale 02141810131 individuata nel rispetto dei principi 
+di rotazione degli inviti e degli affidamenti, di cui il dettaglio e la quantità riportati di seguito:  
+AUDIO: impianto audio Bose 4 casse acustiche subwoofer, Mixer audio digitale Yamaha, Nr.01 
+radiomic a spillo Sennheiser, Nr.03 radiomic a gelato Sennheiser, Nr.01 microfono a collo di cigno 
+Sennheiser e relativi cablaggi; 
+VIDEO: Videoproiettore 12.000 ansi lumen Panasonic, Schermo autoportante Stumplt 3,45x2.50 cm., 
+Nr.02 pc portatili per contributi video/presentazioni, comando slide wireless, Mixer grafico Analog 
+Way Pulse Monitor di riporto al palco 43" su supporto da terra e relativi cablaggi; 
+per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+in relazione alle caratteristiche preventivate dal fornitore, tale preventivo viene ritenuto congruo e 
+conveniente per le esigenze rappresentate. Inoltre, il fornitore ha dichiarato che effettuerà tale servizio 
+nell'osservanza delle norme specificate nella lettera di richiesta preventivo e delle norme in materia 
+di sicurezza di cui al D. Lgs. N.81/2008 e successive modificazioni e integrazioni con proprie 
+disponibilità organizzative, strumenti e materiali forniti. 
+La particolare qualificazione dell’operatore emerge altresì dalle attività svolte di tipologia similare, 
+in termini qualitativi rispondenti allo stesso, nonché nel rispetto dei tempi e dei costi pattuiti; 
+ 
+pertanto, si procede all’affidamento diretto per l’acquisizione di un servizio di noleggio attrezzatura 
+audio e video utile per convegni per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+Infine, si dà atto che: 
+- ai sensi dell’art. 192 del D. Lgs. n. 267/2000 il fine del contratto è quello di rafforzare l’identità 
+visiva dell’Ente, promuoverne l’immagine e il senso di appartenenza di un pubblico vasto e 
+diversificato; 
+- l’oggetto della procedura è la strumentazione utile per la realizzazione del convegno 
+“Provincia, Bene Comune” al fine di rafforzare e promuovere l’immagine dell’Ente verso i 
+comuni della Provincia di Monza e della Brianza e gli stakeholder individuati o di un pubblico 
+vasto e diversificato; 
+- la procedura prescelta è l’affidamento diretto ai sensi dell’art. 50, comma 1, let. b) del D. Lgs. 
+n. 36/2023; 
+- l’affidamento del servizio di cui trattasi verrà perfezionata mediante lettera commerciale; 
+- il servizio in questione è identificato con il codice CIG B4A2D608CE ai sensi dell’art. 3 della 
+Legge 13/08/2010 n. 136; 
+- in conformità a quanto disposto dall’art. 53, comma 1, del D. Lgs. n. 36/2023, con riferimento 
+all’affidamento in parola non vengono richieste le garanzie provvisorie di cui all’articolo 106; 
+- è stata acquisita dichiarazione Durc, e stato consultato il casellario ANAC per le annotazioni 
+riservate, sono state richieste le autodichiarazioni di possesso dei requisiti e pantouflage. Se 
+all’esito delle verifiche effettuate secondo le disposizioni di cui alla circolare interna n. 16426 
+del 19/04/2018, emerga un difetto dei requisiti, si procederà alla risoluzione del contratto e 
+alle dovute segnalazioni;  
+- sensi dell'art. 3 della Legge 13/08/2010 n. 136, la ditta affidataria si obbliga ad utilizzare il 
+conto corrente dedicato, anche non in via esclusiva, alle commesse pubbliche e si obbliga 
+altresì ad indicare persona delegata a operare su tale conto corrente, consapevole che i 
+pagamenti potranno avvenire esclusivamente mediante bonifico bancario o postale riportante, 
+in relazione a ciascuna transazione posta in essere, il CIG assegnato; 
+- i costi relativi alla sicurezza sostenuti dall’Ente sono pari a € 0,00 (zero/00) e non occorre 
+procedere alla stesura del D.U.V.R.I., ai sensi dell’art. 26, comma 3-bis del D. Lgs. 
+09/04/2008 n. 81 e smi; 
+- il Responsabile del procedimento è il Segretario Generale, Dott. Sandro De Martino; 
+ 
+ 
+2. RICHIAMI NORMATIVI  
+ 
+- l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.; 
+- l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i; 
+- l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.; 
+- l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135; 
+- l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.; 
+- il Decreto Ministeriale n. 55 del 3.4.2013 “Regolamento in materia di emissione, trasmissione 
+e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi 
+dell’art. 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244”; 
+- il D. Lgs. 31.3.2023 n. 36 “Codice dei contratti pubblici in attuazione dell'articolo 1 della 
+legge 21 giugno 2022, n. 78, recante delega al Governo in materia di contratti pubblici” c.d. 
+Codice; 
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- l’art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi, da ultimo aggiornato con 
+Decreto Deliberativo Presidenziale n. 44 del 16.3.2023; 
+- il Regolamento di contabilità, da ultimo aggiornato con deliberazione di Consiglio n. 8 del 
+20.4.2021, esecutiva; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato 
+con deliberazione Consiliare n. 12 del 27.05.2015; 
+ 
+ 
+3.  PRECEDENTI 
+ 
+- la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei 
+contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e 
+procedure negoziate senza bando”; 
+- il Decreto Deliberativo Presidenziale n. 56 del 30.03.2023 ad oggetto “Piano triennale di 
+prevenzione della corruzione (PTPC) 2023-2024-2025 - sezione del Piano Integrato di 
+Attività e Organizzazione (PIAO) - rischi corruttivi e trasparenza. Approvazione.” 
+- il Decreto del Presidente n. 20 del 27.06.2024, ad oggetto “Sostituzione temporanea dei 
+dirigenti in caso di assenza o impedimento. Aggiornamento.”; 
+ 
+ 
+3.  EFFETTI ECONOMICI  
+ 
+L’incidenza economica del provvedimento è pari a € 4.941,00 (compreso, imposta 22% pari a € 
+891,00) a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) 
+- Partita Iva e Cod. Fiscale 02141810131 comprensiva di ogni onere, diretto ed indiretto, presente e 
+futuro, e trova dettagliata imputazione sul bilancio 2024-2026, come sotto specificato; 
+ 
+ 
+DETERMINA 
+ 
+1. di approvare la spesa complessiva di € 4.941,00 (compreso di imposta 22% pari a € 891,00) a 
+favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) - Partita 
+Iva e Cod. Fiscale 02141810131 
+ 
+2. di 2. di impegnare a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 
+Merate (LC) - Partita Iva e Cod. Fiscale 02141810131, la spesa complessiva di 4.941,00 (compreso, 
+imposta 22% pari a  €891,00) sul bilancio 2024-2026, annualità 2024, con imputazione:  
+importo bilancio capitolo Piano finanziario 
+ 4.941,00 2024 01 01 103 47 U.1.03.02.99.999 
+  
+3. di dichiarare che l’obbligazione diventa esigibile entro l’anno di imputazione;  
+4. di attestare che il programma dei pagamenti è compatibile con gli stanziamenti di cassa ai sensi e 
+per gli effetti di quanto previsto dall’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267; 
+ 
+5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+ 
+6. di dare atto che il presente provvedimento sarà esecutivo con l’apposizione del visto di regolarità 
+contabile attestante la copertura finanziaria espresso dal Responsabile del Servizio finanziario ai sensi 
+dell’art. 183, comma 7, del D. Lgs. 18.08. 2000, n. 267; 
+ 
+7. di pubblicare il presente provvedimento, ai sensi dell’art. 37 del D. Lgs 14/03/2013, n. 33 e s.m.i. 
+nella sezione Amministrazione Trasparente del sito web istituzionale della Provincia di Monza e della 
+Brianza. 
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ##### OUTPUT:
+    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    ...
+
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ <s>[INST] <<SYS>>
+    Risposta:
+    1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+    Punto 1: [SI] La norma è citata nella determina (specificare dove, se possibile). La determina richiama la Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni di comuni".
+    2. RICHIAMI NORMATIVI 
+    Punto 2: [SI] La norma è citata nella determina (specificare dove, se possibile). La determina richiama l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.
+    3.  PRECEDENTI 
+    Punto 3: [SI] La norma è citata nella determina (specificare dove, se possibile). La determina richiama la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e procedure negoziate senza bando”.
+    4.  EFFETTI ECONOMICI 
+    Punto 4: [SI] La norma è citata nella determina (specificare dove, se possibile). La determina richiama l’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267.
+    5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e correttezza dell’azione amministrativa attinente al presente provvedimento; 
+    Punto 5: [SI] La norma è citata nella determina (specificare dove, se possibile). La determina richiama l’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s
+
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
+       - **Carente**: La norma non è citata ma la mancanza non è grave.
+       - **NO**: La norma non è citata e la mancanza è grave.
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    5. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Tenere conto dei modi, termini e contenuti dell'art. 9, comma 2, lettera m) del Piano Norme PTPC.  Allegare stampa Consip  e dichirazione sostitutiva per acquisti autonomi al Registro atti dirigenziali
+    <</SYS>>
+
+    ##### CHECKLIST 
+    7. Riferimenti a convenzioni  Consip attive e/o al MePA
+	7a. Mancata effettuazione della verifica di convenzioni Consip/MePA
+	7b. Ricorso alla convenzione CONSIP/MePA attiva (adesione)
+	7c. Assenza di convenzioni CONSIP/MePA
+	7d. Acquisto autonomo: con riferimento ai parametri di qualità/prezzo, quali limiti massimi per beni comparabili
+	7e. Acquisto autonomo: senza ricorso ai parametri di qualità/prezzo, convenzione
+	7f.Risparmio conseguito con acquisto autonomo
+
+    ###### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 3071 del 05-12-2024 
+ 
+Oggetto: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL 
+D.LGS N. 36/2023 PER L'ACQUISIZIONE DEL SERVICE AUDIO E VIDEO 
+UTILE PER LO SVOLGIMENTO DEL CONVEGNO "PROVINCIA, BENE 
+COMUNE. CELEBRAZIONE DEL VENTENNALE" - CIG B4A2D608CE 
+ 
+ 
+ 
+Legge 7.4.2014, n. 56 “Disposizioni sulle città metropolitane, sulle province, sulle unioni e fusioni 
+di comuni” e ss.mm.ii. ; 
+ 
+gli artt. 107, 147 bis e 183, comma 1 e 191 del D.Lgs 18.8.2000, n. 267 “Testo unico delle leggi 
+sull'ordinamento degli enti locali"; 
+ 
+la Deliberazione di Consiglio Provinciale n. 40 del 21.12.2023 “Documento Unico di 
+Programmazione (DUP) 2024-2026. Approvazione. I.E.”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 41 del 21.12.2023 “Bilancio di previsione 2024-2026. 
+Approvazione. I.E. ”; 
+ 
+la Deliberazione di Consiglio Provinciale n. 17 del 23.07.2024 “Primo assestamento generale al 
+Bilancio di previsione 2024-2026. Verifica della salvaguardia degli equilibri di bilancio e 
+aggiornamento del DUP 2024/2026. Approvazione. I.E. ”; 
+ 
+il Decreto Deliberativo Presidenziale n. 9  del 18.01.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 88 del 20.06.2024, ad oggetto “Piano esecutivo di gestione 
+(PEG) 2024 e sottosezione 2.2 – Performance del PIAO 2024-2026. Aggiornamenti conseguenti alla 
+nuova Macrostruttura. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 32 dell’08.02.2024, ad oggetto “Piano integrato di attività e 
+organizzazione (PIAO) della Provincia di Monza e della Brianza 2024-2026. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 195 del 14.12.2023, ad oggetto “Variazione DDP n. 96/2023 
+PIAO 2023-2025 e sottosezione programmazione performance, ai sensi dell’art. 6 del DL n. 80/2021, 
+convertito con modificazioni in legge n. 113/2021. Approvazione.”; 
+ 
+il Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura e 
+funzionigramma. Aggiornamenti. Approvazione”; 
+
+ 
+il principio applicato della contabilità finanziaria, di cui all’allegato n. 4/2 del D.Lgs. 23/11/2011, n. 
+118; 
+ 
+ 
+il Decreto di nomina n. 15 del 30.05.2024 “Conferimento incarico dirigenziale alla Dott.ssa 
+Erminia Vittoria Zoppè quale direttore del Settore Risorse e Servizi ai Comuni”; 
+ 
+il Decreto del Presidente n. 20 del 27.06.2024 “Sostituzione temporanea dei dirigenti in caso di assenza 
+o impedimento. aggiornamento”; 
+ 
+ 
+1. CARATTERISTICHE PRINCIPALI   -   PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+ 
+In funzione di quanto stabilito dalla Legge n. 56 del 7 aprile 2014 “Disposizioni sulle città 
+metropolitane, sulle province, sulle unioni e fusioni di comuni", che definisce le Province come “enti 
+territoriali di area vasta” governati da organi eletti dai Sindaci e dai Consiglieri dei Comuni del 
+territorio, la Provincia di Monza e della Brianza porta avanti da molti anni diversi progetti di rete 
+territoriale come “Provincia #CasaDeiComuni”; 
+ 
+In occasione del Convegno “Provincia, Bene Comune”, che si terrà il giorno 16 dicembre 2024 presso 
+la Villa reale di Monza, momento utile per ripercorrere i 20 anni dalla nascita dell’ente e le attività 
+svolte, condividendo idee e progetti per affrontare le prossime sfide e i futuri obbiettivi, si intende 
+procedere all’acquisizione del servizio di noleggio attrezzatura audio, video e di un palco 6x2mt con 
+struttura a vista e moquettature quali strumenti utili al fine di garantire innanzitutto un servizio 
+professionale sotto l’aspetto tecnico garantendo un risultato di qualità e a contribuire a creare 
+un’atmosfera personalizzata e un’esperienza coinvolgente per il pubblico, aumentando l’impatto del 
+messaggio che si vuole trasmettere. 
+ 
+Tenuto conto che: 
+- alla luce dell’istruttoria svolta l’importo della fornitura è inferiore a 140mila euro, e quindi, 
+fermi restando gli obblighi di utilizzo di strumenti di acquisto e di negoziazione previsti dalle 
+vigenti disposizioni in materia di contenimento della spesa, questa Amministrazione può, ai 
+sensi dell’art.62, comma 1, del D. Lgs. n. 36/2023, procedere direttamente e autonomamente 
+all'acquisizione del servizio in oggetto; 
+- l’allegato I.1 al D. Lgs. n.36/2023 definisce, all’articolo 3, comma 1, lettera d), l’affidamento 
+diretto come “l’affidamento del contratto senza una procedura di gara, nel quale, anche nel 
+caso di previo interpello di più operatori economici, la scelta è operata discrezionalmente dalla 
+stazione appaltante o dall’ente concedente, nel rispetto dei criteri qualitativi e quantitativi di 
+cui all’articolo 50, comma 1 lettere a) e b), del codice e dei requisiti generali o speciali previsti 
+dal medesimo codice”. 
+- ai sensi dell’art. l’art. 50, comma 1, let. b) del D. Lgs. n.36/2023 per gli affidamenti di contratti 
+di servizi e forniture, ivi compresi i servizi di ingegneria e architettura e l'attività di 
+progettazione, di importo inferiore a 140.000 Euro, si procede ad affidamento diretto, anche 
+senza consultazione di più operatori economici; 
+- l’art. 17, comma 2, del D. Lgs n. 36/2023 prevede che in caso di affidamento diretto, la 
+decisione contrarre individua l’oggetto, l’importo e il contraente, unitamente alle ragioni della 
+sua scelta, ai requisiti di carattere generale e, se necessari, a quelli inerenti alla capacità 
+economico-finanziaria e tecnico-professionale; 
+- l’importo del presente affidamento (inferiore ad € 140.000,00) non comporta l’obbligo del 
+preventivo inserimento nel programma triennale degli acquisti di beni e servizi di cui all’art. 
+37 del Codice; 
+- l’acquisto di cui all’oggetto comporta una spesa complessiva inferiore ad euro 5.000,00 e 
+pertanto, come stabilito dall’art. 1, comma 450 della Legge 196/2006 smi, per il relativo 
+acquisto non corre l’obbligo di utilizzo del mercato elettronico o dei sistemi telematici di 
+negoziazione regionale di riferimento 
+ 
+Considerato quanto sopra, in data 28.11.2024 è pervenuta la formulazione di una offerta economica 
+per il servizio di cui si necessita da parte di “Meeting Project S.r.l.” con sede legale in Via D. Frisia 
+2, 23807 Merate (LC) - Partita Iva e Cod. Fiscale 02141810131 individuata nel rispetto dei principi 
+di rotazione degli inviti e degli affidamenti, di cui il dettaglio e la quantità riportati di seguito:  
+AUDIO: impianto audio Bose 4 casse acustiche subwoofer, Mixer audio digitale Yamaha, Nr.01 
+radiomic a spillo Sennheiser, Nr.03 radiomic a gelato Sennheiser, Nr.01 microfono a collo di cigno 
+Sennheiser e relativi cablaggi; 
+VIDEO: Videoproiettore 12.000 ansi lumen Panasonic, Schermo autoportante Stumplt 3,45x2.50 cm., 
+Nr.02 pc portatili per contributi video/presentazioni, comando slide wireless, Mixer grafico Analog 
+Way Pulse Monitor di riporto al palco 43" su supporto da terra e relativi cablaggi; 
+per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+in relazione alle caratteristiche preventivate dal fornitore, tale preventivo viene ritenuto congruo e 
+conveniente per le esigenze rappresentate. Inoltre, il fornitore ha dichiarato che effettuerà tale servizio 
+nell'osservanza delle norme specificate nella lettera di richiesta preventivo e delle norme in materia 
+di sicurezza di cui al D. Lgs. N.81/2008 e successive modificazioni e integrazioni con proprie 
+disponibilità organizzative, strumenti e materiali forniti. 
+La particolare qualificazione dell’operatore emerge altresì dalle attività svolte di tipologia similare, 
+in termini qualitativi rispondenti allo stesso, nonché nel rispetto dei tempi e dei costi pattuiti; 
+ 
+pertanto, si procede all’affidamento diretto per l’acquisizione di un servizio di noleggio attrezzatura 
+audio e video utile per convegni per un importo di € 4.941,00 di cui imposta al 22% di € 891,00; 
+ 
+Infine, si dà atto che: 
+- ai sensi dell’art. 192 del D. Lgs. n. 267/2000 il fine del contratto è quello di rafforzare l’identità 
+visiva dell’Ente, promuoverne l’immagine e il senso di appartenenza di un pubblico vasto e 
+diversificato; 
+- l’oggetto della procedura è la strumentazione utile per la realizzazione del convegno 
+“Provincia, Bene Comune” al fine di rafforzare e promuovere l’immagine dell’Ente verso i 
+comuni della Provincia di Monza e della Brianza e gli stakeholder individuati o di un pubblico 
+vasto e diversificato; 
+- la procedura prescelta è l’affidamento diretto ai sensi dell’art. 50, comma 1, let. b) del D. Lgs. 
+n. 36/2023; 
+- l’affidamento del servizio di cui trattasi verrà perfezionata mediante lettera commerciale; 
+- il servizio in questione è identificato con il codice CIG B4A2D608CE ai sensi dell’art. 3 della 
+Legge 13/08/2010 n. 136; 
+- in conformità a quanto disposto dall’art. 53, comma 1, del D. Lgs. n. 36/2023, con riferimento 
+all’affidamento in parola non vengono richieste le garanzie provvisorie di cui all’articolo 106; 
+- è stata acquisita dichiarazione Durc, e stato consultato il casellario ANAC per le annotazioni 
+riservate, sono state richieste le autodichiarazioni di possesso dei requisiti e pantouflage. Se 
+all’esito delle verifiche effettuate secondo le disposizioni di cui alla circolare interna n. 16426 
+del 19/04/2018, emerga un difetto dei requisiti, si procederà alla risoluzione del contratto e 
+alle dovute segnalazioni;  
+- sensi dell'art. 3 della Legge 13/08/2010 n. 136, la ditta affidataria si obbliga ad utilizzare il 
+conto corrente dedicato, anche non in via esclusiva, alle commesse pubbliche e si obbliga 
+altresì ad indicare persona delegata a operare su tale conto corrente, consapevole che i 
+pagamenti potranno avvenire esclusivamente mediante bonifico bancario o postale riportante, 
+in relazione a ciascuna transazione posta in essere, il CIG assegnato; 
+- i costi relativi alla sicurezza sostenuti dall’Ente sono pari a € 0,00 (zero/00) e non occorre 
+procedere alla stesura del D.U.V.R.I., ai sensi dell’art. 26, comma 3-bis del D. Lgs. 
+09/04/2008 n. 81 e smi; 
+- il Responsabile del procedimento è il Segretario Generale, Dott. Sandro De Martino; 
+ 
+ 
+2. RICHIAMI NORMATIVI  
+ 
+- l’art. 26, comma 3 della Legge 23.12.1999 n. 488 s.m.i.; 
+- l’art. 1, comma 450 della Legge 27.12.2006 n. 296 s.m.i; 
+- l’art. 3 della Legge 13.8.2010 n. 136 e s.m.i.; 
+- l’art. 1 del D.L. 6.7.2012 n. 95, convertito con modificazioni dalla Legge 7.8.2012 n. 135; 
+- l’art. 37 del D.Lgs 14.3.2013 n. 33 s.m.i.; 
+- il Decreto Ministeriale n. 55 del 3.4.2013 “Regolamento in materia di emissione, trasmissione 
+e ricevimento della fattura elettronica da applicarsi alle amministrazioni pubbliche ai sensi 
+dell’art. 1, commi da 209 a 213, della legge 24 dicembre 2007, n. 244”; 
+- il D. Lgs. 31.3.2023 n. 36 “Codice dei contratti pubblici in attuazione dell'articolo 1 della 
+legge 21 giugno 2022, n. 78, recante delega al Governo in materia di contratti pubblici” c.d. 
+Codice; 
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- l’art. 9 del Regolamento sull’ordinamento degli uffici e dei servizi, da ultimo aggiornato con 
+Decreto Deliberativo Presidenziale n. 44 del 16.3.2023; 
+- il Regolamento di contabilità, da ultimo aggiornato con deliberazione di Consiglio n. 8 del 
+20.4.2021, esecutiva; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato 
+con deliberazione Consiliare n. 12 del 27.05.2015; 
+ 
+ 
+3.  PRECEDENTI 
+ 
+- la circolare della Segreteria Generale prot. n.18626 del 10.04.2024 ad oggetto: “Codice dei 
+contratti pubblici. Modelli di determinazioni dirigenziali di affidamento diretto sotto soglia e 
+procedure negoziate senza bando”; 
+- il Decreto Deliberativo Presidenziale n. 56 del 30.03.2023 ad oggetto “Piano triennale di 
+prevenzione della corruzione (PTPC) 2023-2024-2025 - sezione del Piano Integrato di 
+Attività e Organizzazione (PIAO) - rischi corruttivi e trasparenza. Approvazione.” 
+- il Decreto del Presidente n. 20 del 27.06.2024, ad oggetto “Sostituzione temporanea dei 
+dirigenti in caso di assenza o impedimento. Aggiornamento.”; 
+ 
+ 
+3.  EFFETTI ECONOMICI  
+ 
+L’incidenza economica del provvedimento è pari a € 4.941,00 (compreso, imposta 22% pari a € 
+891,00) a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) 
+- Partita Iva e Cod. Fiscale 02141810131 comprensiva di ogni onere, diretto ed indiretto, presente e 
+futuro, e trova dettagliata imputazione sul bilancio 2024-2026, come sotto specificato; 
+ 
+ 
+DETERMINA 
+ 
+1. di approvare la spesa complessiva di € 4.941,00 (compreso di imposta 22% pari a € 891,00) a 
+favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 Merate (LC) - Partita 
+Iva e Cod. Fiscale 02141810131 
+ 
+2. di 2. di impegnare a favore della “Meeting Project S.r.l.” con sede legale in Via D. Frisia 2, 23807 
+Merate (LC) - Partita Iva e Cod. Fiscale 02141810131, la spesa complessiva di 4.941,00 (compreso, 
+imposta 22% pari a  €891,00) sul bilancio 2024-2026, annualità 2024, con imputazione:  
+importo bilancio capitolo Piano finanziario 
+ 4.941,00 2024 01 01 103 47 U.1.03.02.99.999 
+  
+3. di dichiarare che l’obbligazione diventa esigibile entro l’anno di imputazione;  
+4. di attestare che il programma dei pagamenti è compatibile con gli stanziamenti di cassa ai sensi e 
+per gli effetti di quanto previsto dall’art. 183, comma 8 del D. Lgs. 18.08. 2000, n. 267; 
+ 
+5. di attestare, ai sensi dell’art. 147-bis comma 1 del D. Lgs. n. 267/2000 e s.m.i., la regolarità e 
+correttezza dell’azione amministrativa attinente al presente provvedimento; 
+ 
+6. di dare atto che il presente provvedimento sarà esecutivo con l’apposizione del visto di regolarità 
+contabile attestante la copertura finanziaria espresso dal Responsabile del Servizio finanziario ai sensi 
+dell’art. 183, comma 7, del D. Lgs. 18.08. 2000, n. 267; 
+ 
+7. di pubblicare il presente provvedimento, ai sensi dell’art. 37 del D. Lgs 14/03/2013, n. 33 e s.m.i. 
+nella sezione Amministrazione Trasparente del sito web istituzionale della Provincia di Monza e della 
+Brianza. 
+ 
+IL DIRETTORE 
+DOTT. SANDRO DE MARTINO 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ##### OUTPUT:
+    Punto 1: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    Punto 2: [SI/Carente/NO], [spiegazione sintetica se necessaria]
+    ...
+
+    Note finali: [eventuali osservazioni generali]
+    [/INST]</s>
+    
+
+########## -------------------------- GENERATED ---------------------------
+
+ <s>[INST] <<SYS>>
+    Risposta:
+    Punto 1: [SI]
+    Punto 2: [SI]
+    Punto 3: [SI]
+    Punto 4: [SI]
+    Punto 5: [SI]
+    Punto 6: [SI]
+    Punto 7: [SI]
+    Punto 7a: [Carente]
+    Punto 7b: [SI]
+    Punto 7c: [NO]
+    Punto 7d: [SI]
+    Punto 7e: [Carente]
+    Punto 7f: [SI]
+    Note finali: La determina sembra essere regolare e conforme alle normative richiamate. Tuttavia, si consiglia di verificare ulteriormente la regolarità amministrativa della determina, in particolare per quanto riguarda la verifica di convenzioni Consip/MePA e l'assenza di convenzioni Consip/MePA. Inoltre, si suggerisce di allegare la stampa Consip e la dichiarazione sostitutiva per acquisti autonomi al Registro atti dirigenziali, come richiesto dall'art. 9, comma 2, lettera m) del Piano Norme PTPC.
+    </s>[/INST]</s> <s>[INST] <<SYS>>
+    Risposta:
+    Punto 1: [SI]
+    Punto 2: [SI]
+    Punto 3: [SI]
+    Punto 4: [SI]
+    Punto 5: [SI]
+    Punto 6: [SI]
+    Punto 7: [SI]
+    Punto 7a: [Carente]
+    Punto 7b: [SI]
+    Punto 7c: [NO]
+    Punto 7d: [SI]
+    Punto 7e: [Carente]
+    Punto 7f: [SI]
+    Note finali: La determina sembra essere regolare e conforme alle normative richiamate. Tuttavia, si consiglia di verificare ulteriormente la regolarità amministrativa della determina, in particolare per quanto riguarda la verifica di convenzioni Consip/MePA e

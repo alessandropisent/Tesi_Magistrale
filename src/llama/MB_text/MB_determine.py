@@ -303,7 +303,7 @@ if __name__ == "__main__":
         che_ass = df_determine["Checklist associata"].loc[i]
         ogg_det = df_determine["Oggetto determina"].loc[i]
         
-        if ogg_det == "DET_IS_CONTR":
+        if che_ass == "DET_IS_CONTR":
             checklist_determina(num,che_ass, text_gen_pipeline, checklists)
         print(f"Done determina {num} - {che_ass}")
 
