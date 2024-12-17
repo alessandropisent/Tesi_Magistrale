@@ -242,7 +242,7 @@ if __name__ == "__main__":
             "text-generation",
             model=model,
             tokenizer=tokenizer,
-            #max_new_tokens=1000,
+            max_new_tokens=1000,
     )
     
     #load the json - Dictionary
@@ -257,15 +257,16 @@ if __name__ == "__main__":
     # Choose the right checklist for each determina
     # i do a loop to make it clear
     for index, row in df_determine.iterrows():
+        print(f"I'm genenerting the checklist for {index}")
         df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
                                                          text_gen_pipeline)
             
     df_determine.to_csv("./src/llama/MB_text/MB_Determine_gen.csv")
     
-    for i in range(1):
-        num = df_determine["Numero Determina"].loc[i]
-        che_ass = df_determine["Checklist associata"].loc[i]
-        #ogg_det = df_determine["Oggetto determina"].loc[i]
-        
-        checklist_determina(num,che_ass, text_gen_pipeline, checklists)
+    #for i in range(1):
+    #    num = df_determine["Numero Determina"].loc[i]
+    #    che_ass = df_determine["Checklist associata"].loc[i]
+    #    #ogg_det = df_determine["Oggetto determina"].loc[i]
+    #    
+    #    checklist_determina(num,che_ass, text_gen_pipeline, checklists)
 

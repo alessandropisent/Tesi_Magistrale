@@ -1,0 +1,166 @@
+########## ------------ PROMPT --------------
+
+<s>[INST] <<SYS>>
+    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
+
+    ### Come procedere:
+    1. Analizza brevemente la determina.
+    2. Confronta il contenuto della determina con le seguenti checklist e i loro ambiti di utilizzo:
+       - **DET_IS_CONTR**: DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI.
+       - **AUTORINC**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
+       - **DET_CONTR**: DETERMINAZIONE/CONCESSIONE DI SOVVENZIONI, CONTRIBUTI, SUSSIDI, ATTRIBUZIONE VANTAGGI ECONOMICI A PERSONE FISICHE ED ENTI PUBBLICI E PRIVATI.
+       - **CONCESS**: PROVVEDIMENTO DI CONCESSIONE.
+       - **LIQUID**: ATTO DI LIQUIDAZIONE.
+       - **INCAREX**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
+       - **INCAR**: DETERMINAZIONI D'IMPEGNO DI SPESA INCARICHI/LAVORO AUTONOMO EX Art. 7, comma 6 del D.Lgs. 165/2001.
+       - **ACCERT**: ATTI DI ACCERTAMENTO ENTRATE.
+
+    3. Rispondi con **il nome della checklist più adatta** (ad esempio: `DET_IS_CONTR`) e, se necessario, aggiungi una spiegazione sintetica.
+
+    Assicurati di usare un linguaggio chiaro e semplice.
+
+    ### DETERMINA:
+     
+ 
+SETTORE RISORSE E SERVIZI AI COMUNI 
+ 
+Determinazione dirigenziale 
+ 
+Raccolta generale n. 2880 del 18-11-2024 
+ 
+Oggetto: INDIZIONE PROCEDURA SELETTIVA DI MOBILITÀ VOLONTARIA ESTERNA AI SENSI DELL'ART. 30 DEL D. LGS. 30.3.2001 N. 165 E S.M.I. PER LA COPERTURA DI N. 1 POSTO DI "AGENTE DI POLIZIA PROVINCIALE", AREA DEGLI ISTRUTTORI, A TEMPO PIENO E INDETERMINATO PRESSO L'UFFICIO POLIZIA STRADALE DELLA PROVINCIA DI MONZA E DELLA BRIANZA 
+ 
+Il decreto di nomina n. 15 del 30.05.2024 ad oggetto: “Conferimento incarico dirigenziale alla dott.ssa 
+Erminia Vittoria Zoppè quale Direttore del Settore Risorse e servizi ai comuni”. 
+ 
+1. CARATTERISTICHE PRINCIPALI – PRESUPPOSTI DI FATTO E DI DIRITTO - 
+MOTIVAZIONE 
+Il Decreto Deliberativo Presidenziale n. 32 del 08.02.2024 inerente il Piano Triennale dei Fabbisogni 
+di Personale 2024-2026 di cui alla sottosezione 3.3 del Piano Integrato di Attività e Organizzazione 
+(PIAO) 2024-2026, aggiornato con Decreto Deliberativo Presidenziale n. 146 del 24.10.2024, ha 
+previsto la copertura del posto oggetto del presente bando di mobilità; 
+ 
+la Provincia di Monza e della Brianza ha ritenuto opportuno attivare le procedure di cui all’art. 30 
+comma 2 bis del D. Lgs 165/2021 nonostante la possibilità di deroga prevista dalla L. n. 56 del 19 
+giugno 2019, art. 3 comma 8 estesa al triennio 2022-2024 dall’art 1 comma 14 ter del D.L. 80/2021 
+modificato dalla L.113/2021; 
+ 
+viene pertanto indetta una procedura selettiva di mobilità individuale per la copertura di n. 1 posto nel 
+profilo professionale di “Agente di polizia provinciale”, Area degli Istruttori, a tempo pieno e 
+indeterminato, così come disciplinato nel bando allegato, che costituisce parte integrante e sostanziale 
+del presente provvedimento, procedendo a darne adeguata pubblicità nel rispetto della normativa 
+vigente e del Regolamento per l’accesso al pubblico impiego; 
+ 
+si dà atto che l’assunzione prevista è subordinata al rispetto, da parte dell’Ente, dei requisiti richiesti 
+dalla vigente normativa per poter procedere ad assunzioni. 
+ 
+3. RICHIAMI NORMATIVI  
+- Il Testo Unico degli enti locali - D.Lgs. 18/08/2000 n. 267 e, in particolare, l'art. 107 e che assegna 
+ai dirigenti la competenza in materia di gestione e l’art.151 comma 4 riguardante principi in 
+materia di contabilità; 
+- il D.P.R. n. 445/2000 Testo unico sulla documentazione amministrativa; 
+- l’art. 30 del D.Lgs. n. 165 del 30/3/2001; 
+
+- gli artt. 35 e 37 dello Statuto della Provincia, approvato con deliberazione dell’Assemblea dei 
+Sindaci n. 1 del 30.12.2014, esecutiva; 
+- il Regolamento per la Mobilità dall’esterno della Provincia di Monza e della Brianza, approvato 
+con deliberazione della Giunta Provinciale n. 48 del 18 marzo 2010; 
+- l’art. 4, commi 6 e 7 del Regolamento di disciplina dei controlli interni, approvato con 
+deliberazione del Consiglio provinciale n. 5 del 28.02.2013, esecutiva, da ultimo modificato con 
+deliberazione Consiliare n. 12 del 27.05. 2015; 
+- il vigente Regolamento sull’ordinamento degli uffici e dei servizi della Provincia di Monza e della 
+Brianza; 
+- il vigente Regolamento per l’accesso al pubblico impiego della Provincia di Monza e della 
+Brianza; 
+- il D.P.R. 9 maggio 1994, n. 487 “Regolamento recante norme sull’accesso agli impieghi nelle 
+pubbliche amministrazioni e le modalità di svolgimento dei concorsi, dei concorsi unici e delle 
+altre forme di assunzione nei pubblici impieghi” così come aggiornato dal DPR 82/2023; 
+- il D.Lgs. 30 marzo 2001, n.165, “Norme generali sull'ordinamento del lavoro alle dipendenze 
+delle amministrazioni pubbliche” e s.m.i.; 
+- il D.lgs 198/2006 in materia di pari opportunità tra uomini e donne per l’accesso al lavoro; 
+- la L.19 giugno 2019 n. 56 “Interventi per la concretezza delle azioni delle pubbliche 
+amministrazioni e la prevenzione dell’assenteismo”. 
+ 
+4. PRECEDENTI 
+- Decreto Deliberativo Presidenziale n. 59 del 18.04.2024, ad oggetto “Macrostruttura, area delle 
+posizioni organizzative e funzionigramma. Aggiornamenti. Approvazione.”; 
+- Decreto Deliberativo Presidenziale n. 32 del 08.02.2024, da ultimo aggiornato con Decreto 
+Deliberativo Presidenziale N. 146 del 24.10.2024 inerente il Piano triennale dei fabbisogni di 
+personale 2024-2026 di cui alla sottosezione 3.3 del Piano Integrato di Attività e Organizzazione 
+(PIAO) 2024-2026. 
+5. EFFETTI ECONOMICI  
+Si dà atto che gli impegni di spesa saranno assunti all’atto dell’immissione in servizio dei candidati 
+risultati vincitori del bando di mobilità in oggetto. 
+ 
+DETERMINA 
+ 
+1. DI indire, per i motivi citati in premessa e che si intendono qui integralmente riportati, la 
+procedura di mobilità per la copertura di n. 1 posto nel profilo professionale di “Agente di Polizia 
+provinciale” Area degli Istruttori, a tempo pieno e indeterminato presso Ufficio Polizia stradale 
+della Provincia di Monza e della Brianza, così come disciplinato nel bando allegato, che 
+costituisce parte integrante e sostanziale del presente provvedimento; 
+ 
+2. DI provvedere alla pubblicazione del bando di mobilità sul Portale del Reclutamento, all’Albo 
+Pretorio, sul sito istituzionale della Provincia di Monza e della Brianza, dando comunicazione a 
+tutte le province della Regione Lombardia e a tutti i comuni della Provincia di Monza e della 
+Brianza; 
+ 
+3. DI dare atto che all’assunzione degli impegni di spesa, si provvederà all’atto dell’immissione in 
+servizio dei candidati risultati vincitori della selezione del bando di mobilità esterna volontaria. 
+ 
+ 
+ TC/sf 
+ 
+IL DIRETTORE 
+DOTT.SSA ERMINIA VITTORIA ZOPPE' 
+ 
+Documento informatico sottoscritto con firma digitale ai sensi dell'art.24 del D.Lgs. n.82/2005 e ss.mm.ii. 
+
+
+    ### OUTPUT:
+    Checklist suggerita: [Nome Checklist]
+    Motivazione: [Breve spiegazione, se necessaria]
+
+    [/INST]</s>
+
+########## -------------------------- GENERATED ---------------------------
+
+ provinciale” area degli Istruttori, a tempo pieno e indeterminato 
+presso l’Ufficio Polizia Stradale della Provincia di Monza e della Brianza. 
+ 
+2. REQUISITI DI AMMISSIONE 
+- essere cittadino italiano o di uno degli Stati membri dell'Unione europea; 
+- avere la cittadinanza italiana o di uno degli Stati membri dell'Unione europea; 
+- essere in possesso di diploma di laurea in Scienze della sicurezza o in Scienze giuridiche o in Scienze 
+economiche o in Scienze politiche o in Scienze statistiche o in Scienze sociali o in Scienze 
+psicologiche o in Scienze dell'educazione o in Scienze dell'informatica o in Scienze della 
+matematica o in Scienze della fisica o in Scienze della chimica o in Scienze della biologia o in 
+Scienze della geologia o in Scienze della geografia o in Scienze della storia o in Scienze 
+dell'architettura o in Scienze della pianificazione urbana o in Scienze della pianificazione 
+territoriale o in Scienze della pianificazione ambientale o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pianificazione 
+dell'ambiente o in Scienze della pianificazione del territorio o in Scienze della pian
