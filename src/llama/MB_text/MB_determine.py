@@ -264,12 +264,12 @@ if __name__ == "__main__":
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
-            device_map= torch.device('cuda:0'),
+            #device_map= torch.device('cuda:0'),
             
-            #device_map='auto',
+            device_map='auto',
             #use_flash_attention_2=True
         )
-        tokenizer = AutoTokenizer.from_pretrained(model_id)
+        tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
 
 
         # Create the pipeline
