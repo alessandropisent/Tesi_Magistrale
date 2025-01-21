@@ -2,28 +2,26 @@ from dotenv import load_dotenv
 import os
 import openai
 import json
-import torch
 import pandas as pd
 import re
 
 # Load the environment variables from .env file
 load_dotenv()
 
-# Now you can access the environment variable just like before
-openai.api_key = os.environ.get('OPENAI_APIKEY')
-
-print(openai.api_key)
 
 # Define a function to interact with the model
-def generate_text(prompt, info, model="text-davinci-003"):
+def generate_text(prompts, model="gpt-4o-mini"):
+    client = openai.OpenAI()
+    
     try:
-        response = openai.Completion.create(
-            engine=model,
-            prompts=prompt,
+        response = client.chat.completions.create(
+            model=model,
+            messages=prompts,
         )
-        print(f"generated {info}")
+        #print(f"generated")
         # Extract and return the generated text
-        return response.choices[0].text.strip()
+        #print(response.choices[0].message)
+        return str(response.choices[0].message.content)
     except Exception as e:
         return f"Error: {e}"
 
@@ -48,22 +46,49 @@ def clean_text(text):
   return cleaned_text
 
 
-def generate_prompt(istruzioni, punti, num, sotto, determina):
+def generate_user_prompts(punto, return_just_text=False):
+
+        
+    if punto["Istruzioni"] != "":
+        ist = "### Istruzioni\n\n"+ punto["Istruzioni"] + "\n\n"
+    else:
+        ist = ""
+    
+    text = f"""{ist}
+        ### Rispondi al punto {punto["num"]}:
+        {punto["Punti"]}
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
+        {"\n\t\t".join([f"-{punto["num"]}{lettera}. [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]" for lettera in punto["sott"]])}
+        """
+
+    if return_just_text:
+        return text
+    
+    return {
+        "role":"user",
+        "content":[{"type": "text",
+            "text": text
+        }]
+        }
+
+def generate_prompt(determina):
     """
     Crea un prompt strutturato per verificare la corrispondenza tra i punti di una checklist normativa e una determina.
     
     Args:
-        checklist (str): Contenuto della checklist normativa da verificare.
-        checklist (str): Contenuto della checklist normativa da verificare.
         determina (str): Testo della determina dirigenziale.
 
     Returns:
         str: Prompt strutturato per la verifica normativa.
     """    
     
+
     return [{
         "role": "developer", 
-        "content" : f"""Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+        "content" : [{ "type": "text", 
+    "text":f"""Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
 
     Segui i passaggi seguenti:
     1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
@@ -77,74 +102,14 @@ def generate_prompt(istruzioni, punti, num, sotto, determina):
     5. Aggiungi una risposta separata per ciascun sottopunto, per giustificare la tua conclusione sul punto principale.
     6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
-    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
-    {istruzioni}
-
-    ##### CHECKLIST 
-    {punti}
-    
-    ##### OUTPUT:
-    Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
-      {"\n\t\t".join([f"-{num}{lettera}. [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]" for lettera in sotto])}
-
-    
-    QUINDI Dati i sottopunti elencati, il Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
-    Note finali: [eventuali osservazioni generali]
     
     <s> 
     Risposta generata dal modello di assistenza amministrativa.
     </s>
-    """},
-    {"role":"user",
-     "content": f"Analizzami questa determina : #### {"\n\n"+determina}"}
-    ]
-
-def generate_prompt_choose(determina):
-    """
-    Genera un prompt per suggerire la checklist più adatta per una determina basata sul contenuto della stessa.
-    
-    Args:
-        determina (str): Testo della determina dirigenziale.
-
-    Returns:
-        str: Prompt strutturato per il suggerimento della checklist.
-    """
-    determina = clean_text(determina)
-    determina =  ' '.join(determina.split(" ")[:100])
-    
-    return f"""<s>[INST] <<SYS>>
-    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
-
-    ### Come procedere:
-    1. Analizza brevemente la determina.
-    2. Confronta il contenuto della determina con le seguenti checklist e i loro ambiti di utilizzo:
-       - **DET_IS_CONTR**: DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI.
-       - **AUTORINC**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
-       - **DET_CONTR**: DETERMINAZIONE/CONCESSIONE DI SOVVENZIONI, CONTRIBUTI, SUSSIDI, ATTRIBUZIONE VANTAGGI ECONOMICI A PERSONE FISICHE ED ENTI PUBBLICI E PRIVATI.
-       - **CONCESS**: PROVVEDIMENTO DI CONCESSIONE.
-       - **LIQUID**: ATTO DI LIQUIDAZIONE.
-       - **INCAREX**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
-       - **INCAR**: DETERMINAZIONI D'IMPEGNO DI SPESA INCARICHI/LAVORO AUTONOMO EX Art. 7, comma 6 del D.Lgs. 165/2001.
-       - **ACCERT**: ATTI DI ACCERTAMENTO ENTRATE.
-
-    3. Rispondi con **il nome della checklist più adatta** (ad esempio: `DET_IS_CONTR`) e, se necessario, aggiungi una spiegazione sintetica.
-
-    Assicurati di usare un linguaggio chiaro e semplice.
-
-    ##### OUTPUT:
-    Checklist suggerita: [Nome Checklist]
-    Motivazione: [Breve spiegazione, se necessaria]
-
-    <</SYS>>
-
-    ################ DETERMINA:
+    ############# ------------- DETERMINA -------------------
     {determina}
+    """}]}]
 
- 
-    [/INST]</s>
-    ##### OUTPUT:
-    
-    """
 
 
 def get_checklist(checklists,nome_checklist):
@@ -175,38 +140,11 @@ def get_checklist(checklists,nome_checklist):
     return checklist
 
 
-
-def choose_checklist(nome_determina,
-                     text_gen_pipeline, 
-                     model_id):
-    
-    with open(f"./src/openai/openai/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:
-        determina= f.read()
-    
-    ### CHECKLIST SELEZIONATE PER LA DETERMINA
-    complete_prompt = generate_prompt_choose(determina)
-
-    ret = text_gen_pipeline(
-        complete_prompt,
-        max_length=1_000,    # Limit the length of generated text
-        #max_new_tokens=500,
-        #truncation = True,
-        temperature=0.01,   # Set the temperature
-        return_full_text=False,
-    )
-
-
-
-    with open(f"./src/openai/openai/responses/{model_id}/{nome_determina}-pc.txt","w", encoding="utf-8") as f:
-        f.write("########## ------------ PROMPT --------------\n\n")
-        f.write(complete_prompt)
-        f.write("\n\n########## -------------------------- GENERATED ---------------------------\n\n")
-        f.write(ret[0]["generated_text"])
-
-
 def checklist_determina(nome_determina,
                         nome_checklist,
-                        checklists):
+                        checklists,
+                        model = "gpt-4o-mini",
+                        model_folder="mini"):
 
     """
     Genera un'analisi dettagliata della corrispondenza tra una checklist normativa e una determina dirigenziale.
@@ -226,55 +164,45 @@ def checklist_determina(nome_determina,
     checklist = get_checklist(checklists,nome_checklist)
     
 
-    with open(f"./src/openai/MB_text/responses/{nome_determina}-Complete.txt","w", encoding="utf-8") as f_complete:
-        with open(f"./src/openai/MB_text/responses/{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
-            
-            for punto in checklist["Punti"]:
+    with open(f"./src/openai/MB_text/responses/{model_folder}/{nome_determina}-Complete.json","w", encoding="utf-8") as f_complete:
+        with open(f"./src/openai/MB_text/responses/{model_folder}/{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
+            j_to_append = []
+            for i,punto in enumerate(checklist["Punti"]):
+                complete_prompt = generate_prompt(determina) + [generate_user_prompts(punto)]
                 
-                
-                
-                complete_prompt = generate_prompt(punto["Istruzioni"],
-                                                  punto["Punti"],
-                                                  punto["num"],
-                                                  punto["sott"], 
-                                                  determina)
-                
-                ret = generate_text(complete_prompt,punto["num"])
+                ret = generate_text(complete_prompt, model)
 
                 #print(ret)
 
                 #print(ret[0]["generated_text"])
 
                 ### COMPLETE OUPUT
-                f_complete.write("\n\n########## ------------ PROMPT --------------\n\n")
-                f_complete.write(complete_prompt)
-                f_complete.write("\n\n########## -------------------------- GENERATED ---------------------------\n\n")
-                f_complete.write(ret[0]["generated_text"])
+                j_to_append.append({"index":i,
+                           "prompts":complete_prompt,
+                           "response":ret})
+                print(f"Generated : {i}")
                 
-                ### JUST OUTPUT
+                ### Only responses
+                f_response.write("#######--------- User prompt\n\n")
+                f_response.write(f"{generate_user_prompts(punto,True)}")
+                f_response.write("\n\n#####---- RESPONSE:\n\n\n")
+                f_response.write(f"{ret}")
                 
-                just_response = f""" 
-                #### CHECKLIST
-                {punto["Istruzioni"]+"\n\n"+punto["Punti"]}
+            json.dump({"conversations":j_to_append}, f_complete, indent = 6)
                 
-                ### RESPONSE
-                {ret[0]["generated_text"]}
-                """
-                
-                f_response.write(just_response)
                 
 
 
 
 if __name__ == "__main__":
     
-    ## Multilingual model + 16K of context
-    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
-    #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
-    #model_id = "meta-llama/Llama-3.1-70B-Instruct"
-
-   
+    done = []
+    #model = "gpt-4o-mini"
+    #model_folder = "mini"
     
+    model = "gpt-4o"
+    model_folder = "full"
+
     #load the json - Dictionary
     with open("./src/openai/MB_text/checklists/checklists.json","r", encoding="utf-8") as f:
         checklists = json.load(f)
@@ -282,28 +210,17 @@ if __name__ == "__main__":
     # load the csv with all the determine da controllare
     with open("./src/openai/MB_text/MB_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
-
-
-
-    ## Choose the right checklist for each determina
-    ## i do a loop to make it clear
-    if False:
-        for index, row in df_determine.iterrows():
-            print(f"I'm genenerting the checklist for {index}, det {row['Numero Determina']} - {model_id.split("/", 1)[1]}")
-            df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
-                                                            text_gen_pipeline,
-                                                            model_id.split("/", 1)[1])
-        
-        df_determine.to_csv("./src/openai/MB_text/MB_Determine_gen.csv")
-            
+    
     
     if True:
         for i, _ in df_determine.iterrows():
-            num = df_determine["Numero Determina"].loc[i]
-            che_ass = df_determine["Checklist associata"].loc[i]
-            ogg_det = df_determine["Oggetto determina"].loc[i]
-            
-            if che_ass == "DET_IS_CONTR":
-                checklist_determina(num,che_ass, checklists)
-            print(f"Done determina {num} - {che_ass}")
+            if i not in done:
+                print(f"DOING determina {i}")
+                num = df_determine["Numero Determina"].loc[i]
+                che_ass = df_determine["Checklist associata"].loc[i]
+                ogg_det = df_determine["Oggetto determina"].loc[i]
+                
+                if che_ass == "DET_IS_CONTR":
+                    checklist_determina(num,che_ass, checklists,model,model_folder)
+                print(f"Done determina {num} - {che_ass}")
 
