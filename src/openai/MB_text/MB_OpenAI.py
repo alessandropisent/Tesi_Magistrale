@@ -158,7 +158,7 @@ def checklist_determina(nome_determina,
         Scrive il risultato dell'analisi in file di output, inclusi dettagli sulla corrispondenza normativa.
     """
     
-    with open(f"./src/openai/MB_text/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:
+    with open(f"./src/txt/MB/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:
         determina= f.read()
     
     checklist = get_checklist(checklists,nome_checklist)
@@ -204,11 +204,11 @@ if __name__ == "__main__":
     model_folder = "full"
 
     #load the json - Dictionary
-    with open("./src/openai/MB_text/checklists/checklists.json","r", encoding="utf-8") as f:
+    with open("./src/txt/MB/checklists/checklists.json","r", encoding="utf-8") as f:
         checklists = json.load(f)
 
     # load the csv with all the determine da controllare
-    with open("./src/openai/MB_text/MB_Determine.csv","r", encoding="utf-8") as f:
+    with open("./src/txt/MB/checklists/MB_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
     
