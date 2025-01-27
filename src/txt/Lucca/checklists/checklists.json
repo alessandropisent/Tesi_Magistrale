@@ -1,0 +1,142 @@
+{
+    "checklists": [
+        {
+            "NomeChecklist": "Determine",
+            "Descrizione": "SCHEDA DI CONTROLLO DETERMINAZIONE, PIANO DI AUDITING 2024, Gruppo Interno Controllo Atti",
+            "Punti": [
+                {
+                    "Istruzioni": "",
+                    "Punto": "Competenza organo/dirigente individuato con decreto",
+                    "num": 1
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)",
+                    "num": 2
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Affidabilità riferimenti normativi di carattere generale es. TUEL ",
+                    "num": 3
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente",
+                    "num": 4
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Nel caso di attività inserite negli atti di programmazione Coerenza con: \n- DUP  e PIAO \n- Bilancio di Previsione se trattasi di DD con spesa; \n- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi \n- SITAT e altre banche dati)",
+                    "num": 5
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)",
+                    "num": 6
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente\n2)  indicare  RUP delegato per fase",
+                    "num": 7
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:\n- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)\n- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023\n- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28\nQualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO",
+                    "num": 8
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Rispetto normativa sulla tutela della riservatezza laddove rilevante",
+                    "num": 9
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Rispetto dei tempi e dei termini del procedimento",
+                    "num": 10
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Altre annotazioni/criticità in merito: a. possibilità di semplificare\nb. possibilità di digitalizzare\nc. fare un focus specifico\nd. pari opportunità\ne. accesso",
+                    "num": 11
+                }
+                
+                
+            ]
+        },
+        {
+            "NomeChecklist": "Contratti",
+            "Descrizione": "SCHEDA DI CONTROLLO CONTRATTI PUBBLICI  artt 1325 e 1655 codice civile PIANO DI AUDITING 2024 - CONTRATTI 1^ SEMESTRE APPALTI E CONCESSIONI: SCRITTURE PRIVATE e LETTERE COMMERCIALI",
+            "Punti": [
+                {
+                    "Istruzioni": "",
+                    "Punto": "Natura del contratto: lettera commerciale, contratto",
+                    "num": 1
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Riferimenti alla DD di affidamento e alla normativa",
+                    "num": 2
+                },
+                {   "Istruzioni":"",
+                    "Punto":"CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell’art. 50 sottolinea l’importanza del possesso di 'documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali'",
+                    "num":3
+
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Art. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
+                    "num": 4
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)",
+                    "num": 5
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Termini di conclusione della prestazione/lavori",
+                    "num": 6
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Specificare se sono fondi soggetti a rendicontazione",
+                    "num": 7
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Specificare la normativa sulla privacy per i dati personali",
+                    "num": 8
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Richiamato il codice di comportamento dei dipendenti ",
+                    "num": 9
+                },
+                
+                {
+                    "Istruzioni": "",
+                    "Punto": "Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC ",
+                    "num": 10
+                }
+                
+            ]
+        }
+    ]
+}

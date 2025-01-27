@@ -23,7 +23,7 @@ def clean_text(text):
   return cleaned_text
 
 
-def generate_prompt(istruzioni, punti, num, sotto, determina):
+def generate_prompt(istruzioni, punti, num, determina):
     """
     Crea un prompt strutturato per verificare la corrispondenza tra i punti di una checklist normativa e una determina.
     
@@ -44,11 +44,9 @@ def generate_prompt(istruzioni, punti, num, sotto, determina):
     2. Leggi il testo della determina.
     3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
     4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
-       - **SI**: La norma è citata nella determina (specificare dove, se possibile).
-       - **Carente**: La norma non è citata ma la mancanza non è grave.
-       - **NO**: La norma non è citata e la mancanza è grave.
+       - **SI**: Il punto della checklist e relative istruzioni sono rispettate (la determina passa il controllo)
+       - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
        - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
-    5. Aggiungi una risposta separata per ciascun sottopunto, per giustificare la tua conclusione sul punto principale.
     6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
     Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
@@ -63,7 +61,6 @@ def generate_prompt(istruzioni, punti, num, sotto, determina):
 
     ##### OUTPUT:
     Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
-      {"\n\t\t".join([f"-{num}{lettera}. [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]" for lettera in sotto])}
 
     
     QUINDI Dati i sottopunti elencati, il Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
@@ -73,53 +70,6 @@ def generate_prompt(istruzioni, punti, num, sotto, determina):
     <s> 
     Risposta generata dal modello di assistenza amministrativa.
     </s>
-    """
-
-def generate_prompt_choose(determina):
-    """
-    Genera un prompt per suggerire la checklist più adatta per una determina basata sul contenuto della stessa.
-    
-    Args:
-        determina (str): Testo della determina dirigenziale.
-
-    Returns:
-        str: Prompt strutturato per il suggerimento della checklist.
-    """
-    determina = clean_text(determina)
-    determina =  ' '.join(determina.split(" ")[:100])
-    
-    return f"""<s>[INST] <<SYS>>
-    Sei un assistente virtuale esperto in diritto amministrativo. Il tuo compito è leggere il testo di una determina dirigenziale e consigliare la checklist più adatta per verificare la regolarità amministrativa dell'atto.
-
-    ### Come procedere:
-    1. Analizza brevemente la determina.
-    2. Confronta il contenuto della determina con le seguenti checklist e i loro ambiti di utilizzo:
-       - **DET_IS_CONTR**: DETERMINAZIONI d'IMPEGNO DI SPESA/CONTRATTI.
-       - **AUTORINC**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
-       - **DET_CONTR**: DETERMINAZIONE/CONCESSIONE DI SOVVENZIONI, CONTRIBUTI, SUSSIDI, ATTRIBUZIONE VANTAGGI ECONOMICI A PERSONE FISICHE ED ENTI PUBBLICI E PRIVATI.
-       - **CONCESS**: PROVVEDIMENTO DI CONCESSIONE.
-       - **LIQUID**: ATTO DI LIQUIDAZIONE.
-       - **INCAREX**: AUTORIZZAZIONI AD INCARICHI EXTRA ISTITUZIONALI.
-       - **INCAR**: DETERMINAZIONI D'IMPEGNO DI SPESA INCARICHI/LAVORO AUTONOMO EX Art. 7, comma 6 del D.Lgs. 165/2001.
-       - **ACCERT**: ATTI DI ACCERTAMENTO ENTRATE.
-
-    3. Rispondi con **il nome della checklist più adatta** (ad esempio: `DET_IS_CONTR`) e, se necessario, aggiungi una spiegazione sintetica.
-
-    Assicurati di usare un linguaggio chiaro e semplice.
-
-    ##### OUTPUT:
-    Checklist suggerita: [Nome Checklist]
-    Motivazione: [Breve spiegazione, se necessaria]
-
-    <</SYS>>
-
-    ################ DETERMINA:
-    {determina}
-
- 
-    [/INST]</s>
-    ##### OUTPUT:
-    
     """
 
 
@@ -145,39 +95,11 @@ def get_checklist(checklists,nome_checklist):
         if temp["NomeChecklist"] == nome_checklist:
             checklist = temp
     
-    if not bool(checklists):
+    if not bool(checklist):
         raise Exception("CHECKLIST not found")
     
     return checklist
 
-
-
-def choose_checklist(nome_determina,
-                     text_gen_pipeline, 
-                     model_id):
-    
-    with open(f"./src/txt/Lucca/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:
-        determina= f.read()
-    
-    ### CHECKLIST SELEZIONATE PER LA DETERMINA
-    complete_prompt = generate_prompt_choose(determina)
-
-    ret = text_gen_pipeline(
-        complete_prompt,
-        max_length=1_000,    # Limit the length of generated text
-        #max_new_tokens=500,
-        #truncation = True,
-        temperature=0.01,   # Set the temperature
-        return_full_text=False,
-    )
-
-
-
-    with open(f"./src/llama/Lucca_text/responses/{model_id}/{nome_determina}-pc.txt","w", encoding="utf-8") as f:
-        f.write("########## ------------ PROMPT --------------\n\n")
-        f.write(complete_prompt)
-        f.write("\n\n########## -------------------------- GENERATED ---------------------------\n\n")
-        f.write(ret[0]["generated_text"])
 
 
 def checklist_determina(nome_determina,
@@ -212,9 +134,8 @@ def checklist_determina(nome_determina,
                 
                 
                 complete_prompt = generate_prompt(punto["Istruzioni"],
-                                                  punto["Punti"],
-                                                  punto["num"],
-                                                  punto["sott"], 
+                                                  punto["Punto"],
+                                                  punto["num"], 
                                                   determina)
                 
                 ret = text_gen_pipeline(

@@ -24,6 +24,7 @@ def extract_text_from_pdfs(directory_input, directory_output):
                     text += page.extract_text() + "\n"
                 extracted_texts[filename] = text
 
+                print(directory_output+"/"+filename[:-4] +".txt")
                 with open(directory_output+"/"+filename[:-4] +".txt" , "w", encoding="utf-8") as f:
                     f.write(text)
             except Exception as e:
@@ -34,14 +35,15 @@ def extract_text_from_pdfs(directory_input, directory_output):
 
 
 # Specify the directory containing the PDF files
-pdf_directory = "./determine_pdf/MB/Raw_det"  
-text_directory= "./src/txt/MB"
+pdf_directory = "./determine_pdf/Lucca"  
+text_directory= "./src/txt/Lucca/Raw_det"
 
 # Call the function and process the PDFs
-extracted_data = extract_text_from_pdfs(pdf_directory,pdf_directory)
+extracted_data = extract_text_from_pdfs(pdf_directory,text_directory)
 
 # Save or display the extracted text
-for filename, text in extracted_data.items():
-    print(f"--- {filename} ---")
-    print(text[:500])  # Print the first 500 characters of each PDF text
-    print("\n")
+#for filename, text in extracted_data.items():
+#    print(f"--- {filename} ---")
+#    print(text[:500])  # Print the first 500 characters of each PDF text
+#    print("\n")
+#
