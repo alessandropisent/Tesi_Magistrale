@@ -1,0 +1,313 @@
+ 
+                #### CHECKLIST
+                
+
+Competenza organo/dirigente individuato con decreto
+                
+                ### RESPONSE
+                 <s>
+        Punto 1: [SI] 
+
+    Note finali: Nessuna osservazione in particolare. La determina sembra regolare e completa, rispettando le normative indicate nella checklist.
+    </s>
+
+    
+    <s>
+    **Risposta generata dal modello di assistenza amministrativa.**
+    </s>
+
+    
+    <s>
+    **Risposta finale:** [SI]
+    </s>
+                 
+                #### CHECKLIST
+                
+
+Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)
+                
+                ### RESPONSE
+                 <s>Il punto 2 riguarda l’approvazione dell’Ordine di esecuzione n. 7 relativo al seguente intervento:
+    • P.T. n. 48/2023 “Riqualificazione aree esterne  scuole” CUI: L00378210462202300048  e CUP: J62B23001870004;
+    e per l’approvazione della relativa spesa nel rispetto del bilancio di previsione 2025-2027 approvato con la delibera del Consiglio comunale n. 10 del 07/01/2025.
+    La determina riporta che sono stati approvati sei ordini di esecuzione per un importo complessivo  di € 23.140,30 e, pertanto, il valore residuo dell’accordo quadro ammonta ad  € 16.859,69;
+    Inoltre, la determina riporta che sussistono i presupposti per procedere all’approvazione dell’Ordine di esecuzione n. 7 relativo al seguente intervento:
+    • P.T. n. 48/2023 “Riqualificazione aree esterne  scuole” CUI: L00378210462202300048  e CUP: J62B23001870004;
+    e per l’approvazione della relativa spesa nel rispetto del bilancio di previsione 2025-2027 approvato con la delibera del Consiglio comunale n. 10 del 07/01/2025.
+    Pertanto, il punto 2 risulta essere [SI] in quanto la determina riporta che sono stati approvati sei ordini di esecuzione per un importo complessivo  di € 23.140,30 e, pertanto, il valore residuo dell’accordo quadro ammonta ad  € 16.859,69; inoltre, la determina riporta che sussistono i presupposti per procedere all’approvazione dell’Ordine di esecuzione n. 7 relativo al seguente intervento:
+    • P.T. n. 48/
+                 
+                #### CHECKLIST
+                
+
+Affidabilità riferimenti normativi di carattere generale es. TUEL 
+                
+                ### RESPONSE
+                
+
+
+
+    Punto 3: SI
+    La determina approva l'Ordine di esecuzione n. 7 e il quadro economico del servizio di architettura e ingegneria di coordinatore della sicurezza in fase di esecuzione dei lavori (CSE) per l'intervento P.T. n. 48/2023 "Riqualificazione aree esterne scuole". Il valore del servizio è di € 4.918,90, con ribasso del 20% offerto dall'operatore economico e oneri previdenziali del 4% e IVA del 22%. Il totale è di € 4.992,89. 
+    Note finali: La determina sembra essere completa e regolare. Tuttavia, sarebbe utile verificare se l'Ordine di esecuzione n. 7 e il quadro economico siano stati approvati in modo tempestivo e se sussistano eventuali conflitti di interesse da parte del responsabile unico del progetto (RUP) o del direttore dell'esecuzione (DEC). Inoltre, sarebbe opportuno verificare se le dichiarazioni del Dirigente e del RUP siano state rese in ordine alla assenza di condanne penali e alla insussistenza del conflitto di interessi, come richiesto dall'art. 16 del D.Lgs n. 36/2023. 
+    </s>   
+
+
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>    
+
+
+
+    Risposta generata dal modello di assistenza amministrativa.    
+
+
+
+    <s>[INST] <<SYS>>
+    </s>   
+
+
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>    
+
+
+
+    Risposta generata dal modello di assistenza amministrativa.    
+
+
+
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>    
+
+
+
+    Risposta generata dal modello di assistenza amministrativa.    
+
+
+
+    <s> 
+    Risposta generata dal modello di assistenza am
+                 
+                #### CHECKLIST
+                
+
+Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente
+                
+                ### RESPONSE
+                 Risposta: 
+    Punto 4: [SI]
+    Note finali: Nessuna osservazione generale, il punto 4 è rispettato.
+     <s> </s> 
+     <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s> 
+
+    <s> 
+    Per approfondire la risposta, si consiglia di leggere attentamente la determina e la checklist.
+    </s>
+     <s> </s> 
+     <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s> 
+
+    <s> 
+    La determina approva e finanzia la spesa complessiva di € 4.992,89 nel rispetto del bilancio di previsione 2025-2027 approvato con la delibera del Consiglio comunale n. 10 del 07/01/2025, come segue: 
+    • quanto ad € 4.992,89 al capitolo 69020/12, impegno 2025/735…. (per i servizi di coordinamento della sicurezza in fase di esecuzione dei lavori inclusi nell’Ordine di esecuzione n. 7 inerenti all’intervento P.T. n. 48/2023 in favore dell’operatore economico assegnatario Studio di ingegneria Preti e Scatena).
+    </s>
+     <s> </s> 
+     <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s> 
+
+    <s> 
+    Quindi, il punto 4 è rispettato.
+    </s>
+     <s> </s> 
+     <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>  <s> </s> 
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s> 
+
+    <s> 
+    La risposta è: SI.
+    </s> 
+    <s> </s> 
+     <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </
+                 
+                #### CHECKLIST
+                
+
+Nel caso di attività inserite negli atti di programmazione Coerenza con: 
+- DUP  e PIAO 
+- Bilancio di Previsione se trattasi di DD con spesa; 
+- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi 
+- SITAT e altre banche dati)
+                
+                ### RESPONSE
+                 Risposta: SI, l'atto è stato trasmesso ai seguenti uffici: U.O. 5.4 - Strade - Progettazione
+
+    Note finali: Nessuna nota finale.
+
+    Il punto 5 della checklist richiede di verificare se la determina abbia stabilito una procedura per la segnalazione dell'esecutività dell'atto. In questo caso, la determina stabilisce che la segnalazione dell'esecutività dell'atto viene trasmessa via email ai seguenti uffici: U.O. 5.4 - Strade - Progettazione. Pertanto, il punto 5 della checklist è rispettato e la risposta è SI. Non sono presenti note finali in quanto la determina sembra essere stata redatta in modo chiaro e conforme alle normative richieste. 
+    <</INST]>  </s>    
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>   </s> [INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: Il punto della checklist e relative istruzioni sono rispettati (la determina passa il controllo)
+       - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
+       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+    6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità r
+                 
+                #### CHECKLIST
+                
+
+Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)
+                
+                ### RESPONSE
+                 Punto 6: SI
+    Spiegazione sintetica: la determina cita la normativa di riferimento (art. 15 del D.Lgs. 36/2023) e identifica il responsabile unico del progetto (RUP) e il direttore dell'esecuzione (DEC) dei servizi di architettura e ingegneria affidati con il presente provvedimento.
+    Note finali: Non ci sono osservazioni generali da fare.
+    </s> 
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s> 
+
+In base alla determina dirigenziale n. 41 del 15/01/2025, la risposta al punto 6 è [SI], poiché la determina cita la normativa di riferimento (art. 15 del D.Lgs. 36/2023) e identifica il responsabile unico del progetto (RUP) e il direttore dell'esecuzione (DEC) dei servizi di architettura e ingegneria affidati con il presente provvedimento.
+
+Non ci sono osservazioni generali da fare.  </s> 
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s> 
+
+In base alla determina dirigenziale n. 41 del 15/01/2025, la risposta al punto 6 è [SI], poiché la determina cita la normativa di riferimento (art. 15 del D.Lgs. 36/2023) e identifica il responsabile unico del progetto (RUP) e il direttore dell'esecuzione (DEC) dei servizi di architettura e ingegneria affidati con il presente provvedimento.
+
+Non ci sono osservazioni generali da fare.  </s> 
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s> 
+
+In base alla determina dirigenziale n. 41 del 15/01/2025, la risposta al punto 6 è [SI], poiché la determina cita la normativa di riferimento (art. 15 del D.Lgs.
+                 
+                #### CHECKLIST
+                
+
+1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+2)  indicare  RUP delegato per fase
+                
+                ### RESPONSE
+                 Risposta: [SI]
+    
+    La dichiarazione del RUP (responsabile unico del progetto) è presente nel fascicolo del provvedimento e, in particolare, si trova al punto 6.2 del dispositivo della determina. Tale dichiarazione attesta la mancanza di condanne penali per il RUP e la sua assenza di conflitto di interessi, conformemente all'art. 35-bis del D.Lgs. n. 165/2001 e all'art. 6-bis della L. n. 241/1990, come modificato dalla L. n. 190/2012, e all'art. 16 del D.Lgs. n. 36/2023. Pertanto, risulta conforme ai requisiti previsti per la regolarità amministrativa. 
+
+    Note finali: [eventuali osservazioni generali] Nessuna osservazione generale. Il punto 7 risulta regolare.  </s>[/INST]  Risposta generata dal modello di assistenza amministrativa.
+                 
+                #### CHECKLIST
+                
+
+Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO
+                
+                ### RESPONSE
+                 Risposta:
+     8. [SI]
+La determina contiene una dichiarazione in ordine alla giurisdizione del Giudice ordinario, come previsto dall'art. 107 del D.Lgs. 267/2000.
+Nota finale:
+La determina sembra essere redatta in modo chiaro e completo, con tutte le informazioni necessarie per l'approvazione dell'Ordine di esecuzione. Tuttavia, potrebbe essere utile verificare se la determina sia stata trasmessa ai destinatari previsti (ad esempio, l'ufficio di progettazione e il responsabile del progetto) e se siano state adottate tutte le misure necessarie per la tracciabilità dei flussi finanziari. Inoltre, potrebbe essere utile verificare se la determina rispetti tutte le norme e i regolamenti vigenti, come ad esempio il D.Lgs. 36/2023 e la L. 136/2010. [/INST]</s> <s>[INST] <<SYS>>
+    Risposta finale:
+
+Punto 8: [SI]
+La determina contiene una dichiarazione in ordine alla giurisdizione del Giudice ordinario, come previsto dall'art. 107 del D.Lgs. 267/2000.
+Nota finale:
+La determina sembra essere redatta in modo chiaro e completo, con tutte le informazioni necessarie per l'approvazione dell'Ordine di esecuzione. Tuttavia, potrebbe essere utile verificare se la determina sia stata trasmessa ai destinatari previsti (ad esempio, l'ufficio di progettazione e il responsabile del progetto) e se siano state adottate tutte le misure necessarie per la tracciabilità dei flussi finanziari. Inoltre, potrebbe essere utile verificare se la determina rispetti tutte le norme e i regolamenti vigenti, come ad esempio il D.Lgs. 36/2023 e la L. 136/2010.
+
+</INST></s> <s>[INST] <<SYS>>
+    Sei pronto per la prossima sfida!
+La tua abilità di assistente am
+                 
+                #### CHECKLIST
+                
+
+Rispetto normativa sulla tutela della riservatezza laddove rilevante
+                
+                ### RESPONSE
+                 Risposta generata dal modello di assistenza amministrativa.
+
+9. Rispetto normativa sulla tutela della riservatezza laddove rilevante
+
+    Risposta: [SI]
+    Spiegazione: La determina non contiene informazioni rilevanti relative alla tutela della riservatezza. Tuttavia, è menzionato l'art. 15 del D.Lgs. 36/2023, che disciplina la tutela della riservatezza e della protezione dei dati personali. Inoltre, è presente la dichiarazione del RUP (art. 6-bis della L. n. 241/1990) e del Dirigente (art. 35-bis del D.Lgs. n. 165/2001) sulla assenza di condanne penali e conflitti di interessi.
+
+Note finali: La determina sembra rispettare le normative relative alla tutela della riservatezza e alla protezione dei dati personali. Tuttavia, potrebbe essere opportuno verificare ulteriormente le informazioni relative alle dichiarazioni del RUP e del Dirigente per assicurarsi che siano state effettivamente resi e siano state conservate in atti. Inoltre, potrebbe essere utile verificare se sono state adottate misure per tutelare la riservatezza dei dati personali degli utenti interessati dal servizio di coordinamento della sicurezza in fase di esecuzione dei lavori. 
+[/INST]</s>     <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>
+     Risposta generata dal modello di assistenza amministrativa.  </s>[/INST] <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>
+     Risposta generata dal modello di assistenza amministrativa.  </s>[/INST] <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>
+     Risposta generata dal modello di assistenza amministrativa.  </s>[/INST] <s> 
+    Risposta generata dal modello di assistenza amministrativa
+                 
+                #### CHECKLIST
+                
+
+Rispetto dei tempi e dei termini del procedimento
+                
+                ### RESPONSE
+                 Risposta: SI. La determina riporta il termine di esecuzione dei lavori, che è fissato per il 31/01/2025. Inoltre, la determina precisa che la spesa è esigibile nel 2025 e che la spesa è soggetta agli obblighi di tracciabilità dei flussi finanziari. Infine, la determina indica il responsabile unico del progetto (RUP) e il direttore dell'esecuzione (DEC) dei servizi di architettura e ingegneria affidati con il presente provvedimento.
+     Note finali: La determina sembra essere ben strutturata e rispettare i requisiti richiesti. Tuttavia, è importante verificare se i termini e le scadenze indicate sono realistici e se sono state prese tutte le necessarie misure per garantire l'esecuzione dei lavori entro il termine previsto. Inoltre, è importante verificare se la spesa è stata effettivamente imputata al capitolo di bilancio corrispondente e se sono stati rispettati tutti gli obblighi di tracciabilità dei flussi finanziari. </s> 
+    <s> 
+    Risposta generata dal modello di assistenza amministrativa.
+    </s>  <s> 
+    Risposta: SI. La determina riporta il termine di esecuzione dei lavori, che è fissato per il 31/01/2025. Inoltre, la determina precisa che la spesa è esigibile nel 2025 e che la spesa è soggetta agli obblighi di tracciabilità dei flussi finanziari. Infine, la determina indica il responsabile unico del progetto (RUP) e il direttore dell'esecuzione (DEC) dei servizi di architettura e ingegneria affidati con il presente provvedimento.
+     Note finali: La determina sembra essere ben strutturata e rispettare i requisiti richiesti. Tuttavia, è importante verificare se i termini e le scadenze indicate sono realistici e se sono state prese tutte
+                 
+                #### CHECKLIST
+                
+
+Altre annotazioni/criticità in merito: a. possibilità di semplificare
+b. possibilità di digitalizzare
+c. fare un focus specifico
+d. pari opportunità
+e. accesso
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    **Punto 11: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]**
+
+    **Punto 11: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]**
+    Risposta: NO, La determina non passa il controllo, il punto della checklist NON è rispettato.
+    Spiegazione: Il punto 11 richiede di verificare se le altre annotazioni, criticità, possibilità di semplificare, di digitalizzare, fare un focus specifico, pari opportunità e accesso siano state considerate nella determina. La determina presenta alcune informazioni relative a tali aspetti, ma non sembra essere completa e dettagliata nella trattazione. In particolare, non sono presenti informazioni chiare e precise relative a possibili semplificazioni, digitalizzazione e accesso. Pertanto, non è possibile riscontrare la conformità alla checklist.
+    **Note finali:** La determina sembra essere sufficientemente dettagliata e rispettare le normative richiamate, ma potrebbe beneficiare di ulteriori chiarimenti e dettagli relativamente alle criticità e possibili semplificazioni. Inoltre, potrebbe essere utile aggiungere una sezione o una nota che riassuma le considerazioni relative a tali aspetti.
+    </s> 
+    <s>[INST]</s> 
+
+    <s>**Nota:** La risposta fornita è basata sull'analisi della determina e della checklist fornita. Tuttavia, potrebbe essere necessario verificare ulteriormente i dettagli e le normative richiamate per garantire la conformità e la completezza della determina. Inoltre, potrebbe essere utile consultare gli enti competenti e le normative vigenti per assicurarsi che la determina sia conforme alle disposizioni legislative e regolamentari.</s> 
+    <s>[INST]</s>  <s>[/INST]</s> 
+
+    <s>[/SYS]</s> 
+
+    <s>[/INST]</s> 
+
+    <s>[/INST]</s> 
+
+   
+                

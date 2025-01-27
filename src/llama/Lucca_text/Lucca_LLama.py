@@ -105,7 +105,8 @@ def get_checklist(checklists,nome_checklist):
 def checklist_determina(nome_determina,
                         nome_checklist,  
                         text_gen_pipeline,
-                        checklists):
+                        checklists,
+                        sub_cartella=""):
 
     """
     Genera un'analisi dettagliata della corrispondenza tra una checklist normativa e una determina dirigenziale.
@@ -120,14 +121,14 @@ def checklist_determina(nome_determina,
         Scrive il risultato dell'analisi in file di output, inclusi dettagli sulla corrispondenza normativa.
     """
     
-    with open(f"./src/txt/Lucca/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:
+    with open(f"./src/txt/Lucca/determinazioni/{nome_determina}.txt","r", encoding="utf-8") as f:
         determina= f.read()
     
     checklist = get_checklist(checklists,nome_checklist)
     
 
-    with open(f"./src/llama/Lucca_text/responses/{nome_determina}-Complete.txt","w", encoding="utf-8") as f_complete:
-        with open(f"./src/llama/Lucca_text/responses/{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
+    with open(f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-Complete.txt","w", encoding="utf-8") as f_complete:
+        with open(f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
             
             for punto in checklist["Punti"]:
                 
@@ -161,7 +162,7 @@ def checklist_determina(nome_determina,
                 
                 just_response = f""" 
                 #### CHECKLIST
-                {punto["Istruzioni"]+"\n\n"+punto["Punti"]}
+                {punto["Istruzioni"]+"\n\n"+punto["Punto"]}
                 
                 ### RESPONSE
                 {ret[0]["generated_text"]}
@@ -175,8 +176,9 @@ def checklist_determina(nome_determina,
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    model_id = "meta-llama/Llama-3.1-8B-Instruct"
-    #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
+    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
+    model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
 
     # This is to the possiblity to not load the model and just test for errors
@@ -185,9 +187,9 @@ if __name__ == "__main__":
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
-            device_map= torch.device('cuda:0'),
+            #device_map= torch.device('cuda:0'),
             
-            #device_map='auto',
+            device_map='auto',
             #use_flash_attention_2=True
         )
         tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
@@ -231,10 +233,11 @@ if __name__ == "__main__":
         for i, _ in df_determine.iterrows():
             num = df_determine["Numero Determina"].loc[i]
             che_ass = df_determine["Checklist associata"].loc[i]
-            ogg_det = df_determine["Oggetto determina"].loc[i]
+            sub_cartella = "llamantino70/"
             
-            if che_ass == "DET_IS_CONTR":
-                checklist_determina(num,che_ass, text_gen_pipeline, checklists)
+            
+            checklist_determina(num,che_ass, text_gen_pipeline, checklists,sub_cartella)
             print(f"Done determina {num} - {che_ass}")
-            break
+            
 
+## Numero Determina,Checklist associata
