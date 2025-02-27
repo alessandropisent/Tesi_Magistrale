@@ -1,0 +1,61 @@
+{
+    "checklists":[
+        {
+            "NomeChecklist":"",
+            "Descrizione":"", 
+            
+            "Punti":[
+                { 
+                    "Istruzioni": "",
+                    "Punti":""
+        
+                },
+        
+                { 
+                    "Istruzioni": "",
+                    "Punti":""
+        
+                }
+                
+            ]
+        },
+        {
+            "NomeChecklist":"",
+            "Descrizione":"", 
+            
+            "Punti":[
+                { 
+                    "Istruzioni": "",
+                    "Punti":""
+        
+                },
+        
+                { 
+                    "Istruzioni": "",
+                    "Punti":""
+        
+                }
+                
+            ]
+        },
+        {
+            "NomeChecklist":"",
+            "Descrizione":"", 
+            
+            "Punti":[
+                { 
+                    "Istruzioni": "",
+                    "Punti":""
+        
+                },
+        
+                { 
+                    "Istruzioni": "",
+                    "Punti":""
+        
+                }
+                
+            ]
+        }
+    ]
+}
