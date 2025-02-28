@@ -1,19 +1,301 @@
 {
     "checklists":[
         {
-            "NomeChecklist":"",
-            "Descrizione":"", 
+            "NomeChecklist":"Determina a Contrarre",
+            "Descrizione":"Checklist per la verifica degli elementi essenziali della determina a contrarre nel Comune di Olbia.",
+            "Possibili Risposte": ["SI","NO","NON RICHIESTO"],
+            "Riferimenti": "**Riferimenti** :\n- D.Lgs. n. 267/2000 “Testo unico delle leggi sull’ordinamento degli enti locali “ art. 191, co. 1);\n- Legge n. 241/1990 “ Nuove Norme in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi”;\n- D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012, n. 135 ( art. 1) - (spending-review);\n- Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii;\n- L. n. 136/2010 e D.L. 187/10 Convertito in Legge N. 217 del 17/12/2010 Deliberazione AVCP n. 8 e 10/2010, e n. 4/2011 e ss.mm.ii;\n- L. 190/2012 e s.m.i. (Legge Anticorruzione);\n- D.Lgs. 33/2013, come modificato dal D.Lgs. n. 97/2016 (Decreto Trasparenza);\n- L. R.  13 MARZO 2018 n. 8/2018 “ Nuove norme in materia di contratti pubblici di lavori, servizi e forniture”, e ss.mm.ii.;\n- Linea guida FOIA ANAC - Det. n. 1309 del 28/12/2016;\n- Linea guida Trasparenza ANAC - Det. n. 1310 del 28/12/2016;\n- Comune di Olbia, Delibera di Giunta Comunale n. 260 del 06/07/2016 “Approvazione Patto d’Integrità”;\n- Piano Triennale di Prevenzione della Corruzione e della Trasparenza, vigente del Comune di Olbia.",
             
             "Punti":[
                 { 
+                    "Istruzioni": "Nella determina oltre il settore va indicato il servizio di appartenenza presente nella macrostruttura vigente.",
+                    "Punti":"Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento. Nella determina oltre il settore va indicato il servizio di appartenenza presente nella macrostruttura vigente.",
+                    "Sezione": "ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO",
+                    "num":1
+        
+                },
+        
+                { 
+                    "Istruzioni": "Indica in sintesi il contenuto del provvedimento, inserendo nell'oggetto il codice corretto (15271) e la norma attributiva del potere",
+                    "Punti":"Oggetto della determinazione",
+                    "Sezione": "ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO",
+                    "num":2
+        
+                },
+                { 
+                    "Istruzioni": "Il CUI va inserito nel caso di affidamenti per appalti di lavori d'importo pari o superiore a 150.000 euro o di beni e servizi d'importo pari o superiore a 140.000 euro\nPer il CPV Il documento del Presidente dell'Autorità del 9 maggio 2023 n. 2 spiega il funzionamento del Vocabolario dei Codici CPV e le modalità di utilizzo per la scelta del codice adatto al singolo appalto individuare i CPV del vocabolario principale con un livello di classificazione non inferiore alle categorie (con almeno le 5 cifre che indichino divisione-gruppo-classe-categoria)\nRiportare il numero identificativo (non essenziale, il CIG può essere richiesto anche successivamente purché prima dell'avvio della procedura. Lo ha confermato l'Anac con il Comunicato del 08.08.2016 e la Delibera n. 1 del 11 gennaio 2017 stabilendo che le stazioni appaltanti che intendono avviare una gara, siano tenute ad acquisire il relativo CIG in un momento antecedente all'indizione della procedura di gara. In particolare:\n\nPer le gare che prevedono la pubblicazione del bando o avviso di gara, il CIG va acquisito prima della pubblicazione in GU(dal 1.1.2024 su BDNCP), in modo che possa essere ivi riportato;\nPer le gare che prevedono l'invio della lettera di invito, il CIG va acquisito prima dell'invio delle stesse in modo che possa essere ivi riportato;\nPer agli acquisiti effettuati senza le formalità di cui ai punti precedenti si rimanda alle griglie 15272 e 152725 ( il CIG va comunque acquisito prima della stipula del relativo contratto in modo che possa essere ivi riportato e consentire il versamento del contributo da parte degli operatori economici partecipanti ad esempio nel caso di affidamenti in somma urgenza il CIG va riportato nella lettera d'ordine);\nPer le gare di cui non è previsto l'obbligo di contribuzione a favore dell'Autorità il CIG va acquisito prima della stipula del relativo contratto in modo che possa essere ivi riportato)",
+                    "Punti":"Indicazione del CIG e /o del CUP del CUI, del CPV",
+                    "Sezione": "ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO",
+                    "num":3
+        
+                },
+                { 
+                    "Istruzioni": "Riportare il numero identificativo",
+                    "Punti":"Centro di Costo: si indica il centro di costo al quale imputare la spesa.",
+                    "Sezione": "ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO",
+                    "num":4
+        
+                },
+                { 
+                    "Istruzioni": "Decreto di conferimento dell'incarico di responsabilità che autorizza l'adozione dell'atto. In caso di facente funzione citare il decreto di sostituzione dei dirigenti momentaneamente assenti.",
+                    "Punti":"Estremi decreto sindacale di nomina del dirigente.",
+                    "Sezione": "ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO",
+                    "num":5
+        
+                },
+                { 
+                    "Istruzioni": "Indica se presenti gli estremi. **GRAVITA' [1/3](lieve) se non presenti**",
+                    "Punti":"Estremi della delega alla firma dell'atto, se persona diversa dal Dirigente.",
+                    "Sezione": "ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO",
+                    "num":6
+        
+                },
+                { 
+                    "Istruzioni": "Indicazione del nominativo e recapito di posta elettronica.\nI riferimenti devono essere indicati nel corpo dell'atto. Se il Responsabile del Procedimento non è stato espressamente nominato, ai sensi dell'art. 15 del Dlgs n.36/2023, l'incarico è svolto dal responsabile dell'unità organizzativa competente per l'intervento.\nIl nuovo codice (art.15) consente di individuare modelli organizzativi, i quali prevedano la nomina di un responsabile di procedimento per le fasi di programmazione, progettazione ed esecuzione e un responsabile di procedimento per la fase di affidamento.  In questo caso occorre definire i rispettivi compiti e  responsabilità\n''il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, affidamento ed esecuzione ai sensi dell'art. 4 della L. 241/90'' oppure ''il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell'art. 4 della L. 241/90 mentre il Responsabile di procedimento della fase di affidamento è...''\n**GRAVITA' [1/3](lieve) se non indicati**",
+                    "Punti":"Estremi atto di nomina del Responsabile del Progetto.",
+                    "Sezione": "ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO",
+                    "num":7
+        
+                },
+                { 
+                    "Istruzioni": "Art. 16. (Conflitto di interessi)\nSi ha conflitto di interessi quando un soggetto che, a qualsiasi titolo, interviene con compiti funzionali nella procedura di aggiudicazione o nella fase di esecuzione degli appalti o delle concessioni e ne può influenzare, in qualsiasi modo, il risultato, gli esiti e la gestione, ha direttamente o indirettamente un interesse finanziario, economico o altro interesse personale che può essere percepito come una minaccia alla sua imparzialità e indipendenza nel contesto della procedura di aggiudicazione o nella fase di esecuzione.\n''Rilevato il pieno rispetto, in fase istruttoria e di predisposizione degli atti, delle disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e l'insussistenza, ai sensi dell'art.16 del Dlgs n.36/2023 di conflitto di interesse in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso''",
+                    "Punti":"Conflitto d'interessi ",
+                    "Sezione": "ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO",
+                    "num":8
+        
+                },
+                { 
+                    "Istruzioni": "Il soggetto che emette l’atto fa constare che lo stesso è conforme alle disposizioni di legge vigenti in materia.\nLa normativa specifica deve essere sempre indicata con specificazione dell’articolo e, se del caso, del comma, applicato. \nL’elenco della 1° colonna è riportato a titolo meramente esemplificativo in quanto applicabile alle singole fattispecie. La normativa specifica deve essere indicata quale peculiare presupposto di diritto in relazione alla concreta fattispecie di cui alla determinazione. (ad es. per acquisizione di una fornitura, il presupposto di fatto coincide con le fattispecie indicate dalle norme cui si fa riferimento?)\nSono precisati gli eventuali vincoli - anche procedurali - derivanti dalla normativa?",
+                    "Punti":"**Normativa specifica**:\nCodice dei contratti pubblici (D.Lgs. n. 36.2023.);\nL.R. n. 8/2018 e ss.mm.ii. (per quanto applicabile);\nArt. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012, n. 135 (adesione convenzione Consip);\nArt. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);\nArt. 26, della legge n. 488/1999 e ss.mm.ii.;\nDPCM 24 dicembre 2015.",
+                    "Sezione": "RIFERIMENTI NORMATIVI",
+                    "num":9
+        
+                },
+                { 
+                    "Istruzioni": "Debbono essere indicati presupposti normativi di carattere generale in termini strettamente essenziali qualora risultino necessari quale supporto alla piena comprensione del processo logico alla base del provvedimento. In ogni caso i presupposti normativi generali sono elencati solamente nel caso in cui non siano indicati nella normativa specifica \nIl criterio di fondo da adottare è quello che seleziona ed indica esclusivamente le norme che risultano correlate con lo specifico provvedimento;",
+                    "Punti":"**Normativa generale**:\nTUEL;\nLegge n. 241/90;\nDPR n. 62/2013 Codice comportamento dipendenti pubblici;\nL. n. 190/2012;\nD.Lgs. n. 33/2013;\nLegge n.136/2010.",
+                    "Sezione": "RIFERIMENTI NORMATIVI",
+                    "num":10
+        
+                },
+                { 
+                    "Istruzioni": "Il nuovo codice dei contratti attribuisce un importante ruolo alle norme di principio attraverso le quali la pubblica amministrazione esercita la discrezionalità amministrativa e tecnica.\nOccorre richiamare le norme di principio solo nel caso in cui la fattispecie in parola richieda anche l’utilizzo di norme di principio al fine di finalizzare ad un determinato risultato l’interpretazione (legittima) di norme giuridiche, o al fine di giustificare la scelta di una determinata procedura (ad es. indagini preliminari di mercato, determinazione a contrarre per affidare un contratto di concessione in luogo di un appalto…)\nL’art. 4 stabilisce che” le disposizioni del codice si interpretano e si applicano in base ai principi di cui agli articoli 1, 2 e 3.”\nA sua volta l’art.1 del Dlgs n.36/2023 stabilisce che il principio del risultato costituisce criterio prioritario per l’esercizio del potere discrezionale e per l’individuazione della regola del caso concreto, nonché per:\na) valutare la responsabilità del personale che svolge funzioni amministrative o tecniche nelle fasi di programmazione, progettazione, affidamento ed esecuzione dei contratti;\nb) attribuire gli incentivi secondo le modalità previste dalla contrattazione collettiva.\nDi norma risulta indispensabile  indicare in che modo nella fattispecie concreta si sono contemperati tra loro i principi codicistici con l’obiettivo prioritario del risultato in termini di qualità, tempestività, economicità",
+                    "Punti":"**Norme di principio**\nArt. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)",
+                    "Sezione": "RIFERIMENTI NORMATIVI",
+                    "num":11
+        
+                },
+                { 
+                    "Istruzioni": "Indicare se le regole sono state rispettate",
+                    "Punti":"Regolamenti dell’ente quali:\n- Statuto Comunale;\n- Regolamento di contabilità;\n- Regolamento dei contratti",
+                    "Sezione": "RIFERIMENTI NORMATIVI",
+                    "num":12
+        
+                },
+                { 
+                    "Istruzioni": "Ai sensi dell’art. 17, comma 3 le stazioni appaltanti e gli enti concedenti concludono le procedure di selezione nei termini indicati nell’allegato I.3. Il superamento dei termini costituisce silenzio inadempimento e rileva anche al fine della verifica del rispetto del dovere di buona fede, anche in pendenza di contenzioso. Il termine può essere indicato tramite una data o indicando la scadenza a decorrere dalla data di avvio della procedura. Il Rup può motivare un termine superiore. Il termine decorre dal bando per le procedure aperte, dall’invito a presentare offerta per le procedure ristrette e negoziate. Negli affidamenti diretti non sussiste un termine ex lege ",
+                    "Punti":"Termini per la conclusione della procedura ",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":13
+        
+                },
+                { 
+                    "Istruzioni": "Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000\n\n**GRAVITA' [3/3](grave) se non presenti**",
+                    "Punti":"Fine che con il contratto si intende perseguire",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":14
+        
+                },
+                { 
+                    "Istruzioni": "Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 Negli appalti di lavori: progetto esecutivo completo di quanto previsto all’allegato I.7 del Dlgs. N36/2023 (ove non già approvato)\nNei beni e servizi: capitolato d’appalto oppure quaderno d’oneri, oppure schema di contratto (ove non già approvato)\n\n**GRAVITA' [3/3](grave) se non presenti**",
+                    "Punti":"Oggetto del contratto",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":15
+        
+                },
+                { 
+                    "Istruzioni": "Il DUVRI redatto in conformità a quanto previsto dall’art. 26 del d.lgs. n. 81/2008;  (oppure) l’attestazione del progettista che certifica che non è necessario redigere il DUVRI in quanto....... (Si veda l’art. 26 del d.lgs. n. 81/2008) e, di conseguenza, risulta superflua la quantificazione degli oneri pertinenti la sicurezza da rischio interferenziale, da corrispondere all’operatore economico;\ni costi per l’attuazione delle misure di contrasto alle interferenze pari ad €....(solo in presenza di DUVRI)",
+                    "Punti":"DUVRI (per i servizi)",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":16
+        
+                },
+                { 
+                    "Istruzioni": "Vene indicato il costo della mano d'opera?",
+                    "Punti":"Costo della mano d’opera; contratto applicabile ",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":17
+        
+                },
+                { 
+                    "Istruzioni": "Ai sensi dell’art. 58 le stazioni appaltanti motivano la mancata suddivisione dell'appalto in lotti tenendo conto dei princìpi europei sulla promozione di condizioni di concorrenza paritarie per le piccole e medie imprese ( la motivazione dovrebbe essere nel bando o nell’avviso)\n“ai sensi dell’art. 58 del Dlgs n.36/2023, l’appalto, peraltro già accessibile, dato l’importo non rilevante, per le microimprese, piccole e medie imprese, non è suddivisibile in lotti aggiudicabili separatamente in quanto ......”;",
+                    "Punti":"Suddivisione in lotti",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":18
+        
+                },
+                { 
+                    "Istruzioni": "Il bando e la lettera di invito per l’affidamento dei lavori devono contenere gli estremi dell’avvenuta validazione del progetto posto a base di gara.",
+                    "Punti":"Validazione (in caso di lavori pubblici)",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":19
+        
+                },
+                { 
+                    "Istruzioni": "Per tutti gli appalti è necessario verificare se rientrano o meno nell’applicazione dei CAM . In Italia, l’efficacia dei CAM è stata assicurata grazie all’art. 18 della L. 221/2015 e all’ art. 57 comma 2 Dlgs n.36/2023 .\nDa inserire nella determinazione “lavori, la fornitura/servizio rientrano/non rientrano nell’ambito di applicazione dei criteri ambientali minimi adottati ed in vigore in base al Piano per la sostenibilità ambientale dei consumi del settore della pubblica amministrazione (ove rientrino indicare il DM)”",
+                    "Punti":"Criteri Ambientali minimi",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":20
+        
+                },
+                { 
+                    "Istruzioni": "Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000\nLa determina dovrà indicare espressamente la tipologia del contratto da adottare, quali:\n- Atto Pubblico Amministrativo;\n- Scrittura privata autenticata;\n- Scrittura privata non autenticata;\n- Lettera commerciale, altro.\n\n**GRAVITA' [3/3](grave) se non presenti**",
+                    "Punti":"Forma del contratto",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":21
+        
+                },
+                { 
+                    "Istruzioni": "Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 e dall'art. 17 del D.Lgs. n. 36/2023.\nIndicare i requisiti di ordine generale e speciale richiesti nonché eventuali ulteriori requisiti essenziali (ad es. esclusione automatica offerta anomala ex art. 54 del Codice; limitazioni all'avvalimento ex art. 104 del Codice; tipologia del criterio di selezione dell'offerta ex art. 107 e ss del Codice; requisiti minimi di esecuzione previsti nel Capitolato speciale d'appalto, etc..). ove i predetti requisiti siano contenuti nel capitolato o nei documenti approvati con  la determina a contrarre è sufficiente rimandare ad essi.**GRAVITA' [3/3](grave) se non presenti**",
+                    "Punti":"Clausole del contratto ritenute essenziali",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":22
+        
+                },
+                { 
+                    "Istruzioni": "Spetta al RUP stabilire in che misura sono richieste cauzioni. \nL’art. 106 stabilisce che l’offerta è corredata da una garanzia provvisoria pari al 2 per cento del valore complessivo della procedura indicato nel bando o nell’invito. Per rendere l’importo della garanzia proporzionato e adeguato alla natura delle prestazioni oggetto dell’affidamento e al grado di rischio a esso connesso, la stazione appaltante può motivatamente ridurre l'importo sino all’1 per cento oppure incrementarlo sino al 4 per cento.",
+                    "Punti":"Cauzione provvisoria",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":23
+        
+                },
+                { 
+                    "Istruzioni": "Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 e dall'art. 17 del D.Lgs. n. 36/2023 \nNegli appalti d’importo superiore alle soglie UE è necessario motivare la scelta della specifica tipologia e della procedura adottata in relazione al principio del risultato:\n“La procedura (aperta, ristretta, negoziata, competitiva con negoziazione, dialogo competitivo, accordo quadro..) è quella maggiormente rispondente al principio del risultato applicato all’appalto in parola.” \nSussiste la necessità di specificare :\n1. I requisiti di partecipazione e selezione richiesti ai partecipanti\n2. La modalità di valutazione delle offerte (prezzo più basso, offerta economicamente più vantaggiosa, costo nel ciclo di vita)\n3. I criteri di valutazione delle offerte tecniche e delle offerte economiche nel caso di offerta economicamente più vantaggiosa \nOccorre una specifica motivazione:\n1. In caso di appalto integrato\n2. In caso di concessione  o altro contratto di PPP\n3. In caso si disponga di riservare agli enti del terzo settore o a cooperative sociali il diritto di partecipare alle procedure per l’affidamento (art. 129)\nLe procedure d’importo inferiore alle soglie UE si svolgono di norma in applicazione dell’art. 50 del Dlgs n.36/2023. Ove il RUP intenda derogarvi (ad es. stabilendo di svolgere una procedura aperta per lavori d’importo inferiore alle soglie UE euro in luogo di una procedura negoziata o di un affidamento diretto) deve provvedere a motivare adeguatamente la sua scelta \nOve la determina a contrarre approvi anche il Bando, avviso…. , è possibile rimandare ad essi.\n\n**GRAVITA' [3/3](grave) se non presenti**",
+                    "Punti":"Modalità di scelta del contraente e ragioni che ne sono alla base (motivare in modo specifico) e criteri di selezione delle offerte",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":24
+        
+                },
+                { 
+                    "Istruzioni": "Nelle procedure ordinarie (aperta, ristretta, competitiva con negoziazione, dialogo competitivo) non, si applica il principio di rotazione.\nNon si applica la rotazione (previa motivazione) alle procedure negoziate di cui all’art. 76",
+                    "Punti":"Rotazione degli affidamenti ",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":25
+        
+                },
+                { 
+                    "Istruzioni": "La determinazione dei costi presunti deve essere formulata sulla base di elementi oggettivi: riferimento a precedenti acquisti, indagini di mercato, riferimento ad acquisiti analoghi effettuati da altre Amministrazioni, riferimento ai prezzi pattuiti nelle convenzioni CONSIP anche se scadute..**GRAVITA' [3/3](grave) se non presenti**",
+                    "Punti":"Indicazione dell’importo massimo stimato a base di gara\nQuadro economico dell’intervento  comprensivo di \nImporto a base di gara, oneri fiscali, costi della sicurezza/interferenziali, revisione dei prezzi, somme a disposizione, supporto al RUP, incentivi (art. 45) modificazioni del contratto preventivabili, proroga, lavori o servizi analoghi, quinto d’obbligo",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":26
+        
+                },
+                { 
+                    "Istruzioni": "La determina dovrà indicare:\n- Con riferimento all'art. 1, comma 449, della Legge 27 dicembre 2006, n. 296 di aver verificato che sul mercato elettronico non sono reperibili i beni o i servizi oggetto di appalto ovvero sono presenti beni o servizi simili ma inidonei per mancanza delle qualità essenziali, (il MEPA è utilizzabile per i soli appalti d’importo inferiore alle soglie UE)\n- Con riferimento all’art. 26 legge 488/1999 non sono attive convenzioni CONSIP  o CAT Sardegna , ovvero si sono utilizzati i parametri di prezzo-qualità delle suddette convenzioni, come limiti massimi, per l'acquisto di beni e servizi comparabili oggetto delle stesse.\n- Con riferimento all’art. 1, comma 7, del D.L. 95/2012 (conv. in Legge 7 agosto 2012 n. 135) di aver verificato che il bene o servizio in oggetto non rientra tra le categorie merceologiche previste ovvero che non sono attive le relative convenzioni o altri strumenti d’acquisto o negoziazione  Consip o Cat Sardegna.\n- Con riferimento alla al DPCM 24 dicembre 2015 che il bene o servizio in oggetto non rientra tra le categorie di beni e servizi previste ovvero non raggiunge le relative soglia Con riferimento all'art. 1, comma 512, della Legge 28 dicembre 2015, n. 208 che il bene o servizio in oggetto non rientra tra i beni e servizi informatici e di connettività ovvero che vi rientra ma non sono reperibili convenzioni e l'amministrazione ha la necessità ed urgenza di procedere all'acquisto per assicurare la continuità della gestione amministrativa, oppure il bene o il servizio previsto nelle convenzioni non è idoneo al soddisfacimento dello specifico fabbisogno dell'amministrazione e quest'ultima ha la necessità ed urgenza di procedere all'acquisto per assicurare la continuità della gestione amministrativa.\n\n\n**GRAVITA' [2/3](rilevante) se non presenti**",
+                    "Punti":"Riferimenti all’obbligo di utilizzo degli strumenti di acquisto e di negoziazione messi a disposizione da CONSIP e da soggetti aggregatori ",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":27
+        
+                },
+                { 
+                    "Istruzioni": "Indicare se sono presenti i riferimenti",
+                    "Punti":"Riferimenti alla qualificazione del Comune quale Stazione appaltante",
+                    "Sezione": "ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE",
+                    "num":28
+        
+                },
+                { 
+                    "Istruzioni": "In assenza di delibera di bilancio indicare gli estremi di approvazione del bilancio pluriennale vigente.",
+                    "Punti":"Riferimenti alla deliberazione di approvazione del bilancio.",
+                    "Sezione": "RIFERIMENTI CONTABILI",
+                    "num":29
+        
+                },
+                { 
+                    "Istruzioni": "Indicare se sono presenti i riferimenti",
+                    "Punti":"Riferimenti deliberazione approvazione PEG e del PIAO",
+                    "Sezione": "RIFERIMENTI CONTABILI",
+                    "num":30
+        
+                },
+                { 
+                    "Istruzioni": "Indicare l’importo da impegnare e se lo stesso è assoggettato o meno all’iva ( relativa aliquota).\nNel caso di Bilancio e PEG non ancora approvati, indicare il rispetto dell’art. 163 del TUEL (esercizio provvisorio).\nQualora si tratti di impegni di spesa su più esercizi finanziari, fare riferimento agli impegni di spesa pluriennali...\n\n**GRAVITA' [1/3](lievi) se non presenti**",
+                    "Punti":"Impegno di spesa/prenotazione/copertura finanziaria",
+                    "Sezione": "RIFERIMENTI CONTABILI",
+                    "num":31
+        
+                },
+                { 
+                    "Istruzioni": "Dare atto nel provvedimento di impegno che il programma della spesa derivante dall’atto è compatibile con le vigenti regole della finanza pubblica.",
+                    "Punti":"Conformità dei pagamenti con le regole della finanza pubblica vigenti.",
+                    "Sezione": "RIFERIMENTI CONTABILI",
+                    "num":32
+        
+                },
+                { 
+                    "Istruzioni": "*(in caso di affidamenti di importo pari o superiore ad € 40.000,00)* di assumere l’impegno di spesa relativo al pagamento del contributo all’ANAC, dovuto in relazione al presente affidamento, e pari ad € sul cap. _______ del bilancio 20__, che presenta adeguata disponibilità",
+                    "Punti":"Contributo ANAC",
+                    "Sezione": "RIFERIMENTI CONTABILI",
+                    "num":33
+        
+                },
+                { 
+                    "Istruzioni": "Eventuali altri atti richiamati e/o allegati alla determinazione (disciplinare di gara, bando, schema di lettera di invito, schema di contratto, patto di integrità, altro)...\n\n**GRAVITA' [1/3](lieve) se non presenti**",
+                    "Punti":"Richiamati e/o allegati",
+                    "Sezione": "DOCUMENTI RICHIAMATI E ALLEGATI",
+                    "num":34
+        
+                },
+                { 
+                    "Istruzioni": "Tutti gli atti della procedura di gara sono soggetti agli obblighi di trasparenza previsti dall’art. 29 del Codice dei contratti e dal D.Lgs. n. 33/2013 e ss.mm.ii...\n\n**GRAVITA' [2/3](rilevante) se non presenti**",
+                    "Punti":"Obblighi di pubblicità e trasparenza",
+                    "Sezione": "PRESCRIZIONI ANTICORRUZIONE E TRASPARENZA",
+                    "num":35
+        
+                },
+                { 
+                    "Istruzioni": "In ottemperanza al Regolamento comunale sul Controllo di Reg. Amministrativa (art. 12) e al Regolamento degli uffici e dei servizi (art. 20) le determinazioni devono essere pubblicate in elenco.\n\n**GRAVITA' [1/3](lieve) se non presenti**",
+                    "Punti":"Pubblicazione atti all’Albo Pretorio Online",
+                    "Sezione": "PRESCRIZIONI ANTICORRUZIONE E TRASPARENZA",
+                    "num":36
+        
+                },
+                { 
+                    "Istruzioni": "Dare atto che la determina sarà trasmessa al servizio finanziario per l’acquisizione del visto di regolarità contabile.\n\n**GRAVITA' [3/3](grave) se non presenti**",
+                    "Punti":"Acquisizione del visto di regolarità contabile ai sensi dell’art. 153 del D.Lgs. n. 267/2000",
+                    "Sezione": "ASPETTI DI REGOLARITÀ FORMALE",
+                    "num":37
+        
+                },
+                { 
+                    "Istruzioni": "Indiacare se sottoscrizione presente. **GRAVITA' [3/3](grave) se non presente**",
+                    "Punti":"Sottoscrizione del Dirigente firmatario dell’atto e dove previsto del R.P. o RUP.",
+                    "Sezione": "ASPETTI DI REGOLARITÀ FORMALE",
+                    "num":38
+        
+                }
+                
+            ]
+        },
+        {
+            "NomeChecklist":"Procedura negoziata",
+            "Descrizione":"DETERMINA A CONTRARRE per procedure negoziate senza bando ai sensi dell’art. 50, comma 1, lett. c,d,e (e dell’art.76 in quanto compatibile)del Dlgs n. 36/2023", 
+            "Possibili Risposte": ["SI","NO","NON RICHIESTO"],
+            "Riferimenti":"**Riferimenti** :\n- D.Lgs. n. 267/2000 “Testo unico delle leggi sull’ordinamento degli enti locali “ art. 191, co. 1);\n- Legge n. 241/1990 “ Nuove Norme in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi”;\n- D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012, n. 135 ( art. 1) – (spending-review);\n- Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii;\n- L. n. 136/2010 e D.L. 187/10 Convertito in Legge N. 217 del 17/12/2010 Deliberazione AVCP n. 8 e 10/2010, e n. 4/2011 e ss.mm.ii;\n- D.Lgs. n. 50/2016 e s.m.i.\n- L. 190/2012 e s.m.i. (Legge Anticorruzione);\n- D.Lgs. 33/2013, come modificato dal D.Lgs. n. 97/2016 (Decreto Trasparenza);\n- L. R.  13 MARZO 2018 n. 8/2018 “ Nuove norme in materia di contratti pubblici di lavori, servizi e forniture”, e ss.mm.ii.;\n- Linea guida FOIA ANAC – Det. n. 1309 del 28/12/2016;\n- Linea guida Trasparenza ANAC – Det. n. 1310 del 28/12/2016;\n- Comune di Olbia, Delibera di Giunta Comunale n. 260 del 06/07/2016 “Approvazione Patto d’Integrità”;\n- Piano Triennale di Prevenzione della Corruzione e della Trasparenza, vigente del Comune di Olbia.",
+            "Punti":[
+                { 
                     "Istruzioni": "",
-                    "Punti":""
+                    "Punti":"",
+                    "Sezione": "",
+                    "num":0
         
                 },
         
                 { 
                     "Istruzioni": "",
-                    "Punti":""
+                    "Punti":"",
+                    "Sezione": "",
+                    "num":0
         
                 }
                 
@@ -22,37 +304,21 @@
         {
             "NomeChecklist":"",
             "Descrizione":"", 
-            
+            "Possibili Risposte": ["SI","NO","NON RICHIESTO"],
+            "Riferimenti":"",
             "Punti":[
                 { 
                     "Istruzioni": "",
-                    "Punti":""
+                    "Punti":"",
+                    "Sezione": "",
+                    "num":0
         
                 },
-        
                 { 
                     "Istruzioni": "",
-                    "Punti":""
-        
-                }
-                
-            ]
-        },
-        {
-            "NomeChecklist":"",
-            "Descrizione":"", 
-            
-            "Punti":[
-                { 
-                    "Istruzioni": "",
-                    "Punti":""
-        
-                },
-        
-                { 
-                    "Istruzioni": "",
-                    "Punti":""
-        
+                    "Punti":"",
+                    "Sezione": "",
+                    "num":0
                 }
                 
             ]
