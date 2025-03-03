@@ -47,20 +47,7 @@ def analize_response(text):
         elif ans == "non richiesto":
             return "NON RICHIESTO"
     
-    # 2. Cerca una sezione "Conclusione" e verifica la risposta subito dopo
-    conclusion_pattern = re.search(
-        r"(?i)\*{0,2}conclusione\*{0,2}[:\s\n\r]*\*?risposta generale\*?:\s*(si|sì|no|non richiesto)\b", text
-    )
-    if conclusion_pattern:
-        ans = conclusion_pattern.group(1).lower()
-        if ans in ['si', 'sì']:
-            return "SI"
-        elif ans == "no":
-            return "NO"
-        elif ans == "non richiesto":
-            return "NON RICHIESTO"
-    
-    # 3. Se non viene trovato il marker, controlla se il testo inizia direttamente con una risposta
+    # 2. Se non viene trovato il marker, controlla se il testo inizia direttamente con una risposta
     start_pattern = re.match(
         r"^\s*(si|sì|no|non richiesto)\b", text, flags=re.IGNORECASE
     )
@@ -73,7 +60,7 @@ def analize_response(text):
         elif ans == "non richiesto":
             return "NON RICHIESTO"
     
-    # 4. Controllo nei primi 50 caratteri per verificare la presenza delle risposte in posizioni rilevanti
+    # 3. Controllo nei primi 50 caratteri per verificare la presenza delle risposte in posizioni rilevanti
     prefix = text[:50].lower()
     if re.search(r"\bnon richiesto\b", prefix):
         return "NON RICHIESTO"
@@ -81,6 +68,19 @@ def analize_response(text):
         return "NO"
     if re.search(r"^\s*(si|sì)\b", prefix) or re.search(r"\b(si|sì)\b", prefix):
         return "SI"
+    
+    # 4. Controllo in tutto il testo per casi strutturati (ad esempio, RISPOSTA GENERALE all'interno di una sezione)
+    structured_pattern = re.search(
+        r"(?i)\*{0,2}RISPOSTA GENERALE\*{0,2}\s*:\s*(si|sì|no|non richiesto)\b", text
+    )
+    if structured_pattern:
+        ans = structured_pattern.group(1).lower()
+        if ans in ['si', 'sì']:
+            return "SI"
+        elif ans == "no":
+            return "NO"
+        elif ans == "non richiesto":
+            return "NON RICHIESTO"
     
     # Se nessuna delle regole precedenti risulta soddisfatta, ritorna "Not found"
     return "Not found"
