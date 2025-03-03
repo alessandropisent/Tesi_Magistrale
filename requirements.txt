@@ -4,3 +4,7 @@ webdriver-manager
 PyPDF2
 selenium
 beautifulsoup4
+pandas
+numpy
+torch
+transformers
