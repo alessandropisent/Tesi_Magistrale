@@ -1,0 +1,917 @@
+#######--------- User prompt
+
+### Istruzioni
+
+Nella determina oltre il settore va indicato il servizio di appartenenza presente nella macrostruttura vigente.
+
+
+        ### Rispondi al punto 1, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO:
+        Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO
+
+La determina riporta correttamente il Settore "Pianificazione e Gestione del Territorio" e l'Autorità che emana il provvedimento, ovvero "Il Dirigente di Settore", che è Davide Molinari. Tuttavia, non viene menzionato il Servizio specifico di appartenenza presente nella macrostruttura vigente come richiesto dalle istruzioni.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indica in sintesi il contenuto del provvedimento, inserendo nell’oggetto il codice corretto (15271) e la norma attributiva del potere. (art. 50 comma 1,  con indicazione della lettera correlata per oggetto ed importo alla specifica fattispecie).
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 2, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO:
+        Oggetto della determinazione
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, l'oggetto della determina è chiaramente indicato e specifica anche il codice corretto (15271), la norma attributiva del potere è citata come articolo 50, comma 1, lettera c del D.Lgs. 36/2023 in merito alla procedura negoziata.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Il CUI va inserito nel caso di affidamenti per appalti di lavori d’importo pari o superiore a 150.000  euro o di beni e servizi d’importo pari o superiore a 140.000 euro
+Per il CPV Il documento del Presidente dell’Autorità del 9 maggio 2023 n. 2 spiega il funzionamento del Vocabolario dei Codici CPV e le modalità di utilizzo per la scelta del codice adatto al singolo appalto individuare i CPV del vocabolario principale con un livello di classificazione non inferiore alle categorie (con almeno le 5 cifre che indichino divisione-gruppo-classe-categoria)
+Riportare il numero identificativo (non essenziale, il CIG può essere richiesto anche successivamente purché prima dell'avvio della procedura. Lo ha confermato l'Anac con il Comunicato del 08.08.2016 e la Delibera n. 1 del 11 gennaio 2017 stabilendo che le stazioni appaltanti che intendono avviare una gara, siano tenute ad acquisire il relativo CIG in un momento antecedente all’indizione della procedura di gara. In particolare:
+Per le gare che prevedono la pubblicazione del bando o avviso di gara, il CIG va acquisito prima della pubblicazione in GU(dal 1.1.2024 su BDNCP), in modo che possa essere ivi riportato;
+Per le gare che prevedono l’invio della lettera di invito, il CIG va acquisito prima dell’invio delle stesse in modo che possa essere ivi riportato;
+Per gli acquisiti effettuati senza le formalità di cui ai Punto 1 e 2, il CIG va acquisito prima della stipula del relativo contratto in modo che possa essere ivi riportato e consentire il versamento del contributo da parte degli operatori economici partecipanti (ad esempio nel caso di affidamenti in somma urgenza il CIG va riportato nella lettera d’ordine);
+Per le gare di cui non è previsto l’obbligo di contribuzione a favore dell’Autorità il CIG va acquisito prima della stipula del relativo contratto in modo che possa essere ivi riportato)
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 3, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO:
+        Indicazione del CIG e /o del CUP del CUI,del CPV
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+### Risposta
+
+RISPOSTA GENERALE: SI
+
+Nella determina è indicato il CIG (Codice Identificativo Gare), che è A03E240BF6, e il CUP (Codice Unico di Progetto) F91B21000550001, entrambi fondamentali per l'identificazione degli appalti e necessari per i contributi e le procedure di controllo. Tuttavia, non si fa menzione del CUI o del CPV, ma per la categoria di lavori e importi coinvolti, il CIG e il CUP sono elementi sufficienti secondo quanto descritto dalle istruzioni.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Riportare il numero identificativo
+
+
+        ### Rispondi al punto 4, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL'ATTO:
+        Centro di Costo: si indica il centro di costo al quale imputare la spesa.
+
+**GRAVITA' [1/3](lieve) se non presenti**
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE: SI**
+
+La sezione relativa agli elementi generali identificativi dell'atto indica chiaramente la spesa complessiva nei capitoli specificati nel punto 3 del dispositivo della determina. I capitoli specificati sono "78010" e "79217" che possono essere interpretati come centri di costo ai quali imputare la spesa, corrispondenti alle categorie di spesa per il progetto.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Decreto di conferimento dell’incarico di responsabilità che autorizza l’adozione dell’atto. In caso di facente funzione citare il decreto di sostituzione dei dirigenti momentaneamente assenti.
+
+
+        ### Rispondi al punto 5, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO:
+        Estremi decreto sindacale di nomina del dirigente.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, Il Decreto del Sindaco n. 31 del 26/07/2024, che conferisce l’incarico di Dirigente del Settore Pianificazione e Gestione del Territorio all’Ing. Davide Molinari, è stato richiamato nella determina.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare se sono presenti i riferimenti 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 6, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO:
+        Estremi della delega alla firma dell’atto, se persona diversa dal Dirigente.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE: NON RICHIESTO**
+
+Spiegazione: Nella determina, l'atto è adottato e firmato dal Dirigente del Settore Pianificazione e Gestione del Territorio, Davide Molinari. Non essendo coinvolta una persona diversa dal Dirigente, non è richiesta una delega alla firma.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicazione del nominativo e recapito di posta elettronica.
+I riferimenti devono essere indicati nel corpo dell’atto. Se il Responsabile del Progetto non è stato espressamente nominato, ai sensi dell’art. 15 del Dlgs n.36/2023, l’incarico è svolto dal responsabile dell’unità organizzativa competente per l’intervento.
+Il nuovo codice (art.15) consente di individuare modelli organizzativi, i quali prevedano la nomina di un responsabile di procedimento per le fasi di programmazione, progettazione ed esecuzione e un responsabile di procedimento per la fase di affidamento.  In questo caso occorre definire i rispettivi compiti e responsabilità
+“il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, affidamento ed esecuzione ai sensi dell’art. 4 della L. 241/90” oppure “il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell’art. 4 della L. 241/90 mentre il Responsabile di procedimento della fase di affidamento è...'''
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 7, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO:
+        Estremi atto di nomina del Responsabile del Progetto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE:** Ambiguo
+
+**Spiegazione:** Nella determina non è presente un'indicazione esplicita del Responsabile del Progetto (RUP) per le fasi di programmazione, progettazione, affidamento ed esecuzione secondo le modalità previste dall'art. 15 del D.lgs n. 36/2023. Sebbene vi siano riferimenti a precedenti determinazioni in cui sono stati nominati RUP per alcuni interventi, la determina non chiarisce se il suddetto RUP è anche responsabile per tutte le fasi elencate. Inoltre, non si trovano nel documento recapiti elettronici o differenziazioni tra i responsabili delle diverse fasi progettuali e di affidamento come richiesto nella checklist. Di conseguenza, la rispondenza a questo punto rimane ambigua poiché la norma non è stata completamente rispettata e la responsabilità specifica per ogni fase non è dettagliata.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Art. 16. (Conflitto di interessi)
+Si ha conflitto di interessi quando un soggetto che, a qualsiasi titolo, interviene con compiti funzionali nella procedura di aggiudicazione o nella fase di esecuzione degli appalti o delle concessioni e ne può influenzare, in qualsiasi modo, il risultato, gli esiti e la gestione, ha direttamente o indirettamente un interesse finanziario, economico o altro interesse personale che può essere percepito come una minaccia alla sua imparzialità e indipendenza nel contesto della procedura di aggiudicazione o nella fase di esecuzione.
+“Rilevato il pieno rispetto, in fase istruttoria e di predisposizione degli atti, delle disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e l’insussistenza, ai sensi dell’art.16 del Dlgs n.36/2023 di conflitto di interesse in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso”
+
+
+        ### Rispondi al punto 8, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L'ATTO:
+        Conflitto d'interessi 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI. 
+
+La determina afferma esplicitamente che per il Responsabile del Procedimento e per il Dirigente non sussistono situazioni, anche potenziali, di conflitto di interessi, in conformità con quanto previsto dall'art. 16 del D.lgs n. 36/2023. Questo soddisfa il punto 8 della checklist relativo al conflitto d'interessi.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Il soggetto che emette l’atto fa constare che lo stesso è conforme alle disposizioni di legge vigenti in materia.
+L’elenco della prima colonna è riportato a titolo meramente esemplificativo in quanto applicabile alle singole fattispecie. La normativa specifica deve essere indicata quale peculiare presupposto di diritto in relazione alla concreta fattispecie di cui alla determinazione. (ad es. per acquisizione di una fornitura, il presupposto di fatto coincide con le fattispecie indicate dalle norme cui si fa riferimento?)
+Sono precisati gli eventuali vincoli - anche procedurali - derivanti dalla normativa?
+La normativa specifica deve essere sempre indicata con specificazione dell’articolo e, se del caso, del comma, applicato.
+
+
+        ### Rispondi al punto 9, SEZIONE: RIFERIMENTI NORMATIVI:
+        **Normativa specifica**:
+Codice dei contratti pubblici (D.Lgs. n. 36.2023.);
+L.R. n. 8/2018 e ss.mm.ii. (per quanto applicabile);
+Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012, n. 135 (adesione convenzione Consip e utilizzo Mepa);
+Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);
+Art. 26, della legge n. 488/1999 e ss.mm.ii.;
+DPCM 24 dicembre 2015.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+### RISPOSTA GENERALE: SI
+
+**Spiegazione sintetica:**
+1. **Codice dei contratti pubblici (D.Lgs. n. 36/2023)** è citato nella determina, che fa esplicito riferimento alla procedura negoziata ai sensi dell'articolo 50 comma 1 lettera c) e ad altri articoli del D.Lgs. 36/2023 per la gestione dell'appalto e la verifica dei requisiti.
+
+2. **Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012, n. 135** viene menzionato all'interno della determina, rispettando la normativa sull'adesione a convenzioni Consip e l'utilizzo del Mepa.
+
+3. **Art. 26, della legge n. 488/1999** si rileva essere stato sostituito dall’articolo 1 del D.L. 95/2012 menzionato, e pertanto è menzionato successivamente nel documento.
+
+Le restanti normative specificate (L.R. n. 8/2018, Art. 1, comma 450, legge 296/2006, DPCM 24 dicembre 2015) non sono state esplicitamente menzionate nella determina, ma la normativa essenziale specifica per i contratti pubblici, l'organizzazione delle gare e le convenzioni Consip è stata sufficientemente considerata, soddisfacendo i criteri del controllo.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Debbono essere indicati presupposti normativi di carattere generale in termini strettamente essenziali qualora risultino necessari quale supporto alla piena comprensione del processo logico alla base del provvedimento. In ogni caso i presupposti normativi generali sono elencati solamente nel caso in cui non siano indicati nella normativa specifica 
+Il criterio di fondo da adottare è quello che seleziona ed indica esclusivamente le norme che risultano correlate con lo specifico provvedimento;
+
+
+        ### Rispondi al punto 10, SEZIONE: RIFERIMENTI NORMATIVI:
+        Normativa generale:
+TUEL;
+Legge n. 241/90;
+DPR n. 62/2013 Codice comportamento dipendenti pubblici;
+L. n. 190/2012;
+D.Lgs. n. 33/2013
+Legge n.136/2010
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI
+
+- **TUEL (D.Lgs. n. 267/2000)**: Citato nella determina.
+- **Legge n. 241/90**: Citata nella determina.
+- **DPR n. 62/2013 (Codice di comportamento dei dipendenti pubblici)**: Citato nella determina.
+- **L. n. 190/2012**: Citata nella determina.
+- **D.Lgs. n. 33/2013**: Citato nella determina.
+- **Legge n. 136/2010**: Citata nella determina.
+
+Tutte le normative generali richieste risultano essere citate nella determina.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Il nuovo codice dei contratti attribuisce un importante ruolo alle norme di principio attraverso le quali la pubblica amministrazione esercita la discrezionalità amministrativa e tecnica. Ciò in particolare per le procedure negoziate ove la disciplina legislativa consente un importante esercizio della discrezionalità in materia di selezione dei concorrenti. 
+L’art. 4 stabilisce che” le disposizioni del codice si interpretano e si applicano in base ai principi di cui agli articoli 1, 2 e 3.”
+A sua volta l’art.1 del Dlgs n.36/2023 stabilisce che il principio del risultato costituisce criterio prioritario per l’esercizio del potere discrezionale e per l’individuazione della regola del caso concreto, nonché per:
+a) valutare la responsabilità del personale che svolge funzioni amministrative o tecniche nelle fasi di programmazione, progettazione, affidamento ed esecuzione dei contratti;
+b) attribuire gli incentivi secondo le modalità previste dalla contrattazione collettiva.
+Di norma risulta indispensabile indicare in che modo nella fattispecie concreta si sono contemperati tra loro i principi codicistici con l’obiettivo prioritario del risultato in termini di qualità, tempestività, economicità
+
+
+        ### Rispondi al punto 11, SEZIONE: RIFERIMENTI NORMATIVI:
+        **Norme di principio** :
+Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE**: SI, Il riferimento alle norme di principio del nuovo codice dei contratti pubblici è soddisfatto. Nella determina è espressamente citato il Decreto Legislativo n. 36/2023, "Nuovo Codice appalti", che include l'articolo 4 del Dlgs n.36/2023, stabilendo che le disposizioni del codice si interpretano e si applicano in base a tali principi.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare se sono presenti i riferimenti relativi ai regolamenti
+
+
+        ### Rispondi al punto 12, SEZIONE: RIFERIMENTI NORMATIVI:
+        Regolamenti dell’ente quali:
+- Statuto Comunale;
+- Regolamento di contabilità;
+- Regolamento dei contratti 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI
+
+Spiegazione sintetica: Nella determina è fatto richiamo allo Statuto Comunale, al Regolamento comunale di contabilità e ad altri regolamenti pertinenti dell'ente, tutti elencati nella sezione in cui vengono visti i vari riferimenti normativi.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Ai sensi dell’art. 17, comma 3 le stazioni appaltanti e gli enti concedenti concludono le procedure di selezione nei termini indicati nell’allegato I.3. Il superamento dei termini costituisce silenzio inadempimento e rileva anche al fine della verifica del rispetto del dovere di buona fede, anche in pendenza di contenzioso. Il termine può essere indicato tramite una data o indicando la scadenza a decorrere dalla data di avvio della procedura. Il Rup può motivare un termine superiore. Il termine decorre dal bando per le procedure aperte, dall’invito a presentare offerta per le procedure ristrette e negoziate. Negli affidamenti diretti non sussiste un termine ex lege
+
+
+        ### Rispondi al punto 13, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Termini per la conclusione della procedura
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE: NON RICHIESTO**
+
+Spiegazione: Ai sensi delle istruzioni date, nelle procedure negoziate il termine decorre dall'invito a presentare offerta e, per il caso di affidamenti diretti, non sussiste un termine ex lege. Nella determina, la procedura in oggetto è condotta attraverso procedura negoziata ai sensi dell’art. 50, comma 1, lettera c) del D.Lgs. 36/2023, con un criterio del minor prezzo. Non è indicato espressamente un termine, né un riferimento a un termine legale.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 
+
+**GRAVITA' [3/3](grave) se non presenti**
+
+
+        ### Rispondi al punto 14, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Fine che con il contratto si intende perseguire
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO
+
+Spiegazione sintetica: Viene riportato che la determina verte sull'aggiudicazione e la definizione del quadro economico nell'ambito di un progetto PNRR, ma non sono esplicitati chiaramente i fini specifici che si intendono perseguire con il contratto secondo quanto richiesto dall'art. 192 del D.Lgs. n. 267/2000.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 Negli appalti di lavori: progetto esecutivo completo di quanto previsto all’allegato I.7 del Dlgs. N36/2023 (ove non già approvato)
+Nei beni e servizi: capitolato d’appalto oppure quaderno d’oneri, oppure schema di contratto (ove non già approvato)
+
+**GRAVITA' [3/3](grave) se non presenti**
+
+
+        ### Rispondi al punto 15, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Oggetto del contratto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI
+
+La determina fa riferimento all'approvazione del progetto esecutivo, come indicato in varie parti del documento. Viene menzionato che è presente il quadro economico e che i lavori e i dettagli economici sono stati definiti e approvati (vedi sezioni relative al quadro economico e agli impegni di spesa). Pertanto, si può concludere che il requisito richiesto è rispettato.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Il DUVRI redatto in conformità a quanto previsto dall’art. 26 del d.lgs. n. 81/2008; (oppure) l’attestazione del progettista che certifica che non è necessario redigere il DUVRI in quanto....... (Si veda l’art. 26 del d.lgs. n. 81/2008) e, di conseguenza, risulta superflua la quantificazione degli oneri pertinenti la sicurezza da rischio interferenziale, da corrispondere all’operatore economico;
+I costi per l’attuazione delle misure di contrasto alle interferenze pari ad €…….(solo in presenza di DUVRI)
+
+
+        ### Rispondi al punto 16, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        DUVRI (per i servizi)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE: NON RICHIESTO**
+
+Nonostante nel testo della determina non sia esplicitamente menzionato il DUVRI (Documento Unico di Valutazione dei Rischi da Interferenze), la citazione del "quadro economico" e degli "oneri di sicurezza" può indicare che sono già stati considerati i rischi inerenti il progetto. Tuttavia, la specifica presenza di un DUVRI non è esplicitamente richiesta o menzionata, e non è stata fornita alcuna attestazione del progettista riguardo la sua non necessità, come suggerito dalla checklist per i servizi. Pertanto, in questo contesto, il DUVRI non sembra essere pertinente, presumibilmente per l'assenza di rischio interferenziale significativo nel progetto specifico trattato nella determina.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare se sono presenti i riferimenti
+
+
+        ### Rispondi al punto 17, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Costo della mano d’opera; contratto applicabile 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO
+
+Spiegazione: La determina non fa alcuna menzione specifica del costo della mano d'opera o del contratto applicabile in relazione a questo aspetto. La determina è dettagliata nelle specifiche di appalto e negli importi complessivi dei lavori, ma non contiene riferimenti espliciti relativi al costo della mano d’opera o al contratto applicabile ad essa.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Ai sensi dell’art. 58 le stazioni appaltanti motivano la mancata suddivisione dell'appalto in lotti tenendo conto dei princìpi europei sulla promozione di condizioni di concorrenza paritarie per le piccole e medie imprese ( la motivazione dovrebbe essere nel bando o nell’avviso) 
+ai sensi dell’art. 58 del Dlgs n.36/2023, l’appalto, peraltro già accessibile, dato l’importo non rilevante, per le microimprese, piccole e medie imprese, non è suddivisibile in lotti aggiudicabili separatamente in quanto ....”; 
+L’appalto non è stato frazionato per evitare l'applicazione delle norme del codice, (tranne nel caso in cui ragioni oggettive lo giustifichino).
+
+
+        ### Rispondi al punto 18, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Suddivisione in lotti e indebito frazionamento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+## Checkpoint 18: Suddivisione in lotti e indebito frazionamento
+
+### Verifica:
+La determina dirigenziale, per rispettare l'articolo 58 del Dlgs n. 36/2023, dovrebbe fornire una motivazione per la mancata suddivisione dell'appalto in lotti, tenendo conto dei princìpi europei sulla promozione di condizioni di concorrenza paritarie per le piccole e medie imprese.
+
+### Testo della Determina:
+La determina non fornisce una motivazione specifica per la mancata suddivisione in lotti. Tuttavia, menziona il rispetto degli articoli del D.Lgs 36/2023 relativi alla procedura negoziata e all'aggiudicazione, ma non esplicita una giustificazione per non suddividere l'appalto in lotti come prescritto dall'articolo 58.
+
+### Risposta:
+RISPOSTA GENERALE: NO, la determina non soddisfa pienamente l'art. 58 del Dlgs n. 36/2023 perché manca una motivazione esplicita sulla mancata suddivisione dell'appalto in lotti, che tenga conto dei princìpi europei per le piccole e medie imprese.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Il bando e la lettera di invito per l’affidamento dei lavori devono contenere gli estremi dell’avvenuta validazione del progetto posto a base di gara.
+
+
+        ### Rispondi al punto 19, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Validazione (in caso di lavori pubblici)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, nella determina è richiamata la Determinazione n. 5340 del 07/12/2023 che prende atto del Rapporto finale di verifica sul progetto definitivo ed esecutivo ai sensi dell’art. 26 del DLgs. 50/2016, con approvazione del verbale di validazione redatto e sottoscritto dal RUP. Questo conferma che il progetto posto a base di gara è stato validato.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Per tutti gli appalti è necessario verificare se rientrano o meno nell’applicazione dei CAM. In Italia, l’efficacia dei CAM è stata assicurata grazie all’art. 18 della L. 221/2015 e all’ art. 57 comma 2 Dlgs n.36/2023.
+Da inserire nella determinazione “lavori, la fornitura/servizio rientrano/non rientrano nell’ambito di applicazione dei criteri ambientali minimi adottati ed in vigore in base al Piano per la sostenibilità ambientale dei consumi del settore della pubblica amministrazione (ove rientrino indicare il DM)”
+
+
+        ### Rispondi al punto 20, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Criteri Ambientali minimi 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO
+
+Spiegazione: Nella determina dirigenziale non viene menzionato il fatto che i lavori rientrano o meno nell'ambito di applicazione dei Criteri Ambientali Minimi (CAM) adottati ed in vigore. Non vi è alcun riferimento all'art. 18 della L. 221/2015 o all'art. 57 comma 2 del Dlgs n. 36/2023 nel contesto dei CAM. Pertanto, la determina non rispetta il punto specifico riguardante la verifica dei CAM.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000
+La determina dovrà indicare espressamente la tipologia del contratto da adottare lettera commerciale
+L’utilizzo di un’altra modalità tra quelle previste all’art 18 debbono essere espressamente motivate anche in relazione al principio di non aggravamento dei procedimenti
+
+
+        ### Rispondi al punto 21, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Forma del contratto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**. 
+
+Spiegazione: La determina esaminata non include un'indicazione esplicita sulla tipologia di contratto da adottare, come richiesto dall'art. 192 del D.Lgs. n. 267/2000. Inoltre, non viene fornita una motivazione per l'utilizzo di un'altra modalità contrattuale tra quelle previste dall'articolo 18 e la sua relazione con il principio di non aggravamento dei procedimenti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 e dall'art. 17 del D.Lgs. n. 36/2023.
+Indicare i requisiti di ordine generale e speciale richiesti nonché eventuali ulteriori requisiti essenziali (ad es. esclusione automatica offerta anomala ex art. 54 del Codice; limitazioni all'avvalimento ex art. 104 del Codice; tipologia del criterio di selezione dell'offerta ex art. 107 e ss del Codice; requisiti minimi di esecuzione previsti nel Capitolato speciale d'appalto, etc..). ove i predetti requisiti siano contenuti nel capitolato o nei documenti approvati con la determina a contrarre è sufficiente rimandare ad essi.
+
+
+        ### Rispondi al punto 22, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Clausole del contratto ritenute essenziali
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE: NO**
+
+**Spiegazione sintetica:** La determina non riporta esplicitamente i requisiti di ordine generale e speciale richiesti come indicato nell'art. 192 del D.Lgs. n. 267/2000 e nell'art. 17 del D.Lgs. n. 36/2023. Pur menzionando che i controlli sui requisiti di ordine generale e speciale siano stati soddisfatti, manca un riferimento chiaro ai requisiti essenziali e alle clausole contrattuali specifiche come l'esclusione automatica dell'offerta anomala, le limitazioni all'avvalimento o i criteri di selezione dell'offerta. Inoltre, non c'è alcun rimando diretto al capitolato o ai documenti approvati con la determina a contrarre in merito a questi requisiti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Spetta al RUP stabilire se nell’appalto non sono richieste cauzioni. 
+Inserire nella determina: “che, ai sensi dell’art.106 del Dlgs n.36/2023 non sussistono particolari ragioni per richiedere la cauzione provvisoria (oppure che sussistono particolari ragioni per richiedere la cauzione provvisoria)” 
+“che ai sensi dell’art. 117 del Dlgs n.36/2023, l’affidatario è tenuto a presentare cauzione definitiva di euro ….. (oppure) in relazione a (ad es. alla scarsa rilevanza economica dell'affidamento e/o alle modalità di adempimento delle prestazioni) non si richiede la cauzione definitiva”;
+
+
+        ### Rispondi al punto 23, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Cauzioni (per gli appalti d’importo inferire alle soglie UE)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO
+
+Nella determina non è presente alcuna dichiarazione ai sensi dell’art. 106 del D.lgs n. 36/2023 relativa alla cauzione provvisoria né menzioni specifiche dell’art. 117 del D.lgs n. 36/2023 relative alla cauzione definitiva. 
+
+#######--------- User prompt
+
+### Istruzioni
+
+Sussiste la necessità di specificare e motivare:
+1. Le modalità di selezione degli operatori economici da invitare a presentare offerta (indagini di mercato, elenchi operatori …)
+2. I requisiti di partecipazione e selezione richiesti ai partecipanti
+3. I criteri preferenziali di selezione nel caso si intenda limitare il numero degli operatori ammessi a presentare offerta scegliendone un numero massimo tra quelli in possesso dei requisiti di cui al precedente punto (criteri oggettivi quantitativi e qualitativi)
+4. I criteri di selezione delle offerte e di aggiudicazione.
+Ove taluni degli elementi di cui ai precedenti Punto siano contenuti in allegati alla determinazione (capitolato…) si può far riferimento ad essi evitando ripetizioni inutili.
+Poiché l’art. 50 stabilisce che per le procedure sotto soglia “si procede” tramite procedura negoziata, nel caso si scelga di svolgere invece una procedura ordinaria di cui alla Parte IV del Libro II, occorre munire la decisione di adeguata motivazione. nel caso si scelga di svolgere invece una procedura negoziata per appalti ove il codice prescrive l’affidamento diretto, occorre munire la decisione di adeguata motivazione
+Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 e dall'art. 17 del D.Lgs. n. 36/2023
+Le varie modalità di selezione degli operatori economici ai quali richiedere la presentazione di una offerta sono contenute nell’allegato II.1 al codice dei contratti. La determina a contrarre deve specificare quale tra le modalità consentite è quella da utilizzarsi per la fattispecie in parola. I nominativi degli operatori invitati ed il loro numero debbono essere mantenuti riservati sino al momento dell’apertura delle offerte. 
+Negli appalti d’importo superiore alle soglie UE è necessario sempre motivare la scelta della specifica tipologia e della procedura adottata in caso di procedura diverse da quella aperta e ristretta.
+Le procedure d’importo inferiore alle soglie UE si svolgono in applicazione dell’art. 50 del Dlgs n.36/2023. Ove il RUP intenda derogarvi (ad es. stabilendo di svolgere una procedura negoziata per lavori d’importo inferiore a 150.000,00 euro in luogo di un affidamento diretto) deve provvedere a motivare adeguatamente la sua scelta 
+Ove la determina a contrarre approvi anche il Bando, avviso…., è possibile rimandare ad essi
+
+
+        ### Rispondi al punto 24, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Modalità di scelta del contraente e ragioni che ne sono alla base (motivare in modo specifico)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, La determina esplicita la scelta della procedura negoziata e la sua base normativa ai sensi dell'articolo 50 comma 1 lettera c) del D.Lgs. 36/2023. È stata eseguita una manifestazione di interesse su piattaforma SardegnaCAT, limitata agli operatori economici abilitati e iscritti nella piattaforma, con la selezione casuale di cinque operatori economici attraverso sistema elettronico, giustificando quindi l'utilizzo della procedura negoziata in questo contesto che risponde ai requisiti del D.Lgs. 36/2023 nel caso di importi inferiori alle soglie UE.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Nelle procedure d’importo inferiore alle soglie europee, in caso di procedura negoziata “non aperta al mercato” va esplicitato che “la procedura sarà aggiudicata nel rispetto delle norme sulla rotazione degli affidamenti come contenute all’art. 49 del Dlgs n.36/2023. 
+In casi motivati con riferimento alla struttura del mercato e alla effettiva assenza di alternative, nonché di accurata esecuzione del precedente contratto, il contraente uscente può essere reinvitato o essere individuato quale affidatario diretto. 
+(necessità di definire fasce; necessità di definire cosa si intende per “contraente uscente”; da valutare l’introduzione di regole più precise in materia di rotazione) 
+
+
+        ### Rispondi al punto 25, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Rotazione degli affidamenti
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE**: NO, la determina non passa il controllo amministrativo per il punto relativo alla rotazione degli affidamenti. La determina non esplicita che "la procedura sarà aggiudicata nel rispetto delle norme sulla rotazione degli affidamenti come contenute all’art. 49 del Dlgs n.36/2023". Non viene fornita alcuna spiegazione o riferimento all'eventuale mancanza di alternative o alla struttura del mercato come giustificazione per eventuali eccezioni alla regola della rotazione degli affidamenti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Requisito previsto dall'art. 192 del D.Lgs. n. 267/2000 e dall'art. 17 del D.Lgs. n. 36/2023.
+Viene scelto nel rispetto degli artt. 107 e 108  D.Lgs. n. 36/2023
+
+
+        ### Rispondi al punto 26, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Criterio di selezione delle offerte
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI
+
+Nella determina, i criteri di selezione delle offerte sono chiaramente indicati. Si fa esplicito riferimento alla procedura negoziata ai sensi dell'articolo 50 comma 1 lettera c) del D.Lgs. 36/2023, applicando il criterio del minor prezzo. Questo conferma che il criterio di selezione delle offerte è stato determinato e documentato in conformità con le leggi vigenti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+La determinazione dei costi presunti deve essere formulata sulla base di elementi oggettivi: riferimento a precedenti acquisti, indagini di mercato, riferimento ad acquisiti analoghi effettuati da altre Amministrazioni, riferimento ai prezzi pattuiti nelle convenzioni CONSIP anche se scadute.
+
+
+        ### Rispondi al punto 27, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Indicazione dell’importo massimo stimato a base di gara
+Quadro economico dell’intervento  comprensivo di Importo a base di gara, oneri fiscali, costi della sicurezza/interferenziali, revisione dei prezzi, somme a disposizione, supporto al RUP, incentivi (art. 45) modificazioni del contratto preventivabili, proroga, lavori o servizi analoghi, quinto d’obbligo
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI
+
+Spiegazione: La determina dirigenziale include un quadro economico dettagliato che comprende l'importo dei lavori a base di gara, gli oneri di sicurezza, le somme a disposizione della stazione appaltante, l'IVA, e diverse altre voci di spesa correlate all'intervento. Le indicazioni sui costi presunti sono inclusi nella sezione che descrive il quadro economico ambito 5, includendo anche spese tecniche e somme a disposizione, il che rispetta le istruzioni fornite per la sezione sugli elementi tipici della determinazione a contrarre.
+
+#######--------- User prompt
+
+### Istruzioni
+
+La determina dovrà indicare:
+- Con riferimento all'art. 1, comma 449, della Legge 27 dicembre 2006, n. 296 di aver verificato che sul mercato elettronico non sono reperibili i beni o i servizi oggetto di appalto ovvero sono presenti beni o servizi simili ma inidonei per mancanza delle qualità essenziali, oppure che l'affidamento è inferiore a € 5.000,00 per cui non è previsto l'obbligo di utilizzare il mercato elettronico
+- Con riferimento all’art. 26 legge 488/1999 non sono attive convenzioni CONSIP  o CAT Sardegna , ovvero si sono utilizzati i parametri di prezzo-qualità delle suddette convenzioni, come limiti massimi, per l'acquisto di beni e servizi comparabili oggetto delle stesse.
+- Con riferimento all’art. 1, comma 7, del D.L. 95/2012 (conv. in Legge 7 agosto 2012 n. 135) di aver verificato che il bene o servizio in oggetto non rientra tra le categorie merceologiche previste ovvero che non sono attive le relative convenzioni o altri strumenti d’acquisto o negoziazione Consip o Cat Sardegna.
+- Con riferimento alla al DPCM 24 dicembre 2015 che il bene o servizio in oggetto non rientra tra le categorie di beni e servizi previste ovvero non raggiunge le relative soglia Con riferimento all'art. 1, comma 512, della Legge 28 dicembre 2015, n. 208 che il bene o servizio in oggetto non rientra tra i beni e servizi informatici e di connettività ovvero che vi rientra ma non sono reperibili convenzioni e l'amministrazione ha la necessità ed urgenza di procedere all'acquisto per assicurare la continuità della gestione amministrativa, oppure il bene o il servizio previsto nelle convenzioni non è idoneo al soddisfacimento dello specifico fabbisogno dell'amministrazione e quest'ultima ha la necessità ed urgenza di procedere all'acquisto per assicurare la continuità della gestione amministrativa
+
+
+        ### Rispondi al punto 28, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Riferimenti all’obbligo di utilizzo degli strumenti di acquisto e di negoziazione messi a disposizione da CONSIP e da soggetti aggregatori 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+### Risposta al punto 28, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE
+
+RISPOSTA GENERALE: NO
+
+**Spiegazione sintetica**:
+La determina non fa riferimento specifico all’obbligo di utilizzo degli strumenti di acquisto e di negoziazione messi a disposizione da CONSIP e da soggetti aggregatori, come richiesto dai punti citati nella checklist. Non vengono citati verifiche rispetto agli articoli o leggi normative quali l'art. 1, comma 449, della Legge 27 dicembre 2006, n. 296, art. 26 legge 488/1999, art. 1, comma 7, del D.L. 95/2012, DPCM 24 dicembre 2015, né l'art. 1, comma 512, della Legge 28 dicembre 2015, n. 208 riguardo l'acquisto di beni o servizi. 
+
+Note Finali: 
+La determinate mensiona convenzioni e utilizzo di criteri di convenienza economica nelle procedure negoziate, ma non nello specifico delle leggi menzionate nelle istruzioni. Sarebbe opportuno verificare se esistono riferimenti questi strumenti contrattuali e negoziali.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare se sono presenti i riferimenti
+
+
+        ### Rispondi al punto 29, SEZIONE: ELEMENTI TIPICI DELLA DETERMINAZIONE A CONTRARRE:
+        Riferimenti alla qualificazione del Comune quale Stazione appaltante
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE:** SI
+
+**Spiegazione sintetica:** Nella determina sono presenti diversi riferimenti che qualificano il Comune di Olbia come Stazione appaltante. In particolare, sono menzionate le procedure adottate in conformità con il D.Lgs. 36/2023, Nuovo Codice degli appalti, la dichiarazione di avvenuti controlli sui requisiti, e la documentazione necessaria relativa alla procedura di aggiudicazione. Questi elementi implicano il riconoscimento del ruolo del Comune come Stazione appaltante.
+
+#######--------- User prompt
+
+### Istruzioni
+
+In assenza di delibera di bilancio indicare gli estremi di approvazione del bilancio pluriennale vigente.
+
+
+        ### Rispondi al punto 30, SEZIONE: RIFERIMENTI CONTABILI:
+        Riferimenti alla deliberazione di approvazione del bilancio.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI
+
+La determina fa riferimento alla deliberazione del Consiglio Comunale n. 139 del 18/12/2023, con la quale è stato approvato il Bilancio di Previsione Finanziario 2024/2026. Pertanto, in conformità alle istruzioni, la verifica del punto in questione è passata.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare se sono presenti i riferimenti
+
+
+        ### Rispondi al punto 31, SEZIONE: RIFERIMENTI CONTABILI:
+        Riferimenti deliberazione approvazione PEG e del PIAO
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI
+
+Spiegazione sintetica: Nella determina è presente il riferimento alla deliberazione della Giunta Comunale n. 515 del 28/12/2023, che approva il Piano Esecutivo di Gestione 2024/2026 (PEG). Tuttavia, non è menzionato il PIAO, il quale non sembra essere richiesto specificamente nel testo della determina.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare l’importo da impegnare e se lo stesso è assoggettato o meno all’iva ( relativa aliquota).
+Nel caso di Bilancio e PEG non ancora approvati, indicare il rispetto dell’art. 163 del TUEL (esercizio provvisorio).
+Qualora si tratti di impegni di spesa su più esercizi finanziari, fare riferimento agli impegni di spesa pluriennali.
+
+
+        ### Rispondi al punto 32, SEZIONE: RIFERIMENTI CONTABILI:
+        Impegno di spesa/prenotazione/copertura finanziaria
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**
+
+Spiegazione: La determina indica l'importo da impegnare e dichiara esplicitamente che l'importo complessivo è di € 395.083,91, specificando anche che è soggetto a IVA al 10%. Inoltre, specifica i capitoli di bilancio dove trova copertura la spesa complessiva suddivisa tra "PNRR M5 C2 2.3 Incarichi professionali esterni" e "PinQua PNRR M5 C2". Non viene menzionato il caso di esercizio provvisorio o impegni su più esercizi, quindi presumibilmente il bilancio e il PEG sono stati approvati.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Dare atto nel provvedimento di impegno che il programma della spesa derivante dall’atto è compatibile con le vigenti regole della finanza pubblica.
+
+
+        ### Rispondi al punto 33, SEZIONE: RIFERIMENTI CONTABILI:
+        Conformità dei pagamenti con le regole della finanza pubblica vigenti.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**
+
+Spiegazione: Non vi è alcun riferimento o dichiarazione esplicita nella determina che attesti la compatibilità del programma della spesa con le vigenti regole della finanza pubblica, né viene dato atto nel provvedimento di impegno in merito a tale conformità.
+
+#######--------- User prompt
+
+### Istruzioni
+
+(in caso di affidamenti di importo pari o superiore ad € 40.000,00) di assumere l’impegno di spesa relativo al pagamento del contributo all’ANAC, dovuto in relazione al presente affidamento, e pari ad € sul cap. _______  del bilancio 20___, che presenta adeguata disponibilità
+
+
+        ### Rispondi al punto 34, SEZIONE: RIFERIMENTI CONTABILI:
+        Contributo ANAC
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, la determina conferma che è stata assunta la voce di spesa relativa al contributo ANAC come evidenziato nel quadro economico sotto la voce "B.15 ANAC 250,00 €". Tuttavia, non viene specificato il capitolo di bilancio cui è imputato tale impegno di spesa, quindi per completezza, la determina dovrebbe includere l'informazione relativa al capitolo di bilancio di riferimento.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Eventuali altri atti richiamati e/o allegati alla determinazione (disciplinare di gara, bando, schema di lettera di invito, schema di contratto, patto di integrità, altro).
+
+
+        ### Rispondi al punto 35, SEZIONE: DOCUMENTI RICHIAMATI E ALLEGATI:
+        Richiamati e/o allegati
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO. 
+
+Spiegazione: Nella determina non sono esplicitamente indicati allegati specifici come il disciplinare di gara, il bando, lo schema di lettera di invito, lo schema di contratto o il patto di integrità. Tuttavia, vengono richiamate diverse determinazioni e verbali precedenti, ma non risulta alcuna menzione esplicita di allegati ad esse. Tale mancanza rende la determinazione non conforme al punto 35 riguardante i documenti richiamati e allegati.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Art. 28. (Trasparenza dei contratti pubblici)
+Le informazioni e i dati relativi alla programmazione di lavori, servizi e forniture, nonché alle procedure del ciclo di vita dei contratti pubblici, ove non considerati riservati ai sensi dell'articolo 35 ovvero secretati ai sensi dell'articolo 139, sono trasmessi tempestivamente alla Banca dati nazionale dei contratti pubblici attraverso le piattaforme digitali di cui all’articolo 25.
+Tutti gli atti della procedura di gara sono soggetti agli obblighi di trasparenza previsti dagli art.20 e 28 del Codice dei contratti e dal D.Lgs. n. 33/2013 e ss.mm.ii..
+
+
+        ### Rispondi al punto 36, SEZIONE: PRESCRIZIONI ANTICORRUZIONE E TRASPARENZA:
+        Obblighi di pubblicità e trasparenza
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+### RISPOSTA GENERALE: SI
+
+La determina fa riferimento esplicitamente agli obblighi di pubblicazione delle informazioni e dati di trasparenza previsti dall'art. 28 del D.Lgs 36/2023 e dall'art. 37 del D.Lgs. 33/2013, come richiesto dalle istruzioni nel punto 36, SEZIONE: PRESCRIZIONI ANTICORRUZIONE E TRASPARENZA. Inoltre, è espressamente indicata la procedura di pubblicazione della determinazione nell'Albo Pretorio on-line secondo le modalità specificate nel regolamento comunale.
+
+#######--------- User prompt
+
+### Istruzioni
+
+In ottemperanza al Regolamento comunale sul Controllo di Reg. Amministrativa (art. 12) e al Regolamento degli uffici e dei servizi (art. 20) le determinazioni devono essere pubblicate in elenco.
+
+
+        ### Rispondi al punto 37, SEZIONE: PRESCRIZIONI ANTICORRUZIONE E TRASPARENZA:
+        Pubblicazione atti all’Albo Pretorio Online
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI
+
+La determina fa riferimento alla pubblicazione della presente determinazione nell'Albo Pretorio on-line secondo i tempi e le modalità indicate all’art. 12 del regolamento comunale per l’attuazione dei controlli di regolarità amministrativa (vedi punto 11). Pertanto, le prescrizioni relative alla pubblicazione all'Albo Pretorio Online sono rispettate.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Dare atto che la determina sarà trasmessa al servizio finanziario per l’acquisizione del visto di regolarità contabile.
+
+
+        ### Rispondi al punto 38, SEZIONE: ASPETTI DI REGOLARITÀ FORMALE:
+        Acquisizione del visto di regolarità contabile ai sensi dell’art. 153 del D.Lgs. n. 267/2000
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, La determinazione prevede nel punto 14 la trasmissione al Responsabile del Servizio Finanziario per i provvedimenti di competenza, che implica l'acquisizione del visto di regolarità contabile ai sensi dell’art. 153 del D.Lgs. n. 267/2000.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare se sono presenti i riferimenti a sottoscrizione 
+
+**GRAVITA' [3/3](grave) se non presenti**
+
+
+        ### Rispondi al punto 39, SEZIONE: ASPETTI DI REGOLARITÀ FORMALE:
+        Sottoscrizione del Dirigente firmatario dell’atto e dove previsto del R.P. o RUP.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+**RISPOSTA GENERALE : SI**
+
+Nella determina, si trova la seguente indicazione che conferma la sottoscrizione: "Il Dirigente DAVIDE MOLINARI documento firmato digitalmente". La presenza di una firma digitale da parte del Dirigente sottolinea il rispetto degli aspetti di regolarità formale relativi alla sottoscrizione dell'atto.
+
