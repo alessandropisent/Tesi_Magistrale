@@ -38,7 +38,7 @@ def analize_response(text):
     # 1. Prova a cercare il pattern "RISPOSTA GENERALE:" seguito da una risposta classificabile
     #    Il pattern gestisce "si" (anche "sì"), "no" e "non richiesto" (case-insensitive)
     general_pattern = re.search(
-        r"(?i)(risposta generale:|risposta:)\s*(si|sì|no|non richiesto)\b", text
+        r"(?i)(\*?risposta generale\*?:|risposta:|\*?risposta\*?:)\s*(si|sì|no|non richiesto)\b", text
     )
     if general_pattern:
         ans = general_pattern.group(2).lower()
