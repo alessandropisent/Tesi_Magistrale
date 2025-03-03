@@ -31,12 +31,10 @@ def get_checklist(checklists,nome_checklist):
     return checklist
 
 def analize_response(text):
-
     # Converti il testo in stringa (per sicurezza)
     text = str(text)
     
-    # 1. Prova a cercare il pattern "RISPOSTA GENERALE:" seguito da una risposta classificabile
-    #    Il pattern gestisce "si" (anche "sì"), "no" e "non richiesto" (case-insensitive)
+    # 1. Prova a cercare il pattern "RISPOSTA GENERALE:" o "RISPOSTA:" seguito da una risposta
     general_pattern = re.search(
         r"(?i)(\*?risposta generale\*?:|risposta:|\*?risposta\*?:)\s*(si|sì|no|non richiesto)\b", text
     )
@@ -49,8 +47,20 @@ def analize_response(text):
         elif ans == "non richiesto":
             return "NON RICHIESTO"
     
-    # 2. Se non viene trovato il marker "RISPOSTA GENERALE:", controlla se il testo inizia
-    #    direttamente con una risposta (con possibili spazi iniziali)
+    # 2. Cerca una sezione "Conclusione" e verifica la risposta subito dopo
+    conclusion_pattern = re.search(
+        r"(?i)\*{0,2}conclusione\*{0,2}[:\s\n\r]*\*?risposta generale\*?:\s*(si|sì|no|non richiesto)\b", text
+    )
+    if conclusion_pattern:
+        ans = conclusion_pattern.group(1).lower()
+        if ans in ['si', 'sì']:
+            return "SI"
+        elif ans == "no":
+            return "NO"
+        elif ans == "non richiesto":
+            return "NON RICHIESTO"
+    
+    # 3. Se non viene trovato il marker, controlla se il testo inizia direttamente con una risposta
     start_pattern = re.match(
         r"^\s*(si|sì|no|non richiesto)\b", text, flags=re.IGNORECASE
     )
@@ -63,9 +73,8 @@ def analize_response(text):
         elif ans == "non richiesto":
             return "NON RICHIESTO"
     
-    # 3. Se ancora non troviamo un pattern chiaro, controlla la parte iniziale del testo (ad esempio, i primi 50 caratteri)
-    #    per verificare se contengono le risposte, ma solo se appaiono come parole isolate.
-    prefix = text[:100].lower()
+    # 4. Controllo nei primi 50 caratteri per verificare la presenza delle risposte in posizioni rilevanti
+    prefix = text[:50].lower()
     if re.search(r"\bnon richiesto\b", prefix):
         return "NON RICHIESTO"
     if re.search(r"^\s*no\b", prefix) or re.search(r"\bno\b", prefix):
@@ -75,6 +84,7 @@ def analize_response(text):
     
     # Se nessuna delle regole precedenti risulta soddisfatta, ritorna "Not found"
     return "Not found"
+
 
 def relate_checklist_determina(nome_determina,
                         nome_checklist,
