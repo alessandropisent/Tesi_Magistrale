@@ -1,0 +1,157 @@
+	Punto	Response	Simple
+0	Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.	"RISPOSTA GENERALE : NO, la determina indica il ""Settore Ambiente e Lavori Pubblici"" e ""Struttura Organizzativa Stabile"", ma non specifica un ""Servizio"" di appartenenza, come richiesto dalle Istruzioni."	NO
+1	Oggetto della determinazione	RISPOSTA GENERALE: NO, l’oggetto della determinazione riporta un codice errato (15271 anziché 15275) e manca la norma attributiva del potere ex art. 50, comma 1, let. a/let. b del Dlgs n.36/2023. Tale mancanza influisce sulla chiarezza e correttezza dell'identificazione del provvedimento, che risulta necessario essere emendato per aderire integralmente alle richieste normative.	NO
+2	Indicazione del CIG, del CPV e del CUP (l’indicazione del CUI:  non è richiesta per gli affidamenti diretti ai sensi dell’art. 50 del Dlgs n.36/2023, in quanto consentiti per importi per i quali non è dovuto l’inserimento nei programmi triennali. È richiesta per affidamenti diretti ai sensi dell’art.76 del Dlgs n.36/2023. In caso di consegne complementari ex art.76, comma 4, let. B, o di ripetizione di lavori o servizi analoghi ex art. 76, comma 6, dovrà essere indicato il CUI dell’appalto principale del quale l’affidamento diretto risulta complementare o analogo)	"### Output:
+
+RISPOSTA GENERALE: **NO**  
+
+Spiegazione: La determina non contiene alcuna indicazione di un CPV (Common Procurement Vocabulary), nonostante il riferimento normativo indichi che è obbligatorio includerlo nella Determinazione ai sensi dell'art. 17, comma 2, del D.Lgs. n. 36/2023. Questo rappresenta una mancanza anche se di lieve gravità (livello di gravità 1/3), che va comunque affrontata per garantire la conformità alle normative sugli appalti pubblici."	NO
+3	Centro di Costo: si indica il centro di costo al quale imputare la spesa.	"### Output:
+RISPOSTA GENERALE: SI, Il centro di costo è indicato come ""C.d.C.: 1110021"" nella pagina 2 della determina."	SI
+4	Estremi decreto sindacale di nomina del Dirigente.	"### Risposta:
+
+RISPOSTA GENERALE: SI, 
+
+Spiegazione: Nella determina dirigenziale è menzionato il Decreto del Sindaco n. 32 del 28/07/2022, che conferisce l’incarico di Dirigente del Settore Ambiente e Lavori Pubblici all’Ing. Antonello Zanda. Questo rispetta le istruzioni di cui sopra che richiedono di citare il decreto di nomina del Dirigente responsabile per l’adozione dell’atto. Non è dichiarato esplicitamente che il Dirigente è anche RUP e responsabile della fase di affidamento, ma il coinvolgimento nel ciclo di vita del contratto è implicito. Tuttavia, non vengono menzionati dettagli sull'organizzazione in termini di RUP o responsabile di fase separati."	SI
+5	Conflitto d’interessi	RISPOSTA GENERALE: SI, la determina riferisce l'assenza di conflitto di interessi in conformità all'art. 16 del D.Lgs. n.36/2023, accertando che non vi sono conflitti di interesse per il firmatario, il RUP e gli altri partecipanti al procedimento.	SI
+6	Estremi della delega alla firma dell’atto, se persona diversa dal Dirigente.	"### Output:
+RISPOSTA GENERALE : NON RICHIESTO, Non è necessaria la verifica degli estremi della delega alla firma dell'atto in quanto il provvedimento è stato emanato dal Dirigente del Settore, come si evince dalle premesse e dalla sottoscrizione dello stesso."	NON RICHIESTO
+7	Estremi atto di nomina del Responsabile unico del Progetto, se nominato.	"RISPOSTA GENERALE: **NO**
+
+Spiegazione sintetica: Nel testo della determina non è stato menzionato alcun atto di nomina specifico del Responsabile unico del Progetto (RUP) con i relativi estremi di nomina, sebbene venga citato il RUP in relazione alla richiesta del Codice Identificativo Gara (CIG) mediante la Centrale di Committenza. Tuttavia, non è presente un riferimento preciso all'atto di nomina che lo designa ufficialmente come RUP per questo specifico progetto."	NO
+8	Normativa specifica:  Codice dei contratti pubblici (D.Lgs. n. 36.2023.) ;  L. R. n. 8/2018;  Art. 26 legge n.488/1999  Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012 n. 135 (adesione convenzione Consip e MEPA);  Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);  Art. 26, della legge n. 488/1999 e ss.mm.ii.; DPCM 24 dicembre 2015 ;	"### Output:
+
+RISPOSTA GENERALE: AMBIGUO
+
+La determina fa riferimento al D.Lgs. n. 36/2023 (Codice dei contratti pubblici) diverse volte, soddisfacendo parzialmente gli obblighi relativi ai riferimenti normativi per l'affidamento dei contratti pubblici. Tuttavia, non ci sono riferimenti specifici a tutte le normative elencate, in particolare:
+
+- L. R. n. 8/2018 non è menzionata.
+- Art. 26 della legge n. 488/1999, art. 1 del D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012 n. 135, art. 1, comma 450, della legge 27 dicembre 2006, n. 296 e ss.mm.ii., e il DPCM 24 dicembre 2015 non vengono esplicitamente citati nella determina.
+
+Quindi, in assenza di riferimenti espliciti a tutte le normative richieste, la risposta non può essere conformemente positiva. È consigliabile che la determina includa un riferimento diretto a tutte le normative specificate nella checklist se applicabili alla fattispecie, per garantirne la totale conformità."	Not found
+9	Normativa generale:  TUEL;  Legge n. 241/90;  DPR n. 62/2013 Codice comportamento dipendenti pubblici;  L. n. 190/2012;  D.Lgs. n. 33/2013.  Legge n° 136/2010	"RISPOSTA GENERALE: SI
+
+Spiegazione: La determina elenca i riferimenti normativi generali, includendo il TUEL (D.Lgs. n. 267/2000), la Legge n. 241/90, il DPR n. 62/2013, la Legge n. 190/2012 e il D.Lgs. n. 33/2013. Sebbene non sia menzionata esplicitamente la Legge n° 136/2010 nella determina, i riferimenti normativi generali richiesti per la comprensione del processo logico alla base del provvedimento sono stati elencati. Pertanto, il punto è rispettato."	SI
+10	Norme di principio   Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)	"**RISPOSTA GENERALE:** SI
+
+**Spiegazione:** Nella determina dirigenziale, vi è un richiamo ai principi generali del Codice dei Contratti come indicato dall'art. 4 del D.Lgs. n. 36/2023, che sottolinea l'importanza di applicare le disposizioni in base ai principi espressi negli articoli 1, 2 e 3 del Codice. Pertanto, il riferimento normativo è rispettato e considerato adeguatamente nella determina, il che indica un'applicazione e interpretazione corretta dei principi codicistici."	SI
+11	Regolamenti dell’ente quali:  - Statuto Comunale;  - Regolamento di contabilità;  - Regolamento dei contratti	"RISPOSTA GENERALE: SI,  
+La determina cita il Regolamento di contabilità dell’Ente e il Regolamento Comunale delle Determinazioni Dirigenziali. Anche se non viene menzionato esplicitamente lo Statuto Comunale e il Regolamento dei contratti, è implicito che la determina faccia riferimento a regolamenti dell'ente necessari per il contesto amministrativo e legale in cui opera. Quindi, si può considerare che il punto è rispettato."	SI
+12	Indicazione dei riferimenti della determina a contrarre “semplificata” adottata	"RISPOSTA GENERALE: SI
+
+La determina dirigenziale n. 3191 del 17/12/2024 contiene l'indicazione dei riferimenti della determina a contrarre ""semplificata"" che evidenzia chiaramente l'oggetto dell'affidamento (""Lavori relativi alle indagini ambientali integrative""), l'importo complessivo, la scelta del fornitore (Geoambiente Italia di Doneddu Alessio Arturo & c S.a.S.), le ragioni della scelta del fornitore e la verifica del possesso da parte del fornitore dei requisiti di carattere generale e professionali. Pertanto, sono rispettate le norme dell'art. 50, comma 1, lett. a), del D.Lgs. n. 36/2023."	SI
+13	Indicazione dei riferimenti della determina a contrarre “non semplificata” adottata	"### Output:
+
+RISPOSTA GENERALE: NO
+
+La determina non fa espressamente atto dell’avvenuta adozione della determina a contrarre quale provvedimento propedeutico, indicandone numero e data per l’individuazione dell’acquisto dei lavori, servizi e forniture da effettuare nell'ambito della procedura “non semplificata”. Inoltre, non vengono indicati i termini entro i quali la procedura avrebbe dovuto concludersi né se tali termini siano stati rispettati."	NO
+14	Elementi da approvare con la determina a contrarre nel caso di provvedimento unico	"RISPOSTA GENERALE: SI
+
+Spiegazione: La determina N.3191 del 17/12/2024 include l'indicazione dell'interesse pubblico che si intende soddisfare attraverso i lavori relativi alle indagini ambientali integrative per le opere di mitigazione del rischio idrogeologico nel territorio comunale di Olbia. Inoltre, sono riportate le caratteristiche delle opere da realizzare con un dettagliato quadro economico e procedure di affidamento. Sebbene non sia menzionato un progetto esecutivo completo per i lavori, essendo un affidamento diretto, il capitolato d'appalto o lo schema del contratto non sono esplicitati come dettagli separati, ma implicitamente inclusi nella descrizione delle obbligazioni previste dall'amministrazione e nell'iter di affidamento diretto descritto."	SI
+15	Per gli appalti di servizi: DUVRI	"RISPOSTA GENERALE: NON RICHIESTO. 
+
+Spiegazione: Dalla lettura della determina non emerge alcuna menzione specifica del Documento Unico di Valutazione dei Rischi da Interferenze (DUVRI). Tuttavia, la determina riguarda l'affidamento diretto di lavori (e non di servizi), e sono indicati gli oneri per la sicurezza non soggetti a ribasso, i quali sono menzionati nel contesto di lavori a misura. Pertanto, sulla base di quanto presentato, il DUVRI non risulta richiesto o pertinente nell'attuale contesto della determina."	NON RICHIESTO
+16	Suddivisione in lotti e norme sull’indebito frazionamento	"**RISPOSTA GENERALE**: SI
+
+**Spiegazione**: La determina cita espressamente l'art. 58 del Codice che viene utilizzato per motivare la mancata suddivisione dell'appalto in lotti. Si rileva che l'appalto, peraltro già accessibile dato l'importo non rilevante, per le microimprese, piccole e medie imprese, non è suddivisibile in lotti, tenendo conto dei criteri del Codice e dei principi europei sulla promozione di condizioni di concorrenza paritarie per le PMI."	SI
+17	Validazione (in caso di lavori pubblici)	"RISPOSTA GENERALE: **NO**
+
+Spiegazione sintetica: Nella determina non sono stati indicati gli estremi dell'avvenuta validazione del progetto posto a base di gara per i lavori pubblici relativi alle indagini ambientali integrative. La verifica della validazione del progetto è un requisito necessario per l'affidamento dei lavori."	NO
+18	Criteri Ambientali Minimi (CAM)	"**RISPOSTA GENERALE**: NO
+
+**Spiegazione**: Nella determina in esame non è presente alcun riferimento esplicito ai Criteri Ambientali Minimi (CAM), né viene menzionato l'art. 18 della L. 221/2015 o l'art. 57 comma 2 Dlgs n.36/2023. Inoltre, non si fa riferimento a un DM specifico per l'individuazione dei CAM applicabili nell'ambito del progetto. La verifica rispetto ai CAM è quindi assente, il che comporta una non conformità rispetto alle istruzioni suggerite in materia di sostenibilità ambientale per gli appalti pubblici."	NO
+19	Cauzione	"RISPOSTA GENERALE: SI
+
+Spiegazione: La determina specifica che, in applicazione all’art. 50, comma 1 del Codice, non è richiesta la garanzia a corredo dell’offerta. Pertanto, non è prevista la cauzione definitiva e questo rispetta le istruzioni secondo cui nell'affidamento diretto, considerate le modalità di adempimento delle prestazioni, può non essere richiesta la cauzione definitiva."	SI
+20	Riferimenti all’obbligo di utilizzo di convenzioni Consip o di soggetti aggregatori	RISPOSTA GENERALE : NON RICHIESTO, La determina dirigenziale non fornisce informazioni specifiche riguardanti l'adesione o la considerazione di convenzioni Consip o altri soggetti aggregatori nell'ambito dell'affidamento diretto. Non si riscontra alcun riferimento a Consip o altre convenzioni nei documenti esaminati. Quindi, non sono stati considerati i requisiti menzionati nella checklist senza ulteriori dettagli forniti nel testo della determina.	NON RICHIESTO
+21	Riferimenti all’obbligo di utilizzo del MEPA o del sistema telematico messo a disposizione dalla centrale regionale di riferimento	"RISPOSTA GENERALE: SI.  
+Nella determina è specificato che si utilizza la Centrale di Committenza Regionale ""Sardegna Cat"" per l'acquisizione dei lavori, in linea con l'obbligo di fare ricorso al mercato elettronico della pubblica amministrazione o al sistema telematico regionale di riferimento per procedure di importo pari o superiore a 5.000 euro e inferiore alla soglia di rilievo comunitario."	SI
+22	Indicazioni in merito all’istruttoria propedeutica al provvedimento	"RISPOSTA GENERALE: SI
+
+Spiegazione: Nella determina viene indicato che il Responsabile Unico del Procedimento (RUP), attraverso la piattaforma della Centrale di Committenza Regionale ""Sardegna Cat"", ha inoltrato un invito alla presentazione della propria migliore offerta soltanto alla ditta Geoambiente Italia. Viene preso atto che l’offerta della ditta è ritenuta meritevole di considerazione per l’affidamento. Inoltre, vengono citati i requisiti generali e speciali che l’operatore economico deve possedere e che sono stati riscontrati idonei, indicando quindi che è stata svolta un'istruttoria sufficiente per individuare l'operatore idoneo a soddisfare l’interesse pubblico secondo i principi di qualità, tempestività ed economicità."	SI
+23	Denominazione dell’operatore economico affidatario e indicazione relativa all’acquisizione dell’offerta	"### RISPOSTA GENERALE: SI
+
+La determina fornisce le informazioni richieste riguardo alla denominazione dell'operatore economico affidatario, che è ""Geoambiente Italia di Doneddu Alessio Arturo & c S.a.S."", con sede legale a Nuoro in Via Murichessa 138 – P.I. 01253850919. L'offerta è stata presentata dalla stessa ditta entro la data stabilita del 09/12/2024, come riportato nel documento."	SI
+24	Importo di affidamento	"RISPOSTA GENERALE: NO
+
+Spiegazione sintetica: La determina dirigenziale in esame non fa riferimento alla congruità del costo della manodopera indicato in sede di presentazione del preventivo dall'affidatario né all'adeguatezza del contratto collettivo applicato in relazione alle tutele a favore dei lavoratori impiegati nell'appalto. Tali elementi non sono esplicitamente dichiarati o verificati nel testo della determina."	NO
+25	Indicazione di requisiti previsti dalle disposizioni vigenti per il ricorso all’affidamento diretto.	"RISPOSTA GENERALE: SI
+
+Spiegazione: Nella determina dirigenziale, è specificato che l'affidamento dei lavori è stato possibile grazie all'art. 50 del D.Lgs. n. 36/2023, che permette l'affidamento diretto a soggetti con documentata esperienza pregressa idonea all'esecuzione delle prestazioni contrattuali. È citato che sono stati effettuati controlli sui requisiti generali e speciali necessari, confermando il possesso di tali esperienze."	SI
+26	Motivazione scelta della procedura e del contraente;        Esporre le ragioni della scelta della ditta affidataria;        Esposizione del fatto che legittima il ricorso alla procedura e della valutazione in ordine alla scelta del contraente.	"RISPOSTA GENERALE: **SI**
+
+Spiegazione sintetica: La determinazione dirigenziale affronta in modo esauriente la motivazione della scelta dell'affidatario e della procedura utilizzata. Specifica che l'affidamento diretto è basato sull'art. 50, comma 1, lett. a) del D.Lgs. 36/2023, che consente l'affidamento diretto per importi inferiori a 150.000 euro senza la necessità di consultare più operatori economici, nel rispetto di criteri qualitativi e quantitativi. Inoltre, la determina indica che la ditta Geoambiente Italia è stata scelta tra quelle iscritte nell’elenco della Centrale di Committenza regionale Sardegna Cat e possiede l'esperienza e i requisiti necessari, conformemente ai principi di libera concorrenza e non discriminazione. La motivazione dell'affidamento diretto include anche la dimostrazione del possesso dei requisiti da parte dell'operatore selezionato, la rispondenza dell'offerta agli interessi pubblici e la congruità del prezzo."	SI
+27	Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023	"## Verifica al Punto 27: Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023
+
+**RISPOSTA GENERALE: NON RICHIESTO**
+
+### Spiegazione:
+
+La determina non utilizza l'art. 76 del Dlgs n. 36/2023 come base giuridica per la scelta della procedura di affidamento. Al contrario, si fa riferimento all'art. 50, comma 1, lett. a) del Dlgs n. 36/2023 per motivare l'utilizzo dell'affidamento diretto. Pertanto, la verifica specifica per l'art. 76 non è richiesta in questo contesto perché non pertinente all'applicazione della determinazione corrente."	NON RICHIESTO
+28	Conformità dell’affidamento ai principi ed alle norme in materia di appalti pubblici	"### Riscontro al punto 28: Conformità dell’affidamento ai principi ed alle norme in materia di appalti pubblici
+
+Nella determina dirigenziale N.3191 del 17/12/2024, l'affidamento diretto è giustificato e regolamentato ai sensi del D.Lgs. n. 36/2023, con specifico riferimento all’art. 50, che disciplina le modalità di affidamento per importi inferiori alle soglie comunitarie. La determina evidenzia il rispetto dei principi di trasparenza, non discriminazione e libera concorrenza, così come dei principi di economicità e tempestività, che sono in linea con le disposizioni normative contenute nel ""Codice dei contratti pubblici"", tra cui il D.Lgs. 36/2023 e il TUEL.
+
+### Output:
+RISPOSTA GENERALE : **SI**"	Not found
+29	Dare atto della verifica dei requisiti dell’affidatario	"### Risposta al punto 29, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+
+**RISPOSTA GENERALE**: SI. 
+
+La determina riporta che sono stati verificati i requisiti generali ex art. 94 del D.Lgs. n. 36/2023 e che le verifiche delle autocertificazioni saranno eseguite come previsto dall’art. 52 comma 1 del medesimo Decreto Legislativo, riservandosi la facoltà, in caso di non conferma dei requisiti stessi, di procedere alla risoluzione del contratto. Pertanto, il processo pare essere stato seguito correttamente."	Not found
+30	Verifica sulla regolarità contributiva, DURC o attestazione della stessa o autocertificazione (limitata ai casi previsti dalla legge).	"### Risposta al punto 30, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+
+RISPOSTA GENERALE: **NO**
+
+Alla luce della Determina valutata, non è presente alcun riferimento specifico alla verifica della regolarità contributiva, inclusi il DURC o altra attestazione o autocertificazione in merito alla regolarità contributiva. Data la gravità della mancanza di questa documentazione, è importante notare che la mancanza di tale verifica potrebbe avere implicazioni serie per la regolarità dell'affidamento. 
+
+Note: L'omissione di menzioni riguardanti il DURC o altra attestazione di regolarità contributiva nella determina rappresenta un problema grave, soprattutto considerando l'importanza di tale documento per verificare la regolarità contributiva della ditta affidataria."	Not found
+31	Riferimenti alla deliberazione di approvazione del bilancio.	"### Output:
+
+RISPOSTA GENERALE: SI, La determina cita la Deliberazione del Consiglio Comunale n. 139 del 18/12/2023 con la quale è stato approvato il Bilancio di Previsione Finanziario 2024/2026. Pertanto, il riferimento contabile richiesto è presente."	SI
+32	Riferimenti deliberazione approvazione PEG e al PIAO	RISPOSTA GENERALE: SI, nella determina è fatto riferimento alla Deliberazione di Giunta Comunale n. 515 del 18.12.2023, con la quale è stato approvato il Piano Esecutivo di Gestione 2024/2026, il quale è pertinente con la richiesta di riferimenti alla deliberazione di approvazione del PEG. Tuttavia, il PIAO non è menzionato esplicitamente nella determina.	SI
+33	Impegno di spesa/prenotazione	"33. **Impegno di spesa/prenotazione**
+
+**RISPOSTA GENERALE**: SI
+
+**Spiegazione sintetica**: La determina specifica che l'importo complessivo di € 30.137,59 è impegnato sul capitolo di spesa 78295 del bilancio corrente denominato “Opere di mitigazione del rischio idrogeologico – Convenzione OIS”. Inoltre, l'importo è assoggettato all'IVA con l'indicazione che l'IVA di legge è inclusa. Non è menzionato il rispetto dell'art. 163 del TUEL per l'esercizio provvisorio, essendo il Bilancio e il PEG già approvati come richiamato nella Deliberazione del Consiglio Comunale n. 139 del 18/12/2023 e la Deliberazione di Giunta Comunale n. 515 del 18.12.2023. Non vengono citati impegni di spesa pluriennali, il che è conforme poiché si tratta di un impegno di spesa per un singolo esercizio finanziario."	SI
+34	Contributo ANAC	"**RISPOSTA GENERALE**: NON RICHIESTO
+
+Spiegazione: La determina descrive un procedimento di affidamento diretto per un importo complessivo inferiore a 40.000,00 euro (€ 30.137,59). Pertanto, la disposizione relativa all'assunzione dell'impegno di spesa per il pagamento del contributo all'ANAC non è applicabile in questo caso, poiché riguarda affidamenti di importo pari o superiore a € 40.000,00."	NON RICHIESTO
+35	Flussi finanziari	"RISPOSTA GENERALE: **NO** 
+
+Spiegazione sintetica: Nella determina non è presente alcuna dichiarazione o riferimento alla legge n. 136/2010, né viene specificato l'obbligo di tracciabilità dei flussi finanziari che, secondo le istruzioni, deve essere inserito per completezza e conformità alla normativa vigente. Pertanto, il punto relativo ai flussi finanziari non è rispettato nel testo attuale della determina."	NO
+36	Conformità dei pagamenti con le regole della finanza pubblica vigenti	"**RISPOSTA GENERALE: NON RICHIESTO**
+
+**Spiegazione**: La determina non contiene una dichiarazione esplicita nel testo per confermare che il programma della spesa derivante dall’atto sia in conformità con le vigenti regole della finanza pubblica. Tuttavia, l'atto include riferimenti a copertura finanziaria e impegni di bilancio dettagliati, il che implicita una verifica di compatibilità finanziaria, ma non c'è una menzione diretta sulle regole di finanza pubblica vigenti."	NON RICHIESTO
+37	Indicazione esatta dell’aggiudicatario: nome, cognome, ragione sociale, indirizzo, P.Iva, Cod. Fiscale, sede legale/operativa, altro.	"### Risposta
+
+RISPOSTA GENERALE: SI
+
+### Spiegazione sintetica:
+
+La determina riporta i dettagli dell'aggiudicatario come segue: 
+
+- Ragione sociale: Geoambiente Italia di Doneddu Alessio Arturo & c S.a.S.
+- Sede legale: Via Murichessa 138, Nuoro
+- Partita IVA: 01253850919
+
+Manca l'indicazione specifica del Codice Fiscale e della sede operativa se differente dalla sede legale. Tuttavia, considerando che la Partita IVA è specificata e che la Sede Legale è menzionata, gli elementi essenziali richiesti sono presenti."	SI
+38	Comunicazione all’aggiudicatario dell’impegno di spesa, la copertura finanziaria, CIG	RISPOSTA GENERALE: SI, La determina include una comunicazione all’aggiudicatario riguardante l'impegno di spesa e il CIG (B4BA7ECBD0), dettagliando la copertura finanziaria come previsto nelle disposizioni richiamate nel provvedimento.	SI
+39	Indicazione specifica della tipologia del contratto	"### Output:
+
+RISPOSTA GENERALE: SI, la determina indica specificatamente la tipologia del contratto. Si tratta di un affidamento diretto per ""Lavori relativi alle indagini ambientali integrative nell’ambito delle 'Opere di mitigazione del rischio idraulico nel territorio comunale di Olbia'"" come riportato più volte nel documento, ad esempio nella premessa dove specifica l'applicazione dell'art. 50, comma 1, lett. a) del D.Lgs. 36/2023 per l'affidamento diretto di lavori sotto soglia comunitaria."	SI
+40	Obblighi di pubblicità e trasparenza	"### Risposta Generale: SI
+
+La determina cita che si provvederà alla pubblicazione del presente atto in ottemperanza al D.Lgs. n. 33/2013 e ss.mm.ii., che riguarda specificatamente gli obblighi di pubblicità e trasparenza. Pertanto, gli obblighi di pubblicità e trasparenza previsti dal codice dei contratti pubblici e dal citato decreto legislativo sono rispettati."	SI
+41	Attestazione circa il rispetto delle prescrizioni del   PTPCT dell’Ente	"RISPOSTA GENERALE: SI
+
+Nella determina è citato il Patto di Integrità, che viene accettato dal soggetto affidatario. Inoltre, c'è un richiamo al rispetto del Codice di comportamento adottato dalla stazione appaltante, e vengono menzionate le misure legate all'integrità e alla trasparenza attraverso gli obblighi normativi citati, compreso il rispetto delle disposizioni del D.Lgs. n. 33/2013 in relazione alla pubblicazione e trasparenza amministrativa. Questi punti soddisfano il rispetto delle prescrizioni del Piano Triennale per la Prevenzione della Corruzione e della Trasparenza (PTPCT) dell'Ente."	SI
+42	Pubblicazione atti all’Albo Pretorio Online.	"### RISPOSTA GENERALE: SI
+
+La determina specifica al punto 10 che si provvederà alla pubblicazione del presente atto, in ottemperanza al D.Lgs. n. 33/2013 e ss.mm.ii., regolamento comunale sul Controllo Reg. Amministrativa, e regolamento comunale delle determinazioni dirigenziali. Ciò implica la pubblicazione degli atti all'Albo Pretorio Online, come richiesto dalle istruzioni."	SI
+43	Indicazione termini e autorità a cui ricorrere	RISPOSTA GENERALE: SI, la determina menziona che avverso il presente provvedimento può essere proposto ricorso ai sensi dell’art. 3 della Legge n. 241/90 e ss.mm.ii. innanzi alle sezioni del T.A.R. di Cagliari nei modi e termini stabiliti dalla vigente normativa in materia.	SI
+44	Sottoscrizione del Dirigente firmatario dell’atto e, dove previsto, del RP o RUP.	"### Risposta:
+
+RISPOSTA GENERALE: SI, La determina è firmata dal Dirigente di Settore e ci sono diversi riferimenti al ruolo del Responsabile Unico del Procedimento (RUP) nel testo, il che suggerisce che i requisiti di sottoscrizione e firma sono stati rispettati."	SI
+45	Presenza del visto di regolarità contabile	"RISPOSTA GENERALE: NO, la determina non menziona espressamente l'acquisizione di un visto di regolarità contabile, ma è previsto che ""il presente provvedimento"" venga trasmesso al Dirigente del Servizio Finanziario per i provvedimenti di propria competenza (punto 11). Tuttavia, l'esplicita menzione del visto non è presente, pertanto va considerata la verifica di questo aspetto come non completamente rispettato."	NO
