@@ -82,8 +82,13 @@ def analize_response(text):
         elif ans == "non richiesto":
             return "NON RICHIESTO"
     
+    # 5. Controllo aggiuntivo: se RISPOSTA GENERALE è seguito da SI anche su una riga successiva
+    if re.search(r"(?i)\bRISPOSTA GENERALE\b.*?(\bSI\b|\bSÌ\b)", text, re.DOTALL):
+        return "SI"
+    
     # Se nessuna delle regole precedenti risulta soddisfatta, ritorna "Not found"
     return "Not found"
+
 
 
 def relate_checklist_determina(nome_determina,
