@@ -4,6 +4,7 @@ import torch
 import pandas as pd
 import re
 import os
+from tqdm import tqdm
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 
@@ -130,7 +131,7 @@ def checklist_determina(nome_determina,
     with open(f"./src/llama/Olbia_text/responses/{sub_cartella}{nome_determina}-Complete.txt","w", encoding="utf-8") as f_complete:
         with open(f"./src/llama/Olbia_text/responses/{sub_cartella}{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
             
-            for i,punto in enumerate(checklist["Punti"]):
+            for punto in tqdm(checklist["Punti"]):
                 
                 
                 
@@ -175,7 +176,7 @@ def checklist_determina(nome_determina,
                 })
                 
                 f_response.write(just_response)
-                print(f"Done:{i}")
+                #print(f"Done:{i}")
     with open(f"./src/llama/Olbia_text/responses/{sub_cartella}{nome_determina}-response.json","w", encoding="utf-8") as json_response:
         json.dump(responses_dic,json_response,indent = 6)
         
@@ -187,10 +188,10 @@ def checklist_determina(nome_determina,
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    model_id = "meta-llama/Llama-3.1-8B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
-    model_id = "meta-llama/Llama-3.1-70B-Instruct"
+    #model_id = "meta-llama/Llama-3.1-70B-Instruct"
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 
@@ -198,12 +199,12 @@ if __name__ == "__main__":
     if True:
 
         # Define the quantization configuration for 8-bit precision
-        quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+        #quantization_config = BitsAndBytesConfig(load_in_4bit=True)
         
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            #torch_dtype=torch.bfloat16,
-            quantization_config=quantization_config,
+            torch_dtype=torch.bfloat16,
+            #quantization_config=quantization_config,
             device_map= torch.device('cuda:1'),
             
             #device_map='auto',
@@ -217,7 +218,7 @@ if __name__ == "__main__":
             "text-generation",
             model=model,
             tokenizer=tokenizer,
-            max_new_tokens=1000,
+            max_new_tokens=100,
             pad_token_id=tokenizer.eos_token_id,  # open-end generation
             truncation=True,  # Truncates inputs exceeding model max length
             eos_token_id = tokenizer.eos_token_id,
