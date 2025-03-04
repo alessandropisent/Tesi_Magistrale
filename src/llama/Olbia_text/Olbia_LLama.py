@@ -1,8 +1,11 @@
 import json
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, BitsAndBytesConfig
 import torch
 import pandas as pd
 import re
+import os
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+
 
 def clean_text(text):
   """Cleans text by removing unrecognized special characters.
@@ -42,11 +45,10 @@ def generate_prompt(istruzioni, punti, num, determina,sezione):
     Segui i passaggi seguenti:
     1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
     2. Leggi il testo della determina.
-    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    3. Verifica se la norma è citata nella determina.
     4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
        - **SI**: Il punto della checklist e relative istruzioni sono rispettate (la determina passa il controllo)
        - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
-       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
     6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
     Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
@@ -59,11 +61,8 @@ def generate_prompt(istruzioni, punti, num, determina,sezione):
     ###### DETERMINA:
     {determina}
 
-    ##### OUTPUT: [{sezione}]
-    Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
-
-    
-    QUINDI Dati i sottopunti elencati, il Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
+    ##### OUTPUT: [{sezione}], PUNTO {num}
+    **RISPOSTA GENERALE**: [SI/NO], [spiegazione sintetica se necessaria]
     Note finali: [eventuali osservazioni generali]
     [/INST]</s>
     
@@ -126,11 +125,12 @@ def checklist_determina(nome_determina,
     
     checklist = get_checklist(checklists,nome_checklist)
     
+    responses_dic = {"array":[]}
 
     with open(f"./src/llama/Olbia_text/responses/{sub_cartella}{nome_determina}-Complete.txt","w", encoding="utf-8") as f_complete:
         with open(f"./src/llama/Olbia_text/responses/{sub_cartella}{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
             
-            for punto in checklist["Punti"]:
+            for i,punto in enumerate(checklist["Punti"]):
                 
                 
                 
@@ -145,8 +145,9 @@ def checklist_determina(nome_determina,
                     max_new_tokens=500,
                     truncation = True,
                     return_full_text=False,
-                    top_p = 0.9,
-                    temperature = 0.8,
+                    #top_p = 0.9,
+                    #temperature = 0.8,
+                    do_sample=False,  # Disable sampling for deterministic output
                 )
 
                 #print(ret)
@@ -168,8 +169,17 @@ def checklist_determina(nome_determina,
                 ### RESPONSE
                 {ret[0]["generated_text"]}
                 """
+                responses_dic["array"].append({
+                    "punto":punto["Punto"],
+                    "response":ret[0]["generated_text"]
+                })
                 
                 f_response.write(just_response)
+                print(f"Done:{i}")
+    with open(f"./src/llama/Olbia_text/responses/{sub_cartella}{nome_determina}-response.json","w", encoding="utf-8") as json_response:
+        json.dump(responses_dic,json_response,indent = 6)
+        
+                
                 
 
 
@@ -177,17 +187,23 @@ def checklist_determina(nome_determina,
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    model_id = "meta-llama/Llama-3.1-8B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
-    model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
+    #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
+    #model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+    #model_id = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 
     # This is to the possiblity to not load the model and just test for errors
     if True:
 
+        # Define the quantization configuration for 8-bit precision
+        quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+        
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
+            #quantization_config=quantization_config,
             #device_map= torch.device('cuda:0'),
             
             device_map='auto',
@@ -202,9 +218,9 @@ if __name__ == "__main__":
             model=model,
             tokenizer=tokenizer,
             max_new_tokens=1000,
-            pad_token_id=tokenizer.pad_token_id,  # Ensures proper padding during generation
+            pad_token_id=tokenizer.eos_token_id,  # open-end generation
             truncation=True,  # Truncates inputs exceeding model max length
-            eos_token_id = tokenizer.eos_token_id
+            eos_token_id = tokenizer.eos_token_id,
             
         )
     
@@ -228,17 +244,19 @@ if __name__ == "__main__":
                                                             model_id.split("/", 1)[1])
         
         df_determine.to_csv("./src/llama/Olbia_text/Olbia_Determine_gen.csv")
-            
+    
+    done = [0]       
     
     if True:
         for i, _ in df_determine.iterrows():
-            num = df_determine["Numero Determina"].loc[i]
-            che_ass = df_determine["Checklist associata"].loc[i]
-            sub_cartella = "llamantino70/"
-            
-            
-            checklist_determina(num,che_ass, text_gen_pipeline, checklists,sub_cartella)
-            print(f"Done determina {num} - {che_ass}")
+            if i not in done:
+                num = df_determine["Numero Determina"].loc[i]
+                che_ass = df_determine["Checklist associata"].loc[i]
+                sub_cartella = "General/"
+                
+                
+                checklist_determina(num,che_ass, text_gen_pipeline, checklists,sub_cartella)
+                print(f"Done determina {num} - {che_ass}")
             
 
 ## Numero Determina,Checklist associata

@@ -1,0 +1,201 @@
+ 
+                #### CHECKLIST
+                Nella determina oltre il settore va indicato il servizio di appartenenza presente nella macrostruttura vigente.
+
+Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.
+                
+                ### RESPONSE
+                 <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    <s> 
+    La determina è intestata al Settore Servizi alla Persona, Ufficio di Piano - gestione integrata, e il tipo di provvedimento è una Determinazione Dirigenziale.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene l'intestazione con i dati richiesti.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: SI
+    </s>
+    La determina contiene la menzione del tipo di provvedimento e del Settore Servizi alla Persona.
+    </s>
+    <s> 
+
+                 
+                #### CHECKLIST
+                Indica in sintesi il contenuto del provvedimento, inserendo nell’oggetto il codice corretto (15275) e la norma attributiva del potere ex art. 50, comma 1, let. a/let.b del Dlgs n.36/2023 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+Oggetto della determinazione
+                
+                ### RESPONSE
+                 <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: L'oggetto della determina è correttamente indicato come "COD. 15271  - PROCEDURA AI SENSI DELL'ART. 50, COMMA 1, LETT. B) DEL D. LGS. 36/2023, MEDIANTE TRATTATIVA DIRETTA CON L'IMPIEGO DEL M.E.P.A. DI CONSIP, PER L'ACQUISIZIONE DI ARREDI PER UFFICI SETTORE SERVIZI ALLA PERSONA. DECISIONE A CONTRARRE, APPROVAZIONE ATTI - C.C. 6000000 - CPV: 39121100-7"
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina riporta l'oggetto corretto, che corrisponde al codice 15271 e alla norma attributiva del potere ex art. 50, comma 1, lett. b) del Dlgs n. 36/2023.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina riporta la norma attributiva del potere ex art. 50, comma 1, lett. b) del Dlgs n. 36/2023, che autorizza l'acquisto di beni e servizi mediante trattativa diretta con l'impiego del MePA di Consip.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina riporta la norma attributiva del potere ex art. 50, comma 1, lett. b) del Dlgs n. 36/2023, che autorizza l'acquisto di beni e servizi mediante trattativa diretta con l'impiego del MePA di Consip.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina ri
+                 
+                #### CHECKLIST
+                Per il CPV Il documento del Presidente dell’Autorità del 9 maggio 2023 n. 2 spiega il funzionamento del Vocabolario dei Codici CPV e le modalità di utilizzo per la scelta del codice adatto al singolo appalto individuare i CPV del vocabolario principale con un livello di classificazione non inferiore alle categorie (con almeno le 5 cifre che indichino divisione–gruppo–classe–categoria)  Da indicare obbligatoriamente nella Determinazione ai sensi dell'art. 17, comma 2, del D.Lgs. n. 36/2023, oppure, nella Determinazione di aggiudicazione in caso di affidamento diretto ordinario. Ai fini di non aggravare il procedimento e nel rispetto del principio di tempestività si opta di norma la procedura semplificata di cui all’art.17, comma2 del Dlgs n.36/2023 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+Indicazione del CIG, del CPV e del CUP (l’indicazione del CUI:  non è richiesta per gli affidamenti diretti ai sensi dell’art. 50 del Dlgs n.36/2023, in quanto consentiti per importi per i quali non è dovuto l’inserimento nei programmi triennali. È richiesta per affidamenti diretti ai sensi dell’art.76 del Dlgs n.36/2023. In caso di consegne complementari ex art.76, comma 4, let. B, o di ripetizione di lavori o servizi analoghi ex art. 76, comma 6, dovrà essere indicato il CUI dell’appalto principale del quale l’affidamento diretto risulta complementare o analogo)
+                
+                ### RESPONSE
+                 <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+    **RISPOSTA GENERALE**: [SI]
+    **Spiegazione sintetica**: La determina dirigenziale contiene l'indicazione del CIG, del CPV e del CUP, come richiesto dalla normativa.
+    </s>
+    <s> 
+
+                 
+                #### CHECKLIST
+                Riportare il numero identificativo 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+Centro di Costo: si indica il centro di costo al quale imputare la spesa.
+                
+                ### RESPONSE
+                 Risposta generale: SI
+    Note finali: La determina dirigenziale rispetta le norme indicate nella checklist, in particolare l'art. 50, comma 1, lett. b) del D. Lgs. 36/2023, che prevede l'affidamento diretto mediante trattativa diretta con l'impiego del MePA di Consip. La determina cita esplicitamente la norma e fornisce le motivazioni per l'adozione di tale procedura. Inoltre, la determina rispetta le norme relative alla trasparenza e alla pubblicità, come previsto dall'art. 28 del D. Lgs. 36/2023 e dalla delibera Anac n. 261 del 20/06/2023. Infine, la determina rispetta le norme relative alla pubblicazione degli atti e dei dati, come previsto dall'art. 37 del decreto trasparenza e dall'art. 28 del D. Lgs. 36/2023. 
+    </s> 
+    <s> 
+    Risposta generale: SI
+    Note finali: La determina dirigenziale rispetta le norme indicate nella checklist, in particolare l'art. 50, comma 1, lett. b) del D. Lgs. 36/2023, che prevede l'affidamento diretto mediante trattativa diretta con l'impiego del MePA di Consip. La determina cita esplicitamente la norma e fornisce le motivazioni per l'adozione di tale procedura. Inoltre, la determina rispetta le norme relative alla trasparenza e alla pubblicità, come previsto dall'art. 28 del D. Lgs. 36/2023 e dalla delibera Anac n. 261 del 20/06/2023. Infine, la determina rispetta le norme relative alla pubblicazione degli atti e dei dati, come previsto dall'art. 37 del decreto trasparenza e dall'art. 28 del D. Lgs. 36/2023. 
+    </s> 
+    <s> 
+    Risposta generale: SI
+                 
+                #### CHECKLIST
+                Decreto di conferimento dell’incarico di responsabilità che autorizza l’adozione dell’atto. In caso di facente funzione citare il decreto di sostituzione dei dirigenti momentaneamente assenti. Esplicitare se il Dirigente è anche RUP (responsabile unico di progetto); esplicitare se il Dirigente è anche responsabile della fase di affidamento. Il nuovo codice (art.15) consente di individuare modelli organizzativi, i quali prevedano la nomina di un responsabile di procedimento per le fasi di programmazione, progettazione ed esecuzione e un responsabile di procedimento per la fase di affidamento. In questo caso occorre definire i rispettivi compiti e profili di responsabilità  “il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, affidamento ed esecuzione ai sensi dell’art. 4 della L. 241/90” oppure “il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell’art. 4 della L. 241/90 mentre il Responsabile di procedimento della fase di affidamento è……”
+
+Estremi decreto sindacale di nomina del Dirigente.
+                
+                ### RESPONSE
+                 Risposta generale: [SI]
+    Spiegazione sintetica: La determina dirigenziale rispetta il punto 5 della checklist, poiché esplicita che il Dirigente è anche RUP (responsabile unico di progetto) e che il RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell’art. 4 della L. 241/90.
+    Note finali: Nessuna osservazione generale.
+    </s> 
+    <s> 
+    Risposta generale: [SI]
+    Spiegazione sintetica: La determina dirigenziale rispetta il punto 5 della checklist, poiché esplicita che il Dirigente è anche RUP (responsabile unico di progetto) e che il RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell’art. 4 della L. 241/90.
+    Note finali: Nessuna osservazione generale.
+    </s> 
+    <s> 
+    Risposta generale: [SI]
+    Spiegazione sintetica: La determina dirigenziale rispetta il punto 5 della checklist, poiché esplicita che il Dirigente è anche RUP (responsabile unico di progetto) e che il RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell’art. 4 della L. 241/90.
+    Note finali: Nessuna osservazione generale.
+    </s> 
+    <s> 
+    Risposta generale: [SI]
+    Spiegazione sintetica: La determina dirigenziale rispetta il punto 5 della checklist, poiché esplicita che il Dirigente è anche RUP (responsabile unico di progetto) e che il RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell’art. 4 della L. 241/90.
+    Note finali: Nessuna osservazione generale.
+    </s> 
+    <
+                 
+                #### CHECKLIST
+                Art. 16. (Conflitto di interessi)  Si ha conflitto di interessi quando un soggetto che, a qualsiasi titolo, interviene con compiti funzionali nella procedura di aggiudicazione o nella fase di esecuzione degli appalti o delle concessioni e ne può influenzare, in qualsiasi modo, il risultato, gli esiti e la gestione, ha direttamente o indirettamente un interesse finanziario, economico o altro interesse personale che può essere percepito come una minaccia alla sua imparzialità e indipendenza nel contesto della procedura di aggiudicazione o nella fase di esecuzione.  “Rilevato il pieno rispetto, in fase istruttoria e di predisposizione degli atti, delle disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e l’insussistenza, ai sensi dell’art.16 del Dlgs n.36/2023 di conflitto di interesse in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso”
+
+Conflitto d’interessi
+                
+                ### RESPONSE
+                 Risposta generale: SI
+    Note finali: La determina dirigenziale rispetta le disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e non risulta esservi conflitto di interessi in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso, ai sensi dell’art. 16 del D.lgs. n. 36/2023. 
+    </s> 
+    <s> 
+    Risposta generale: SI
+    Note finali: La determina dirigenziale rispetta le disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e non risulta esservi conflitto di interessi in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso, ai sensi dell’art. 16 del D.lgs. n. 36/2023. 
+    </s> 
+    <s> 
+    Risposta generale: SI
+    Note finali: La determina dirigenziale rispetta le disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e non risulta esservi conflitto di interessi in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso, ai sensi dell’art. 16 del D.lgs. n. 36/2023. 
+    </s> 
+    <s> 
+    Risposta generale: SI
+    Note finali: La determina dirigenziale rispetta le disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e non risulta esservi conflitto di interessi in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso, ai sensi dell’art. 16 del D.lgs. n. 36/2023. 
+    </s> 
+    <s> 
+    Risposta generale
+                
