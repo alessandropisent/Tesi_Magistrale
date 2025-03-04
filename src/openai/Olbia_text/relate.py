@@ -121,11 +121,11 @@ def relate_checklist_determina(nome_determina,
 if __name__ == "__main__":
     
     done = []
-    #model = "gpt-4o-mini"
-    #model_folder = "mini"
+    model = "gpt-4o-mini"
+    model_folder = "mini"
     
-    model = "gpt-4o"
-    model_folder = "full"
+    #model = "gpt-4o"
+    #model_folder = "full"
 
     #load the json - Dictionary
     with open("./src/txt/Olbia/checklists/checklists.json","r", encoding="utf-8") as f:

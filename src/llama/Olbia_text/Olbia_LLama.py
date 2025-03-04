@@ -187,10 +187,10 @@ def checklist_determina(nome_determina,
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
-    #model_id = "meta-llama/Llama-3.1-70B-Instruct"
+    model_id = "meta-llama/Llama-3.1-70B-Instruct"
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 
@@ -202,11 +202,11 @@ if __name__ == "__main__":
         
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            torch_dtype=torch.bfloat16,
-            #quantization_config=quantization_config,
-            #device_map= torch.device('cuda:0'),
+            #torch_dtype=torch.bfloat16,
+            quantization_config=quantization_config,
+            device_map= torch.device('cuda:1'),
             
-            device_map='auto',
+            #device_map='auto',
             #use_flash_attention_2=True
         )
         tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
@@ -245,7 +245,7 @@ if __name__ == "__main__":
         
         df_determine.to_csv("./src/llama/Olbia_text/Olbia_Determine_gen.csv")
     
-    done = [0]       
+    done = [1,2]       
     
     if True:
         for i, _ in df_determine.iterrows():
