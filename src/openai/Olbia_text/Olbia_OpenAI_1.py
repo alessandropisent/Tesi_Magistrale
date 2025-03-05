@@ -217,7 +217,7 @@ if __name__ == "__main__":
     
     #temp_values = [round(x * 0.2, 1) for x in range(6)]
     temp_values = [1.0]
-    
+    done = [1,2,3,4,5,6,7,8,9,10]
     
     if True:
         for temperature in temp_values:

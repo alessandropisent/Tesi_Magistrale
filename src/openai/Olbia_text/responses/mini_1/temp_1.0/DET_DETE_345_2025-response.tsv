@@ -1,79 +1,89 @@
 	Punto	Response	Simple
-0	Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.	"RISPOSTA: NO
+0	Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento. Nella determina oltre il settore va indicato il servizio di appartenenza presente nella macrostruttura vigente.	"RISPOSTA: NO
 
-Note: Nella determina non è specificato il servizio di appartenenza presente nella macrostruttura vigente."	NO
-1	Oggetto della determinazione	RISPOSTA: SI	SI
-2	Indicazione del CIG, del CPV e del CUP (l’indicazione del CUI:  non è richiesta per gli affidamenti diretti ai sensi dell’art. 50 del Dlgs n.36/2023, in quanto consentiti per importi per i quali non è dovuto l’inserimento nei programmi triennali. È richiesta per affidamenti diretti ai sensi dell’art.76 del Dlgs n.36/2023. In caso di consegne complementari ex art.76, comma 4, let. B, o di ripetizione di lavori o servizi analoghi ex art. 76, comma 6, dovrà essere indicato il CUI dell’appalto principale del quale l’affidamento diretto risulta complementare o analogo)	RISPOSTA: SI	SI
+Note: Non è esplicitato nella determina il servizio di appartenenza presente nella macrostruttura vigente."	NO
+1	Oggetto della determinazione	"RISPOSTA : NO
+
+Note: L’oggetto della determinazione menziona il codice 15275 anziché 15271, è necessario correggerlo."	NO
+2	Indicazione del CIG e /o del CUP del CUI, del CPV	RISPOSTA: SI	SI
 3	Centro di Costo: si indica il centro di costo al quale imputare la spesa.	RISPOSTA : SI	SI
-4	Estremi decreto sindacale di nomina del Dirigente.	RISPOSTA: SI	SI
-5	Conflitto d’interessi	RISPOSTA: SI	SI
-6	Estremi della delega alla firma dell’atto, se persona diversa dal Dirigente.	NO	NO
-7	Estremi atto di nomina del Responsabile unico del Progetto, se nominato.	RISPOSTA: SI	SI
-8	Normativa specifica:  Codice dei contratti pubblici (D.Lgs. n. 36.2023.) ;  L. R. n. 8/2018;  Art. 26 legge n.488/1999  Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012 n. 135 (adesione convenzione Consip e MEPA);  Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);  Art. 26, della legge n. 488/1999 e ss.mm.ii.; DPCM 24 dicembre 2015 ;	RISPOSTA : SI	SI
-9	Normativa generale:  TUEL;  Legge n. 241/90;  DPR n. 62/2013 Codice comportamento dipendenti pubblici;  L. n. 190/2012;  D.Lgs. n. 33/2013.  Legge n° 136/2010	RISPOSTA: SI	SI
-10	Norme di principio   Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)	RISPOSTA : SI	SI
-11	Regolamenti dell’ente quali:  - Statuto Comunale;  - Regolamento di contabilità;  - Regolamento dei contratti	"RISPOSTA: NO
+4	Estremi decreto sindacale di nomina del dirigente.	RISPOSTA : SI	SI
+5	Estremi della delega alla firma dell'atto, se persona diversa dal Dirigente.	RISPOSTA: NO	NO
+6	Estremi atto di nomina del Responsabile del Progetto.	RISPOSTA : SI	SI
+7	Conflitto d'interessi 	"RISPOSTA: SI
 
-Note: Non è menzionato né lo Statuto Comunale, né il Regolamento di contabilità, né il Regolamento dei contratti nella determina."	NO
-12	Indicazione dei riferimenti della determina a contrarre “semplificata” adottata	RISPOSTA: YES	Not found
-13	Indicazione dei riferimenti della determina a contrarre “non semplificata” adottata	"RISPOSTA: NO
+Nota: La determina menziona che non sussistono situazioni di conflitto di interessi in relazione ai soggetti coinvolti nella procedura, in conformità all'art. 16 del D.lgs. n. 36/2023."	SI
+8	"**Normativa specifica**:
+Codice dei contratti pubblici (D.Lgs. n. 36.2023.);
+L.R. n. 8/2018 e ss.mm.ii. (per quanto applicabile);
+Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012, n. 135 (adesione convenzione Consip);
+Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);
+Art. 26, della legge n. 488/1999 e ss.mm.ii.;
+DPCM 24 dicembre 2015."	RISPOSTA : SI	SI
+9	"**Normativa generale**:
+TUEL;
+Legge n. 241/90;
+DPR n. 62/2013 Codice comportamento dipendenti pubblici;
+L. n. 190/2012;
+D.Lgs. n. 33/2013;
+Legge n.136/2010."	RISPOSTA : SI	SI
+10	"**Norme di principio**
+Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)"	RISPOSTA : NO	NO
+11	"Regolamenti dell’ente quali:
+- Statuto Comunale;
+- Regolamento di contabilità;
+- Regolamento dei contratti"	"RISPOSTA: NO
 
-Note: La determina non riporta esplicitamente l'indicazione dei riferimenti della determina a contrarre ""non semplificata""."	NO
-14	Elementi da approvare con la determina a contrarre nel caso di provvedimento unico	NO	NO
-15	Per gli appalti di servizi: DUVRI	RISPOSTA: SI	SI
-16	Suddivisione in lotti e norme sull’indebito frazionamento	"RISPOSTA : NO  
-Note: Nella determina non è presente alcun riferimento alla mancata suddivisione dell'appalto in lotti, né motivazioni correlate al rispetto dell'art. 58 del Dlgs n. 36/2023."	NO
-17	Validazione (in caso di lavori pubblici)	"RISPOSTA : NO
+Note: Nella determina non si fa esplicito riferimento allo Statuto Comunale, al Regolamento di contabilità, né al Regolamento dei contratti."	NO
+12	Termini per la conclusione della procedura 	"RISPOSTA: NO
 
-Note: Non è stata fornita alcuna indicazione riguardo all'avvenuta validazione del progetto posto a base di gara."	NO
-18	Criteri Ambientali Minimi (CAM)	RISPOSTA : NO	NO
-19	Cauzione	RISPOSTA : NO	NO
-20	Riferimenti all’obbligo di utilizzo di convenzioni Consip o di soggetti aggregatori	"RISPOSTA: SI
+Note: Non è presente alcun riferimento ai termini per la conclusione della procedura nella determina."	NO
+13	Fine che con il contratto si intende perseguire	RISPOSTA: SI	SI
+14	Oggetto del contratto	"RISPOSTA: NO 
 
-Note: Nella determina si fa riferimento alla verifica che non ci siano convenzioni attive di Consip o di altro soggetto aggregatore relative alla fornitura oggetto dell'affidamento, quindi è stato giustificato il ricorso all'affidamento diretto."	SI
-21	Riferimenti all’obbligo di utilizzo del MEPA o del sistema telematico messo a disposizione dalla centrale regionale di riferimento	"RISPOSTA: NO
+Note: La determina non specifica un capitolato d’appalto, quaderno d’oneri o schema di contratto."	NO
+15	DUVRI (per i servizi)	RISPOSTA: SI	SI
+16	Costo della mano d’opera; contratto applicabile 	NO	NO
+17	Suddivisione in lotti	"RISPOSTA : NO
 
-Note: Nella determina è specificato che l'importo dell'affidamento è di € 4.026,00, quindi è superiore alla soglia di € 5.000,00, e infatti viene fatto ricorso al MEPA. Tuttavia, non è menzionato un riferimento diretto all'obbligo di utilizzo del MEPA in ottemperanza all'art. 1, comma 449 della legge 296/2006."	NO
-22	Indicazioni in merito all’istruttoria propedeutica al provvedimento	RISPOSTA: NO	NO
-23	Denominazione dell’operatore economico affidatario e indicazione relativa all’acquisizione dell’offerta	"RISPOSTA : NO  
-Note: La determina non riporta la denominazione dell’operatore economico affidatario e l'indicazione relativa all'acquisizione dell'offerta."	NO
-24	Importo di affidamento	"RISPOSTA: NO
+Nota: La determina non menziona la motivazione sulla mancata suddivisione dell'appalto in lotti ai sensi dell’art. 58 del Dlgs n. 36/2023."	NO
+18	Validazione (in caso di lavori pubblici)	"RISPOSTA : NO
 
-Note: Non ci sono riferimenti specifici all'importo di affidamento e agli eventuali oneri della sicurezza, oneri interferenziali, costo della manodopera, contratto collettivo di lavoro applicato, quinto d’obbligo, revisione dei prezzi, somme a disposizione, supporto al RUP e incentivi nel testo della determinazione."	NO
-25	Indicazione di requisiti previsti dalle disposizioni vigenti per il ricorso all’affidamento diretto.	RISPOSTA: SI	SI
-26	Motivazione scelta della procedura e del contraente;        Esporre le ragioni della scelta della ditta affidataria;        Esposizione del fatto che legittima il ricorso alla procedura e della valutazione in ordine alla scelta del contraente.	RISPOSTA: SI	SI
-27	Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023	"RISPOSTA: NO
+Note: Nel testo della determina non è menzionata la validazione del progetto posto a base di gara."	NO
+19	Criteri Ambientali minimi	"RISPOSTA: NO
 
-Nota: Non viene fornita una motivazione specifica per il ricorso alla procedura ex art. 76, del D.lgs. n. 36/2023."	NO
-28	Conformità dell’affidamento ai principi ed alle norme in materia di appalti pubblici	RISPOSTA : SI	SI
-29	Dare atto della verifica dei requisiti dell’affidatario	"RISPOSTA: NO
+Note: Nella determina non è presente alcun riferimento ai Criteri Ambientali Minimi (CAM) o alla loro applicazione."	NO
+20	Forma del contratto	RISPOSTA : SI	SI
+21	Clausole del contratto ritenute essenziali	RISPOSTA: SI	SI
+22	Cauzione provvisoria	"RISPOSTA: NO
 
-Nota: Non si trova menzione esplicita della verifica dei requisiti dell'affidatario nella determina."	NO
-30	Verifica sulla regolarità contributiva, DURC o attestazione della stessa o autocertificazione (limitata ai casi previsti dalla legge).	RISPOSTA: SI	SI
-31	Riferimenti alla deliberazione di approvazione del bilancio.	"RISPOSTA: NO
+Note: Non viene richiesta la garanzia definitiva in quanto l’affidamento non lo prevede, secondo quanto indicato nella determina."	NO
+23	Modalità di scelta del contraente e ragioni che ne sono alla base (motivare in modo specifico) e criteri di selezione delle offerte	"RISPOSTA: NO
 
-Note: Nella determina non sono stati indicati gli estremi di approvazione del bilancio pluriennale vigente."	NO
-32	Riferimenti deliberazione approvazione PEG e al PIAO	"RISPOSTA: NO 
+Note: La determina non fornisce una motivazione specifica riguardante la modalità di scelta del contraente e i criteri di selezione delle offerte, come richiesto dal punto 24."	NO
+24	Rotazione degli affidamenti 	"RISPOSTA : NO
 
-Note: Nella determina non sono presenti riferimenti alla deliberazione di approvazione del Piano Esecutivo di Gestione (PEG) o al Piano Integrato di Attività e Organizzazione (PIAO)."	NO
-33	Impegno di spesa/prenotazione	RISPOSTA: SI	SI
-34	Contributo ANAC	"RISPOSTA : NO
+Note: La determina specifica che il principio di rotazione di cui all’art. 49 del d.lgs. 36/2023 può essere derogato per gli affidamenti diretti di importo inferiore a 5.000 euro. Questo implica che non si applica la rotazione per la presente procedura."	NO
+25	"Indicazione dell’importo massimo stimato a base di gara
+Quadro economico dell’intervento  comprensivo di 
+Importo a base di gara, oneri fiscali, costi della sicurezza/interferenziali, revisione dei prezzi, somme a disposizione, supporto al RUP, incentivi (art. 45) modificazioni del contratto preventivabili, proroga, lavori o servizi analoghi, quinto d’obbligo"	"RISPOSTA: NO
 
-Note: Non è menzionato né assunto un impegno di spesa relativo al pagamento del contributo all'ANAC nella determina."	NO
-35	Flussi finanziari	"RISPOSTA : NO
+Nota: Nella determina non è presente un'indicazione chiara dell'importo massimo stimato a base di gara e del quadro economico dell'intervento, come i costi della sicurezza, oneri fiscali, e altre voci richieste. Questo rappresenta una grave omissione."	NO
+26	Riferimenti all’obbligo di utilizzo degli strumenti di acquisto e di negoziazione messi a disposizione da CONSIP e da soggetti aggregatori 	"RISPOSTA : NO
 
-Nota: La determina non contiene riferimenti specifici all'obbligo di tracciabilità dei flussi finanziari ai sensi della legge n° 136/2010 nel contesto indicato."	NO
-36	Conformità dei pagamenti con le regole della finanza pubblica vigenti	RISPOSTA : SI	SI
-37	Indicazione esatta dell’aggiudicatario: nome, cognome, ragione sociale, indirizzo, P.Iva, Cod. Fiscale, sede legale/operativa, altro.	RISPOSTA : SI	SI
-38	Comunicazione all’aggiudicatario dell’impegno di spesa, la copertura finanziaria, CIG	RISPOSTA: SI	SI
-39	Indicazione specifica della tipologia del contratto	RISPOSTA : SI	SI
-40	Obblighi di pubblicità e trasparenza	RISPOSTA: SI	SI
-41	Attestazione circa il rispetto delle prescrizioni del   PTPCT dell’Ente	"RISPOSTA: NO
+Note: La determina non menziona chiaramente il rispetto degli obblighi di utilizzo degli strumenti di acquisto e di negoziazione messi a disposizione da CONSIP e da soggetti aggregatori, come richiesto."	NO
+27	Riferimenti alla qualificazione del Comune quale Stazione appaltante	RISPOSTA : NO	NO
+28	Riferimenti alla deliberazione di approvazione del bilancio.	"RISPOSTA: NO
 
-Note: Non è presente l'attestazione circa il rispetto delle prescrizioni del PTPCT dell'Ente."	NO
-42	Pubblicazione atti all’Albo Pretorio Online.	RISPOSTA: SI	SI
-43	Indicazione termini e autorità a cui ricorrere	RISPOSTA: SI	SI
-44	Sottoscrizione del Dirigente firmatario dell’atto e, dove previsto, del RP o RUP.	RISPOSTA: SI	SI
-45	Presenza del visto di regolarità contabile	"RISPOSTA: NO
+Note: Non sono presenti riferimenti alla deliberazione di approvazione del bilancio pluriennale vigente nella determina."	NO
+29	Riferimenti deliberazione approvazione PEG e del PIAO	RISPOSTA : NO	NO
+30	Impegno di spesa/prenotazione/copertura finanziaria	"RISPOSTA : SI 
 
-Note: Non risulta presente il visto di regolarità contabile nella determina."	NO
+Nota: L'importo da impegnare è di € 4.026,00, assoggettato a IVA al 22% per una parte (aggiornamento Software Auditing PA) mentre la formazione è esente da IVA ai sensi dell’articolo 10, primo comma, n. 20) del D.P.R. 633/72. Non ci sono riferimenti a bilancio e PEG non approvati o impegni di spesa pluriennali nel testo della determina."	SI
+31	Conformità dei pagamenti con le regole della finanza pubblica vigenti.	RISPOSTA : SI	SI
+32	Contributo ANAC	RISPOSTA : NO	NO
+33	Richiamati e/o allegati	RISPOSTA : SI	SI
+34	Obblighi di pubblicità e trasparenza	RISPOSTA: SI	SI
+35	Pubblicazione atti all’Albo Pretorio Online	RISPOSTA: SI	SI
+36	Acquisizione del visto di regolarità contabile ai sensi dell’art. 153 del D.Lgs. n. 267/2000	RISPOSTA : SI	SI
+37	Sottoscrizione del Dirigente firmatario dell’atto e dove previsto del R.P. o RUP.	RISPOSTA: SI	SI
