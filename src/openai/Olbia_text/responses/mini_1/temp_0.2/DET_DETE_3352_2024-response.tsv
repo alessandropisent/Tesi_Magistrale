@@ -1,0 +1,95 @@
+	Punto	Response	Simple
+0	Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.	"RISPOSTA: NO
+
+Note: Nella determina non è specificato il servizio di appartenenza all'interno del settore indicato."	NO
+1	Oggetto della determinazione	"RISPOSTA: NO
+
+Note: Il provvedimento non riporta correttamente il codice 15275 nell'oggetto e non menziona esplicitamente la norma attributiva del potere ex art. 50, comma 1, lett. a/b del Dlgs n. 36/2023."	NO
+2	Indicazione del CIG, del CPV e del CUP (l’indicazione del CUI:  non è richiesta per gli affidamenti diretti ai sensi dell’art. 50 del Dlgs n.36/2023, in quanto consentiti per importi per i quali non è dovuto l’inserimento nei programmi triennali. È richiesta per affidamenti diretti ai sensi dell’art.76 del Dlgs n.36/2023. In caso di consegne complementari ex art.76, comma 4, let. B, o di ripetizione di lavori o servizi analoghi ex art. 76, comma 6, dovrà essere indicato il CUI dell’appalto principale del quale l’affidamento diretto risulta complementare o analogo)	"RISPOSTA: NO
+
+Note: Nella determina non è presente l'indicazione del codice CPV."	NO
+3	Centro di Costo: si indica il centro di costo al quale imputare la spesa.	RISPOSTA : SI	SI
+4	Estremi decreto sindacale di nomina del Dirigente.	"RISPOSTA : NO
+
+Note: Non sono presenti nel testo della determina gli estremi del decreto sindacale di nomina del Dirigente."	NO
+5	Conflitto d’interessi	RISPOSTA: SI	SI
+6	Estremi della delega alla firma dell’atto, se persona diversa dal Dirigente.	RISPOSTA : NO	NO
+7	Estremi atto di nomina del Responsabile unico del Progetto, se nominato.	RISPOSTA: SI	SI
+8	Normativa specifica:  Codice dei contratti pubblici (D.Lgs. n. 36.2023.) ;  L. R. n. 8/2018;  Art. 26 legge n.488/1999  Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012 n. 135 (adesione convenzione Consip e MEPA);  Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);  Art. 26, della legge n. 488/1999 e ss.mm.ii.; DPCM 24 dicembre 2015 ;	RISPOSTA: SI	SI
+9	Normativa generale:  TUEL;  Legge n. 241/90;  DPR n. 62/2013 Codice comportamento dipendenti pubblici;  L. n. 190/2012;  D.Lgs. n. 33/2013.  Legge n° 136/2010	RISPOSTA: SI	SI
+10	Norme di principio   Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)	RISPOSTA: SI	SI
+11	Regolamenti dell’ente quali:  - Statuto Comunale;  - Regolamento di contabilità;  - Regolamento dei contratti	RISPOSTA : SI	SI
+12	Indicazione dei riferimenti della determina a contrarre “semplificata” adottata	"RISPOSTA: NO
+
+Note: La determina non contiene un riferimento esplicito a una determina a contrarre ""semplificata"" adottata."	NO
+13	Indicazione dei riferimenti della determina a contrarre “non semplificata” adottata	"RISPOSTA: NO
+
+Note: Non è presente un riferimento esplicito alla determina a contrarre ""non semplificata"" con numero e data."	NO
+14	Elementi da approvare con la determina a contrarre nel caso di provvedimento unico	NO	NO
+15	Per gli appalti di servizi: DUVRI	"RISPOSTA: NO
+
+Note: Non è presente alcun riferimento al DUVRI o all'attestazione del progettista nella determina."	NO
+16	Suddivisione in lotti e norme sull’indebito frazionamento	"RISPOSTA : NO
+
+Note: Non è presente alcuna motivazione riguardante la mancata suddivisione dell'appalto in lotti ai sensi dell’art. 58 del Dlgs n. 36/2023 nella determina."	NO
+17	Validazione (in caso di lavori pubblici)	"RISPOSTA : NO
+
+Note: Nella determina non sono indicati gli estremi dell'avvenuta validazione del progetto posto a base di gara."	NO
+18	Criteri Ambientali Minimi (CAM)	"RISPOSTA: NO
+
+Note: Nella determina non è presente alcun riferimento all'applicazione dei Criteri Ambientali Minimi (CAM) né all'art. 18 della L. 221/2015 o all'art. 57 comma 2 del Dlgs n. 36/2023."	NO
+19	Cauzione	"RISPOSTA: NO
+
+Note: Nella determina non è presente alcun riferimento alla cauzione, né alla cauzione definitiva né alla sua assenza in relazione all'affidamento diretto."	NO
+20	Riferimenti all’obbligo di utilizzo di convenzioni Consip o di soggetti aggregatori	"RISPOSTA: NO
+
+Note: Nella determina non si fa riferimento all'adesione a convenzioni Consip o di altro soggetto aggregatore per l'affidamento del servizio in oggetto."	NO
+21	Riferimenti all’obbligo di utilizzo del MEPA o del sistema telematico messo a disposizione dalla centrale regionale di riferimento	RISPOSTA: NO	NO
+22	Indicazioni in merito all’istruttoria propedeutica al provvedimento	"RISPOSTA: NO
+
+Note: Non è presente nel testo della determina una chiara indicazione riguardo all'istruttoria propedeutica al provvedimento, né dettagli specifici sulle modalità di interpellazione degli operatori economici o sull'analisi di mercato effettuata dal RUP."	NO
+23	Denominazione dell’operatore economico affidatario e indicazione relativa all’acquisizione dell’offerta	RISPOSTA: SI	SI
+24	Importo di affidamento	"RISPOSTA: NO
+
+Note: Non è presente un dato specifico riguardante la congruità del costo della manodopera, il contratto collettivo di lavoro applicato, eventuali oneri della sicurezza, oneri interferenziali, costo della manodopera dichiarato, eventuale quinto d’obbligo, revisione dei prezzi, somme a disposizione, supporto al RUP, incentivi (art. 45)."	NO
+25	Indicazione di requisiti previsti dalle disposizioni vigenti per il ricorso all’affidamento diretto.	RISPOSTA: SI	SI
+26	Motivazione scelta della procedura e del contraente;        Esporre le ragioni della scelta della ditta affidataria;        Esposizione del fatto che legittima il ricorso alla procedura e della valutazione in ordine alla scelta del contraente.	"NO
+
+Note: La determina non espone dettagliatamente le ragioni della scelta dell'affidatario in relazione ai requisiti previsti dall'art. 50 del D.Lgs. n. 36/2023, né fornisce una motivazione adeguata riguardo alla congruità del prezzo e al rispetto del principio di rotazione."	NO
+27	Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023	"RISPOSTA: NO
+
+Note: Non è presente una motivazione specifica del ricorso alla procedura ex art. 76, del Dlgs n. 36/2023 nella determina."	NO
+28	Conformità dell’affidamento ai principi ed alle norme in materia di appalti pubblici	RISPOSTA: SI	SI
+29	Dare atto della verifica dei requisiti dell’affidatario	RISPOSTA : SI	SI
+30	Verifica sulla regolarità contributiva, DURC o attestazione della stessa o autocertificazione (limitata ai casi previsti dalla legge).	"RISPOSTA: NO
+
+Note: Non è menzionata la regolarità contributiva, DURC o attestazione della stessa nella determina."	NO
+31	Riferimenti alla deliberazione di approvazione del bilancio.	"RISPOSTA : NO
+
+Note: Non sono presenti riferimenti alla deliberazione di approvazione del bilancio pluriennale vigente nella determina."	NO
+32	Riferimenti deliberazione approvazione PEG e al PIAO	"RISPOSTA : NO
+
+Note: Non è presente alcun riferimento alla deliberazione di approvazione del PEG e al PIAO nella determina."	NO
+33	Impegno di spesa/prenotazione	"RISPOSTA: SI
+
+Note: L'importo impegnato è di € 11.292,32, comprensivo di IVA al 22%."	SI
+34	Contributo ANAC	RISPOSTA : NO	NO
+35	Flussi finanziari	"NO
+
+Note: Non è presente alcun riferimento alla legge n° 136/2010 riguardante l'obbligo di tracciabilità dei flussi finanziari nella determina."	NO
+36	Conformità dei pagamenti con le regole della finanza pubblica vigenti	"NO
+
+Note: Non è presente un esplicito riferimento alla compatibilità del programma di spesa con le vigenti regole della finanza pubblica."	NO
+37	Indicazione esatta dell’aggiudicatario: nome, cognome, ragione sociale, indirizzo, P.Iva, Cod. Fiscale, sede legale/operativa, altro.	RISPOSTA: SI	SI
+38	Comunicazione all’aggiudicatario dell’impegno di spesa, la copertura finanziaria, CIG	RISPOSTA: SI	SI
+39	Indicazione specifica della tipologia del contratto	RISPOSTA: SI	SI
+40	Obblighi di pubblicità e trasparenza	RISPOSTA: SI	SI
+41	Attestazione circa il rispetto delle prescrizioni del   PTPCT dell’Ente	RISPOSTA: SI	SI
+42	Pubblicazione atti all’Albo Pretorio Online.	RISPOSTA : SI	SI
+43	Indicazione termini e autorità a cui ricorrere	"RISPOSTA : NO
+
+Note: Non è presente l'indicazione che avverso il provvedimento può essere proposto ricorso innanzi alla sezione del Tribunale Amministrativo Regionale di Cagliari."	NO
+44	Sottoscrizione del Dirigente firmatario dell’atto e, dove previsto, del RP o RUP.	RISPOSTA: SI	SI
+45	Presenza del visto di regolarità contabile	"RISPOSTA : NO
+
+Note: La determina menziona che sarà trasmessa al Responsabile del Servizio Finanziario per le procedure di contabilità e controlli, ma non risulta presente il visto di regolarità contabile al momento della verifica."	NO

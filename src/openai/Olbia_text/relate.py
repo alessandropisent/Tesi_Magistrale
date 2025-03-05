@@ -122,7 +122,7 @@ if __name__ == "__main__":
     
     done = []
     model = "gpt-4o-mini"
-    model_folder = "mini"
+    model_folder = "mini_1"
     
     #model = "gpt-4o"
     #model_folder = "full"
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     with open("./src/txt/Olbia/checklists/Olbia_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
-    temp_values = [round(x * 0.2, 1) for x in range(6)]
+    temp_values = [1.0]
     
     if True:
         for temperature in temp_values:

@@ -1,0 +1,178 @@
+#######--------- User prompt
+
+
+        ### Rispondi al punto 1:
+        Competenza organo/dirigente individuato con decreto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, Il Dirigente Ing. Antonella Giannini è stato individuato con decreto del Sindaco n. 42 del 30/10/2024, come previsto dalla normativa.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 2:
+        Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **NO**, La determina non presenta una chiara articolazione in preambolo/premessa, parte motivazione e dispositivo. Sebbene ci siano elementi di premessa e un dispositivo, non è evidente una separazione netta tra le diverse sezioni, né sono indicati i termini per ricorrere o i riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amministrativo ex art. 41 CAD.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 3:
+        Affidabilità riferimenti normativi di carattere generale es. TUEL 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, [Nella determina non è citato il Testo Unico degli Enti Locali (TUEL) o riferimenti normativi di carattere generale che ne garantiscano l'affidabilità.]
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 4:
+        Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, [La determina fa riferimento esplicito al D.Lgs. n. 36/2023, che regola i contratti pubblici, e menziona anche il bilancio di previsione approvato con la delibera del Consiglio comunale, rispettando così i riferimenti normativi specifici richiesti.]
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 5:
+        Nel caso di attività inserite negli atti di programmazione Coerenza con: 
+- DUP  e PIAO 
+- Bilancio di Previsione se trattasi di DD con spesa; 
+- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi 
+- SITAT e altre banche dati)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina fa riferimento al bilancio di previsione 2025-2027 approvato con la delibera del Consiglio comunale n. 10 del 07/01/2025, indicando che la spesa è conforme alle disposizioni di programmazione e finanziamento. Non ci sono elementi che suggeriscano incoerenze con il DUP, PIAO o cronoprogramma.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 6:
+        Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina esplicita i presupposti di fatto e le ragioni giuridiche, facendo riferimento a normative specifiche come l'art. 6-bis della L. n. 241/1990 e l'art. 15 del D.Lgs. n. 36/2023, che riguardano l'assenza di conflitto di interessi e la designazione del responsabile unico del progetto (RUP). Inoltre, vengono menzionate le dichiarazioni del Dirigente e del RUP riguardo all'assenza di condanne penali, rispettando così i requisiti normativi richiesti.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 7:
+        1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+2)  indicare  RUP delegato per fase
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, Il Dirigente del Settore Dipartimentale 05 “Lavori pubblici e traffico” è responsabile del provvedimento, come indicato nella determina. Inoltre, è stato specificato che il responsabile unico del progetto (RUP) per gli interventi è l’Ing. Francesca Guidotti, che coincide con la figura del RUP dell’accordo quadro. La determina rispetta quindi le indicazioni relative alla distinzione tra responsabile del procedimento e del provvedimento, nonché l'indicazione del RUP delegato per la fase.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 8:
+        Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, [La determina menziona esplicitamente l'assenza di conflitti di interesse secondo l'art. 6-bis della L. n. 241/1990 e include le dichiarazioni del Dirigente e del RUP in merito all'assenza di condanne penali e conflitti di interesse. Inoltre, si fa riferimento agli obblighi di tracciabilità dei flussi finanziari ai sensi della L. n. 136/2010, che è una misura di prevenzione pertinente. Non sono menzionati specificamente gli obblighi di pubblicità ai sensi delle Delibere ANAC 2023 o del D.Lgs. n. 36/2023, art. 28, ma la presenza di misure di protezione generali è comunque attestata.]
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 9:
+        Rispetto normativa sulla tutela della riservatezza laddove rilevante
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, La determina non fa esplicito riferimento alla normativa sulla tutela della riservatezza, come il Regolamento (UE) 2016/679 (GDPR) o la L. n. 675/1996, laddove rilevante per il trattamento dei dati personali. Non sono menzionate misure specifiche per garantire la protezione dei dati personali nel contesto dell'esecuzione del servizio.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 10:
+        Rispetto dei tempi e dei termini del procedimento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, non è specificato nella determina se sono stati rispettati i tempi e i termini del procedimento. Non ci sono riferimenti chiari riguardo alla tempistica delle fasi del procedimento amministrativo.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 11:
+        Altre annotazioni/criticità in merito: a. possibilità di semplificare
+b. possibilità di digitalizzare
+c. fare un focus specifico
+d. pari opportunità
+e. accesso
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non sono state evidenziate misure specifiche per semplificare, digitalizzare, garantire pari opportunità o migliorare l'accesso nel contesto della determina. Non ci sono riferimenti a iniziative o strategie che affrontino queste criticità.
+

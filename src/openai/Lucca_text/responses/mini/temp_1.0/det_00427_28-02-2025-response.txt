@@ -1,0 +1,178 @@
+#######--------- User prompt
+
+
+        ### Rispondi al punto 1:
+        Competenza organo/dirigente individuato con decreto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, Il dirigente del Settore Dipartimentale 5 – "Lavori Pubblici e Traffico" è stato conferito con provvedimento del Sindaco n. 42 del 30/10/2024, quindi la competenza è correttamente individuata.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 2:
+        Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, la determina presenta un'adeguata articolazione in intestazione, con preambolo/premessa che espone le motivazioni e il dispositivo che riporta l'indicazione dell'autorità e i termini per ricorrere. Tuttavia, non è menzionato il riferimento al deposito nel fascicolo digitale degli atti afferenti il procedimento amministrativo ex art. 41 CAD.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 3:
+        Affidabilità riferimenti normativi di carattere generale es. TUEL 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, i riferimenti normativi di carattere generale sono correttamente citati nella determina, inclusi il D.Lgs. n. 267/2000 (TUEL) e la L. n. 241/1990, che disciplinano rispettivamente l'ordinamento degli enti locali e il diritto di accesso ai documenti amministrativi.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 4:
+        Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, i riferimenti normativi specifici come il Codice dei contratti (D.Lgs. n. 50/2016), la L. n. 241/1990, e altri atti normativi sono citati nella determina, assicurando così il rispetto della regolamentazione vigente.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 5:
+        Nel caso di attività inserite negli atti di programmazione Coerenza con: 
+- DUP  e PIAO 
+- Bilancio di Previsione se trattasi di DD con spesa; 
+- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi 
+- SITAT e altre banche dati)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, la determina non fa esplicito riferimento alla coerenza con il DUP, il PIAO, il Bilancio di Previsione e il cronoprogramma associato all'attività. Non sono stati forniti dettagli sui collegamenti a queste programmazioni e banche dati nel testo della determina.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 6:
+        Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, La determina presenta una motivazione chiara e dettagliata, con esplicitazione dei presupposti di fatto riguardanti l'andamento dei lavori e i relativi crediti, nonché l'indicazione delle ragioni giuridiche attraverso i riferimenti normativi, in particolare agli articoli del D.Lgs. n. 50/2016 e della L. n. 241/1990, che giustificano le decisioni prese.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 7:
+        1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+2)  indicare  RUP delegato per fase
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, la determina specifica che il responsabile unico del procedimento (R.U.P.) è l’Ing. Santi Bombaci, e conferma che non si trova in conflitto di interesse. La determina inoltre indica che l'attribuzione e la delega del Dirigente è stata conferita con il decreto del Sindaco n. 42 del 30/10/2024.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 8:
+        Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : [SI], [La determina fa riferimento all'assenza di conflitto di interessi da parte del responsabile unico del procedimento, come richiesto dall'art. 6-bis della L. n. 241/1990, e specifica che non ci sono situazioni di conflitto, sia attuale che potenziale, nei confronti dei destinatari del provvedimento.]
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 9:
+        Rispetto normativa sulla tutela della riservatezza laddove rilevante
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **NO**, la determina non sembra menzionare esplicitamente alcun riferimento alla normativa sulla tutela della riservatezza (es. GDPR) riguardo al trattamento dei dati personali, il che potrebbe essere considerato una carenza, soprattutto in un atto pubblico come una determina dirigenziale.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 10:
+        Rispetto dei tempi e dei termini del procedimento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, la determina fa riferimento all'esecuzione dei lavori e alla relativa tempistica, specificando il rispetto dei termini per i periodi di sospensione e ripresa dei lavori, nonché le relative date di emissione dei documenti pertinenti.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 11:
+        Altre annotazioni/criticità in merito: a. possibilità di semplificare
+b. possibilità di digitalizzare
+c. fare un focus specifico
+d. pari opportunità
+e. accesso
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, potrebbe non esserci una chiara evidenza nella determina riguardo a iniziative per semplificare le procedure, digitalizzare i processi, garantire pari opportunità e facilitare l'accesso, suggerendo che non siano affrontati in modo esplicito o adeguato nel documento.
+

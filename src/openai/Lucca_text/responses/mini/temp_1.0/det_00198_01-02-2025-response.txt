@@ -1,0 +1,182 @@
+#######--------- User prompt
+
+
+        ### Rispondi al punto 1:
+        Competenza organo/dirigente individuato con decreto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, La determina fa riferimento al decreto del Sindaco n. 38 del 30/10/2024, che conferisce le funzioni al Dirigente del Servizio di Staff A, quindi la competenza dell'organo/dirigente è correttamente individuata.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 2:
+        Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, l'atto è opportunamente articolato in intestazione, preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere. È presente anche un riferimento alla gestione documentale, conforme all'art. 41 del CAD.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 3:
+        Affidabilità riferimenti normativi di carattere generale es. TUEL 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, [Nella determina non viene esplicitamente citato il T.U.E.L. (Testo Unico degli Enti Locali), né si fa riferimento diretto ad articoli specifici del medesimo. Tuttavia, sono menzionati altri riferimenti normativi pertinenti al settore degli appalti pubblici e alla gestione delle procedure di affidamento.]
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 4:
+        Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, [La determina fa riferimento a norme specifiche del Codice dei contratti pubblici (D.Lgs. 36/2023) e alla normativa applicabile in materia di trasparenza e anticorruzione, rispettando i requisiti di affidabilità richiesti.]
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 5:
+        Nel caso di attività inserite negli atti di programmazione Coerenza con: 
+- DUP  e PIAO 
+- Bilancio di Previsione se trattasi di DD con spesa; 
+- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi 
+- SITAT e altre banche dati)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina fa riferimento alla copertura finanziaria e dichiara che la spesa trova giusta copertura nelle disponibilità iscritte nel Bilancio di previsione finanziario armonizzato 2024-2026, approvato dal Consiglio Comunale. Tuttavia, non sono esplicitati dettagli sulla coerenza rispetto al DUP e PIAO, né sul cronoprogramma o sulle banche dati SITAT, il che potrebbe creare un'ombra di incertezza.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 6:
+        Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, La determina esplicita e motiva in modo dettagliato i presupposti di fatto e le ragioni giuridiche dell'affidamento diretto, facendo riferimento agli articoli pertinenti del D.Lgs. 36/2023 e alle normative vigenti in materia di appalti pubblici. In particolare, vengono citati gli articoli che regolano le procedure di affidamento (art. 50 e 52) e le condizioni di applicazione delle norme sulla tracciabilità dei flussi finanziari, dichiarazioni sostitutive e sui requisiti generali richiesti ai partecipanti. Quindi, la motivazione è adeguatamente documentata e conforme alle disposizioni richieste.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 7:
+        1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+2)  indicare  RUP delegato per fase
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, 
+
+Spiegazione: Nella determina non è specificato in modo chiaro chi sia il Responsabile del Procedimento (RUP) e non viene fatta una distinzione adeguata tra il RUP e il responsabile del provvedimento. Inoltre, non è presente alcuna indicazione esplicita riguardante l'eventuale delega di firma o l'attribuzione del Dirigente. Pertanto, non soddisfa il requisito di chiarezza richiesto in merito alla responsabilità e alle deleghe associate al provvedimento.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 8:
+        Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, 
+
+La determina non fa esplicito riferimento alle misure di prevenzione pertinenti indicate nel punto 8. In particolare, non si menzionano disposizioni riguardanti conflitto di interessi, obblighi di pubblicità ai sensi delle Delibere ANAC 2023, né quelli previsti dal Dlvo 36/2023, art. 28. Pertanto, è necessario integrare queste informazioni per garantire la trasparenza e il rispetto delle normative vigenti.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 9:
+        Rispetto normativa sulla tutela della riservatezza laddove rilevante
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, La determina non fa riferimento esplicito alla normativa sulla tutela della riservatezza, il che potrebbe implicare che non siano state considerate adeguatamente le disposizioni in materia di protezione dei dati personali, laddove rilevante.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 10:
+        Rispetto dei tempi e dei termini del procedimento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, non viene specificato il rispetto dei tempi e dei termini del procedimento nella determina, né sono indicati i termini di avvio della procedura o scadenze specifiche.
+
+#######--------- User prompt
+
+
+        ### Rispondi al punto 11:
+        Altre annotazioni/criticità in merito: a. possibilità di semplificare
+b. possibilità di digitalizzare
+c. fare un focus specifico
+d. pari opportunità
+e. accesso
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non è stata prevista una specifica considerazione in merito a semplificazioni, digitalizzazione, focus specifico, pari opportunità o accesso. La determina si concentra principalmente sugli aspetti procedurali e normativi, senza affrontare tali tematiche.
+

@@ -1,6 +1,9 @@
 import os
 import pdfplumber
 
+import os
+import pdfplumber
+
 def table_to_markdown(table):
     """
     Converte una tabella (lista di liste) in una stringa in formato Markdown.
@@ -11,14 +14,20 @@ def table_to_markdown(table):
     
     # Determina il numero massimo di colonne
     num_cols = max(len(row) for row in table)
-    # Normalizza ogni riga: se mancano celle, le riempie con stringhe vuote
-    normalized_table = [row + [""] * (num_cols - len(row)) for row in table]
+    
+    # Normalizza ogni riga: converte ogni cella in stringa, sostituendo None con una stringa vuota
+    normalized_table = []
+    for row in table:
+        normalized_row = [str(cell) if cell is not None else "" for cell in row]
+        normalized_row += [""] * (num_cols - len(normalized_row))
+        normalized_table.append(normalized_row)
     
     # Costruisci la riga dell'header
     header = normalized_table[0]
     md = "| " + " | ".join(header) + " |\n"
     # Riga separatrice
     md += "| " + " | ".join(["---"] * num_cols) + " |\n"
+    
     # Righe del corpo della tabella
     for row in normalized_table[1:]:
         md += "| " + " | ".join(row) + " |\n"
@@ -39,7 +48,7 @@ def extract_markdown_from_pdf(pdf_path):
     with pdfplumber.open(pdf_path) as pdf:
         for page_num, page in enumerate(pdf.pages, start=1):
             # Aggiungi intestazione per la pagina
-            md_output += f"## Pagina {page_num}\n\n"
+            #md_output += f"## Pagina {page_num}\n\n"
             # Estrai il testo della pagina
             text = page.extract_text() or ""
             md_output += text + "\n\n"
@@ -67,10 +76,11 @@ def extract_markdown_from_pdfs(directory_input, directory_output):
             pdf_path = os.path.join(directory_input, filename)
             try:
                 md_text = extract_markdown_from_pdf(pdf_path)
-                output_filename = os.path.join(directory_output, filename[:-4] + ".md")
-                with open(output_filename, "w", encoding="utf-8") as f:
+                
+                #output_filename = os.path.join(directory_output, filename[:-4] + ".md")
+                with open(f"{directory_output}/{filename[:-4]}.txt", "w", encoding="utf-8") as f:
                     f.write(md_text)
-                print(f"File salvato: {output_filename}")
+                print(f"File salvato: {f"{directory_output}/{filename[:-4]}.txt"}")
             except Exception as e:
                 print(f"Errore nel processare {filename}: {e}")
 
