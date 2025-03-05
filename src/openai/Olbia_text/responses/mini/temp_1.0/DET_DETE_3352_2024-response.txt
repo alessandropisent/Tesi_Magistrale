@@ -1,0 +1,918 @@
+#######--------- User prompt
+
+### Istruzioni
+
+Nella determina oltre il settore va indicato il servizio di appartenenza presente nella macrostruttura vigente.
+
+
+        ### Rispondi al punto 1, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL’ATTO:
+        Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, La determina indica solo il Settore SUAPE, Manutenzioni e Viabilità, senza specificare il servizio di appartenenza presente nella macrostruttura vigente.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indica in sintesi il contenuto del provvedimento, inserendo nell’oggetto il codice corretto (15275) e la norma attributiva del potere ex art. 50, comma 1, let. a/let.b del Dlgs n.36/2023 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 2, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL’ATTO:
+        Oggetto della determinazione
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, Il provvedimento tratta dell'affidamento diretto per l'incarico professionale finalizzato al collaudo statico e tecnico-amministrativo per il "Completamento Palazzo di Giustizia" ai sensi dell'art. 50, comma 1, lett. b) del D.Lgs. n. 36/2023. Il codice corretto 15275 è menzionato nell'oggetto della determinazione.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Per il CPV Il documento del Presidente dell’Autorità del 9 maggio 2023 n. 2 spiega il funzionamento del Vocabolario dei Codici CPV e le modalità di utilizzo per la scelta del codice adatto al singolo appalto individuare i CPV del vocabolario principale con un livello di classificazione non inferiore alle categorie (con almeno le 5 cifre che indichino divisione–gruppo–classe–categoria)  Da indicare obbligatoriamente nella Determinazione ai sensi dell'art. 17, comma 2, del D.Lgs. n. 36/2023, oppure, nella Determinazione di aggiudicazione in caso di affidamento diretto ordinario. Ai fini di non aggravare il procedimento e nel rispetto del principio di tempestività si opta di norma la procedura semplificata di cui all’art.17, comma2 del Dlgs n.36/2023 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 3, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL’ATTO:
+        Indicazione del CIG, del CPV e del CUP (l’indicazione del CUI:  non è richiesta per gli affidamenti diretti ai sensi dell’art. 50 del Dlgs n.36/2023, in quanto consentiti per importi per i quali non è dovuto l’inserimento nei programmi triennali. È richiesta per affidamenti diretti ai sensi dell’art.76 del Dlgs n.36/2023. In caso di consegne complementari ex art.76, comma 4, let. B, o di ripetizione di lavori o servizi analoghi ex art. 76, comma 6, dovrà essere indicato il CUI dell’appalto principale del quale l’affidamento diretto risulta complementare o analogo)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, nella determina non è presente l'indicazione del codice CPV, che è obbligatoria ai sensi dell'art. 17, comma 2, del D.Lgs. n. 36/2023. Sebbene il CIG e il CUP siano stati forniti, il CPV non è menzionato, il che costituisce una mancanza normativa.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Riportare il numero identificativo 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 4, SEZIONE: ELEMENTI GENERALI IDENTIFICATIVI DELL’ATTO:
+        Centro di Costo: si indica il centro di costo al quale imputare la spesa.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, [Il centro di costo è specificato nella determina come "1110002 ex pretura" con la descrizione "Compl. Palazzo di Giustizia".]
+
+#######--------- User prompt
+
+### Istruzioni
+
+Decreto di conferimento dell’incarico di responsabilità che autorizza l’adozione dell’atto. In caso di facente funzione citare il decreto di sostituzione dei dirigenti momentaneamente assenti. Esplicitare se il Dirigente è anche RUP (responsabile unico di progetto); esplicitare se il Dirigente è anche responsabile della fase di affidamento. Il nuovo codice (art.15) consente di individuare modelli organizzativi, i quali prevedano la nomina di un responsabile di procedimento per le fasi di programmazione, progettazione ed esecuzione e un responsabile di procedimento per la fase di affidamento. In questo caso occorre definire i rispettivi compiti e profili di responsabilità  “il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, affidamento ed esecuzione ai sensi dell’art. 4 della L. 241/90” oppure “il suddetto RUP è anche responsabile di procedimento per le fasi di programmazione, progettazione, ed esecuzione ai sensi dell’art. 4 della L. 241/90 mentre il Responsabile di procedimento della fase di affidamento è……”
+
+
+        ### Rispondi al punto 5, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L’ATTO:
+        Estremi decreto sindacale di nomina del Dirigente.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, Il decreto sindacale di nomina del Dirigente non è stato menzionato in modo specifico nel testo della determina. Sebbene venga citato un decreto sindacale con numero 27 del 26/07/2024, non vengono forniti gli estremi dettagliati o le informazioni necessarie per confermare un completo rispetto delle istruzioni in merito al soggetto che adotta l'atto.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Art. 16. (Conflitto di interessi)  Si ha conflitto di interessi quando un soggetto che, a qualsiasi titolo, interviene con compiti funzionali nella procedura di aggiudicazione o nella fase di esecuzione degli appalti o delle concessioni e ne può influenzare, in qualsiasi modo, il risultato, gli esiti e la gestione, ha direttamente o indirettamente un interesse finanziario, economico o altro interesse personale che può essere percepito come una minaccia alla sua imparzialità e indipendenza nel contesto della procedura di aggiudicazione o nella fase di esecuzione.  “Rilevato il pieno rispetto, in fase istruttoria e di predisposizione degli atti, delle disposizioni contenute nel Codice di comportamento dei dipendenti pubblici e l’insussistenza, ai sensi dell’art.16 del Dlgs n.36/2023 di conflitto di interesse in capo al firmatario del presente atto, al RUP, agli altri partecipanti al procedimento e in relazione ai destinatari finali dello stesso”
+
+
+        ### Rispondi al punto 6, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L’ATTO:
+        Conflitto d’interessi
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, [Nella determina è esplicitato che il Responsabile Unico del Procedimento (RUP) non si trova in conflitto di interessi, ai sensi dell’art. 16 del D.Lgs. 36/2023, e ciò indica il rispetto delle disposizioni in materia.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+nan 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 7, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L’ATTO:
+        Estremi della delega alla firma dell’atto, se persona diversa dal Dirigente.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non sono presenti gli estremi della delega alla firma dell'atto, poiché non viene specificato se il Dirigente ha delegato qualcun altro a firmare la determina.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicazione del nominativo 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 8, SEZIONE: ELEMENTI RIFERITI AL SOGGETTO CHE ADOTTA L’ATTO:
+        Estremi atto di nomina del Responsabile unico del Progetto, se nominato.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : [SI], [Nella determina è menzionato il RUP, Geom. Vincenzo Lombardi, e si fa riferimento alla sua designazione tramite la Determinazione del Dirigente del Settore Tecnico num. gen. 2777 del 07/07/2020, quindi gli estremi dell'atto di nomina sono presenti.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+L’elenco della prima colonna è riportato a titolo meramente esemplificativo in quanto applicabile alle singole fattispecie. La normativa specifica deve essere indicata quale peculiare presupposto di diritto in relazione alla concreta fattispecie di cui alla determinazione. (ad es. per acquisizione di una fornitura, il presupposto di fatto coincide con le fattispecie indicate dalle norme cui si fa riferimento?)  Sono precisati gli eventuali vincoli – anche procedurali – derivanti dalla normativa ?  La normativa specifica deve essere sempre indicata con specificazione dell’articolo e, se del caso, del comma, applicato.
+
+
+        ### Rispondi al punto 9, SEZIONE: RIFERIMENTI NORMATIVI:
+        Normativa specifica:  Codice dei contratti pubblici (D.Lgs. n. 36.2023.) ;  L. R. n. 8/2018;  Art. 26 legge n.488/1999  Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012 n. 135 (adesione convenzione Consip e MEPA);  Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);  Art. 26, della legge n. 488/1999 e ss.mm.ii.; DPCM 24 dicembre 2015 ;
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, La determina fa riferimento al Codice dei contratti pubblici (D.Lgs. n. 36/2023) per l'affidamento diretto ai sensi dell'art. 50, comma 1, lett. b), e menziona altresì altri riferimenti normativi pertinenti come l'art. 26 della legge n. 488/1999 e i requisiti relativi all'adesione a convenzioni Consip e MEPA. Queste disposizioni sono chiaramente indicate nella determina e sono coerenti con le modalità di scelta del contraente e le procedure di affidamento.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Debbono essere indicati presupposti normativi di carattere generale in termini strettamente essenziali qualora risultino necessari quale supporto alla piena comprensione del processo logico alla base del provvedimento. In ogni caso i presupposti normativi generali sono elencati solamente nel caso in cui non siano indicati nella normativa specifica   Il criterio di fondo da adottare è quello che seleziona ed indica esclusivamente le norme che risultano correlate con lo specifico provvedimento;
+
+
+        ### Rispondi al punto 10, SEZIONE: RIFERIMENTI NORMATIVI:
+        Normativa generale:  TUEL;  Legge n. 241/90;  DPR n. 62/2013 Codice comportamento dipendenti pubblici;  L. n. 190/2012;  D.Lgs. n. 33/2013.  Legge n° 136/2010
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, [La determina non fa esplicito riferimento alla normativa generale indicata nella sezione dei "Riferimenti Normativi". Non sono citati il TUEL, la Legge n. 241/90, il DPR n. 62/2013, la L. n. 190/2012, il D.Lgs. n. 33/2013 e la Legge n° 136/2010. Pertanto, i presupposti normativi generali non sono adeguatamente supportati.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+Il nuovo codice dei contratti attribuisce un importante ruolo alle norme di principio attraverso le quali la pubblica amministrazione esercita la discrezionalità amministrativa e tecnica. Ciò in particolare per gli affidamenti diretti ove la disciplina legislativa è ridotta la minimo e di conseguenza l’esercizio della discrezionalità è rilevante.   L’art. 4 stabilisce che” le disposizioni del codice si interpretano e si applicano in base ai principi di cui agli articoli 1, 2 e 3.”   A sua volta l’art.1 del Dlgs n.36/2023 stabilisce che il principio del risultato costituisce criterio prioritario per l’esercizio del potere discrezionale e per l’individuazione della regola del caso concreto, nonché per:  a) valutare la responsabilità del personale che svolge funzioni amministrative o tecniche nelle fasi di programmazione, progettazione, affidamento ed esecuzione dei contratti;  b) attribuire gli incentivi secondo le modalità previste dalla contrattazione collettiva.  Di norma risulta indispensabile indicare in che modo nella fattispecie concreta si sono contemperati tra loro i principi codicistici con l’obiettivo prioritario del risultato in termini di qualità, tempestività, economicità
+
+
+        ### Rispondi al punto 11, SEZIONE: RIFERIMENTI NORMATIVI:
+        Norme di principio   Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, La determina non fornisce indicazioni su come sono stati contemperati i principi codicistici per raggiungere l'obiettivo del risultato in termini di qualità, tempestività ed economicità. Non viene specificato come la discrezionalità è stata esercitata in relazione ai principi stabiliti dall'art. 4 del D.lgs n. 36/2023.
+
+#######--------- User prompt
+
+### Istruzioni
+
+nan
+
+
+        ### Rispondi al punto 12, SEZIONE: RIFERIMENTI NORMATIVI:
+        Regolamenti dell’ente quali:  - Statuto Comunale;  - Regolamento di contabilità;  - Regolamento dei contratti
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **NO**, il testo della determina non riporta esplicitamente i riferimenti allo Statuto Comunale, al Regolamento di contabilità e al Regolamento dei contratti dell'ente.
+
+#######--------- User prompt
+
+### Istruzioni
+
+In caso di affidamento diretto ex art. 50, comma 1, lett. a), e b) del D.Lgs. n. 36/2023, la stazione appaltante procede di norma tramite determina a contrarre, o atto equivalente, che contenga, in modo semplificato, l’oggetto dell’affidamento, l’importo, il fornitore, le ragioni della scelta del fornitore, il possesso da parte sua dei requisiti di carattere generale, nonché il possesso dei requisiti tecnico-professionali, ove richiesti (Determinazione unica ).
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 13, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Indicazione dei riferimenti della determina a contrarre “semplificata” adottata
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, non è presente una determina a contrarre semplificata. La determina non riporta esplicitamente i riferimenti a un atto formale che soddisfi i requisiti di forma e contenuto previsti per l'affidamento diretto, né un'indicazione chiara dell'oggetto, dell'importo, del fornitore e delle ragioni della scelta.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Per la determina “non semplificata” si fa riferimento al contenuto dello schema tipo della determina di aggiudicazione delle procedure negoziate   Dare espressamente atto dell’avvenuta adozione della determina a contrarre quale provvedimento propedeutico, indicandone numero e data per l’individuazione dell’acquisto dei lavori, servizi e forniture da effettuare.  Nel caso di procedura “non semplificata” indicare i termini entro i quali la procedura avrebbe dovuto concludersi e esplicitare se il predetto termine è stato rispettato
+
+
+        ### Rispondi al punto 14, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Indicazione dei riferimenti della determina a contrarre “non semplificata” adottata
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, la determina non fa espresso riferimento all’avvenuta adozione di una determina a contrarre "non semplificata" con numero e data per l'individuazione dell'acquisto dei lavori, servizi e forniture da effettuare. Non sono indicati né i termini entro cui la procedura avrebbe dovuto concludersi né se tali termini sono stati rispettati.
+
+#######--------- User prompt
+
+### Istruzioni
+
+· Indicazione dell’interesse pubblico che intende soddisfare l’amministrazione;  · Indicazione delle caratteristiche delle opere, dei beni, dei servizi che si intendono acquistare;  · Negli appalti di lavori: progetto esecutivo completo di quanto previsto all’allegato I.7 del Dlgs. N36/2023 (ove non già approvato)  · Nei beni e servizi: capitolato d’appalto oppure quaderno d’oneri, oppure schema di contratto (ove non già approvato)
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 15, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Elementi da approvare con la determina a contrarre nel caso di provvedimento unico
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, non è presente l'indicazione dell'interesse pubblico che si intende soddisfare e non sono forniti dettagli sufficienti sulle caratteristiche delle opere, beni e servizi che si intendono acquistare (progetto esecutivo completo e/o capitolato d'appalto). Mancano elementi essenziali per la regolarità della determina, il che comporta una grave irregolarità.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Il DUVRI redatto in conformità a quanto previsto dall’art. 26 del d.lgs. n. 81/2008; (oppure) attestazione del progettista che certifica che non è necessario redigere il DUVRI in quanto....... (Si veda l’art. 26 del d.lgs. n. 81/2008) e, di conseguenza, risulta superflua la quantificazione degli oneri pertinenti la sicurezza da rischio interferenziale, da corrispondere all’operatore economico;  I costi per l’attuazione delle misure di contrasto alle interferenze pari ad €……. (solo in presenza di DUVRI)
+
+
+        ### Rispondi al punto 16, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Per gli appalti di servizi: DUVRI
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, Non è presente né il DUVRI redatto né l'attestazione del progettista che certifica l'assenza di necessità per la sua redazione. La determina non menziona alcun costo per l'attuazione delle misure di contrasto alle interferenze.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Ai sensi dell’art. 58 le stazioni appaltanti motivano la mancata suddivisione dell'appalto in lotti tenendo conto dei principi europei sulla promozione di condizioni di concorrenza paritarie per le piccole e medie imprese   - “ai sensi dell’art. 58 del Dlgs n.36/2023, l’appalto, peraltro già accessibile, dato l’importo non rilevante, per le microimprese, piccole e medie imprese, non è suddivisibile in lotti aggiudicabili separatamente in quanto ……………………….”;  - L’appalto non è stato frazionato  - L’appalto complessivo è stato suddiviso per le seguenti ragioni oggettive che lo giustificano ……………., in relazione al risultato da perseguire. La suddivisione non è stata decisa per evitare l'applicazione delle norme del codice
+
+
+        ### Rispondi al punto 17, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Suddivisione in lotti e norme sull’indebito frazionamento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, La determina non contiene alcuna motivazione riguardo alla mancata suddivisione dell'appalto in lotti, né fa riferimento alle ragioni oggettive che giustificherebbero tale decisione. Non è presente un’argomentazione coerente ai sensi dell’art. 58 del Dlgs n.36/2023.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Per l’affidamento dei lavori occorre indicare gli estremi dell’avvenuta validazione del progetto posto a base di gara.
+
+
+        ### Rispondi al punto 18, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Validazione (in caso di lavori pubblici)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, non sono indicati gli estremi dell’avvenuta validazione del progetto posto a base di gara nella determina. La determina fa riferimento alla procedura di affidamento diretto, ma non menziona esplicitamente la validazione del progetto, che è un elemento necessario per l'affidamento dei lavori pubblici.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Per tutti gli appalti è necessario verificare se rientrano o meno nell’applicazione dei CAM. In Italia, l’efficacia dei CAM è stata assicurata grazie all’art. 18 della L. 221/2015 e all’ art. 57 comma 2 Dlgs n.36/2023.   Da inserire nella determinazione: “i lavori, la fornitura/servizio rientrano/non rientrano nell’ambito di applicazione dei criteri ambientali minimi adottati ed in vigore in base al Piano per la sostenibilità ambientale dei consumi del settore della pubblica amministrazione (ove rientrino indicare il DM così individuato: https://gpp.mite.gov.it/CAM-vigenti)
+
+
+        ### Rispondi al punto 19, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Criteri Ambientali Minimi (CAM)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non è presente alcuna indicazione riguardante i Criteri Ambientali Minimi (CAM) nella determina. Non è specificato se i lavori rientrano o meno nell'ambito di applicazione dei CAM ai sensi dell'art. 18 della L. 221/2015 e dell'art. 57 comma 2 del D.lgs. n. 36/2023.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Spetta al RUP stabilire se nell’appalto non sono richieste cauzioni. (nell’affidamento diretto non può sussistere cauzione provvisoria in quanto il preventivo eventualmente presentato non è equiparabile ad un’offerta)   Formula da inserire nella determinazione:  “che ai sensi dell’art. 117 del Dlgs n.36/2023, l’affidatario è tenuto a presentare cauzione definitiva di euro ….. (oppure) in relazione a (ad es. alla scarsa rilevanza economica dell'affidamento e/o alle modalità di adempimento delle prestazioni) non si richiede la cauzione definitiva”;
+
+
+        ### Rispondi al punto 20, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Cauzione
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non è presente alcun riferimento alla cauzione nella determinazione. Non è stata specificata la necessità di presentare una cauzione definitiva né è stata indicata la motivazione per la quale non si richiede la cauzione, in conformità con l'art. 117 del D.lgs n. 36/2023.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Ai sensi dell’art. 26 della legge 488/1999 Le amministrazioni pubbliche possono ricorrere alle convenzioni stipulate ai sensi del comma 1, ovvero ne utilizzano i parametri di prezzo-qualità, come limiti massimi, per l'acquisto di beni e servizi comparabili oggetto delle stesse  Chiarire se:   - Si è aderito ad una convenzione Consip o di altro soggetto aggregatore  - Non si è aderito ad una convenzione Consip o di altro soggetto aggregatore perché non sono alla data della determina attive tali convenzioni aventi ad oggetto il Lavoro/servizio/fornitura relativi all’appalto da affidare  - Non si è aderito ad una convenzione Consip o di altro soggetto aggregatore perché le predette convenzioni non contengono nei loro elementi essenziali lavori/servizi/forniture aventi caratteristiche idonee in relazione all’interesse pubblico da soddisfare   - Si è aderito alla convenzione Consip o di altro soggetto aggregatore in quanto il bene/servizio è tra quelli previsti in base all’articolo 9, comma 2, del decreto-legge 24 aprile 2014, n. 66 che prevede che con apposito DPCM sono individuate le categorie di beni e di servizi nonché le soglie al superamento delle quali le Amministrazioni sono tenute ad utilizzare esclusivamente le convenzioni Consip e dei soggetti aggregatori;   In caso delle seguenti categorie merceologiche: energia elettrica, gas, carburanti rete e carburanti extra-rete, combustibili per riscaldamento, telefonia fissa e telefonia mobile si fa riferimento al disposto dell’art.1, comma 7, del D.L. 95/2012 convertito dalla legge n.135/2012. In relazione a ciò si è verificato che il bene o servizio in oggetto rientra/non rientra tra le categorie merceologiche previste ovvero che non sono attive le relative convenzioni Consip o Cat Sardegna  Con riferimento all'art. 1, comma 512, della Legge 28 dicembre 2015, n. 208 che il bene o servizio in oggetto non rientra tra i beni e servizi informatici e di connettività, ovvero che vi rientra, ma non sono reperibili convenzioni e l'amministrazione ha la necessità' ed urgenza di procedere all'acquisto per assicurare la continuità della gestione amministrativa, oppure, il bene o il servizio previsto nelle convenzioni non è idoneo al soddisfacimento dello specifico fabbisogno dell'amministrazione e quest'ultima ha la necessità ed urgenza di procedere all'acquisto per assicurare la continuità della gestione amministrativa.
+
+
+        ### Rispondi al punto 21, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Riferimenti all’obbligo di utilizzo di convenzioni Consip o di soggetti aggregatori
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, Non si fa riferimento all'adesione a convenzioni Consip o di altri soggetti aggregatori, né viene specificato perché non si è aderito. La determina non chiarisce se vi siano convenzioni attive per il servizio di collaudo statico e tecnico-amministrativo relativo al Palazzo di Giustizia, e non fornisce motivazioni relative a possibili mancanze nelle convenzioni per giustificare l'affidamento diretto.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Ai sensi dell’art.1, comma 449 e ss. della legge 296/2006 per le procedure di importo pari o superiore a 5.000 euro e di importo inferiore alla soglia di rilievo comunitario vige l’obbligo di fare ricorso al mercato elettronico della pubblica amministrazione ovvero ad altri mercati elettronici istituiti ai sensi del medesimo articolo 328 ovvero al sistema telematico messo a disposizione dalla centrale regionale di riferimento per lo svolgimento delle relative procedure  Ove ne sussistano le condizioni specificare che l'affidamento è inferiore a € 5.000,00 per cui non è previsto l'obbligo di utilizzare il mercato elettronico
+
+
+        ### Rispondi al punto 22, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Riferimenti all’obbligo di utilizzo del MEPA o del sistema telematico messo a disposizione dalla centrale regionale di riferimento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, [Nella determina si fa riferimento a un importo per l'affidamento superiore a € 5.000,00, pertanto l'obbligo di utilizzare il mercato elettronico della pubblica amministrazione (MEPA) o altri sistemi telematici non è esplicitamente rispettato.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+L’istruttoria deve essere adeguata e sufficiente (secondo i principi di risultato, proporzionalità e di buon andamento) a individuare nel mercato un operatore idoneo e una soluzione in grado di soddisfare in termini di qualità, tempestività, economicità, l’interesse pubblico) Valutazione circa l’opportunità di interpellare più operatori   Varie modalità di istruttoria (esemplificativo)  · Il RUP sulla base della propria conoscenza del mercato ha potuto individuare l’operatore/gli operatori a cui richiedere la presentazione di un preventivo in quanto tali operatori, per quanto agli atti, sono in possesso di documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali   · Il RUP ha preso in considerazione precedenti per commesse identiche/analoghe, analisi di prezzi praticati pregressi o ad altre amministrazioni   · Il RUP, al fine di individuare l’operatore /gli operatori economici a cui richiedere la presentazione di un preventivo ha svolto le seguenti indagini di mercato (senza consultare direttamente operatori economici) (ad es. tramite ricerca sul MEPA consultazione di listini, cataloghi elettronici, ricerca internet, confronto di offerte …)  · Il RUP, al fine di individuare l’operatore /gli operatori economici a cui richiedere la presentazione di un preventivo ha svolto le seguenti indagini di mercato previo interpello/consultazione dei seguenti operatori economici …. (oppure degli operatori economici come documentati nel fascicolo della procedura)   · Il RUP ha interpellato gli operatori economici mediante la richiesta informale di preventivi
+
+
+        ### Rispondi al punto 23, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Indicazioni in merito all’istruttoria propedeutica al provvedimento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, l'istruttoria propedeutica al provvedimento è stata effettuata dal RUP, il quale ha proceduto all'invio di una richiesta di offerta sulla piattaforma della Centrale di Committenza regionale “Sardegna Cat”. Inoltre, la determina menziona esplicitamente che il RUP ha accertato il possesso dei requisiti dell'operatore economico e ha preso in considerazione le esperienze pregresse idonee per l'esecuzione delle prestazioni contrattuali. A ciò si aggiunge la verifica della regolarità contributiva e delle dichiarazioni sostitutive, da cui emerge che l'operatore invitato ha le qualifiche necessarie per garantire una scelta appropriata e conforme all'interesse pubblico.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Denominazione, ragione sociale, Partita IVA, sede legale e rappresentante legale; offerta pervenuta tramite ….., in data…..
+
+
+        ### Rispondi al punto 23, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Denominazione dell’operatore economico affidatario e indicazione relativa all’acquisizione dell’offerta
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, l'operatore economico affidatario è l'Ing. Paolo Gentile Careddu, con sede legale ad Olbia e Partita IVA 00374800902. L'offerta è pervenuta tramite la piattaforma Sardegna Cat, nella data del 23.12.2024.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Importo complessivo eventuali oneri della sicurezza, oneri interferenziali, costo della manodopera dichiarato contratto collettivo di lavoro applicato eventuale quinto d’obbligo revisione dei prezzi, somme a disposizione, eventuale supporto al RUP, incentivi (art. 45)  Dato atto:  · della congruità del costo della manodopera indicato in sede di presentazione del preventivo dall’affidatario;  · della adeguatezza del contratto collettivo applicato in relazione alle tutele a favore dei lavoratori impiegati nell’appalto
+
+
+        ### Rispondi al punto 24, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Importo di affidamento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non è presente un'attestazione della congruità del costo della manodopera indicato dal affidatario né dell'adeguatezza del contratto collettivo applicato in relazione alle tutele a favore dei lavoratori impiegati nell’appalto. La determina non fa riferimento specifico a questi aspetti, il che risulta inadeguato rispetto alla normativa vigente.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Si è verificato attraverso …… che l’operatore economico selezionato è in possesso di documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 25, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Indicazione di requisiti previsti dalle disposizioni vigenti per il ricorso all’affidamento diretto.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, è stato verificato che l'operatore economico selezionato è in possesso di documentate esperienze pregresse idonee all'esecuzione delle prestazioni contrattuali, come indicato nel documento di gara unico europeo (DGUE).
+
+#######--------- User prompt
+
+### Istruzioni
+
+La motivazione da atto delle ragioni di fatto e di diritto che hanno portato alla selezione dell’operatore cui affidare l’appalto   - L’obbligo di motivazione può essere attenuato per affidamenti di modico valore “ad esempio inferiori a 5000 euro”, o per affidamenti effettuati nel rispetto di apposito regolamento (ad esempio regolamento di contabilità) già adottato dalla stazione appaltante, che tiene conto dei principi europei e nazionali in materia di affidamento di contratti pubblici, la motivazione può essere espressa richiamando il regolamento stesso.  - La motivazione della scelta dell’affidatario si ritiene adeguata quando dia dettagliatamente conto: del possesso da parte dell’operatore economico selezionato dei requisiti previsti all’art.50 del Dlgs n.36/2023; della rispondenza di quanto offerto all’interesse pubblico che la stazione appaltante intende soddisfare; di eventuali caratteristiche migliorative offerte dall’affidatario; della congruità del prezzo in rapporto alla qualità della prestazione; del rispetto del principio di rotazione, del rispetto dei tempi in relazione alle necessità dell’ente.  Gli affidamenti diretti per definizione non sono aperti al mercato e quindi è obbligatoria la rotazione, fatta esccon deroga per gli appalti d’importo inferiore a 5.000 euro.  In casi motivati con riferimento alla struttura del mercato e alla effettiva assenza di alternative, nonché di accurata esecuzione del precedente contratto, il contraente uscente può essere individuato quale affidatario diretto.   (necessità di definire fasce; necessità di definire cosa si intende per “contraente uscente”; da valutare l’introduzione di regole più precise in materia di rotazione)
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 26, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Motivazione scelta della procedura e del contraente;        Esporre le ragioni della scelta della ditta affidataria;        Esposizione del fatto che legittima il ricorso alla procedura e della valutazione in ordine alla scelta del contraente.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, La determina non espone in modo dettagliato le ragioni della scelta dell’affidatario, né dimostra compiutamente il possesso da parte dell'operatore economico dei requisiti richiesti dall'art. 50 del D.Lgs. n. 36/2023. Inoltre, non è fornita una valutazione in ordine alla congruità del prezzo in rapporto alla qualità della prestazione offerta, né il rispetto del principio di rotazione. La motivazione della scelta risulta quindi insufficiente e non conforme alle normative vigenti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Motivazione specifica del ricorso alla procedura ex art. 76, del Dlgs n.36/2023
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 27, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, La determina non contiene una motivazione specifica riguardante il ricorso alla procedura ex art. 76, del D.lgs n.36/2023, pertanto il requisito non è soddisfatto.
+
+#######--------- User prompt
+
+### Istruzioni
+
+La stazione appaltante nell’affidare l’appalto da atto del rispetto delle norme in materia di appalti pubblici ed in particolare dei principi contenuti nel libro 1, titolo1, parte 1 del codice dei contratti
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 28, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Conformità dell’affidamento ai principi ed alle norme in materia di appalti pubblici
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, L'affidamento non sembra rispettare completamente i principi e le norme in materia di appalti pubblici, poiché non sono espressamente menzionati i requisiti di trasparenza, concorrenza e non discriminazione previsti dal codice dei contratti. La determina si limita a richiamare la procedura di affidamento diretto senza esplicitare come siano stati garantiti tali principi fondamentali.
+
+#######--------- User prompt
+
+### Istruzioni
+
+L'amministrazione ha proceduto alla verifica dei requisiti di ordine generale ex art. 95 e ss , del D.Lgs. 36/2023, dei requisiti di ordine speciale eventualmente richiesti ai sensi dell’art. 100 del Dlgs n.36/2023.  Le verifiche ed informazioni preventive sono quelle “normalmente richieste nell’attività amministrativa” come stabilito all’art.2 del Dlgs n.36/2023. Per gli affidamenti d’importo inferiore a 40.000,00 euro le verifiche sulle autocertificazioni possono essere svolte a campione (art.52 Dlgs n.36/2023)
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 29, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Dare atto della verifica dei requisiti dell’affidatario
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina evidenzia che il Responsabile Unico del Procedimento (RUP) ha verificato il possesso dei requisiti di carattere generale di cui all’articolo 100 del D.Lgs. 36/2023, accertando che l'operatore economico invitato possiede le esperienze documentate richieste.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Documento di regolarità contributiva (DURC) o attestazione di regolarità contributiva (validità 120 giorni).
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 30, SEZIONE: ELEMENTI TIPICI DELL’AFFIDAMENTO DIRETTO:
+        Verifica sulla regolarità contributiva, DURC o attestazione della stessa o autocertificazione (limitata ai casi previsti dalla legge).
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non è presente un’esplicita menzione della regolarità contributiva (DURC) o dell'attestazione di regolarità contributiva nell'atto. Sebbene sia stato appurato il possesso dei requisiti da parte del RUP, non è specificato il documento di regolarità contributiva, il che costituisce un aspetto grave.
+
+#######--------- User prompt
+
+### Istruzioni
+
+In assenza di delibera di bilancio indicare gli estremi di  approvazione del bilancio pluriennale vigente;
+
+
+        ### Rispondi al punto 31, SEZIONE: RIFERIMENTI CONTABILI:
+        Riferimenti alla deliberazione di approvazione del bilancio.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, La determina non indica specificamente gli estremi di approvazione del bilancio pluriennale vigente; fa riferimento solo a deliberazioni relative al bilancio di previsione ma non menziona i dettagli richiesti riguardanti il bilancio pluriennale.
+
+#######--------- User prompt
+
+### Istruzioni
+
+nan
+
+
+        ### Rispondi al punto 32, SEZIONE: RIFERIMENTI CONTABILI:
+        Riferimenti deliberazione approvazione PEG e al PIAO
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, [nella determina non sono citati i riferimenti relativi alla deliberazione di approvazione del Piano Esecutivo di Gestione (PEG) e al Piano Integrato di Attività e Organizzazione (PIAO)].
+
+#######--------- User prompt
+
+### Istruzioni
+
+Indicare l’importo impegnato e se lo stesso è assoggettato o meno all’iva ( relativa aliquota).  Nel caso di Bilancio e PEG non ancora approvati, indicare il rispetto dell’art. 163 del TUEL (esercizio provvisorio).  Qualora si tratti di impegni di spesa su più esercizi finanziari, fare riferimento agli impegni di spesa pluriennali. 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 33, SEZIONE: RIFERIMENTI CONTABILI:
+        Impegno di spesa/prenotazione
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, l'importo impegnato è pari a € 11.292,32, assoggettato a IVA al 22%. La determina menziona il capitolo di spesa 69155 del Bilancio in corso, denominato “Interventi di messa in sicurezza sedi comunali”. Non si fa riferimento a bilanci o PEG non approvati, né a impegni di spesa su più esercizi finanziari, quindi non sono presenti problematiche riguardanti l'art. 163 del TUEL.
+
+#######--------- User prompt
+
+### Istruzioni
+
+(in caso di affidamenti di importo pari o superiore ad € 40.000,00) di assumere l’impegno di spesa relativo al pagamento del contributo all’ANAC, dovuto in relazione al presente affidamento, e pari ad € sul cap. _______ del bilancio 20___, che presenta adeguata disponibilità
+
+
+        ### Rispondi al punto 34, SEZIONE: RIFERIMENTI CONTABILI:
+        Contributo ANAC
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non è presente alcun riferimento al pagamento del contributo all'ANAC relativo a questo affidamento, né l'impegno di spesa è stato assunto sul cap. del bilancio indicato.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Da inserire nella determina: di dare atto che l’affidatario è soggetto all’obbligo di tracciabilità dei flussi finanziari, ai sensi e per gli effetti della legge n° 136/2010 ed è pertanto tenuto a fornire a questo Ente tutti gli elementi identificativi richiesti dalla legge, con la specificazione che il mancato adempimento degli obblighi di tracciabilità dei flussi finanziari di cui alla citata legge è causa di nullità e pertanto il contratto è risolto di diritto;
+
+
+        ### Rispondi al punto 35, SEZIONE: RIFERIMENTI CONTABILI:
+        Flussi finanziari
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, non è presente nella determina la specificazione riguardante l'obbligo di tracciabilità dei flussi finanziari ai sensi della legge n° 136/2010. La determina non menziona esplicitamente tale obbligo né le conseguenze legate al mancato adempimento, il che rappresenta una mancanza in materia di regolarità amministrativa.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Dare atto nel provvedimento di impegno che il programma della spesa derivante dall’atto è compatibile con le vigenti regole della finanza pubblica.
+
+
+        ### Rispondi al punto 36, SEZIONE: RIFERIMENTI CONTABILI:
+        Conformità dei pagamenti con le regole della finanza pubblica vigenti
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : NO, non è esplicitamente indicato nel provvedimento che il programma della spesa derivante dall’atto è compatibile con le vigenti regole della finanza pubblica.
+
+#######--------- User prompt
+
+### Istruzioni
+
+nan 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 37, SEZIONE: INFORMAZIONI RELATIVE AL SOGGETTO INDIVIDUATO (DISPOSITIVO):
+        Indicazione esatta dell’aggiudicatario: nome, cognome, ragione sociale, indirizzo, P.Iva, Cod. Fiscale, sede legale/operativa, altro.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, [La determina fornisce l'indicazione esatta dell'aggiudicatario, specificando nome e cognome (Ing. Paolo Gentile Careddu), address (Corso Vittorio Veneto 15/F, Olbia), Partita IVA (00374800902), e la ragione sociale.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+In ottemperanza all’art. 191, del D.Lgs. n. 267/2000, tale comunicazione si rende necessaria affinché l’aggiudicatario presenti successivamente la fattura completa (specificando: numero determina, Settore, CIG, codice univoco dell’Ente, ecc. In caso di procedure a valere sui fondi comunitari dovrà essere inserita la specifica dicitura). 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 38, SEZIONE: INFORMAZIONI RELATIVE AL SOGGETTO INDIVIDUATO (DISPOSITIVO):
+        Comunicazione all’aggiudicatario dell’impegno di spesa, la copertura finanziaria, CIG
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina comunica all’aggiudicatario l’impegno di spesa, la copertura finanziaria e il CIG (Codice Identificativo di Gara) come richiesto, in quanto i dati sono presenti nel testo della determina stessa.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Lettera commerciale, ecc. 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 39, SEZIONE: INFORMAZIONI RELATIVE AL SOGGETTO INDIVIDUATO (DISPOSITIVO):
+        Indicazione specifica della tipologia del contratto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, [La determina specifica chiaramente che l'oggetto del contratto è l'“Incarico Professionale finalizzato al collaudo statico e tecnico - amministrativo per il Completamento Palazzo di Giustizia”, indicando così la tipologia di contratto richiesta.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+Art. 28. (Trasparenza dei contratti pubblici)  Le informazioni e i dati relativi alla programmazione di lavori, servizi e forniture, nonché alle procedure del ciclo di vita dei contratti pubblici, ove non considerati riservati ai sensi dell'articolo 35 ovvero secretati ai sensi dell'articolo 139, sono trasmessi tempestivamente alla Banca dati nazionale dei contratti pubblici attraverso le piattaforme digitali di cui all’articolo 25.  Tutti gli atti della procedura di gara sono soggetti agli obblighi di trasparenza previsti dagli art. 20 e 28 del Codice dei contratti e dal D.Lgs. n. 33/2013 e ss.mm.ii..
+
+**GRAVITA' [2/3](rilevante) se non presenti**
+
+
+        ### Rispondi al punto 40, SEZIONE: PRESCRIZIONI ANTICORRUZIONE, TRASPARENZA:
+        Obblighi di pubblicità e trasparenza
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, gli obblighi di pubblicità e trasparenza sono rispettati. Nella determina si fa riferimento alla pubblicazione dell'atto nei modi stabiliti dalla normativa vigente e in ottemperanza all’art. 20 del D.Lgs. 36/2023, al D.Lgs. 33/2013 e ss.mm.ii., adempiendo così agli obblighi di trasparenza previsti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+· Riferimenti al patto d’integrità nel rispetto delle misure generali previste dal Piano che prevedono tale obbligo in capo all’affidatario.  · Conformità alle prescrizioni ex artt. 6, 7 e 14 del DPR n. 62/2013, conflitto di interessi e codice di comportamento integrativo adottato con delibera di G.C. n. 437 del 30/12/2013;  · Rispetto delle misure contenute specificatamente nell’area contratti (AREA B) del Piano; 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 41, SEZIONE: PRESCRIZIONI ANTICORRUZIONE, TRASPARENZA:
+        Attestazione circa il rispetto delle prescrizioni del   PTPCT dell’Ente
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, il testo della determina menziona esplicitamente che è stato sottoscritto il Patto di Integrità approvato dal Comune con deliberazione G.C. n. 260 del 06/07/2016, e si evidenzia il rispetto delle misure generali previste dal Piano. Inoltre, non si rilevano contrasti con le misure contenute specificatamente nell’area contratti del Piano, assicurando conformità alle normative indicate.
+
+#######--------- User prompt
+
+### Istruzioni
+
+In ottemperanza al regolamento comunale sul Controllo Reg. Amministrativa (art. 12) e al Regolamento degli uffici e dei servizi (art. 20) le determinazioni devono essere pubblicate in elenco. 
+
+**GRAVITA' [1/3](lieve) se non presenti**
+
+
+        ### Rispondi al punto 42, SEZIONE: PRESCRIZIONI ANTICORRUZIONE, TRASPARENZA:
+        Pubblicazione atti all’Albo Pretorio Online.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, non risulta menzionata nella determina la pubblicazione dell'atto all'Albo Pretorio Online. Sebbene sia richiesta dalla normativa vigente, non è espressamente indicata nelle disposizioni finali della determina, costituendo una carenza rispetto agli obblighi di trasparenza previsti dal regolamento comunale.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Ai sensi dell’art. 3, della Legge n. 241/1990 sul procedimento amministrativo, indicare che avverso il presente provvedimento può essere proposto ricorso da eventuali interessati innanzi alla sezione del Tribunale Amministrativo Regionale di Cagliari nei modi ed  entro i termini stabiliti di legge.
+
+
+        ### Rispondi al punto 43, SEZIONE: ASPETTI DI REGOLARITÀ FORMALE:
+        Indicazione termini e autorità a cui ricorrere
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, La determina non contiene l'indicazione che avverso il presente provvedimento può essere proposto ricorso da eventuali interessati innanzi alla sezione del Tribunale Amministrativo Regionale di Cagliari, come previsto dall’art. 3 della Legge n. 241/1990.
+
+#######--------- User prompt
+
+### Istruzioni
+
+nan
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 44, SEZIONE: ASPETTI DI REGOLARITÀ FORMALE:
+        Sottoscrizione del Dirigente firmatario dell’atto e, dove previsto, del RP o RUP.
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, la determina è regolarmente sottoscritta dal Dirigente firmatario dell'atto, il quale è Diego Ciceri, e dal Responsabile Unico del Procedimento (RUP), Vincenzo Lombardi.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Dare atto che la determina sarà trasmessa al servizio finanziario per l’acquisizione del visto di regolarità contabile.
+
+**GRAVITA' [3/3](GRAVE) se non presenti**
+
+
+        ### Rispondi al punto 45, SEZIONE: ASPETTI DI REGOLARITÀ FORMALE:
+        Presenza del visto di regolarità contabile
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, non è presente il visto di regolarità contabile. La determina prevede la trasmissione al servizio finanziario per ottenere il visto, ma non indica che questo sia già stato rilasciato.
+
