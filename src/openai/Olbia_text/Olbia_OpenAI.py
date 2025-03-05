@@ -4,22 +4,24 @@ import openai
 import json
 import pandas as pd
 import re
+from tqdm import tqdm
 
 # Load the environment variables from .env file
 load_dotenv()
 
 
 # Define a function to interact with the model
-def generate_text(prompts, model="gpt-4o-mini"):
+def generate_text(prompts, temperature, top_p=None, model="gpt-4o-mini"):
     client = openai.OpenAI()
     
     try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=prompts,
-            seed=42,
-            temperature=0.001,
-        )
+        if top_p is None:
+            response = client.chat.completions.create(
+                model=model,
+                messages=prompts,
+                seed=42,
+                temperature=temperature,
+            )
         #print(f"generated")
         # Extract and return the generated text
         #print(response.choices[0].message)
@@ -61,7 +63,7 @@ def generate_user_prompts(punto, return_just_text=False):
         {punto["Punto"]}
         
         ### Output:
-        RISPOSTA GENERALE : [SI, NO, NON RICHIESTO], [spiegazione sintetica se necessaria]
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
         """
 
     if return_just_text:
@@ -98,7 +100,6 @@ def generate_prompt(determina):
     4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
        - **SI**: Il punto della checklist e relative istruzioni sono rispettate (la determina passa il controllo)
        - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
-       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
     6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
     
@@ -143,7 +144,9 @@ def checklist_determina(nome_determina,
                         nome_checklist,
                         checklists,
                         model = "gpt-4o-mini",
-                        model_folder="mini"):
+                        model_folder="mini",
+                        temperature=0.001,
+                        top_p_value=None):
 
     """
     Genera un'analisi dettagliata della corrispondenza tra una checklist normativa e una determina dirigenziale.
@@ -162,14 +165,17 @@ def checklist_determina(nome_determina,
     
     checklist = get_checklist(checklists,nome_checklist)
     
+    if not os.path.exists(f"./src/openai/Olbia_text/responses/{model_folder}/"):
+        os.makedirs(f"./src/openai/Olbia_text/responses/{model_folder}/")    
 
     with open(f"./src/openai/Olbia_text/responses/{model_folder}/{nome_determina}-Complete.json","w", encoding="utf-8") as f_complete:
         with open(f"./src/openai/Olbia_text/responses/{model_folder}/{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
             j_to_append = []
-            for i,punto in enumerate(checklist["Punti"]):
+            
+            for i,punto in tqdm(enumerate(checklist["Punti"]),total=len(checklist["Punti"])):
                 complete_prompt = generate_prompt(determina) + [generate_user_prompts(punto)]
                 
-                ret = generate_text(complete_prompt, model)
+                ret = generate_text(complete_prompt, temperature, top_p_value, model)
 
                 #print(ret)
 
@@ -179,7 +185,7 @@ def checklist_determina(nome_determina,
                 j_to_append.append({"index":i,
                            "prompts":complete_prompt,
                            "response":ret})
-                print(f"Generated : {i}")
+                #print(f"Generated : {i}")
                 
                 ### Only responses
                 f_response.write("#######--------- User prompt\n\n")
@@ -195,6 +201,8 @@ def checklist_determina(nome_determina,
 
 if __name__ == "__main__":
     
+    #done = [0,1,3,4,5,6,7,8,9,10]
+    #todo = 2
     done = []
     model = "gpt-4o-mini"
     model_folder = "mini"
@@ -210,15 +218,24 @@ if __name__ == "__main__":
     with open("./src/txt/Olbia/checklists/Olbia_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
+    temp_values = [round(x * 0.2, 1) for x in range(10)]
+    
+    
     
     if True:
-        for i, _ in df_determine.iterrows():
-            if i not in done:
-                print(f"DOING determina {i}")
-                num = df_determine["Numero Determina"].loc[i]
-                che_ass = df_determine["Checklist associata"].loc[i]
-                
-                checklist_determina(num,che_ass, checklists,model,model_folder)
-                
-                print(f"Done determina {num} - {che_ass}")
+        for temperature in temp_values:
+            for i, _ in df_determine.iterrows():
+                if i not in done:
+                    print(f"DOING determina {i}")
+                    num = df_determine["Numero Determina"].loc[i]
+                    che_ass = df_determine["Checklist associata"].loc[i]
+                    model_folder_t = model_folder + f"/temp_{temperature}"
+                    checklist_determina(num, 
+                                        che_ass, 
+                                        checklists,
+                                        model,
+                                        model_folder_t, 
+                                        temperature=temperature)
+                    
+                    print(f"Done determina {num} - {che_ass}")
 

@@ -35,8 +35,8 @@ def extract_text_from_pdfs(directory_input, directory_output):
 
 
 # Specify the directory containing the PDF files
-pdf_directory = "./determine_pdf/Olbia"  
-text_directory= "./src/txt/Olbia/Raw_det"
+pdf_directory = "./determine_pdf/Lucca"  
+text_directory= "./src/txt/Lucca/Raw_det"
 
 # Call the function and process the PDFs
 extracted_data = extract_text_from_pdfs(pdf_directory,text_directory)

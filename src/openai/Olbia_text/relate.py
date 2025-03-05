@@ -135,17 +135,21 @@ if __name__ == "__main__":
     with open("./src/txt/Olbia/checklists/Olbia_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
+    temp_values = [round(x * 0.2, 1) for x in range(10)]
     
     if True:
-        for i, _ in df_determine.iterrows():
-           
+        for temperature in temp_values:
+            for i, _ in df_determine.iterrows():
             
-            num = df_determine["Numero Determina"].loc[i]
-            che_ass = df_determine["Checklist associata"].loc[i]
-            
-            relate_checklist_determina(num,che_ass, checklists,model,model_folder)
                 
-            print(f"Done determina {num} - {che_ass}")
+                num = df_determine["Numero Determina"].loc[i]
+                che_ass = df_determine["Checklist associata"].loc[i]
+                
+                model_folder_t = model_folder + f"/temp_{temperature}"
+                
+                relate_checklist_determina(num,che_ass, checklists,model,model_folder_t)
+                    
+                print(f"Done determina {num} - {che_ass}")
             
 
     
