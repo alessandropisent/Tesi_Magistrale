@@ -4,15 +4,13 @@
 Note: Non è esplicitato nella determina il servizio di appartenenza presente nella macrostruttura vigente."	NO
 1	Oggetto della determinazione	"RISPOSTA : NO
 
-Note: L’oggetto della determinazione menziona il codice 15275 anziché 15271, è necessario correggerlo."	NO
+Note: L’oggetto della determinazione menziona il codice 15275 anziché 15271, pertanto non risulta corretto."	NO
 2	Indicazione del CIG e /o del CUP del CUI, del CPV	RISPOSTA: SI	SI
 3	Centro di Costo: si indica il centro di costo al quale imputare la spesa.	RISPOSTA : SI	SI
 4	Estremi decreto sindacale di nomina del dirigente.	RISPOSTA : SI	SI
 5	Estremi della delega alla firma dell'atto, se persona diversa dal Dirigente.	RISPOSTA: NO	NO
 6	Estremi atto di nomina del Responsabile del Progetto.	RISPOSTA : SI	SI
-7	Conflitto d'interessi 	"RISPOSTA: SI
-
-Nota: La determina menziona che non sussistono situazioni di conflitto di interessi in relazione ai soggetti coinvolti nella procedura, in conformità all'art. 16 del D.lgs. n. 36/2023."	SI
+7	Conflitto d'interessi 	RISPOSTA: SI	SI
 8	"**Normativa specifica**:
 Codice dei contratti pubblici (D.Lgs. n. 36.2023.);
 L.R. n. 8/2018 e ss.mm.ii. (per quanto applicabile);
@@ -32,7 +30,7 @@ Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)"	RISPOSTA : N
 11	"Regolamenti dell’ente quali:
 - Statuto Comunale;
 - Regolamento di contabilità;
-- Regolamento dei contratti"	"RISPOSTA: NO
+- Regolamento dei contratti"	"RISPOSTA : NO
 
 Note: Nella determina non si fa esplicito riferimento allo Statuto Comunale, al Regolamento di contabilità, né al Regolamento dei contratti."	NO
 12	Termini per la conclusione della procedura 	"RISPOSTA: NO
@@ -41,9 +39,9 @@ Note: Non è presente alcun riferimento ai termini per la conclusione della proc
 13	Fine che con il contratto si intende perseguire	RISPOSTA: SI	SI
 14	Oggetto del contratto	"RISPOSTA: NO 
 
-Note: La determina non specifica un capitolato d’appalto, quaderno d’oneri o schema di contratto."	NO
+Note: La determina non specifica la presenza di un capitolato d’appalto, quaderno d’oneri o schema di contratto, come richiesto dall'art. 192 del D.Lgs. n. 267/2000."	NO
 15	DUVRI (per i servizi)	RISPOSTA: SI	SI
-16	Costo della mano d’opera; contratto applicabile 	NO	NO
+16	Costo della mano d’opera; contratto applicabile 	RISPOSTA : NO	NO
 17	Suddivisione in lotti	"RISPOSTA : NO
 
 Nota: La determina non menziona la motivazione sulla mancata suddivisione dell'appalto in lotti ai sensi dell’art. 58 del Dlgs n. 36/2023."	NO
@@ -57,18 +55,16 @@ Note: Nella determina non è presente alcun riferimento ai Criteri Ambientali Mi
 21	Clausole del contratto ritenute essenziali	RISPOSTA: SI	SI
 22	Cauzione provvisoria	"RISPOSTA: NO
 
-Note: Non viene richiesta la garanzia definitiva in quanto l’affidamento non lo prevede, secondo quanto indicato nella determina."	NO
+Note: Non viene richiesta la garanzia definitiva in quanto l'operatore economico ha fornito in precedenza la medesima fornitura in maniera affidabile e con soddisfazione della stazione appaltante."	NO
 23	Modalità di scelta del contraente e ragioni che ne sono alla base (motivare in modo specifico) e criteri di selezione delle offerte	"RISPOSTA: NO
 
-Note: La determina non fornisce una motivazione specifica riguardante la modalità di scelta del contraente e i criteri di selezione delle offerte, come richiesto dal punto 24."	NO
-24	Rotazione degli affidamenti 	"RISPOSTA : NO
-
-Note: La determina specifica che il principio di rotazione di cui all’art. 49 del d.lgs. 36/2023 può essere derogato per gli affidamenti diretti di importo inferiore a 5.000 euro. Questo implica che non si applica la rotazione per la presente procedura."	NO
+Note: La determina non fornisce una motivazione specifica riguardante la modalità di scelta del contraente e i criteri di selezione delle offerte, elementi richiesti dal D.Lgs. n. 267/2000 e dal D.Lgs. n. 36/2023."	NO
+24	Rotazione degli affidamenti 	RISPOSTA : NO	NO
 25	"Indicazione dell’importo massimo stimato a base di gara
 Quadro economico dell’intervento  comprensivo di 
 Importo a base di gara, oneri fiscali, costi della sicurezza/interferenziali, revisione dei prezzi, somme a disposizione, supporto al RUP, incentivi (art. 45) modificazioni del contratto preventivabili, proroga, lavori o servizi analoghi, quinto d’obbligo"	"RISPOSTA: NO
 
-Nota: Nella determina non è presente un'indicazione chiara dell'importo massimo stimato a base di gara e del quadro economico dell'intervento, come i costi della sicurezza, oneri fiscali, e altre voci richieste. Questo rappresenta una grave omissione."	NO
+Nota: Nella determina non è presente un'indicazione chiara dell'importo massimo stimato a base di gara e del quadro economico dettagliato dell'intervento."	NO
 26	Riferimenti all’obbligo di utilizzo degli strumenti di acquisto e di negoziazione messi a disposizione da CONSIP e da soggetti aggregatori 	"RISPOSTA : NO
 
 Note: La determina non menziona chiaramente il rispetto degli obblighi di utilizzo degli strumenti di acquisto e di negoziazione messi a disposizione da CONSIP e da soggetti aggregatori, come richiesto."	NO
@@ -76,14 +72,17 @@ Note: La determina non menziona chiaramente il rispetto degli obblighi di utiliz
 28	Riferimenti alla deliberazione di approvazione del bilancio.	"RISPOSTA: NO
 
 Note: Non sono presenti riferimenti alla deliberazione di approvazione del bilancio pluriennale vigente nella determina."	NO
-29	Riferimenti deliberazione approvazione PEG e del PIAO	RISPOSTA : NO	NO
+29	Riferimenti deliberazione approvazione PEG e del PIAO	"RISPOSTA : NO  
+Note: Non ci sono riferimenti espliciti alla deliberazione di approvazione del PEG e del PIAO."	NO
 30	Impegno di spesa/prenotazione/copertura finanziaria	"RISPOSTA : SI 
 
 Nota: L'importo da impegnare è di € 4.026,00, assoggettato a IVA al 22% per una parte (aggiornamento Software Auditing PA) mentre la formazione è esente da IVA ai sensi dell’articolo 10, primo comma, n. 20) del D.P.R. 633/72. Non ci sono riferimenti a bilancio e PEG non approvati o impegni di spesa pluriennali nel testo della determina."	SI
-31	Conformità dei pagamenti con le regole della finanza pubblica vigenti.	RISPOSTA : SI	SI
+31	Conformità dei pagamenti con le regole della finanza pubblica vigenti.	RISPOSTA: SI	SI
 32	Contributo ANAC	RISPOSTA : NO	NO
 33	Richiamati e/o allegati	RISPOSTA : SI	SI
-34	Obblighi di pubblicità e trasparenza	RISPOSTA: SI	SI
+34	Obblighi di pubblicità e trasparenza	"RISPOSTA: NO
+
+Note: L'articolo 29 del Codice dei contratti non è stato menzionato nella determina."	NO
 35	Pubblicazione atti all’Albo Pretorio Online	RISPOSTA: SI	SI
 36	Acquisizione del visto di regolarità contabile ai sensi dell’art. 153 del D.Lgs. n. 267/2000	RISPOSTA : SI	SI
 37	Sottoscrizione del Dirigente firmatario dell’atto e dove previsto del R.P. o RUP.	RISPOSTA: SI	SI

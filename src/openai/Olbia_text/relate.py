@@ -120,7 +120,7 @@ def relate_checklist_determina(nome_determina,
 
 if __name__ == "__main__":
     
-    done = []
+    done = [1,2,3,4,5,6,7,8]
     model = "gpt-4o-mini"
     model_folder = "mini_1"
     

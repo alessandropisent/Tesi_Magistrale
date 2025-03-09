@@ -38,7 +38,7 @@ Indica in sintesi il contenuto del provvedimento, inserendo nell'oggetto il codi
 
 RISPOSTA : NO
 
-Note: L’oggetto della determinazione menziona il codice 15275 anziché 15271, è necessario correggerlo.
+Note: L’oggetto della determinazione menziona il codice 15275 anziché 15271, pertanto non risulta corretto.
 
 #######--------- User prompt
 
@@ -169,8 +169,6 @@ Si ha conflitto di interessi quando un soggetto che, a qualsiasi titolo, intervi
 
 RISPOSTA: SI
 
-Nota: La determina menziona che non sussistono situazioni di conflitto di interessi in relazione ai soggetti coinvolti nella procedura, in conformità all'art. 16 del D.lgs. n. 36/2023.
-
 #######--------- User prompt
 
 ### Istruzioni
@@ -271,7 +269,7 @@ Indicare se le regole sono state rispettate
 #####---- RESPONSE:
 
 
-RISPOSTA: NO
+RISPOSTA : NO
 
 Note: Nella determina non si fa esplicito riferimento allo Statuto Comunale, al Regolamento di contabilità, né al Regolamento dei contratti.
 
@@ -339,7 +337,7 @@ Nei beni e servizi: capitolato d’appalto oppure quaderno d’oneri, oppure sch
 
 RISPOSTA: NO 
 
-Note: La determina non specifica un capitolato d’appalto, quaderno d’oneri o schema di contratto.
+Note: La determina non specifica la presenza di un capitolato d’appalto, quaderno d’oneri o schema di contratto, come richiesto dall'art. 192 del D.Lgs. n. 267/2000.
 
 #######--------- User prompt
 
@@ -378,7 +376,7 @@ Vene indicato il costo della mano d'opera?
 #####---- RESPONSE:
 
 
-NO
+RISPOSTA : NO
 
 #######--------- User prompt
 
@@ -511,7 +509,7 @@ L’art. 106 stabilisce che l’offerta è corredata da una garanzia provvisoria
 
 RISPOSTA: NO
 
-Note: Non viene richiesta la garanzia definitiva in quanto l’affidamento non lo prevede, secondo quanto indicato nella determina.
+Note: Non viene richiesta la garanzia definitiva in quanto l'operatore economico ha fornito in precedenza la medesima fornitura in maniera affidabile e con soddisfazione della stazione appaltante.
 
 #######--------- User prompt
 
@@ -546,7 +544,7 @@ Ove la determina a contrarre approvi anche il Bando, avviso…. , è possibile r
 
 RISPOSTA: NO
 
-Note: La determina non fornisce una motivazione specifica riguardante la modalità di scelta del contraente e i criteri di selezione delle offerte, come richiesto dal punto 24.
+Note: La determina non fornisce una motivazione specifica riguardante la modalità di scelta del contraente e i criteri di selezione delle offerte, elementi richiesti dal D.Lgs. n. 267/2000 e dal D.Lgs. n. 36/2023.
 
 #######--------- User prompt
 
@@ -567,8 +565,6 @@ Non si applica la rotazione (previa motivazione) alle procedure negoziate di cui
 
 
 RISPOSTA : NO
-
-Note: La determina specifica che il principio di rotazione di cui all’art. 49 del d.lgs. 36/2023 può essere derogato per gli affidamenti diretti di importo inferiore a 5.000 euro. Questo implica che non si applica la rotazione per la presente procedura.
 
 #######--------- User prompt
 
@@ -591,7 +587,7 @@ Importo a base di gara, oneri fiscali, costi della sicurezza/interferenziali, re
 
 RISPOSTA: NO
 
-Nota: Nella determina non è presente un'indicazione chiara dell'importo massimo stimato a base di gara e del quadro economico dell'intervento, come i costi della sicurezza, oneri fiscali, e altre voci richieste. Questo rappresenta una grave omissione.
+Nota: Nella determina non è presente un'indicazione chiara dell'importo massimo stimato a base di gara e del quadro economico dettagliato dell'intervento.
 
 #######--------- User prompt
 
@@ -678,7 +674,8 @@ Indicare se sono presenti i riferimenti
 #####---- RESPONSE:
 
 
-RISPOSTA : NO
+RISPOSTA : NO  
+Note: Non ci sono riferimenti espliciti alla deliberazione di approvazione del PEG e del PIAO.
 
 #######--------- User prompt
 
@@ -722,7 +719,7 @@ Dare atto nel provvedimento di impegno che il programma della spesa derivante da
 #####---- RESPONSE:
 
 
-RISPOSTA : SI
+RISPOSTA: SI
 
 #######--------- User prompt
 
@@ -783,7 +780,9 @@ Tutti gli atti della procedura di gara sono soggetti agli obblighi di trasparenz
 #####---- RESPONSE:
 
 
-RISPOSTA: SI
+RISPOSTA: NO
+
+Note: L'articolo 29 del Codice dei contratti non è stato menzionato nella determina.
 
 #######--------- User prompt
 
