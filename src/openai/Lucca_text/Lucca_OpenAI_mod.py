@@ -226,7 +226,7 @@ if __name__ == "__main__":
         for temperature in temp_values:
             for i, _ in df_determine.iterrows():
                 if i not in done:
-                    print(f"DOING determina {i}")
+                    print(f"DOING determina {i} - temp:{temperature} ")
                     num = df_determine["Numero Determina"].loc[i]
                     che_ass = df_determine["Checklist associata"].loc[i]
                     model_folder_t = model_folder + f"/temp_{temperature}"
