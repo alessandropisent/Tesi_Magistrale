@@ -78,8 +78,10 @@ def relate_checklist_determina(nome_determina,nome_checklist,sub_cartella):
     df = pd.json_normalize(data, record_path=['Response'])
     print(df)
     df["Simple"] = df["LLM.generated_text"].apply(analize_response)
-    name_xls = f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-G_{name_checklist_end}.xlsx"
-    df.to_excel(name_xls)
+    name_out = f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-G_{name_checklist_end}"
+    df.to_excel(name_out+".xlsx")
+    df.to_csv(name_out+".csv")
+    
 
 
 
