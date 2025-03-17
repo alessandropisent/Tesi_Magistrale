@@ -86,6 +86,8 @@ def relate_checklist_determina(nome_determina,nome_checklist,sub_cartella):
 
 
 
+
+
 model_folder_t = "General/"
 
 # load the csv with all the determine da controllare
@@ -100,4 +102,4 @@ for i, _ in df_determine.iterrows():
     relate_checklist_determina(num,che_ass,model_folder_t)
         
     print(f"Done determina {num} - {che_ass}")
-    break
+    

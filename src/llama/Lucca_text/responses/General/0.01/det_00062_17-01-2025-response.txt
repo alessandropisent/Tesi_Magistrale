@@ -1,0 +1,441 @@
+ 
+                #### CHECKLIST
+                Controlla se sono specificate le competenze degli organi
+
+Competenza organo/dirigente individuato con decreto
+                
+                ### RESPONSE
+                
+
+
+
+Risposta: 
+
+Punto 1: [SI]
+La determina specifica le competenze degli organi, in particolare il Dirigente procedente, che è il Responsabile del procedimento, e il Responsabile dell'U.O. 6.2, Ing. Luca Falsiroli, che non ha segnalato di trovarsi in conflitto d'interesse. Inoltre, la determina cita lo Statuto Comunale e il decreto sindacale n. 35/2024, che potrebbero essere rilevanti per la definizione delle competenze degli organi. Tuttavia, non è presente alcuna menzione esplicita delle competenze degli organi in relazione all'oggetto della determina, che è l'impegno di spesa per la quota di competenza dell'esercizio 2025 per il solo servizio di assistenza e manutenzione ordinaria del sistema varchi. Pertanto, la risposta è SI, ma con la precisazione che la determina potrebbe essere più chiara nella definizione delle competenze degli organi.
+
+Note finali: La determina potrebbe essere più chiara nella definizione delle competenze degli organi, in particolare in relazione all'oggetto della determina. È importante che le competenze degli organi siano esplicitate in modo chiaro e preciso per evitare ambiguità e garantire la trasparenza e la responsabilità dei procedimenti amministrativi. Inoltre, potrebbe essere utile allegare una copia del decreto sindacale n. 35/2024 e dello Statuto Comunale per garantire la completezza e la trasparenza dell'atto.
+                 
+                #### CHECKLIST
+                Controlla se è presente l'articolazione dell'atto
+
+Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 2: SI
+    La determina rispetta l'indicazione autorità e termini per ricorrere.
+    Note finali: Nessuna osservazione.
+    </s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 2: SI
+    La determina rispetta l'indicazione autorità e termini per ricorrere.
+    Note finali: Nessuna osservazione.
+    </s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 2: SI
+    La determina rispetta l'indicazione autorità e termini per ricorrere.
+    Note finali: Nessuna osservazione.
+    </s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 2: SI
+    La determina rispetta l'indicazione autorità e termini per ricorrere.
+    Note finali: Nessuna osservazione.
+    </s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 2: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 2: SI
+    La determina rispetta l'indicazione autorità e termini per ricorrere.
+    Note finali: Nessuna osservazione.
+    </
+                 
+                #### CHECKLIST
+                Controlla se ci sono i riferimenti normativi di carattere generale
+
+Affidabilità riferimenti normativi di carattere generale es. TUEL 
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    Punto 3: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    </s>
+    <s>
+    Punto 3: SI
+    Note finali: Nessun problema rilevato.
+    </s>[/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 3: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    </s>
+    <s>
+    Punto 3: SI
+    Note finali: Nessun problema rilevato.
+    </s>[/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 3: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    </s>
+    <s>
+    Punto 3: SI
+    Note finali: Nessun problema rilevato.
+    </s>[/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 3: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    </s>
+    <s>
+    Punto 3: SI
+    Note finali: Nessun problema rilevato.
+    </s>[/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 3: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    </s>
+    <s>
+    Punto 3: SI
+    Note finali: Nessun problema rilevato.
+    </s>[/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 3: [SI/NO/NON P
+                 
+                #### CHECKLIST
+                Controlla se sono presenti i riferimenti normativi specifici
+
+Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    Punto 4: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    </s>
+    Risposta:
+    Punto 4: SI
+    La determina rispetta il punto 4 della checklist, poiché il responsabile del procedimento, Ing. Luca Falsiroli, ha reso l'attestazione e la dichiarazione sostitutiva richieste e non ha segnalato di trovarsi in conflitto d'interesse.
+
+    Note finali: Nessuna osservazione. La determina sembra essere regolare e rispettare tutte le norme richieste. Tuttavia, è sempre importante verificare ulteriormente per assicurarsi che non ci siano errori o omissioni. [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se l'istruzione è rispettata.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: Il punto della checklist e relative istruzioni sono rispettati (la determina passa il controllo)
+       - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
+       - **NON PERTINENTE**: Il punto della checklist non è pertinente alla determina. Aggiungi una spiegazione sintetica.
+    6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispond
+                 
+                #### CHECKLIST
+                Controlla se sono presenti le attività
+
+Nel caso di attività inserite negli atti di programmazione Coerenza con: 
+- DUP  e PIAO 
+- Bilancio di Previsione se trattasi di DD con spesa; 
+- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi 
+- SITAT e altre banche dati)
+                
+                ### RESPONSE
+                 Risposta: 
+     Punto 5: [SI]
+     Note finali: 
+     La determina è conforme alla checklist, in quanto riporta l'allegato 1 (attestazione resa ai sensi dell’art. 1 della Legge n. 241/1990) e l'allegato 2 (dichiarazione sostitutiva resa ai sensi dell’art. 47 T.U. D.P.R. n. 445 del 28/12/2000). Tuttavia, si consiglia di verificare se gli allegati sono effettivamente allegati alla determina e se sono complete e corrette. Inoltre, si consiglia di verificare se il Dirigente procedente ha dichiarato di non trovarsi in situazione di conflitto di interesse, come previsto dall'art. 6-bis della L. n. 241/1990. 
+     La determina sembra essere conforme alla checklist, ma è necessario verificare ulteriormente gli allegati e la dichiarazione del Dirigente procedente. 
+     Inoltre, si consiglia di verificare se il CIG derivato acquisito in sede di approvazione dell’ordine di esecuzione in oggetto 9049848AD0 è effettivamente confermato e se è compatibile con gli stanziamenti di Bilancio. 
+     In generale, la determina sembra essere conforme alla checklist, ma è necessario verificare ulteriormente gli allegati e la dichiarazione del Dirigente procedente. 
+     Inoltre, si consiglia di verificare se il responsabile del procedimento, Ing. Luca Falsiroli, ha segnalato di trovarsi in conflitto d'interesse, anche potenziale, ai sensi dell'art. 6-bis della L. n. 241/1990, nei confronti dei destinatari del presente atto. 
+     In generale, la determina sembra essere conforme alla checklist, ma è necessario verificare ulteriormente gli allegati e la dichiarazione del Dirigente procedente. 
+     Inoltre, si consiglia di verificare se il sottoscritto Dirigente procedente non si tro
+                 
+                #### CHECKLIST
+                Controlla se è indicata esplicitamente la motivazione
+
+Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    Punto 6: [SI]
+    Note finali: Nessun problema rilevato.
+    <</SYS>>
+    </s> <s>[INST] <<SYS>>
+    La determina è conforme alla normativa richiamata (art. 6-bis della L. n. 241/1990) in quanto il responsabile del procedimento ha reso la dichiarazione di non trovarsi in conflitto di interesse.
+    <</SYS>>
+    </s> <s>[INST] <<SYS>>
+    La determina è conforme alla normativa richiamata (art. 6-bis della L. n. 241/1990) in quanto il responsabile del procedimento ha reso la dichiarazione di non trovarsi in conflitto di interesse.
+    <</SYS>>
+    </s> <s>[INST] <<SYS>>
+    La determina è conforme alla normativa richiamata (art. 6-bis della L. n. 241/1990) in quanto il responsabile del procedimento ha reso la dichiarazione di non trovarsi in conflitto di interesse.
+    <</SYS>>
+    </s> <s>[INST] <<SYS>>
+    La determina è conforme alla normativa richiamata (art. 6-bis della L. n. 241/1990) in quanto il responsabile del procedimento ha reso la dichiarazione di non trovarsi in conflitto di interesse.
+    <</SYS>>
+    </s> <s>[INST] <<SYS>>
+    La determina è conforme alla normativa richiamata (art. 6-bis della L. n. 241/1990) in quanto il responsabile del procedimento ha reso la dichiarazione di non trovarsi in conflitto di interesse.
+    <</SYS>>
+    </s> <s>[INST] <<SYS>>
+    La determina è conforme alla normativa richiamata (art. 6-bis della L. n. 241/1990) in quanto il responsabile del procedimento ha reso la dichiarazione di non trovarsi in conflitto di interesse.
+    <</SYS>>
+    </s> <s>[INST] <<SYS>>
+    La determina è conforme alla normativa richiam
+                 
+                #### CHECKLIST
+                Controlla se sono presenti i seguenti punti:
+
+1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+2)  indicare  RUP delegato per fase
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Nessun problema rilevato.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 7: [SI]
+    Note finali: Ness
+                 
+                #### CHECKLIST
+                Controlla se sono indicate le seguenti misure:
+
+Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST]</s>[/INST] <s>[INST] <<SYS>>
+    Risposta:
+    Punto 8: [SI]
+    Note finali: Nessun problema rilevato nella determina.
+    [/INST
+                 
+                #### CHECKLIST
+                Controlla se la normativa sulla tutela della riservatezza è rispettata
+
+Rispetto normativa sulla tutela della riservatezza laddove rilevante
+                
+                ### RESPONSE
+                 Rispetto normativa sulla tutela della riservatezza laddove rilevante: **SI**
+La determina rispetta la normativa sulla tutela della riservatezza, poiché non contiene informazioni sensibili o riservate che potrebbero compromettere la privacy degli individui o dell'ente. Inoltre, non sono presenti richieste di accesso a dati personali o informazioni confidenziali. La determina si limita a impegnare la spesa per il servizio di assistenza e manutenzione ordinaria del sistema varchi, senza rivelare informazioni sensibili. Pertanto, la determina rispetta la normativa sulla tutela della riservatezza. 
+Note finali: Nessuna osservazione. La determina sembra essere conforme alle normative sulla tutela della riservatezza.  </s>[/INST] <s>[INST] <<SYS>>
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+    Segui i passaggi seguenti:
+    1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
+    2. Leggi il testo della determina.
+    3. Per ogni punto della checklist, verifica se l'istruzione è rispettata.
+    4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
+       - **SI**: Il punto della checklist e relative istruzioni sono rispettati (la determina passa il controllo)
+       - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
+       - **NON PERTINENTE**: Il punto della checklist non è pertinente alla determina. Aggiungi una spiegazione sintetica.
+    6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
+
+    Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+    Controlla
+                 
+                #### CHECKLIST
+                Controlla se sono stati rispettati i tempi e termini del procedimento
+
+Rispetto dei tempi e dei termini del procedimento
+                
+                ### RESPONSE
+                 Rispetto dei tempi e dei termini del procedimento
+
+Punto 1: Controlla se sono stati rispettati i tempi e termini del procedimento
+
+Risposta: SI
+
+La determina è stata emessa il 17/01/2025, ma il procedimento è stato avviato con la determinazione dirigenziale n. 3193 del 30/12/2021. Il termine di 24 mesi per il servizio di assistenza e manutenzione ordinaria del sistema varchi è stato posticipato al 28/02/2025 a causa dell'avvio effettivo del servizio il 01/03/2022 anziché il 01/01/2022.
+
+Punto 2: Controlla se sono stati rispettati i tempi e termini del procedimento
+
+Risposta: SI
+
+La determina è stata emessa il 17/01/2025, ma il procedimento è stato avviato con la determinazione dirigenziale n. 3193 del 30/12/2021. Il termine di 24 mesi per il servizio di assistenza e manutenzione ordinaria del sistema varchi è stato posticipato al 28/02/2025 a causa dell'avvio effettivo del servizio il 01/03/2022 anziché il 01/01/2022.
+
+Punto 3: Controlla se sono stati rispettati i tempi e termini del procedimento
+
+Risposta: SI
+
+La determina è stata emessa il 17/01/2025, ma il procedimento è stato avviato con la determinazione dirigenziale n. 3193 del 30/12/2021. Il termine di 24 mesi per il servizio di assistenza e manutenzione ordinaria del sistema varchi è stato posticipato al 28/02/2025 a causa dell'avvio effettivo del servizio il 01/03/2022 anziché il 01/01/2022.
+
+Punto 4: Controlla se sono stati rispettati i tempi e termini del procedimento
+
+Risposta: SI
+
+La determina è stata emessa il 17/01/2025
+                 
+                #### CHECKLIST
+                Sono presenti altre annotazioni Criticità?
+
+Altre annotazioni/criticità in merito: a. possibilità di semplificare
+b. possibilità di digitalizzare
+c. fare un focus specifico
+d. pari opportunità
+e. accesso
+                
+                ### RESPONSE
+                 <s>[INST] <<SYS>>
+    Risposta:
+    Punto 11: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 11: SI
+    Note finali: Nessun problema rilevato.
+    <</SYS>]
+
+</s> 
+    <s>[INST] <<SYS>>
+    Risposta:
+    Punto 11: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 11: SI
+    Note finali: Nessun problema rilevato.
+    <</SYS>]
+
+</s> 
+    <s>[INST] <<SYS>>
+    Risposta:
+    Punto 11: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 11: SI
+    Note finali: Nessun problema rilevato.
+    <</SYS>]
+
+</s> 
+    <s>[INST] <<SYS>>
+    Risposta:
+    Punto 11: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 11: SI
+    Note finali: Nessun problema rilevato.
+    <</SYS>]
+
+</s> 
+    <s>[INST] <<SYS>>
+    Risposta:
+    Punto 11: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 11: SI
+    Note finali: Nessun problema rilevato.
+    <</SYS>]
+
+</s> 
+    <s>[INST] <<SYS>>
+    Risposta:
+    Punto 11: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
+
+    Note finali: [eventuali osservazioni generali]
+    Punto 11: SI
+    Note finali: Nessun problema
+                

@@ -4,6 +4,7 @@ import torch
 import pandas as pd
 import re
 from tqdm import tqdm
+import os
 
 def clean_text(text):
   """Cleans text by removing unrecognized special characters.
@@ -65,10 +66,6 @@ def generate_prompt(istruzioni, punti, num, determina):
 
     Note finali: [eventuali osservazioni generali]
     [/INST]</s>
-    
-    <s> 
-    Risposta generata dal modello di assistenza amministrativa.
-    </s>
     """
 
 
@@ -126,6 +123,9 @@ def checklist_determina(nome_determina,
     checklist = get_checklist(checklists,nome_checklist)
     
     dictionary_response = {"Response":[]}
+    
+    if not os.path.exists(f"./src/llama/Lucca_text/responses/{sub_cartella}"):
+        os.makedirs(f"./src/llama/Lucca_text/responses/{sub_cartella}")  
 
     with open(f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-Complete.txt","w", encoding="utf-8") as f_complete:
         with open(f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
@@ -144,8 +144,6 @@ def checklist_determina(nome_determina,
                     max_new_tokens=500,
                     truncation = True,
                     return_full_text=False,
-                    top_p = 0.9,
-                    temperature = 0.8,
                 )
 
                 #print(ret)
@@ -196,26 +194,15 @@ if __name__ == "__main__":
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
-            #device_map= torch.device('cuda:0'),
+            device_map= torch.device('cuda:1'),
             
-            device_map='auto',
+            #device_map='auto',
             #use_flash_attention_2=True
         )
         tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
 
 
-        # Create the pipeline
-        text_gen_pipeline = pipeline(
-            "text-generation",
-            model=model,
-            tokenizer=tokenizer,
-            max_new_tokens=1000,
-            pad_token_id=tokenizer.eos_token_id,  # open-end generation
-            truncation=True,  # Truncates inputs exceeding model max length
-            eos_token_id = tokenizer.eos_token_id,
-            
-        )
-    
+
     #load the json - Dictionary
     with open("./src/txt/Lucca/checklists/checklists.json","r", encoding="utf-8") as f:
         checklists = json.load(f)
@@ -236,17 +223,37 @@ if __name__ == "__main__":
                                                             model_id.split("/", 1)[1])
         
         df_determine.to_csv("./src/llama/Lucca_text/Lucca_Determine_gen.csv")
-            
+    
+    
+    temperatures = [0.01,0.2,0.4,0.6]
+    
     
     if True:
-        for i, _ in df_determine.iterrows():
-            num = df_determine["Numero Determina"].loc[i]
-            che_ass = df_determine["Checklist associata"].loc[i]
-            sub_cartella = "General/"
-            
-            
-            checklist_determina(num,che_ass, text_gen_pipeline, checklists,sub_cartella)
-            print(f"Done determina {num} - {che_ass}")
-            
+        for temp in temperatures:
+            for i, _ in df_determine.iterrows():
+                
+                # Create the pipeline
+                text_gen_pipeline = pipeline(
+                    "text-generation",
+                    model=model,
+                    tokenizer=tokenizer,
+                    max_new_tokens=1000,
+                    pad_token_id=tokenizer.eos_token_id,  # open-end generation
+                    truncation=True,  # Truncates inputs exceeding model max length
+                    eos_token_id = tokenizer.eos_token_id,
+                    do_sample=True,
+                    temperature = temp,
+                    top_p = 0.9,    
+                )
+        
+                
+                num = df_determine["Numero Determina"].loc[i]
+                che_ass = df_determine["Checklist associata"].loc[i]
+                sub_cartella = f"General/{temp}/"
+                
+                
+                checklist_determina(num,che_ass, text_gen_pipeline, checklists,sub_cartella)
+                print(f"Done determina {num} - {che_ass}")
+                
 
 ## Numero Determina,Checklist associata
