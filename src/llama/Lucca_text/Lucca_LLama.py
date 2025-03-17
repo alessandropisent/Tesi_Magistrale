@@ -3,6 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import torch
 import pandas as pd
 import re
+from tqdm import tqdm
 
 def clean_text(text):
   """Cleans text by removing unrecognized special characters.
@@ -42,11 +43,11 @@ def generate_prompt(istruzioni, punti, num, determina):
     Segui i passaggi seguenti:
     1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
     2. Leggi il testo della determina.
-    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    3. Per ogni punto della checklist, verifica se l'istruzione è rispettata.
     4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
        - **SI**: Il punto della checklist e relative istruzioni sono rispettate (la determina passa il controllo)
        - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
-       - **Ambiguo**: Il punto della checklist è troppo vago o indefinito per fornire una risposta precisa. Aggiungi una spiegazione sintetica.
+       - **NON PERTINENTE**: Il punto della checklist non è pertinente alla determina. Aggiungi una spiegazione sintetica.
     6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
     Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
@@ -60,10 +61,8 @@ def generate_prompt(istruzioni, punti, num, determina):
     {determina}
 
     ##### OUTPUT:
-    Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
+    Punto {num}: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
 
-    
-    QUINDI Dati i sottopunti elencati, il Punto {num}: [SI/Carente/NO/Ambiguo], [spiegazione sintetica se necessaria]
     Note finali: [eventuali osservazioni generali]
     [/INST]</s>
     
@@ -126,11 +125,12 @@ def checklist_determina(nome_determina,
     
     checklist = get_checklist(checklists,nome_checklist)
     
+    dictionary_response = {"Response":[]}
 
     with open(f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-Complete.txt","w", encoding="utf-8") as f_complete:
         with open(f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-response.txt","w", encoding="utf-8") as f_response:
             
-            for punto in checklist["Punti"]:
+            for punto in tqdm(checklist["Punti"]):
                 
                 
                 
@@ -169,16 +169,25 @@ def checklist_determina(nome_determina,
                 """
                 
                 f_response.write(just_response)
-                
+                dictionary_response["Response"].append({"num": punto["num"],
+                                                        "punto":punto["Punto"],
+                                                        "LLM":ret[0]})
+    
+    if nome_checklist == "Contratti":
+        name_checklist_end = "cont"
+    elif nome_checklist == "Determine":
+        name_checklist_end = "det"
+    with open(f"./src/llama/Lucca_text/responses/{sub_cartella}{nome_determina}-G_{name_checklist_end}.json","w", encoding="utf-8")as f:
+        json.dump(dictionary_response,f,indent=3)
 
 
 
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    model_id = "meta-llama/Llama-3.1-8B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
-    model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
+    #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
 
     # This is to the possiblity to not load the model and just test for errors
@@ -201,9 +210,9 @@ if __name__ == "__main__":
             model=model,
             tokenizer=tokenizer,
             max_new_tokens=1000,
-            pad_token_id=tokenizer.pad_token_id,  # Ensures proper padding during generation
+            pad_token_id=tokenizer.eos_token_id,  # open-end generation
             truncation=True,  # Truncates inputs exceeding model max length
-            eos_token_id = tokenizer.eos_token_id
+            eos_token_id = tokenizer.eos_token_id,
             
         )
     
@@ -233,7 +242,7 @@ if __name__ == "__main__":
         for i, _ in df_determine.iterrows():
             num = df_determine["Numero Determina"].loc[i]
             che_ass = df_determine["Checklist associata"].loc[i]
-            sub_cartella = "llamantino70/"
+            sub_cartella = "General/"
             
             
             checklist_determina(num,che_ass, text_gen_pipeline, checklists,sub_cartella)
