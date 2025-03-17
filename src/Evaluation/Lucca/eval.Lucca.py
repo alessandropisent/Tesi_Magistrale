@@ -57,7 +57,7 @@ def compare_columns(df, col1, col2):
     return results
 
 
-def statistics_gen(df_determine,from_truth_path, from_generated_path,results_path):
+def statistics_gen(df_determine,from_truth_path, from_generated_path,results_path,col):
     statistics = []
     
     if not os.path.exists(f"{results_path}/"):
@@ -69,13 +69,15 @@ def statistics_gen(df_determine,from_truth_path, from_generated_path,results_pat
         elif row["checklist"] == "Determine":
             name_checklist_end = "det"
         df_generated  = pd.read_csv(f"{from_generated_path}/{row["nome"]}-G_{name_checklist_end}.csv")
+
         df_generated["Punto"] = df_generated["num"]
         df_generated = df_generated.drop(columns=["num"])
+
         df_truth  = pd.read_csv(f"{from_truth_path}/{row["nome"]}-T_{name_checklist_end}.csv")
         #print(df_generated)
         #print("\n\n")
         #print(df_truth)
-        df = df_truth.merge(df_generated[["Punto","Simple","LLM.generated_text"]],how="left",on="Punto")
+        df = df_truth.merge(df_generated[["Punto","Simple",col]],how="left",on="Punto")
         df.to_csv(f"{results_path}/{row["nome"]}.csv")
         df.to_excel(f"{results_path}/{row["nome"]}.xlsx")
         #print(df)
@@ -98,9 +100,23 @@ if __name__ == "__main__":
         sub_cartella = f"General/{temp}"
         model_folder = "./src/llama/Lucca_text/responses/"
         from_generated = model_folder+sub_cartella
-        out_path = f"src/Evaluation/Lucca/{temp}"
+        out_path = f"src/Evaluation/Lucca/LLama/{temp}"
         
-        statistics_gen(df_determine,from_truth_path,from_generated,out_path)
+        col = "LLM.generated_text"
+        
+        statistics_gen(df_determine,from_truth_path,from_generated,out_path,col)
+    
+    temp_values = [0.0,0.01,0.5,1.0]
+    
+    for temp in temp_values:
+        sub_cartella = f"mini/{temp}"
+        model_folder = "src/openai/Lucca_text/responses/"
+        from_generated = model_folder+sub_cartella
+        out_path = f"src/Evaluation/Lucca/LLama/{temp}"
+        
+        col = "Response"
+        
+        statistics_gen(df_determine,from_truth_path,from_generated,out_path,col)
         
     
     

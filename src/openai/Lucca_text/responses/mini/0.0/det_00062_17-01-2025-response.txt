@@ -1,0 +1,222 @@
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono specificate le competenze degli organi
+
+
+        ### Rispondi al punto 1:
+        Competenza organo/dirigente individuato con decreto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, il Dirigente Maurizio Prina è individuato come competente per la determinazione, in conformità con le disposizioni normative e il decreto sindacale n. 35/2024.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se è presente l'articolazione dell'atto
+
+
+        ### Rispondi al punto 2:
+        Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina presenta un'articolazione chiara con intestazione, preambolo/premessa, parte motivazione, dispositivo, indicazione dell'autorità e termini per ricorrere. Non sono presenti riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amministrativo ex art. 41 CAD, ma ciò non compromette la regolarità dell'atto.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se ci sono i riferimenti normativi di carattere generale
+
+
+        ### Rispondi al punto 3:
+        Affidabilità riferimenti normativi di carattere generale es. TUEL 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, sono presenti riferimenti normativi di carattere generale, tra cui l'articolo 107 del D. Lgs. n. 267 del 18 agosto 2000 (TUEL) e l'art. 4 del D.Lgs. n. 165/2001, che disciplinano le funzioni e le competenze degli enti locali e del personale.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono presenti i riferimenti normativi specifici
+
+
+        ### Rispondi al punto 4:
+        Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, i riferimenti normativi specifici sono presenti e includono l'articolo 107 del D. Lgs. n. 267 del 18 agosto 2000, l'art. 4 del D.Lgs. n. 165/2001, lo Statuto Comunale, il decreto sindacale n. 35/2024, il vigente “Regolamento sull’“Ordinamento degli Uffici e dei Servizi” e la D.C.C. n. 10 del 07/01/2025 di approvazione del Bilancio di Previsione Armonizzato 2025/2027.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono presenti le attività
+
+
+        ### Rispondi al punto 5:
+        Nel caso di attività inserite negli atti di programmazione Coerenza con: 
+- DUP  e PIAO 
+- Bilancio di Previsione se trattasi di DD con spesa; 
+- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi 
+- SITAT e altre banche dati)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina è coerente con il Bilancio di Previsione Armonizzato 2025/2027, in quanto si fa riferimento all'impegno di spesa per il servizio di manutenzione ordinaria del sistema varchi, specificando l'importo e il capitolo di bilancio. Non sono state menzionate specifiche attività di programmazione come il DUP e il PIAO, ma la spesa è compatibile con gli stanziamenti di bilancio.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se è indicata esplicitamente la motivazione
+
+
+        ### Rispondi al punto 6:
+        Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, la determina esplicita la motivazione con puntuale indicazione dei presupposti di fatto e delle ragioni giuridiche, facendo riferimento a normative come l'articolo 107 del D. Lgs. n. 267 del 18 agosto 2000 e l'art. 4 del D.Lgs. n. 165/2001, oltre a menzionare il Bilancio di Previsione Armonizzato 2025/2027.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono presenti i seguenti punti:
+
+
+        ### Rispondi al punto 7:
+        1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+2)  indicare  RUP delegato per fase
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, il testo della determina non distingue chiaramente tra il responsabile del procedimento e il responsabile del provvedimento. Sebbene sia indicato il responsabile del procedimento (Ing. Luca Falsiroli), non è specificato se egli ha ricevuto una delega di firma dal Dirigente. Inoltre, non è menzionato un RUP delegato per fase.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono indicate le seguenti misure:
+
+
+        ### Rispondi al punto 8:
+        Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **NO**, non sono indicate misure di prevenzione pertinenti rispetto allo specifico provvedimento, come la richiesta di dichiarazione di conflitto di interessi per il PNRR o gli obblighi di pubblicità ai sensi delle Delibere ANAC 2023 e del Dlvo 36/2023, art. 28. Sebbene sia menzionato che il responsabile del procedimento non si trova in conflitto di interessi, non è specificato se è stata richiesta la dichiarazione per il PNRR. Inoltre, non ci sono riferimenti agli obblighi di pubblicità previsti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se la normativa sulla tutela della riservatezza è rispettata
+
+
+        ### Rispondi al punto 9:
+        Rispetto normativa sulla tutela della riservatezza laddove rilevante
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, [La determina non contiene dati personali sensibili o informazioni riservate che violerebbero la normativa sulla tutela della riservatezza. Le informazioni fornite riguardano esclusivamente aspetti amministrativi e contrattuali.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono stati rispettati i tempi e termini del procedimento
+
+
+        ### Rispondi al punto 10:
+        Rispetto dei tempi e dei termini del procedimento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, i tempi e i termini del procedimento sono rispettati. La determina si riferisce a un impegno di spesa per il periodo Gennaio/Febbraio 2025, e il servizio di assistenza e manutenzione ordinaria è stato avviato il 01/03/2022, con una scadenza prevista di 24 mesi posticipata al 28/02/2025, quindi rientra nei termini stabiliti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Sono presenti altre annotazioni Criticità?
+
+
+        ### Rispondi al punto 11:
+        Altre annotazioni/criticità in merito: a. possibilità di semplificare
+b. possibilità di digitalizzare
+c. fare un focus specifico
+d. pari opportunità
+e. accesso
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, [La determina appare conforme e non presenta criticità evidenti in merito a semplificazione, digitalizzazione, focus specifico, pari opportunità o accesso. Non sono state riscontrate problematiche che richiedano ulteriori approfondimenti o modifiche.]
+

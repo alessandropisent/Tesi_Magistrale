@@ -1,0 +1,222 @@
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono specificate le competenze degli organi
+
+
+        ### Rispondi al punto 1:
+        Competenza organo/dirigente individuato con decreto
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, Il dirigente del Settore Dipartimentale 5 – "Lavori Pubblici e Traffico" è individuato con provvedimento del Sindaco n. 42 del 30/10/2024, confermando la sua competenza per la materia trattata nella determina.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se è presente l'articolazione dell'atto
+
+
+        ### Rispondi al punto 2:
+        Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, l'atto presenta un'articolazione chiara con intestazione, preambolo/premessa, parte motivazione, dispositivo, indicazione dell'autorità e termini per il ricorso, oltre ai riferimenti necessari per il deposito nel fascicolo digitale degli atti afferenti il procedimento amministrativo ex art. 41 CAD.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se ci sono i riferimenti normativi di carattere generale
+
+
+        ### Rispondi al punto 3:
+        Affidabilità riferimenti normativi di carattere generale es. TUEL 
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, sono presenti riferimenti normativi di carattere generale, tra cui la L. n. 241/1990, il D.Lgs. n. 267/2000, il D.P.R. n. 207/2010, il D.Lgs. n. 50/2016, il D.Lgs. n. 36/2023 e il D.M. 49/2018, che sono tutti pertinenti e applicabili alla materia trattata nella determina.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono presenti i riferimenti normativi specifici
+
+
+        ### Rispondi al punto 4:
+        Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, i riferimenti normativi specifici sono presenti nella determina, inclusi il D.Lgs. n. 50/2016, la L. n. 241/1990, il D.Lgs. n. 267/2000, il D.P.R. n. 207/2010, il D.Lgs. n. 36/2023 e il D.M. 49/2018, che sono pertinenti e appropriati per la materia trattata.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono presenti le attività
+
+
+        ### Rispondi al punto 5:
+        Nel caso di attività inserite negli atti di programmazione Coerenza con: 
+- DUP  e PIAO 
+- Bilancio di Previsione se trattasi di DD con spesa; 
+- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi 
+- SITAT e altre banche dati)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, le attività sono coerenti con il DUP e il PIAO, in quanto la determina riguarda lavori di manutenzione straordinaria e adeguamento di infrastrutture stradali, che sono generalmente previsti nelle programmazioni comunali. Inoltre, la spesa è stata prevista nel Bilancio di Previsione e il cronoprogramma per l'esecuzione dei lavori è stato rispettato, come indicato nella documentazione. Non sono state rilevate incongruenze con SITAT o altre banche dati.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se è indicata esplicitamente la motivazione
+
+
+        ### Rispondi al punto 6:
+        Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, la determina esplicita le motivazioni con puntuale indicazione dei presupposti di fatto e delle ragioni giuridiche, citando specificamente le normative applicabili come la L. n. 241/1990, il D.Lgs. n. 267/2000, il D.P.R. n. 207/2010, il D.Lgs. n. 50/2016, il D.Lgs. n. 36/2023 e il D.M. 49/2018.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono presenti i seguenti punti:
+
+
+        ### Rispondi al punto 7:
+        1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+2)  indicare  RUP delegato per fase
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : **SI**, il responsabile unico del procedimento (R.U.P.) è l’Ing. Santi Bombaci, e nella determina si specifica che non si trova in conflitto di interesse. Non è stata indicata una delega di firma per il Dirigente, pertanto si presume che il Dirigente stesso sia responsabile del provvedimento. Non è specificato un RUP delegato per fase, ma il RUP è chiaramente identificato.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono indicate le seguenti misure:
+
+
+        ### Rispondi al punto 8:
+        Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: **SI**, la determina indica che il responsabile unico del procedimento (R.U.P.) non si trova in conflitto di interesse, anche potenziale, ai sensi dell'art. 6-bis della L. n. 241/1990, a seguito di accertamento personale o di rilascio di apposita dichiarazione in atti. Non sono però menzionati obblighi di pubblicità ai sensi delle Delibere ANAC 2023 o del Dlvo 36/2023, art. 28. Tuttavia, la verifica del conflitto di interesse è stata effettuata, il che soddisfa una misura di prevenzione rilevante.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se la normativa sulla tutela della riservatezza è rispettata
+
+
+        ### Rispondi al punto 9:
+        Rispetto normativa sulla tutela della riservatezza laddove rilevante
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE : SI, [La determina non contiene informazioni personali o sensibili che violerebbero la normativa sulla tutela della riservatezza. Le informazioni presentate sono relative a procedure amministrative e dati di aziende, senza dettagli riservati su individui.]
+
+#######--------- User prompt
+
+### Istruzioni
+
+Controlla se sono stati rispettati i tempi e termini del procedimento
+
+
+        ### Rispondi al punto 10:
+        Rispetto dei tempi e dei termini del procedimento
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: SI, i tempi e i termini del procedimento sono stati rispettati. La determina fa riferimento a tutte le scadenze e le proroghe concesse, inclusa la consegna dei lavori e la redazione del Certificato di Regolare Esecuzione, rispettando le normative vigenti.
+
+#######--------- User prompt
+
+### Istruzioni
+
+Sono presenti altre annotazioni Criticità?
+
+
+        ### Rispondi al punto 11:
+        Altre annotazioni/criticità in merito: a. possibilità di semplificare
+b. possibilità di digitalizzare
+c. fare un focus specifico
+d. pari opportunità
+e. accesso
+        
+        ### Output:
+        RISPOSTA GENERALE : [SI, NO], [spiegazione sintetica se necessaria]
+        
+
+#####---- RESPONSE:
+
+
+RISPOSTA GENERALE: NO, [La determina appare completa e conforme alle normative vigenti, non emergono criticità specifiche relative alla semplificazione, digitalizzazione, focus, pari opportunità o accesso.]
+

@@ -99,6 +99,11 @@ def relate_checklist_determina(nome_determina,
     
     df = pd.DataFrame(columns=["Punto","Response"])
     
+    if nome_checklist == "Contratti":
+        name_checklist_end = "cont"
+    elif nome_checklist == "Determine":
+        name_checklist_end = "det"
+    
     checklist = get_checklist(checklists,nome_checklist)
     
     with open(f"./src/openai/Lucca_text/responses/{model_folder}/{nome_determina}-Complete.json", "r", encoding="utf-8") as j:
@@ -107,13 +112,14 @@ def relate_checklist_determina(nome_determina,
     for i,punto in enumerate(checklist["Punti"]): 
         
         new_row = {
+            "num":punto["num"],
             "Punto": punto["Punto"],
             "Response":responses_dic["conversations"][i]["response"],
             "Simple" : analize_response(responses_dic["conversations"][i]["response"])
         }
         df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
         
-    df.to_csv(f"./src/openai/Lucca_text/responses/{model_folder}/{nome_determina}-response.tsv",sep="\t")
+    df.to_csv(f"./src/openai/Lucca_text/responses/{model_folder}/{nome_determina}-G_{name_checklist_end}.csv")
     df.to_excel(f"./src/openai/Lucca_text/responses/{model_folder}/{nome_determina}-response.xlsx", index=False)
     
     print(df)
@@ -135,7 +141,7 @@ if __name__ == "__main__":
     with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
-    temp_values = [0.0,0.5,1.0]
+    temp_values = [0.0,0.01,0.5,1.0]
     
     if True:
         for temperature in temp_values:
@@ -145,7 +151,7 @@ if __name__ == "__main__":
                 num = df_determine["Numero Determina"].loc[i]
                 che_ass = df_determine["Checklist associata"].loc[i]
                 
-                model_folder_t = model_folder + f"/temp_{temperature}"
+                model_folder_t = model_folder + f"/{temperature}"
                 
                 relate_checklist_determina(num,che_ass, checklists,model,model_folder_t)
                     

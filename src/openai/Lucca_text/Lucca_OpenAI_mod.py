@@ -96,10 +96,11 @@ def generate_prompt(determina):
     Segui i passaggi seguenti:
     1. Leggi la checklist fornita, che contiene punti numerati e specifiche normative da verificare.
     2. Leggi il testo della determina.
-    3. Per ogni punto della checklist, verifica se la norma è citata nella determina.
+    3. Per ogni punto della checklist, segui le istruzioni
     4. Rispondi per ogni punto utilizzando uno dei seguenti criteri:
-       - **SI**: Il punto della checklist e relative istruzioni sono rispettate (la determina passa il controllo)
-       - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato
+       - **SI**: Il punto della checklist e relative istruzioni sono rispettate (la determina passa il controllo) [NESSUNA ANOMALIA ]
+       - **NO**: La determina NON passa il controllo, il punto della checklist NON è rispettato [ANOMALIA]
+       - **NON PERTINENTE**: il punto non è pertinete alla determina specifica [NESSUNA ANOMALIA]
     6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
     
@@ -203,7 +204,8 @@ if __name__ == "__main__":
     
     #done = [0,1,3,4,5,6,7,8,9,10]
     #todo = 2
-    done = [0,1,2]
+    #done = [0,1,2]
+    done = []
     model = "gpt-4o-mini"
     model_folder = "mini"
     
@@ -218,7 +220,7 @@ if __name__ == "__main__":
     with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
-    temp_values = [0.0] #,0.5,1.0]
+    temp_values = [0.0,0.01,0.5,1.0]
     
     
     
@@ -229,7 +231,7 @@ if __name__ == "__main__":
                     print(f"DOING determina {i} - temp:{temperature} ")
                     num = df_determine["Numero Determina"].loc[i]
                     che_ass = df_determine["Checklist associata"].loc[i]
-                    model_folder_t = model_folder + f"/temp_{temperature}"
+                    model_folder_t = model_folder + f"/{temperature}"
                     checklist_determina(num, 
                                         che_ass, 
                                         checklists,
