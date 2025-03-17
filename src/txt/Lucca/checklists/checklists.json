@@ -78,7 +78,7 @@
             "Descrizione": "SCHEDA DI CONTROLLO CONTRATTI PUBBLICI  artt 1325 e 1655 codice civile PIANO DI AUDITING 2024 - CONTRATTI 1^ SEMESTRE APPALTI E CONCESSIONI: SCRITTURE PRIVATE e LETTERE COMMERCIALI",
             "Punti": [
                 {
-                    "Istruzioni": "Controlla se è presente la specifica natura del contratto nella determina",
+                    "Istruzioni": "Controlla se è presente la specifica natura del contratto nella determina. Controlla che ci siano gli estremi.",
                     "Punto": "Natura del contratto: lettera commerciale, contratto",
                     "num": 1
                 },
@@ -88,16 +88,10 @@
                     "Punto": "Riferimenti alla DD di affidamento e alla normativa",
                     "num": 2
                 },
-                {   "Istruzioni":"Controlla se sono presnti i criteri di selezione del operatore economico",
-                    "Punto":"CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell’art. 50 sottolinea l’importanza del possesso di 'documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali'",
+                {   "Istruzioni":"Controlla se sono presenti i criteri di selezione del operatore economico",
+                    "Punto":"CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell’art. 50 sottolinea l’importanza del possesso di 'documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali'\nArt. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
                     "num":3
 
-                },
-                
-                {
-                    "Istruzioni": "Controlla se i seguenti punti sono nominati",
-                    "Punto": "Art. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
-                    "num": 4
                 },
                 
                 {
@@ -119,7 +113,7 @@
                 },
                 
                 {
-                    "Istruzioni": "Controlla se è specificata la normativa",
+                    "Istruzioni": "Controlla se si da atto che la normativa per la privacy è rispettata",
                     "Punto": "Specificare la normativa sulla privacy per i dati personali",
                     "num": 8
                 },
@@ -131,7 +125,7 @@
                 },
                 
                 {
-                    "Istruzioni": "Controlla se la piattaforma è nominata",
+                    "Istruzioni": "Si da atto che la piattaforma di e-precurement è stata utilizzata?",
                     "Punto": "Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC ",
                     "num": 10
                 }
