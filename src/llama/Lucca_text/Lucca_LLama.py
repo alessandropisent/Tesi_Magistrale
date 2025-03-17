@@ -1,5 +1,5 @@
 import json
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline,BitsAndBytesConfig
 import torch
 import pandas as pd
 import re
@@ -183,17 +183,20 @@ def checklist_determina(nome_determina,
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    model_id = "meta-llama/Llama-3.1-8B-Instruct"
-    #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
+    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
 
     # This is to the possiblity to not load the model and just test for errors
     if True:
+        # Define the quantization configuration for 8-bit precision
+        #quantization_config = BitsAndBytesConfig(load_in_4bit=True)
 
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
+            #quantization_config=quantization_config,
             device_map= torch.device('cuda:1'),
             
             #device_map='auto',
@@ -238,6 +241,7 @@ if __name__ == "__main__":
                     model=model,
                     tokenizer=tokenizer,
                     max_new_tokens=1000,
+                    max_lenght=1000,
                     pad_token_id=tokenizer.eos_token_id,  # open-end generation
                     truncation=True,  # Truncates inputs exceeding model max length
                     eos_token_id = tokenizer.eos_token_id,
@@ -249,7 +253,7 @@ if __name__ == "__main__":
                 
                 num = df_determine["Numero Determina"].loc[i]
                 che_ass = df_determine["Checklist associata"].loc[i]
-                sub_cartella = f"General/{temp}/"
+                sub_cartella = f"llamantino/{temp}/"
                 
                 
                 checklist_determina(num,che_ass, text_gen_pipeline, checklists,sub_cartella)

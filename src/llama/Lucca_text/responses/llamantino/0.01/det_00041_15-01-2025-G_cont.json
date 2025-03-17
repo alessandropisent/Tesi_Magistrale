@@ -1,0 +1,67 @@
+{
+   "Response": [
+      {
+         "num": 1,
+         "punto": "Natura del contratto: lettera commerciale, contratto",
+         "LLM": {
+            "generated_text": " </SYS> </s> </SYS> </s> </SYS> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s"
+         }
+      },
+      {
+         "num": 2,
+         "punto": "Riferimenti alla DD di affidamento e alla normativa",
+         "LLM": {
+            "generated_text": " </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS"
+         }
+      },
+      {
+         "num": 3,
+         "punto": "CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell\u2019art. 50 sottolinea l\u2019importanza del possesso di 'documentate esperienze pregresse idonee all\u2019esecuzione delle prestazioni contrattuali'\nArt. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
+         "LLM": {
+            "generated_text": " </SYS> </s> </SYS> </s> </SYS> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s"
+         }
+      },
+      {
+         "num": 5,
+         "punto": "Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)",
+         "LLM": {
+            "generated_text": " </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS"
+         }
+      },
+      {
+         "num": 6,
+         "punto": "Termini di conclusione della prestazione/lavori",
+         "LLM": {
+            "generated_text": " </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS"
+         }
+      },
+      {
+         "num": 7,
+         "punto": "Specificare se sono fondi soggetti a rendicontazione",
+         "LLM": {
+            "generated_text": " </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s"
+         }
+      },
+      {
+         "num": 8,
+         "punto": "Specificare la normativa sulla privacy per i dati personali",
+         "LLM": {
+            "generated_text": " </SYS>''')\n\n    # Esecuzione del controllo\n    output = controllo_determina(determina_text)\n\n    # Stampa del risultato\n    print(output)  # Output: Punto 8: SI, Spiegazione: la materia oggeto della presente determinazione rientra nella giurisdizione del Giudice ordinario. Note finali: Nessuna osservazione generale.  ''')  # Output atteso\n\n\nif __name__ == \"__main__\":\n    test_controllo_determina()  # Esecuzione del test\n```\n\n\nIn questo esempio, il codice Python `controllo_determina` \u00e8 un funzione che prende in input il testo di una determina e restituisce il risultato del controllo. Il testo della determina \u00e8 diviso in sezioni utilizzando il simbolo `#####` e `######`. La funzione cerca di identificare le sezioni e di eseguire il controllo specifico per ogni sezione. In questo caso, la sezione 8 \u00e8 il punto finale della checklist e richiede di verificare se la materia oggetto della determinazione rientra nella giurisdizione del Giudice ordinario. Se il testo della determina contiene questa informazione, la funzione restituisce `SI` con una spiegazione sintetica. Se non la contiene, la funzione restituisce `NO`. Se la sezione non \u00e8 pertinente, la funzione restituisce `NON PERTINENTE` con una spiegazione sintetica. Infine, la funzione restituisce eventuali note finali. Il testo atteso del risultato \u00e8 `Punto 8: SI, Spiegazione: la materia oggeto della presente determinazione rientra nella giurisdizione del Giudice ordinario. Note finali: Nessuna osservazione generale.`.  '''\n\n\nIn questo esempio, il codice Python `controllo_determina` \u00e8 un funzione che prende in input il testo di una determina e restituisce il risultato del controllo. Il testo della determina \u00e8 diviso in sezioni utilizzando il simbolo `#####` e `######`. La funzione cerca di"
+         }
+      },
+      {
+         "num": 9,
+         "punto": "Richiamato il codice di comportamento dei dipendenti ",
+         "LLM": {
+            "generated_text": " </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS"
+         }
+      },
+      {
+         "num": 10,
+         "punto": "Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicit\u00e0 su Banca Dati Nazionale/PCT ANAC ",
+         "LLM": {
+            "generated_text": " </SYS>''')\n\n    # Esecuzione del controllo\n    output = controllo_piattaforma_e_procedura(determina, checklist)\n\n    # Stampa del risultato\n    print(output)  # Output: Punto 10: SI, Spiegazione sintetica se necessaria non richiesta in questo caso\n\n\ndef controllo_piattaforma_e_procedura(determina, checklist):\n    output = ''\n    for i, item in enumerate(checklist.split('\\n')[1:], start=1):\n        if item.startswith('#### '):\n            output += '\\n'\n        elif item.startswith('Punto '):\n            output += f'Punto {i}: '\n            if'si' in item.lower():\n                output += 'SI, '\n            elif 'no' in item.lower():\n                output += 'NO, '\n            else:\n                output += f'{\"NON PERTINENTE, \".replace('  ','')}'\n                if len(item) > 20:\n                    output += f' {item[20:]}'\n            output = output.rstrip(', ') + '\\n'\n        else:\n            output += item + '\\n'\n    if output.endswith('\\n'):\n        output = output[:-1]\n    if output:\n        output += '\\nNote finali:'+ (determina.split('Note finali:')[1].strip() if 'Note finali:'in determina else '')\n    return output\n\n\nif __name__ == '__main__':\n    determina = '''...il testo della determina...'''\n    checklist = '''##### CHECKLIST \nPiattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicit\u00e0 su Banca Dati Nazionale/PCT ANAC \n\n###### DETERMINA non rilevante per la verifica... non presente in questo esempio\n skipped lines\n    Si da atto che la piattaforma di e-precurement \u00e8 stata utilizzata?\n    <</SYS>> \n    ##### CHECKLIST \n    Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicit\u00e0 su Banca Dati Nazionale/PCT ANAC \n    ###### PERTINENTE \n    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito \u00e8 supportare un impiegato comunale"
+         }
+      }
+   ]
+}

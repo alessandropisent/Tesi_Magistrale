@@ -1,0 +1,143 @@
+ 
+                #### CHECKLIST
+                Controlla se è presente la specifica natura del contratto nella determina. Controlla che ci siano gli estremi.
+
+Natura del contratto: lettera commerciale, contratto
+                
+                ### RESPONSE
+                 </SYS> </s> </SYS> </s> </SYS> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s
+                 
+                #### CHECKLIST
+                Controlla se sono presenti i riferimenti alla Determina Dirigenziale
+
+Riferimenti alla DD di affidamento e alla normativa
+                
+                ### RESPONSE
+                 </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS
+                 
+                #### CHECKLIST
+                Controlla se sono presenti i criteri di selezione del operatore economico
+
+CRITERIO di SELEZIONE operatore economico
+- Estremi o riferimento a gara (procedure aperte o ristrette)
+- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell’art. 50 sottolinea l’importanza del possesso di 'documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali'
+Art. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie
+- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto
+- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE
+- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea
+- inferiore a 5.000 senza principio di rotazione_
+                
+                ### RESPONSE
+                 </SYS> </s> </SYS> </s> </SYS> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s> </s
+                 
+                #### CHECKLIST
+                Controlla se i tempi di pagamento sono specificati
+
+Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)
+                
+                ### RESPONSE
+                 </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS
+                 
+                #### CHECKLIST
+                Controlla se i termini di conclusione della prestaione/lavori sono nominati
+
+Termini di conclusione della prestazione/lavori
+                
+                ### RESPONSE
+                 </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS
+                 
+                #### CHECKLIST
+                Controlla se sono specificati i fondi
+
+Specificare se sono fondi soggetti a rendicontazione
+                
+                ### RESPONSE
+                 </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s
+                 
+                #### CHECKLIST
+                Controlla se si da atto che la normativa per la privacy è rispettata
+
+Specificare la normativa sulla privacy per i dati personali
+                
+                ### RESPONSE
+                 </SYS>''')
+
+    # Esecuzione del controllo
+    output = controllo_determina(determina_text)
+
+    # Stampa del risultato
+    print(output)  # Output: Punto 8: SI, Spiegazione: la materia oggeto della presente determinazione rientra nella giurisdizione del Giudice ordinario. Note finali: Nessuna osservazione generale.  ''')  # Output atteso
+
+
+if __name__ == "__main__":
+    test_controllo_determina()  # Esecuzione del test
+```
+
+
+In questo esempio, il codice Python `controllo_determina` è un funzione che prende in input il testo di una determina e restituisce il risultato del controllo. Il testo della determina è diviso in sezioni utilizzando il simbolo `#####` e `######`. La funzione cerca di identificare le sezioni e di eseguire il controllo specifico per ogni sezione. In questo caso, la sezione 8 è il punto finale della checklist e richiede di verificare se la materia oggetto della determinazione rientra nella giurisdizione del Giudice ordinario. Se il testo della determina contiene questa informazione, la funzione restituisce `SI` con una spiegazione sintetica. Se non la contiene, la funzione restituisce `NO`. Se la sezione non è pertinente, la funzione restituisce `NON PERTINENTE` con una spiegazione sintetica. Infine, la funzione restituisce eventuali note finali. Il testo atteso del risultato è `Punto 8: SI, Spiegazione: la materia oggeto della presente determinazione rientra nella giurisdizione del Giudice ordinario. Note finali: Nessuna osservazione generale.`.  '''
+
+
+In questo esempio, il codice Python `controllo_determina` è un funzione che prende in input il testo di una determina e restituisce il risultato del controllo. Il testo della determina è diviso in sezioni utilizzando il simbolo `#####` e `######`. La funzione cerca di
+                 
+                #### CHECKLIST
+                Controlla se il codice è richiamato
+
+Richiamato il codice di comportamento dei dipendenti 
+                
+                ### RESPONSE
+                 </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS> </s> </SYS
+                 
+                #### CHECKLIST
+                Si da atto che la piattaforma di e-precurement è stata utilizzata?
+
+Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC 
+                
+                ### RESPONSE
+                 </SYS>''')
+
+    # Esecuzione del controllo
+    output = controllo_piattaforma_e_procedura(determina, checklist)
+
+    # Stampa del risultato
+    print(output)  # Output: Punto 10: SI, Spiegazione sintetica se necessaria non richiesta in questo caso
+
+
+def controllo_piattaforma_e_procedura(determina, checklist):
+    output = ''
+    for i, item in enumerate(checklist.split('\n')[1:], start=1):
+        if item.startswith('#### '):
+            output += '\n'
+        elif item.startswith('Punto '):
+            output += f'Punto {i}: '
+            if'si' in item.lower():
+                output += 'SI, '
+            elif 'no' in item.lower():
+                output += 'NO, '
+            else:
+                output += f'{"NON PERTINENTE, ".replace('  ','')}'
+                if len(item) > 20:
+                    output += f' {item[20:]}'
+            output = output.rstrip(', ') + '\n'
+        else:
+            output += item + '\n'
+    if output.endswith('\n'):
+        output = output[:-1]
+    if output:
+        output += '\nNote finali:'+ (determina.split('Note finali:')[1].strip() if 'Note finali:'in determina else '')
+    return output
+
+
+if __name__ == '__main__':
+    determina = '''...il testo della determina...'''
+    checklist = '''##### CHECKLIST 
+Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC 
+
+###### DETERMINA non rilevante per la verifica... non presente in questo esempio
+ skipped lines
+    Si da atto che la piattaforma di e-precurement è stata utilizzata?
+    <</SYS>> 
+    ##### CHECKLIST 
+    Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC 
+    ###### PERTINENTE 
+    Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale
+                

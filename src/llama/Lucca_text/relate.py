@@ -88,7 +88,7 @@ def relate_checklist_determina(nome_determina,nome_checklist,sub_cartella):
 
 
 
-model_folder_t = "General/"
+
 
 # load the csv with all the determine da controllare
 with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
@@ -98,8 +98,12 @@ for i, _ in df_determine.iterrows():
     
     num = df_determine["Numero Determina"].loc[i]
     che_ass = df_determine["Checklist associata"].loc[i]
-                
-    relate_checklist_determina(num,che_ass,model_folder_t)
-        
-    print(f"Done determina {num} - {che_ass}")
+    
+    temperatures = [0.01,0.2,0.4,0.6]
+    
+    for temp in temperatures:
+        model_folder_t = f"General/{temp}/"
+        relate_checklist_determina(num,che_ass,model_folder_t)
+            
+        print(f"Done determina {num} - {che_ass}")
     

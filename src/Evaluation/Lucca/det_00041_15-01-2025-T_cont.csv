@@ -1,0 +1,17 @@
+Punto,Descrizione,SI/NO,Note
+1,"Natura del contratto: lettera commerciale, contratto",SI,
+2,Riferimenti alla DD di affidamento e alla normativa,SI,
+3,"CRITERIO di SELEZIONE operatore economico
+ - Estremi o riferimento a gara (procedure aperte o ristrette)
+ - Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell’art. 50 sottolinea l’importanza del possesso di “documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali”",SI,
+4,"Art. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie
+ - importo stimato lavori fino a 150.000 servizi forniture sino a 140.000 affidamento diretto
+ - da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE
+ - procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea
+  - inferiore a 5.000 senza principio di rotazione",,"NON è un punto, unisci al 3"
+5,Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato),NO,ANOMALIA GRAVE
+6,Termini di conclusione della prestazione/lavori,NO,"Trattandosi di ordinativo di accordo quadro, non è grave"
+7,Specificare se sono fondi soggetti a rendicontazione,NO,ANOMALIA GRAVE
+8,Specificare la normativa sulla privacy per i dati personali,NON PERTINETE,Accordo quadro
+9,Richiamato il codice di comportamento dei dipendenti,NON PERTINETE,Accordo quadro
+10,"Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC",NON PERTINETE,Accordo quadro

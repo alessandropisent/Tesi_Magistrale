@@ -1,0 +1,29 @@
+Punto,Descrizione,SI/NO,Note,LLM
+1,Competenza organo/dirigente individuato con decreto,SI,,SI
+2,"Articolazione dell’atto in intestazione preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)",SI,"( ignora CAD, archiviazione digitale )",SI
+3,Affidabilità riferimenti normativi di carattere generale es. TUEL,SI,,SI
+4,"Affidabilità riferimenti normativi specifici es. Codice dei contratti
+ Regolamenti Ente",SI,"( codici ente non citati, ma non necessari nella determina",SI
+5,"Nel caso di attività inserite negli atti di programmazione Coerenza con:  
+ - DUP  e PIAO  
+ - Bilancio di Previsione se trattasi di DD con spesa;  
+ - cronoprogramma  in fase di esecuzione (lavori, forniture, servizi – SITAT e altre banche dati)",SI,"( rispttato il cronoprogramma, del resto non mi interessa )",NO
+6,Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari),SI,,SI
+7,"1) Responsabile del Procedimento  
+  ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+ 2)  indicare  RUP delegato per fase",SI,,SI
+8,"Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+ - conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+ - obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+  - obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+ 
+ 
+ Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO",SI,,SI
+9,Rispetto normativa sulla tutela della riservatezza laddove rilevante,NON PERTINENTE,"( non è un anomalia, inquanto non è necessaria in questo atto )",NO
+10,Rispetto dei tempi e dei termini del procedimento,NO,"( ANOMALIA, si parla dei rispetto dei tempi, prchè la ditta ha rispettato i tempi, ma non sono specificati i tempi del comune )",SI
+11,"Altre annotazioni/criticità in merito: a. possibilità di semplificare
+ b. possibilità di digitalizzare
+ c. fare un focus specifico
+ d. pari opportunità
+ e. accesso",NON PERTINENTE,,NO
+12,ALTRO,,,
