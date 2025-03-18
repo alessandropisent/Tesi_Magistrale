@@ -1,0 +1,29 @@
+,Punto,Descrizione,SI/NO,Note,LLM,Simple,Response
+0,1,Competenza organo/dirigente individuato con decreto,NO,Decreto sindacale 35/2024,SI,SI,"RISPOSTA GENERALE : SI, il Dirigente Maurizio Prina è identificato come l'organo competente per la determinazione, e ciò è confermato dalla sua firma e dalla menzione del decreto sindacale n. 35/2024."
+1,2,"Articolazione dell’atto in intestazione preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)",SI,( Tranne CAD perchè è successivo ),NO,SI,"RISPOSTA GENERALE: **SI**, l'atto presenta un'articolazione chiara con intestazione, preambolo/premessa, parte motivazione, dispositivo, indicazione dell'autorità e termini per ricorrere. Non sono presenti riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amministrativo ex art. 41 CAD."
+2,3,Affidabilità riferimenti normativi di carattere generale es. TUEL,SI,"( diciamo, perchè sono sempre molto generici )",SI,SI,"RISPOSTA GENERALE : SI, i riferimenti normativi di carattere generale sono presenti nella determina, in particolare l'articolo 107 del D. Lgs. n. 267 del 18 agosto 2000 e l'art. 4 del D.Lgs. n. 165/2001, che sono pertinenti per la legittimità dell'atto."
+3,4,"Affidabilità riferimenti normativi specifici es. Codice dei contratti
+ Regolamenti Ente",SI,( entrambi ),SI,SI,"RISPOSTA GENERALE: SI, i riferimenti normativi specifici sono presenti. La determina fa riferimento all'articolo 107 del D. Lgs. n. 267 del 18 agosto 2000, all'art. 4 del D.Lgs. n. 165/2001, allo Statuto Comunale, al decreto sindacale n. 35/2024, al vigente “Regolamento sull'“Ordinamento degli Uffici e dei Servizi” e alla D.C.C. n. 10 del 07/01/2025 di approvazione del Bilancio di Previsione Armonizzato 2025/2027."
+4,5,"Nel caso di attività inserite negli atti di programmazione Coerenza con:  
+ - DUP  e PIAO  
+ - Bilancio di Previsione se trattasi di DD con spesa;  
+ - cronoprogramma  in fase di esecuzione (lavori, forniture, servizi – SITAT e altre banche dati)",SI,"( perchè qui, accordo Qaudro, c'è il resto, la cosa importatnte è il cronoprogramma )",NO,SI,"RISPOSTA GENERALE: **SI**, la determina è coerente con il Bilancio di Previsione Armonizzato 2025/2027 e con le precedenti determinazioni che hanno impegnato la spesa per il servizio di manutenzione ordinaria del sistema varchi. Non sono specificate attività non coerenti con il DUP e PIAO, né con il cronoprogramma in fase di esecuzione."
+5,6,Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari),SI,,SI,SI,"RISPOSTA GENERALE : **SI**, la determina contiene una motivazione esplicita con puntuale indicazione dei presupposti di fatto e delle ragioni giuridiche, come evidenziato nella parte motivazionale che fa riferimento a normativi e regolamenti specifici, quali l'articolo 107 del D. Lgs. n. 267/2000 e l'art. 4 del D.Lgs. n. 165/2001."
+6,7,"1) Responsabile del Procedimento  
+  ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente
+ 2)  indicare  RUP delegato per fase",SI,ing falsirli,SI,NO,"RISPOSTA GENERALE: NO, il testo della determina non distingue chiaramente tra il Responsabile del Procedimento e il Responsabile del Provvedimento. È indicato solo il Responsabile del Procedimento (Ing. Luca Falsiroli), ma non è specificato se vi sia una delega di firma da parte del Dirigente. Inoltre, non viene menzionato un RUP delegato per fase."
+7,8,"Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:
+ - conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)
+ - obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023
+  - obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28
+ 
+ 
+ Qualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO",SI,COSA più importanti è il conflitto di interesse,NO,NO,"RISPOSTA GENERALE: **NO**, non sono indicate misure di prevenzione pertinenti rispetto allo specifico provvedimento. Sebbene sia menzionato che il responsabile del procedimento non si trova in conflitto di interesse, non ci sono riferimenti specifici riguardo agli obblighi di pubblicità o alle misure di protezione relative al PNRR o al Dlvo 36/2023, art. 28."
+8,9,Rispetto normativa sulla tutela della riservatezza laddove rilevante,NON RILEVANTE,perchè parte accordo quado,NO,SI,"RISPOSTA GENERALE : SI, [La determina non contiene informazioni personali sensibili e rispetta la normativa sulla tutela della riservatezza, dato che cita solo dati aziendali e informazioni necessarie per l'oggetto della determina.]"
+9,10,Rispetto dei tempi e dei termini del procedimento,SI,( perchè è implicito dato che sto pagando il noleggio ),NO,SI,"RISPOSTA GENERALE : SI, [La determina indica che l'avvio effettivo del servizio di assistenza e manutenzione ordinaria è avvenuto il 01/03/2022, e la scadenza del periodo previsto di 24 mesi è posticipata al 28/02/2025, quindi i tempi e termini del procedimento sono rispettati.]"
+10,11,"Altre annotazioni/criticità in merito: a. possibilità di semplificare
+ b. possibilità di digitalizzare
+ c. fare un focus specifico
+ d. pari opportunità
+ e. accesso",NON RILEVANTE,( finito,NO,NO,"RISPOSTA GENERALE: NO, [non sono state riscontrate criticità specifiche in merito a semplificazione, digitalizzazione, focus specifico, pari opportunità o accesso nella determina esaminata.]"
+11,12,ALTRO,,,,,

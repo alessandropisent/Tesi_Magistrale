@@ -88,6 +88,8 @@ def statistics_gen(df_determine,from_truth_path, from_generated_path,results_pat
     df_determine = pd.concat([df_determine,pd.DataFrame(statistics)],axis=1)
     print(df_determine)
     df_determine.to_csv(f"{results_path}/results.csv")
+    df_determine.to_excel(f"{results_path}/results.xlsx")
+    
     
 
 if __name__ == "__main__":
@@ -112,7 +114,7 @@ if __name__ == "__main__":
         sub_cartella = f"mini/{temp}"
         model_folder = "src/openai/Lucca_text/responses/"
         from_generated = model_folder+sub_cartella
-        out_path = f"src/Evaluation/Lucca/LLama/{temp}"
+        out_path = f"src/Evaluation/Lucca/OpenAI/{temp}"
         
         col = "Response"
         
