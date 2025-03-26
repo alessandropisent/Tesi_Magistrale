@@ -13,13 +13,13 @@ def update_json_files(directory):
                         data = json.load(f)
 
                     # Ensure "Responses" is a list and update each element
-                    if "Responses" in data and isinstance(data["Responses"], list):
-                        for response in data["Responses"]:
+                    if "Response" in data and isinstance(data["Response"], list):
+                        for response in data["Response"]:
                             response["model"] = "gpt-4o-mini"
 
                         # Write back the updated JSON
                         with open(file_path, "w", encoding="utf-8") as f:
-                            json.dump(data, f, indent=4)
+                            json.dump(data, f, indent=3)
                     
                     print(f"Updated: {file_path}")
                 except Exception as e:

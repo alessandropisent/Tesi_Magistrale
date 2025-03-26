@@ -1,0 +1,71 @@
+Numero punto,Descrizione,SI/NO,Note,LLM,Colonna 1
+1,"Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.",SI,,SI,
+2,Oggetto della determinazione,SI,,SI,
+3,"Indicazione del CIG, del CPV e del CUP (l’indicazione del CUI:
+ non è richiesta per gli affidamenti diretti ai sensi dell’art. 50 del Dlgs n.36/2023, in quanto consentiti per importi per i quali non è dovuto l’inserimento nei programmi triennali. È richiesta per affidamenti diretti ai sensi dell’art.76 del Dlgs n.36/2023. In caso di consegne complementari ex art.76, comma 4, let. B, o di ripetizione di lavori o servizi analoghi ex art. 76, comma 6, dovrà essere indicato il CUI dell’appalto principale del quale l’affidamento diretto risulta complementare o analogo)",NO,( Essendo un affidamento iretto non è necessario che ci sia in questa fase ),SI,
+4,Centro di Costo: si indica il centro di costo al quale imputare la spesa.,SI,,SI,
+5,Estremi decreto sindacale di nomina del Dirigente.,SI,,SI,
+6,Conflitto d’interessi,SI,( la domand è atto di assenza ),SI,
+7,"Estremi della delega alla firma dell’atto, se persona diversa dal Dirigente.",NO,Voce eventuale se sottoscrittore dell'atto è dverso dal dirigente ,NO,
+8,"Estremi atto di nomina del Responsabile unico del Progetto, se nominato.",SI,Voce Obbligatoria : RUP Necessario / Ma c'è solo quando il dirigente ha nominato una persona divrsa per RUP,SI,
+9,"Normativa specifica:
+ Codice dei contratti pubblici (D.Lgs. n. 36.2023.) ;
+ L. R. n. 8/2018;
+ Art. 26 legge n.488/1999
+ Art. 1, D.L. 6 luglio 2012 n. 95 convertito dalla legge 7 agosto 2012 n. 135 (adesione convenzione Consip e MEPA);
+ Art. 1, comma 450, della legge 27 Dicembre 2006, n. 296 e ss.mm.ii. (per quanto applicabile);
+ Art. 26, della legge n. 488/1999 e ss.mm.ii.; DPCM 24 dicembre 2015 ;",SI,( è molto probabile che sia si ),SI,
+10,"Normativa generale:
+ TUEL;
+ Legge n. 241/90;
+ DPR n. 62/2013 Codice comportamento dipendenti pubblici;
+ L. n. 190/2012;
+ D.Lgs. n. 33/2013.
+ Legge n° 136/2010",SI,,SI,
+11,"Norme di principio 
+ Art. 4 del Dlgs n.36/2023. (Criterio interpretativo e applicativo)",SI,,SI,
+12,"Regolamenti dell’ente quali:
+ - Statuto Comunale;
+ - Regolamento di contabilità;
+ - Regolamento dei contratti",SI,,NO,
+13,Indicazione dei riferimenti della determina a contrarre “semplificata” adottata,SI,Indicati i contenuti minimi dell'affidamento,Not found,QUESTI 3 PUNTI SONO ALTERNATIVI
+14,Indicazione dei riferimenti della determina a contrarre “non semplificata” adottata,NO,SALTA QUESTO PUNTO ALLA MACCHINA PERCHè NON PIù PERTINENTE,NO,
+15,Elementi da approvare con la determina a contrarre nel caso di provvedimento unico,SI,,NO,
+16,Per gli appalti di servizi: DUVRI,SI,( SI SONO POSTI ),SI,
+17,Suddivisione in lotti e norme sull’indebito frazionamento,SI,( SI SONO POSTI ),NO,
+18,Validazione (in caso di lavori pubblici),NON PERTINETE,( qui non sono lavori ),NO,
+19,Criteri Ambientali Minimi (CAM),NON PERTINETE,L'ggetto non lo richiede,NO,
+20,Cauzione,NO,,NO,
+21,Riferimenti all’obbligo di utilizzo di convenzioni Consip o di soggetti aggregatori,SI,,NO,
+22,Riferimenti all’obbligo di utilizzo del MEPA o del sistema telematico messo a disposizione dalla centrale regionale di riferimento,SI,,NO,
+23,Indicazioni in merito all’istruttoria propedeutica al provvedimento,SI,,NO,
+23,Denominazione dell’operatore economico affidatario e indicazione relativa all’acquisizione dell’offerta,SI,,NO,
+24,Importo di affidamento,SI,,NO,
+25,Indicazione di requisiti previsti dalle disposizioni vigenti per il ricorso all’affidamento diretto.,SI,,SI,
+26,"Motivazione scelta della procedura e del contraente;
+  
+  
+ Esporre le ragioni della scelta della ditta affidataria;
+  
+  
+ Esposizione del fatto che legittima il ricorso alla procedura e della valutazione in ordine alla scelta del contraente.",SI,,SI,
+27,"Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023",NON PERTINETE,Perchè è solo per i casi con affidamenti superiori a 140.000,NO,
+28,Conformità dell’affidamento ai principi ed alle norme in materia di appalti pubblici,SI,,SI,
+29,Dare atto della verifica dei requisiti dell’affidatario,SI,,NO,
+30,"Verifica sulla regolarità contributiva, DURC o attestazione della stessa o autocertificazione (limitata ai casi previsti dalla legge).",SI,,SI,
+31,Riferimenti alla deliberazione di approvazione del bilancio.,SI,,NO,
+32,Riferimenti deliberazione approvazione PEG e al PIAO,SI,,NO,
+33,Impegno di spesa/prenotazione,SI,,SI,
+34,Contributo ANAC,NON PERTINETE,,NO,
+35,Flussi finanziari,SI,,NO,
+36,Conformità dei pagamenti con le regole della finanza pubblica vigenti,SI,( RINDONDANTE ),SI,
+37,"Indicazione esatta dell’aggiudicatario: nome, cognome, ragione sociale, indirizzo, P.Iva, Cod. Fiscale, sede legale/operativa, altro.",SI,( RINDONDANTE ),SI,
+38,"Comunicazione all’aggiudicatario dell’impegno di spesa, la copertura finanziaria, CIG",SI,( non è specificato il come dett prima CIG ),SI,
+39,Indicazione specifica della tipologia del contratto,SI,Non è presente perchè c'è l'OdA,SI,
+40,Obblighi di pubblicità e trasparenza,SI,,SI,
+41,"Attestazione circa il rispetto delle prescrizioni del 
+ PTPCT dell’Ente",NO,"Anomalia, non grave",NO,
+42,Pubblicazione atti all’Albo Pretorio Online.,SI,,SI,
+43,Indicazione termini e autorità a cui ricorrere,SI,,SI,
+44,"Sottoscrizione del Dirigente firmatario dell’atto e, dove previsto, del RP o RUP.",SI,,SI,
+45,Presenza del visto di regolarità contabile,NO,Anomalia,NO,
