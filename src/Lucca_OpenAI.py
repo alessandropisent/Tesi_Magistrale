@@ -42,11 +42,11 @@ if __name__ == "__main__":
     
     if True:
         for temperature in temp_values:
-            for i, _ in df_determine.iterrows():
+            for i, row in df_determine.iterrows():
                 if i not in done:
                     print(f"DOING determina {i} - temp:{temperature} ")
-                    num = df_determine["Numero Determina"].loc[i]
-                    che_ass = df_determine["Checklist associata"].loc[i]
+                    num = row["Numero Determina"]
+                    che_ass = row["Checklist associata"]
                     model_folder_t = model_folder + f"{temperature}/"
                     
                     compiler.checklist_determina(nome_determina=num, 
@@ -56,4 +56,10 @@ if __name__ == "__main__":
                                         temperature=temperature)
                     
                     print(f"Done determina {num} - {che_ass}")
+    
+    folders = [f"{model_folder}{temp}/" for temp in temp_values]
+    
+    for i,row in df_determine.iterrows():
+        for folder in folders:
+            pass
 
