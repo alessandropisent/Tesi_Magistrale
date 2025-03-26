@@ -274,29 +274,28 @@ class ChecklistCompiler:
         Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
         """
         
-        llama_prompt = f"""<s>[INST] <<SYS>>
-        {text_system}
-       
-        {istruzioni}
-        <</SYS>>
+        if self.llm==LLAMA:
+            system = [{
+            "role": "system", 
+            "content" : f"""{text_system}
 
-        ##### CHECKLIST 
-        {punto}
-
-        ###### DETERMINA:
+        
+        ############# ------------- DETERMINA -------------------
         {determina}
-
-        ##### OUTPUT:
-        Punto {num}: [SI/NO/NON PERTINENTE], [spiegazione sintetica se necessaria]
-
-        Note finali: [eventuali osservazioni generali]
-        [/INST]</s>
-        """
-        
-        if self.llm == LLAMA:
-            return llama_prompt
-        
-        developer_openAI = [{
+        """}] 
+            user = [{
+                "role":"user",
+                "content":self.generate_user_prompts(punto=punto,
+                                                  num=num,
+                                                  sezione=sezione,
+                                                  istruzioni=istruzioni,
+                                                  return_just_text=True),
+            }]
+            
+            
+        elif self.llm == OPENAI:
+            
+            system = [{
             "role": "developer", 
             "content" : [{ "type": "text", 
         "text":f"""{text_system}
@@ -306,14 +305,18 @@ class ChecklistCompiler:
         {determina}
         """}]}] 
         
-        user_openAI = [self.generate_user_prompts(punto=punto,
+
+        
+        
+        
+            user = [self.generate_user_prompts(punto=punto,
                                                   num=num,
                                                   sezione=sezione,
                                                   istruzioni=istruzioni)]
         
         
-        if self.llm == OPENAI:
-            return developer_openAI + user_openAI
+        
+        return system + user
         
                     
 
@@ -352,7 +355,7 @@ class ChecklistCompiler:
                             return_full_text=False,
                             do_sample=do_sample
                         )
-            return ret[0]["generated_text"]
+            return ret[0]["generated_text"][-1]
 
         elif self.llm == OPENAI:
             client = openai.OpenAI()
@@ -515,7 +518,9 @@ class ChecklistCompiler:
     
     
     
-    def generate_prompt_choose(determina):
+    def generate_prompt_choose(self,
+                               determina, 
+                               checklists):
         """
         Generate a prompt to suggest the most appropriate checklist for a given determination.
 
@@ -525,11 +530,85 @@ class ChecklistCompiler:
         Returns:
             str: A structured prompt for suggesting the appropriate checklist.
         """
-        pass        
+        list_names_checklists = [check["NomeChecklist"] for check in checklists["checklists"]]
+        list_basics_checklists = [check["breve"] for check in checklists["checklists"]]
+        list_descri_checklists = [check["Descrizione"] for check in checklists["checklists"]]
+        
+        
+        str_list_basics = "        \n".join([f"-**{list_names_checklists[i]}**:{list_basics_checklists[i]}" for i in range(len(list_names_checklists))])
+        str_list_heavy = "\n".join([f"3.{i+1}. **{list_names_checklists[i]}**:{list_descri_checklists[i]}" for i in range(len(list_names_checklists))])
+        
+        
+        text_user = f"""### A QUALE CHECKLIST APPARTIENE LA SEGUENTE DETERMINA?:
+        
+        ### Output (solo nome checklist):
+        {" , ".join(list_names_checklists)} -- (note eventuali)  
+        
+        ############# ------------- DETERMINA -------------------
+        {determina}
+        
+  
+            
+        """
+        
+        text_system =f"""
+        Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
+
+        Segui i passaggi seguenti:
+        1. Leggi le checklists fornite 
+        2. Leggi il testo della determina.
+        3. Rispondi dicendo quale checklist va applicata alla determina tra le seguenti:
+        {str_list_heavy}
+        4. Pensa attentamente quali di queste descrizioni sono più pertinenti alla determina
+        4. RISPONDI SOLO CON NOME CHECKLIST
+        
+        ### Output (solo nome checklist):
+        {" ".join(list_names_checklists)} -- (note eventuali)
+        
+
+        Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+        """
+        
+        
+        if self.llm==LLAMA:
+            system = [{
+            "role": "system", 
+            "content" : text_system}] 
+            user = [{
+                "role":"user",
+                "content":text_user
+            }]
+            
+            
+        elif self.llm == OPENAI:
+            
+            system = [{
+            "role": "developer", 
+            "content" : [{ "type": "text", 
+            "text":text_system}]}] 
+        
+            user = [ {
+            "role":"user",
+            "content":[{"type": "text",
+                "text": text_user
+            }]
+            }]
+        
+        return system+user
     
-    def choose_checklist(nome_determina,
-                     text_gen_pipeline, 
-                     model_id):
+    
+        
+    
+            
+    
+    def choose_checklist(   self,
+                            determine:pd.DataFrame,
+                            checklists,
+                            sub_cartella="",
+                            temperature=1,
+                            top_p_value=None,
+                            debug_files=False,
+                            do_sample=None):
         
         """
         Choose the most suitable checklist for a given determination.
@@ -542,19 +621,69 @@ class ChecklistCompiler:
         Returns:
             Not explicitly defined (placeholder function).
         """
-        return
-    
-        with open(f"./src/txt/MB/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:
-            determina= f.read()
-        
-        ### CHECKLIST SELEZIONATE PER LA DETERMINA
-        complete_prompt = generate_prompt_choose(determina)
+        if self.municipality == LUCCA:
+            
+            pathDets = f"./src/txt/Lucca/determinazioni/"
+            
+            
+            if self.llm == LLAMA:
+                pathResponse = f"./src/llama/Lucca_text/choose/{sub_cartella}"
 
-        ret = text_gen_pipeline(
-            complete_prompt,
-            max_length=1_000,    # Limit the length of generated text
-            #max_new_tokens=500,
-            #truncation = True,
-            temperature=0.01,   # Set the temperature
-            return_full_text=False,
-        )
+                
+            
+            elif self.llm == OPENAI:
+                pathResponse = f"./src/openai/Lucca_text/choose/{sub_cartella}"
+
+        
+        elif self.municipality == OLBIA:
+            pathDets = f"./src/txt/Olbia/determinazioni/"
+            
+            if self.llm == LLAMA:
+                pathResponse = f"./src/llama/Olbia_text/choose/{sub_cartella}"
+                
+            
+            elif self.llm == OPENAI:
+                pathResponse=f"./src/openai/Olbia_text/choose/{sub_cartella}"
+   
+            
+            
+        pathJson=f"{pathResponse}determine.json"
+        
+        rows = []
+        
+        for name_dets in tqdm(determine["Numero Determina"]):
+            
+            path = f"{pathDets}{name_dets}.txt"
+        
+            with open(path,"r", encoding="utf-8") as f:
+                determina= f.read()
+                
+            complete_prompt = self.generate_prompt_choose(determina=determina,
+                                                          checklists=checklists)
+            
+            text_response = self.generate_response(complete_prompt=complete_prompt,
+                                                   temperature=temperature)
+            
+            row = {
+                "det":name_dets,
+                "model":self.model,
+                "temperature":temperature,
+                "municipality":self.municipality,
+                "LLM":text_response,
+                "prompt":complete_prompt
+            }
+            rows.append(row)
+
+        
+        
+        
+        
+        if not os.path.exists(pathResponse):
+            os.makedirs(pathResponse)  
+        
+        df = pd.DataFrame(rows)
+        df.to_json(pathJson)
+        #print(df)
+        
+        
+        

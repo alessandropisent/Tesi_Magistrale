@@ -23,7 +23,8 @@ if __name__ == "__main__":
         df_determine = pd.read_csv(f)
     
     #temp_values = [round(x * 0.2, 1) for x in range(6)]
-    temp_values = [0.0, 0.2, 0.5, 1.0]
+    #temp_values = [0.0, 0.2, 0.5, 1.0]
+    temp_values = [0.01]
     #done = [1,2,3,4,5,6,7,8,9,10]
     
     compiler = ChecklistCompiler(llm=OPENAI,
@@ -34,7 +35,7 @@ if __name__ == "__main__":
         for temperature in temp_values:
             for i, _ in df_determine.iterrows():
                 if i not in done:
-                    print(f"DOING determina {i} - temp :{temperature}")
+                    print(f"DOING determina {i} - temp :{temperature} - model:{model}")
                     num = df_determine["Numero Determina"].loc[i]
                     che_ass = df_determine["Checklist associata"].loc[i]
                     model_folder_t = model_folder + f"{temperature}/"

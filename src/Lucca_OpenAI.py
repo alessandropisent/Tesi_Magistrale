@@ -21,7 +21,7 @@ if __name__ == "__main__":
     model_folder = "mini/"
     
     #model = "gpt-4o"
-    #model_folder = "full"
+    #model_folder = "full/"
 
     #load the json - Dictionary
     with open("./src/txt/Lucca/checklists/checklists.json","r", encoding="utf-8") as f:
@@ -31,7 +31,8 @@ if __name__ == "__main__":
     with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
-    temp_values = [0.0,0.01,0.5,1.0]
+    #temp_values = [0.0, 0.01, 0.2, 0.5, 1.0]
+    temp_values = [0.2]
     
     compiler = ChecklistCompiler(
         llm=OPENAI,
@@ -59,7 +60,4 @@ if __name__ == "__main__":
     
     folders = [f"{model_folder}{temp}/" for temp in temp_values]
     
-    for i,row in df_determine.iterrows():
-        for folder in folders:
-            pass
-
+    

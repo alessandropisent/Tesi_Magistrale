@@ -210,8 +210,8 @@ if __name__ == "__main__":
     """
     
     
-    temp_values_LUCCA_OPENAI = [0.0,0.01,0.5,1.0]
-    temp_values_OLBIA_OPENAI = [0.0, 0.2, 0.5, 1.0]
+    temp_values_LUCCA_OPENAI = [0.0, 0.01, 0.2, 0.5, 1.0]
+    temp_values_OLBIA_OPENAI = [0.0, 0.01, 0.2, 0.5, 1.0]
     
     
     dic_todo = {"TODO":[
@@ -224,6 +224,20 @@ if __name__ == "__main__":
                     },
                     {"model": "gpt-4o-mini",
                      "folders_response_json":[f"./src/openai/Olbia_text/responses/mini/{temp}/" for temp in temp_values_OLBIA_OPENAI],
+                     "temperatures":temp_values_OLBIA_OPENAI,
+                     "checklists_json":"src/txt/Olbia/checklists/checklists.json",
+                     "csv_determine":"src/txt/Olbia/checklists/Olbia_Determine.csv",
+                     "municipality":OLBIA,
+                    },
+                    {"model": "gpt-4o",
+                     "folders_response_json":[f"./src/openai/Lucca_text/responses/full/{temp}/" for temp in temp_values_LUCCA_OPENAI],
+                     "temperatures": temp_values_LUCCA_OPENAI,
+                     "checklists_json":"src/txt/Lucca/checklists/checklists.json",
+                     "csv_determine":"src/txt/Lucca/checklists/Lucca_Determine.csv",
+                     "municipality":LUCCA,
+                    },
+                    {"model": "gpt-4o",
+                     "folders_response_json":[f"./src/openai/Olbia_text/responses/full/{temp}/" for temp in temp_values_OLBIA_OPENAI],
                      "temperatures":temp_values_OLBIA_OPENAI,
                      "checklists_json":"src/txt/Olbia/checklists/checklists.json",
                      "csv_determine":"src/txt/Olbia/checklists/Olbia_Determine.csv",
@@ -264,7 +278,24 @@ if __name__ == "__main__":
     df_dfs = pd.concat(dfs)
     df_dfs.to_csv(f"src/Evaluation/checklist_chooser/full.csv")
     df_rows = pd.DataFrame(rows)
-    df_dfs.to_csv(f"src/Evaluation/checklist_chooser/statistics.csv")
+    df_rows.to_csv(f"src/Evaluation/checklist_chooser/statistics.csv")
+    
+    keep_rows =["Modello",
+                "Temperature",
+                "percentage_equal",
+                "accuracy",
+                "precision",
+                "recall",
+                "f1_score",
+                "balanced_accuracy",
+                "cohen_kappa",
+                ]
+    
+    group_of_models = df_rows[keep_rows].groupby(by=["Modello","Temperature"]).mean()
+    
+    print(group_of_models)
+    
+    group_of_models.to_csv(f"src/Evaluation/checklist_chooser/group.csv")
     
     #print(df_dfs)
     

@@ -7,8 +7,8 @@ from ChecklistCompiler import ChecklistCompiler, LLAMA, LUCCA
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
-    model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
+    model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
 
