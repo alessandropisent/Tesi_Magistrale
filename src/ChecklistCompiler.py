@@ -29,6 +29,19 @@ class ChecklistCompiler:
                     model="gpt-4o-mini",
                     hasSezioni=None,
                  ):
+        
+        """
+        Initialize a ChecklistCompiler instance.
+
+        Args:
+            llm: Identifier for the language model to use (e.g., @ LLAMA or OPENAI).
+            municipality (str): Name of the municipality. @ OLBIA, LUCCA
+            text_gen_pipeline: Optional text generation pipeline.
+            model (str, optional): The model name for generating responses. Defaults to "gpt-4o-mini".
+            hasSezioni (bool, optional): Flag indicating if the checklist includes sections. If None, it is
+                                         determined based on the municipality.
+        """        
+        
         self.llm = llm
         self.municipality = municipality
         self.model=model
@@ -45,13 +58,38 @@ class ChecklistCompiler:
         
 
     def set_model(self,model):
+        """
+        Set the model name for the ChecklistCompiler instance.
+
+        Args:
+            model (str): The new model name to be used.
+        """
         self.model = model
     
     def set_text_gen_pipeline(self, text_gen_pipeline):
+        """
+        Set the text generation pipeline for the ChecklistCompiler instance.
+
+        Args:
+            text_gen_pipeline: The text generation pipeline to assign.
+        """
         self.text_gen_pipeline = text_gen_pipeline
     
     @staticmethod
     def analize_response(text):
+        """
+        Analyze the response text to extract a valid answer.
+
+        This method searches for specific markers (e.g., "RISPOSTA GENERALE:" or "RISPOSTA:") in the provided text
+        and returns the corresponding answer in uppercase. If no valid answer is found, returns "Not found".
+
+        Args:
+            text (str): The text to analyze.
+
+        Returns:
+            str: The extracted answer in uppercase, or "Not found" if no valid answer exists.
+        """
+        
         # Convert the text to string (for safety)
         text = str(text)
         
@@ -103,13 +141,14 @@ class ChecklistCompiler:
 
     @staticmethod
     def clean_text(text):
-        """Cleans text by removing unrecognized special characters.
-        
+        """
+        Clean the input text by removing unrecognized special characters.
+
         Args:
-            text: The input text string.
+            text (str): The input text string.
 
         Returns:
-            The cleaned text string.
+            str: The cleaned text string.
         """
 
         # Regular expression to match non-alphanumeric characters and common punctuation
@@ -123,17 +162,17 @@ class ChecklistCompiler:
     @staticmethod
     def get_checklist(checklists,nome_checklist):
         """
-        Recupera una checklist specifica dal dizionario delle checklist disponibili.
-        
+        Retrieve a specific checklist from the available checklists.
+
         Args:
-            checklists (dict): Dizionario contenente tutte le checklist disponibili.
-            nome_checklist (str): Nome della checklist da recuperare.
+            checklists (dict): Dictionary containing all available checklists.
+            nome_checklist (str): The name of the checklist to retrieve.
 
         Returns:
-            dict: La checklist specificata, se trovata.
-        
+            dict: The specified checklist if found.
+
         Raises:
-            Exception: Se la checklist specificata non viene trovata.
+            Exception: If the specified checklist is not found.
         """
         
         checklist = {}
@@ -155,6 +194,19 @@ class ChecklistCompiler:
                                 sezione="", 
                                 istruzioni="",
                                 return_just_text=False):
+        """
+        Generate a user prompt for a checklist point.
+
+        Args:
+            punto (str): The text of the checklist point.
+            num (str): The identifier number for the checklist point.
+            sezione (str, optional): The section of the checklist point, if applicable.
+            istruzioni (str, optional): Instructions for the checklist point.
+            return_just_text (bool, optional): If True, returns the prompt as plain text instead of a structured dictionary.
+
+        Returns:
+            dict or str: The generated prompt in a dictionary format or as plain text if return_just_text is True.
+        """
 
         
         if istruzioni != "":
@@ -193,16 +245,18 @@ class ChecklistCompiler:
                         determina,
                         sezione=""):
         """
-        Crea un prompt strutturato per verificare la corrispondenza tra i punti di una checklist normativa e una determina.
-        
+        Generate a structured prompt for verifying compliance between a checklist point and a determination.
+
         Args:
-            checklist (str): Contenuto della checklist normativa da verificare.
-            checklist (str): Contenuto della checklist normativa da verificare.
-            determina (str): Testo della determina dirigenziale.
+            istruzioni (str): Instructions for the checklist point.
+            punto (str): The text of the checklist point.
+            num (str): The identifier number for the checklist point.
+            determina (str): The text of the determination.
+            sezione (str, optional): The section of the checklist point, if applicable.
 
         Returns:
-            str: Prompt strutturato per la verifica normativa.
-        """    
+            str or list: The complete prompt formatted for the language model. Returns a string for LLAMA or a list for OPENAI.
+        """ 
         
         text_system = f"""
         Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
@@ -269,6 +323,19 @@ class ChecklistCompiler:
                             top_p=None,
                             do_sample=None):
         
+        """
+        Generate a response from the language model based on the provided prompt.
+
+        Args:
+            complete_prompt: The complete prompt to send to the language model.
+            temperature (float, optional): The temperature parameter for response generation. Defaults to 1.
+            top_p (optional): The top-p sampling parameter.
+            do_sample (optional): Flag to determine whether to sample the response.
+
+        Returns:
+            str: The generated response text from the language model.
+        """
+        
         if self.llm == LLAMA:
             if do_sample is None:
                 ret = self.text_gen_pipeline(
@@ -315,15 +382,20 @@ class ChecklistCompiler:
                             do_sample=None):
 
         """
-        Genera un'analisi dettagliata della corrispondenza tra una checklist normativa e una determina dirigenziale.
-        
+        Generate a detailed analysis of the compliance between a regulatory checklist and a determination.
+
+        This method reads the determination text, retrieves the appropriate checklist, generates prompts for each checklist point,
+        obtains responses from the language model, and writes the analysis to output files.
+
         Args:
-            nome_determina (str): Nome identificativo della determina da analizzare.
-            nome_checklist (str): Nome della checklist normativa da applicare alla determina.
-            checklists (dict): Dizionario contenente tutte le checklist disponibili e i loro punti normativi.
-        
-        Output:
-            Scrive il risultato dell'analisi in file di output, inclusi dettagli sulla corrispondenza normativa.
+            nome_determina (str): Identifier of the determination to analyze.
+            nome_checklist (str): Name of the checklist to apply.
+            checklists (dict): Dictionary of available checklists.
+            sub_cartella (str, optional): Subfolder for storing output files.
+            temperature (float, optional): Temperature parameter for response generation. Defaults to 1.
+            top_p_value (optional): The top-p sampling parameter.
+            debug_files (bool, optional): If True, generates debug output files. Defaults to False.
+            do_sample (optional): Flag to control sampling during response generation.
         """
         
         if self.municipality == LUCCA:
@@ -445,13 +517,13 @@ class ChecklistCompiler:
     
     def generate_prompt_choose(determina):
         """
-        Genera un prompt per suggerire la checklist più adatta per una determina basata sul contenuto della stessa.
-        
+        Generate a prompt to suggest the most appropriate checklist for a given determination.
+
         Args:
-            determina (str): Testo della determina dirigenziale.
+            determina (str): The text of the determination.
 
         Returns:
-            str: Prompt strutturato per il suggerimento della checklist.
+            str: A structured prompt for suggesting the appropriate checklist.
         """
         pass        
     
@@ -459,6 +531,17 @@ class ChecklistCompiler:
                      text_gen_pipeline, 
                      model_id):
         
+        """
+        Choose the most suitable checklist for a given determination.
+
+        Args:
+            nome_determina (str): Identifier of the determination.
+            text_gen_pipeline: The text generation pipeline to use.
+            model_id: The identifier of the model.
+
+        Returns:
+            Not explicitly defined (placeholder function).
+        """
         return
     
         with open(f"./src/txt/MB/determinazioni/DET_{nome_determina}.txt","r", encoding="utf-8") as f:

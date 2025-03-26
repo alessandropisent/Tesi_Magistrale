@@ -12,6 +12,6 @@ Punto,Descrizione,SI/NO,Note
 5,Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato),NO,ANOMALIA GRAVE
 6,Termini di conclusione della prestazione/lavori,NO,"Trattandosi di ordinativo di accordo quadro, non è grave"
 7,Specificare se sono fondi soggetti a rendicontazione,NO,ANOMALIA GRAVE
-8,Specificare la normativa sulla privacy per i dati personali,NON PERTINETE,Accordo quadro
-9,Richiamato il codice di comportamento dei dipendenti,NON PERTINETE,Accordo quadro
-10,"Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC",NON PERTINETE,Accordo quadro
+8,Specificare la normativa sulla privacy per i dati personali,NON PERTINENTE,Accordo quadro
+9,Richiamato il codice di comportamento dei dipendenti,NON PERTINENTE,Accordo quadro
+10,"Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC",NON PERTINENTE,Accordo quadro

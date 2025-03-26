@@ -1,4 +1,4 @@
-Numero punto,Descrizione,SI/NO,Note,LLM,Colonna 1
+Punto,Descrizione,SI/NO,Note,LLM,Colonna 1
 1,"Intestazione: Settore, Servizio e Autorità che emana il provvedimento e tipo di provvedimento.",SI,,SI,
 2,Oggetto della determinazione,SI,,SI,
 3,"Indicazione del CIG, del CPV e del CUP (l’indicazione del CUI:
@@ -33,8 +33,8 @@ Numero punto,Descrizione,SI/NO,Note,LLM,Colonna 1
 15,Elementi da approvare con la determina a contrarre nel caso di provvedimento unico,SI,,NO,
 16,Per gli appalti di servizi: DUVRI,SI,( SI SONO POSTI ),SI,
 17,Suddivisione in lotti e norme sull’indebito frazionamento,SI,( SI SONO POSTI ),NO,
-18,Validazione (in caso di lavori pubblici),NON PERTINETE,( qui non sono lavori ),NO,
-19,Criteri Ambientali Minimi (CAM),NON PERTINETE,L'ggetto non lo richiede,NO,
+18,Validazione (in caso di lavori pubblici),NON PERTINENTE,( qui non sono lavori ),NO,
+19,Criteri Ambientali Minimi (CAM),NON PERTINENTE,L'ggetto non lo richiede,NO,
 20,Cauzione,NO,,NO,
 21,Riferimenti all’obbligo di utilizzo di convenzioni Consip o di soggetti aggregatori,SI,,NO,
 22,Riferimenti all’obbligo di utilizzo del MEPA o del sistema telematico messo a disposizione dalla centrale regionale di riferimento,SI,,NO,
@@ -49,14 +49,14 @@ Numero punto,Descrizione,SI/NO,Note,LLM,Colonna 1
   
   
  Esposizione del fatto che legittima il ricorso alla procedura e della valutazione in ordine alla scelta del contraente.",SI,,SI,
-27,"Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023",NON PERTINETE,Perchè è solo per i casi con affidamenti superiori a 140.000,NO,
+27,"Motivazione scelta della procedura nel caso di ricorso all’art. 76, del Dlgs n.36/2023",NON PERTINENTE,Perchè è solo per i casi con affidamenti superiori a 140.000,NO,
 28,Conformità dell’affidamento ai principi ed alle norme in materia di appalti pubblici,SI,,SI,
 29,Dare atto della verifica dei requisiti dell’affidatario,SI,,NO,
 30,"Verifica sulla regolarità contributiva, DURC o attestazione della stessa o autocertificazione (limitata ai casi previsti dalla legge).",SI,,SI,
 31,Riferimenti alla deliberazione di approvazione del bilancio.,SI,,NO,
 32,Riferimenti deliberazione approvazione PEG e al PIAO,SI,,NO,
 33,Impegno di spesa/prenotazione,SI,,SI,
-34,Contributo ANAC,NON PERTINETE,,NO,
+34,Contributo ANAC,NON PERTINENTE,,NO,
 35,Flussi finanziari,SI,,NO,
 36,Conformità dei pagamenti con le regole della finanza pubblica vigenti,SI,( RINDONDANTE ),SI,
 37,"Indicazione esatta dell’aggiudicatario: nome, cognome, ragione sociale, indirizzo, P.Iva, Cod. Fiscale, sede legale/operativa, altro.",SI,( RINDONDANTE ),SI,
