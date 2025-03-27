@@ -28,6 +28,7 @@ class ChecklistCompiler:
                     text_gen_pipeline=None, 
                     model="gpt-4o-mini",
                     hasSezioni=None,
+                    determina_in_user = False,
                  ):
         
         """
@@ -46,6 +47,12 @@ class ChecklistCompiler:
         self.municipality = municipality
         self.model=model
         self.text_gen_pipeline=text_gen_pipeline,
+        self.determina_in_user = determina_in_user
+        
+        if determina_in_user:
+            self.where_determina = "user"
+        else:
+            self.where_determina = "system"
         
         # Qualche checklist potrebbe avere la sezione "Sezione" nelle checklist
         if hasSezioni is None:
@@ -55,7 +62,9 @@ class ChecklistCompiler:
                 self.hasSezioni=False
         else:
             self.hasSezioni=hasSezioni
-        
+    
+    def set_determina_in_user(self, determina_in_user):
+        self.determina_in_user=determina_in_user
 
     def set_model(self,model):
         """
@@ -193,6 +202,7 @@ class ChecklistCompiler:
                                 num="",
                                 sezione="", 
                                 istruzioni="",
+                                determina="",
                                 return_just_text=False):
         """
         Generate a user prompt for a checklist point.
@@ -219,13 +229,24 @@ class ChecklistCompiler:
         else:
             sez = ""
         
-        text = f"""{ist}
-            ### Rispondi al punto {num}{sez}:
-            {punto}
-            
-            ### Output:
-            RISPOSTA GENERALE : [SI, NO, NON PERTINENTE], [spiegazione sintetica se necessaria]
-            """
+        if self.determina_in_user:
+        
+            text = f"""{ist}
+                ### Rispondi al punto {num}{sez}:
+                {punto}
+                
+                ############# ------------- DETERMINA -------------------
+                {determina}
+
+                """
+        else:
+            text = f"""{ist}
+                ### Rispondi al punto {num}{sez}:
+                {punto}
+                
+                ### Output:
+                RISPOSTA GENERALE : [SI, NO, NON PERTINENTE], [spiegazione sintetica se necessaria]
+                """
 
         if return_just_text:
             return text
@@ -258,6 +279,16 @@ class ChecklistCompiler:
             str or list: The complete prompt formatted for the language model. Returns a string for LLAMA or a list for OPENAI.
         """ 
         
+        if self.determina_in_user:
+            end_system = f"""### Output:
+            RISPOSTA GENERALE : [SI, NO, NON PERTINENTE], [spiegazione sintetica se necessaria]
+            """
+        
+        else:
+            end_system = f"""############# ------------- DETERMINA -------------------
+            {determina}
+            """
+        
         text_system = f"""
         Sei un assistente esperto in materia di diritto amministrativo. Il tuo compito è supportare un impiegato comunale nel controllo della regolarità amministrativa di una determina dirigenziale.
 
@@ -272,38 +303,32 @@ class ChecklistCompiler:
         6. Alla fine, aggiungi eventuali "Note finali" se ci sono problemi generali o ambiguità rilevate nella determina.
 
         Utilizza un linguaggio semplice e accessibile. Rispondi in maniera chiara e ordinata.
+        
+        {end_system}
         """
         
         if self.llm==LLAMA:
             system = [{
-            "role": "system", 
-            "content" : f"""{text_system}
-
-        
-        ############# ------------- DETERMINA -------------------
-        {determina}
-        """}] 
+                        "role": "system", 
+                        "content" : text_system}] 
             user = [{
-                "role":"user",
-                "content":self.generate_user_prompts(punto=punto,
-                                                  num=num,
-                                                  sezione=sezione,
-                                                  istruzioni=istruzioni,
-                                                  return_just_text=True),
+                        "role":"user",
+                        "content":self.generate_user_prompts(   punto=punto,
+                                                                num=num,
+                                                                sezione=sezione,
+                                                                istruzioni=istruzioni,
+                                                                determina=determina,
+                                                                return_just_text=True),
             }]
             
             
         elif self.llm == OPENAI:
             
             system = [{
-            "role": "developer", 
-            "content" : [{ "type": "text", 
-        "text":f"""{text_system}
-
-        
-        ############# ------------- DETERMINA -------------------
-        {determina}
-        """}]}] 
+                        "role": "developer", 
+                        "content" : [{  "type": "text", 
+                                        "text":text_system}]}
+                                ] 
         
 
         
@@ -312,7 +337,8 @@ class ChecklistCompiler:
             user = [self.generate_user_prompts(punto=punto,
                                                   num=num,
                                                   sezione=sezione,
-                                                  istruzioni=istruzioni)]
+                                                  istruzioni=istruzioni,
+                                                  determina=determina,)]
         
         
         
@@ -503,7 +529,9 @@ class ChecklistCompiler:
                                                     "temperature":temperature,
                                                     "checklist":nome_checklist,
                                                     "determina":nome_determina,
-                                                    "model":self.model,})
+                                                    "model":self.model,
+                                                    "determina_in":self.where_determina,
+                                                    })
         
 
         with open(pathJson,"w", encoding="utf-8")as f:

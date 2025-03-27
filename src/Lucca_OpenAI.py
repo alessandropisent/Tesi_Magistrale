@@ -18,7 +18,7 @@ if __name__ == "__main__":
     #done = [0,1,2]
     done = []
     model = "gpt-4o-mini"
-    model_folder = "mini/"
+    model_folder = "mini_1/"
     
     #model = "gpt-4o"
     #model_folder = "full/"
@@ -31,8 +31,7 @@ if __name__ == "__main__":
     with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
         df_determine = pd.read_csv(f)
     
-    #temp_values = [0.0, 0.01, 0.2, 0.5, 1.0]
-    temp_values = [0.2]
+    temp_values = [0.0, 0.01, 0.2, 0.5, 1.0]
     
     compiler = ChecklistCompiler(
         llm=OPENAI,
@@ -45,7 +44,7 @@ if __name__ == "__main__":
         for temperature in temp_values:
             for i, row in df_determine.iterrows():
                 if i not in done:
-                    print(f"DOING determina {i} - temp:{temperature} ")
+                    print(f"DOING determina {i} - temp:{temperature} - model:{model} - folder:{model_folder} ")
                     num = row["Numero Determina"]
                     che_ass = row["Checklist associata"]
                     model_folder_t = model_folder + f"{temperature}/"

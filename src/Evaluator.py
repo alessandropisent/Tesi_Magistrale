@@ -118,7 +118,8 @@ def calculate_and_return_per_det(nome_determina,
                                  model,
                                  municipality, 
                                  temperature,
-                                 doIWrite=True):
+                                 doIWrite=True,
+                                 determina_in=""):
     """
     Process and evaluate checklist data for a specific determination.
 
@@ -137,6 +138,7 @@ def calculate_and_return_per_det(nome_determina,
         municipality (str): Name of the municipality (e.g., LUCCA or OLBIA).
         temperature (float): Temperature parameter used in model evaluation.
         doIWrite (bool, optional): Flag indicating whether to write the resulting DataFrame to a CSV file. Defaults to True.
+        determina_in (str,optional): Where is the determina [user, system]
 
     Returns:
         tuple: A tuple containing:
@@ -149,6 +151,7 @@ def calculate_and_return_per_det(nome_determina,
             "Temperature":temperature,
             "Checklist":nome_checklist,
             "Municipality":municipality,
+            "determina_in":determina_in,
             }
     
     # Aprire Truth as df
@@ -216,11 +219,21 @@ if __name__ == "__main__":
     
     dic_todo = {"TODO":[
                     {"model": "gpt-4o-mini",
+                     "folders_response_json":[f"./src/openai/Lucca_text/responses/mini_1/{temp}/" for temp in temp_values_LUCCA_OPENAI],
+                     "temperatures": temp_values_LUCCA_OPENAI,
+                     "checklists_json":"src/txt/Lucca/checklists/checklists.json",
+                     "csv_determine":"src/txt/Lucca/checklists/Lucca_Determine.csv",
+                     "municipality":LUCCA,
+                     "determina_in":"user",
+                    },
+
+                    {"model": "gpt-4o-mini",
                      "folders_response_json":[f"./src/openai/Lucca_text/responses/mini/{temp}/" for temp in temp_values_LUCCA_OPENAI],
                      "temperatures": temp_values_LUCCA_OPENAI,
                      "checklists_json":"src/txt/Lucca/checklists/checklists.json",
                      "csv_determine":"src/txt/Lucca/checklists/Lucca_Determine.csv",
                      "municipality":LUCCA,
+                     "determina_in":"system",
                     },
                     {"model": "gpt-4o-mini",
                      "folders_response_json":[f"./src/openai/Olbia_text/responses/mini/{temp}/" for temp in temp_values_OLBIA_OPENAI],
@@ -228,6 +241,7 @@ if __name__ == "__main__":
                      "checklists_json":"src/txt/Olbia/checklists/checklists.json",
                      "csv_determine":"src/txt/Olbia/checklists/Olbia_Determine.csv",
                      "municipality":OLBIA,
+                     "determina_in":"system",
                     },
                     {"model": "gpt-4o",
                      "folders_response_json":[f"./src/openai/Lucca_text/responses/full/{temp}/" for temp in temp_values_LUCCA_OPENAI],
@@ -235,6 +249,7 @@ if __name__ == "__main__":
                      "checklists_json":"src/txt/Lucca/checklists/checklists.json",
                      "csv_determine":"src/txt/Lucca/checklists/Lucca_Determine.csv",
                      "municipality":LUCCA,
+                     "determina_in":"system",
                     },
                     {"model": "gpt-4o",
                      "folders_response_json":[f"./src/openai/Olbia_text/responses/full/{temp}/" for temp in temp_values_OLBIA_OPENAI],
@@ -242,13 +257,10 @@ if __name__ == "__main__":
                      "checklists_json":"src/txt/Olbia/checklists/checklists.json",
                      "csv_determine":"src/txt/Olbia/checklists/Olbia_Determine.csv",
                      "municipality":OLBIA,
+                     "determina_in":"system",
                     },
                     ],
                 }
-    
-    df_results = pd.DataFrame(columns=["Determina","Modello",
-                                       "Temperature","percentage_equal",
-                                       "accuracy","precision", "recall", "f1_score"])
     
     rows = []
     dfs = []
@@ -271,7 +283,8 @@ if __name__ == "__main__":
                                                          folder=folder,
                                                          model=todo["model"],
                                                          temperature=todo["temperatures"][i_temp],
-                                                         municipality=todo["municipality"])
+                                                         municipality=todo["municipality"],
+                                                         determina_in=todo["determina_in"])
                 rows.append(row_to_append)
                 dfs.append(df_append)
     
@@ -282,6 +295,7 @@ if __name__ == "__main__":
     
     keep_rows =["Modello",
                 "Temperature",
+                "determina_in",
                 "percentage_equal",
                 "accuracy",
                 "precision",
@@ -291,7 +305,7 @@ if __name__ == "__main__":
                 "cohen_kappa",
                 ]
     
-    group_of_models = df_rows[keep_rows].groupby(by=["Modello","Temperature"]).mean()
+    group_of_models = df_rows[keep_rows].groupby(by=["Modello","determina_in","Temperature"]).mean()
     
     print(group_of_models)
     
