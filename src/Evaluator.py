@@ -177,10 +177,10 @@ def calculate_and_return_per_det(nome_determina,
     
     # Write to csv the dataframe
     if doIWrite:
-        if not os.path.exists(f"src/Evaluation/checklist_chooser/{municipality}/{model}/{temperature}/"):
-            os.makedirs(f"src/Evaluation/checklist_chooser/{municipality}/{model}/{temperature}/")  
+        if not os.path.exists(f"src/Evaluation/checklist_compiler/{municipality}/{model}/{temperature}/"):
+            os.makedirs(f"src/Evaluation/checklist_compiler/{municipality}/{model}/{temperature}/")  
         
-        df.to_csv(f"src/Evaluation/checklist_chooser/{municipality}/{model}/{temperature}/{nome_determina}.csv")
+        df.to_csv(f"src/Evaluation/checklist_compiler/{municipality}/{model}/{temperature}/{nome_determina}.csv")
     
     ret.update(results)
     
@@ -289,9 +289,9 @@ if __name__ == "__main__":
                 dfs.append(df_append)
     
     df_dfs = pd.concat(dfs)
-    df_dfs.to_csv(f"src/Evaluation/checklist_chooser/full.csv")
+    df_dfs.to_csv(f"src/Evaluation/checklist_compiler/full.csv")
     df_rows = pd.DataFrame(rows)
-    df_rows.to_csv(f"src/Evaluation/checklist_chooser/statistics.csv")
+    df_rows.to_csv(f"src/Evaluation/checklist_compiler/statistics.csv")
     
     keep_rows =["Modello",
                 "Temperature",
@@ -309,7 +309,7 @@ if __name__ == "__main__":
     
     print(group_of_models)
     
-    group_of_models.to_csv(f"src/Evaluation/checklist_chooser/group.csv")
+    group_of_models.to_csv(f"src/Evaluation/checklist_compiler/group.csv")
     
     #print(df_dfs)
     
