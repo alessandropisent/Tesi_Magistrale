@@ -7,7 +7,8 @@ from ChecklistCompiler import ChecklistCompiler, LLAMA, LUCCA
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    model_id = "meta-llama/Llama-3.2-3B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
@@ -15,14 +16,14 @@ if __name__ == "__main__":
     # This is to the possiblity to not load the model and just test for errors
     if True:
         # Define the quantization configuration for 8-bit precision
-        #quantization_config = BitsAndBytesConfig(load_in_4bit=True)
+        quantization_config = BitsAndBytesConfig(load_in_4bit=True)
 
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
-            #quantization_config=quantization_config,
-            device_map= torch.device('cuda:1'),
+            device_map= torch.device('cuda:0'),
             
+            #quantization_config=quantization_config,
             #device_map='auto',
             #use_flash_attention_2=True
         )
@@ -52,13 +53,27 @@ if __name__ == "__main__":
         df_determine.to_csv("./src/llama/Lucca_text/Lucca_Determine_gen.csv")
     
     
-    temperatures = [0.01,0.2,0.4,0.6]
+    temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
     
-    compiler = ChecklistCompiler(llm=LLAMA, municipality=LUCCA, model=model)
+    
+    compiler = ChecklistCompiler(llm=LLAMA, municipality=LUCCA, model=model_id)
     
     if True:
         for temp in temperatures:
             for i, _ in df_determine.iterrows():
+                
+                sub_cartella = f"3.2.llama.3B.Instruct/{temp}/"
+                #sub_cartella = f"3.1.llama.8B.Instruct/{temp}/"
+                
+                
+                if temp == 0.0:
+                    do_sample = False
+                    t = None
+                    top_p = None
+                else:
+                    do_sample = True
+                    top_p = 0.9
+                    t = temp
                 
                 # Create the pipeline
                 text_gen_pipeline = pipeline(
@@ -66,13 +81,13 @@ if __name__ == "__main__":
                     model=model,
                     tokenizer=tokenizer,
                     max_new_tokens=1000,
-                    max_lenght=1000,
+                    #max_lenght=1000,
                     pad_token_id=tokenizer.eos_token_id,  # open-end generation
                     truncation=True,  # Truncates inputs exceeding model max length
                     eos_token_id = tokenizer.eos_token_id,
-                    do_sample=True,
-                    temperature = temp,
-                    top_p = 0.9,    
+                    do_sample=do_sample,
+                    temperature = t,
+                    top_p = top_p,    
                 )
                 
                 compiler.set_text_gen_pipeline(text_gen_pipeline)
@@ -80,17 +95,17 @@ if __name__ == "__main__":
                 
                 num = df_determine["Numero Determina"].loc[i]
                 che_ass = df_determine["Checklist associata"].loc[i]
-                sub_cartella = f"llamantino/{temp}/"
+                
                 
                 
                 compiler.checklist_determina(num,
                                     che_ass,
                                     checklists,
-                                    text_gen_pipeline=text_gen_pipeline,
                                     sub_cartella=sub_cartella,
+                                    temperature=temp,
                                     )
-                print(f"Done determina {num} - {che_ass}")
+                print(f"Done determina [{i}] {num} - {che_ass} - temp:{temp}")
     
-    compiler.relate(temperatures=temperatures)           
+               
 
 ## Numero Determina,Checklist associata

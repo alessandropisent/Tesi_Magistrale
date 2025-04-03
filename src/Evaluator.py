@@ -215,6 +215,9 @@ if __name__ == "__main__":
     
     temp_values_LUCCA_OPENAI = [0.0, 0.01, 0.2, 0.5, 1.0]
     temp_values_OLBIA_OPENAI = [0.0, 0.01, 0.2, 0.5, 1.0]
+    temp_values_LUCCA_LLAMA = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    temp_values_OLBIA_LLAMA = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    
     
     
     dic_todo = {"TODO":[
@@ -259,6 +262,39 @@ if __name__ == "__main__":
                      "municipality":OLBIA,
                      "determina_in":"system",
                     },
+                    {"model": "llama-3.1-8B",
+                     "folders_response_json":[f"./src/llama/Lucca_text/responses/3.1.llama.8B.Instruct/{temp}/" for temp in temp_values_LUCCA_LLAMA],
+                     "temperatures": temp_values_LUCCA_LLAMA,
+                     "checklists_json":"src/txt/Lucca/checklists/checklists.json",
+                     "csv_determine":"src/txt/Lucca/checklists/Lucca_Determine.csv",
+                     "municipality":LUCCA,
+                     "determina_in":"system",
+                    },
+                    {"model": "llama-3.1-8B",
+                     "folders_response_json":[f"./src/llama/Olbia_text/responses/3.1.llama.8B.Instruct/{temp}/" for temp in temp_values_OLBIA_LLAMA],
+                     "temperatures": temp_values_OLBIA_LLAMA,
+                     "checklists_json":"src/txt/Olbia/checklists/checklists.json",
+                     "csv_determine":"src/txt/Olbia/checklists/Olbia_Determine.csv",
+                     "municipality":OLBIA,
+                     "determina_in":"system",
+                    },
+                    {"model": "llama-3.2-3B",
+                     "folders_response_json":[f"./src/llama/Lucca_text/responses/3.2.llama.3B.Instruct/{temp}/" for temp in temp_values_LUCCA_LLAMA],
+                     "temperatures": temp_values_LUCCA_LLAMA,
+                     "checklists_json":"src/txt/Lucca/checklists/checklists.json",
+                     "csv_determine":"src/txt/Lucca/checklists/Lucca_Determine.csv",
+                     "municipality":LUCCA,
+                     "determina_in":"system",
+                    },
+                    {"model": "llama-3.2-3B",
+                     "folders_response_json":[f"./src/llama/Olbia_text/responses/3.2.llama.3B.Instruct/{temp}/" for temp in temp_values_OLBIA_LLAMA],
+                     "temperatures": temp_values_OLBIA_LLAMA,
+                     "checklists_json":"src/txt/Olbia/checklists/checklists.json",
+                     "csv_determine":"src/txt/Olbia/checklists/Olbia_Determine.csv",
+                     "municipality":OLBIA,
+                     "determina_in":"system",
+                    },
+                    
                     ],
                 }
     

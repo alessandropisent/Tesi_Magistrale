@@ -381,7 +381,8 @@ class ChecklistCompiler:
                             return_full_text=False,
                             do_sample=do_sample
                         )
-            return ret[0]["generated_text"][-1]
+            
+            return ret[0]["generated_text"]
 
         elif self.llm == OPENAI:
             client = openai.OpenAI()
@@ -533,7 +534,6 @@ class ChecklistCompiler:
                                                     "determina_in":self.where_determina,
                                                     })
         
-
         with open(pathJson,"w", encoding="utf-8")as f:
             json.dump(dictionary_response,f,indent=3)
         

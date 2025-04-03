@@ -10,7 +10,8 @@ from ChecklistCompiler import ChecklistCompiler, LLAMA, OLBIA
 if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
-    model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    #model_id = "meta-llama/Llama-3.1-8B-Instruct"
+    model_id = "meta-llama/Llama-3.2-3B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
@@ -27,25 +28,12 @@ if __name__ == "__main__":
             model_id,
             torch_dtype=torch.bfloat16,
             #quantization_config=quantization_config,
-            device_map= torch.device('cuda:1'),
+            device_map= torch.device('cuda:0'),
             
             #device_map='auto',
             #use_flash_attention_2=True
         )
         tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
-
-
-        # Create the pipeline
-        text_gen_pipeline = pipeline(
-            "text-generation",
-            model=model,
-            tokenizer=tokenizer,
-            max_new_tokens=100,
-            pad_token_id=tokenizer.eos_token_id,  # open-end generation
-            truncation=True,  # Truncates inputs exceeding model max length
-            eos_token_id = tokenizer.eos_token_id,
-            
-        )
     
     #load the json - Dictionary
     with open("./src/txt/Olbia/checklists/checklists.json","r", encoding="utf-8") as f:
@@ -72,22 +60,56 @@ if __name__ == "__main__":
     
     compiler = ChecklistCompiler(llm=LLAMA,
                                  municipality=OLBIA,
-                                 text_gen_pipeline=text_gen_pipeline,
-                                 model=model)
+                                 model=model_id)
+
+    
+    temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    #temperatures = [0.5]
+    
     
     if True:
-        for i, _ in df_determine.iterrows():
-            if i not in done:
-                num = df_determine["Numero Determina"].loc[i]
-                che_ass = df_determine["Checklist associata"].loc[i]
-                sub_cartella = "General/"
-                
-                
-                compiler.checklist_determina(nome_determina=num,
-                                             nome_checklist=che_ass, 
-                                             checklists=checklists,
-                                             sub_cartella=sub_cartella)
-                print(f"Done determina {num} - {che_ass}")
+        for temp in temperatures:
+            for i, _ in df_determine.iterrows():
+                if i not in done:
+                    
+                    num = df_determine["Numero Determina"].loc[i]
+                    che_ass = df_determine["Checklist associata"].loc[i]
+                    #sub_cartella = f"3.1.llama.8B.Instruct/{temp}/"
+                    sub_cartella = f"3.2.llama.3B.Instruct/{temp}/"
+                    
+                    
+                    if temp == 0.0:
+                        do_sample = False
+                        t = None
+                        top_p = None
+                    else:
+                        do_sample = True
+                        top_p = 0.9
+                        t = temp
+                    
+                    # Create the pipeline
+                    text_gen_pipeline = pipeline(
+                        "text-generation",
+                        model=model,
+                        tokenizer=tokenizer,
+                        max_new_tokens=1000,
+                        #max_lenght=1000,
+                        pad_token_id=tokenizer.eos_token_id,  # open-end generation
+                        truncation=True,  # Truncates inputs exceeding model max length
+                        eos_token_id = tokenizer.eos_token_id,
+                        do_sample=do_sample,
+                        temperature = t,
+                        top_p = top_p,    
+                    )
+                    
+                    compiler.set_text_gen_pipeline(text_gen_pipeline)
+                    
+                    
+                    compiler.checklist_determina(nome_determina=num,
+                                                nome_checklist=che_ass, 
+                                                checklists=checklists,
+                                                sub_cartella=sub_cartella)
+                    print(f"Done determina [{i}] {num} - {che_ass} - temp:{temp}")
             
 
 ## Numero Determina,Checklist associata
