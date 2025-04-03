@@ -21,16 +21,23 @@ if __name__ == "__main__":
     # This is to the possiblity to not load the model and just test for errors
     if True:
 
-        # Define the quantization configuration for 8-bit precision
-        #quantization_config = BitsAndBytesConfig(load_in_4bit=True)
+        # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
+            bnb_4bit_use_double_quant=True
+        )
+
         
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
-            #quantization_config=quantization_config,
-            device_map= torch.device('cuda:0'),
             
-            #device_map='auto',
+            #device_map= torch.device('cuda:0'),
+            
+            device_map='auto',
+            quantization_config=quantization_config,
             #use_flash_attention_2=True
         )
         tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
@@ -64,7 +71,6 @@ if __name__ == "__main__":
 
     
     temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
-    #temperatures = [0.5]
     
     
     if True:
