@@ -68,7 +68,10 @@ if __name__ == "__main__":
     
     #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
     #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
-    temperatures = [0.2,0.5,1.0]
+    #temperatures = [0.2,0.5,1.0]
+    #temperatures = [0.0,0.1,0.2,0.5,1.0]
+    temperatures = [0.01,0.5,1.0]
+    
     
     
     compiler = ChecklistCompiler(llm=LLAMA, municipality=LUCCA, model=model_id)

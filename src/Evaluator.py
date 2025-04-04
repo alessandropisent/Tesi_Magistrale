@@ -208,6 +208,7 @@ if __name__ == "__main__":
     temp_values_OLBIA_OPENAI = [0.0, 0.01, 0.2, 0.5, 1.0]
     temp_values_LUCCA_LLAMA = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
     temp_values_OLBIA_LLAMA = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    temp_values_LUCCA_LLAMA_BIG =[0.0, 0.2]
     
     
     
@@ -285,7 +286,14 @@ if __name__ == "__main__":
                      "municipality":OLBIA,
                      "determina_in":"system",
                     },
-                    
+                    {"model": "llama-3.1-70B",
+                     "folders_response_json":[f"./src/llama/Lucca_text/responses/3.1.llama.70B.Instruct/{temp}/" for temp in temp_values_LUCCA_LLAMA_BIG],
+                     "temperatures": temp_values_LUCCA_LLAMA_BIG,
+                     "checklists_json":"src/txt/Lucca/checklists/checklists.json",
+                     "csv_determine":"src/txt/Lucca/checklists/Lucca_Determine.csv",
+                     "municipality":LUCCA,
+                     "determina_in":"system",
+                    },
                     ],
                 }
     
