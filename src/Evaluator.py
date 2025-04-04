@@ -81,33 +81,24 @@ def compare_columns(df, truth_col, pred_col):
     #print(df[["num",truth_col_,truth_col,pred_col_, pred_col]])
 
 
-    # Calculate percentage of exactly matching entries
-    equal_count = (df[truth_col_] == df[pred_col_]).sum()
-    total_count = len(df)
-    percentage_equal = (equal_count / total_count) * 100
-
     y_true = df[truth_col_]
     y_pred = df[pred_col_]
 
     # Define valid labels for the ground truth and extra possible prediction (-1)
     valid_labels = [0, 1, 2]
     all_labels = valid_labels + [-1]
-
-    # Convert y_true and y_pred to categorical types that include all_labels
-    y_true_cat = pd.Categorical(y_true, categories=all_labels)
-    y_pred_cat = pd.Categorical(y_pred, categories=all_labels)
+    
 
     results = {
-        "percentage_equal": percentage_equal,
-        "accuracy": accuracy_score(y_true_cat, y_pred_cat),
+        "accuracy": accuracy_score(y_true, y_pred),
         "precision": precision_score(y_true, y_pred, labels=valid_labels, average='weighted', zero_division=0),
         "recall": recall_score(y_true, y_pred, labels=valid_labels, average='weighted', zero_division=0),
         "f1_score": f1_score(y_true, y_pred, labels=valid_labels, average='weighted', zero_division=0),
-        "balanced_accuracy": balanced_accuracy_score(y_true_cat, y_pred_cat),
-        "cohen_kappa": cohen_kappa_score(y_true_cat, y_pred_cat, labels=all_labels),
-        "confusion_matrix": confusion_matrix(y_true_cat, y_pred_cat, labels=all_labels).tolist(),
-        "classification_report": classification_report(y_true, y_pred, labels=valid_labels, zero_division=0, output_dict=True)
+        "balanced_accuracy": balanced_accuracy_score(y_true, y_pred),
+        "confusion_matrix": confusion_matrix(y_true, y_pred, labels=valid_labels).tolist(),
     }
+
+    
 
     return results
 
@@ -332,13 +323,11 @@ if __name__ == "__main__":
     keep_rows =["Modello",
                 "Temperature",
                 "determina_in",
-                "percentage_equal",
                 "accuracy",
                 "precision",
                 "recall",
                 "f1_score",
                 "balanced_accuracy",
-                "cohen_kappa",
                 ]
     
     group_of_models = df_rows[keep_rows].groupby(by=["Modello","determina_in","Temperature"]).mean()

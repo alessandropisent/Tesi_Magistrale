@@ -1,0 +1,44 @@
+graph TD
+    A[Data Collection: Download PDFs & Extract Text] --> B{Checklist Selection: Match Documents with Checklists};
+    B --> C[Prompt Generation: Convert Checklists to JSON & Generate Prompts];
+    C --> D[LLM Querying: Send Prompts & Receive Responses];
+    D --> E["Response Extraction: Parse & Standardize Responses (Regex)"];
+    E --> F[Data Analysis: Compare LLM Results with Manual Checklists];
+
+    subgraph "Data Preprocessing"
+        A;
+    end
+
+    subgraph "LLM Integration"
+        C;
+        D;
+        E;
+    end
+
+    subgraph "Data Analysis"
+        F;
+    end
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#ccf,stroke:#333,stroke-width:2px;
+    style C fill:#9f9,stroke:#333,stroke-width:2px;
+    style D fill:#ffc,stroke:#333,stroke-width:2px;
+    style E fill:#cff,stroke:#333,stroke-width:2px;
+    style F fill:#fcc,stroke:#333,stroke-width:2px;
+
+    subgraph "Implementation Challenges"
+        G[Text Extraction Issues];
+        H[Prompt Engineering];
+        I[Regex Limitations];
+        J[Model Variability];
+
+        style G fill:#eee,stroke:#999,stroke-width:1px;
+        style H fill:#eee,stroke:#999,stroke-width:1px;
+        style I fill:#eee,stroke:#999,stroke-width:1px;
+        style J fill:#eee,stroke:#999,stroke-width:1px;
+    end
+
+    D --> G;
+    D --> H;
+    E --> I;
+    D --> J;
