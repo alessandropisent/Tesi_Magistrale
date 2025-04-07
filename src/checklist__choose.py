@@ -91,7 +91,7 @@ if __name__ == "__main__":
                 model_id,
                 torch_dtype=torch.bfloat16,
                 #quantization_config=quantization_config,
-                device_map= torch.device('cuda:0'),
+                device_map= torch.device('cuda:1'),
                 
                 #device_map='auto',
                 #use_flash_attention_2=True
@@ -156,7 +156,7 @@ if __name__ == "__main__":
             model = AutoModelForCausalLM.from_pretrained(
                 model_id,
                 torch_dtype=torch.bfloat16,
-                device_map= torch.device('cuda:0'),
+                device_map= torch.device('cuda:1'),
                 
                 #quantization_config=quantization_config,
                 #device_map='auto',

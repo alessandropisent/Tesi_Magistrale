@@ -9,10 +9,10 @@ if __name__ == "__main__":
     ## Multilingual model + 16K of context
     #model_id = "meta-llama/Llama-3.1-8B-Instruct"
     #model_id = "meta-llama/Llama-3.2-3B-Instruct"
-    #model_id = "meta-llama/Llama-3.3-70B-Instruct"
+    model_id = "meta-llama/Llama-3.3-70B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
-    model_id = "meta-llama/Llama-3.1-70B-Instruct"
+    #model_id = "meta-llama/Llama-3.1-70B-Instruct"
 
     # This is to the possiblity to not load the model and just test for errors
     if True:
@@ -69,8 +69,8 @@ if __name__ == "__main__":
     #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
     #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
     #temperatures = [0.2,0.5,1.0]
-    #temperatures = [0.0,0.1,0.2,0.5,1.0]
-    temperatures = [0.01,0.5,1.0]
+    temperatures = [0.0,0.1,0.2,0.5,0.7,1.0]
+    #temperatures = [0.01,0.5,1.0]
     
     
     
@@ -82,7 +82,8 @@ if __name__ == "__main__":
                 
                 #sub_cartella = f"3.2.llama.3B.Instruct/{temp}/"
                 #sub_cartella = f"3.1.llama.8B.Instruct/{temp}/"
-                sub_cartella = f"3.1.llama.70B.Instruct/{temp}/"
+                #sub_cartella = f"3.1.llama.70B.Instruct/{temp}/"
+                sub_cartella = f"3.3.llama.70B.Instruct/{temp}/"
                 
                 
                 if temp == 0.0:

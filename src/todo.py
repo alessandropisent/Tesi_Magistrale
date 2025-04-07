@@ -1,0 +1,360 @@
+import json
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline,BitsAndBytesConfig
+import torch
+import pandas as pd
+from ChecklistCompiler import ChecklistCompiler, LLAMA, LUCCA, OLBIA
+import time
+
+if __name__ == "__main__":
+    
+    time.sleep(24_900)
+    temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    
+    #### LUCCA
+    # This is to the possiblity to not load the model and just test for errors
+    for model_id in ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.1-70B-Instruct"]:
+        # Define the quantization configuration for 4-bit precision
+        # Create a dictionary to limit memory per GPU (adjust based on your GPU capacity)
+        # Configure maximum GPU memory per device (here, 23GB per GPU)
+        max_memory = {0: "23GB", 1: "23GB"}
+
+        # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
+            bnb_4bit_use_double_quant=True
+        )
+
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.bfloat16,
+            #device_map= torch.device('cuda:0'),
+            
+            quantization_config=quantization_config,
+            device_map='auto',
+            max_memory=max_memory,   # Ensure each GPU uses at most 23GB of VRAM
+            #max_memory=max_memory,
+            #use_flash_attention_2=True
+        )
+        tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
+
+
+
+        #load the json - Dictionary
+        with open("./src/txt/Lucca/checklists/checklists.json","r", encoding="utf-8") as f:
+            checklists = json.load(f)
+
+        # load the csv with all the determine da controllare
+        with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
+            df_determine = pd.read_csv(f)
+
+        
+        
+        compiler = ChecklistCompiler(llm=LLAMA, municipality=LUCCA, model=model_id)
+        
+        if True:
+            for temp in temperatures:
+                for i, _ in df_determine.iterrows():
+                    
+                    #sub_cartella = f"3.2.llama.3B.Instruct/{temp}/"
+                    #sub_cartella = f"3.1.llama.8B.Instruct/{temp}/"
+                    if model_id == "meta-llama/Llama-3.3-70B-Instruct":
+                        sub_cartella = f"3.3.llama.70B.Instruct/{temp}/"
+                    
+                    elif model_id=="meta-llama/Llama-3.1-70B-Instruct":
+                        sub_cartella = f"3.1.llama.70B.Instruct/{temp}/"
+                    
+                    
+                    if temp == 0.0:
+                        do_sample = False
+                        t = None
+                        top_p = None
+                    else:
+                        do_sample = True
+                        top_p = 0.9
+                        t = temp
+                    
+                    # Create the pipeline
+                    text_gen_pipeline = pipeline(
+                        "text-generation",
+                        model=model,
+                        tokenizer=tokenizer,
+                        max_new_tokens=500,
+                        #max_lenght=1000,
+                        pad_token_id=tokenizer.eos_token_id,  # open-end generation
+                        truncation=True,  # Truncates inputs exceeding model max length
+                        eos_token_id = tokenizer.eos_token_id,
+                        do_sample=do_sample,
+                        temperature = t,
+                        top_p = top_p,    
+                    )
+                    
+                    compiler.set_text_gen_pipeline(text_gen_pipeline)
+            
+                    
+                    num = df_determine["Numero Determina"].loc[i]
+                    che_ass = df_determine["Checklist associata"].loc[i]
+                    
+                    
+                    
+                    compiler.checklist_determina(num,
+                                        che_ass,
+                                        checklists,
+                                        sub_cartella=sub_cartella,
+                                        temperature=temp,
+                                        )
+                    print(f"Done determina [{i}] {num} - {che_ass} - temp:{temp}")
+    
+    
+    #### ------ OLBIA ------
+    
+        
+    # This is to the possiblity to not load the model and just test for errors
+    for model_id in ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.1-70B-Instruct"]:
+        # Define the quantization configuration for 4-bit precision
+        # Create a dictionary to limit memory per GPU (adjust based on your GPU capacity)
+        # Configure maximum GPU memory per device (here, 23GB per GPU)
+        max_memory = {0: "23GB", 1: "23GB"}
+
+        # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
+            bnb_4bit_use_double_quant=True
+        )
+
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.bfloat16,
+            #device_map= torch.device('cuda:0'),
+            
+            quantization_config=quantization_config,
+            device_map='auto',
+            max_memory=max_memory,   # Ensure each GPU uses at most 23GB of VRAM
+            #max_memory=max_memory,
+            #use_flash_attention_2=True
+        )
+        tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
+
+
+
+        #load the json - Dictionary
+        with open("./src/txt/Olbia/checklists/checklists.json","r", encoding="utf-8") as f:
+            checklists = json.load(f)
+
+        # load the csv with all the determine da controllare
+        with open("./src/txt/Olbia/checklists/Olbia_Determine.csv","r", encoding="utf-8") as f:
+            df_determine = pd.read_csv(f)
+
+        
+        
+        compiler = ChecklistCompiler(llm=LLAMA, municipality=OLBIA, model=model_id)
+        
+        if True:
+            for temp in temperatures:
+                for i, _ in df_determine.iterrows():
+                    
+
+                    if model_id == "meta-llama/Llama-3.3-70B-Instruct":
+                        sub_cartella = f"3.3.llama.70B.Instruct/{temp}/"
+                    
+                    elif model_id=="meta-llama/Llama-3.1-70B-Instruct":
+                        sub_cartella = f"3.1.llama.70B.Instruct/{temp}/"
+                    
+                    
+                    if temp == 0.0:
+                        do_sample = False
+                        t = None
+                        top_p = None
+                    else:
+                        do_sample = True
+                        top_p = 0.9
+                        t = temp
+                    
+                    # Create the pipeline
+                    text_gen_pipeline = pipeline(
+                        "text-generation",
+                        model=model,
+                        tokenizer=tokenizer,
+                        max_new_tokens=500,
+                        #max_lenght=1000,
+                        pad_token_id=tokenizer.eos_token_id,  # open-end generation
+                        truncation=True,  # Truncates inputs exceeding model max length
+                        eos_token_id = tokenizer.eos_token_id,
+                        do_sample=do_sample,
+                        temperature = t,
+                        top_p = top_p,    
+                    )
+                    
+                    compiler.set_text_gen_pipeline(text_gen_pipeline)
+            
+                    
+                    num = df_determine["Numero Determina"].loc[i]
+                    che_ass = df_determine["Checklist associata"].loc[i]
+                    
+                    
+                    
+                    compiler.checklist_determina(num,
+                                        che_ass,
+                                        checklists,
+                                        sub_cartella=sub_cartella,
+                                        temperature=temp,
+                                        )
+                    print(f"Done determina [{i}] {num} - {che_ass} - temp:{temp}")           
+
+
+    ###### CHECHLIST CHOOSE
+    #load the json - Dictionary
+    with open("./src/txt/Lucca/checklists/checklists.json","r", encoding="utf-8") as f:
+        checklists = json.load(f)
+    
+
+    # load the csv with all the determine da controllare
+    with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
+        df_determine = pd.read_csv(f)
+    
+    
+    model_ids = ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.1-70B-Instruct"]
+    model_folders = ["llama-3.3-70B","llama-3.1-70B"]
+    
+    for model_id, model_folder in zip(model_ids,model_folders):
+        
+        
+        # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
+            bnb_4bit_use_double_quant=True
+        )
+
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.bfloat16,
+            #device_map= torch.device('cuda:0'),
+            
+            quantization_config=quantization_config,
+            device_map='auto',
+            max_memory=max_memory,   # Ensure each GPU uses at most 23GB of VRAM
+            #max_memory=max_memory,
+            #use_flash_attention_2=True
+        )
+        tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
+
+        
+        
+        compiler = ChecklistCompiler(llm=LLAMA,municipality=LUCCA,model=model_id)
+        
+        
+        for temp in temperatures:
+            
+            if temp == 0.0:
+                do_sample = False
+                t = None
+                top_p = None
+            else:
+                do_sample = True
+                top_p = 0.9
+                t = temp
+            
+            # Create the pipeline
+            text_gen_pipeline = pipeline(
+                "text-generation",
+                model=model,
+                tokenizer=tokenizer,
+                max_new_tokens=1000,
+                #max_lenght=1000,
+                pad_token_id=tokenizer.eos_token_id,  # open-end generation
+                truncation=True,  # Truncates inputs exceeding model max length
+                eos_token_id = tokenizer.eos_token_id,
+                do_sample=do_sample,
+                temperature = t,
+                top_p = top_p,    
+            )
+                
+            compiler.set_text_gen_pipeline(text_gen_pipeline)
+            
+            subfolder = f"{model_folder}/{temp}/"
+            compiler.choose_checklist(determine=df_determine,
+                                    checklists=checklists,
+                                    sub_cartella=subfolder,
+                                    temperature=temp)
+    
+    
+    #load the json - Dictionary
+    with open("./src/txt/Olbia/checklists/checklists.json","r", encoding="utf-8") as f:
+        checklists = json.load(f)
+    
+
+    # load the csv with all the determine da controllare
+    with open("./src/txt/Olbia/checklists/Olbia_Determine.csv","r", encoding="utf-8") as f:
+        df_determine = pd.read_csv(f)
+    
+    
+    model_ids = ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.1-70B-Instruct"]
+    model_folders = ["llama-3.3-70B","llama-3.1-70B"]
+    
+    for model_id, model_folder in zip(model_ids,model_folders):
+        
+        
+        # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
+            bnb_4bit_use_double_quant=True
+        )
+
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.bfloat16,
+            #device_map= torch.device('cuda:0'),
+            
+            quantization_config=quantization_config,
+            device_map='auto',
+            max_memory=max_memory,   # Ensure each GPU uses at most 23GB of VRAM
+            #max_memory=max_memory,
+            #use_flash_attention_2=True
+        )
+        tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
+
+        
+        
+        compiler = ChecklistCompiler(llm=LLAMA,municipality=OLBIA,model=model_id)
+        
+        
+        for temp in temperatures:
+            
+            if temp == 0.0:
+                do_sample = False
+                t = None
+                top_p = None
+            else:
+                do_sample = True
+                top_p = 0.9
+                t = temp
+            
+            # Create the pipeline
+            text_gen_pipeline = pipeline(
+                "text-generation",
+                model=model,
+                tokenizer=tokenizer,
+                max_new_tokens=1000,
+                #max_lenght=1000,
+                pad_token_id=tokenizer.eos_token_id,  # open-end generation
+                truncation=True,  # Truncates inputs exceeding model max length
+                eos_token_id = tokenizer.eos_token_id,
+                do_sample=do_sample,
+                temperature = t,
+                top_p = top_p,    
+            )
+                
+            compiler.set_text_gen_pipeline(text_gen_pipeline)
+            
+            subfolder = f"{model_folder}/{temp}/"
+            compiler.choose_checklist(determine=df_determine,
+                                    checklists=checklists,
+                                    sub_cartella=subfolder,
+                                    temperature=temp)
