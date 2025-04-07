@@ -477,7 +477,7 @@ class ChecklistCompiler:
     
                 
         for i,punto in tqdm(enumerate(checklist["Punti"]),
-                            total=len(checklist["Punti"])):
+                            total=len(checklist["Punti"]), leave=False):
             
             
             if self.hasSezioni:
@@ -679,7 +679,7 @@ class ChecklistCompiler:
         
         rows = []
         
-        for name_dets in tqdm(determine["Numero Determina"]):
+        for name_dets in tqdm(determine["Numero Determina"], leave=False):
             
             path = f"{pathDets}{name_dets}.txt"
         
