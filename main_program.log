@@ -1,0 +1,124 @@
+2025-04-07 13:35:04,891 - INFO - --- Starting Main Script Execution (2025-04-07 13:35:04) ---
+2025-04-07 13:35:04,892 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 13:35:04,978 - INFO - Attempted to clear previous model/tokenizer from memory.
+2025-04-07 13:35:04,978 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 13:35:19,453 - CRITICAL - 
+--- Keyboard Interrupt received. Stopping script. ---
+2025-04-07 13:35:19,454 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 13:35:19,457 - INFO - --- Exiting Main Script with Exit Code: 130 (2025-04-07 13:35:19) ---
+2025-04-07 13:43:22,206 - INFO - --- Starting Main Script Execution ---
+2025-04-07 13:43:22,207 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 13:43:22,296 - INFO - Attempted to clear previous model/tokenizer from memory.
+2025-04-07 13:43:22,297 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 13:44:19,733 - INFO - Loading tokenizer...
+2025-04-07 13:44:20,210 - INFO - Model and tokenizer loaded successfully.
+2025-04-07 13:44:20,210 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 13:44:20,210 - ERROR - Failed to load data for Lucca - name 'checklist_path' is not defined. Skipping.
+Traceback (most recent call last):
+  File "/home/pisale/llama/Tesi_Magistrale/src/todo.py", line 123, in main_logic
+    logger.info(f"Loading checklists from {checklist_path}")
+                                           ^^^^^^^^^^^^^^
+NameError: name 'checklist_path' is not defined
+2025-04-07 13:44:20,327 - INFO - --- Processing Municipality: Olbia ---
+2025-04-07 13:44:20,327 - ERROR - Failed to load data for Olbia - name 'checklist_path' is not defined. Skipping.
+Traceback (most recent call last):
+  File "/home/pisale/llama/Tesi_Magistrale/src/todo.py", line 123, in main_logic
+    logger.info(f"Loading checklists from {checklist_path}")
+                                           ^^^^^^^^^^^^^^
+NameError: name 'checklist_path' is not defined
+2025-04-07 13:44:20,448 - INFO - Finished all municipalities for model meta-llama/Llama-3.3-70B-Instruct. Cleaning up model...
+2025-04-07 13:44:20,549 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-07 13:44:20,550 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 13:44:20,550 - INFO - --- Exiting Main Script with Exit Code: 0 ---
+2025-04-07 13:50:35,934 - INFO - --- Starting Main Script Execution (2025-04-07 13:50:35) ---
+2025-04-07 13:50:35,935 - INFO - --- Processing Model: meta-llama/Llama-3.1-8B-Instruct ---
+2025-04-07 13:50:36,021 - INFO - Attempted to clear previous model/tokenizer from memory.
+2025-04-07 13:50:36,021 - INFO - Loading model 'meta-llama/Llama-3.1-8B-Instruct' (non-quantized)...
+2025-04-07 13:50:49,955 - INFO - Loading tokenizer...
+2025-04-07 13:50:50,600 - INFO - Model and tokenizer loaded.
+2025-04-07 13:50:50,600 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 13:50:50,600 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 13:50:50,601 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 13:50:50,603 - INFO - Setting up ChecklistCompiler...
+2025-04-07 13:50:50,692 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 13:50:50,692 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 13:50:50,692 - CRITICAL - 
+============================================================
+2025-04-07 13:50:50,692 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 13:50:50) !!!
+2025-04-07 13:50:50,692 - CRITICAL - Error details: cannot access local variable 'text_gen_pipeline' where it is not associated with a value
+2025-04-07 13:50:50,692 - CRITICAL - ============================================================
+
+2025-04-07 13:50:50,706 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 13:50:50,706 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 13:50:50) ---
+2025-04-07 14:13:14,128 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:13:14,128 - CRITICAL - 
+============================================================
+2025-04-07 14:13:14,128 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 14:13:14) !!!
+2025-04-07 14:13:14,128 - CRITICAL - Error details: main_logic() missing 2 required positional arguments: 'model_id' and 'model_folder'
+2025-04-07 14:13:14,128 - CRITICAL - ============================================================
+
+2025-04-07 14:13:14,128 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 14:13:14,128 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 14:13:14) ---
+2025-04-07 14:14:07,602 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:14:07,603 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:14:07,603 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 14:15:09,378 - INFO - Loading tokenizer...
+2025-04-07 14:15:09,836 - INFO - Model and tokenizer loaded.
+2025-04-07 14:15:09,836 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 14:15:09,836 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 14:15:09,837 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 14:15:09,838 - INFO - Setting up ChecklistCompiler...
+2025-04-07 14:15:09,838 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 14:15:09,838 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 14:15:09,839 - INFO - Pipeline ready.
+2025-04-07 14:15:09,839 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 14:15:14,978 - CRITICAL - 
+============================================================
+2025-04-07 14:15:14,978 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 14:15:14) !!!
+2025-04-07 14:15:14,978 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.13 GiB is free. Process 1858871 has 3.83 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 14:15:14,978 - CRITICAL - ============================================================
+
+2025-04-07 14:15:14,995 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 14:15:15,021 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 14:15:15) ---
+2025-04-07 14:25:27,291 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:25:27,292 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:25:27,292 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 14:26:25,697 - INFO - Loading tokenizer...
+2025-04-07 14:26:26,173 - INFO - Model and tokenizer loaded.
+2025-04-07 14:26:26,174 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 14:26:26,174 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 14:26:26,174 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 14:26:26,175 - INFO - Setting up ChecklistCompiler...
+2025-04-07 14:26:26,176 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 14:26:26,176 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 14:26:26,176 - INFO - Pipeline ready.
+2025-04-07 14:26:26,176 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 14:26:30,293 - CRITICAL - 
+============================================================
+2025-04-07 14:26:30,293 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 14:26:30) !!!
+2025-04-07 14:26:30,293 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.13 GiB is free. Process 1858871 has 3.83 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 14:26:30,293 - CRITICAL - ============================================================
+
+2025-04-07 14:26:30,312 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 14:26:30,339 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 14:26:30) ---
+2025-04-07 14:28:47,022 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:28:47,023 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:28:47,023 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 14:29:45,009 - INFO - Loading tokenizer...
+2025-04-07 14:29:45,483 - INFO - Model and tokenizer loaded.
+2025-04-07 14:29:45,483 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 14:29:45,483 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 14:29:45,483 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 14:29:45,485 - INFO - Setting up ChecklistCompiler...
+2025-04-07 14:29:45,485 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 14:29:45,486 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 14:29:45,486 - INFO - Pipeline ready.
+2025-04-07 14:29:45,486 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 14:29:49,617 - CRITICAL - 
+============================================================
+2025-04-07 14:29:49,617 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 14:29:49) !!!
+2025-04-07 14:29:49,617 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.13 GiB is free. Process 1858871 has 3.83 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 14:29:49,617 - CRITICAL - ============================================================
+
+2025-04-07 14:29:49,635 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 14:29:49,746 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 14:29:49) ---
