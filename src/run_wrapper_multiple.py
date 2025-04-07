@@ -38,7 +38,7 @@ model_configs = [
 ]
 
 retry_delay_seconds = 3600/2 # 1 hour retry delay on failure for a specific model
-max_retries_per_model = 3 # Max attempts for a single model before skipping it (0 for infinite)
+max_retries_per_model = 48 # Max attempts for a single model before skipping it (0 for infinite)
 # --- End Configuration ---
 
 if not os.path.exists(script_to_run):
@@ -90,7 +90,7 @@ for model_config in model_configs:
                  overall_success = False # Mark overall run as failed
                  break # Exit inner loop
             elif exit_code == 2: # Assuming 2 is our general non-OOM error code
-                 logger.error(f"Model {model_id} failed with a non-memory error. Check logs. Not retrying this model.")
+                 logger.error(f"Model {model_id} failed with a non-memory error. Check logs.")
                  overall_success = False
                  
 

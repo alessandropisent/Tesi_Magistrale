@@ -55,3 +55,39 @@
 2025-04-07 14:29:50,402 - WARNING - WRAPPER - Model meta-llama/Llama-3.3-70B-Instruct failed on attempt 1 (Exit Code: 2).
 2025-04-07 14:29:50,402 - ERROR - WRAPPER - Model meta-llama/Llama-3.3-70B-Instruct failed with a non-memory error. Check logs. Not retrying this model.
 2025-04-07 14:29:50,402 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.3-70B-Instruct...
+2025-04-07 14:33:24,563 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-07 14:33:24,563 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-07 14:33:24,563 - INFO - WRAPPER - 
+==============================
+2025-04-07 14:33:24,563 - WARNING - WRAPPER - >>> Wrapper finished: One or more models failed or were skipped. <<<
+2025-04-07 14:33:24,563 - INFO - WRAPPER - ==============================
+2025-04-07 14:33:36,570 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-07 14:33:36,570 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.3-70B-Instruct <<<
+==============================
+2025-04-07 14:33:36,570 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:33:36,570 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.3-70B-Instruct --model-folder 3.3.llama.70B.Instruct
+2025-04-07 14:34:41,541 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.3-70B-Instruct finished with Exit Code: 2 (2025-04-07 14:34:41) ---
+2025-04-07 14:34:41,542 - WARNING - WRAPPER - Model meta-llama/Llama-3.3-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-07 14:34:41,542 - ERROR - WRAPPER - Model meta-llama/Llama-3.3-70B-Instruct failed with a non-memory error. Check logs. Not retrying this model.
+2025-04-07 14:34:41,543 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.3-70B-Instruct...
+2025-04-07 14:52:19,372 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-07 14:52:19,373 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-07 14:52:19,373 - INFO - WRAPPER - 
+==============================
+2025-04-07 14:52:19,373 - WARNING - WRAPPER - >>> Wrapper finished: One or more models failed or were skipped. <<<
+2025-04-07 14:52:19,373 - INFO - WRAPPER - ==============================
+2025-04-07 14:52:23,197 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-07 14:52:23,197 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.3-70B-Instruct <<<
+==============================
+2025-04-07 14:52:23,197 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 14:52:23,197 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.3-70B-Instruct --model-folder 3.3.llama.70B.Instruct
+2025-04-07 14:53:28,512 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.3-70B-Instruct finished with Exit Code: 2 (2025-04-07 14:53:28) ---
+2025-04-07 14:53:28,512 - WARNING - WRAPPER - Model meta-llama/Llama-3.3-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-07 14:53:28,512 - ERROR - WRAPPER - Model meta-llama/Llama-3.3-70B-Instruct failed with a non-memory error. Check logs. Not retrying this model.
+2025-04-07 14:53:28,512 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.3-70B-Instruct...

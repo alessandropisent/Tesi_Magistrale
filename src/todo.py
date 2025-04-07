@@ -12,6 +12,7 @@ import gc
 import traceback # For logging errors before exit
 import logging
 import argparse
+import subprocess, platform
 
 # --- Configure Logging ---
 log_file_name = 'main_program.log'
@@ -54,6 +55,63 @@ except (ImportError, AttributeError):
     OOM_ERROR = DummyOOMError
 
 
+# --- GPU Temperature Check Function ---
+def get_nvidia_gpu_temp():
+    """
+    Gets the current temperature of the NVIDIA GPU(s). Uses logger for output.
+
+    Returns:
+        int: The maximum temperature found among all NVIDIA GPUs in Celsius,
+             or None if nvidia-smi is not found or fails.
+    """
+    # logger = logging.getLogger(__name__) # Already defined globally
+    if platform.system() == "Windows":
+        # Try the default install path for nvidia-smi on Windows
+        nvidia_smi_path = r"C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe"
+        command = f'"{nvidia_smi_path}" --query-gpu=temperature.gpu --format=csv,noheader,nounits'
+    elif platform.system() == "Linux":
+        command = "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits"
+    else:
+        logger.warning(f"GPU Temp Check: Unsupported OS: {platform.system()}")
+        return None
+
+    try:
+        # Execute the command, capture output, decode to text
+        # Use timeout to prevent hanging if nvidia-smi gets stuck
+        output = subprocess.check_output(command, shell=True, text=True, stderr=subprocess.PIPE, timeout=15)
+
+        # Split lines in case of multiple GPUs, strip whitespace, convert to int
+        temps = [int(t.strip()) for t in output.strip().split('\n') if t.strip().isdigit()] # Ensure it's a digit
+
+        if not temps:
+            logger.warning("GPU Temp Check: nvidia-smi command executed but returned no parsable temperature.")
+            return None
+
+        # Return the maximum temperature if multiple GPUs are present
+        return max(temps)
+
+    except FileNotFoundError:
+        logger.error("GPU Temp Check: 'nvidia-smi' command not found.")
+        logger.error("Ensure NVIDIA drivers are installed and 'nvidia-smi' is in your system's PATH")
+        if platform.system() == "Windows":
+            logger.error(f" (Expected default path: {nvidia_smi_path})")
+        return None
+    except subprocess.TimeoutExpired:
+         logger.warning("GPU Temp Check: 'nvidia-smi' command timed out.")
+         return None
+    except subprocess.CalledProcessError as e:
+        logger.error(f"GPU Temp Check: Error executing nvidia-smi: {e}", exc_info=False)
+        if e.stderr: logger.error(f"stderr: {e.stderr.strip()}")
+        return None
+    except ValueError as e:
+        logger.error(f"GPU Temp Check: Could not parse temperature from nvidia-smi output. Error: {e}", exc_info=False)
+        logger.error(f"nvidia-smi output was: '{output.strip()}'")
+        return None
+    except Exception as e: # Catch unexpected errors
+        logger.error(f"GPU Temp Check: An unexpected error occurred: {e}", exc_info=True)
+        return None
+# --- End GPU Temp Function ---
+
 def main_logic(model_id: str, model_folder: str):
     """
     Contains the core task logic for a single run attempt.
@@ -65,6 +123,8 @@ def main_logic(model_id: str, model_folder: str):
     #model_folders = ["3.3.llama.70B.Instruct", "3.1.llama.70B.Instruct"]
     need_quant = True # Set to False to disable quantization
     max_gpu_memory_per_device = "23GB" # Adjust as needed
+    MAX_GPU_TEMP_THRESHOLD = 88
+    COOL_DOWN_WAIT_SECONDS = 2*60 
     
     
     #need_quant = False
@@ -151,6 +211,31 @@ def main_logic(model_id: str, model_folder: str):
 
             for temp in temperatures:
                 main_pbar.set_description(f"{model_folder[:10]}.. M:{municipality} T:{temp}")
+                
+                # --- <<< GPU Temperature Check Loop (Moved Here) >>> ---
+                logger.info(f"--- Checking GPU temperature before starting temp {temp} ---") # File only
+                while True:
+                    current_temp = get_nvidia_gpu_temp()
+                    if current_temp is None:
+                        logger.warning(f"Could not determine GPU temperature before temp {temp}. Proceeding with caution.") # Console & File
+                        break
+
+                    logger.info(f"Current max GPU Temp: {current_temp}°C (Threshold: {MAX_GPU_TEMP_THRESHOLD}°C)") # File only
+                    if current_temp < MAX_GPU_TEMP_THRESHOLD:
+                        logger.info(f"GPU temperature OK for temp {temp}. Proceeding.") # File only
+                        break # Temperature is fine, exit check loop
+                    else:
+                        logger.warning(f"GPU temp ({current_temp}°C) >= threshold ({MAX_GPU_TEMP_THRESHOLD}°C) before temp {temp}.") # Console & File
+                        logger.warning(f"Waiting for {COOL_DOWN_WAIT_SECONDS} seconds...") # Console & File
+                        try:
+                            time.sleep(COOL_DOWN_WAIT_SECONDS)
+                        except KeyboardInterrupt:
+                            logger.warning("Keyboard interrupt during cool down wait. Re-raising.") # Console & File
+                            raise # Re-raise to be caught by main handler & exit script
+                        logger.info("Re-checking temperature...") # File only
+                        # Loop continues to check again
+                # --- <<< End GPU Temperature Check Loop >>> ---
+                
                 logger.info(f"-- Processing Temperature: {temp} --")
 
                 # --- Configure and set pipeline ---
