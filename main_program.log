@@ -167,3 +167,1149 @@ NameError: name 'checklist_path' is not defined
 
 2025-04-07 14:53:27,738 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
 2025-04-07 14:53:27,764 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 14:53:27) ---
+2025-04-07 15:23:30,711 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 15:23:30,712 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 15:23:30,713 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 15:24:22,271 - INFO - Loading tokenizer...
+2025-04-07 15:24:24,378 - INFO - Model and tokenizer loaded.
+2025-04-07 15:24:24,378 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 15:24:24,378 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 15:24:24,380 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 15:24:24,385 - INFO - Setting up ChecklistCompiler...
+2025-04-07 15:24:24,385 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 15:24:24,404 - INFO - Current max GPU Temp: 48°C (Threshold: 88°C)
+2025-04-07 15:24:24,404 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 15:24:24,404 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 15:24:24,404 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 15:24:24,404 - INFO - Pipeline ready.
+2025-04-07 15:24:24,404 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 15:24:28,513 - CRITICAL - 
+============================================================
+2025-04-07 15:24:28,513 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 15:24:28) !!!
+2025-04-07 15:24:28,513 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.10 GiB is free. Process 1858871 has 3.86 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 15:24:28,513 - CRITICAL - ============================================================
+
+2025-04-07 15:24:28,530 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 15:24:28,555 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 15:24:28) ---
+2025-04-07 15:54:31,580 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 15:54:31,581 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 15:54:31,581 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 15:55:22,001 - INFO - Loading tokenizer...
+2025-04-07 15:55:22,446 - INFO - Model and tokenizer loaded.
+2025-04-07 15:55:22,446 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 15:55:22,446 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 15:55:22,446 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 15:55:22,448 - INFO - Setting up ChecklistCompiler...
+2025-04-07 15:55:22,448 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 15:55:22,466 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-07 15:55:22,466 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 15:55:22,466 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 15:55:22,466 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 15:55:22,467 - INFO - Pipeline ready.
+2025-04-07 15:55:22,467 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 15:55:26,531 - CRITICAL - 
+============================================================
+2025-04-07 15:55:26,531 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 15:55:26) !!!
+2025-04-07 15:55:26,531 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.09 GiB is free. Process 1858871 has 3.87 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 15:55:26,531 - CRITICAL - ============================================================
+
+2025-04-07 15:55:26,547 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 15:55:26,574 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 15:55:26) ---
+2025-04-07 16:25:28,898 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 16:25:28,899 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 16:25:28,899 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 16:26:20,636 - INFO - Loading tokenizer...
+2025-04-07 16:26:21,087 - INFO - Model and tokenizer loaded.
+2025-04-07 16:26:21,087 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 16:26:21,087 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 16:26:21,089 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 16:26:21,090 - INFO - Setting up ChecklistCompiler...
+2025-04-07 16:26:21,090 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 16:26:21,109 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-07 16:26:21,109 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 16:26:21,109 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 16:26:21,109 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 16:26:21,109 - INFO - Pipeline ready.
+2025-04-07 16:26:21,109 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 16:26:25,194 - CRITICAL - 
+============================================================
+2025-04-07 16:26:25,194 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 16:26:25) !!!
+2025-04-07 16:26:25,194 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.07 GiB is free. Process 1858871 has 3.89 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 16:26:25,195 - CRITICAL - ============================================================
+
+2025-04-07 16:26:25,213 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 16:26:25,239 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 16:26:25) ---
+2025-04-07 16:56:28,092 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 16:56:28,093 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 16:56:28,093 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 16:57:20,074 - INFO - Loading tokenizer...
+2025-04-07 16:57:20,508 - INFO - Model and tokenizer loaded.
+2025-04-07 16:57:20,508 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 16:57:20,508 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 16:57:20,508 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 16:57:20,509 - INFO - Setting up ChecklistCompiler...
+2025-04-07 16:57:20,510 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 16:57:20,528 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-07 16:57:20,529 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 16:57:20,529 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 16:57:20,529 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 16:57:20,529 - INFO - Pipeline ready.
+2025-04-07 16:57:20,529 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 16:57:24,609 - CRITICAL - 
+============================================================
+2025-04-07 16:57:24,609 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 16:57:24) !!!
+2025-04-07 16:57:24,609 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 356.12 MiB is free. Process 1858871 has 4.61 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 16:57:24,609 - CRITICAL - ============================================================
+
+2025-04-07 16:57:24,627 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 16:57:24,653 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 16:57:24) ---
+2025-04-07 17:27:27,511 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 17:27:27,511 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 17:27:27,512 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 17:28:19,222 - INFO - Loading tokenizer...
+2025-04-07 17:28:19,639 - INFO - Model and tokenizer loaded.
+2025-04-07 17:28:19,639 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 17:28:19,639 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 17:28:19,641 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 17:28:19,642 - INFO - Setting up ChecklistCompiler...
+2025-04-07 17:28:19,642 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 17:28:19,661 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-07 17:28:19,661 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 17:28:19,661 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 17:28:19,661 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 17:28:19,661 - INFO - Pipeline ready.
+2025-04-07 17:28:19,661 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 17:28:24,404 - CRITICAL - 
+============================================================
+2025-04-07 17:28:24,404 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 17:28:24) !!!
+2025-04-07 17:28:24,404 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 140.12 MiB is free. Process 1858871 has 4.82 GiB memory in use. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 17.91 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 17:28:24,404 - CRITICAL - ============================================================
+
+2025-04-07 17:28:24,422 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 17:28:24,449 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 17:28:24) ---
+2025-04-07 17:58:27,447 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 17:58:27,447 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 17:58:27,448 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 17:59:19,874 - INFO - Loading tokenizer...
+2025-04-07 17:59:20,293 - INFO - Model and tokenizer loaded.
+2025-04-07 17:59:20,293 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 17:59:20,293 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 17:59:20,293 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 17:59:20,295 - INFO - Setting up ChecklistCompiler...
+2025-04-07 17:59:20,295 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 17:59:20,314 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-07 17:59:20,314 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 17:59:20,314 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 17:59:20,314 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 17:59:20,314 - INFO - Pipeline ready.
+2025-04-07 17:59:20,314 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 17:59:24,091 - CRITICAL - 
+============================================================
+2025-04-07 17:59:24,091 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 17:59:24) !!!
+2025-04-07 17:59:24,091 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.94 GiB is free. Process 1858871 has 4.97 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 17:59:24,091 - CRITICAL - ============================================================
+
+2025-04-07 17:59:24,107 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 17:59:24,131 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 17:59:24) ---
+2025-04-07 18:29:26,947 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 18:29:26,948 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 18:29:26,948 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 18:30:17,565 - INFO - Loading tokenizer...
+2025-04-07 18:30:17,958 - INFO - Model and tokenizer loaded.
+2025-04-07 18:30:17,958 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 18:30:17,959 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 18:30:17,959 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 18:30:17,960 - INFO - Setting up ChecklistCompiler...
+2025-04-07 18:30:17,960 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 18:30:17,978 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-07 18:30:17,978 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 18:30:17,978 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 18:30:17,979 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 18:30:17,979 - INFO - Pipeline ready.
+2025-04-07 18:30:17,979 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 18:30:21,735 - CRITICAL - 
+============================================================
+2025-04-07 18:30:21,735 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 18:30:21) !!!
+2025-04-07 18:30:21,735 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.81 GiB is free. Process 1858871 has 5.10 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 18:30:21,735 - CRITICAL - ============================================================
+
+2025-04-07 18:30:21,750 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 18:30:21,775 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 18:30:21) ---
+2025-04-07 19:00:24,085 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 19:00:24,086 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 19:00:24,086 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 19:01:17,108 - INFO - Loading tokenizer...
+2025-04-07 19:01:17,530 - INFO - Model and tokenizer loaded.
+2025-04-07 19:01:17,530 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 19:01:17,530 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 19:01:17,532 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 19:01:17,533 - INFO - Setting up ChecklistCompiler...
+2025-04-07 19:01:17,533 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 19:01:17,552 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-07 19:01:17,552 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 19:01:17,552 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 19:01:17,552 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 19:01:17,552 - INFO - Pipeline ready.
+2025-04-07 19:01:17,552 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 19:01:21,331 - CRITICAL - 
+============================================================
+2025-04-07 19:01:21,331 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 19:01:21) !!!
+2025-04-07 19:01:21,331 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.71 GiB is free. Process 1858871 has 5.21 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 19:01:21,331 - CRITICAL - ============================================================
+
+2025-04-07 19:01:21,359 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 19:01:21,383 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 19:01:21) ---
+2025-04-07 19:31:24,254 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 19:31:24,255 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 19:31:24,255 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 19:32:15,784 - INFO - Loading tokenizer...
+2025-04-07 19:32:16,190 - INFO - Model and tokenizer loaded.
+2025-04-07 19:32:16,190 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 19:32:16,190 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 19:32:16,192 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 19:32:16,193 - INFO - Setting up ChecklistCompiler...
+2025-04-07 19:32:16,193 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 19:32:16,212 - INFO - Current max GPU Temp: 46°C (Threshold: 88°C)
+2025-04-07 19:32:16,212 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 19:32:16,212 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 19:32:16,212 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 19:32:16,212 - INFO - Pipeline ready.
+2025-04-07 19:32:16,212 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 19:32:19,980 - CRITICAL - 
+============================================================
+2025-04-07 19:32:19,980 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 19:32:19) !!!
+2025-04-07 19:32:19,980 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.61 GiB is free. Process 1858871 has 5.31 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 19:32:19,980 - CRITICAL - ============================================================
+
+2025-04-07 19:32:19,997 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 19:32:20,022 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 19:32:20) ---
+2025-04-07 20:02:22,868 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 20:02:22,868 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 20:02:22,869 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 20:03:14,401 - INFO - Loading tokenizer...
+2025-04-07 20:03:14,812 - INFO - Model and tokenizer loaded.
+2025-04-07 20:03:14,812 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 20:03:14,812 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 20:03:14,812 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 20:03:14,814 - INFO - Setting up ChecklistCompiler...
+2025-04-07 20:03:14,814 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 20:03:14,832 - INFO - Current max GPU Temp: 46°C (Threshold: 88°C)
+2025-04-07 20:03:14,832 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 20:03:14,832 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 20:03:14,832 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 20:03:14,832 - INFO - Pipeline ready.
+2025-04-07 20:03:14,832 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 20:03:18,645 - CRITICAL - 
+============================================================
+2025-04-07 20:03:18,645 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 20:03:18) !!!
+2025-04-07 20:03:18,645 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.52 GiB is free. Process 1858871 has 5.40 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 20:03:18,645 - CRITICAL - ============================================================
+
+2025-04-07 20:03:18,662 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 20:03:18,686 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 20:03:18) ---
+2025-04-07 20:33:21,138 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 20:33:21,139 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 20:33:21,139 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 20:34:12,148 - INFO - Loading tokenizer...
+2025-04-07 20:34:12,772 - INFO - Model and tokenizer loaded.
+2025-04-07 20:34:12,772 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 20:34:12,772 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 20:34:12,774 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 20:34:12,775 - INFO - Setting up ChecklistCompiler...
+2025-04-07 20:34:12,775 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 20:34:12,793 - INFO - Current max GPU Temp: 45°C (Threshold: 88°C)
+2025-04-07 20:34:12,793 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 20:34:12,793 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 20:34:12,793 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 20:34:12,794 - INFO - Pipeline ready.
+2025-04-07 20:34:12,794 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 20:34:16,580 - CRITICAL - 
+============================================================
+2025-04-07 20:34:16,580 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 20:34:16) !!!
+2025-04-07 20:34:16,580 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.43 GiB is free. Process 1858871 has 5.48 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 20:34:16,580 - CRITICAL - ============================================================
+
+2025-04-07 20:34:16,606 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 20:34:16,630 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 20:34:16) ---
+2025-04-07 21:04:19,442 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 21:04:19,443 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 21:04:19,443 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 21:05:10,003 - INFO - Loading tokenizer...
+2025-04-07 21:05:10,457 - INFO - Model and tokenizer loaded.
+2025-04-07 21:05:10,457 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 21:05:10,457 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 21:05:10,457 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 21:05:10,460 - INFO - Setting up ChecklistCompiler...
+2025-04-07 21:05:10,460 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 21:05:10,478 - INFO - Current max GPU Temp: 45°C (Threshold: 88°C)
+2025-04-07 21:05:10,478 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 21:05:10,478 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 21:05:10,478 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 21:05:10,478 - INFO - Pipeline ready.
+2025-04-07 21:05:10,478 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 21:05:14,244 - CRITICAL - 
+============================================================
+2025-04-07 21:05:14,244 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 21:05:14) !!!
+2025-04-07 21:05:14,244 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.35 GiB is free. Process 1858871 has 5.56 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 21:05:14,244 - CRITICAL - ============================================================
+
+2025-04-07 21:05:14,259 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 21:05:14,284 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 21:05:14) ---
+2025-04-07 21:35:16,550 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 21:35:16,550 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 21:35:16,551 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 21:36:07,504 - INFO - Loading tokenizer...
+2025-04-07 21:36:08,129 - INFO - Model and tokenizer loaded.
+2025-04-07 21:36:08,129 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 21:36:08,129 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 21:36:08,131 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 21:36:08,132 - INFO - Setting up ChecklistCompiler...
+2025-04-07 21:36:08,132 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 21:36:08,151 - INFO - Current max GPU Temp: 44°C (Threshold: 88°C)
+2025-04-07 21:36:08,151 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 21:36:08,151 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 21:36:08,151 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 21:36:08,151 - INFO - Pipeline ready.
+2025-04-07 21:36:08,151 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 21:36:11,898 - CRITICAL - 
+============================================================
+2025-04-07 21:36:11,898 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 21:36:11) !!!
+2025-04-07 21:36:11,898 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.28 GiB is free. Process 1858871 has 5.64 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 21:36:11,899 - CRITICAL - ============================================================
+
+2025-04-07 21:36:11,915 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 21:36:11,940 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 21:36:11) ---
+2025-04-07 22:06:14,831 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 22:06:14,832 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 22:06:14,832 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 22:07:07,124 - INFO - Loading tokenizer...
+2025-04-07 22:07:07,740 - INFO - Model and tokenizer loaded.
+2025-04-07 22:07:07,740 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 22:07:07,740 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 22:07:07,742 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 22:07:07,743 - INFO - Setting up ChecklistCompiler...
+2025-04-07 22:07:07,743 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 22:07:07,761 - INFO - Current max GPU Temp: 44°C (Threshold: 88°C)
+2025-04-07 22:07:07,761 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 22:07:07,761 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 22:07:07,761 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 22:07:07,762 - INFO - Pipeline ready.
+2025-04-07 22:07:07,762 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 22:07:11,497 - CRITICAL - 
+============================================================
+2025-04-07 22:07:11,497 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 22:07:11) !!!
+2025-04-07 22:07:11,497 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.20 GiB is free. Process 1858871 has 5.71 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 22:07:11,497 - CRITICAL - ============================================================
+
+2025-04-07 22:07:11,515 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 22:07:11,539 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 22:07:11) ---
+2025-04-07 22:37:14,329 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 22:37:14,330 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 22:37:14,330 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 22:38:07,278 - INFO - Loading tokenizer...
+2025-04-07 22:38:07,696 - INFO - Model and tokenizer loaded.
+2025-04-07 22:38:07,696 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 22:38:07,696 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 22:38:07,697 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 22:38:07,699 - INFO - Setting up ChecklistCompiler...
+2025-04-07 22:38:07,699 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 22:38:07,718 - INFO - Current max GPU Temp: 44°C (Threshold: 88°C)
+2025-04-07 22:38:07,718 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 22:38:07,718 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 22:38:07,718 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 22:38:07,718 - INFO - Pipeline ready.
+2025-04-07 22:38:07,718 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 22:38:11,494 - CRITICAL - 
+============================================================
+2025-04-07 22:38:11,494 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 22:38:11) !!!
+2025-04-07 22:38:11,494 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.13 GiB is free. Process 1858871 has 5.78 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 22:38:11,494 - CRITICAL - ============================================================
+
+2025-04-07 22:38:11,511 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 22:38:11,534 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 22:38:11) ---
+2025-04-07 23:08:14,388 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 23:08:14,389 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 23:08:14,390 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 23:09:04,602 - INFO - Loading tokenizer...
+2025-04-07 23:09:05,014 - INFO - Model and tokenizer loaded.
+2025-04-07 23:09:05,014 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 23:09:05,014 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 23:09:05,014 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 23:09:05,015 - INFO - Setting up ChecklistCompiler...
+2025-04-07 23:09:05,015 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 23:09:05,034 - INFO - Current max GPU Temp: 43°C (Threshold: 88°C)
+2025-04-07 23:09:05,034 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 23:09:05,034 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 23:09:05,034 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 23:09:05,034 - INFO - Pipeline ready.
+2025-04-07 23:09:05,034 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 23:09:08,805 - CRITICAL - 
+============================================================
+2025-04-07 23:09:08,805 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 23:09:08) !!!
+2025-04-07 23:09:08,805 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.07 GiB is free. Process 1858871 has 5.85 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 23:09:08,805 - CRITICAL - ============================================================
+
+2025-04-07 23:09:08,820 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 23:09:08,844 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 23:09:08) ---
+2025-04-07 23:39:11,134 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 23:39:11,135 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-07 23:39:11,136 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-07 23:40:03,212 - INFO - Loading tokenizer...
+2025-04-07 23:40:03,843 - INFO - Model and tokenizer loaded.
+2025-04-07 23:40:03,844 - INFO - --- Processing Municipality: Lucca ---
+2025-04-07 23:40:03,844 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-07 23:40:03,845 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-07 23:40:03,846 - INFO - Setting up ChecklistCompiler...
+2025-04-07 23:40:03,846 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-07 23:40:03,865 - INFO - Current max GPU Temp: 42°C (Threshold: 88°C)
+2025-04-07 23:40:03,865 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-07 23:40:03,865 - INFO - -- Processing Temperature: 0.0 --
+2025-04-07 23:40:03,865 - INFO - Creating/Updating text generation pipeline...
+2025-04-07 23:40:03,865 - INFO - Pipeline ready.
+2025-04-07 23:40:03,866 - INFO - Processing 3 determines for checklist generation...
+2025-04-07 23:40:07,648 - CRITICAL - 
+============================================================
+2025-04-07 23:40:07,648 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-07 23:40:07) !!!
+2025-04-07 23:40:07,648 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 1.01 GiB is free. Process 1858871 has 5.91 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-07 23:40:07,648 - CRITICAL - ============================================================
+
+2025-04-07 23:40:07,665 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-07 23:40:07,688 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-07 23:40:07) ---
+2025-04-08 00:10:10,613 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 00:10:10,613 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 00:10:10,614 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 00:11:02,157 - INFO - Loading tokenizer...
+2025-04-08 00:11:02,835 - INFO - Model and tokenizer loaded.
+2025-04-08 00:11:02,835 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 00:11:02,835 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 00:11:02,836 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 00:11:02,838 - INFO - Setting up ChecklistCompiler...
+2025-04-08 00:11:02,838 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 00:11:02,856 - INFO - Current max GPU Temp: 42°C (Threshold: 88°C)
+2025-04-08 00:11:02,856 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 00:11:02,856 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 00:11:02,856 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 00:11:02,856 - INFO - Pipeline ready.
+2025-04-08 00:11:02,856 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 00:11:06,600 - CRITICAL - 
+============================================================
+2025-04-08 00:11:06,600 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 00:11:06) !!!
+2025-04-08 00:11:06,600 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 23.65 GiB of which 972.12 MiB is free. Process 1858871 has 5.97 GiB memory in use. Including non-PyTorch memory, this process has 16.71 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 318.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 00:11:06,600 - CRITICAL - ============================================================
+
+2025-04-08 00:11:06,627 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 00:11:06,651 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 00:11:06) ---
+2025-04-08 00:41:09,468 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 00:41:09,468 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 00:41:09,469 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 00:42:01,271 - INFO - Loading tokenizer...
+2025-04-08 00:42:02,003 - INFO - Model and tokenizer loaded.
+2025-04-08 00:42:02,003 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 00:42:02,003 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 00:42:02,003 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 00:42:02,004 - INFO - Setting up ChecklistCompiler...
+2025-04-08 00:42:02,004 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 00:42:02,022 - INFO - Current max GPU Temp: 42°C (Threshold: 88°C)
+2025-04-08 00:42:02,022 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 00:42:02,022 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 00:42:02,022 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 00:42:02,022 - INFO - Pipeline ready.
+2025-04-08 00:42:02,022 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 00:42:02,374 - CRITICAL - 
+============================================================
+2025-04-08 00:42:02,374 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 00:42:02) !!!
+2025-04-08 00:42:02,374 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 448.12 MiB is free. Process 1858871 has 6.03 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 00:42:02,374 - CRITICAL - ============================================================
+
+2025-04-08 00:42:02,391 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 00:42:02,435 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 00:42:02) ---
+2025-04-08 01:12:04,716 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 01:12:04,716 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 01:12:04,717 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 01:12:55,172 - INFO - Loading tokenizer...
+2025-04-08 01:12:55,796 - INFO - Model and tokenizer loaded.
+2025-04-08 01:12:55,796 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 01:12:55,796 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 01:12:55,797 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 01:12:55,798 - INFO - Setting up ChecklistCompiler...
+2025-04-08 01:12:55,799 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 01:12:55,817 - INFO - Current max GPU Temp: 42°C (Threshold: 88°C)
+2025-04-08 01:12:55,817 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 01:12:55,817 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 01:12:55,817 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 01:12:55,817 - INFO - Pipeline ready.
+2025-04-08 01:12:55,817 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 01:12:56,193 - CRITICAL - 
+============================================================
+2025-04-08 01:12:56,193 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 01:12:56) !!!
+2025-04-08 01:12:56,193 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 392.12 MiB is free. Process 1858871 has 6.08 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 01:12:56,193 - CRITICAL - ============================================================
+
+2025-04-08 01:12:56,211 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 01:12:56,254 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 01:12:56) ---
+2025-04-08 01:42:59,124 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 01:42:59,124 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 01:42:59,125 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 01:43:50,928 - INFO - Loading tokenizer...
+2025-04-08 01:43:51,564 - INFO - Model and tokenizer loaded.
+2025-04-08 01:43:51,564 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 01:43:51,564 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 01:43:51,565 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 01:43:51,567 - INFO - Setting up ChecklistCompiler...
+2025-04-08 01:43:51,567 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 01:43:51,585 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 01:43:51,585 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 01:43:51,585 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 01:43:51,585 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 01:43:51,586 - INFO - Pipeline ready.
+2025-04-08 01:43:51,586 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 01:43:51,966 - CRITICAL - 
+============================================================
+2025-04-08 01:43:51,966 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 01:43:51) !!!
+2025-04-08 01:43:51,966 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 338.12 MiB is free. Process 1858871 has 6.13 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 01:43:51,966 - CRITICAL - ============================================================
+
+2025-04-08 01:43:51,984 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 01:43:52,025 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 01:43:52) ---
+2025-04-08 02:13:54,907 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 02:13:54,907 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 02:13:54,908 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 02:14:44,573 - INFO - Loading tokenizer...
+2025-04-08 02:14:44,975 - INFO - Model and tokenizer loaded.
+2025-04-08 02:14:44,975 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 02:14:44,975 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 02:14:44,975 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 02:14:44,986 - INFO - Setting up ChecklistCompiler...
+2025-04-08 02:14:44,986 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 02:14:45,005 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 02:14:45,005 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 02:14:45,005 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 02:14:45,005 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 02:14:45,005 - INFO - Pipeline ready.
+2025-04-08 02:14:45,005 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 02:14:45,356 - CRITICAL - 
+============================================================
+2025-04-08 02:14:45,356 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 02:14:45) !!!
+2025-04-08 02:14:45,356 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 284.12 MiB is free. Process 1858871 has 6.19 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 02:14:45,356 - CRITICAL - ============================================================
+
+2025-04-08 02:14:45,371 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 02:14:45,417 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 02:14:45) ---
+2025-04-08 02:44:47,741 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 02:44:47,742 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 02:44:47,742 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 02:45:38,966 - INFO - Loading tokenizer...
+2025-04-08 02:45:39,410 - INFO - Model and tokenizer loaded.
+2025-04-08 02:45:39,410 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 02:45:39,410 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 02:45:39,411 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 02:45:39,412 - INFO - Setting up ChecklistCompiler...
+2025-04-08 02:45:39,412 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 02:45:39,431 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 02:45:39,431 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 02:45:39,431 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 02:45:39,431 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 02:45:39,431 - INFO - Pipeline ready.
+2025-04-08 02:45:39,431 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 02:45:39,806 - CRITICAL - 
+============================================================
+2025-04-08 02:45:39,806 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 02:45:39) !!!
+2025-04-08 02:45:39,806 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 232.12 MiB is free. Process 1858871 has 6.24 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 02:45:39,806 - CRITICAL - ============================================================
+
+2025-04-08 02:45:39,824 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 02:45:39,858 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 02:45:39) ---
+2025-04-08 03:15:42,800 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 03:15:42,800 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 03:15:42,801 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 03:16:34,307 - INFO - Loading tokenizer...
+2025-04-08 03:16:34,712 - INFO - Model and tokenizer loaded.
+2025-04-08 03:16:34,712 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 03:16:34,713 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 03:16:34,713 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 03:16:34,715 - INFO - Setting up ChecklistCompiler...
+2025-04-08 03:16:34,715 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 03:16:34,733 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 03:16:34,733 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 03:16:34,733 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 03:16:34,733 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 03:16:34,734 - INFO - Pipeline ready.
+2025-04-08 03:16:34,734 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 03:16:35,090 - CRITICAL - 
+============================================================
+2025-04-08 03:16:35,091 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 03:16:35) !!!
+2025-04-08 03:16:35,091 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 180.12 MiB is free. Process 1858871 has 6.29 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 03:16:35,091 - CRITICAL - ============================================================
+
+2025-04-08 03:16:35,107 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 03:16:35,148 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 03:16:35) ---
+2025-04-08 03:46:37,452 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 03:46:37,452 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 03:46:37,453 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 03:47:29,023 - INFO - Loading tokenizer...
+2025-04-08 03:47:29,651 - INFO - Model and tokenizer loaded.
+2025-04-08 03:47:29,651 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 03:47:29,651 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 03:47:29,652 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 03:47:29,654 - INFO - Setting up ChecklistCompiler...
+2025-04-08 03:47:29,654 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 03:47:29,672 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 03:47:29,672 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 03:47:29,672 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 03:47:29,672 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 03:47:29,672 - INFO - Pipeline ready.
+2025-04-08 03:47:29,672 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 03:47:30,044 - CRITICAL - 
+============================================================
+2025-04-08 03:47:30,044 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 03:47:30) !!!
+2025-04-08 03:47:30,044 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 130.12 MiB is free. Process 1858871 has 6.34 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 03:47:30,044 - CRITICAL - ============================================================
+
+2025-04-08 03:47:30,063 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 03:47:30,104 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 03:47:30) ---
+2025-04-08 04:17:32,988 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 04:17:32,989 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 04:17:32,990 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 04:18:22,493 - INFO - Loading tokenizer...
+2025-04-08 04:18:22,887 - INFO - Model and tokenizer loaded.
+2025-04-08 04:18:22,887 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 04:18:22,887 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 04:18:22,887 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 04:18:22,888 - INFO - Setting up ChecklistCompiler...
+2025-04-08 04:18:22,889 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 04:18:22,907 - INFO - Current max GPU Temp: 40°C (Threshold: 88°C)
+2025-04-08 04:18:22,907 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 04:18:22,907 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 04:18:22,907 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 04:18:22,907 - INFO - Pipeline ready.
+2025-04-08 04:18:22,907 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 04:18:23,290 - CRITICAL - 
+============================================================
+2025-04-08 04:18:23,290 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 04:18:23) !!!
+2025-04-08 04:18:23,290 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 82.12 MiB is free. Process 1858871 has 6.38 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 04:18:23,290 - CRITICAL - ============================================================
+
+2025-04-08 04:18:23,306 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 04:18:23,353 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 04:18:23) ---
+2025-04-08 04:48:25,645 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 04:48:25,645 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 04:48:25,646 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 04:49:17,617 - INFO - Loading tokenizer...
+2025-04-08 04:49:18,022 - INFO - Model and tokenizer loaded.
+2025-04-08 04:49:18,022 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 04:49:18,022 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 04:49:18,024 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 04:49:18,026 - INFO - Setting up ChecklistCompiler...
+2025-04-08 04:49:18,026 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 04:49:18,044 - INFO - Current max GPU Temp: 40°C (Threshold: 88°C)
+2025-04-08 04:49:18,044 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 04:49:18,044 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 04:49:18,044 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 04:49:18,045 - INFO - Pipeline ready.
+2025-04-08 04:49:18,045 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 04:49:18,396 - CRITICAL - 
+============================================================
+2025-04-08 04:49:18,396 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 04:49:18) !!!
+2025-04-08 04:49:18,396 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 34.12 MiB is free. Process 1858871 has 6.43 GiB memory in use. Including non-PyTorch memory, this process has 17.16 GiB memory in use. Of the allocated memory 15.95 GiB is allocated by PyTorch, and 778.06 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 04:49:18,396 - CRITICAL - ============================================================
+
+2025-04-08 04:49:18,414 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 04:49:18,455 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 04:49:18) ---
+2025-04-08 05:19:21,294 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 05:19:21,295 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 05:19:21,295 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 05:20:11,419 - INFO - Loading tokenizer...
+2025-04-08 05:20:12,060 - INFO - Model and tokenizer loaded.
+2025-04-08 05:20:12,060 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 05:20:12,060 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 05:20:12,060 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 05:20:12,062 - INFO - Setting up ChecklistCompiler...
+2025-04-08 05:20:12,062 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 05:20:12,081 - INFO - Current max GPU Temp: 40°C (Threshold: 88°C)
+2025-04-08 05:20:12,081 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 05:20:12,081 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 05:20:12,081 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 05:20:12,081 - INFO - Pipeline ready.
+2025-04-08 05:20:12,081 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 05:20:12,624 - CRITICAL - 
+============================================================
+2025-04-08 05:20:12,624 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 05:20:12) !!!
+2025-04-08 05:20:12,624 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 436.12 MiB is free. Process 1858871 has 6.48 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 15.89 GiB is allocated by PyTorch, and 393.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 05:20:12,624 - CRITICAL - ============================================================
+
+2025-04-08 05:20:12,642 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 05:20:12,650 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 05:20:12) ---
+2025-04-08 05:50:15,077 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 05:50:15,078 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 05:50:15,078 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 05:51:05,855 - INFO - Loading tokenizer...
+2025-04-08 05:51:06,262 - INFO - Model and tokenizer loaded.
+2025-04-08 05:51:06,262 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 05:51:06,262 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 05:51:06,262 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 05:51:06,263 - INFO - Setting up ChecklistCompiler...
+2025-04-08 05:51:06,263 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 05:51:06,281 - INFO - Current max GPU Temp: 40°C (Threshold: 88°C)
+2025-04-08 05:51:06,281 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 05:51:06,281 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 05:51:06,281 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 05:51:06,281 - INFO - Pipeline ready.
+2025-04-08 05:51:06,281 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 05:51:06,633 - CRITICAL - 
+============================================================
+2025-04-08 05:51:06,633 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 05:51:06) !!!
+2025-04-08 05:51:06,633 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 392.12 MiB is free. Process 1858871 has 6.52 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 15.89 GiB is allocated by PyTorch, and 393.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 05:51:06,633 - CRITICAL - ============================================================
+
+2025-04-08 05:51:06,650 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 05:51:06,658 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 05:51:06) ---
+2025-04-08 06:21:09,457 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 06:21:09,458 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 06:21:09,458 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 06:22:00,857 - INFO - Loading tokenizer...
+2025-04-08 06:22:01,501 - INFO - Model and tokenizer loaded.
+2025-04-08 06:22:01,501 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 06:22:01,501 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 06:22:01,501 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 06:22:01,502 - INFO - Setting up ChecklistCompiler...
+2025-04-08 06:22:01,502 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 06:22:01,521 - INFO - Current max GPU Temp: 40°C (Threshold: 88°C)
+2025-04-08 06:22:01,521 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 06:22:01,521 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 06:22:01,521 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 06:22:01,521 - INFO - Pipeline ready.
+2025-04-08 06:22:01,521 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 06:22:01,920 - CRITICAL - 
+============================================================
+2025-04-08 06:22:01,920 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 06:22:01) !!!
+2025-04-08 06:22:01,920 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 346.12 MiB is free. Process 1858871 has 6.56 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 15.89 GiB is allocated by PyTorch, and 393.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 06:22:01,920 - CRITICAL - ============================================================
+
+2025-04-08 06:22:01,939 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 06:22:01,947 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 06:22:01) ---
+2025-04-08 06:52:04,843 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 06:52:04,843 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 06:52:04,844 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 06:52:56,509 - INFO - Loading tokenizer...
+2025-04-08 06:52:57,127 - INFO - Model and tokenizer loaded.
+2025-04-08 06:52:57,127 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 06:52:57,127 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 06:52:57,127 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 06:52:57,128 - INFO - Setting up ChecklistCompiler...
+2025-04-08 06:52:57,128 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 06:52:57,146 - INFO - Current max GPU Temp: 40°C (Threshold: 88°C)
+2025-04-08 06:52:57,146 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 06:52:57,146 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 06:52:57,146 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 06:52:57,147 - INFO - Pipeline ready.
+2025-04-08 06:52:57,147 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 06:52:57,524 - CRITICAL - 
+============================================================
+2025-04-08 06:52:57,524 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 06:52:57) !!!
+2025-04-08 06:52:57,524 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 300.12 MiB is free. Process 1858871 has 6.61 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 15.89 GiB is allocated by PyTorch, and 393.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 06:52:57,524 - CRITICAL - ============================================================
+
+2025-04-08 06:52:57,539 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 06:52:57,547 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 06:52:57) ---
+2025-04-08 07:22:59,878 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 07:22:59,879 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 07:22:59,879 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 07:23:51,746 - INFO - Loading tokenizer...
+2025-04-08 07:23:52,147 - INFO - Model and tokenizer loaded.
+2025-04-08 07:23:52,147 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 07:23:52,147 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 07:23:52,147 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 07:23:52,150 - INFO - Setting up ChecklistCompiler...
+2025-04-08 07:23:52,150 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 07:23:52,168 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 07:23:52,168 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 07:23:52,168 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 07:23:52,168 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 07:23:52,168 - INFO - Pipeline ready.
+2025-04-08 07:23:52,168 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 07:23:52,506 - CRITICAL - 
+============================================================
+2025-04-08 07:23:52,506 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 07:23:52) !!!
+2025-04-08 07:23:52,506 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 256.12 MiB is free. Process 1858871 has 6.65 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 15.89 GiB is allocated by PyTorch, and 393.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 07:23:52,506 - CRITICAL - ============================================================
+
+2025-04-08 07:23:52,525 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 07:23:52,532 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 07:23:52) ---
+2025-04-08 07:53:55,384 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 07:53:55,384 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 07:53:55,385 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 07:54:47,014 - INFO - Loading tokenizer...
+2025-04-08 07:54:47,414 - INFO - Model and tokenizer loaded.
+2025-04-08 07:54:47,414 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 07:54:47,414 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 07:54:47,416 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 07:54:47,417 - INFO - Setting up ChecklistCompiler...
+2025-04-08 07:54:47,417 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 07:54:47,435 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 07:54:47,435 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 07:54:47,435 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 07:54:47,435 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 07:54:47,436 - INFO - Pipeline ready.
+2025-04-08 07:54:47,436 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 07:54:47,783 - CRITICAL - 
+============================================================
+2025-04-08 07:54:47,783 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 07:54:47) !!!
+2025-04-08 07:54:47,783 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 212.12 MiB is free. Process 1858871 has 6.70 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 15.89 GiB is allocated by PyTorch, and 393.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 07:54:47,783 - CRITICAL - ============================================================
+
+2025-04-08 07:54:47,801 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 07:54:47,808 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 07:54:47) ---
+2025-04-08 08:24:50,653 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 08:24:50,654 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 08:24:50,654 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 08:25:41,108 - INFO - Loading tokenizer...
+2025-04-08 08:25:41,717 - INFO - Model and tokenizer loaded.
+2025-04-08 08:25:41,717 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 08:25:41,717 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 08:25:41,717 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 08:25:41,718 - INFO - Setting up ChecklistCompiler...
+2025-04-08 08:25:41,718 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 08:25:41,736 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 08:25:41,736 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 08:25:41,736 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 08:25:41,736 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 08:25:41,737 - INFO - Pipeline ready.
+2025-04-08 08:25:41,737 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 08:25:42,059 - CRITICAL - 
+============================================================
+2025-04-08 08:25:42,059 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 08:25:42) !!!
+2025-04-08 08:25:42,059 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 180.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 170.12 MiB is free. Process 1858871 has 6.74 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 16.14 GiB is allocated by PyTorch, and 138.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 08:25:42,059 - CRITICAL - ============================================================
+
+2025-04-08 08:25:42,075 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 08:25:42,081 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 08:25:42) ---
+2025-04-08 08:55:44,376 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 08:55:44,377 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 08:55:44,377 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 08:56:36,137 - INFO - Loading tokenizer...
+2025-04-08 08:56:36,554 - INFO - Model and tokenizer loaded.
+2025-04-08 08:56:36,554 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 08:56:36,554 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 08:56:36,555 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 08:56:36,557 - INFO - Setting up ChecklistCompiler...
+2025-04-08 08:56:36,557 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 08:56:36,575 - INFO - Current max GPU Temp: 41°C (Threshold: 88°C)
+2025-04-08 08:56:36,575 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 08:56:36,575 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 08:56:36,575 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 08:56:36,575 - INFO - Pipeline ready.
+2025-04-08 08:56:36,575 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 08:56:36,953 - CRITICAL - 
+============================================================
+2025-04-08 08:56:36,953 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 08:56:36) !!!
+2025-04-08 08:56:36,953 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 180.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 130.12 MiB is free. Process 1858871 has 6.78 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 16.14 GiB is allocated by PyTorch, and 138.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 08:56:36,954 - CRITICAL - ============================================================
+
+2025-04-08 08:56:36,971 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 08:56:36,979 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 08:56:36) ---
+2025-04-08 09:26:39,873 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 09:26:39,874 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 09:26:39,874 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 09:27:29,221 - INFO - Loading tokenizer...
+2025-04-08 09:27:29,843 - INFO - Model and tokenizer loaded.
+2025-04-08 09:27:29,844 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 09:27:29,844 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 09:27:29,844 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 09:27:29,845 - INFO - Setting up ChecklistCompiler...
+2025-04-08 09:27:29,845 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 09:27:29,863 - INFO - Current max GPU Temp: 42°C (Threshold: 88°C)
+2025-04-08 09:27:29,863 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 09:27:29,863 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 09:27:29,863 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 09:27:29,863 - INFO - Pipeline ready.
+2025-04-08 09:27:29,863 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 09:27:30,199 - CRITICAL - 
+============================================================
+2025-04-08 09:27:30,199 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 09:27:30) !!!
+2025-04-08 09:27:30,199 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 180.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 88.12 MiB is free. Process 1858871 has 6.82 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 16.14 GiB is allocated by PyTorch, and 138.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 09:27:30,199 - CRITICAL - ============================================================
+
+2025-04-08 09:27:30,214 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 09:27:30,222 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 09:27:30) ---
+2025-04-08 09:57:32,524 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 09:57:32,525 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 09:57:32,525 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 09:58:25,435 - INFO - Loading tokenizer...
+2025-04-08 09:58:25,927 - INFO - Model and tokenizer loaded.
+2025-04-08 09:58:25,927 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 09:58:25,927 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 09:58:25,928 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 09:58:25,930 - INFO - Setting up ChecklistCompiler...
+2025-04-08 09:58:25,930 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 09:58:25,948 - INFO - Current max GPU Temp: 42°C (Threshold: 88°C)
+2025-04-08 09:58:25,948 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 09:58:25,948 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 09:58:25,948 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 09:58:25,949 - INFO - Pipeline ready.
+2025-04-08 09:58:25,949 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 09:58:26,323 - CRITICAL - 
+============================================================
+2025-04-08 09:58:26,324 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 09:58:26) !!!
+2025-04-08 09:58:26,324 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 180.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 48.12 MiB is free. Process 1858871 has 6.86 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 16.14 GiB is allocated by PyTorch, and 138.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 09:58:26,324 - CRITICAL - ============================================================
+
+2025-04-08 09:58:26,342 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 09:58:26,350 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 09:58:26) ---
+2025-04-08 10:28:29,360 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 10:28:29,361 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 10:28:29,361 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 10:29:20,791 - INFO - Loading tokenizer...
+2025-04-08 10:29:21,437 - INFO - Model and tokenizer loaded.
+2025-04-08 10:29:21,437 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 10:29:21,437 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 10:29:21,437 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 10:29:21,438 - INFO - Setting up ChecklistCompiler...
+2025-04-08 10:29:21,438 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 10:29:21,456 - INFO - Current max GPU Temp: 43°C (Threshold: 88°C)
+2025-04-08 10:29:21,457 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 10:29:21,457 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 10:29:21,457 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 10:29:21,457 - INFO - Pipeline ready.
+2025-04-08 10:29:21,457 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 10:29:21,811 - CRITICAL - 
+============================================================
+2025-04-08 10:29:21,811 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 10:29:21) !!!
+2025-04-08 10:29:21,811 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 180.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 8.12 MiB is free. Process 1858871 has 6.89 GiB memory in use. Including non-PyTorch memory, this process has 16.73 GiB memory in use. Of the allocated memory 16.14 GiB is allocated by PyTorch, and 138.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 10:29:21,811 - CRITICAL - ============================================================
+
+2025-04-08 10:29:21,830 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 10:29:21,838 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 10:29:21) ---
+2025-04-08 10:59:24,760 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 10:59:24,760 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 10:59:24,761 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 11:00:16,208 - INFO - Loading tokenizer...
+2025-04-08 11:00:16,844 - INFO - Model and tokenizer loaded.
+2025-04-08 11:00:16,844 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 11:00:16,844 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 11:00:16,844 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 11:00:16,845 - INFO - Setting up ChecklistCompiler...
+2025-04-08 11:00:16,846 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 11:00:16,864 - INFO - Current max GPU Temp: 44°C (Threshold: 88°C)
+2025-04-08 11:00:16,864 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 11:00:16,864 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 11:00:16,864 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 11:00:16,864 - INFO - Pipeline ready.
+2025-04-08 11:00:16,864 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 11:00:17,223 - CRITICAL - 
+============================================================
+2025-04-08 11:00:17,223 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 11:00:17) !!!
+2025-04-08 11:00:17,223 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 416.12 MiB is free. Process 1858871 has 6.93 GiB memory in use. Including non-PyTorch memory, this process has 16.29 GiB memory in use. Of the allocated memory 15.72 GiB is allocated by PyTorch, and 124.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 11:00:17,223 - CRITICAL - ============================================================
+
+2025-04-08 11:00:17,239 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 11:00:17,245 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 11:00:17) ---
+2025-04-08 11:30:19,548 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 11:30:19,549 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 11:30:19,549 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 11:31:12,111 - INFO - Loading tokenizer...
+2025-04-08 11:31:12,782 - INFO - Model and tokenizer loaded.
+2025-04-08 11:31:12,783 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 11:31:12,783 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 11:31:12,784 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 11:31:12,786 - INFO - Setting up ChecklistCompiler...
+2025-04-08 11:31:12,786 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 11:31:12,804 - INFO - Current max GPU Temp: 44°C (Threshold: 88°C)
+2025-04-08 11:31:12,804 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 11:31:12,804 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 11:31:12,804 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 11:31:12,804 - INFO - Pipeline ready.
+2025-04-08 11:31:12,804 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 11:31:13,197 - CRITICAL - 
+============================================================
+2025-04-08 11:31:13,197 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 11:31:13) !!!
+2025-04-08 11:31:13,197 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 378.12 MiB is free. Process 1858871 has 6.97 GiB memory in use. Including non-PyTorch memory, this process has 16.29 GiB memory in use. Of the allocated memory 15.72 GiB is allocated by PyTorch, and 124.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 11:31:13,197 - CRITICAL - ============================================================
+
+2025-04-08 11:31:13,216 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 11:31:13,221 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 11:31:13) ---
+2025-04-08 12:01:16,121 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 12:01:16,122 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 12:01:16,122 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 12:02:08,885 - INFO - Loading tokenizer...
+2025-04-08 12:02:09,520 - INFO - Model and tokenizer loaded.
+2025-04-08 12:02:09,520 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 12:02:09,520 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 12:02:09,521 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 12:02:09,523 - INFO - Setting up ChecklistCompiler...
+2025-04-08 12:02:09,523 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 12:02:09,541 - INFO - Current max GPU Temp: 44°C (Threshold: 88°C)
+2025-04-08 12:02:09,541 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 12:02:09,541 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 12:02:09,541 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 12:02:09,541 - INFO - Pipeline ready.
+2025-04-08 12:02:09,541 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 12:02:09,876 - CRITICAL - 
+============================================================
+2025-04-08 12:02:09,876 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 12:02:09) !!!
+2025-04-08 12:02:09,876 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 342.12 MiB is free. Process 1858871 has 7.01 GiB memory in use. Including non-PyTorch memory, this process has 16.29 GiB memory in use. Of the allocated memory 15.72 GiB is allocated by PyTorch, and 124.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 12:02:09,876 - CRITICAL - ============================================================
+
+2025-04-08 12:02:09,894 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 12:02:09,899 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 12:02:09) ---
+2025-04-08 12:32:12,808 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 12:32:12,809 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 12:32:12,809 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 12:33:03,636 - INFO - Loading tokenizer...
+2025-04-08 12:33:04,059 - INFO - Model and tokenizer loaded.
+2025-04-08 12:33:04,059 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 12:33:04,059 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 12:33:04,059 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 12:33:04,061 - INFO - Setting up ChecklistCompiler...
+2025-04-08 12:33:04,061 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 12:33:04,080 - INFO - Current max GPU Temp: 44°C (Threshold: 88°C)
+2025-04-08 12:33:04,080 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 12:33:04,080 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 12:33:04,080 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 12:33:04,080 - INFO - Pipeline ready.
+2025-04-08 12:33:04,080 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 12:33:04,451 - CRITICAL - 
+============================================================
+2025-04-08 12:33:04,451 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 12:33:04) !!!
+2025-04-08 12:33:04,451 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 52.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 48.12 MiB is free. Process 1858871 has 7.04 GiB memory in use. Including non-PyTorch memory, this process has 16.54 GiB memory in use. Of the allocated memory 15.98 GiB is allocated by PyTorch, and 113.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 12:33:04,451 - CRITICAL - ============================================================
+
+2025-04-08 12:33:04,467 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 12:33:04,476 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 12:33:04) ---
+2025-04-08 13:03:06,875 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 13:03:06,876 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 13:03:06,876 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 13:03:57,586 - INFO - Loading tokenizer...
+2025-04-08 13:03:58,241 - INFO - Model and tokenizer loaded.
+2025-04-08 13:03:58,241 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 13:03:58,241 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 13:03:58,243 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 13:03:58,244 - INFO - Setting up ChecklistCompiler...
+2025-04-08 13:03:58,245 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 13:03:58,263 - INFO - Current max GPU Temp: 45°C (Threshold: 88°C)
+2025-04-08 13:03:58,263 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 13:03:58,263 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 13:03:58,263 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 13:03:58,263 - INFO - Pipeline ready.
+2025-04-08 13:03:58,263 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 13:03:58,601 - CRITICAL - 
+============================================================
+2025-04-08 13:03:58,601 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 13:03:58) !!!
+2025-04-08 13:03:58,601 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 52.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 12.12 MiB is free. Process 1858871 has 7.08 GiB memory in use. Including non-PyTorch memory, this process has 16.54 GiB memory in use. Of the allocated memory 15.98 GiB is allocated by PyTorch, and 113.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 13:03:58,601 - CRITICAL - ============================================================
+
+2025-04-08 13:03:58,619 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 13:03:58,628 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 13:03:58) ---
+2025-04-08 13:34:01,529 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 13:34:01,530 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 13:34:01,530 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 13:34:52,153 - INFO - Loading tokenizer...
+2025-04-08 13:34:52,571 - INFO - Model and tokenizer loaded.
+2025-04-08 13:34:52,571 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 13:34:52,571 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 13:34:52,571 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 13:34:52,572 - INFO - Setting up ChecklistCompiler...
+2025-04-08 13:34:52,572 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 13:34:52,591 - INFO - Current max GPU Temp: 45°C (Threshold: 88°C)
+2025-04-08 13:34:52,591 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 13:34:52,591 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 13:34:52,591 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 13:34:52,591 - INFO - Pipeline ready.
+2025-04-08 13:34:52,591 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 13:34:52,951 - CRITICAL - 
+============================================================
+2025-04-08 13:34:52,951 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 13:34:52) !!!
+2025-04-08 13:34:52,951 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 128.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 104.12 MiB is free. Process 1858871 has 7.11 GiB memory in use. Including non-PyTorch memory, this process has 16.41 GiB memory in use. Of the allocated memory 15.86 GiB is allocated by PyTorch, and 109.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 13:34:52,951 - CRITICAL - ============================================================
+
+2025-04-08 13:34:52,967 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 13:34:52,975 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 13:34:52) ---
+2025-04-08 14:04:55,296 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 14:04:55,297 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 14:04:55,297 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 14:05:48,005 - INFO - Loading tokenizer...
+2025-04-08 14:05:48,450 - INFO - Model and tokenizer loaded.
+2025-04-08 14:05:48,450 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 14:05:48,450 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 14:05:48,452 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 14:05:48,454 - INFO - Setting up ChecklistCompiler...
+2025-04-08 14:05:48,454 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 14:05:48,472 - INFO - Current max GPU Temp: 45°C (Threshold: 88°C)
+2025-04-08 14:05:48,472 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 14:05:48,472 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 14:05:48,472 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 14:05:48,472 - INFO - Pipeline ready.
+2025-04-08 14:05:48,473 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 14:05:48,836 - CRITICAL - 
+============================================================
+2025-04-08 14:05:48,836 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 14:05:48) !!!
+2025-04-08 14:05:48,836 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 128.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 68.12 MiB is free. Process 1858871 has 7.15 GiB memory in use. Including non-PyTorch memory, this process has 16.41 GiB memory in use. Of the allocated memory 15.86 GiB is allocated by PyTorch, and 109.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 14:05:48,836 - CRITICAL - ============================================================
+
+2025-04-08 14:05:48,855 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 14:05:48,862 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 14:05:48) ---
+2025-04-08 14:35:51,798 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 14:35:51,799 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 14:35:51,800 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 14:36:10,812 - CRITICAL - 
+============================================================
+2025-04-08 14:36:10,812 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 14:36:10) !!!
+2025-04-08 14:36:10,812 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 100.12 MiB is free. Process 1858871 has 7.18 GiB memory in use. Including non-PyTorch memory, this process has 16.35 GiB memory in use. Of the allocated memory 15.87 GiB is allocated by PyTorch, and 46.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 14:36:10,812 - CRITICAL - ============================================================
+
+2025-04-08 14:36:10,901 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 14:36:10,904 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 14:36:10) ---
+2025-04-08 15:06:13,136 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 15:06:13,136 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 15:06:13,137 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 15:06:31,580 - CRITICAL - 
+============================================================
+2025-04-08 15:06:31,580 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 15:06:31) !!!
+2025-04-08 15:06:31,580 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 66.12 MiB is free. Process 1858871 has 7.21 GiB memory in use. Including non-PyTorch memory, this process has 16.35 GiB memory in use. Of the allocated memory 15.87 GiB is allocated by PyTorch, and 46.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 15:06:31,580 - CRITICAL - ============================================================
+
+2025-04-08 15:06:31,663 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 15:06:31,667 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 15:06:31) ---
+2025-04-08 15:06:33,897 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-08 15:06:33,898 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-08 15:06:33,898 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-08 15:07:00,762 - CRITICAL - 
+============================================================
+2025-04-08 15:07:00,762 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 15:07:00) !!!
+2025-04-08 15:07:00,762 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 66.12 MiB is free. Process 1858871 has 7.21 GiB memory in use. Including non-PyTorch memory, this process has 16.35 GiB memory in use. Of the allocated memory 15.87 GiB is allocated by PyTorch, and 46.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 15:07:00,762 - CRITICAL - ============================================================
+
+2025-04-08 15:07:00,844 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 15:07:00,847 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 15:07:00) ---
+2025-04-08 15:37:03,782 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-08 15:37:03,783 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-08 15:37:03,784 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-08 15:37:22,417 - CRITICAL - 
+============================================================
+2025-04-08 15:37:22,417 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 15:37:22) !!!
+2025-04-08 15:37:22,417 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 32.12 MiB is free. Process 1858871 has 7.25 GiB memory in use. Including non-PyTorch memory, this process has 16.35 GiB memory in use. Of the allocated memory 15.87 GiB is allocated by PyTorch, and 46.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 15:37:22,417 - CRITICAL - ============================================================
+
+2025-04-08 15:37:22,502 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 15:37:22,505 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 15:37:22) ---
+2025-04-08 16:07:24,676 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-08 16:07:24,676 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-08 16:07:24,677 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-08 16:07:41,399 - CRITICAL - 
+============================================================
+2025-04-08 16:07:41,399 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 16:07:41) !!!
+2025-04-08 16:07:41,399 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 112.12 MiB is free. Process 1858871 has 7.28 GiB memory in use. Including non-PyTorch memory, this process has 16.24 GiB memory in use. Of the allocated memory 15.76 GiB is allocated by PyTorch, and 50.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 16:07:41,399 - CRITICAL - ============================================================
+
+2025-04-08 16:07:41,461 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 16:07:41,464 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 16:07:41) ---
+2025-04-08 16:17:32,977 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 16:17:32,977 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 16:17:32,978 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 16:17:56,514 - CRITICAL - 
+============================================================
+2025-04-08 16:17:56,514 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 16:17:56) !!!
+2025-04-08 16:17:56,514 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 100.12 MiB is free. Process 1858871 has 7.29 GiB memory in use. Including non-PyTorch memory, this process has 16.24 GiB memory in use. Of the allocated memory 15.76 GiB is allocated by PyTorch, and 50.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 16:17:56,514 - CRITICAL - ============================================================
+
+2025-04-08 16:17:56,582 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 16:17:56,601 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 16:17:56) ---

@@ -38,7 +38,7 @@ model_configs = [
 ]
 
 retry_delay_seconds = 3600/2 # 1 hour retry delay on failure for a specific model
-max_retries_per_model = 48 # Max attempts for a single model before skipping it (0 for infinite)
+max_retries_per_model = 100 # Max attempts for a single model before skipping it (0 for infinite)
 # --- End Configuration ---
 
 if not os.path.exists(script_to_run):
