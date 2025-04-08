@@ -9,32 +9,36 @@ if __name__ == "__main__":
     ## Multilingual model + 16K of context
     #model_id = "meta-llama/Llama-3.1-8B-Instruct"
     #model_id = "meta-llama/Llama-3.2-3B-Instruct"
-    model_id = "meta-llama/Llama-3.3-70B-Instruct"
+    #model_id = "meta-llama/Llama-3.3-70B-Instruct"
+    #model_id = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
+    #model_id = "deepseek-ai/DeepSeek-V2-Lite"
+    
 
     # This is to the possiblity to not load the model and just test for errors
     if True:
         # Define the quantization configuration for 4-bit precision
         # Create a dictionary to limit memory per GPU (adjust based on your GPU capacity)
         # Configure maximum GPU memory per device (here, 23GB per GPU)
-        max_memory = {0: "23GB", 1: "23GB"}
+        max_memory = {0: "13GB", 1: "23GB"}
 
         # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
-            bnb_4bit_use_double_quant=True
-        )
+        #quantization_config = BitsAndBytesConfig(
+        #    load_in_4bit=True,
+        #    bnb_4bit_compute_dtype=torch.float16,
+        #    bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
+        #    bnb_4bit_use_double_quant=True
+        #)
 
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             torch_dtype=torch.bfloat16,
             #device_map= torch.device('cuda:0'),
             
-            quantization_config=quantization_config,
+            trust_remote_code = True,
+            #quantization_config=quantization_config,
             device_map='auto',
             max_memory=max_memory,   # Ensure each GPU uses at most 23GB of VRAM
             #max_memory=max_memory,
@@ -83,7 +87,8 @@ if __name__ == "__main__":
                 #sub_cartella = f"3.2.llama.3B.Instruct/{temp}/"
                 #sub_cartella = f"3.1.llama.8B.Instruct/{temp}/"
                 #sub_cartella = f"3.1.llama.70B.Instruct/{temp}/"
-                sub_cartella = f"3.3.llama.70B.Instruct/{temp}/"
+                #sub_cartella = f"3.3.llama.70B.Instruct/{temp}/"
+                sub_cartella = f"deepSeekV2-lite/{temp}/"
                 
                 
                 if temp == 0.0:

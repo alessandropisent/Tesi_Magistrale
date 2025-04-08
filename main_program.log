@@ -1313,3 +1313,14 @@ NameError: name 'checklist_path' is not defined
 
 2025-04-08 16:17:56,582 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
 2025-04-08 16:17:56,601 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 16:17:56) ---
+2025-04-08 16:47:58,825 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 16:47:58,826 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 16:47:58,827 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 16:48:19,716 - CRITICAL - 
+============================================================
+2025-04-08 16:48:19,716 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 16:48:19) !!!
+2025-04-08 16:48:19,716 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 68.12 MiB is free. Process 1858871 has 7.32 GiB memory in use. Including non-PyTorch memory, this process has 16.24 GiB memory in use. Of the allocated memory 15.76 GiB is allocated by PyTorch, and 50.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 16:48:19,716 - CRITICAL - ============================================================
+
+2025-04-08 16:48:19,783 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 16:48:19,787 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 16:48:19) ---
