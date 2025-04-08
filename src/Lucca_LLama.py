@@ -3,6 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline,BitsAndBy
 import torch
 import pandas as pd
 from ChecklistCompiler import ChecklistCompiler, LLAMA, LUCCA
+import sys
 
 if __name__ == "__main__":
     
@@ -18,7 +19,7 @@ if __name__ == "__main__":
     
 
     # This is to the possiblity to not load the model and just test for errors
-    if True:
+    try:
         # Define the quantization configuration for 4-bit precision
         # Create a dictionary to limit memory per GPU (adjust based on your GPU capacity)
         # Configure maximum GPU memory per device (here, 23GB per GPU)
@@ -47,40 +48,40 @@ if __name__ == "__main__":
         tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
 
 
-
-    #load the json - Dictionary
-    with open("./src/txt/Lucca/checklists/checklists.json","r", encoding="utf-8") as f:
-        checklists = json.load(f)
-
-    # load the csv with all the determine da controllare
-    with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
-        df_determine = pd.read_csv(f)
-
-
-
-    ## Choose the right checklist for each determina
-    ## i do a loop to make it clear
-    if False:
-        for index, row in df_determine.iterrows():
-            print(f"I'm genenerting the checklist for {index}, det {row['Numero Determina']} - {model_id.split("/", 1)[1]}")
-            df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
-                                                            text_gen_pipeline,
-                                                            model_id.split("/", 1)[1])
         
-        df_determine.to_csv("./src/llama/Lucca_text/Lucca_Determine_gen.csv")
-    
-    
-    #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
-    temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
-    #temperatures = [0.2,0.5,1.0]
-    #temperatures = [0.0,0.1,0.2,0.5,0.7,1.0]
-    #temperatures = [0.01,0.5,1.0]
-    
-    
-    
-    compiler = ChecklistCompiler(llm=LLAMA, municipality=LUCCA, model=model_id)
-    
-    if True:
+        #load the json - Dictionary
+        with open("./src/txt/Lucca/checklists/checklists.json","r", encoding="utf-8") as f:
+            checklists = json.load(f)
+
+        # load the csv with all the determine da controllare
+        with open("./src/txt/Lucca/checklists/Lucca_Determine.csv","r", encoding="utf-8") as f:
+            df_determine = pd.read_csv(f)
+
+
+
+        ## Choose the right checklist for each determina
+        ## i do a loop to make it clear
+        if False:
+            for index, row in df_determine.iterrows():
+                print(f"I'm genenerting the checklist for {index}, det {row['Numero Determina']} - {model_id.split("/", 1)[1]}")
+                df_determine.at[index, 'gen'] = choose_checklist(row['Numero Determina'],
+                                                                text_gen_pipeline,
+                                                                model_id.split("/", 1)[1])
+            
+            df_determine.to_csv("./src/llama/Lucca_text/Lucca_Determine_gen.csv")
+        
+        
+        #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+        temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+        #temperatures = [0.2,0.5,1.0]
+        #temperatures = [0.0,0.1,0.2,0.5,0.7,1.0]
+        #temperatures = [0.01,0.5,1.0]
+        
+        
+        
+        compiler = ChecklistCompiler(llm=LLAMA, municipality=LUCCA, model=model_id)
+        
+        
         for temp in temperatures:
             for i, _ in df_determine.iterrows():
                 
@@ -131,6 +132,13 @@ if __name__ == "__main__":
                                     )
                 print(f"Done determina [{i}] {num} - {che_ass} - temp:{temp}")
     
-               
+    except Exception as e:
+        sys.exit(1) # General failure exit code
+    
+    sys.exit(0) # Explicitly exit with 0 for success
+        
+        
+        
+                
 
 ## Numero Determina,Checklist associata
