@@ -1383,3 +1383,4 @@ NameError: name 'checklist_path' is not defined
 2025-04-08 18:17:31,599 - INFO - Pipeline ready.
 2025-04-08 18:17:31,599 - INFO - Processing 3 determines for checklist generation...
 2025-04-08 18:27:16,308 - INFO - Done determina [0] det_00041_15-01-2025
+2025-04-08 18:41:52,727 - INFO - Done determina [1] det_00062_17-01-2025
