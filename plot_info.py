@@ -3,65 +3,65 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+def graph_df(df, col_to_plot="accuracy", title_ylabel="Accuracy"):
 
-# Set seaborn style for a cleaner, modern look
-sns.set_theme(style="whitegrid", palette="muted")
+    
+    # 2. Create the grouped bar plot using Seaborn
+    plt.figure(figsize=(15, 8)) # Use a wider figure for grouped bars
+    sns.set_theme(style="whitegrid") # Apply a theme
 
-# Create a figure with multiple subplots for different graphs
-fig, axes = plt.subplots(2, 2, figsize=(15, 10))
+    # Create the bar plot
+    # x='Temperature' defines the positions of the groups
+    # y='accuracy' defines the height of the bars
+    # hue='Model' defines the individual bars within each group by color
+    barplot = sns.barplot(
+        data=df,
+        x='Temperature',
+        y=col_to_plot,
+        hue='Modello',
+        palette='viridis' # Example using the 'viridis' color palette
+        # ci=None # Use errorbar=None in newer seaborn versions if you don't want error bars
+    )
 
-# --- Plot 1: Scatter plot of Accuracy vs. Temperature ---
-# This plot distinguishes between 'Checklist' types and 'determina_in' values.
-sns.scatterplot(
-    data=df,
-    x='Temperature',
-    y='accuracy',
-    hue='Checklist',
-    style='determina_in',
-    s=100,
-    ax=axes[0, 0]
-)
-axes[0, 0].set_title('Accuracy vs Temperature')
-axes[0, 0].set_xlabel('Temperature')
-axes[0, 0].set_ylabel('Accuracy')
+    # 3. Customize the plot
 
-# --- Plot 2: Boxplot of F1 Score by Checklist ---
-sns.boxplot(
-    data=df,
-    x='Checklist',
-    y='f1_score',
-    ax=axes[0, 1]
-)
-axes[0, 1].set_title('F1 Score Distribution by Checklist')
-axes[0, 1].set_xlabel('Checklist')
-axes[0, 1].set_ylabel('F1 Score')
+    plt.title(f'Model Accuracy per Temperature Setting', fontsize=16, pad=20)
+    plt.xlabel('Temperature Setting', fontsize=12)
+    plt.ylabel(title_ylabel, fontsize=12)
 
-# --- Plot 3: Line plot of Balanced Accuracy vs. Temperature grouped by Modello ---
-sns.lineplot(
-    data=df,
-    x='Temperature',
-    y='balanced_accuracy',
-    hue='Modello',
-    marker='o',
-    ax=axes[1, 0]
-)
-axes[1, 0].set_title('Balanced Accuracy vs Temperature by Modello')
-axes[1, 0].set_xlabel('Temperature')
-axes[1, 0].set_ylabel('Balanced Accuracy')
+    # Adjust y-axis limits to better show variation, but starting near 0 is often good for bars
+    # Let's start slightly below the minimum accuracy observed (around 0.66) to give some space
+    min_accuracy = df[col_to_plot].min()
+    plt.ylim(0, 1.05) # Start just below minimum, end just above maximum
 
-# --- Plot 4: Bar plot of Percentage Equal per Determina (rotated for readability) ---
-sns.barplot(
-    data=df,
-    x='Determina',
-    y='percentage_equal',
-    hue='Checklist',
-    ax=axes[1, 1]
-)
-axes[1, 1].set_title('Percentage Equal per Determina')
-axes[1, 1].set_xlabel('Determina')
-axes[1, 1].set_ylabel('Percentage Equal')
-axes[1, 1].tick_params(axis='x', rotation=45)
+    # Optional: Add value labels on top of bars
+    # This can get crowded on grouped bar charts, adjust fontsize/fmt as needed
+    # for container in barplot.containers:
+    #    barplot.bar_label(container, fmt='%.2f', fontsize=9, padding=3)
 
-# Adjust layout for better spacing and display the plots
-plt.tight_layout()
-plt.show()
+
+    # Adjust legend position
+    plt.legend(title='Model', bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0.)
+
+    # 4. Show the plot
+    plt.tight_layout(rect=[0, 0, 0.9, 1]) # Adjust layout rect to make space for legend
+    plt.show()
+
+df = pd.read_csv(f"src/Evaluation/checklist_compiler/statistics.csv")
+keep_rows =["Modello",
+            "Temperature",
+            "accuracy",
+            "precision",
+            "recall",
+            #"determina_in",
+            "f1_score",
+            "balanced_accuracy",
+            ]
+
+df = df[df["determina_in"]=="system"]
+
+group_of_models = df[keep_rows].groupby(by=["Temperature","Modello"]).mean()
+print(group_of_models)
+
+
+graph_df(df=group_of_models.reset_index(), col_to_plot="balanced_accuracy", title_ylabel="Balanced Accuracy")

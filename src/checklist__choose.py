@@ -6,8 +6,10 @@ import pandas as pd
 
 if __name__ == "__main__":
     
-    TODO_MUN = [LUCCA, OLBIA]
-    TODO_LLM = [LLAMA]
+    TODO_MUN = [ OLBIA]
+    TODO_LLM = [OPENAI]
+    temperatures = [ 0.01, 0.2, 0.4,
+                0.5,0.6,0.8,1.0]
     
     #### OPEN_AI
     ### LUCCA
@@ -32,7 +34,7 @@ if __name__ == "__main__":
         
         compiler = ChecklistCompiler(llm=OPENAI,municipality=LUCCA,model=model)
         
-        for temp in [0.0]:
+        for temp in temperatures:
             subfolder = f"{model_folder}{temp}/"
             compiler.choose_checklist(determine=df_determine,
                                     checklists=checklists,
@@ -62,7 +64,7 @@ if __name__ == "__main__":
                                      municipality=OLBIA,
                                      model=model)
         
-        for temp in [0.0]:
+        for temp in temperatures:
             subfolder = f"{model_folder}{temp}/"
             compiler.choose_checklist(determine=df_determine,
                                     checklists=checklists,

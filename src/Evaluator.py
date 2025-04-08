@@ -13,6 +13,8 @@ from sklearn.metrics import (
 import os
 import json
 from ChecklistCompiler import LLAMA,OPENAI, LUCCA,OLBIA
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def numberize(el):
     """
@@ -347,6 +349,7 @@ if __name__ == "__main__":
     #print(df_dfs)
     
     #print(df_rows)
+    
     
                 
                 
