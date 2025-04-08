@@ -41,6 +41,13 @@ retry_delay_seconds = 3600/2 # 1 hour retry delay on failure for a specific mode
 max_retries_per_model = 100 # Max attempts for a single model before skipping it (0 for infinite)
 # --- End Configuration ---
 
+# --- Secondary Program Configuration ---
+secondary_scripts_to_run = ["src/Olbia_LLama.py", "src/hecklist_choose.py"] # List of secondary scripts
+max_secondary_retries = 50 # Max attempts for each secondary script
+secondary_retry_delay_seconds = 10*60 # Short delay between secondary script retries
+# --- End Configuration ---
+
+
 
 if not os.path.exists(script_to_run):
     logger.error(f"The target script '{script_to_run}' was not found.")
@@ -124,12 +131,84 @@ for model_config in model_configs:
 
 # --- End Outer Model Loop ---
 
+logger.info(f"\n{'='*30}\n>>> Main Model Processing Complete <<<\n{'='*30}")
+
+# ****************************************************************************
+# *** RUN SECONDARY PROGRAMS SECTION                      ***
+# ****************************************************************************
+logger.info("\n--- Starting execution of secondary programs ---")
+
+for script_path in secondary_scripts_to_run:
+    logger.info(f"\n>>> Processing Secondary Script: {script_path} <<<")
+
+    if not os.path.exists(script_path):
+        logger.error(f"Secondary script '{script_path}' not found at execution time. Skipping.")
+        overall_success = False # Mark failure if a secondary script is missing when needed
+        continue # Move to the next secondary script
+
+    secondary_attempt = 0
+    secondary_succeeded = False
+
+    while not secondary_succeeded and secondary_attempt < max_secondary_retries:
+        secondary_attempt += 1
+        logger.info(f"--- Attempt #{secondary_attempt}/{max_secondary_retries} for Secondary Script: {script_path} ---")
+
+        command = [python_executable, script_path] # No arguments needed
+        logger.info(f"Running command: {' '.join(command)}")
+
+        process = None
+        exit_code = -1
+
+        try:
+            process = subprocess.run(command, check=False)
+            exit_code = process.returncode
+        except Exception as e:
+             logger.error(f"Failed to execute command for secondary script {script_path}: {e}")
+             exit_code = -99 # Execution error
+        finally:
+            timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
+            logger.info(f"--- Attempt #{secondary_attempt} for {script_path} finished with Exit Code: {exit_code} ({timestamp}) ---")
+
+        if exit_code == 0:
+            logger.info(f"Secondary script {script_path} completed successfully!")
+            secondary_succeeded = True
+        else:
+            logger.warning(f"Secondary script {script_path} failed on attempt {secondary_attempt} (Exit Code: {exit_code}).")
+
+            # Check if it's the last attempt
+            if secondary_attempt >= max_secondary_retries:
+                logger.error(f"Maximum retry limit ({max_secondary_retries}) reached for secondary script {script_path}. Giving up on this script.")
+                overall_success = False # Mark overall run as failed if a secondary script fails permanently
+            else:
+                # Wait before retrying this secondary script
+                logger.info(f"Waiting for {secondary_retry_delay_seconds} seconds before retrying {script_path}...")
+                try:
+                    time.sleep(secondary_retry_delay_seconds)
+                except KeyboardInterrupt:
+                    logger.warning("\nKeyboard interrupt received during secondary script wait. Stopping wrapper.")
+                    overall_success = False
+                    # Exit wrapper immediately
+                    logger.info("Exiting secondary script processing due to interruption.")
+                    logging.shutdown()
+                    sys.exit(1) # Exit wrapper immediately
+
+    # --- End Inner Retry Loop for Secondary Script ---
+
+logger.info("\n--- Finished execution of secondary programs ---")
+# ****************************************************************************
+# *** END SECONDARY PROGRAMS SECTION                       ***
+# ****************************************************************************
+
+
 logger.info("\n" + "="*30)
 if overall_success:
     logger.info(">>> Wrapper finished: All configured models processed successfully. <<<")
 else:
     logger.warning(">>> Wrapper finished: One or more models failed or were skipped. <<<")
 logger.info("="*30)
+
+
+
 
 logging.shutdown()
 sys.exit(0 if overall_success else 1) # Exit wrapper with 0 if all ok, 1 otherwise

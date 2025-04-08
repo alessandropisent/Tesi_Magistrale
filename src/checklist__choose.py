@@ -6,9 +6,9 @@ import pandas as pd
 
 if __name__ == "__main__":
     
-    TODO_MUN = [ OLBIA]
-    TODO_LLM = [OPENAI]
-    temperatures = [ 0.01, 0.2, 0.4,
+    TODO_MUN = [LUCCA, OLBIA]
+    TODO_LLM = [LLAMA]
+    temperatures = [0.0, 0.01, 0.2, 0.4,
                 0.5,0.6,0.8,1.0]
     
     #### OPEN_AI
@@ -83,8 +83,11 @@ if __name__ == "__main__":
             df_determine = pd.read_csv(f)
         
         
-        model_ids = ["meta-llama/Llama-3.1-8B-Instruct","meta-llama/Llama-3.2-3B-Instruct"]
-        model_folders = ["llama-3.1-8B","llama-3.2-3B"]
+        #model_ids = ["meta-llama/Llama-3.1-8B-Instruct","meta-llama/Llama-3.2-3B-Instruct"]
+        #model_folders = ["llama-3.1-8B","llama-3.2-3B"]
+        model_ids = ["mistralai/Mistral-7B-Instruct-v0.3"]
+        model_folders = ["Mistral.7B.Instruct-v0.3/"]
+        max_memory = {0: "13GB", 1: "23GB"}
         
         for model_id, model_folder in zip(model_ids,model_folders):
             
@@ -93,16 +96,16 @@ if __name__ == "__main__":
                 model_id,
                 torch_dtype=torch.bfloat16,
                 #quantization_config=quantization_config,
-                device_map= torch.device('cuda:1'),
+                #device_map= torch.device('cuda:1'),
                 
-                #device_map='auto',
+                max_memory=max_memory,
+                device_map='auto',
                 #use_flash_attention_2=True
             )
             tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
             
             
             compiler = ChecklistCompiler(llm=LLAMA,municipality=LUCCA,model=model_id)
-            temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
             
             for temp in temperatures:
                 
@@ -149,8 +152,12 @@ if __name__ == "__main__":
             df_determine = pd.read_csv(f)
         
         
-        model_ids = ["meta-llama/Llama-3.1-8B-Instruct","meta-llama/Llama-3.2-3B-Instruct"]
-        model_folders = ["llama-3.1-8B","llama-3.2-3B"]
+        #model_ids = ["meta-llama/Llama-3.1-8B-Instruct","meta-llama/Llama-3.2-3B-Instruct"]
+        #model_folders = ["llama-3.1-8B","llama-3.2-3B"]
+        
+        model_ids = ["mistralai/Mistral-7B-Instruct-v0.3"]
+        model_folders = ["Mistral.7B.Instruct-v0.3/"]
+        max_memory = {0: "13GB", 1: "23GB"}
         
         for model_id, model_folder in zip(model_ids,model_folders):
             
@@ -158,17 +165,17 @@ if __name__ == "__main__":
             model = AutoModelForCausalLM.from_pretrained(
                 model_id,
                 torch_dtype=torch.bfloat16,
-                device_map= torch.device('cuda:1'),
+                #device_map= torch.device('cuda:1'),
                 
+                max_memory=max_memory,
                 #quantization_config=quantization_config,
-                #device_map='auto',
+                device_map='auto',
                 #use_flash_attention_2=True
             )
             tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
             
             
             compiler = ChecklistCompiler(llm=LLAMA,municipality=OLBIA,model=model_id)
-            temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
             
             for temp in temperatures:
                 

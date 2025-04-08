@@ -1324,3 +1324,61 @@ NameError: name 'checklist_path' is not defined
 
 2025-04-08 16:48:19,783 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
 2025-04-08 16:48:19,787 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 16:48:19) ---
+2025-04-08 17:18:22,174 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 17:18:22,176 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 17:18:22,176 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 17:18:29,514 - CRITICAL - 
+============================================================
+2025-04-08 17:18:29,515 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 17:18:29) !!!
+2025-04-08 17:18:29,515 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 24.56 MiB is free. Process 1858871 has 7.35 GiB memory in use. Process 2264778 has 10.05 GiB memory in use. Including non-PyTorch memory, this process has 6.20 GiB memory in use. Of the allocated memory 5.70 GiB is allocated by PyTorch, and 62.58 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 17:18:29,515 - CRITICAL - ============================================================
+
+2025-04-08 17:18:29,623 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 17:18:29,627 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 17:18:29) ---
+2025-04-08 17:48:32,053 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 17:48:32,054 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 17:48:32,054 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 17:48:36,534 - CRITICAL - 
+============================================================
+2025-04-08 17:48:36,534 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-08 17:48:36) !!!
+2025-04-08 17:48:36,534 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 108.56 MiB is free. Process 1858871 has 7.38 GiB memory in use. Process 2282755 has 11.22 GiB memory in use. Including non-PyTorch memory, this process has 4.91 GiB memory in use. Of the allocated memory 4.47 GiB is allocated by PyTorch, and 13.55 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-08 17:48:36,534 - CRITICAL - ============================================================
+
+2025-04-08 17:48:36,644 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 17:48:36,752 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-08 17:48:36) ---
+2025-04-08 18:00:45,349 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 18:00:45,349 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 18:00:45,350 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 18:01:47,979 - INFO - Loading tokenizer...
+2025-04-08 18:01:48,386 - INFO - Model and tokenizer loaded.
+2025-04-08 18:01:48,387 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 18:01:48,387 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 18:01:48,387 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 18:01:48,389 - INFO - Setting up ChecklistCompiler...
+2025-04-08 18:01:48,389 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 18:01:48,407 - INFO - Current max GPU Temp: 58°C (Threshold: 88°C)
+2025-04-08 18:01:48,407 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 18:01:48,407 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 18:01:48,407 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 18:01:48,408 - INFO - Pipeline ready.
+2025-04-08 18:01:48,408 - INFO - Processing 3 determines for checklist generation...
+2025-04-08 18:11:34,749 - INFO - Done determina [0] det_00041_15-01-2025
+2025-04-08 18:16:30,644 - CRITICAL - 
+--- Keyboard Interrupt received. Stopping script. ---
+2025-04-08 18:16:30,657 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-08 18:16:36,404 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 18:16:36,405 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-08 18:16:36,406 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-08 18:17:31,158 - INFO - Loading tokenizer...
+2025-04-08 18:17:31,578 - INFO - Model and tokenizer loaded.
+2025-04-08 18:17:31,578 - INFO - --- Processing Municipality: Lucca ---
+2025-04-08 18:17:31,578 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-08 18:17:31,579 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-08 18:17:31,581 - INFO - Setting up ChecklistCompiler...
+2025-04-08 18:17:31,581 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-08 18:17:31,599 - INFO - Current max GPU Temp: 52°C (Threshold: 88°C)
+2025-04-08 18:17:31,599 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-08 18:17:31,599 - INFO - -- Processing Temperature: 0.0 --
+2025-04-08 18:17:31,599 - INFO - Creating/Updating text generation pipeline...
+2025-04-08 18:17:31,599 - INFO - Pipeline ready.
+2025-04-08 18:17:31,599 - INFO - Processing 3 determines for checklist generation...

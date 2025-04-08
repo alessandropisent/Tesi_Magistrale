@@ -11,24 +11,26 @@ if __name__ == "__main__":
     
     ## Multilingual model + 16K of context
     #model_id = "meta-llama/Llama-3.1-8B-Instruct"
-    model_id = "meta-llama/Llama-3.2-3B-Instruct"
+    #model_id = "meta-llama/Llama-3.2-3B-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
     #model_id = "meta-llama/Llama-3.1-70B-Instruct"
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+    
 
     # This is to the possiblity to not load the model and just test for errors
     if True:
 
         # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
-            bnb_4bit_use_double_quant=True
-        )
-
+        #quantization_config = BitsAndBytesConfig(
+        #    load_in_4bit=True,
+        #    bnb_4bit_compute_dtype=torch.float16,
+        #    bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
+        #    bnb_4bit_use_double_quant=True
+        #)
+        max_memory = {0: "13GB", 1: "23GB"}
         
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
@@ -37,7 +39,8 @@ if __name__ == "__main__":
             #device_map= torch.device('cuda:0'),
             
             device_map='auto',
-            quantization_config=quantization_config,
+            max_memory=max_memory,
+            #quantization_config=quantization_config,
             #use_flash_attention_2=True
         )
         tokenizer = AutoTokenizer.from_pretrained(model_id, device_map="auto")
@@ -81,7 +84,9 @@ if __name__ == "__main__":
                     num = df_determine["Numero Determina"].loc[i]
                     che_ass = df_determine["Checklist associata"].loc[i]
                     #sub_cartella = f"3.1.llama.8B.Instruct/{temp}/"
-                    sub_cartella = f"3.2.llama.3B.Instruct/{temp}/"
+                    #sub_cartella = f"3.2.llama.3B.Instruct/{temp}/"
+                    sub_cartella = f"Mistral.7B.Instruct-v0.3/{temp}/"
+                    
                     
                     
                     if temp == 0.0:
