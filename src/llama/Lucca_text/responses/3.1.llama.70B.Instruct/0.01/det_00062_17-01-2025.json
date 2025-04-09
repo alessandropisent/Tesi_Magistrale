@@ -95,7 +95,7 @@
       {
          "num": 5,
          "punto": "Nel caso di attivit\u00e0 inserite negli atti di programmazione Coerenza con: \n- DUP  e PIAO \n- Bilancio di Previsione se trattasi di DD con spesa; \n- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi \n- SITAT e altre banche dati)",
-         "LLM_Response": "### Risposta\n\nRISPOSTA GENERALE : SI",
+         "LLM_Response": "### Risposte\n\n1. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n2. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n3. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n4. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n5. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n6. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n7. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n\n### Note finali\nNessuna anomalia rilevata.",
          "Simple": "SI",
          "prompt": [
             {
@@ -164,7 +164,7 @@
       {
          "num": 8,
          "punto": "Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:\n- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)\n- obblighi di pubblicit\u00e0 ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023\n- obblighi di pubblicit\u00e0 ai sensi del Dlvo 36/2023, art. 28\nQualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO",
-         "LLM_Response": "RISPOSTA GENERALE : SI, [nessuna anomalia]",
+         "LLM_Response": "### Risposta:\n                RISPOSTA GENERALE : SI, [spiegazione sintetica se necessaria]",
          "Simple": "SI",
          "prompt": [
             {
@@ -187,8 +187,8 @@
       {
          "num": 9,
          "punto": "Rispetto normativa sulla tutela della riservatezza laddove rilevante",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE : NON PERTINENTE, La determina non contiene riferimenti espliciti alla normativa sulla tutela della riservatezza.",
+         "Simple": "NON PERTINENTE",
          "prompt": [
             {
                "role": "system",

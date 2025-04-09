@@ -609,3 +609,179 @@ Keyboard interrupt received during wait. Stopping wrapper.
 ==============================
 2025-04-09 15:50:45,900 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.1-70B-Instruct ---
 2025-04-09 15:50:45,900 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.1-70B-Instruct --model-folder 3.1.llama.70B.Instruct
+2025-04-09 17:04:50,466 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.1-70B-Instruct finished with Exit Code: 2 (2025-04-09 17:04:50) ---
+2025-04-09 17:04:50,466 - WARNING - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-09 17:04:50,466 - ERROR - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed with a non-memory error. Check logs.
+2025-04-09 17:04:50,466 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.1-70B-Instruct...
+2025-04-09 17:04:53,585 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-09 17:04:53,585 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-09 17:04:53,585 - INFO - WRAPPER - 
+==============================
+>>> Main Model Processing Complete <<<
+==============================
+2025-04-09 17:04:53,585 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:04:53,585 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:04:53,585 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:04:53,585 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:04:54,759 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:04:54) ---
+2025-04-09 17:08:20,962 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:08:20,962 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:08:20,962 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:08:20,962 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:10:18,682 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:10:18) ---
+2025-04-09 17:10:23,945 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:10:23,945 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:10:23,945 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:10:23,945 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:10:30,997 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: 1 (2025-04-09 17:10:30) ---
+2025-04-09 17:10:30,997 - WARNING - WRAPPER - Secondary script src/Olbia_LLama.py failed on attempt 1 (Exit Code: 1).
+2025-04-09 17:10:30,997 - INFO - WRAPPER - Waiting for 600 seconds before retrying src/Olbia_LLama.py...
+2025-04-09 17:10:53,067 - WARNING - WRAPPER - 
+Keyboard interrupt received during secondary script wait. Stopping wrapper.
+2025-04-09 17:10:53,067 - INFO - WRAPPER - Exiting secondary script processing due to interruption.
+2025-04-09 17:10:53,937 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:10:53,937 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:10:53,937 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:10:53,937 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:14:09,957 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:14:09) ---
+2025-04-09 17:14:33,228 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-09 17:14:33,228 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.1-70B-Instruct <<<
+==============================
+2025-04-09 17:14:33,228 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:14:33,228 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.1-70B-Instruct --model-folder 3.1.llama.70B.Instruct
+2025-04-09 17:15:53,864 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.1-70B-Instruct finished with Exit Code: 2 (2025-04-09 17:15:53) ---
+2025-04-09 17:15:53,871 - WARNING - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-09 17:15:53,871 - ERROR - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed with a non-memory error. Check logs.
+2025-04-09 17:15:53,872 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.1-70B-Instruct...
+2025-04-09 17:16:16,053 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-09 17:16:16,054 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-09 17:16:16,054 - INFO - WRAPPER - 
+==============================
+>>> Main Model Processing Complete <<<
+==============================
+2025-04-09 17:16:16,054 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:16:16,054 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:16:16,055 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:16:16,055 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:16:27,756 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:16:27) ---
+2025-04-09 17:17:19,171 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-09 17:17:19,171 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.1-70B-Instruct <<<
+==============================
+2025-04-09 17:17:19,171 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:17:19,171 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.1-70B-Instruct --model-folder 3.1.llama.70B.Instruct
+2025-04-09 17:18:34,626 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.1-70B-Instruct finished with Exit Code: 2 (2025-04-09 17:18:34) ---
+2025-04-09 17:18:34,633 - WARNING - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-09 17:18:34,633 - ERROR - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed with a non-memory error. Check logs.
+2025-04-09 17:18:34,633 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.1-70B-Instruct...
+2025-04-09 17:19:10,802 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-09 17:19:10,802 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-09 17:19:10,802 - INFO - WRAPPER - 
+==============================
+>>> Main Model Processing Complete <<<
+==============================
+2025-04-09 17:19:10,802 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:19:10,802 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:19:10,803 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:19:10,803 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:19:12,470 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:19:12) ---
+2025-04-09 17:19:21,545 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-09 17:19:21,545 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.1-70B-Instruct <<<
+==============================
+2025-04-09 17:19:21,545 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:19:21,545 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.1-70B-Instruct --model-folder 3.1.llama.70B.Instruct
+2025-04-09 17:20:33,046 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.1-70B-Instruct finished with Exit Code: 2 (2025-04-09 17:20:33) ---
+2025-04-09 17:20:33,046 - WARNING - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-09 17:20:33,046 - ERROR - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed with a non-memory error. Check logs.
+2025-04-09 17:20:33,046 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.1-70B-Instruct...
+2025-04-09 17:20:59,202 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-09 17:20:59,202 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-09 17:20:59,202 - INFO - WRAPPER - 
+==============================
+>>> Main Model Processing Complete <<<
+==============================
+2025-04-09 17:20:59,202 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:20:59,202 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:20:59,202 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:20:59,202 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:21:00,682 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:21:00) ---
+2025-04-09 17:21:01,621 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-09 17:21:01,621 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.1-70B-Instruct <<<
+==============================
+2025-04-09 17:21:01,621 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:21:01,621 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.1-70B-Instruct --model-folder 3.1.llama.70B.Instruct
+2025-04-09 17:22:09,038 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.1-70B-Instruct finished with Exit Code: 2 (2025-04-09 17:22:09) ---
+2025-04-09 17:22:09,040 - WARNING - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-09 17:22:09,040 - ERROR - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed with a non-memory error. Check logs.
+2025-04-09 17:22:09,040 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.1-70B-Instruct...
+2025-04-09 17:23:19,840 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-09 17:23:19,840 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-09 17:23:19,840 - INFO - WRAPPER - 
+==============================
+>>> Main Model Processing Complete <<<
+==============================
+2025-04-09 17:23:19,840 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:23:19,840 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:23:19,840 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:23:19,841 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:23:20,667 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:23:20) ---
+2025-04-09 17:23:24,752 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-09 17:23:24,752 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.1-70B-Instruct <<<
+==============================
+2025-04-09 17:23:24,752 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:23:24,752 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.1-70B-Instruct --model-folder 3.1.llama.70B.Instruct
+2025-04-09 17:34:47,850 - INFO - WRAPPER - --- Attempt #1 for Model meta-llama/Llama-3.1-70B-Instruct finished with Exit Code: 2 (2025-04-09 17:34:47) ---
+2025-04-09 17:34:47,851 - WARNING - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed on attempt 1 (Exit Code: 2).
+2025-04-09 17:34:47,851 - ERROR - WRAPPER - Model meta-llama/Llama-3.1-70B-Instruct failed with a non-memory error. Check logs.
+2025-04-09 17:34:47,851 - INFO - WRAPPER - Waiting for 30 minutes before retrying model meta-llama/Llama-3.1-70B-Instruct...
+2025-04-09 17:42:48,060 - WARNING - WRAPPER - 
+Keyboard interrupt received during wait. Stopping wrapper.
+2025-04-09 17:42:48,060 - WARNING - WRAPPER - Exiting model processing loop due to previous interruption or error.
+2025-04-09 17:42:48,060 - INFO - WRAPPER - 
+==============================
+>>> Main Model Processing Complete <<<
+==============================
+2025-04-09 17:42:48,060 - INFO - WRAPPER - 
+--- Starting execution of secondary programs ---
+2025-04-09 17:42:48,060 - INFO - WRAPPER - 
+>>> Processing Secondary Script: src/Olbia_LLama.py <<<
+2025-04-09 17:42:48,060 - INFO - WRAPPER - --- Attempt #1/50 for Secondary Script: src/Olbia_LLama.py ---
+2025-04-09 17:42:48,060 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/Olbia_LLama.py
+2025-04-09 17:43:10,060 - INFO - WRAPPER - --- Attempt #1 for src/Olbia_LLama.py finished with Exit Code: -1 (2025-04-09 17:43:10) ---
+2025-04-09 17:46:02,938 - INFO - WRAPPER - Wrapper started. Processing 2 model(s).
+2025-04-09 17:46:02,938 - INFO - WRAPPER - 
+==============================
+>>> Processing Model: meta-llama/Llama-3.1-70B-Instruct <<<
+==============================
+2025-04-09 17:46:02,939 - INFO - WRAPPER - --- Starting Attempt #1 for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:46:02,939 - INFO - WRAPPER - Running command: /home/pisale/llama/bin/python3 src/todo.py --model-id meta-llama/Llama-3.1-70B-Instruct --model-folder 3.1.llama.70B.Instruct

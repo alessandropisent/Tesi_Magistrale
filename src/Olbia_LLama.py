@@ -4,7 +4,29 @@ import torch
 import pandas as pd
 import sys
 from ChecklistCompiler import ChecklistCompiler, LLAMA, OLBIA
+from tqdm import tqdm
 
+class Done_object():
+    def __init__(self):
+        self.read()
+        pass
+    
+    def read(self):
+        with open("done.json","r",encoding="utf-8") as f:
+            done_dic = json.load(f)
+            self.done_list = done_dic["done"]
+    
+    def write(self):
+        with open("done.json","w",encoding="utf-8") as f:
+            done_dic = {"done":self.done_list}
+            json.dump(done_dic,f,indent=3)
+    
+    def append(self, obj_done):
+        if obj_done not in self.done_list:
+            self.done_list.append(obj_done)
+    
+    def already_done(self, obj_done):
+        return obj_done in self.done_list
 
 
 if __name__ == "__main__":
@@ -21,6 +43,7 @@ if __name__ == "__main__":
     #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
     temperatures = [0.4,0.5,0.6,0.8,1.0]
     
+    done_writer = Done_object()
 
     # This is to the possiblity to not load the model and just test for errors
     try:
@@ -32,7 +55,7 @@ if __name__ == "__main__":
         #    bnb_4bit_quant_type="nf4",  # nf4 is often recommended for good accuracy/speed trade-off
         #    bnb_4bit_use_double_quant=True
         #)
-        max_memory = {0: "13GB", 1: "23GB"}
+        max_memory = {0: "23GB", 1: "23GB"}
         
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
@@ -63,7 +86,19 @@ if __name__ == "__main__":
         
         
       
-        for temp in temperatures:
+        for temp in tqdm(temperatures):
+            
+                            
+                
+            obj_done_model = {"model":model_id,
+                              "municipality":OLBIA,
+                               "temp":temp}
+            
+            done_writer.read()
+            
+            if done_writer.already_done(obj_done_model):
+                continue
+            
             for i, _ in df_determine.iterrows():
                    
                 num = df_determine["Numero Determina"].loc[i]
@@ -105,6 +140,8 @@ if __name__ == "__main__":
                                             checklists=checklists,
                                             sub_cartella=sub_cartella)
                 print(f"Done determina [{i}] {num} - {che_ass} - temp:{temp}")
+                done_writer.append(obj_done_model)
+                done_writer.write()
     
     except Exception as e:
         sys.exit(1) # General failure exit code

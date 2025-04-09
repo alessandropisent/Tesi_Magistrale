@@ -1,7 +1,7 @@
 import json
-Municipalities = ["Olbia", "Lucca"]
+Municipalities = ["Lucca"]
 temps = [0.0, 0.01, 0.2, 0.4, 0.5, 0.6, 0.8, 1.0]
-models = ["meta-llama/Llama-3.3-70B-Instruct"]
+models = ["meta-llama/Llama-3.3-70B-Instruct","meta-llama/Llama-3.1-70B-Instruct"]
 
 {"model":"","municipality":"","temp":""}
 
@@ -13,5 +13,5 @@ for c in Municipalities:
         
             l.append({"model":m,"municipality":c,"temp":t})
 
-with open("done_1.json","w",encoding="utf-8") as f:
+with open("done.json","w",encoding="utf-8") as f:
     json.dump({"done":l},f,indent=3)

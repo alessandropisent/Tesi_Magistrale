@@ -125,10 +125,11 @@ class Done_object():
     def write(self):
         with open("done.json","w",encoding="utf-8") as f:
             done_dic = {"done":self.done_list}
-            json.dump(done_dic,f)
+            json.dump(done_dic,f,indent=3)
     
     def append(self, obj_done):
-        self.done_list.append(obj_done)
+        if obj_done not in self.done_list:
+            self.done_list.append(obj_done)
     
     def already_done(self, obj_done):
         return obj_done in self.done_list
@@ -146,7 +147,7 @@ def main_logic(model_id: str, model_folder: str):
     #model_ids = ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.1-70B-Instruct"]
     #model_folders = ["3.3.llama.70B.Instruct", "3.1.llama.70B.Instruct"]
     need_quant = True # Set to False to disable quantization
-    max_gpu_memory_per_device = "23.5GB" # Adjust as needed
+    max_gpu_memory_per_device = "23.60 GB" # Adjust as needed
     MAX_GPU_TEMP_THRESHOLD = 88
     COOL_DOWN_WAIT_SECONDS = 2*60 
     
@@ -243,6 +244,7 @@ def main_logic(model_id: str, model_folder: str):
                 done_writer.read()
                 
                 if done_writer.already_done(obj_done_model):
+                    main_pbar.update(1)
                     logger.info(f"--- SKIPPEND {temp} - ALREADY DONE ---") # File only
                     continue
                 
@@ -319,6 +321,9 @@ def main_logic(model_id: str, model_folder: str):
                         temperature=temp, # Pass temp if method needs it
                     )
                     logger.info(f"Done determina [{i}] {num}") # Can be too verbose
+                
+                done_writer.append(obj_done_model)
+                done_writer.write()
 
                 logger.info(f"Processing 'choose_checklist' for temp {temp}...")
                 compiler.choose_checklist(
@@ -331,6 +336,7 @@ def main_logic(model_id: str, model_folder: str):
 
                 # Update main progress bar after finishing one temp setting for a municipality/model
                 main_pbar.update(1)
+                done_writer.append(obj_done_model)
                 done_writer.write()
                 
 

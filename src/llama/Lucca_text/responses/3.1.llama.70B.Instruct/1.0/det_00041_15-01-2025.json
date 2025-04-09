@@ -3,7 +3,7 @@
       {
          "num": 1,
          "punto": "Natura del contratto: lettera commerciale, contratto",
-         "LLM_Response": "SI",
+         "LLM_Response": "SI, \u00e8 presente la specifica natura del contratto nella determina (lettera commerciale, contratto)",
          "Simple": "SI",
          "prompt": [
             {
@@ -17,7 +17,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -26,7 +26,7 @@
       {
          "num": 2,
          "punto": "Riferimenti alla DD di affidamento e alla normativa",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "### Istruzioni\n\nControlla se \u00e8 presente il responsabile unico del progetto\n\n\n                ### Rispondi al punto 3:\n                Responsabile Unico del Progetto (RUP)\n                \n                ### Output:\n                RISPOSTA GENERALE : [SI, NO, NON PERTINENTE], [spiegazione sintetica se necessaria]",
          "Simple": "SI",
          "prompt": [
             {
@@ -40,7 +40,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -49,8 +49,8 @@
       {
          "num": 3,
          "punto": "CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell\u2019art. 50 sottolinea l\u2019importanza del possesso di 'documentate esperienze pregresse idonee all\u2019esecuzione delle prestazioni contrattuali'\nArt. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
-         "LLM_Response": "RISPOSTA: [SI]",
-         "Simple": "SI",
+         "LLM_Response": "Risposta: [NO, ANOMALIA RILEVATA: LIEVE].",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -63,7 +63,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -72,7 +72,7 @@
       {
          "num": 5,
          "punto": "Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)",
-         "LLM_Response": "SI, sono specificati.",
+         "LLM_Response": "SI, sono specificati nell'art. 5 del testo della determina che la spesa \u00e8 esigibile nel 2025 e che la spesa \u00e8 soggetta agli obblighi di tracciabilit\u00e0 dei flussi finanziari, relativi ai contratti pubblici di lavori, forniture e servizi ai sensi dell\u2019art. 3 della L. n. 136/2010 (CIG derivato \u00e8: B4892781A1).",
          "Simple": "SI",
          "prompt": [
             {
@@ -86,7 +86,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -95,8 +95,8 @@
       {
          "num": 6,
          "punto": "Termini di conclusione della prestazione/lavori",
-         "LLM_Response": "SI",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE : [NON PERTINENTE]",
+         "Simple": "NON PERTINENTE",
          "prompt": [
             {
                "role": "system",
@@ -109,7 +109,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -118,8 +118,8 @@
       {
          "num": 7,
          "punto": "Specificare se sono fondi soggetti a rendicontazione",
-         "LLM_Response": "SI, i fondi sono soggetti a rendicontazione.",
-         "Simple": "SI",
+         "LLM_Response": "### Istruzioni\n\nIl punto 7 prevede che siano forniti fondi specifici per i servizi di CSP e CSE per un importo massimo stimato di \u20ac 39.999,99 IVA esclusa. Tuttavia, per l'intervento P.T. n. 48/2023 \"Riqualificazione aree esterne scuole\" CUI: L00378210462202300048 e CUP: J62B23001870004, il quadro economico prevede una spesa di \u20ac 4.918,90 per il servizio di architettura e ingegneria di coordinamento della sicurezza in fase di esecuzione (CSE), con un ribasso del 20% di \u20ac 983,78, per un totale di \u20ac 3.935,12. Inoltre, sono previsti oneri previdenziali del 4% di \u20ac 157,40 e IVA del 22% di \u20ac 900,36, per un totale di \u20ac 1.057,77. Pertanto, la spesa complessiva \u00e8 di \u20ac 4.992,89. La spesa \u00e8 esigibile nel 2025 e soggetta a tracciabilit\u00e0. La risposta \u00e8 pertanto SI.",
+         "Simple": "Not found",
          "prompt": [
             {
                "role": "system",
@@ -132,7 +132,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -141,7 +141,7 @@
       {
          "num": 8,
          "punto": "Specificare la normativa sulla privacy per i dati personali",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "**SI**",
          "Simple": "SI",
          "prompt": [
             {
@@ -155,7 +155,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -178,7 +178,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -187,7 +187,7 @@
       {
          "num": 10,
          "punto": "Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicit\u00e0 su Banca Dati Nazionale/PCT ANAC ",
-         "LLM_Response": "SI",
+         "LLM_Response": "Risposta al punto 10:\n SI, NO, NON PERTINENTE : Il punto della checklist e relative istruzioni non sono chiaramente rispettate.",
          "Simple": "SI",
          "prompt": [
             {
@@ -201,7 +201,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 1.0,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",

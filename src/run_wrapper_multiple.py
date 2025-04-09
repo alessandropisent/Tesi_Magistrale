@@ -37,15 +37,10 @@ model_configs = [
     # {"id": "meta-llama/Llama-3.1-8B-Instruct", "folder": "3.1.llama.8B.Instruct"},
 ]
 
-retry_delay_seconds = 3600/2 # 1 hour retry delay on failure for a specific model
+retry_delay_seconds = 1*60 # 1 min retry delay on failure for a specific model
 max_retries_per_model = 100 # Max attempts for a single model before skipping it (0 for infinite)
 # --- End Configuration ---
 
-# --- Secondary Program Configuration ---
-secondary_scripts_to_run = ["src/Olbia_LLama.py", "src/checklist_choose.py"] # List of secondary scripts
-max_secondary_retries = 50 # Max attempts for each secondary script
-secondary_retry_delay_seconds = 10*60 # Short delay between secondary script retries
-# --- End Configuration ---
 
 
 
@@ -132,6 +127,12 @@ for model_config in model_configs:
 # --- End Outer Model Loop ---
 
 logger.info(f"\n{'='*30}\n>>> Main Model Processing Complete <<<\n{'='*30}")
+
+# --- Secondary Program Configuration ---
+secondary_scripts_to_run = ["src/Olbia_LLama.py", "src/checklist_choose.py"] # List of secondary scripts
+max_secondary_retries = 50 # Max attempts for each secondary script
+secondary_retry_delay_seconds = 10*60 # Short delay between secondary script retries
+# --- End Configuration ---
 
 # ****************************************************************************
 # *** RUN SECONDARY PROGRAMS SECTION                      ***

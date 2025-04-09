@@ -17,7 +17,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -26,7 +26,7 @@
       {
          "num": 2,
          "punto": "Articolazione dell\u2019atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorit\u00e0 e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)",
-         "LLM_Response": "SI",
+         "LLM_Response": "RISPOSTA GENERALE : SI",
          "Simple": "SI",
          "prompt": [
             {
@@ -40,7 +40,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -49,7 +49,7 @@
       {
          "num": 3,
          "punto": "Affidabilit\u00e0 riferimenti normativi di carattere generale es. TUEL ",
-         "LLM_Response": "SI, [nessuna anomalia]",
+         "LLM_Response": "[SI, NESSUNA ANOMALIA]",
          "Simple": "SI",
          "prompt": [
             {
@@ -63,7 +63,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -72,7 +72,7 @@
       {
          "num": 4,
          "punto": "Affidabilit\u00e0 riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "SI, sono presenti i riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente.",
          "Simple": "SI",
          "prompt": [
             {
@@ -86,7 +86,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -95,7 +95,7 @@
       {
          "num": 5,
          "punto": "Nel caso di attivit\u00e0 inserite negli atti di programmazione Coerenza con: \n- DUP  e PIAO \n- Bilancio di Previsione se trattasi di DD con spesa; \n- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi \n- SITAT e altre banche dati)",
-         "LLM_Response": "### Risposte\n\n#### 1. L'atto \u00e8 conforme alla legge e al regolamento sull'ordinamento degli uffici e dei servizi?\n\nRISPOSTA: SI\n\n#### 2. L'atto \u00e8 conforme allo Statuto Comunale e al decreto sindacale n. 35/2024?\n\nRISPOSTA: SI\n\n#### 3. L'atto \u00e8 conforme all'art. 107 del D. Lgs. n. 267 del 18 agosto 2000 e all'art. 4 del D.Lgs. n. 165/2001?\n\nRISPOSTA: SI\n\n#### 4. L'atto \u00e8 conforme alla D.C.C. n. 10 del 07/01/2025 di approvazione del Bilancio di Previsione Armonizzato 2025/2027?\n\nRISPOSTA: SI\n\n#### 5. L'atto \u00e8 conforme alle attivit\u00e0 di programmazione Coerenza con DUP e PIAO, Bilancio di Previsione, cronoprogramma, SITAT e altre banche dati?\n\nRISPOSTA: SI\n\n#### 6. L'atto \u00e8 conforme all'art. 6-bis della L. n. 241/1990, in merito al conflitto di interessi del responsabile del procedimento e del Dirigente procedente?\n\nRISPOSTA: SI\n\n#### 7. L'atto \u00e8 conforme ai termini di ricorso al T.A.R. della Regione Toscana o per via straordinaria al Capo dello Stato?\n\nRISPOSTA: SI\n\n### Note finali\nNessuna.",
+         "LLM_Response": "### Risposte\n\n1. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA] Il testo della determina cita espressamente l'art. 107 del D. Lgs. n. 267 del 18 agosto 2000, che tratta della gestione degli uffici e dei servizi.\n2. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA] Il testo della determina cita espressamente l'art. 4 del D.Lgs. n. 165/2001, che tratta della gestione degli uffici e dei servizi.\n3. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA] Il testo della determina cita espressamente lo Statuto Comunale, che \u00e8 il documento che regola l'organizzazione e il funzionamento del Comune.\n4. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA] Il testo della determina cita espressamente il decreto sindacale n. 35/2024, che \u00e8 un atto amministrativo che regola l'organizzazione e il funzionamento del Comune.\n5. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA] Il testo della determina cita espressamente il vigente \"Regolamento sull'Ordinamento degli Uffici e dei Servizi\", che \u00e8 un documento che regola l'organizzazione e il funzionamento degli uffici e dei servizi del Comune.\n6. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA] Il testo della determina cita espressamente la D.C.C. n. 10 del 07/01/2025 di approvazione del Bilancio di Previsione Armonizzato 2025/2027, che \u00e8 un atto amministrativo che regola la gestione finanziaria del Comune.\n7. **SI**: Il punto della checklist e relative istruzioni sono rispett",
          "Simple": "SI",
          "prompt": [
             {
@@ -109,7 +109,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -118,7 +118,7 @@
       {
          "num": 6,
          "punto": "Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "SI, nella determina \u00e8 esplicitamente indicata la motivazione per l'impegno di spesa, che include la descrizione dei presupposti di fatto e delle ragioni giuridiche che sostengono la decisione.",
          "Simple": "SI",
          "prompt": [
             {
@@ -132,7 +132,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -141,7 +141,7 @@
       {
          "num": 7,
          "punto": "1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se \u00e8 la EQ responsabile del provvedimento (delega di firma) indicare l\u2019attribuzione/delega del Dirigente\n2)  indicare  RUP delegato per fase",
-         "LLM_Response": "### Risposta:\n1. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]\n2. **SI**: Il punto della checklist e relative istruzioni sono rispettate [NESSUNA ANOMALIA]",
+         "LLM_Response": "7. di dare atto che, avverso il presente provvedimento \u00e8 possibile ricorrere al T.A.R. della Regione Toscana, o per via straordinaria al Capo dello Stato, nei termini rispettivamente di 60 e 120 giorni ai sensi di legge.\nRISPOSTA: SI",
          "Simple": "SI",
          "prompt": [
             {
@@ -155,7 +155,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -164,8 +164,8 @@
       {
          "num": 8,
          "punto": "Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:\n- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)\n- obblighi di pubblicit\u00e0 ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023\n- obblighi di pubblicit\u00e0 ai sensi del Dlvo 36/2023, art. 28\nQualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
-         "Simple": "SI",
+         "LLM_Response": "1. Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:\n- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)\n- obblighi di pubblicit\u00e0 ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023\n- obblighi di pubblicit\u00e0 ai sensi del Dlvo 36/2023, art. 28\nQualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO\nRISPOSTA: NO.",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -178,7 +178,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -187,8 +187,8 @@
       {
          "num": 9,
          "punto": "Rispetto normativa sulla tutela della riservatezza laddove rilevante",
-         "LLM_Response": "RISPOSTA GENERALE : NON PERTINENTE",
-         "Simple": "NON PERTINENTE",
+         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "Simple": "SI",
          "prompt": [
             {
                "role": "system",
@@ -201,7 +201,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -210,7 +210,7 @@
       {
          "num": 10,
          "punto": "Rispetto dei tempi e dei termini del procedimento",
-         "LLM_Response": "SI",
+         "LLM_Response": "SI.",
          "Simple": "SI",
          "prompt": [
             {
@@ -224,7 +224,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -233,7 +233,7 @@
       {
          "num": 11,
          "punto": "Altre annotazioni/criticit\u00e0 in merito: a. possibilit\u00e0 di semplificare\nb. possibilit\u00e0 di digitalizzare\nc. fare un focus specifico\nd. pari opportunit\u00e0\ne. accesso",
-         "LLM_Response": "RISPOSTA GENERALE : [SI]",
+         "LLM_Response": "Risposta generale: [SI, NO, NON PERTINENTE], [spiegazione sintetica se necessaria]",
          "Simple": "SI",
          "prompt": [
             {
@@ -247,7 +247,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Determine",
          "determina": "det_00062_17-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",

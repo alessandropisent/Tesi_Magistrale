@@ -14,8 +14,8 @@ if __name__ == "__main__":
     #model_id = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
-    model_id = "meta-llama/Llama-3.1-70B-Instruct"
-    #model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+    #model_id = "meta-llama/Llama-3.1-70B-Instruct"
+    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
     
     #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
     temperatures = [0.01,0.4,0.5,0.6,0.8,1.0]

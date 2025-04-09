@@ -3,7 +3,7 @@
       {
          "num": 1,
          "punto": "Natura del contratto: lettera commerciale, contratto",
-         "LLM_Response": "SI",
+         "LLM_Response": "RISPOSTA GENERALE : SI",
          "Simple": "SI",
          "prompt": [
             {
@@ -17,7 +17,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -40,7 +40,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -49,7 +49,7 @@
       {
          "num": 3,
          "punto": "CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell\u2019art. 50 sottolinea l\u2019importanza del possesso di 'documentate esperienze pregresse idonee all\u2019esecuzione delle prestazioni contrattuali'\nArt. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
-         "LLM_Response": "RISPOSTA: [SI]",
+         "LLM_Response": "RISPOSTA GENERALE: [SI], La determina rispetta i criteri di selezione dell'operatore economico in base a quanto previsto dall'art. 50 del Dlvo 36/2023 e dal Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie.",
          "Simple": "SI",
          "prompt": [
             {
@@ -63,7 +63,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -72,7 +72,7 @@
       {
          "num": 5,
          "punto": "Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)",
-         "LLM_Response": "SI, sono specificati.",
+         "LLM_Response": "RISPOSTA GENERALE: SI, [nessuna anomalia]\nSpiegazione sintetica: La determina riporta che la spesa \u00e8 esigibile nel 2025 e che la spesa \u00e8 soggetta agli obblighi di tracciabilit\u00e0 dei flussi finanziari, relativi ai contratti pubblici di lavori, forniture e servizi ai sensi dell\u2019art. 3 della L. n. 136/2010.",
          "Simple": "SI",
          "prompt": [
             {
@@ -86,7 +86,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -95,7 +95,7 @@
       {
          "num": 6,
          "punto": "Termini di conclusione della prestazione/lavori",
-         "LLM_Response": "SI",
+         "LLM_Response": "RISPOSTA GENERALE : SI, NESSUNA ANOMALIA",
          "Simple": "SI",
          "prompt": [
             {
@@ -109,7 +109,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -118,7 +118,7 @@
       {
          "num": 7,
          "punto": "Specificare se sono fondi soggetti a rendicontazione",
-         "LLM_Response": "SI, i fondi sono soggetti a rendicontazione.",
+         "LLM_Response": "### Rispondi al punto 7:\nSI, sono specificati i fondi soggetti a rendicontazione.",
          "Simple": "SI",
          "prompt": [
             {
@@ -132,7 +132,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -141,7 +141,7 @@
       {
          "num": 8,
          "punto": "Specificare la normativa sulla privacy per i dati personali",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "SI, La normativa sulla privacy per i dati personali \u00e8 rispettata.",
          "Simple": "SI",
          "prompt": [
             {
@@ -155,7 +155,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -164,7 +164,7 @@
       {
          "num": 9,
          "punto": "Richiamato il codice di comportamento dei dipendenti ",
-         "LLM_Response": "SI",
+         "LLM_Response": "Risposta al punto 1:\nSI\n\nIl dirigente ha precisato di non trovarsi in situazione di conflitto di interesse, anche potenziale, ai sensi dell'art. 6-bis della L. n. 241/1990.\n\nRisposta al punto 2:\nSI\n\nLa determinazione dirigenziale contiene tutte le informazioni necessarie relative all'accordo quadro, comprese le informazioni sull'operatore economico e l'importo massimo stimato.\n\nRisposta al punto 3:\nSI\n\nLa determinazione dirigenziale contiene la descrizione dettagliata dei servizi di architettura e ingegneria relativi all'intervento \"Riqualificazione aree esterne scuole\".\n\nRisposta al punto 4:\nSI\n\nLa determinazione dirigenziale contiene il quadro economico dei servizi di architettura e ingegneria relativi all'intervento \"Riqualificazione aree esterne scuole\".\n\nRisposta al punto 5:\nSI\n\nLa determinazione dirigenziale contiene l'approvazione della spesa relativa all'Ordine di esecuzione n. 7 e la relativa spesa \u00e8 finanziata nel rispetto del bilancio di previsione 2025-2027 approvato con la delibera del Consiglio comunale n. 10 del 07/01/2025.\n\nRisposta al punto 6:\nSI\n\nLa determinazione dirigenziale contiene le informazioni relative all'operatore economico assegnatario dell'accordo quadro e al responsabile unico del progetto (RUP).\n\nRisposta al punto 7:\nSI\n\nLa determinazione dirigenziale contiene le dichiarazioni del Dirigente e del RUP rese rispettivamente in ordine alla assenza di condanne penali secondo l'art. 35-bis del D.Lgs. n. 165/2001 e in ordine alla insussistenza del conflitto di interessi secondo l'art. 6-bis della L. n. 241/1990, come modificato dalla L. n. 190/2012, e all'art. 16 del D.Lgs n. 36/202",
          "Simple": "SI",
          "prompt": [
             {
@@ -178,7 +178,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",
@@ -201,7 +201,7 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.5,
+         "temperature": 0.8,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
          "model": "meta-llama/Llama-3.1-70B-Instruct",

@@ -159,7 +159,7 @@ if __name__ == "__main__":
             
             model_ids = ["mistralai/Mistral-7B-Instruct-v0.3"]
             model_folders = ["Mistral.7B.Instruct-v0.3/"]
-            max_memory = {0: "13GB", 1: "23GB"}
+            max_memory = {0: "23GB", 1: "23GB"}
             
             for model_id, model_folder in zip(model_ids,model_folders):
                 
