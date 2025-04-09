@@ -112,17 +112,41 @@ def get_nvidia_gpu_temp():
         return None
 # --- End GPU Temp Function ---
 
+class Done_object():
+    def __init__(self):
+        self.read()
+        pass
+    
+    def read(self):
+        with open("done.json","r",encoding="utf-8") as f:
+            done_dic = json.load(f)
+            self.done_list = done_dic["done"]
+    
+    def write(self):
+        with open("done.json","w",encoding="utf-8") as f:
+            done_dic = {"done":self.done_list}
+            json.dump(done_dic,f)
+    
+    def append(self, obj_done):
+        self.done_list.append(obj_done)
+    
+    def already_done(self, obj_done):
+        return obj_done in self.done_list
+    
+
+
 def main_logic(model_id: str, model_folder: str):
     """
     Contains the core task logic for a single run attempt.
     """
-
+    done_writer = Done_object()
+        
     # --- Configuration --- (Consider moving to command-line args or config file later)
     temperatures = [0.0, 0.01, 0.2, 0.4, 0.5, 0.6, 0.8, 1.0]
     #model_ids = ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.1-70B-Instruct"]
     #model_folders = ["3.3.llama.70B.Instruct", "3.1.llama.70B.Instruct"]
     need_quant = True # Set to False to disable quantization
-    max_gpu_memory_per_device = "23GB" # Adjust as needed
+    max_gpu_memory_per_device = "23.5GB" # Adjust as needed
     MAX_GPU_TEMP_THRESHOLD = 88
     COOL_DOWN_WAIT_SECONDS = 2*60 
     
@@ -212,6 +236,18 @@ def main_logic(model_id: str, model_folder: str):
             for temp in temperatures:
                 main_pbar.set_description(f"{model_folder[:10]}.. M:{municipality} T:{temp}")
                 
+                obj_done_model = {"model":model_id,
+                                  "municipality":municipality,
+                                  "temp":temp}
+                
+                done_writer.read()
+                
+                if done_writer.already_done(obj_done_model):
+                    logger.info(f"--- SKIPPEND {temp} - ALREADY DONE ---") # File only
+                    continue
+                
+                
+                
                 # --- <<< GPU Temperature Check Loop (Moved Here) >>> ---
                 logger.info(f"--- Checking GPU temperature before starting temp {temp} ---") # File only
                 while True:
@@ -295,6 +331,8 @@ def main_logic(model_id: str, model_folder: str):
 
                 # Update main progress bar after finishing one temp setting for a municipality/model
                 main_pbar.update(1)
+                done_writer.write()
+                
 
             # --- Cleanup after finishing temperatures for a municipality ---
             logger.info(f"Finished all temperatures for {municipality}. Cleaning up...")

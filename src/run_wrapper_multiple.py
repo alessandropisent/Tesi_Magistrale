@@ -31,8 +31,8 @@ script_to_run = "src/todo.py" # Script modified to accept args
 
 # --- Define Models to Process ---
 model_configs = [
-    {"id": "meta-llama/Llama-3.3-70B-Instruct", "folder": "3.3.llama.70B.Instruct"},
     {"id": "meta-llama/Llama-3.1-70B-Instruct", "folder": "3.1.llama.70B.Instruct"},
+    {"id": "meta-llama/Llama-3.3-70B-Instruct", "folder": "3.3.llama.70B.Instruct"},
     # Add more models here as needed
     # {"id": "meta-llama/Llama-3.1-8B-Instruct", "folder": "3.1.llama.8B.Instruct"},
 ]
@@ -42,7 +42,7 @@ max_retries_per_model = 100 # Max attempts for a single model before skipping it
 # --- End Configuration ---
 
 # --- Secondary Program Configuration ---
-secondary_scripts_to_run = ["src/Olbia_LLama.py", "src/hecklist_choose.py"] # List of secondary scripts
+secondary_scripts_to_run = ["src/Olbia_LLama.py", "src/checklist_choose.py"] # List of secondary scripts
 max_secondary_retries = 50 # Max attempts for each secondary script
 secondary_retry_delay_seconds = 10*60 # Short delay between secondary script retries
 # --- End Configuration ---

@@ -3,7 +3,7 @@
       {
          "num": 1,
          "punto": "Natura del contratto: lettera commerciale, contratto",
-         "LLM_Response": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: SI \nLa determina specifica che il contratto di accordo quadro \u00e8 stato stipulato mediante scambio di corrispondenza commerciale, tramite posta elettronica certificata, ai sensi dell\u2019art. 18, co. 1, del D.Lgs. n. 36/2023.",
          "Simple": "SI",
          "prompt": [
             {
@@ -20,14 +20,14 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 2,
          "punto": "Riferimenti alla DD di affidamento e alla normativa",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
-         "Simple": "SI",
+         "LLM_Response": "Risposta al punto 2: \nLa determina dirigenziale n. 41 del 15/01/2025 fa riferimento alla determinazione dirigenziale n. 2110 del 21/09/2023 per l'assegnazione dell'accordo quadro per lo svolgimento dei \"Servizi di CSP e CSE relativo ai lavori di realizzazione o manutenzione di infrastrutture per la mobilit\u00e0 e interventi sul paesaggio, l'ambiente e la naturalizzazione nel Comune di Lucca\". Inoltre, si fa riferimento al contratto di accordo quadro rep. n. 488 del 29/09/2024 stipulato con lo Studio di ingegneria Preti e Scatena. \nPertanto, la risposta \u00e8: **SI**.",
+         "Simple": "Not found",
          "prompt": [
             {
                "role": "system",
@@ -43,13 +43,13 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 3,
          "punto": "CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell\u2019art. 50 sottolinea l\u2019importanza del possesso di 'documentate esperienze pregresse idonee all\u2019esecuzione delle prestazioni contrattuali'\nArt. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
-         "LLM_Response": "RISPOSTA: SI",
+         "LLM_Response": "RISPOSTA GENERALE: SI \n\nLa determina in esame rispetta i criteri di selezione dell'operatore economico, in quanto menziona l'accordo quadro per lo svolgimento dei \"Servizi di CSP e CSE relativo ai lavori di realizzazione o manutenzione di infrastrutture per la mobilit\u00e0 e interventi sul paesaggio, l'ambiente e la naturalizzazione nel Comune di Lucca\" con un unico operatore, ai sensi dell'art. 59, co. 1 e 3, del D.lgs. n. 36/2023. Inoltre, il contratto di accordo quadro \u00e8 stato stipulato mediante scambio di corrispondenza commerciale, tramite posta elettronica certificata, ai sensi dell'art. 18, co. 1, del D.Lgs. n. 36/2023. Pertanto, il punto della checklist relativo ai criteri di selezione dell'operatore economico \u00e8 rispettato.",
          "Simple": "SI",
          "prompt": [
             {
@@ -66,14 +66,14 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 5,
          "punto": "Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)",
-         "LLM_Response": "SI, i tempi di pagamento sono specificati.",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: NO \nLa determina non specifica i tempi di pagamento fattura.",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -89,14 +89,14 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 6,
          "punto": "Termini di conclusione della prestazione/lavori",
-         "LLM_Response": "SI",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: NO \nLa determina non specifica i termini di conclusione della prestazione/lavori. Pertanto, non \u00e8 possibile verificare se i termini di conclusione siano stati rispettati o meno. \n\nNota: La mancanza di specificazione dei termini di conclusione della prestazione/lavori potrebbe essere considerata un'anomalia lieve, in quanto non incide direttamente sulla regolarit\u00e0 amministrativa dell'atto, ma potrebbe comportare difficolt\u00e0 nella gestione e nel controllo della prestazione/lavori.",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -112,13 +112,13 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 7,
          "punto": "Specificare se sono fondi soggetti a rendicontazione",
-         "LLM_Response": "SI, i fondi sono soggetti a rendicontazione.",
+         "LLM_Response": "RISPOSTA GENERALE: SI \n\nLa determina specifica che la spesa \u00e8 soggetta agli obblighi di tracciabilit\u00e0 dei flussi finanziari, relativi ai contratti pubblici di lavori, forniture e servizi ai sensi dell\u2019art. 3 della L. n. 136/2010. Inoltre, la determina menziona che il CIG derivato \u00e8 B4892781A1, il che indica che i fondi sono soggetti a rendicontazione. Pertanto, il punto della checklist \u00e8 rispettato.",
          "Simple": "SI",
          "prompt": [
             {
@@ -135,14 +135,14 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 8,
          "punto": "Specificare la normativa sulla privacy per i dati personali",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: NO \nLa determina non menziona esplicitamente la normativa sulla privacy per i dati personali, pertanto non \u00e8 possibile verificare se la normativa sulla privacy sia stata rispettata.",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -158,13 +158,13 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 9,
          "punto": "Richiamato il codice di comportamento dei dipendenti ",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "Risposta generale: SI \n\nNota: La determina fornisce informazioni sufficienti per verificare il rispetto del codice di comportamento dei dipendenti.",
          "Simple": "SI",
          "prompt": [
             {
@@ -181,13 +181,13 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 10,
          "punto": "Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicit\u00e0 su Banca Dati Nazionale/PCT ANAC ",
-         "LLM_Response": "SI",
+         "LLM_Response": "Risposta: \n1. **SI**: La determina \u00e8 stata emessa dal Dirigente del Settore Dipartimentale 05 \u201cLavori pubblici e traffico\u201d come da incarico conferitole con decreto del Sindaco.\n2. **SI**: La determina contiene tutte le informazioni necessarie, come l'oggetto, il CIG, il CUP, e l'importo dell'intervento.\n3. **SI**: Il Dirigente ha dichiarato di non trovarsi in situazione di conflitto di interesse.\n4. **SI**: La determina \u00e8 stata emessa in conformit\u00e0 al combinato disposto del D.M. 17/06/2016 e dall\u2019allegato I.13 del D.Lgs. n. 36/2023.\n5. **SI**: La spesa preventivata \u00e8 stata approvata nel rispetto del bilancio di previsione 2025-2027.\n6. **SI**: Il responsabile unico del progetto (RUP) \u00e8 stato nominato.\n7. **SI**: Il direttore dell\u2019esecuzione (DEC) dei servizi di architettura e ingegneria \u00e8 stato nominato.\n8. **SI**: Le dichiarazioni del Dirigente e del RUP sono state rese.\n9. **SI**: La materia oggetto della presente determinazione rientra nella giurisdizione del Giudice ordinario.\n10. **SI**: La piattaforma di e-procurement \u00e8 stata utilizzata.\n\nNote finali: La determina sembra essere completa e conforme alle normative vigenti. Tuttavia, \u00e8 importante verificare ulteriormente la completezza e la correttezza delle informazioni fornite.",
          "Simple": "SI",
          "prompt": [
             {
@@ -204,7 +204,7 @@
          "temperature": 0.01,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       }
    ]

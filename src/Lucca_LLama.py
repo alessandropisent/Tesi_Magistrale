@@ -14,8 +14,12 @@ if __name__ == "__main__":
     #model_id = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
     #model_id = "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA"
     #model_id = "swap-uniba/LLaMAntino-2-70b-hf-UltraChat-ITA"
-    #model_id = "meta-llama/Llama-3.1-70B-Instruct"
-    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+    model_id = "meta-llama/Llama-3.1-70B-Instruct"
+    #model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+    
+    #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    temperatures = [0.01,0.4,0.5,0.6,0.8,1.0]
+    
     
 
     # This is to the possiblity to not load the model and just test for errors
@@ -23,7 +27,7 @@ if __name__ == "__main__":
         # Define the quantization configuration for 4-bit precision
         # Create a dictionary to limit memory per GPU (adjust based on your GPU capacity)
         # Configure maximum GPU memory per device (here, 23GB per GPU)
-        max_memory = {0: "13GB", 1: "23GB"}
+        max_memory = {0: "23GB", 1: "23GB"}
 
         # Setup the 4-bit quantization configuration. Using nf4 and double quantization are common choices.
         #quantization_config = BitsAndBytesConfig(

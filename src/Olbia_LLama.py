@@ -18,7 +18,8 @@ if __name__ == "__main__":
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
     #model_id = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
     model_id = "mistralai/Mistral-7B-Instruct-v0.3"
-    temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    #temperatures = [0.0,0.01,0.2,0.4,0.5,0.6,0.8,1.0]
+    temperatures = [0.4,0.5,0.6,0.8,1.0]
     
 
     # This is to the possiblity to not load the model and just test for errors

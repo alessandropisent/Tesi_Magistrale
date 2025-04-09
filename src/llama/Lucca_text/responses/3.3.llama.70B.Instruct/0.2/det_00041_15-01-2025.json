@@ -3,7 +3,7 @@
       {
          "num": 1,
          "punto": "Natura del contratto: lettera commerciale, contratto",
-         "LLM_Response": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: SI \n\nLa determina menziona espressamente che il contratto di accordo quadro \u00e8 stato stipulato mediante scambio di corrispondenza commerciale, tramite posta elettronica certificata, ai sensi dell\u2019art. 18, co. 1, del D.Lgs. n. 36/2023. Pertanto, la natura del contratto \u00e8 chiaramente e sono presenti gli estremi.",
          "Simple": "SI",
          "prompt": [
             {
@@ -17,16 +17,16 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 2,
          "punto": "Riferimenti alla DD di affidamento e alla normativa",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "Risposta al punto 2: \nLa Determina Dirigenziale n. 41 del 15/01/2025 contiene riferimenti alla normativa vigente, tra cui il D.Lgs. n. 267/2000, il D.Lgs. n. 36/2023 e la L. n. 241/1990. Inoltre, sono presenti riferimenti alla determinazione dirigenziale n. 2110 del 21/09/2023 e alla determinazione dirigenziale n. 2626 del 07/11/2024, che costituiscono il quadro normativo e amministrativo di riferimento per l'atto in oggetto.\n\nRISPOSTA: SI",
          "Simple": "SI",
          "prompt": [
             {
@@ -40,16 +40,16 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 3,
          "punto": "CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell\u2019art. 50 sottolinea l\u2019importanza del possesso di 'documentate esperienze pregresse idonee all\u2019esecuzione delle prestazioni contrattuali'\nArt. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
-         "LLM_Response": "RISPOSTA: SI",
+         "LLM_Response": "RISPOSTA GENERALE: SI \n\nLa determina in esame rispetta i criteri di selezione dell'operatore economico, in quanto prevede l'attivazione dell'accordo quadro per mezzo di \"Ordini di esecuzione\" con specifiche determinazioni dirigenziali, applicando alle prestazioni richieste il ribasso del 20% offerto dall'operatore economico. Inoltre, la determina menziona espressamente l'assegnazione dell'accordo quadro allo Studio di ingegneria Preti e Scatena, con sede in viale Europa n. 1, localit\u00e0 Lammari - Capannori (LU) - CF/PI 02153530460, per un importo massimo stimato di \u20ac 39.999,99 IVA esclusa. Pertanto, il punto della checklist relativo ai criteri di selezione dell'operatore economico \u00e8 rispettato.",
          "Simple": "SI",
          "prompt": [
             {
@@ -63,17 +63,17 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 5,
          "punto": "Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)",
-         "LLM_Response": "SI, i tempi di pagamento sono specificati.",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: NO \nLa determina non specifica i tempi di pagamento fattura.",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -86,17 +86,17 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 6,
          "punto": "Termini di conclusione della prestazione/lavori",
-         "LLM_Response": "SI",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: NO \nLa determina non specifica i termini di conclusione della prestazione/lavori.",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -109,16 +109,16 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 7,
          "punto": "Specificare se sono fondi soggetti a rendicontazione",
-         "LLM_Response": "SI, i fondi sono soggetti a rendicontazione.",
+         "LLM_Response": "RISPOSTA GENERALE: SI \n\nLa determina specifica che la spesa \u00e8 soggetta agli obblighi di tracciabilit\u00e0 dei flussi finanziari, relativi ai contratti pubblici di lavori, forniture e servizi ai sensi dell\u2019art. 3 della L. n. 136/2010. Pertanto, i fondi sono soggetti a rendicontazione.",
          "Simple": "SI",
          "prompt": [
             {
@@ -132,17 +132,17 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 8,
          "punto": "Specificare la normativa sulla privacy per i dati personali",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
-         "Simple": "SI",
+         "LLM_Response": "RISPOSTA GENERALE: NO \nLa determina non menziona espressamente la normativa sulla privacy per i dati personali, pertanto non \u00e8 possibile verificare se la normativa sulla privacy sia stata rispettata.",
+         "Simple": "NO",
          "prompt": [
             {
                "role": "system",
@@ -155,16 +155,16 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 9,
          "punto": "Richiamato il codice di comportamento dei dipendenti ",
-         "LLM_Response": "RISPOSTA GENERALE : SI",
+         "LLM_Response": "RISPOSTA GENERALE: SI \n\nLa determina contiene una sezione in cui il Dirigente dichiara di non trovarsi in situazione di conflitto di interesse, anche potenziale, ai sensi dell\u2019art. 6-bis della L. n. 241/1990. Pertanto, il codice di comportamento dei dipendenti \u00e8 stato richiamato.",
          "Simple": "SI",
          "prompt": [
             {
@@ -178,16 +178,16 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       },
       {
          "num": 10,
          "punto": "Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicit\u00e0 su Banca Dati Nazionale/PCT ANAC ",
-         "LLM_Response": "SI",
+         "LLM_Response": "Risposta al punto 1: \nLa determina \u00e8 stata emessa dal Dirigente del Settore Dipartimentale 05 \u201cLavori pubblici e traffico\u201d?\nRISPOSTA: SI\n\nRisposta al punto 2: \nLa determina \u00e8 stata emessa in data 15/01/2025?\nRISPOSTA: SI\n\nRisposta al punto 3: \nL'oggetto della determina \u00e8 l'approvazione dell'Ordine di esecuzione n. 7 per il servizio di CSE relativo all'intervento P.T. n. 48/2023 \u201cRiqualificazione aree esterne scuole\u201d?\nRISPOSTA: SI\n\nRisposta al punto 4: \nIl Dirigente ha dichiarato di non trovarsi in situazione di conflitto di interesse?\nRISPOSTA: SI\n\nRisposta al punto 5: \nLa determina contiene il quadro economico del servizio di architettura e ingegneria?\nRISPOSTA: SI\n\nRisposta al punto 6: \nLa spesa complessiva \u00e8 stata approvata e finanziata?\nRISPOSTA: SI\n\nRisposta al punto 7: \nLa determina contiene la dichiarazione del Dirigente e del RUP in ordine alla assenza di condanne penali e alla insussistenza del conflitto di interessi?\nRISPOSTA: SI\n\nRisposta al punto 8: \nLa materia oggetto della presente determinazione rientra nella giurisdizione del Giudice ordinario?\nRISPOSTA: SI\n\nRisposta al punto 9: \nLa piattaforma di e-procurement \u00e8 stata utilizzata?\nRISPOSTA: SI \n\nRisposta al punto 10: \nLa piattaforma di e-procurement \u00e8 stata utilizzata?\nRISPOSTA: SI \n\nNote finali: \nLa determina sembra essere completa e conforme alle normative vigenti. Tuttavia, \u00e8 importante verificare ulteriormente la presenza di eventuali errori o omissioni. Inoltre, sarebbe opportuno verificare la corrispondenza tra la determina e la documentazione di supporto, come ad es",
          "Simple": "SI",
          "prompt": [
             {
@@ -201,10 +201,10 @@
          ],
          "llm": "llama",
          "municipality": "Lucca",
-         "temperature": 0.01,
+         "temperature": 0.2,
          "checklist": "Contratti",
          "determina": "det_00041_15-01-2025",
-         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "model": "meta-llama/Llama-3.3-70B-Instruct",
          "determina_in": "system"
       }
    ]
