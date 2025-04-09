@@ -2259,3 +2259,44 @@ NameError: name 'checklist_path' is not defined
 2025-04-09 17:47:07,979 - INFO - Creating/Updating text generation pipeline...
 2025-04-09 17:47:07,979 - INFO - Pipeline ready.
 2025-04-09 17:47:07,979 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 17:57:22,893 - INFO - Done determina [0] DET_DETE_345_2025
+2025-04-09 17:57:22,895 - INFO - Processing 'choose_checklist' for temp 0.01...
+2025-04-09 17:57:33,286 - CRITICAL - 
+============================================================
+2025-04-09 17:57:33,286 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 17:57:33) !!!
+2025-04-09 17:57:33,287 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 494.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 415.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 17:57:33,287 - CRITICAL - ============================================================
+
+2025-04-09 17:57:33,305 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 17:57:33,465 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 17:57:33) ---
+2025-04-09 17:58:36,639 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:58:36,640 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 17:58:36,641 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 17:59:35,747 - INFO - Loading tokenizer...
+2025-04-09 17:59:36,071 - INFO - Model and tokenizer loaded.
+2025-04-09 17:59:36,071 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 17:59:36,071 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 17:59:36,071 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 17:59:36,074 - INFO - Setting up ChecklistCompiler...
+2025-04-09 17:59:36,074 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 17:59:36,074 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 17:59:36,075 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 17:59:36,075 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 17:59:36,075 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 17:59:36,075 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 17:59:36,075 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 17:59:36,075 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 17:59:36,075 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 17:59:36,075 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 17:59:36,075 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 17:59:36,075 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 17:59:36,076 - INFO - Setting up ChecklistCompiler...
+2025-04-09 17:59:36,076 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 17:59:36,076 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 17:59:36,076 - INFO - --- Checking GPU temperature before starting temp 0.2 ---
+2025-04-09 17:59:36,094 - INFO - Current max GPU Temp: 54°C (Threshold: 88°C)
+2025-04-09 17:59:36,094 - INFO - GPU temperature OK for temp 0.2. Proceeding.
+2025-04-09 17:59:36,094 - INFO - -- Processing Temperature: 0.2 --
+2025-04-09 17:59:36,095 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 17:59:36,095 - INFO - Pipeline ready.
+2025-04-09 17:59:36,095 - INFO - Processing 1 determines for checklist generation...

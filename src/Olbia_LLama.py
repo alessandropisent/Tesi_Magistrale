@@ -94,7 +94,7 @@ if __name__ == "__main__":
                               "municipality":OLBIA,
                                "temp":temp}
             
-            done_writer.read()
+            
             
             if done_writer.already_done(obj_done_model):
                 continue

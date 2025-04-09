@@ -81,9 +81,14 @@
          "temp": 1.0
       },
       {
-        "model": "meta-llama/Llama-3.1-70B-Instruct",
-        "municipality": "Olbia",
-        "temp": 0.0
-     }
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 0.0
+      },
+      {
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 0.01
+      }
    ]
 }
