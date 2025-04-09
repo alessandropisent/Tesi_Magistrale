@@ -46,6 +46,12 @@ tests= [
         "model":"llama 3.2 3B"
     },
     {
+        "LLM":LLAMA,
+        "municipality":LUCCA,
+        "folder":"3.3.llama.70B.Instruct",
+        "model":"llama 3.3 70B"
+    },
+    {
         "LLM":OPENAI,
         "municipality":LUCCA,
         "model":"chatgpt 4o mini",

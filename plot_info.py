@@ -64,4 +64,5 @@ group_of_models = df[keep_rows].groupby(by=["Temperature","Modello"]).mean()
 print(group_of_models)
 
 
-graph_df(df=group_of_models.reset_index(), col_to_plot="balanced_accuracy", title_ylabel="Balanced Accuracy")
+#graph_df(df=group_of_models.reset_index(), col_to_plot="balanced_accuracy", title_ylabel="Balanced Accuracy")
+graph_df(df=group_of_models.reset_index())
