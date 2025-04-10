@@ -2300,3 +2300,769 @@ NameError: name 'checklist_path' is not defined
 2025-04-09 17:59:36,095 - INFO - Creating/Updating text generation pipeline...
 2025-04-09 17:59:36,095 - INFO - Pipeline ready.
 2025-04-09 17:59:36,095 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 18:11:09,231 - INFO - Done determina [0] DET_DETE_345_2025
+2025-04-09 18:11:09,231 - INFO - Processing 'choose_checklist' for temp 0.2...
+2025-04-09 18:11:19,331 - CRITICAL - 
+============================================================
+2025-04-09 18:11:19,332 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 18:11:19) !!!
+2025-04-09 18:11:19,332 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 494.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 415.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 18:11:19,332 - CRITICAL - ============================================================
+
+2025-04-09 18:11:19,347 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 18:11:19,503 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 18:11:19) ---
+2025-04-09 18:12:22,095 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 18:12:22,096 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 18:12:22,097 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 18:13:16,958 - INFO - Loading tokenizer...
+2025-04-09 18:13:17,291 - INFO - Model and tokenizer loaded.
+2025-04-09 18:13:17,291 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 18:13:17,291 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 18:13:17,293 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 18:13:17,294 - INFO - Setting up ChecklistCompiler...
+2025-04-09 18:13:17,294 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 18:13:17,294 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 18:13:17,294 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 18:13:17,294 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 18:13:17,295 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 18:13:17,295 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 18:13:17,295 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 18:13:17,295 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 18:13:17,295 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 18:13:17,295 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 18:13:17,295 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 18:13:17,295 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 18:13:17,296 - INFO - Setting up ChecklistCompiler...
+2025-04-09 18:13:17,296 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 18:13:17,296 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 18:13:17,296 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 18:13:17,296 - INFO - --- Checking GPU temperature before starting temp 0.4 ---
+2025-04-09 18:13:17,314 - INFO - Current max GPU Temp: 54°C (Threshold: 88°C)
+2025-04-09 18:13:17,314 - INFO - GPU temperature OK for temp 0.4. Proceeding.
+2025-04-09 18:13:17,314 - INFO - -- Processing Temperature: 0.4 --
+2025-04-09 18:13:17,314 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 18:13:17,315 - INFO - Pipeline ready.
+2025-04-09 18:13:17,315 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 18:35:33,569 - INFO - Done determina [0] DET_DETE_345_2025
+2025-04-09 18:35:33,569 - INFO - Processing 'choose_checklist' for temp 0.4...
+2025-04-09 18:35:43,594 - CRITICAL - 
+============================================================
+2025-04-09 18:35:43,594 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 18:35:43) !!!
+2025-04-09 18:35:43,594 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 494.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 415.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 18:35:43,594 - CRITICAL - ============================================================
+
+2025-04-09 18:35:43,621 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 18:35:43,773 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 18:35:43) ---
+2025-04-09 18:36:46,698 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 18:36:46,699 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 18:36:46,699 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 18:37:41,339 - INFO - Loading tokenizer...
+2025-04-09 18:37:41,663 - INFO - Model and tokenizer loaded.
+2025-04-09 18:37:41,663 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 18:37:41,663 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 18:37:41,665 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 18:37:41,667 - INFO - Setting up ChecklistCompiler...
+2025-04-09 18:37:41,667 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 18:37:41,667 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 18:37:41,667 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 18:37:41,667 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 18:37:41,668 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 18:37:41,668 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 18:37:41,668 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 18:37:41,668 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 18:37:41,668 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 18:37:41,668 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 18:37:41,668 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 18:37:41,668 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 18:37:41,669 - INFO - Setting up ChecklistCompiler...
+2025-04-09 18:37:41,669 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 18:37:41,669 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 18:37:41,669 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 18:37:41,669 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 18:37:41,669 - INFO - --- Checking GPU temperature before starting temp 0.5 ---
+2025-04-09 18:37:41,688 - INFO - Current max GPU Temp: 52°C (Threshold: 88°C)
+2025-04-09 18:37:41,688 - INFO - GPU temperature OK for temp 0.5. Proceeding.
+2025-04-09 18:37:41,688 - INFO - -- Processing Temperature: 0.5 --
+2025-04-09 18:37:41,688 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 18:37:41,688 - INFO - Pipeline ready.
+2025-04-09 18:37:41,688 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 18:52:56,148 - CRITICAL - 
+============================================================
+2025-04-09 18:52:56,148 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 18:52:56) !!!
+2025-04-09 18:52:56,148 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 479.69 MiB is free. Including non-PyTorch memory, this process has 23.16 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 434.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 18:52:56,148 - CRITICAL - ============================================================
+
+2025-04-09 18:52:56,164 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 18:52:56,317 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 18:52:56) ---
+2025-04-09 18:53:59,303 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 18:53:59,304 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 18:53:59,305 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 18:54:51,529 - INFO - Loading tokenizer...
+2025-04-09 18:54:51,876 - INFO - Model and tokenizer loaded.
+2025-04-09 18:54:51,876 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 18:54:51,876 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 18:54:51,876 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 18:54:51,879 - INFO - Setting up ChecklistCompiler...
+2025-04-09 18:54:51,879 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 18:54:51,879 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 18:54:51,879 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 18:54:51,879 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 18:54:51,879 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 18:54:51,879 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 18:54:51,879 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 18:54:51,880 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 18:54:51,880 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 18:54:51,880 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 18:54:51,880 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 18:54:51,880 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 18:54:51,880 - INFO - Setting up ChecklistCompiler...
+2025-04-09 18:54:51,881 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 18:54:51,881 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 18:54:51,881 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 18:54:51,881 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 18:54:51,881 - INFO - --- Checking GPU temperature before starting temp 0.5 ---
+2025-04-09 18:54:51,899 - INFO - Current max GPU Temp: 50°C (Threshold: 88°C)
+2025-04-09 18:54:51,899 - INFO - GPU temperature OK for temp 0.5. Proceeding.
+2025-04-09 18:54:51,899 - INFO - -- Processing Temperature: 0.5 --
+2025-04-09 18:54:51,899 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 18:54:51,899 - INFO - Pipeline ready.
+2025-04-09 18:54:51,899 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 19:16:53,203 - INFO - Done determina [0] DET_DETE_345_2025
+2025-04-09 19:16:53,203 - INFO - Processing 'choose_checklist' for temp 0.5...
+2025-04-09 19:17:03,094 - CRITICAL - 
+============================================================
+2025-04-09 19:17:03,094 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 19:17:03) !!!
+2025-04-09 19:17:03,094 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 494.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 479.69 MiB is free. Including non-PyTorch memory, this process has 23.16 GiB memory in use. Of the allocated memory 22.30 GiB is allocated by PyTorch, and 425.38 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 19:17:03,094 - CRITICAL - ============================================================
+
+2025-04-09 19:17:03,110 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 19:17:03,262 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 19:17:03) ---
+2025-04-09 19:18:06,380 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 19:18:06,381 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 19:18:06,381 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 19:18:57,982 - INFO - Loading tokenizer...
+2025-04-09 19:18:58,305 - INFO - Model and tokenizer loaded.
+2025-04-09 19:18:58,305 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 19:18:58,305 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 19:18:58,305 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 19:18:58,306 - INFO - Setting up ChecklistCompiler...
+2025-04-09 19:18:58,306 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 19:18:58,307 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 19:18:58,307 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 19:18:58,307 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 19:18:58,307 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 19:18:58,308 - INFO - Setting up ChecklistCompiler...
+2025-04-09 19:18:58,308 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 19:18:58,308 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 19:18:58,308 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 19:18:58,308 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 19:18:58,308 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 19:18:58,308 - INFO - --- Checking GPU temperature before starting temp 0.6 ---
+2025-04-09 19:18:58,326 - INFO - Current max GPU Temp: 51°C (Threshold: 88°C)
+2025-04-09 19:18:58,326 - INFO - GPU temperature OK for temp 0.6. Proceeding.
+2025-04-09 19:18:58,326 - INFO - -- Processing Temperature: 0.6 --
+2025-04-09 19:18:58,326 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 19:18:58,327 - INFO - Pipeline ready.
+2025-04-09 19:18:58,327 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 19:53:54,899 - INFO - Done determina [0] DET_DETE_345_2025
+2025-04-09 19:53:54,909 - INFO - Processing 'choose_checklist' for temp 0.6...
+2025-04-09 19:54:04,908 - CRITICAL - 
+============================================================
+2025-04-09 19:54:04,908 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 19:54:04) !!!
+2025-04-09 19:54:04,908 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 494.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 415.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 19:54:04,908 - CRITICAL - ============================================================
+
+2025-04-09 19:54:04,923 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 19:54:05,079 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 19:54:05) ---
+2025-04-09 19:55:07,532 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 19:55:07,533 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 19:55:07,533 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 19:55:57,796 - INFO - Loading tokenizer...
+2025-04-09 19:55:58,351 - INFO - Model and tokenizer loaded.
+2025-04-09 19:55:58,351 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 19:55:58,351 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 19:55:58,352 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 19:55:58,354 - INFO - Setting up ChecklistCompiler...
+2025-04-09 19:55:58,354 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 19:55:58,354 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 19:55:58,354 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 19:55:58,354 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 19:55:58,354 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 19:55:58,354 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 19:55:58,355 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 19:55:58,355 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 19:55:58,355 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 19:55:58,355 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 19:55:58,355 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 19:55:58,355 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 19:55:58,356 - INFO - Setting up ChecklistCompiler...
+2025-04-09 19:55:58,356 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 19:55:58,356 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 19:55:58,356 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 19:55:58,356 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 19:55:58,356 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 19:55:58,356 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 19:55:58,356 - INFO - --- Checking GPU temperature before starting temp 0.8 ---
+2025-04-09 19:55:58,375 - INFO - Current max GPU Temp: 51°C (Threshold: 88°C)
+2025-04-09 19:55:58,375 - INFO - GPU temperature OK for temp 0.8. Proceeding.
+2025-04-09 19:55:58,375 - INFO - -- Processing Temperature: 0.8 --
+2025-04-09 19:55:58,375 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 19:55:58,375 - INFO - Pipeline ready.
+2025-04-09 19:55:58,375 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 20:13:19,096 - CRITICAL - 
+============================================================
+2025-04-09 20:13:19,096 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 20:13:19) !!!
+2025-04-09 20:13:19,096 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 479.69 MiB is free. Including non-PyTorch memory, this process has 23.16 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 434.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 20:13:19,096 - CRITICAL - ============================================================
+
+2025-04-09 20:13:19,123 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 20:13:19,277 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 20:13:19) ---
+2025-04-09 20:14:22,311 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 20:14:22,312 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 20:14:22,312 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 20:15:14,433 - INFO - Loading tokenizer...
+2025-04-09 20:15:14,751 - INFO - Model and tokenizer loaded.
+2025-04-09 20:15:14,751 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 20:15:14,751 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 20:15:14,751 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 20:15:14,753 - INFO - Setting up ChecklistCompiler...
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 20:15:14,753 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 20:15:14,753 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 20:15:14,753 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 20:15:14,754 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 20:15:14,754 - INFO - Setting up ChecklistCompiler...
+2025-04-09 20:15:14,754 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 20:15:14,754 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 20:15:14,754 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 20:15:14,754 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 20:15:14,754 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 20:15:14,754 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 20:15:14,755 - INFO - --- Checking GPU temperature before starting temp 0.8 ---
+2025-04-09 20:15:14,773 - INFO - Current max GPU Temp: 50°C (Threshold: 88°C)
+2025-04-09 20:15:14,773 - INFO - GPU temperature OK for temp 0.8. Proceeding.
+2025-04-09 20:15:14,773 - INFO - -- Processing Temperature: 0.8 --
+2025-04-09 20:15:14,773 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 20:15:14,773 - INFO - Pipeline ready.
+2025-04-09 20:15:14,773 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 20:34:07,528 - CRITICAL - 
+============================================================
+2025-04-09 20:34:07,528 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 20:34:07) !!!
+2025-04-09 20:34:07,528 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 479.69 MiB is free. Including non-PyTorch memory, this process has 23.16 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 434.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 20:34:07,528 - CRITICAL - ============================================================
+
+2025-04-09 20:34:07,542 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 20:34:07,699 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 20:34:07) ---
+2025-04-09 20:35:10,166 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 20:35:10,167 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 20:35:10,168 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 20:36:03,923 - INFO - Loading tokenizer...
+2025-04-09 20:36:04,501 - INFO - Model and tokenizer loaded.
+2025-04-09 20:36:04,501 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 20:36:04,501 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 20:36:04,503 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 20:36:04,504 - INFO - Setting up ChecklistCompiler...
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 20:36:04,505 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 20:36:04,505 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 20:36:04,505 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 20:36:04,506 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 20:36:04,506 - INFO - Setting up ChecklistCompiler...
+2025-04-09 20:36:04,506 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 20:36:04,506 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 20:36:04,506 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 20:36:04,507 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 20:36:04,507 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 20:36:04,507 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 20:36:04,507 - INFO - --- Checking GPU temperature before starting temp 0.8 ---
+2025-04-09 20:36:04,525 - INFO - Current max GPU Temp: 50°C (Threshold: 88°C)
+2025-04-09 20:36:04,525 - INFO - GPU temperature OK for temp 0.8. Proceeding.
+2025-04-09 20:36:04,525 - INFO - -- Processing Temperature: 0.8 --
+2025-04-09 20:36:04,525 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 20:36:04,525 - INFO - Pipeline ready.
+2025-04-09 20:36:04,525 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 20:54:22,100 - CRITICAL - 
+============================================================
+2025-04-09 20:54:22,100 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 20:54:22) !!!
+2025-04-09 20:54:22,100 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 20:54:22,100 - CRITICAL - ============================================================
+
+2025-04-09 20:54:22,116 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 20:54:22,265 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 20:54:22) ---
+2025-04-09 20:55:25,179 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 20:55:25,180 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 20:55:25,181 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 20:56:18,681 - INFO - Loading tokenizer...
+2025-04-09 20:56:19,531 - INFO - Model and tokenizer loaded.
+2025-04-09 20:56:19,531 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 20:56:19,531 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 20:56:19,532 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 20:56:19,534 - INFO - Setting up ChecklistCompiler...
+2025-04-09 20:56:19,534 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 20:56:19,534 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 20:56:19,534 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 20:56:19,534 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 20:56:19,534 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 20:56:19,535 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 20:56:19,535 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 20:56:19,535 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 20:56:19,535 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 20:56:19,535 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 20:56:19,535 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 20:56:19,535 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 20:56:19,536 - INFO - Setting up ChecklistCompiler...
+2025-04-09 20:56:19,536 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 20:56:19,536 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 20:56:19,536 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 20:56:19,536 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 20:56:19,536 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 20:56:19,536 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 20:56:19,536 - INFO - --- Checking GPU temperature before starting temp 0.8 ---
+2025-04-09 20:56:19,554 - INFO - Current max GPU Temp: 50°C (Threshold: 88°C)
+2025-04-09 20:56:19,554 - INFO - GPU temperature OK for temp 0.8. Proceeding.
+2025-04-09 20:56:19,554 - INFO - -- Processing Temperature: 0.8 --
+2025-04-09 20:56:19,554 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 20:56:19,555 - INFO - Pipeline ready.
+2025-04-09 20:56:19,555 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 21:37:33,065 - INFO - Done determina [0] DET_DETE_345_2025
+2025-04-09 21:37:33,065 - INFO - Processing 'choose_checklist' for temp 0.8...
+2025-04-09 21:37:43,086 - CRITICAL - 
+============================================================
+2025-04-09 21:37:43,086 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 21:37:43) !!!
+2025-04-09 21:37:43,086 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 494.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 415.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 21:37:43,086 - CRITICAL - ============================================================
+
+2025-04-09 21:37:43,103 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 21:37:43,256 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 21:37:43) ---
+2025-04-09 21:38:46,290 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 21:38:46,291 - INFO - --- Processing Model: meta-llama/Llama-3.1-70B-Instruct ---
+2025-04-09 21:38:46,291 - INFO - Loading quantized model 'meta-llama/Llama-3.1-70B-Instruct'...
+2025-04-09 21:39:38,742 - INFO - Loading tokenizer...
+2025-04-09 21:39:39,089 - INFO - Model and tokenizer loaded.
+2025-04-09 21:39:39,090 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 21:39:39,090 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 21:39:39,090 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 21:39:39,093 - INFO - Setting up ChecklistCompiler...
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 21:39:39,093 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 21:39:39,093 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 21:39:39,093 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 21:39:39,094 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 21:39:39,094 - INFO - Setting up ChecklistCompiler...
+2025-04-09 21:39:39,094 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 21:39:39,094 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 21:39:39,095 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 21:39:39,095 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 21:39:39,095 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 21:39:39,095 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 21:39:39,095 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 21:39:39,095 - INFO - --- Checking GPU temperature before starting temp 1.0 ---
+2025-04-09 21:39:39,114 - INFO - Current max GPU Temp: 51°C (Threshold: 88°C)
+2025-04-09 21:39:39,114 - INFO - GPU temperature OK for temp 1.0. Proceeding.
+2025-04-09 21:39:39,114 - INFO - -- Processing Temperature: 1.0 --
+2025-04-09 21:39:39,114 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 21:39:39,114 - INFO - Pipeline ready.
+2025-04-09 21:39:39,114 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 22:24:23,219 - INFO - Done determina [0] DET_DETE_345_2025
+2025-04-09 22:24:23,229 - INFO - Processing 'choose_checklist' for temp 1.0...
+2025-04-09 22:24:37,115 - INFO - Done choose_checklist temp:1.0
+2025-04-09 22:24:37,115 - INFO - Finished all temperatures for Olbia. Cleaning up...
+2025-04-09 22:24:37,115 - INFO - Finished all municipalities for model meta-llama/Llama-3.1-70B-Instruct. Cleaning up model...
+2025-04-09 22:24:37,336 - INFO - ****
+ All tasks within main_logic completed. model_id:meta-llama/Llama-3.1-70B-Instruct
+2025-04-09 22:24:37,351 - INFO - --- Main Script Finished Successfully (2025-04-09 22:24:37) ---
+2025-04-09 22:24:37,352 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 22:24:37,352 - INFO - --- Exiting Main Script with Exit Code: 0 (2025-04-09 22:24:37) ---
+2025-04-09 22:24:40,341 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-09 22:24:40,342 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-09 22:24:40,342 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-09 22:25:44,474 - INFO - Loading tokenizer...
+2025-04-09 22:25:45,102 - INFO - Model and tokenizer loaded.
+2025-04-09 22:25:45,103 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 22:25:45,103 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 22:25:45,103 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 22:25:45,105 - INFO - Setting up ChecklistCompiler...
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 22:25:45,106 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 22:25:45,106 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 22:25:45,106 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 22:25:45,107 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 22:25:45,107 - INFO - Setting up ChecklistCompiler...
+2025-04-09 22:25:45,107 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-09 22:25:45,126 - INFO - Current max GPU Temp: 51°C (Threshold: 88°C)
+2025-04-09 22:25:45,126 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-09 22:25:45,126 - INFO - -- Processing Temperature: 0.0 --
+2025-04-09 22:25:45,126 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 22:25:45,126 - INFO - Pipeline ready.
+2025-04-09 22:25:45,126 - INFO - Processing 1 determines for checklist generation...
+2025-04-09 23:44:08,708 - CRITICAL - 
+============================================================
+2025-04-09 23:44:08,708 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-09 23:44:08) !!!
+2025-04-09 23:44:08,708 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-09 23:44:08,708 - CRITICAL - ============================================================
+
+2025-04-09 23:44:08,729 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-09 23:44:08,875 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-09 23:44:08) ---
+2025-04-09 23:45:12,471 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-09 23:45:12,472 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-09 23:45:12,472 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-09 23:46:15,967 - INFO - Loading tokenizer...
+2025-04-09 23:46:16,613 - INFO - Model and tokenizer loaded.
+2025-04-09 23:46:16,613 - INFO - --- Processing Municipality: Lucca ---
+2025-04-09 23:46:16,613 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-09 23:46:16,613 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-09 23:46:16,616 - INFO - Setting up ChecklistCompiler...
+2025-04-09 23:46:16,616 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-09 23:46:16,616 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-09 23:46:16,616 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-09 23:46:16,616 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-09 23:46:16,617 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-09 23:46:16,617 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-09 23:46:16,617 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-09 23:46:16,617 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-09 23:46:16,617 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-09 23:46:16,617 - INFO - --- Processing Municipality: Olbia ---
+2025-04-09 23:46:16,617 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-09 23:46:16,617 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-09 23:46:16,618 - INFO - Setting up ChecklistCompiler...
+2025-04-09 23:46:16,618 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-09 23:46:16,636 - INFO - Current max GPU Temp: 48°C (Threshold: 88°C)
+2025-04-09 23:46:16,636 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-09 23:46:16,636 - INFO - -- Processing Temperature: 0.0 --
+2025-04-09 23:46:16,636 - INFO - Creating/Updating text generation pipeline...
+2025-04-09 23:46:16,636 - INFO - Pipeline ready.
+2025-04-09 23:46:16,636 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 01:05:39,594 - CRITICAL - 
+============================================================
+2025-04-10 01:05:39,594 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 01:05:39) !!!
+2025-04-10 01:05:39,594 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 01:05:39,594 - CRITICAL - ============================================================
+
+2025-04-10 01:05:39,611 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 01:05:39,758 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 01:05:39) ---
+2025-04-10 01:06:42,757 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 01:06:42,758 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 01:06:42,759 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 01:07:34,470 - INFO - Loading tokenizer...
+2025-04-10 01:07:35,027 - INFO - Model and tokenizer loaded.
+2025-04-10 01:07:35,027 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 01:07:35,028 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 01:07:35,028 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 01:07:35,029 - INFO - Setting up ChecklistCompiler...
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 01:07:35,029 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 01:07:35,029 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 01:07:35,029 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 01:07:35,030 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 01:07:35,030 - INFO - Setting up ChecklistCompiler...
+2025-04-10 01:07:35,030 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 01:07:35,048 - INFO - Current max GPU Temp: 48°C (Threshold: 88°C)
+2025-04-10 01:07:35,048 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 01:07:35,048 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 01:07:35,048 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 01:07:35,049 - INFO - Pipeline ready.
+2025-04-10 01:07:35,049 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 02:25:43,100 - CRITICAL - 
+============================================================
+2025-04-10 02:25:43,100 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 02:25:43) !!!
+2025-04-10 02:25:43,100 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 02:25:43,100 - CRITICAL - ============================================================
+
+2025-04-10 02:25:43,115 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 02:25:43,260 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 02:25:43) ---
+2025-04-10 02:26:45,696 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 02:26:45,697 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 02:26:45,697 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 02:27:37,692 - INFO - Loading tokenizer...
+2025-04-10 02:27:38,329 - INFO - Model and tokenizer loaded.
+2025-04-10 02:27:38,329 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 02:27:38,329 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 02:27:38,330 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 02:27:38,332 - INFO - Setting up ChecklistCompiler...
+2025-04-10 02:27:38,332 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 02:27:38,332 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 02:27:38,332 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 02:27:38,332 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 02:27:38,332 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 02:27:38,332 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 02:27:38,332 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 02:27:38,333 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 02:27:38,333 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 02:27:38,333 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 02:27:38,333 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 02:27:38,333 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 02:27:38,333 - INFO - Setting up ChecklistCompiler...
+2025-04-10 02:27:38,334 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 02:27:38,352 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-10 02:27:38,352 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 02:27:38,352 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 02:27:38,352 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 02:27:38,352 - INFO - Pipeline ready.
+2025-04-10 02:27:38,352 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 03:45:12,404 - CRITICAL - 
+============================================================
+2025-04-10 03:45:12,404 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 03:45:12) !!!
+2025-04-10 03:45:12,405 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 03:45:12,405 - CRITICAL - ============================================================
+
+2025-04-10 03:45:12,421 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 03:45:12,567 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 03:45:12) ---
+2025-04-10 03:46:15,618 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 03:46:15,619 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 03:46:15,619 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 03:47:05,853 - INFO - Loading tokenizer...
+2025-04-10 03:47:06,250 - INFO - Model and tokenizer loaded.
+2025-04-10 03:47:06,250 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 03:47:06,250 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 03:47:06,250 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 03:47:06,251 - INFO - Setting up ChecklistCompiler...
+2025-04-10 03:47:06,251 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 03:47:06,252 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 03:47:06,252 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 03:47:06,252 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 03:47:06,252 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 03:47:06,253 - INFO - Setting up ChecklistCompiler...
+2025-04-10 03:47:06,253 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 03:47:06,270 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-10 03:47:06,270 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 03:47:06,270 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 03:47:06,270 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 03:47:06,271 - INFO - Pipeline ready.
+2025-04-10 03:47:06,271 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 05:04:56,484 - CRITICAL - 
+============================================================
+2025-04-10 05:04:56,484 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 05:04:56) !!!
+2025-04-10 05:04:56,484 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 05:04:56,484 - CRITICAL - ============================================================
+
+2025-04-10 05:04:56,500 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 05:04:56,645 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 05:04:56) ---
+2025-04-10 05:05:59,067 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 05:05:59,068 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 05:05:59,068 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 05:06:51,378 - INFO - Loading tokenizer...
+2025-04-10 05:06:51,796 - INFO - Model and tokenizer loaded.
+2025-04-10 05:06:51,796 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 05:06:51,796 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 05:06:51,798 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 05:06:51,799 - INFO - Setting up ChecklistCompiler...
+2025-04-10 05:06:51,799 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 05:06:51,799 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 05:06:51,800 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 05:06:51,800 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 05:06:51,800 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 05:06:51,800 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 05:06:51,800 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 05:06:51,800 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 05:06:51,800 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 05:06:51,800 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 05:06:51,800 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 05:06:51,800 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 05:06:51,801 - INFO - Setting up ChecklistCompiler...
+2025-04-10 05:06:51,801 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 05:06:51,819 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-10 05:06:51,819 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 05:06:51,819 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 05:06:51,819 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 05:06:51,820 - INFO - Pipeline ready.
+2025-04-10 05:06:51,820 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 06:24:38,634 - CRITICAL - 
+============================================================
+2025-04-10 06:24:38,634 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 06:24:38) !!!
+2025-04-10 06:24:38,634 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 06:24:38,634 - CRITICAL - ============================================================
+
+2025-04-10 06:24:38,662 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 06:24:38,808 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 06:24:38) ---
+2025-04-10 06:25:41,735 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 06:25:41,736 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 06:25:41,736 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 06:26:32,336 - INFO - Loading tokenizer...
+2025-04-10 06:26:32,743 - INFO - Model and tokenizer loaded.
+2025-04-10 06:26:32,743 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 06:26:32,743 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 06:26:32,744 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 06:26:32,745 - INFO - Setting up ChecklistCompiler...
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 06:26:32,745 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 06:26:32,745 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 06:26:32,745 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 06:26:32,746 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 06:26:32,746 - INFO - Setting up ChecklistCompiler...
+2025-04-10 06:26:32,746 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 06:26:32,764 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-10 06:26:32,764 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 06:26:32,764 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 06:26:32,764 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 06:26:32,764 - INFO - Pipeline ready.
+2025-04-10 06:26:32,764 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 07:45:57,956 - CRITICAL - 
+============================================================
+2025-04-10 07:45:57,956 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 07:45:57) !!!
+2025-04-10 07:45:57,956 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 07:45:57,956 - CRITICAL - ============================================================
+
+2025-04-10 07:45:57,972 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 07:45:58,118 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 07:45:58) ---
+2025-04-10 07:47:00,575 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 07:47:00,576 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 07:47:00,576 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 07:47:52,099 - INFO - Loading tokenizer...
+2025-04-10 07:47:52,521 - INFO - Model and tokenizer loaded.
+2025-04-10 07:47:52,521 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 07:47:52,521 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 07:47:52,522 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 07:47:52,523 - INFO - Setting up ChecklistCompiler...
+2025-04-10 07:47:52,523 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 07:47:52,523 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 07:47:52,523 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 07:47:52,524 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 07:47:52,524 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 07:47:52,524 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 07:47:52,524 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 07:47:52,524 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 07:47:52,524 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 07:47:52,524 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 07:47:52,524 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 07:47:52,524 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 07:47:52,525 - INFO - Setting up ChecklistCompiler...
+2025-04-10 07:47:52,525 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 07:47:52,543 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-10 07:47:52,543 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 07:47:52,543 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 07:47:52,543 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 07:47:52,543 - INFO - Pipeline ready.
+2025-04-10 07:47:52,543 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 09:07:15,334 - CRITICAL - 
+============================================================
+2025-04-10 09:07:15,334 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 09:07:15) !!!
+2025-04-10 09:07:15,334 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 09:07:15,334 - CRITICAL - ============================================================
+
+2025-04-10 09:07:15,353 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 09:07:15,501 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 09:07:15) ---
+2025-04-10 09:08:18,537 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 09:08:18,538 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 09:08:18,538 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 09:09:12,540 - INFO - Loading tokenizer...
+2025-04-10 09:09:13,179 - INFO - Model and tokenizer loaded.
+2025-04-10 09:09:13,179 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 09:09:13,179 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 09:09:13,179 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 09:09:13,182 - INFO - Setting up ChecklistCompiler...
+2025-04-10 09:09:13,182 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 09:09:13,182 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 09:09:13,182 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 09:09:13,182 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 09:09:13,182 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 09:09:13,182 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 09:09:13,182 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 09:09:13,183 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 09:09:13,183 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 09:09:13,183 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 09:09:13,183 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 09:09:13,183 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 09:09:13,183 - INFO - Setting up ChecklistCompiler...
+2025-04-10 09:09:13,184 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 09:09:13,202 - INFO - Current max GPU Temp: 47°C (Threshold: 88°C)
+2025-04-10 09:09:13,202 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 09:09:13,202 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 09:09:13,202 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 09:09:13,202 - INFO - Pipeline ready.
+2025-04-10 09:09:13,202 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 10:28:38,249 - CRITICAL - 
+============================================================
+2025-04-10 10:28:38,249 - CRITICAL - !!! AN UNEXPECTED ERROR OCCURRED (2025-04-10 10:28:38) !!!
+2025-04-10 10:28:38,249 - CRITICAL - Error details: CUDA out of memory. Tried to allocate 488.00 MiB. GPU 1 has a total capacity of 23.65 GiB of which 499.69 MiB is free. Including non-PyTorch memory, this process has 23.14 GiB memory in use. Of the allocated memory 22.29 GiB is allocated by PyTorch, and 414.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-04-10 10:28:38,249 - CRITICAL - ============================================================
+
+2025-04-10 10:28:38,266 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 10:28:38,412 - INFO - --- Exiting Main Script with Exit Code: 2 (2025-04-10 10:28:38) ---
+2025-04-10 10:29:41,399 - INFO - --- Starting Main Script Execution for Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 10:29:41,400 - INFO - --- Processing Model: meta-llama/Llama-3.3-70B-Instruct ---
+2025-04-10 10:29:41,400 - INFO - Loading quantized model 'meta-llama/Llama-3.3-70B-Instruct'...
+2025-04-10 10:30:32,905 - INFO - Loading tokenizer...
+2025-04-10 10:30:33,314 - INFO - Model and tokenizer loaded.
+2025-04-10 10:30:33,314 - INFO - --- Processing Municipality: Lucca ---
+2025-04-10 10:30:33,314 - INFO - Loading checklists from ./src/txt/Lucca/checklists/checklists.json
+2025-04-10 10:30:33,314 - INFO - Loading determine from ./src/txt/Lucca/checklists/Lucca_Determine.csv
+2025-04-10 10:30:33,315 - INFO - Setting up ChecklistCompiler...
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 0.0 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 0.01 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 0.2 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 0.4 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 0.5 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 0.6 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 0.8 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - --- SKIPPEND 1.0 - ALREADY DONE ---
+2025-04-10 10:30:33,316 - INFO - Finished all temperatures for Lucca. Cleaning up...
+2025-04-10 10:30:33,316 - INFO - --- Processing Municipality: Olbia ---
+2025-04-10 10:30:33,316 - INFO - Loading checklists from ./src/txt/Olbia/checklists/checklists.json
+2025-04-10 10:30:33,317 - INFO - Loading determine from ./src/txt/Olbia/checklists/Olbia_Determine.csv
+2025-04-10 10:30:33,317 - INFO - Setting up ChecklistCompiler...
+2025-04-10 10:30:33,317 - INFO - --- Checking GPU temperature before starting temp 0.0 ---
+2025-04-10 10:30:33,335 - INFO - Current max GPU Temp: 48°C (Threshold: 88°C)
+2025-04-10 10:30:33,335 - INFO - GPU temperature OK for temp 0.0. Proceeding.
+2025-04-10 10:30:33,335 - INFO - -- Processing Temperature: 0.0 --
+2025-04-10 10:30:33,335 - INFO - Creating/Updating text generation pipeline...
+2025-04-10 10:30:33,335 - INFO - Pipeline ready.
+2025-04-10 10:30:33,335 - INFO - Processing 1 determines for checklist generation...
+2025-04-10 11:13:30,423 - CRITICAL - 
+--- Keyboard Interrupt received. Stopping script. ---
+2025-04-10 11:13:30,438 - INFO - --- Final cleanup: Attempting torch.cuda.empty_cache() before exit ---
+2025-04-10 11:13:30,630 - INFO - --- Exiting Main Script with Exit Code: 130 (2025-04-10 11:13:30) ---

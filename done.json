@@ -89,6 +89,61 @@
          "model": "meta-llama/Llama-3.1-70B-Instruct",
          "municipality": "Olbia",
          "temp": 0.01
+      },
+      {
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 0.2
+      },
+      {
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 0.4
+      },
+      {
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 0.5
+      },
+      {
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 0.6
+      },
+      {
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 0.8
+      },
+      {
+         "model": "meta-llama/Llama-3.1-70B-Instruct",
+         "municipality": "Olbia",
+         "temp": 1.0
+      },
+      {
+         "model": "mistralai/Mistral-7B-Instruct-v0.3",
+         "municipality": "Olbia",
+         "temp": 0.4
+      },
+      {
+         "model": "mistralai/Mistral-7B-Instruct-v0.3",
+         "municipality": "Olbia",
+         "temp": 0.5
+      },
+      {
+         "model": "mistralai/Mistral-7B-Instruct-v0.3",
+         "municipality": "Olbia",
+         "temp": 0.6
+      },
+      {
+         "model": "mistralai/Mistral-7B-Instruct-v0.3",
+         "municipality": "Olbia",
+         "temp": 0.8
+      },
+      {
+         "model": "mistralai/Mistral-7B-Instruct-v0.3",
+         "municipality": "Olbia",
+         "temp": 1.0
       }
    ]
 }

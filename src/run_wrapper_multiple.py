@@ -31,8 +31,8 @@ script_to_run = "src/todo.py" # Script modified to accept args
 
 # --- Define Models to Process ---
 model_configs = [
-    {"id": "meta-llama/Llama-3.1-70B-Instruct", "folder": "3.1.llama.70B.Instruct"},
-    {"id": "meta-llama/Llama-3.3-70B-Instruct", "folder": "3.3.llama.70B.Instruct"},
+    #{"id": "meta-llama/Llama-3.1-70B-Instruct", "folder": "3.1.llama.70B.Instruct"},
+    #{"id": "meta-llama/Llama-3.3-70B-Instruct", "folder": "3.3.llama.70B.Instruct"},
     # Add more models here as needed
     # {"id": "meta-llama/Llama-3.1-8B-Instruct", "folder": "3.1.llama.8B.Instruct"},
 ]

@@ -7,7 +7,7 @@ import sys
 
 if __name__ == "__main__":
     
-    TODO_MUN = [LUCCA, OLBIA]
+    TODO_MUN = [LUCCA]
     TODO_LLM = [LLAMA]
     temperatures = [0.0, 0.01, 0.2, 0.4,
                 0.5,0.6,0.8,1.0]
@@ -89,7 +89,7 @@ if __name__ == "__main__":
             #model_folders = ["llama-3.1-8B","llama-3.2-3B"]
             model_ids = ["mistralai/Mistral-7B-Instruct-v0.3"]
             model_folders = ["Mistral.7B.Instruct-v0.3/"]
-            max_memory = {0: "13GB", 1: "23GB"}
+            max_memory = {0: "23GB", 1: "23GB"}
             
             for model_id, model_folder in zip(model_ids,model_folders):
                 
