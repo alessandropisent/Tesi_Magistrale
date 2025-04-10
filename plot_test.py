@@ -138,7 +138,7 @@ df = pd.read_csv(f"src/Evaluation/checklist_compiler/statistics.csv")
 df = df[df["determina_in"]=="system"] # Filter if needed
 keep_rows =[
     "Modello", "Temperature", "accuracy", "precision", "recall",
-    "f1_score", "balanced_accuracy"
+    "f1_score", "balanced_accuracy", 
     ]
 group_of_models = df[keep_rows].groupby(by=["Temperature","Modello"], observed=True).mean() # Use observed=True if Temperature/Modello are categoricals
 # Use the sample data directly as it's already aggregated
@@ -153,7 +153,7 @@ print("\nPlotting Accuracy...")
 graph_df(df=group_of_models_reset, col_to_plot="accuracy", title_ylabel="Accuracy")
 
 print("\nPlotting Balanced Accuracy...")
-#graph_df(df=group_of_models_reset, col_to_plot="balanced_accuracy", title_ylabel="Balanced Accuracy")
+graph_df(df=group_of_models_reset, col_to_plot="balanced_accuracy", title_ylabel="Balanced Accuracy")
 
 print("\nPlotting F1 Score...")
-#graph_df(df=group_of_models_reset, col_to_plot="f1_score", title_ylabel="F1 Score")
+graph_df(df=group_of_models_reset, col_to_plot="f1_score", title_ylabel="F1 Score")
