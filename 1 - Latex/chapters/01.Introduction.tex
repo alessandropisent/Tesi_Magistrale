@@ -1,0 +1,66 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+\section*{Background}
+In the context of Italian public administrations, the administrative and accounting regularity control is a crucial function aimed at ensuring that every entity operates in compliance with the applicable laws and regulations. This process is governed by Article 147-bis of the \textit{"Testo Unico degli Enti Locali (TUEL)"}. According to Article 147-bis TUEL, the control process is divided into two main phases:
+
+\begin{itemize}
+    \item \textbf{Preventive Control:} During the formation of the act, each service manager is required to express an opinion on technical regularity, certifying the correctness and compliance of the administrative action. At the same time, the financial service manager issues an accounting regularity opinion and affixes the financial coverage endorsement, ensuring that the act has the necessary economic resources.
+    \item \textbf{Subsequent Control:} After the adoption of the act, a control is carried out following the general principles of corporate auditing. This phase is conducted under the direction of the entity's secretary, who randomly selects determinations of expenditure commitments, contracts, and other administrative acts using motivated sampling techniques. The results of this control are then periodically transmitted to the service managers, auditors, employee evaluation bodies, and the municipal council, along with directives to correct any irregularities detected.
+\end{itemize}
+
+The primary objective of these controls is to ensure the legitimacy, regularity, and correctness of administrative actions, thereby preventing inefficiencies, abuses, or regulatory violations. However, the traditional process of relying on manual inspections is time-consuming, resource-intensive, and susceptible to human errors or omissions.
+
+To address these challenges and improve the efficiency of controls, we have developed an automated system that leverages advanced language models (LLMs). Our system is designed not only to analyze administrative acts but also to autonomously select the most appropriate checklist for each document based on detailed use-case descriptions provided within each checklist. In practice, the LLM examines the content of the act and determines which checklist to apply for verifying compliance with the regulations. Subsequently, the model responds to each point in the selected checklist, evaluating the act's conformity with the established criteria. This innovative approach not only accelerates the control process but also reduces the likelihood of errors, ensuring a more accurate and consistent evaluation.
+
+\section*{Research Motivation and Problem Statement}
+This research is motivated by the need to streamline, accelerate, and automate the administrative regularity control process. The traditional manual approach, while thorough, can be inconsistent and prone to oversights due to its labor-intensive nature. By implementing an automated system using a large language model (LLM) to analyze municipal acts, it becomes possible to more efficiently identify irregularities. This study addresses the challenge of enhancing the detection of compliance issues within public administration through advanced artificial intelligence techniques.
+
+\section*{Objectives}
+The primary objectives of this feasibility study are to:
+\begin{itemize}
+    \item Evaluate the ability of a large language model to understand and summarize complex municipal acts.
+    \item Assess the effectiveness of the LLM in answering checklist-based questions point by point.
+    \item Investigate the impact of varying model parameters, such as temperature settings, on performance and consistency.
+    \item Compare the performance of different model sizes, hypothesizing that larger models with more parameters yield better results.
+    \item Provide practical insights on automating administrative auditing processes, with a focus on improvements in efficiency and accuracy.
+\end{itemize}
+
+\section*{Research Questions and Hypotheses}
+The study is driven by the following research questions and corresponding hypotheses:
+\begin{enumerate}
+    %\item \textbf{Can the LLM understand the act?} \\
+    %\textit{Hypothesis:} Yes, the LLM will be able to correctly summarize and interpret the content of the act.
+
+    \item \textbf{Can the LLM correctly select the checklist of the act?} \\
+    \textit{Hypothesis:} Yes, since the models are capable to understand and summarize the act, they will be able to select the correct checklist.
+    
+    \item \textbf{Can the LLM respond to each point of the checklist?} \\
+    \textit{Hypothesis:} Yes, as the checklist is designed to require only minimal legal interpretation from the employee.
+    
+    \item \textbf{Does varying the temperature parameter affect model performance, and is a lower temperature preferable for consistent results?} \\
+    \textit{Hypothesis:} Yes, temperature changes will affect the output, with lower temperatures likely yielding more consistent and reliable results.
+    
+    \item \textbf{Do larger models with more parameters perform better?} \\
+    \textit{Hypothesis:} Yes, larger models are expected to perform better due to their enhanced capacity to understand and process complex texts.
+
+
+\end{enumerate}
+
+\section*{Overview of the Study Design and Approach}
+The study adopts a methodological approach that involves:
+\begin{itemize}
+    \item \textbf{Data Collection:} Gathering checklists from the municipalities of Olbia and Lucca, which serve as the basis for the administrative control criteria.
+    
+    \item \textbf{Data Preparation:} Transforming these checklists into JSON format to facilitate their integration into the automated system. Additionally, municipal acts are downloaded from the official public bulletin (\textit{albo pretorio}) and converted into plain text.
+    
+    \item \textbf{Automated Analysis:} Using a structured prompt, the LLM is tasked with answering the checklist questions based on the content of the municipal acts. Our system includes code that enables the LLM to automatically choose the most appropriate checklist for each act based on the detailed use-case descriptions provided within each checklist.
+    
+    \item \textbf{Comparative Evaluation:} The outputs generated by the LLM are compared against evaluations conducted by human experts. This comparative analysis, detailed in the Results section, focuses on performance metrics such as accuracy, precision, recall, and consistency.
+\end{itemize}
+
+\noindent In summary, the integration of advanced language models into the process of administrative regularity control offers a promising solution to improve the efficiency and reliability of audits in public entities, thereby contributing to more transparent and regulation-compliant management. Detailed technical implementations and the code repository are available on GitHub \footnote{The repo is at   : \href{https://github.com/alessandropisent/Tesi\_Magistrale}{github.com/alessandropisent/Tesi\_Magistrale}}, while the performance evaluation metrics will be discussed in subsequent sections.
+
+%% LA REPO NON SONO SICURO DI DOVERLA DARE O DI VOLERLA DARE. NON SO COME FUNZIONI
+
+\end{document}

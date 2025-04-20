@@ -1,0 +1,134 @@
+\documentclass[a4paper,english,noexaminfo]{sapthesis}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[hidelinks]{hyperref} % Rquired for hyperlinks
+\usepackage[nottoc]{tocbibind} % required to add appendix into ToC
+\usepackage{pdfpages} % To add pdf of checklists
+
+\usepackage{float} % to have img centered
+%\usepackage{minted}
+%\usemintedstyle{vs}
+
+
+%% Syle the python/json/grey verb code to add into the appendix
+\input{src/code.style}
+
+\graphicspath{ {./Graphs/} }
+
+
+%% Basic Info
+\title{Feasibility Study on the Use of LLMs for Administrative Regularity Controls in Municipalities}
+\subtitle{Automation with Artificial Intelligence in Public Administration}
+\course{Engineering in Computer Science}
+\courseorganizer{Faculty of Information Engineering, Informatics, and Statistics}
+
+%%% Dates
+\copyyear{May 2025}
+\submitdate{2024/2025}
+%\examdate{May 2025}
+
+
+%%Autore
+\author{Alessandro Pisent}
+\IDnumber{2085678}
+\authoremail{pisent.208567@studenti.uniroma1.it}
+%\authoremail{pisent.alessandro@gmail.com}
+
+
+%% Advisor
+\advisor{Fabrizio Silvestri}
+%\coadvisor{}
+
+
+\date{May 2025}
+
+
+%% Subfiles, beast loaded last
+\usepackage{subfiles}
+
+
+%%% ___________________________________________________________________
+%%% START OF DOCUMENT
+%%% -------------------------------------------------------------------
+\begin{document}
+
+% ----- First Pages
+\maketitle
+\frontmatter
+%%% ABSTRACT
+\subfile{chapters/00.Abstract}
+
+\tableofcontents
+\mainmatter
+
+
+
+%%% ------------------------------------------------------------
+%%% ACTUAL - CHAPTERS
+%%% ------------------------------------------------------------
+
+\chapter{Introduction}
+\subfile{chapters/01.Introduction}
+ 
+
+\chapter{Literature Review}
+\subfile{chapters/02.Literature.Review}
+
+\chapter{Methodology}
+\subfile{chapters/03.Methodology}
+
+\chapter{Experimental Setup and Implementation}
+\subfile{chapters/04.Experimental.Setup} 
+
+\chapter{Results and Analysis}
+\subfile{chapters/05.Results}
+
+\chapter{Discussion}
+\subfile{chapters/06.Discussion}
+
+\chapter{Conclusion and Future Work}
+\subfile{chapters/07.Conclusions}
+
+%---------------------------
+% References
+%---------------------------
+
+\bibliographystyle{sapthesis}
+\bibliography{Tesi}
+
+%---------------------------
+% Appendices
+%---------------------------
+\appendix
+\chapter{Lucca Checklists}
+\subfile{chapters/Appendix.01.Lucca.checklists}
+
+\chapter{Olbia Checklist}
+\subfile{chapters/Appendix.02.Olbia.checklists}
+
+
+\chapter{Template JSON Checklists}
+\subfile{chapters/Appendix.03.TemplateJsonChecklists}
+
+% -----
+%% F: Facoltativo APPENDIX, I do not want to add it but it may be needed
+% -----
+
+%\chapter{Json Checklists}
+%\subfile{chapters/Appendix.F.Json}
+
+%\chapter{Code}
+%\subfile{chapters/Appendix.F.Code}
+
+
+
+%---------------------------
+% Acknowledgments as an Appendix Chapter
+%---------------------------
+\chapter{Acknowledgments}
+\subfile{chapters/00.Ringraziamenti}
+
+%% PRINTED VERSION
+%\chapter{Ringraziamenti}
+%\subfile{chapters/00.Ringraziamenti.Stampare}
+
+\end{document}

@@ -1,0 +1,29 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\textbf{Key Explanations:}
+
+\begin{itemize}
+    \item \greyverb{checklists} (Array): The root element containing one or more checklist objects.
+    \item \greyverb{Checklist Object (within checklists array):} Represents a single complete checklist.
+    \begin{itemize}
+        \item \greyverb{NomeChecklist} (String): A unique name or identifier for this specific checklist (e.g., "Determine", "Contratti"). Used for selection.
+        \item \greyverb{breve} (String): A very short, concise summary of what the checklist is for.
+        \item \greyverb{Descrizione} (String): A more detailed description outlining the checklist's purpose, the context in which it's used, and criteria for when it should be applied to an administrative act. This is crucial for the LLM to automatically select the correct checklist.
+        \item \greyverb{Possibili Risposte} (String): A string representation of a list defining the valid categorical answers the LLM should provide for each point (e.g., "SI", "NO", "NON PERTINENTE").
+        \item \greyverb{Note} (String): An optional field for any general annotations or comments about the checklist itself.
+        \item \greyverb{Punti} (Array): Contains an array of objects, where each object represents a single point or question within the checklist.
+    \end{itemize}
+    \item \greyverb{Punto Object (within Punti array):} Represents a single item to be verified.
+    \begin{itemize}
+        \item \greyverb{Istruzioni} (String): Provides specific instructions, context, or guidance on how to interpret and evaluate this particular checklist point against the administrative act.
+        \item \greyverb{Punto} (String): The literal text of the checklist point or question as it appears in the original document.
+        \item \greyverb{Sezione} (String): An optional field used if the original checklist is divided into named sections (e.g., "General Identifying Elements", "Normative References"). Helps maintain structure.
+        \item \greyverb{num} (String/Integer): The number or unique identifier associated with this specific checklist point. Used for referencing and matching with ground truth data.
+    \end{itemize}
+\end{itemize}
+
+
+ 
+
+\lstinputlisting[caption={Template JSON for the checklists}, label={lst:json_template}, language=json]{src/templateEN.json}
+\end{document}

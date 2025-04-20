@@ -1,0 +1,69 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\section*{Data Preprocessing}
+The preprocessing stage involved:
+
+\begin{itemize}
+    \item \textbf{Conversion of Checklists:}
+ The checklists were transformed into a JSON format, segmenting each point into individual queries.
+    \item \textbf{Text Extraction from PDFs:}
+ Municipal determination documents were downloaded in PDF format and converted into plain text using Python scripts. This ensured that the text was in a consistent format for further analysis.
+\end{itemize}
+ 
+
+\section*{Integration of the LLM}
+Integration of the LLM into the workflow was implemented via a Python-based pipeline:
+
+\begin{itemize}
+    \item \textbf{Template-Based Querying:}
+ A prompt template was developed to structure queries for the LLM. For each determination, the corresponding checklist was identified, and each point was queried individually using the template.
+    \item \textbf{Automated Query Execution:}
+ A Python program was created to loop over each document and checklist point, sending the prompt to the LLM and capturing the responses. The process is parameterized by:
+    \begin{itemize}
+        \item Model type (e.g., “gpt-4o-mini” vs. a larger model)
+        \item Temperature settings (e.g., 0.0, 0.01, 0.5, 1.0) to assess consistency and output quality.
+    \end{itemize}
+    \item \textbf{Output Processing:}
+ The raw outputs from the LLM, which are often lengthy, are parsed using regular expressions to extract standardized responses (SI/NO/NON PERTINENTE). The results for each document are compiled into a CSV file for further analysis.
+\end{itemize}
+
+
+\section*{Workflow Diagram}
+A workflow diagram (to be included as Figure X) summarizes the entire process:
+\begin{enumerate}
+    \item \textbf{Data Collection:} Download PDFs and extract text.
+    \item \textbf{Checklist Selection:} Match documents with their corresponding checklists.
+    \item \textbf{Prompt Generation:} Convert checklists into JSON and generate prompts.
+    \item \textbf{LLM Querying:} Send prompts to the LLM and receive responses.
+    \item \textbf{Response Extraction:} Use regex to parse and standardize responses.
+    \item \textbf{Data Analysis:} Compare LLM results with manually compiled checklists.
+\end{enumerate}
+ 
+
+\section*{Implementation Challenges}
+During implementation, several challenges were encountered:
+
+\begin{itemize}
+    \item \textbf{Text Extraction Issues:}
+ Converting PDFs to clean text sometimes resulted in formatting problems or loss of information.
+    \item \textbf{Prompt Engineering:}
+ Designing prompts that reliably guided the LLM was iterative; adjustments were made to ensure clarity and precision in the responses.
+    \item \textbf{Regex Limitations:}
+ Extracting the standardized SI/NO/NON PERTINENTE responses from long texts required robust regular expressions, which sometimes needed fine-tuning to accommodate unexpected output variations.
+    \item \textbf{Model Variability:}
+ Different temperature settings and model sizes influenced the consistency of outputs, necessitating multiple pilot tests.
+\end{itemize}
+ 
+
+\section*{Pilot Tests}
+Before finalizing the experimental setup, several pilot tests were conducted:
+
+\begin{itemize}
+    \item \textbf{Hyper-Parameter Tuning:}
+ Experiments with various temperature settings helped determine the optimal balance between creativity and consistency in responses.
+    \item \textbf{Validation:}
+ Initial tests compared the LLM’s responses with a small set of manually evaluated documents to fine-tune the prompt design and extraction process.
+    \item \textbf{Iterative Refinement:}
+ Feedback from pilot tests led to improvements in the prompt template, regex patterns, and overall processing pipeline, ensuring that the final system was robust and reliable.
+\end{itemize}
+\end{document}

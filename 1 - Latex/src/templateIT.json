@@ -1,0 +1,20 @@
+{
+    "checklists":[
+        {
+            "NomeChecklist":"identificazione della checklist",
+            "breve":"Descrizione molto sintetica della funzione della checklist",
+            "Descrizione":"Descrizione Breve + **Scopo e Contesto** + **Quando Applicarla**",
+            "Possibili Risposte": "[\"SI\",\"NO\",\"NON PERTINENTE\"]",
+            "Note": "Possibili note",
+            "Punti":[
+                { 
+                    "Istruzioni": "Come leggere il punto della singola checklist, aggiungendo il contesto che di solito è necessario per capirla",
+                    "Punto":"Punto come riportato sulla checklist",
+                    "Sezione": "Sezione (se la checklist è divisa in più sezioni)",
+                    "num":"<int> numero della checklist"
+        
+                }
+            ]
+        }
+    ]
+}

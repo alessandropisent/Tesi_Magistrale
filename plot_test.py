@@ -103,7 +103,7 @@ def graph_df(df, col_to_plot="accuracy", title_ylabel="Accuracy"):
         # errorbar=None # Uncomment if using newer Seaborn and want no error bars
     )
     # --- Add horizontal line at 0.5 ---
-    plt.axhline(0.5, color='lightcoral', linestyle='--', linewidth=1.5, zorder=2)
+    #plt.axhline(0.5, color='lightcoral', linestyle='--', linewidth=1.5, zorder=2)
 
     # --- Add value labels on top of bars ---
     for container in barplot.containers:
@@ -119,7 +119,7 @@ def graph_df(df, col_to_plot="accuracy", title_ylabel="Accuracy"):
     min_val = df[col_to_plot].min()
     max_val = df[col_to_plot].max()
     # Give a bit of padding, but don't go below 0 unless necessary
-    plt.ylim(max(0, min_val - (max_val - min_val)*0.1) , min(1.05, max_val + (max_val - min_val)*0.1))
+    plt.ylim(0, min(1.05, max_val + (max_val - min_val)*0.1))
 
     # Adjust legend position and add a note about colors
     plt.legend(title='Model (Family Colors:\n Llama=Blue, Mistral=Orange, GPT=Green)',

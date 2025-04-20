@@ -1,0 +1,118 @@
+{
+    "checklists": [
+        {
+            "NomeChecklist": "Determine",
+            "breve": "Utilizzare la checklist **Determine** per verificare atti e provvedimenti amministrativi caratterizzati da strutture formali, riferimenti normativi generali e specifici, pianificazione delle attività e misure di controllo preventive.",
+            "Descrizione": "Utilizzare la checklist **Determine** per verificare atti e provvedimenti amministrativi caratterizzati da strutture formali, riferimenti normativi generali e specifici, pianificazione delle attività e misure di controllo preventive.\n**Scopo e contesto**:\nQuesta checklist è concepita per la verifica delle determinazioni amministrative e atti interni. Essa si rivolge principalmente a quei provvedimenti che hanno una natura gestionale e di controllo, in cui è fondamentale assicurare la corretta strutturazione formale e la completezza dei riferimenti normativi e procedurali. È indicata per quei casi in cui la determina riguardi la definizione della competenza, la strutturazione dell’atto e la connettività con strumenti di programmazione e audit interni (come il Piano di Auditing 2024).\n**Quando applicarla**:\nQuesta checklist è particolarmente indicata per le determinazioni che hanno come oggetto l’adozione di atti formali e gestionali, in cui si deve garantire una completa conformità procedurale e normativa. Se la determina in esame richiede la validazione di atti amministrativi interni, con riferimento a responsabilità, competenze e misure preventive, allora è consigliabile applicare la checklist **Determine**.",
+            "Punti": [
+                {
+                    "Istruzioni": "Controlla se sono specificate le competenze degli organi",
+                    "Punto": "Competenza organo/dirigente individuato con decreto",
+                    "num": 1
+                },
+                {
+                    "Istruzioni": "Controlla se è presente l'articolazione dell'atto",
+                    "Punto": "Articolazione dell’atto in intestazione  preambolo/premessa, parte motivazione, dispositivo, indicazione autorità e termini per ricorrere, riferimenti al deposito nel fascicolo digitale degli atti afferenti il procedimento amm.vo ex art. 41 CAD (gestione documentale)",
+                    "num": 2
+                },
+                {
+                    "Istruzioni": "Controlla se ci sono i riferimenti normativi di carattere generale",
+                    "Punto": "Affidabilità riferimenti normativi di carattere generale es. TUEL ",
+                    "num": 3
+                },
+                {
+                    "Istruzioni": "Controlla se sono presenti i riferimenti normativi specifici",
+                    "Punto": "Affidabilità riferimenti normativi specifici es. Codice dei contratti, Regolamenti Ente",
+                    "num": 4
+                },
+                {
+                    "Istruzioni": "Controlla se sono presenti le attività",
+                    "Punto": "Nel caso di attività inserite negli atti di programmazione Coerenza con: \n- DUP  e PIAO \n- Bilancio di Previsione se trattasi di DD con spesa; \n- cronoprogramma  in fase di esecuzione (lavori, forniture, servizi \n- SITAT e altre banche dati)",
+                    "num": 5
+                },
+                {
+                    "Istruzioni": "Controlla se è indicata esplicitamente la motivazione",
+                    "Punto": "Esplicitazione motivazione con puntuale indicazione presupposti di fatto e ragioni giuridiche (riferimenti normativi e/o regolamentari)",
+                    "num": 6
+                },
+                {
+                    "Istruzioni": "Controlla se sono presenti i seguenti punti:",
+                    "Punto": "1) Responsabile del Procedimento ovvero distinzione tra responsabile del procedimento e del provvedimento; se è la EQ responsabile del provvedimento (delega di firma) indicare l’attribuzione/delega del Dirigente\n2)  indicare  RUP delegato per fase",
+                    "num": 7
+                },
+                {
+                    "Istruzioni": "Controlla se sono indicate le seguenti misure:",
+                    "Punto": "Indicazione misure di prevenzione pertinenti rispetto allo specifico provvedimento, ad es:\n- conflitto di interessi (per il PNRR obbligatorio sempre chiedere la dichiarazione)\n- obblighi di pubblicità ai sensi delle Delibere ANAC 2023 per contratti finiti o in corso al 31.1.2023\n- obblighi di pubblicità ai sensi del Dlvo 36/2023, art. 28\nQualora il provvedimento sia funzionale al raggiungimento di un obiettivo di performance, dare atto del rispetto delle misure di protezione inserite nelle fasi di PIAO",
+                    "num": 8
+                },
+                {
+                    "Istruzioni": "Controlla se la normativa sulla tutela della riservatezza è rispettata",
+                    "Punto": "Rispetto normativa sulla tutela della riservatezza laddove rilevante",
+                    "num": 9
+                },
+                {
+                    "Istruzioni": "Controlla se sono stati rispettati i tempi e termini del procedimento",
+                    "Punto": "Rispetto dei tempi e dei termini del procedimento",
+                    "num": 10
+                },
+                {
+                    "Istruzioni": "Sono presenti altre annotazioni Criticità?",
+                    "Punto": "Altre annotazioni/criticità in merito: a. possibilità di semplificare\nb. possibilità di digitalizzare\nc. fare un focus specifico\nd. pari opportunità\ne. accesso",
+                    "num": 11
+                }
+            ]
+        },
+        {
+            "NomeChecklist": "Contratti",
+            "breve": "Applicare la checklist **Contratti** quando la determina ha una natura contrattuale, richiedendo il controllo dei criteri di selezione, le condizioni economiche e gestionali, e il rispetto degli obblighi normativi relativi alla trasparenza, privacy e piattaforme digitali.",
+            "Descrizione": "Applicare la checklist **Contratti** quando la determina ha una natura contrattuale, richiedendo il controllo dei criteri di selezione, le condizioni economiche e gestionali, e il rispetto degli obblighi normativi relativi alla trasparenza, privacy e piattaforme digitali.\n**Scopo e contesto**\nLa checklist **Contratti** è studiata per il controllo e la verifica dei contratti pubblici, con particolare attenzione alle scritture private e lettere commerciali, come previsto nel Piano di Auditing 2024 per il primo semestre in materia di appalti e concessioni. È destinata a quelle determinate che riguardano l'affidamento e la gestione di contratti, dove la corretta applicazione dei criteri di selezione e il rispetto delle normative specifiche in tema di trasparenza, privacy e pubblicità sono elementi fondamentali.\n**Quando applicarla**:\nQuesta checklist si applica quando la determina riguarda la stipula, gestione o controllo di contratti pubblici. Se la proposta di determina include elementi contrattuali (identificazione del tipo di contratto, criteri di selezione, condizioni economiche, regolamentazioni di privacy e comportamentali, e l’uso di piattaforme di e-procurement), la checklist **Contratti** diventa lo strumento di riferimento per verificare la conformità e la completezza delle informazioni necessarie.",
+            "Punti": [
+                {
+                    "Istruzioni": "Controlla se è presente la specifica natura del contratto nella determina. Controlla che ci siano gli estremi.",
+                    "Punto": "Natura del contratto: lettera commerciale, contratto",
+                    "num": 1
+                },
+                {
+                    "Istruzioni": "Controlla se sono presenti i riferimenti alla Determina Dirigenziale",
+                    "Punto": "Riferimenti alla DD di affidamento e alla normativa",
+                    "num": 2
+                },
+                {
+                    "Istruzioni": "Controlla se sono presenti i criteri di selezione del operatore economico",
+                    "Punto": "CRITERIO di SELEZIONE operatore economico\n- Estremi o riferimento a gara (procedure aperte o ristrette)\n- Estremi o riferimento ad affidamento diretto anche senza confronto tra differenti preventivi, il comma 1 dell’art. 50 sottolinea l’importanza del possesso di 'documentate esperienze pregresse idonee all’esecuzione delle prestazioni contrattuali'\nArt. 50, c. 1 Dlvo 36/2023 Regolamento UE 2495 del 15/11/2023 per le soglie comunitarie\n- importo stimato lavori fino a 150.000  servizi forniture sino a 140.000 affidamento diretto\n- da 150.000 a 1.000.000 procedura negoziata senza bando previa consultazione 5 OE\n- procedura ordinaria per lavori di importo pari o superiore a 1.000.000 e fino alle soglie di rilevanza europea\n- inferiore a 5.000 senza principio di rotazione_",
+                    "num": 3
+                },
+                {
+                    "Istruzioni": "Controlla se i tempi di pagamento sono specificati",
+                    "Punto": "Tempi di pagamento fatture (specificare se superiori a 30 giorni o fare riferimento ad atto richiamato)",
+                    "num": 5
+                },
+                {
+                    "Istruzioni": "Controlla se i termini di conclusione della prestaione/lavori sono nominati",
+                    "Punto": "Termini di conclusione della prestazione/lavori",
+                    "num": 6
+                },
+                {
+                    "Istruzioni": "Controlla se sono specificati i fondi",
+                    "Punto": "Specificare se sono fondi soggetti a rendicontazione",
+                    "num": 7
+                },
+                {
+                    "Istruzioni": "Controlla se si da atto che la normativa per la privacy è rispettata",
+                    "Punto": "Specificare la normativa sulla privacy per i dati personali",
+                    "num": 8
+                },
+                {
+                    "Istruzioni": "Controlla se il codice è richiamato",
+                    "Punto": "Richiamato il codice di comportamento dei dipendenti ",
+                    "num": 9
+                },
+                {
+                    "Istruzioni": "Si da atto che la piattaforma di e-precurement è stata utilizzata?",
+                    "Punto": "Piattaforma di e-procurement: Start, Consip Mepa ai fini della pubblicità su Banca Dati Nazionale/PCT ANAC ",
+                    "num": 10
+                }
+            ]
+        }
+    ]
+}
