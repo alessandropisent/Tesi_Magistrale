@@ -1,0 +1,31 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+%% TODO % ADD THE Citazioni al interno dei paper citati
+
+
+
+%\section*{Previous Studies}
+%Numerous studies have examined the role and effectiveness of administrative control in public administration. Research has highlighted that manual auditing, while thorough, is resource-intensive and subject to human error []. Studies in the field of compliance and administrative control have often focused on evaluating the impact of manual processes and rule-based systems, emphasizing the challenges associated with large-scale data and the inherent subjectivity in human evaluations. Recent analyses have also considered the benefits of automation in auditing processes; however, these works primarily address traditional IT-based approaches rather than leveraging modern artificial intelligence methodologies . The literature clearly indicates a need for more efficient, reliable, and consistent methods to perform these critical checks.
+
+\section*{NLP and LLMs in Legal and Administrative Contexts}
+The application of Natural Language Processing (NLP) in the legal domain has gained significant traction in recent years, driven by the need to handle vast quantities of complex legal texts. Initial research efforts focused on tasks such as legal document summarization, contract analysis, and information extraction \cite{katz_natural_2023}. With the advent of large language models (LLMs), such as GPT-3 and GPT-4, there has been a notable shift toward leveraging these models to interpret and analyze legal language. Studies have shown that LLMs can effectively parse complex legal documents and provide summaries or extract relevant clauses, making them promising candidates for automating administrative audits \cite{ariai_natural_2025}. In administrative contexts, LLMs have been explored for tasks ranging from automated compliance checks to decision support in regulatory matters, although the integration of such models into full-scale auditing processes remains an emerging research area. 
+
+It is important to note that the almost all AI governance documents focus on \textbf{what} to do with respect to making AI systems transparent, but left how to build them \cite{bell_think_2022}. So when we start to think about AI automation we need to keep humans in the loop, and we need to make incremental improvements on the tools that we build \cite{ibrahim_beyond_2024}. Established research confirms the significant capability of large language models for zero-shot semantic annotation of legal and regulatory documents based solely on concise definitional prompts. This approach demonstrably reduces the technical and economic prerequisites for automating complex analysis tasks, such as administrative regularity control in municipal contexts \cite{savelka_unreasonable_2023}.
+
+\section*{Research Gaps}
+Despite the growing body of research on both administrative control and the application of NLP in the legal field, significant gaps remain. While traditional studies have extensively documented the inefficiencies and limitations of manual audits, few have explored the practical integration of LLMs to automate the selection and application of checklists in administrative control processes. In particular, the current literature does not fully address:
+\begin{itemize}
+    \item The ability of LLMs to autonomously select the most appropriate checklist for a given administrative act based on detailed use-case descriptions.
+    \item Comparative evaluations between automated systems using LLMs and traditional manual inspections, especially in the context of Italian public administration.
+    \item The impact of varying model parameters (e.g., temperature settings) and model sizes on the consistency and accuracy of automated compliance assessments.
+\end{itemize}
+These gaps justify the need for a novel LLM-based approach, as proposed in this study, to enhance the efficiency, reliability, and scalability of administrative regularity controls in public administrations. By addressing these issues, our work aims to provide a robust foundation for the adoption of AI-driven solutions in regulatory compliance and auditing processes.
+
+% Include bibliography only when compiling this subfile independently
+\ifSubfilesClassLoaded{
+    \bibliographystyle{sapthesis}
+    \bibliography{Tesi}
+}{}
+
+\end{document}

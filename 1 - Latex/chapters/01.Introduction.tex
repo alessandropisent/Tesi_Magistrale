@@ -1,58 +1,101 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
 
-\section*{Background}
-In the context of Italian public administrations, the administrative and accounting regularity control is a crucial function aimed at ensuring that every entity operates in compliance with the applicable laws and regulations. This process is governed by Article 147-bis of the \textit{"Testo Unico degli Enti Locali (TUEL)"}. According to Article 147-bis TUEL, the control process is divided into two main phases:
+\section{Artificial Intelligence}
+
+Artificial Intelligence (AI) is a broad field concerned with building systems capable of simulating intelligent behavior. It encompasses various approaches, including logic-based systems, search algorithms, and probabilistic reasoning. 
+
+Machine Learning (ML) is a significant subset of AI that focuses on methods that learn to make decisions or predictions by fitting mathematical models to observed data. Instead of being explicitly programmed for a task, ML models learn patterns and relationships from data. ML can be broadly categorized into: 
 
 \begin{itemize}
-    \item \textbf{Preventive Control:} During the formation of the act, each service manager is required to express an opinion on technical regularity, certifying the correctness and compliance of the administrative action. At the same time, the financial service manager issues an accounting regularity opinion and affixes the financial coverage endorsement, ensuring that the act has the necessary economic resources.
-    \item \textbf{Subsequent Control:} After the adoption of the act, a control is carried out following the general principles of corporate auditing. This phase is conducted under the direction of the entity's secretary, who randomly selects determinations of expenditure commitments, contracts, and other administrative acts using motivated sampling techniques. The results of this control are then periodically transmitted to the service managers, auditors, employee evaluation bodies, and the municipal council, along with directives to correct any irregularities detected.
+    \item Supervised Learning: Models learn a mapping from input data to output predictions using labeled training examples (input-output pairs). Common tasks include regression (predicting continuous values, like house prices)  and classification (assigning inputs to predefined categories, like identifying objects in images).
+
+    \item Unsupervised Learning: Models learn from input data without corresponding output labels, aiming to uncover structure or patterns within the data. Generative models, a key type of unsupervised learning, learn to synthesize new data examples that resemble the training data.
+    
+    \item Reinforcement Learning (RL): An agent learns to make sequential decisions by interacting with an environment, receiving rewards or penalties for its actions, to maximize cumulative rewards.
+    
 \end{itemize}
 
-The primary objective of these controls is to ensure the legitimacy, regularity, and correctness of administrative actions, thereby preventing inefficiencies, abuses, or regulatory violations. However, the traditional process of relying on manual inspections is time-consuming, resource-intensive, and susceptible to human errors or omissions.
+ Deep Learning (DL) is the process of fitting a specific type of ML model, known as deep neural networks, to data. Deep neural networks consist of multiple layers of interconnected nodes (neurons), allowing them to learn complex, hierarchical representations of data. They have become the state-of-the-art approach within all three major ML paradigms.
 
-To address these challenges and improve the efficiency of controls, we have developed an automated system that leverages advanced language models (LLMs). Our system is designed not only to analyze administrative acts but also to autonomously select the most appropriate checklist for each document based on detailed use-case descriptions provided within each checklist. In practice, the LLM examines the content of the act and determines which checklist to apply for verifying compliance with the regulations. Subsequently, the model responds to each point in the selected checklist, evaluating the act's conformity with the established criteria. This innovative approach not only accelerates the control process but also reduces the likelihood of errors, ensuring a more accurate and consistent evaluation.
+Natural Language Processing (NLP) is a field within AI and computer science focused on enabling computers to process, understand, generate, and interact with human language. Tasks within NLP include machine translation, text summarization, sentiment analysis, question answering, and more. Deep learning, particularly using architectures like Transformers, has become central to achieving state-of-the-art performance in many NLP tasks.
 
-\section*{Research Motivation and Problem Statement}
+Large Language Models (LLMs) represent a significant advancement within NLP, based on deep learning architectures, most notably the Transformer. LLMs are pre-trained on vast amounts of text data, allowing them to store substantial factual knowledge implicitly within their parameters. The Transformer architecture, introduced by Vaswani et al. (2017)\cite{vaswaniAttentionAllYou2023}, relies entirely on attention mechanisms, specifically self-attention, to model dependencies between different parts of the input sequence, regardless of their distance. This contrasts with older recurrent models that process sequences sequentially. Key components include scaled dot-product attention  and multi-head attention, which allows the model to jointly attend to information from different representation subspaces.
+
+LLMs, often implemented as sequence-to-sequence (seq2seq) models like BART, excel at generation tasks. However, accessing and manipulating their internal knowledge precisely can be challenging. Approaches like Retrieval-Augmented Generation (RAG) aim to address this by combining the parametric knowledge of a pre-trained LLM with explicit, non-parametric knowledge retrieved from external sources (like a Wikipedia index)\cite{lewisRetrievalAugmentedGenerationKnowledgeIntensive2021}. This hybrid approach allows the model to access and ground its generations in verifiable external information. 
+\cite{prince2023understanding}
+
+
+\section{Artificial Intelligence use in law context}
+Artificial Intelligence (AI), particularly the rapid advancements in Large Language Models (LLMs), is increasingly presenting compelling possibilities within the legal domain. These technologies offer potential for tasks ranging from legal research to improving access to information \cite{cheongAIAmNot2024}.
+
+Recognizing both the potential and the inherent risks, particularly concerning accuracy, bias, and the implications of providing automated legal advice, regulatory bodies like the European Union are establishing foundational rules, such as the proposed AI Act. This Act aims to create a harmonized framework, classifying certain applications, including those assisting in legal interpretation or administration of justice, as 'high-risk' and subject to specific requirements \cite{ProposalREGULATIONEUROPEAN2021}. 
+
+As the potential for AI, particularly LLMs, to contribute meaningfully to the legal field becomes increasingly apparent, this thesis undertakes a feasibility study exploring a specific, alternative application distinct from direct legal advice. We investigate leveraging these models to automate the process-driven task of Municipal Administrative Regularity Control in Italy. This application, centered on document analysis and checklist compliance rather than legal judgment, represents a potentially permissible and beneficial use of AI within the evolving regulatory landscape, aiming to enhance efficiency and consistency in administrative oversight.
+
+It is well-established within AI research for critical societal domains that Large Language Models offer significant potential for automating complex, knowledge-intensive tasks, such as legal document analysis and compliance checks. However, successfully deploying these models in high-stakes, regulated environments like law and public administration necessitates addressing inherent and well-documented challenges related to embedding deep domain expertise, ensuring data confidentiality, achieving strict regulatory adherence, guaranteeing explainability and fairness, and mitigating model hallucination \cite{chenSurveyLargeLanguage2024}.
+
+The established body of work on Legal NLP demonstrates that Large Language Models are increasingly utilized for tasks directly relevant to administrative regularity, such as document classification, information extraction, and compliance monitoring. Domain-specific model adaptation, often through fine-tuning or continued pre-training on legal corpora, is recognized as a key factor for enhancing performance in these specialized contexts. However, overcoming limitations in effectively processing long or ambiguous texts and consistently matching the nuanced judgment of human experts remain active and acknowledged areas of research within the field \cite{siinoExploringLLMsApplications2025}. 
+
+\section{NLP and LLMs in Legal and Administrative Contexts}
+The application of Natural Language Processing (NLP) in the legal domain has gained significant traction in recent years, driven by the need to handle vast quantities of complex legal texts. Initial research efforts focused on tasks such as legal document summarization, contract analysis, and information extraction \cite{katzNaturalLanguageProcessing2023}. With the advent of large language models (LLMs), such as GPT-3 and GPT-4, there has been a notable shift toward leveraging these models to interpret and analyze legal language. Studies have shown that LLMs can effectively parse complex legal documents and provide summaries or extract relevant clauses, making them promising candidates for automating administrative audits \cite{ariaiNaturalLanguageProcessing2025}. In administrative contexts, LLMs have been explored for tasks ranging from automated compliance checks to decision support in regulatory matters, although the integration of such models into full-scale auditing processes remains an emerging research area. 
+
+It is important to note that the almost all AI governance documents focus on \textbf{what} to do with respect to making AI systems transparent, but left how to build them \cite{bellThinkStakeholdersFirst2022}. So when we start to think about AI automation we need to keep humans in the loop, and we need to make incremental improvements on the tools that we build \cite{ibrahimStaticAIEvaluations2024}. Established research confirms the significant capability of large language models for zero-shot semantic annotation of legal and regulatory documents based solely on concise definitional prompts. This approach demonstrably reduces the technical and economic prerequisites for automating complex analysis tasks, such as administrative regularity control in municipal contexts \cite{savelkaUnreasonableEffectivenessLarge2023}.
+
+\section{Research Gaps}
+Despite the growing body of research on both administrative control and the application of NLP in the legal field, significant gaps remain. While traditional studies have extensively documented the inefficiencies and limitations of manual audits, few have explored the practical integration of LLMs to automate the selection and application of checklists in administrative control processes. In particular, the current literature does not fully address:
+\begin{itemize}
+    \item The ability of LLMs to autonomously select the most appropriate checklist for a given administrative act based on detailed use-case descriptions.
+    \item Comparative evaluations between automated systems using LLMs and traditional manual inspections, especially in the context of Italian public administration.
+    \item The impact of varying model parameters (e.g., temperature settings) and model sizes on the consistency and accuracy of automated compliance assessments.
+\end{itemize}
+These gaps justify the need for a novel LLM-based approach, as proposed in this study, to enhance the efficiency, reliability, and scalability of administrative regularity controls in public administrations. By addressing these issues, our work aims to provide a robust foundation for the adoption of AI-driven solutions in regulatory compliance and auditing processes.
+
+
+\section{Problem Statement}
 This research is motivated by the need to streamline, accelerate, and automate the administrative regularity control process. The traditional manual approach, while thorough, can be inconsistent and prone to oversights due to its labor-intensive nature. By implementing an automated system using a large language model (LLM) to analyze municipal acts, it becomes possible to more efficiently identify irregularities. This study addresses the challenge of enhancing the detection of compliance issues within public administration through advanced artificial intelligence techniques.
 
-\section*{Objectives}
+\section{Research Questions and Hypotheses}
+The study is driven by the following research questions (RQ) and corresponding hypotheses:
+\begin{enumerate}
+    %\item \textbf{Can the LLM understand the act?} \\
+    %\textit{Hypothesis:} Yes, the LLM will be able to correctly summarize and interpret the content of the act.
+
+    \item \textbf{RQ1}: Can the LLM correctly select the checklist of the act?
+    \\
+    \textit{Hypothesis:} Yes, since the models are capable to understand and summarize the act, they will be able to select the correct checklist.
+    
+    \item \textbf{RQ2}: Can the LLM respond to each point of the checklist?
+    \\
+    \textit{Hypothesis:} Yes, as the checklist is designed to require only minimal legal interpretation from the employee.
+    
+    \item \textbf{RQ3}: Does varying the temperature parameter affect model performance, and is a lower temperature preferable for consistent results?
+    \\
+    \textit{Hypothesis:} Yes, temperature changes will affect the output, with lower temperatures likely yielding more consistent and reliable results.
+    
+    \item \textbf{RQ4}: \text{Do larger models with more parameters perform better?} 
+    \\
+    \textit{Hypothesis:} Yes, larger models are expected to perform better due to their enhanced capacity to understand and process complex texts.
+
+
+\end{enumerate}
+
+\section{Objectives}
 The primary objectives of this feasibility study are to:
 \begin{itemize}
-    \item Evaluate the ability of a large language model to understand and summarize complex municipal acts.
     \item Assess the effectiveness of the LLM in answering checklist-based questions point by point.
     \item Investigate the impact of varying model parameters, such as temperature settings, on performance and consistency.
     \item Compare the performance of different model sizes, hypothesizing that larger models with more parameters yield better results.
     \item Provide practical insights on automating administrative auditing processes, with a focus on improvements in efficiency and accuracy.
 \end{itemize}
 
-\section*{Research Questions and Hypotheses}
-The study is driven by the following research questions and corresponding hypotheses:
-\begin{enumerate}
-    %\item \textbf{Can the LLM understand the act?} \\
-    %\textit{Hypothesis:} Yes, the LLM will be able to correctly summarize and interpret the content of the act.
 
-    \item \textbf{Can the LLM correctly select the checklist of the act?} \\
-    \textit{Hypothesis:} Yes, since the models are capable to understand and summarize the act, they will be able to select the correct checklist.
-    
-    \item \textbf{Can the LLM respond to each point of the checklist?} \\
-    \textit{Hypothesis:} Yes, as the checklist is designed to require only minimal legal interpretation from the employee.
-    
-    \item \textbf{Does varying the temperature parameter affect model performance, and is a lower temperature preferable for consistent results?} \\
-    \textit{Hypothesis:} Yes, temperature changes will affect the output, with lower temperatures likely yielding more consistent and reliable results.
-    
-    \item \textbf{Do larger models with more parameters perform better?} \\
-    \textit{Hypothesis:} Yes, larger models are expected to perform better due to their enhanced capacity to understand and process complex texts.
-
-
-\end{enumerate}
-
-\section*{Overview of the Study Design and Approach}
+\section{Overview of the Study Design and Approach}
 The study adopts a methodological approach that involves:
 \begin{itemize}
     \item \textbf{Data Collection:} Gathering checklists from the municipalities of Olbia and Lucca, which serve as the basis for the administrative control criteria.
     
-    \item \textbf{Data Preparation:} Transforming these checklists into JSON format to facilitate their integration into the automated system. Additionally, municipal acts are downloaded from the official public bulletin (\textit{albo pretorio}) and converted into plain text.
+    \item \textbf{Data Preparation:} Transforming these checklists into JSON format to facilitate their integration into the automated system. Additionally, municipal acts are downloaded from the official public bulletin ("\textit{albo pretorio}" in Italian) and converted into plain text.
     
     \item \textbf{Automated Analysis:} Using a structured prompt, the LLM is tasked with answering the checklist questions based on the content of the municipal acts. Our system includes code that enables the LLM to automatically choose the most appropriate checklist for each act based on the detailed use-case descriptions provided within each checklist.
     
@@ -61,6 +104,12 @@ The study adopts a methodological approach that involves:
 
 \noindent In summary, the integration of advanced language models into the process of administrative regularity control offers a promising solution to improve the efficiency and reliability of audits in public entities, thereby contributing to more transparent and regulation-compliant management. Detailed technical implementations and the code repository are available on GitHub \footnote{The repo is at   : \href{https://github.com/alessandropisent/Tesi\_Magistrale}{github.com/alessandropisent/Tesi\_Magistrale}}, while the performance evaluation metrics will be discussed in subsequent sections.
 
-%% LA REPO NON SONO SICURO DI DOVERLA DARE O DI VOLERLA DARE. NON SO COME FUNZIONI
+%% LA REPO NON SONO SICURO DI DOVERLA DARE O DI VOLERLA DARE. TBD
+
+% Include bibliography only when compiling this subfile independently
+\ifSubfilesClassLoaded{
+    \bibliographystyle{sapthesis}
+    \bibliography{Tesi}
+}{}
 
 \end{document}

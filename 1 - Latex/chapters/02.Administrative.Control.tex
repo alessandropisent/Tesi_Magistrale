@@ -1,0 +1,36 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+%%%% RIPETIZIONE
+%\section*{Administrative Regularity and Governance}
+%In Italian public administration, administrative regularity controls are essential to ensuring that municipal actions comply with the laws and regulations in force. These controls, mandated by frameworks such as the Testo Unico degli Enti Locali (TUEL) and specific legislative provisions (e.g., Art. 147-bis TUEL), serve to validate the legitimacy, regularity, and correctness of administrative acts. Traditionally, these controls involve both a \textit{preventive} phase, where service managers and financial officers certify the technical and fiscal correctness of an act, and a \textit{subsequent} phase, where independent audits and random sampling of acts are carried out to detect any irregularities or deviations from the established norms. The overall aim is to prevent inefficiencies, abuses, or regulatory violations, thus promoting transparency and accountability in governance.
+
+\section{Background}
+In the context of Italian public administrations, the administrative and accounting regularity control is a crucial function aimed at ensuring that every entity operates in compliance with the applicable laws and regulations. This process is governed by Article 147-bis of the \textit{"Testo Unico degli Enti Locali (TUEL)"}. According to Article 147-bis TUEL, the control process is divided into two main phases \cite{tuel_art147bis}:
+
+\begin{itemize}
+    \item \textbf{Preventive Control:} During the formation of the act, each service manager is required to express an opinion on technical regularity, certifying the correctness and compliance of the administrative action. At the same time, the financial service manager issues an accounting regularity opinion and affixes the financial coverage endorsement, ensuring that the act has the necessary economic resources.
+    \item \textbf{Subsequent Control:} After the adoption of the act, a control is carried out following the general principles of corporate auditing. This phase is conducted under the direction of the entity's secretary, who randomly selects determinations of expenditure commitments, contracts, and other administrative acts using motivated sampling techniques. The results of this control are then periodically transmitted to the service managers, auditors, employee evaluation bodies, and the municipal council, along with directives to correct any irregularities detected.
+\end{itemize}
+
+The primary objective of these controls is to ensure the legitimacy, regularity, and correctness of administrative actions, thereby preventing inefficiencies, abuses, or regulatory violations. However, the traditional process of relying on manual inspections is time-consuming, resource-intensive, and susceptible to human errors or omissions.
+
+In this work we will focus  on the Subsequent Control. To address these challenges and improve the efficiency of controls, we have developed an automated system that leverages Large language models (LLMs). Our system is designed not only to analyze administrative acts but also to autonomously select the most appropriate checklist for each document based on detailed use-case descriptions provided within each checklist. In practice, the LLM examines the content of the act and determines which checklist to apply for verifying compliance with the regulations. Subsequently, the model responds to each point in the selected checklist, evaluating the act's conformity with the established criteria. This innovative approach not only accelerates the control process but also reduces the likelihood of errors, ensuring a more accurate and consistent evaluation.
+
+
+\section{Checklist development}
+The verification of administrative regularity for public acts is a critical function within public administration. While theoretically, this assessment could be conducted by an individual possessing formal legal qualifications, the need for consistent and standardized evaluation across numerous procedures and different personnel has led public entities, such as municipalities, to adopt a structured approach. To achieve this standardization, specific checklists are developed internally. These checklists, tailored precisely to the requirements of the corresponding public act under review, guide designated public employees - who may not necessarily be legal experts - through the systematic verification process, ensuring uniform application of the relevant rules and regulations.
+
+\section{Use of AI in public Administrations}
+It is well-established within public administration and regulatory scholarship that while Generative AI offers considerable potential to enhance governmental efficiency by supporting tasks such as document analysis and drafting relevant to administrative regularity control, its practical implementation necessitates careful management. Experts recognize that effectively integrating these technologies requires addressing significant, known challenges related to output accuracy, data security, potential bias, and alignment with core administrative law principles, typically involving robust human oversight and adherence to risk-based governance frameworks \cite{weertsGenerativeAIPublic2025}.
+
+
+
+
+% Include bibliography only when compiling this subfile independently
+\ifSubfilesClassLoaded{
+    \bibliographystyle{sapthesis}
+    \bibliography{Tesi}
+}{}
+
+\end{document}

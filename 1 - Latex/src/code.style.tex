@@ -1,4 +1,5 @@
 \usepackage{listings}
+\usepackage{upquote} % Good practice for listings
 \usepackage{xcolor}
 
 % Define custom colors
@@ -38,6 +39,7 @@
     numbers=left,
     numberstyle=\scriptsize,
     breaklines=true,
+    upquote=true,
     frame=lines,
     backgroundcolor=\color{gray!10},
     showstringspaces=false,
@@ -63,7 +65,15 @@
       {\{}{{{\color{gray}{\{}}}}{1}
       {\}}{{{\color{gray}{\}}}}}{1}
       {[}{{{\color{gray}{[}}}}{1}
-      {]}{{{\color{gray}{]}}}}{1},
+      {]}{{{\color{gray}{]}}}}{1}
+      % --- Add these lines for Italian characters ---
+      %{à}{{\`a}}1
+      %{è}{{\`e}}1
+      %{é}{{\'e}}1
+      %{ì}{{\`i}}1
+      %{ò}{{\`o}}1
+      %{ù}{{\`u}}1 % The crucial one for your current error
+      ,
 }
 
 %% Grey verb

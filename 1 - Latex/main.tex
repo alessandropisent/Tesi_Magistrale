@@ -1,3 +1,14 @@
+%% --- file metadata
+%% --- Optional but information about the file for PDF/A
+%\begin{filecontents*}[overwrite]{\jobname.xmpdata}
+%\Title{Feasibility Study on Automating Municipal Administrative Regularity Controls using Large Language Models}
+%\Author{Alessandro Pisent}
+%\Language{en-GB}
+%\Subject{Automation with Artificial Intelligence in Public Administration}
+%\Keywords{Artificial Intelligence \sep keyword2\sep keyword3}
+%\end{filecontents*}
+
+%% ---- START OF the file
 \documentclass[a4paper,english,noexaminfo]{sapthesis}
 \usepackage{graphicx} % Required for inserting images
 \usepackage[hidelinks]{hyperref} % Rquired for hyperlinks
@@ -8,6 +19,15 @@
 %\usepackage{minted}
 %\usemintedstyle{vs}
 
+%% There packages are not needed if compiled with LuaLatex
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+%% ---- PDF/A Compliance
+%\usepackage[a-2b,mathxmp]{pdfx}[2025/5/31]
+%\hypersetup{pdfstartview=}
+
 
 %% Syle the python/json/grey verb code to add into the appendix
 \input{src/code.style}
@@ -16,7 +36,7 @@
 
 
 %% Basic Info
-\title{Feasibility Study on the Use of LLMs for Administrative Regularity Controls in Municipalities}
+\title{Feasibility Study on Automating Municipal Administrative Regularity Controls using Large Language Models}
 \subtitle{Automation with Artificial Intelligence in Public Administration}
 \course{Engineering in Computer Science}
 \courseorganizer{Faculty of Information Engineering, Informatics, and Statistics}
@@ -69,24 +89,19 @@
 \chapter{Introduction}
 \subfile{chapters/01.Introduction}
  
-
-\chapter{Literature Review}
-\subfile{chapters/02.Literature.Review}
-
-\chapter{Methodology}
-\subfile{chapters/03.Methodology}
+\chapter{Administrative compliance control}
+\textit{(Italian translation: Controllo di regolarità administrativa)}
+\subfile{chapters/02.Administrative.Control}
 
 \chapter{Experimental Setup and Implementation}
-\subfile{chapters/04.Experimental.Setup} 
+\subfile{chapters/03.Experimental.Setup} 
 
 \chapter{Results and Analysis}
-\subfile{chapters/05.Results}
+\subfile{chapters/04.Results}
 
-\chapter{Discussion}
-\subfile{chapters/06.Discussion}
+\chapter{Discussion and Conclusion}
+\subfile{chapters/05.Conclusions}
 
-\chapter{Conclusion and Future Work}
-\subfile{chapters/07.Conclusions}
 
 %---------------------------
 % References
@@ -94,10 +109,24 @@
 
 \bibliographystyle{sapthesis}
 \bibliography{Tesi}
+%\bibliography{Tesi.Standard}
+
 
 %---------------------------
 % Appendices
 %---------------------------
+% Ensure the appendix section starts correctly
+\cleardoublepage 
+
+% Add an invisible anchor point for the ToC link
+\phantomsection 
+
+% Create the unnumbered chapter page titled "APPENDICES"
+\chapter*{APPENDICES} 
+
+% Add the "APPENDICES" entry to the Table of Contents, styled as a chapter
+\addcontentsline{toc}{chapter}{APPENDICES}
+
 \appendix
 \chapter{Lucca Checklists}
 \subfile{chapters/Appendix.01.Lucca.checklists}
@@ -107,14 +136,15 @@
 
 
 \chapter{Template JSON Checklists}
+\label{appendix:json_template}
 \subfile{chapters/Appendix.03.TemplateJsonChecklists}
 
 % -----
 %% F: Facoltativo APPENDIX, I do not want to add it but it may be needed
 % -----
 
-%\chapter{Json Checklists}
-%\subfile{chapters/Appendix.F.Json}
+\chapter{Json Checklists - Used}
+\subfile{chapters/Appendix.F.Json}
 
 %\chapter{Code}
 %\subfile{chapters/Appendix.F.Code}
@@ -127,7 +157,7 @@
 \chapter{Acknowledgments}
 \subfile{chapters/00.Ringraziamenti}
 
-%% PRINTED VERSION
+%% PRINTED VERSION - For me and family
 %\chapter{Ringraziamenti}
 %\subfile{chapters/00.Ringraziamenti.Stampare}
 
