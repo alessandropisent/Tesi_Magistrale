@@ -90,22 +90,22 @@ The F1-Score graph, which balances precision and recall, further reinforces the 
 \subsection{Confusion Matrix}
 
 \subsubsection{GPT 4o Confusion Matrix}
-\begin{wrapfigure}{L}{0.70\textwidth}
+\begin{wrapfigure}{L}{0.40\textwidth}
     \centering
-    \includegraphics[width=0.70\textwidth]{Graphs/Confusion Matrix GPT 4o.png}
+    \includegraphics[width=0.40\textwidth]{Graphs/Confusion Matrix GPT 4o.png}
 \end{wrapfigure}
 
 
 \textbf{GPT-4o (temperature 0.0)}: This model shows high accuracy, correctly classifying a large number of "SI" cases (48 true positives). However, it exhibits some confusion, notably misclassifying 5 "NO" cases as "SI" (false positives for "SI") and 4 "SI" cases as "NON PERTINENTE" (false negatives for "SI"). It also misclassified 2 "NON PERTINENTE" cases as "NO".
 
 
-\begin{wrapfigure}{r}{0.70\textwidth}
-    \includegraphics[width=0.70\textwidth]{Graphs/Confusion Matrix Mistral.png}
+\begin{wrapfigure}{r}{0.40\textwidth}
+    \includegraphics[width=0.40\textwidth]{Graphs/Confusion Matrix Mistral.png}
 \end{wrapfigure}
 
 \textbf{Mistral-v0.3-7B (temperature 0.0)}: This model also performs reasonably well, correctly identifying 34 "SI" cases. Its primary errors include misclassifying 11 "NO" cases as "SI" and 10 "NON PERTINENTE" cases as "SI" (significant false positives for "SI"). It also misclassified 7 "SI" cases as "NON PERTINENTE".
 
-\textbf{Summury}: Both models perform best at identifying the "SI" (compliant) category. However, they struggle more with distinguishing between "NO" (non-compliant) and "NON PERTINENTE" (not relevant), and both tend to incorrectly classify actual "NO" or "NON PERTINENTE" cases as "SI" more often than other error types. This suggests potential challenges in correctly identifying non-compliance or irrelevance compared to confirming compliance. 
+\textbf{Summary}: Both models perform best at identifying the "SI" (compliant) category. However, they struggle more with distinguishing between "NO" (non-compliant) and "NON PERTINENTE" (not relevant), and both tend to incorrectly classify actual "NO" or "NON PERTINENTE" cases as "SI" more often than other error types. This suggests potential challenges in correctly identifying non-compliance or irrelevance compared to confirming compliance. 
 
 
 % Include bibliography only when compiling this subfile independently

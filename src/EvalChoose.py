@@ -35,21 +35,21 @@ tests= [
     },
     {
         "LLM":LLAMA,
-        "municipality":OLBIA,
-        "folder":"llama-3.1-8B",
-        "model":"llama 3.1 8B"
-    },
-    {
-        "LLM":LLAMA,
-        "municipality":OLBIA,
-        "folder":"llama-3.2-3B",
-        "model":"llama 3.2 3B"
-    },
-    {
-        "LLM":LLAMA,
         "municipality":LUCCA,
         "folder":"3.3.llama.70B.Instruct",
-        "model":"llama 3.3 70B"
+        "model":"llama 3.3 70B Q4"
+    },
+    {
+        "LLM":LLAMA,
+        "municipality":LUCCA,
+        "folder":"3.1.llama.70B.Instruct",
+        "model":"llama 3.1 70B Q4"
+    },
+    {
+        "LLM":LLAMA,
+        "municipality":LUCCA,
+        "folder":"Mistral.7B.Instruct-v0.3",
+        "model":"Mistral v0.3 7B "
     },
     {
         "LLM":OPENAI,
@@ -57,12 +57,6 @@ tests= [
         "model":"chatgpt 4o mini",
         "folder":"mini"
     },
-    {
-        "LLM":OPENAI,
-        "municipality":OLBIA,
-        "model":"chatgpt 4o mini",
-        "folder":"mini"
-    }
 ]
 
 def add_newline(text):
@@ -342,7 +336,10 @@ if __name__ == "__main__":
             df_determine = pd.read_csv(f)
         
         for temp in temperatures:
-            df_comparison = pd.read_json(f"{results_root_folder}/{test["folder"]}/{temp}/determine.json")
+            try:
+                df_comparison = pd.read_json(f"{results_root_folder}/{test["folder"]}/{temp}/determine.json")
+            except:
+                continue
             #responses.extend(df_comparison["LLM"].apply(add_newline).to_list())
             df_comparison["Simple"]=df_comparison["LLM"].apply(simplify_func)
             #responses.extend(df_comparison["Simple"].apply(add_newline).to_list())
