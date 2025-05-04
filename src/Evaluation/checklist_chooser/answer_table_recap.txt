@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrr}
+\toprule
+ Modello         &   accuracy &   precision &   recall &   f1\_score &   balanced\_accuracy \\
+\midrule
+ gpt-4o          &       0.79 &        0.81 &     0.79 &       0.78 &                0.67 \\
+ gpt-4o-mini     &       0.69 &        0.74 &     0.69 &       0.69 &                0.58 \\
+ Mistral-v0.3-7B &       0.65 &        0.50 &     0.65 &       0.55 &                0.37 \\
+ llama-3.1-70B   &       0.63 &        0.50 &     0.63 &       0.54 &                0.36 \\
+ llama-3.2-3B    &       0.62 &        0.45 &     0.62 &       0.51 &                0.32 \\
+ llama-3.3-70B   &       0.57 &        0.52 &     0.57 &       0.54 &                0.38 \\
+ llama-3.1-8B    &       0.56 &        0.45 &     0.56 &       0.49 &                0.31 \\
+\bottomrule
+\end{tabular}
