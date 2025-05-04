@@ -1,5 +1,6 @@
 - [LLM Evaluation for Administrative Document Analysis (Determine)](#llm-evaluation-for-administrative-document-analysis-determine)
   - [Overview](#overview)
+  - [Folders Organization](#folders-organization)
   - [Basic Usage](#basic-usage)
   - [Dependencies](#dependencies)
     - [.env variables](#env-variables)
@@ -11,6 +12,16 @@
 This project contains the code and data used to test and evaluate the performance of various Large Language Models (LLMs), including OpenAI and Llama models, on the task of analyzing Italian administrative documents known as "Determine". The primary focus is on documents from the municipalities of Lucca and Olbia.
 
 The goal is to assess how accurately LLMs can interpret these documents and answer questions based on predefined checklists.
+
+## Folders Organization
+
+1. [0 - Demo] : Folder used for a basic demo of the project
+2. [1 - Latex] : Folder with the latex files of the thesis
+3. [checklists] : Folder with the actual checklist used
+4. [determine_pdf] : Folder with the pdf of the determine
+5. [example_municipality] : is a folder with the example files to add another municipality
+6. [src] : actual files with the code
+7. [truth] : Truth tested for the acts
 
 
 ## Basic Usage
