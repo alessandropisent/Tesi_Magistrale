@@ -194,6 +194,12 @@ print(group_of_models_reset.head())
 print("\n--- Plotting Accuracy (All Models) ---")
 graph_df(df=group_of_models_reset, col_to_plot="accuracy", title_ylabel="Accuracy", show_best_per_family=False)
 
+print("\n--- Plotting Precision (All Models) ---")
+graph_df(df=group_of_models_reset, col_to_plot="precision", title_ylabel="Precision", show_best_per_family=False)
+
+print("\n--- Plotting Recall (All Models) ---")
+graph_df(df=group_of_models_reset, col_to_plot="recall", title_ylabel="Recall", show_best_per_family=False)
+
 # Example 2: Plot only the best model per family for Accuracy
 print("\n--- Plotting Accuracy (Best per Family) ---")
 graph_df(df=group_of_models_reset, col_to_plot="accuracy", title_ylabel="Accuracy", show_best_per_family=True)
