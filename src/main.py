@@ -179,9 +179,9 @@ def prompt_for_llm_config():
                 if not device_choice or device_choice == '1':
                     device_map_setting = 'auto'
                 elif device_choice == '2':
-                    device_map_setting = 'cuda:0'
+                    device_map_setting = torch.device('cuda:0')
                 elif device_choice == '3':
-                    device_map_setting = 'cuda:1'
+                    device_map_setting = torch.device('cuda:1')
                 else:
                     print("Invalid choice. Please enter 1, 2, or 3.")
                     continue # Ask for device map again
@@ -495,13 +495,6 @@ if __name__ == "__main__":
 
             # Create Pipeline - specify device if not using 'auto' to ensure pipeline runs on the correct device
             pipeline_device_arg = None
-            if device_map_setting != 'auto':
-                 try:
-                     # Convert 'cuda:0' string to integer 0 for pipeline device arg
-                     pipeline_device_arg = int(device_map_setting.split(':')[-1])
-                 except (ValueError, IndexError):
-                      print(f"Warning: Could not parse device index from '{device_map_setting}'. Pipeline might default to another device.")
-                      pipeline_device_arg = -1 # Default to CPU if parsing fails
 
             text_gen_pipeline = pipeline(
                 "text-generation", model=model, tokenizer=tokenizer,
