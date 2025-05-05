@@ -46,7 +46,7 @@ class ChecklistCompiler:
         self.llm = llm
         self.municipality = municipality
         self.model=model
-        self.text_gen_pipeline=text_gen_pipeline,
+        self.text_gen_pipeline=text_gen_pipeline
         self.determina_in_user = determina_in_user
         
         if determina_in_user:
