@@ -15,6 +15,9 @@ import openai
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, BitsAndBytesConfig
 
+# --- Command
+# python3 src/main.py "det_00041_15-01-2025.pdf" "determine_pdf/Lucca/" --model-id "meta-llama/Llama-3.2-3B-Instruct"
+
 
 
 
