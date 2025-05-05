@@ -44,6 +44,7 @@ DEFAULT_OPENAI_MODEL = "gpt-4o-mini"
 # List of common local models for user convenience
 PREDEFINED_LOCAL_MODELS = [
     "meta-llama/Llama-3.1-8B-Instruct",
+    "meta-llama/Llama-3.2-1B-Instruct",
     "meta-llama/Llama-3.2-3B-Instruct",
     "meta-llama/Llama-3.3-70B-Instruct",
     "meta-llama/Llama-3.1-70B-Instruct",

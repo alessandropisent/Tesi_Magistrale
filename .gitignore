@@ -3,7 +3,7 @@
 *__pycache__/
 .webui_secret_key
 uploads/
-
+src/flask_session/
 
 #### LATEX IGNORE --------
 

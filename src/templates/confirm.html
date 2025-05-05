@@ -1,308 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirm Checklist - SSE</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        #progress-bar-inner { transition: width 0.3s ease-in-out; }
-        button:disabled { opacity: 0.5; cursor: not-allowed; }
-        .error-message { color: red; font-weight: bold; margin-top: 5px; }
-        .point-error-message { color: orange; margin-top: 3px; font-size: 0.9em; }
-    </style>
-</head>
-<body class="bg-gray-100 p-8">
-    <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
-        <h1 class="text-2xl font-semibold mb-4">Confirm Checklist Execution</h1>
-        <p class="mb-2"><strong>Municipality:</strong> {{ municipality }}</p>
-        <p class="mb-4"><strong>Original File:</strong> {{ original_filename }}</p>
-        <p class="mb-4"><strong>LLM Status:</strong> {{ llm_status }}</p>
+{% extends "base.html" %}
 
-        <form id="execute-form">
-            <div class="mb-4">
-                <label for="chosen_checklist" class="block text-sm font-medium text-gray-700 mb-1">Select Checklist to Execute:</label>
-                <select id="chosen_checklist" name="chosen_checklist" required class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md shadow-sm">
-                    {% if suggested_checklist and suggested_checklist in available_checklist_names %}
-                        <option value="{{ suggested_checklist }}" selected>Suggested: {{ suggested_checklist }}</option>
-                    {% elif suggested_checklist %}
-                         <option value="" disabled selected>Suggested: {{ suggested_checklist }} (Not found in list?)</option>
-                    {% else %}
-                        <option value="" disabled selected>-- Select Checklist --</option>
-                    {% endif %}
-                    {% for name in available_checklist_names %}
-                        {% if not suggested_checklist or name != suggested_checklist %}
-                            <option value="{{ name }}">{{ name }}</option>
-                        {% endif %}
-                    {% endfor %}
-                </select>
-                 {% if suggested_checklist and suggested_checklist not in available_checklist_names %}
-                    <p class="text-xs text-red-600 mt-1">Warning: The suggested checklist '{{ suggested_checklist }}' was not found in the available list for this municipality.</p>
-                 {% endif %}
-            </div>
+{% block title %}Confirm Checklist{% endblock %}
 
-            <div class="text-center">
-                <button id="execute-btn" type="submit" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg shadow transition duration-150 ease-in-out">
-                    Execute Chosen Checklist
-                </button>
-                 <a href="{{ url_for('index') }}" class="ml-4 text-gray-600 hover:text-gray-800">Cancel</a>
-            </div>
-        </form>
+{% block content %}
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">2. Confirm Checklist</h2>
 
-        <div id="progress-section" class="hidden mt-8 border-t pt-6">
-            <h2 class="text-xl font-medium mb-4 text-center">Execution Progress</h2>
-            <div class="w-full bg-gray-200 rounded-full h-6 mb-1 overflow-hidden border border-gray-300">
-                <div id="progress-bar-inner" class="bg-blue-600 h-full rounded-full text-xs font-medium text-blue-100 text-center p-0.5 leading-none flex items-center justify-center" style="width: 0%">
-                    <span id="progress-text" class="hidden">0%</span>
-                </div>
-            </div>
-            <p id="eta-text" class="text-xs text-gray-500 text-center mb-2 h-4"></p>
-            <p id="progress-message" class="text-sm text-gray-700 mb-4 h-5 text-center font-medium">Waiting to start...</p>
-            <div id="point-errors" class="mt-2 text-sm max-h-32 overflow-y-auto border p-2 rounded-md bg-red-50 border-red-200 hidden">
-                 <p class="font-semibold text-red-700 mb-1">Point Errors:</p>
-                 <ul id="point-error-list"></ul>
-            </div>
-            <div id="general-error" class="mt-4 text-center error-message hidden"></div>
-            <p id="connection-status" class="mt-2 text-xs text-gray-500 text-center">Status: Idle</p>
-        </div>
-    </div>
+  <div class="mb-4 space-y-1 text-sm text-gray-600">
+      <p><strong>File:</strong> {{ original_filename }}</p>
+      <p><strong>Municipality:</strong> {{ municipality }}</p>
+      <p><strong>LLM Status:</strong> <span class="font-medium {{ 'text-green-600' if llm_status == 'LLM Ready' else 'text-yellow-600' }}">{{ llm_status }}</span></p>
+  </div>
 
-    <script>
-        // Get references to UI elements
-        const executeForm = document.getElementById('execute-form');
-        const executeButton = document.getElementById('execute-btn');
-        const progressSection = document.getElementById('progress-section');
-        const progressBarInner = document.getElementById('progress-bar-inner');
-        const progressText = document.getElementById('progress-text');
-        const progressMessage = document.getElementById('progress-message');
-        const connectionStatus = document.getElementById('connection-status');
-        const generalErrorDiv = document.getElementById('general-error');
-        const pointErrorsDiv = document.getElementById('point-errors');
-        const pointErrorList = document.getElementById('point-error-list');
-        const etaText = document.getElementById('eta-text');
+  <form method="post" action="{{ url_for('execute_trigger') }}" class="space-y-6">
+      <div>
+          <label for="chosen_checklist" class="block text-sm font-medium text-gray-700 mb-1">Select Checklist:</label>
+          {% if suggested_checklist %}
+              <p class="text-sm text-blue-600 mb-2">LLM Suggestion: <strong>{{ suggested_checklist }}</strong></p>
+          {% else %}
+              <p class="text-sm text-yellow-600 mb-2">LLM could not suggest a checklist. Please select manually.</p>
+          {% endif %}
 
+          <select id="chosen_checklist" name="chosen_checklist" required
+                   class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+              <option value="" disabled {% if not suggested_checklist %}selected{% endif %}>-- Select a Checklist --</option>
+              {% for name in available_checklist_names %}
+                  <option value="{{ name }}" {% if name == suggested_checklist %}selected{% endif %}>{{ name }}</option>
+              {% endfor %}
+          </select>
+      </div>
 
-        let eventSource = null; // Variable to hold the EventSource instance
+      <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Checklist Description:</label>
+          <div id="checklist-description" class="min-h-[60px] border border-gray-200 p-3 bg-gray-50 rounded-md text-sm text-gray-700">
+              Loading description...
+          </div>
+      </div>
 
-        // Function to format seconds into H:M:S or M:S
-        function formatETA(seconds) {
-            if (seconds < 0 || isNaN(seconds)) {
-                return ''; // No ETA available yet or invalid
-            }
-            if (seconds < 60) {
-                return `~${Math.ceil(seconds)}s remaining`;
-            }
-            const minutes = Math.floor(seconds / 60);
-            const remainingSeconds = Math.ceil(seconds % 60);
-            if (minutes < 60) {
-                 return `~${minutes}m ${remainingSeconds}s remaining`;
-            }
-             const hours = Math.floor(minutes / 60);
-             const remainingMinutes = Math.floor(minutes % 60);
-             return `~${hours}h ${remainingMinutes}m ${remainingSeconds}s remaining`;
+      <div class="flex items-center justify-center pt-4 space-x-4">
+          <button type="submit"
+                  class="inline-flex items-center justify-center px-6 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 disabled:opacity-50">
+              Start Analysis
+          </button>
+          <a href="{{ url_for('index') }}" class="text-sm text-gray-500 hover:text-gray-700">Cancel</a>
+      </div>
+  </form>
+{% endblock %}
 
-        }
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/confirm.js') }}"></script>
+  <script>
+      // Pass municipality to JS (ensure this is correct)
+      const currentMunicipality = "{{ municipality }}";
 
+      // Initial description load for the selected/suggested checklist
+      document.addEventListener('DOMContentLoaded', () => {
+          const checklistSelect = document.getElementById('chosen_checklist');
+          const descriptionDiv = document.getElementById('checklist-description');
+          const initialChecklist = checklistSelect.value;
 
-        // --- Form Submission Handler ---
-        executeForm.addEventListener('submit', async (event) => {
-            event.preventDefault(); // Prevent default form submission
-
-            // Disable button, show progress, clear previous errors
-            executeButton.disabled = true;
-            executeButton.textContent = 'Executing...';
-            progressSection.classList.remove('hidden');
-            generalErrorDiv.classList.add('hidden');
-            generalErrorDiv.textContent = '';
-            pointErrorsDiv.classList.add('hidden');
-            pointErrorList.innerHTML = ''; // Clear previous point errors
-            connectionStatus.textContent = 'Status: Triggering execution...';
-            connectionStatus.className = 'mt-2 text-xs text-yellow-600 text-center';
-            progressBarInner.style.width = '0%';
-            progressBarInner.className = 'bg-blue-600 h-full rounded-full text-xs font-medium text-blue-100 text-center p-0.5 leading-none flex items-center justify-center';
-            progressText.classList.add('hidden');
-            progressMessage.textContent = 'Initiating task on server...';
-            etaText.textContent = '';
-
-
-            // Close existing connection if any
-            if (eventSource && eventSource.readyState !== EventSource.CLOSED) {
-                eventSource.close();
-                console.log('Closed previous SSE connection.');
-            }
-
-            try {
-                // --- 1. Trigger Execution ---
-                const formData = new FormData(executeForm);
-                const response = await fetch("{{ url_for('execute_trigger') }}", {
-                    method: 'POST',
-                    body: formData,
-                });
-
-                const result = await response.json();
-
-                if (!response.ok || result.status !== 'started') {
-                    throw new Error(result.message || 'Failed to start execution task on server.');
-                }
-
-                console.log('Server acknowledged task start.');
-                progressMessage.textContent = 'Task started. Connecting to progress stream...';
-                connectionStatus.textContent = 'Status: Connecting to stream...';
-
-                // --- 2. Connect to SSE Stream ---
-                eventSource = new EventSource("{{ url_for('progress_stream') }}");
-
-                // --- SSE Event Handlers ---
-                eventSource.onopen = function() {
-                    console.log('SSE connection opened.');
-                    connectionStatus.textContent = 'Status: Connected';
-                    connectionStatus.className = 'mt-2 text-xs text-green-600 text-center';
-                    progressMessage.textContent = 'Connection established. Waiting for progress...';
-                };
-
-                eventSource.addEventListener('progress', function(e) {
-                    try {
-                        const data = JSON.parse(e.data);
-                        const percentage = (data.total > 0) ? Math.min(100, Math.round((data.current / data.total) * 100)) : 0;
-
-                        console.log(`Progress: ${percentage}%`, data);
-
-                        progressBarInner.style.width = percentage + '%';
-                        progressText.textContent = percentage + '%';
-                        progressMessage.textContent = data.message || `Processing...`;
-                        etaText.textContent = formatETA(data.eta_seconds);
-
-
-                        if (percentage > 5) {
-                            progressText.classList.remove('hidden');
-                        } else {
-                            progressText.classList.add('hidden');
-                        }
-                        // Ensure bar is blue during progress
-                        progressBarInner.className = 'bg-blue-600 h-full rounded-full text-xs font-medium text-blue-100 text-center p-0.5 leading-none flex items-center justify-center';
-
-                    } catch (parseError) {
-                        console.error('Error parsing progress event data:', parseError, e.data);
-                        progressMessage.textContent = 'Error processing progress update.';
-                    }
-                });
-
-                 eventSource.addEventListener('point_error', function(e) {
-                    try {
-                        const data = JSON.parse(e.data);
-                        console.warn(`Point Error (Point ${data.point_num}): ${data.message}`);
-                        const li = document.createElement('li');
-                        li.className = 'point-error-message';
-                        li.textContent = `Point ${data.point_num || 'N/A'}: ${data.message}`;
-                        pointErrorList.appendChild(li);
-                        pointErrorsDiv.classList.remove('hidden'); // Show the error section
-                    } catch (parseError) {
-                        console.error('Error parsing point_error event data:', parseError, e.data);
-                    }
-                });
-
-
-                eventSource.addEventListener('complete', function(e) {
-                    try {
-                        const data = JSON.parse(e.data);
-                        console.log('Completion event received:', data);
-
-                        if (data.status === 'success') {
-                            progressMessage.textContent = data.message || 'Task Completed!';
-                            progressBarInner.style.width = '100%';
-                            progressBarInner.className = 'bg-green-600 h-full rounded-full text-xs font-medium text-white text-center p-0.5 leading-none flex items-center justify-center'; // Green on complete
-                            progressText.textContent = '100%';
-                            progressText.classList.remove('hidden');
-                            connectionStatus.textContent = 'Status: Complete. Preparing download...';
-                            connectionStatus.className = 'mt-2 text-xs text-gray-500 text-center';
-                            etaText.textContent = ''; // Clear ETA
-
-
-                            // --- 3. Trigger Download ---
-                            if (data.download_filename) {
-                                console.log(`Triggering download for: ${data.download_filename}`);
-                                // Use window.location to initiate download
-                                window.location.href = `/download-result/${data.download_filename}`;
-                            } else {
-                                 console.error("Completion event missing download filename.");
-                                 generalErrorDiv.textContent = 'Task completed, but download link is missing.';
-                                 generalErrorDiv.classList.remove('hidden');
-                            }
-                        } else {
-                             // Handle cases where completion reported an issue
-                             throw new Error(data.message || 'Task finished with an unspecified error.');
-                        }
-
-                    } catch (parseError) {
-                        console.error('Error parsing complete event data:', parseError, e.data);
-                         generalErrorDiv.textContent = 'Error processing completion signal from server.';
-                         generalErrorDiv.classList.remove('hidden');
-                         connectionStatus.textContent = 'Status: Completion Error';
-                         connectionStatus.className = 'mt-2 text-xs text-red-600 text-center';
-                    } finally {
-                        // Close SSE connection and re-enable button regardless of download success
-                        if (eventSource) eventSource.close();
-                        executeButton.disabled = false;
-                        executeButton.textContent = 'Execute Again';
-                    }
-                });
-
-                eventSource.addEventListener('error', function(e) {
-                    // This handles general SSE errors OR the final 'error' event sent by the server
-                    let errorMessage = 'Connection error or task failed.';
-                    let isFinalError = false;
-                    try {
-                         // Attempt to parse if it's our custom error event format
-                         const data = JSON.parse(e.data);
-                         errorMessage = data.message || errorMessage;
-                         isFinalError = true; // Assume it's a deliberate error event from server
-                         console.error('Received error event from server:', errorMessage);
-                    } catch(parseError) {
-                         // Likely a network error or standard SSE close/error
-                         console.error('SSE connection error:', e);
-                          if (eventSource.readyState === EventSource.CLOSED) {
-                            errorMessage = 'Connection closed.';
-                          } else if (eventSource.readyState === EventSource.CONNECTING) {
-                            errorMessage = 'Connection lost. Attempting to reconnect...'; // Browser might handle this
-                          }
-                    }
-
-                    generalErrorDiv.textContent = errorMessage;
-                    generalErrorDiv.classList.remove('hidden');
-                    connectionStatus.textContent = `Status: Error - ${errorMessage.substring(0, 50)}...`; // Show truncated error
-                    connectionStatus.className = 'mt-2 text-xs text-red-600 text-center';
-                    etaText.textContent = ''; // Clear ETA on error
-
-                    // Close connection and re-enable button on error
-                    if (eventSource) eventSource.close();
-                    executeButton.disabled = false;
-                    executeButton.textContent = 'Retry Execution';
-                });
-
-
-            } catch (error) {
-                console.error('Error during execution trigger or SSE setup:', error);
-                generalErrorDiv.textContent = `Error: ${error.message}`;
-                generalErrorDiv.classList.remove('hidden');
-                connectionStatus.textContent = 'Status: Failed to Start';
-                connectionStatus.className = 'mt-2 text-xs text-red-600 text-center';
-                executeButton.disabled = false;
-                executeButton.textContent = 'Retry Execution';
-                // Ensure progress section is hidden if startup failed badly
-                // progressSection.classList.add('hidden');
-            }
-        });
-
-         // Optional: Clean up SSE connection on page leave
-        window.addEventListener('beforeunload', () => {
-            if (eventSource && eventSource.readyState !== EventSource.CLOSED) {
-                console.log('Closing SSE connection due to page unload.');
-                eventSource.close();
-            }
-        });
-
-    </script>
-</body>
-</html>
+          if (initialChecklist) {
+              // Call fetchDescription from confirm.js
+              if (typeof fetchDescription === 'function') {
+                  fetchDescription(currentMunicipality, initialChecklist);
+              } else {
+                   console.error('fetchDescription function not found. Check confirm.js');
+                   descriptionDiv.textContent = 'Error loading description script.';
+                   descriptionDiv.classList.add('text-red-600'); // Use Tailwind for error color
+              }
+          } else {
+               descriptionDiv.textContent = 'Please select a checklist to see its description.';
+               descriptionDiv.classList.remove('text-red-600');
+          }
+      });
+  </script>
+{% endblock %}

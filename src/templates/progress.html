@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Analysis Progress{% endblock %}
+
+{% block content %}
+    <h2 class="text-xl font-semibold text-gray-700 mb-6">3. Analysis Progress</h2>
+
+    <div class="mb-6 p-4 border border-gray-200 rounded-md bg-gray-50 text-sm text-gray-600 space-y-1">
+        <p><strong>File:</strong> {{ initial_info.original_filename }}</p>
+        <p><strong>Municipality:</strong> {{ initial_info.municipality }}</p>
+        <p><strong>Checklist:</strong> {{ initial_info.chosen_checklist }}</p>
+        <p><strong>LLM Type:</strong> {{ initial_info.llm_type }}</p>
+        <p><strong>Model:</strong> {{ initial_info.llm_model }}</p>
+        <p><strong>Quantization:</strong> {{ initial_info.quantization | capitalize }}</p>
+    </div>
+
+    <div class="mb-4">
+        <h3 class="text-lg font-medium text-gray-800 mb-2">Status</h3>
+        <div id="progress-container" class="w-full bg-gray-200 rounded-full h-6 overflow-hidden border border-gray-300">
+            <div id="progress-bar" class="bg-blue-600 h-full rounded-full text-xs font-medium text-blue-100 text-center p-0.5 leading-none flex items-center justify-center" style="width: 0%;">
+                 <span id="progress-text" class="hidden">0%</span>
+            </div>
+        </div>
+        <p id="eta-message" class="text-xs text-gray-500 text-center mt-1 h-4">ETA: Calculating...</p>
+        <p id="progress-message" class="text-sm text-gray-700 mt-2 h-5 text-center font-medium">Initializing...</p>
+        <div class="flex justify-center mt-2">
+             <div id="spinner" class="loader"></div> </div>
+    </div>
+
+    <div id="results-section" class="hidden mt-8 border-t border-gray-200 pt-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">4. Results</h3>
+        <div id="download-links" class="mb-4 text-sm">
+            </div>
+        <div class="overflow-x-auto"> <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Numero Punto</th>
+                        <th>Testo Punto</th>
+                        <th>Risposta Semplice</th>
+                        <th>Risposta LLM Completa</th>
+                    </tr>
+                </thead>
+                <tbody id="results-tbody">
+                    </tbody>
+            </table>
+        </div>
+        <div class="mt-6 text-center">
+             <a href="{{ url_for('index') }}"
+                class="inline-flex items-center justify-center px-6 py-2 border border-gray-300 text-base font-medium rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                 Start New Analysis
+             </a>
+        </div>
+    </div>
+
+    <div id="error-section" class="hidden mt-8 border-t border-red-300 pt-6">
+        <h3 class="text-xl font-semibold text-red-700 mb-2">Error</h3>
+        <p id="error-message" class="text-red-600 bg-red-50 p-3 rounded-md border border-red-200"></p>
+        <div class="mt-6 text-center">
+            <a href="{{ url_for('index') }}"
+               class="inline-flex items-center justify-center px-6 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                Start Over
+            </a>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/progress.js') }}"></script>
+{% endblock %}

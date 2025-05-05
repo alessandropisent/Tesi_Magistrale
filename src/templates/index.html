@@ -1,277 +1,244 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Checklist Processor</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /* Simple loading spinner */
-        .loader {
-            border: 4px solid #f3f3f3; /* Light grey */
-            border-top: 4px solid #3498db; /* Blue */
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            animation: spin 1s linear infinite;
-            display: none; /* Hidden by default */
-            margin-left: 10px;
-        }
+{% extends "base.html" %}
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        /* Style for flashing messages */
-        .flash-message {
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border-radius: 0.375rem; /* rounded-md */
-            font-weight: 500;
-        }
-        .flash-error {
-            background-color: #fef2f2; /* red-50 */
-            color: #dc2626; /* red-600 */
-            border: 1px solid #fecaca; /* red-300 */
-        }
-        .flash-warning {
-            background-color: #fffbeb; /* yellow-50 */
-            color: #d97706; /* yellow-600 */
-            border: 1px solid #fde68a; /* yellow-300 */
-        }
-         .flash-success { /* Optional: if you add success messages */
-            background-color: #f0fdf4; /* green-50 */
-            color: #16a34a; /* green-600 */
-            border: 1px solid #bbf7d0; /* green-300 */
-        }
-    </style>
-</head>
-<body class="bg-gray-100 font-sans antialiased">
-    <div class="container mx-auto p-6 max-w-2xl">
-        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">PDF Determination Checklist Processor</h1>
+{% block title %}Upload PDF{% endblock %}
 
-        {% with messages = get_flashed_messages(with_categories=true) %}
-            {% if messages %}
-                <div class="mb-4">
-                {% for category, message in messages %}
-                    <div class="flash-message flash-{{ category }}">{{ message }}</div>
-                {% endfor %}
-                </div>
-            {% endif %}
-        {% endwith %}
+{% block content %}
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">1. Upload PDF and Configure Analysis</h2>
+  <form id="upload-form" method="post" action="{{ url_for('upload_and_suggest') }}" enctype="multipart/form-data" class="space-y-6">
 
-        <form id="upload-form" action="{{ url_for('suggest') }}" method="post" enctype="multipart/form-data" class="bg-white p-8 rounded-lg shadow-md space-y-6">
-
-            <div>
-                <label for="pdf_file" class="block text-sm font-medium text-gray-700 mb-1">1. Upload PDF Determination:</label>
-                <input type="file" name="pdf_file" id="pdf_file" accept=".pdf" required
-                       class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500
-                              file:mr-4 file:py-2 file:px-4
-                              file:rounded-md file:border-0
-                              file:text-sm file:font-semibold
-                              file:bg-blue-50 file:text-blue-700
-                              hover:file:bg-blue-100">
-                <p class="mt-1 text-xs text-gray-500">PDF only, max 32MB.</p> </div>
-
-            <div>
-                <label for="municipality" class="block text-sm font-medium text-gray-700 mb-1">2. Select Municipality:</label>
-                <select name="municipality" id="municipality" required
-                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                    <option value="" disabled selected>-- Choose Municipality --</option>
-                    {% for mun in municipalities %}
-                        <option value="{{ mun }}">{{ mun }}</option>
-                    {% endfor %}
-                </select>
-             </div>
-
-            <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">3. Select LLM Type:</label>
-                <div class="flex items-center space-x-4">
-                    <label class="flex items-center">
-                        <input type="radio" name="llm_type" value="local" checked onchange="toggleLlmOptions()" class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300">
-                        <span class="ml-2 text-sm text-gray-700">Local LLM</span>
-                    </label>
-                    <label class="flex items-center">
-                        <input type="radio" name="llm_type" value="openai" onchange="toggleLlmOptions()" class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300">
-                        <span class="ml-2 text-sm text-gray-700">OpenAI</span>
-                    </label>
-                </div>
-            </div>
-
-            <div id="local-options" class="space-y-4 border-t border-gray-200 pt-4">
-                 <h3 class="text-md font-semibold text-gray-600">Local LLM Options:</h3>
-                 <div>
-                    <label for="local_model_id" class="block text-sm font-medium text-gray-700 mb-1">Model:</label>
-                    <select name="local_model_id" id="local_model_id" onchange="checkCustomModel(this.value)"
-                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                        <option value="" disabled selected>-- Select a predefined model --</option>
-                        {% for model in predefined_models %}
-                            <option value="{{ model }}">{{ model }}</option>
-                        {% endfor %}
-                        <option value="custom">-- Enter Custom Model ID --</option>
-                    </select>
-                 </div>
-                 <div id="custom-model-input" style="display: none;">
-                     <label for="custom_local_model_id" class="block text-sm font-medium text-gray-700 mb-1">Custom Model ID:</label>
-                     <input type="text" name="custom_local_model_id" id="custom_local_model_id" placeholder="e.g., user/my-fine-tuned-model"
-                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                 </div>
-                 <div>
-                    <label for="device_map" class="block text-sm font-medium text-gray-700 mb-1">Device Map:</label>
-                    <select name="device_map" id="device_map"
-                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                        <option value="auto" selected>auto (Recommended)</option>
-                        <option value="cuda:0">cuda:0 (GPU 0)</option>
-                        <option value="cuda:1">cuda:1 (GPU 1)</option>
-                        </select>
-                 </div>
-                 <div class="flex items-center">
-                    <input type="checkbox" name="quantize" id="quantize" value="true"
-                           class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded">
-                    <label for="quantize" class="ml-2 block text-sm text-gray-900">Use 4-bit quantization (requires bitsandbytes)</label>
-                 </div>
-            </div>
-
-            <div id="openai-options" class="space-y-4 border-t border-gray-200 pt-4" style="display: none;">
-                 <h3 class="text-md font-semibold text-gray-600">OpenAI Options:</h3>
-                 <div>
-                    <label for="openai_model_id" class="block text-sm font-medium text-gray-700 mb-1">Model Name:</label>
-                    <input type="text" name="openai_model_id" id="openai_model_id" placeholder="{{ default_openai }}" value="{{ default_openai }}"
-                           class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                 </div>
-            </div>
-
-            <div class="flex items-center justify-center pt-4">
-                 <button type="submit" id="submit-button"
-                        class="inline-flex items-center justify-center px-6 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50">
-                    Upload and Suggest Checklist
-                </button>
-                <div class="loader" id="loader"></div>
-            </div>
-
-        </form>
+    <div>
+      <label for="pdf_file" class="block text-sm font-medium text-gray-700 mb-1">Select PDF File:</label>
+      <input type="file" id="pdf_file" name="pdf_file" accept=".pdf" required
+             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500
+                    file:mr-4 file:py-2 file:px-4
+                    file:rounded-md file:border-0
+                    file:text-sm file:font-semibold
+                    file:bg-blue-50 file:text-blue-700
+                    hover:file:bg-blue-100">
+      <p class="mt-1 text-xs text-gray-500">PDF only, max 32MB.</p>
     </div>
 
-    <script>
-        function toggleLlmOptions() {
-            const llmType = document.querySelector('input[name="llm_type"]:checked').value;
-            const localOptions = document.getElementById('local-options');
-            const openaiOptions = document.getElementById('openai-options');
-            const localModelSelect = document.getElementById('local_model_id');
-            const customModelInputDiv = document.getElementById('custom-model-input');
-            const customModelInput = document.getElementById('custom_local_model_id');
-            const openaiModelInput = document.getElementById('openai_model_id');
-            const quantizeCheckbox = document.getElementById('quantize');
-            const deviceMapSelect = document.getElementById('device_map');
+    <div>
+      <label for="municipality" class="block text-sm font-medium text-gray-700 mb-1">Select Municipality:</label>
+      <select id="municipality" name="municipality" required
+              class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+        <option value="" disabled selected>-- Choose Municipality --</option>
+        {% for mun_key, mun_data in municipalities_data.items() %}
+          <option value="{{ mun_key }}">{{ mun_data.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
 
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-2">Select LLM Type:</label>
+      <div class="flex items-center space-x-4">
+        <label class="flex items-center cursor-pointer">
+          <input type="radio" id="llm_local" name="llm_type" value="local" checked onchange="toggleModelSelection()" class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300">
+          <span class="ml-2 text-sm text-gray-700">Local LLM</span>
+        </label>
+        <label class="flex items-center cursor-pointer">
+          <input type="radio" id="llm_openai" name="llm_type" value="openai" onchange="toggleModelSelection()" class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300">
+          <span class="ml-2 text-sm text-gray-700">OpenAI</span>
+        </label>
+      </div>
+    </div>
 
-            if (llmType === 'local') {
-                localOptions.style.display = 'block';
-                openaiOptions.style.display = 'none';
-                // Make local fields required (or potentially required based on selection)
-                localModelSelect.required = true; // The select itself is required
-                // Custom input only required if 'custom' is selected
-                customModelInput.required = (localModelSelect.value === 'custom');
-                deviceMapSelect.required = true; // Always required for local
-                // OpenAI fields not required
-                openaiModelInput.required = false;
+    <div id="local_llm_options" class="space-y-4 border-t border-gray-200 pt-4">
+      <h3 class="text-md font-semibold text-gray-600">Local LLM Options:</h3>
+      <div>
+        <label for="local_model_id" class="block text-sm font-medium text-gray-700 mb-1">Model:</label>
+        <select id="local_model_id" name="local_model_id" onchange="checkCustomModel(this.value)"
+                class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+          <option value="" disabled selected>-- Select a predefined model --</option>
+          {% for model in predefined_models %}
+            <option value="{{ model }}">{{ model }}</option>
+          {% endfor %}
+           <option value="custom">-- Enter Custom Model ID --</option>
+        </select>
+      </div>
+       <div id="custom-model-input" class="hidden">
+           <label for="custom_local_model_id" class="block text-sm font-medium text-gray-700 mb-1">Custom Model ID:</label>
+           <input type="text" name="custom_local_model_id" id="custom_local_model_id" placeholder="e.g., user/my-fine-tuned-model"
+                  class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+       </div>
 
-            } else { // openai
-                localOptions.style.display = 'none';
-                openaiOptions.style.display = 'block';
-                 // Local fields not required
-                localModelSelect.required = false;
-                customModelInput.required = false;
-                deviceMapSelect.required = false;
-                 // OpenAI field required - set default value if empty
-                 if (!openaiModelInput.value.trim()) {
-                     openaiModelInput.value = openaiModelInput.placeholder;
-                 }
-                 openaiModelInput.required = true;
-            }
-             // Reset custom input visibility if switching away from local or local selection changes
-             if (llmType !== 'local' || localModelSelect.value !== 'custom') {
-                 customModelInputDiv.style.display = 'none';
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">Quantization:</label>
+        <div class="flex items-center space-x-4">
+            <label class="flex items-center cursor-pointer">
+                <input type="radio" id="quant_none" name="quantization" value="none" checked class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300">
+                <span class="ml-2 text-sm text-gray-700">None</span>
+            </label>
+            <label class="flex items-center cursor-pointer">
+                <input type="radio" id="quant_4bit" name="quantization" value="4bit" class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300">
+                <span class="ml-2 text-sm text-gray-700">4-bit</span>
+            </label>
+             <label class="flex items-center cursor-pointer">
+                <input type="radio" id="quant_8bit" name="quantization" value="8bit" class="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300">
+                <span class="ml-2 text-sm text-gray-700">8-bit</span>
+            </label>
+        </div>
+        <p class="mt-1 text-xs text-gray-500">4-bit/8-bit requires 'bitsandbytes' library.</p>
+      </div>
+
+      <div>
+        <label for="device_map" class="block text-sm font-medium text-gray-700 mb-1">Device Map (Advanced):</label>
+        <select id="device_map" name="device_map"
+                class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+          <option value="auto" selected>auto (Recommended)</option>
+          <option value="cuda:0">cuda:0 (GPU 0)</option>
+          <option value="cuda:1">cuda:1 (GPU 1)</option>
+          <option value="cpu">cpu</option>
+          </select>
+      </div>
+    </div>
+
+    <div id="openai_options" class="hidden space-y-4 border-t border-gray-200 pt-4">
+       <h3 class="text-md font-semibold text-gray-600">OpenAI Options:</h3>
+      <div>
+        <label for="openai_model_id" class="block text-sm font-medium text-gray-700 mb-1">OpenAI Model:</label>
+        <input type="text" id="openai_model_id" name="openai_model_id" value="{{ default_openai }}"
+               class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+      </div>
+    </div>
+
+    <div class="flex items-center justify-center pt-4">
+      <button type="submit" id="submit-button"
+              class="inline-flex items-center justify-center px-6 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50">
+        Upload and Suggest Checklist
+      </button>
+      <div class="loader" id="loader"></div>
+    </div>
+  </form>
+{% endblock %}
+
+{% block scripts %}
+  <script>
+    function toggleModelSelection() {
+        const llmType = document.querySelector('input[name="llm_type"]:checked').value;
+        const localOptions = document.getElementById('local_llm_options');
+        const openaiOptions = document.getElementById('openai_options');
+        const localModelSelect = document.getElementById('local_model_id');
+        const customModelInputDiv = document.getElementById('custom-model-input');
+        const customModelInput = document.getElementById('custom_local_model_id');
+        const openaiModelInput = document.getElementById('openai_model_id');
+        const quantizationRadios = document.querySelectorAll('input[name="quantization"]');
+        const deviceMapSelect = document.getElementById('device_map');
+
+        if (llmType === 'local') {
+            localOptions.classList.remove('hidden');
+            openaiOptions.classList.add('hidden');
+            // Make local fields potentially required
+            localModelSelect.required = true;
+            customModelInput.required = (localModelSelect.value === 'custom');
+            deviceMapSelect.required = true;
+            // Enable quantization/device map
+            quantizationRadios.forEach(radio => radio.disabled = false);
+            deviceMapSelect.disabled = false;
+            // OpenAI fields not required
+            openaiModelInput.required = false;
+
+        } else { // openai
+            localOptions.classList.add('hidden');
+            openaiOptions.classList.remove('hidden');
+            // Local fields not required
+            localModelSelect.required = false;
+            customModelInput.required = false;
+            deviceMapSelect.required = false;
+             // Disable quantization/device map for OpenAI
+            quantizationRadios.forEach(radio => {
+                radio.disabled = true;
+                if (radio.value === 'none') radio.checked = true; // Default to none for OpenAI
+            });
+            deviceMapSelect.disabled = true;
+            deviceMapSelect.value = 'auto'; // Reset device map
+            // OpenAI field required
+            openaiModelInput.required = true;
+        }
+         // Reset custom input visibility if switching away from local or local selection changes
+         if (llmType !== 'local' || localModelSelect.value !== 'custom') {
+             customModelInputDiv.classList.add('hidden');
+         }
+         // Ensure custom input required status is updated if select changes while local is active
+         if (llmType === 'local') {
+             customModelInput.required = (localModelSelect.value === 'custom');
+         }
+    }
+
+    function checkCustomModel(selectedValue) {
+        const customInputDiv = document.getElementById('custom-model-input');
+        const customInput = document.getElementById('custom_local_model_id');
+        if (selectedValue === 'custom') {
+            customInputDiv.classList.remove('hidden');
+            customInput.required = true; // Make required when shown
+            customInput.focus();
+        } else {
+            customInputDiv.classList.add('hidden');
+            customInput.required = false; // Not required when hidden
+            customInput.value = ''; // Clear value when hidden
+        }
+    }
+
+    // Form submission listener to show loader
+    const form = document.getElementById('upload-form');
+    const submitButton = document.getElementById('submit-button');
+    const loader = document.getElementById('loader');
+
+    form.addEventListener('submit', function(event) {
+        // Basic client-side validation (can be enhanced)
+        const fileInput = document.getElementById('pdf_file');
+        const municipalitySelect = document.getElementById('municipality');
+        const llmType = document.querySelector('input[name="llm_type"]:checked').value;
+        const localModelSelect = document.getElementById('local_model_id');
+        const customModelInput = document.getElementById('custom_local_model_id');
+        const openaiModelInput = document.getElementById('openai_model_id');
+
+        let isValid = true;
+        let errorMessages = [];
+
+        if (fileInput.files.length === 0) {
+             errorMessages.push('Please select a PDF file.');
+             isValid = false;
+        } else if (fileInput.files[0].size > 32 * 1024 * 1024) { // Check size
+             errorMessages.push('PDF file is too large (max 32MB).');
+             isValid = false;
+        }
+
+        if (!municipalitySelect.value) {
+             errorMessages.push('Please select a municipality.');
+             isValid = false;
+        }
+
+        if (llmType === 'local') {
+             if (!localModelSelect.value) {
+                 errorMessages.push('Please select or choose custom for the local model.');
+                 isValid = false;
+             } else if (localModelSelect.value === 'custom' && !customModelInput.value.trim()) {
+                 errorMessages.push('Please enter a custom model ID.');
+                 isValid = false;
              }
-             // Ensure custom input required status is updated if select changes while local is active
-             if (llmType === 'local') {
-                 customModelInput.required = (localModelSelect.value === 'custom');
+        } else { // openai
+             if (!openaiModelInput.value.trim()) {
+                  errorMessages.push('Please enter an OpenAI model name.');
+                  isValid = false;
              }
         }
 
-        function checkCustomModel(selectedValue) {
-            const customInputDiv = document.getElementById('custom-model-input');
-            const customInput = document.getElementById('custom_local_model_id');
-            if (selectedValue === 'custom') {
-                customInputDiv.style.display = 'block';
-                customInput.required = true; // Make required when shown
-                customInput.focus();
-            } else {
-                customInputDiv.style.display = 'none';
-                customInput.required = false; // Not required when hidden
-                customInput.value = ''; // Clear value when hidden
-            }
+        if (!isValid) {
+             event.preventDefault(); // Stop form submission
+             alert('Please fix the following issues:\n- ' + errorMessages.join('\n- '));
+             return;
         }
 
-        // Form submission listener to show loader
-        const form = document.getElementById('upload-form');
-        const submitButton = document.getElementById('submit-button');
-        const loader = document.getElementById('loader');
+        // If valid, show loader and disable button
+        submitButton.disabled = true;
+        // Update button text without removing icon potentially
+        const buttonTextSpan = submitButton.querySelector('span') || submitButton; // Get inner span or button itself
+        buttonTextSpan.textContent = 'Processing...';
+        loader.style.display = 'inline-block';
+    });
 
-        form.addEventListener('submit', function(event) {
-            // Basic client-side validation
-            const fileInput = document.getElementById('pdf_file');
-            const municipalitySelect = document.getElementById('municipality');
-            const llmType = document.querySelector('input[name="llm_type"]:checked').value;
-            const localModelSelect = document.getElementById('local_model_id');
-            const customModelInput = document.getElementById('custom_local_model_id');
-            const openaiModelInput = document.getElementById('openai_model_id');
-
-            let isValid = true;
-
-            if (fileInput.files.length === 0) {
-                 alert('Please select a PDF file.');
-                 isValid = false;
-            } else if (fileInput.files[0].size > 32 * 1024 * 1024) { // Check size (matches backend)
-                 alert('PDF file is too large (max 32MB).');
-                 isValid = false;
-            }
-
-            if (!municipalitySelect.value) {
-                 alert('Please select a municipality.');
-                 isValid = false;
-            }
-
-            if (llmType === 'local') {
-                 if (!localModelSelect.value) {
-                     alert('Please select a predefined local model.');
-                     isValid = false;
-                 } else if (localModelSelect.value === 'custom' && !customModelInput.value.trim()) {
-                     alert('Please enter a custom model ID.');
-                     isValid = false;
-                 }
-            } else { // openai
-                 if (!openaiModelInput.value.trim()) {
-                      alert('Please enter an OpenAI model name.');
-                      isValid = false;
-                 }
-            }
-
-            if (!isValid) {
-                 event.preventDefault(); // Stop form submission
-                 return;
-            }
-
-            // If valid, show loader
-            submitButton.disabled = true;
-            submitButton.textContent = 'Processing...'; // Change button text
-            loader.style.display = 'inline-block';
-
-        });
-
-        // Initial setup on page load
-        document.addEventListener('DOMContentLoaded', toggleLlmOptions);
-
-    </script>
-</body>
-</html>
+    // Initial setup on page load
+    document.addEventListener('DOMContentLoaded', toggleModelSelection);
+  </script>
+{% endblock %}
